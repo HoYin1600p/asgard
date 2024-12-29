@@ -1,0 +1,13 @@
+name = "KubeJS Mekanism"
+filename = "kubejs-mekanism-1802.1.3-build.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7d42f41b7c3255d1ce9e5dc3aa205cac3d344029"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3787382
+project-id = 418651

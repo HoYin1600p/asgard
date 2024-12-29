@@ -1,0 +1,13 @@
+name = "TwitchSpawn"
+filename = "twitchspawn_1.18.2-1.9.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "576eb0d2490599d532d8688c971a5d9a9aeb8c4f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3772664
+project-id = 273382

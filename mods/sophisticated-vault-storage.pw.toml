@@ -1,0 +1,13 @@
+name = "Sophisticated Vault Storage"
+filename = "sophisticatedvault-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8e1eee0e01a0bdc1c2bd0b394c7a60da3aa712ac"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5817785
+project-id = 991945

@@ -1,0 +1,13 @@
+name = "Create Compression"
+filename = "CreateCompression-1.18.2-1.8.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d306619b7dc834cb6fd1d5e3ef2b737aebe7215e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5319688
+project-id = 945214

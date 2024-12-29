@@ -1,0 +1,13 @@
+name = "The Weirding Gadget"
+filename = "weirdinggadget-1.18.1-2.2.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d82d15b6ec56710735f0f4c8e1e4f16e2758a9a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3650633
+project-id = 258914

@@ -1,0 +1,13 @@
+name = "Fastload"
+filename = "Fastload-Reforged-mc1.18.2-3.4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "66bc105ecf731e1b7644480e8e8d3c4ac6095788"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4706140
+project-id = 630620

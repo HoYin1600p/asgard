@@ -1,0 +1,13 @@
+name = "Smooth Boot (Reloaded)"
+filename = "smoothboot(reloaded)-mc1.18.2-0.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89d7daf594d25c39eebac0e90f72f43c69b52dfe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5016275
+project-id = 633412
