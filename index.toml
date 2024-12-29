@@ -116,7 +116,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "35d71840c599efffd8590ceb7c4bc0b0f00f35fe1c04e2e2153a80fc7c834dbe"
+hash = "dc64b0ef76ac3555b6d5bf0167bc62dd2b8735fc1aa849548fbee7631c7282e4"
 metafile = true
 
 [[files]]
@@ -167,6 +167,11 @@ metafile = true
 [[files]]
 file = "mods/betterf3.pw.toml"
 hash = "0b886cd411c8a21921e529c357c56b453fd0dd3940581f9cdc4dcb6a711f8046"
+metafile = true
+
+[[files]]
+file = "mods/betterwaystonesmenu.pw.toml"
+hash = "4eb49b72abcfa48c788c0a7f308f2c672c9974c790a6bc1360ba935f73123964"
 metafile = true
 
 [[files]]
@@ -1427,6 +1432,11 @@ metafile = true
 [[files]]
 file = "mods/waddles.pw.toml"
 hash = "c16620d49f020b97f3ade6ab780c6218f861faa2a134ffeff5911c4556f4f510"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
+hash = "f0c6932a5a9a55909cc1b9baf2dd07b20eaf27ae1242a9e1242e8263626476d4"
 metafile = true
 
 [[files]]
