@@ -1,28 +1,8 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".idea/asgard.iml"
-hash = "c96ea0b5b29abb7d5807671dd208fd63f63694dd236335d2fe8c074e89e94aa6"
-
-[[files]]
-file = ".idea/misc.xml"
-hash = "45e1de29c2ec54466bc1c279a7f432d6e89c42764cd821662e691b056ba070b8"
-
-[[files]]
-file = ".idea/modules.xml"
-hash = "ff54e495ec47666b363858e51d68f405c3dcd5689aaa14a27721e32043f59f02"
-
-[[files]]
-file = ".idea/vcs.xml"
-hash = "6323e12648862a0a96fc0d7877672817d6cd91e2c2a3c3d78f1090db23c6e88e"
-
-[[files]]
-file = ".idea/workspace.xml"
-hash = "c467243e607d91c3048c0b73a886b93da283c6ce4f2c9515e6e23bc350d9c73a"
-
-[[files]]
 file = "LICENSE"
-hash = "cb291b004e2b6cc0038f1c62b87d063e1e5b2ceecc71cd5afaa545119c4a650a"
+hash = "38a95a93df9ac916014c88947526f876b967c74f018e6251d07e11094fabea2b"
 
 [[files]]
 file = "config/ChunkyMcChunkFace-common.toml"
@@ -586,7 +566,7 @@ hash = "78c24aa8c7ad6c5cfe7ff02700ba1472ae54d36dc43526365887d5ebf1f38782"
 
 [[files]]
 file = "config/bettervillage_1.properties"
-hash = "95cdb8aec8c620bea19a6d9c75e96c64f57f1ac2c101e55927c7291d4165c3dc"
+hash = "ded17e5786919d33a9b9fcee59f52f36db94e4e1d07b1eed7f3563f776b9907a"
 
 [[files]]
 file = "config/betterwaystonesmenu-client.toml"
@@ -1019,10 +999,6 @@ hash = "bf043ce279a8f30f2dcd1aba0ad2cf75daf77e37ef35ed38845963c5f9993f59"
 [[files]]
 file = "config/byg/README.txt"
 hash = "716925cf1fd06d3d981aac5adbdc7a84dae30dbb64b17b0c25a8f739be01883d"
-
-[[files]]
-file = "config/byg/backups/last_working_configs_backup.zip"
-hash = "5333e99c31aee85c2e3b2d013453d571a06f880fdc1a293df848ee74cca3ac52"
 
 [[files]]
 file = "config/byg/biomepedia.json5"
@@ -1942,7 +1918,7 @@ hash = "7681c1b0a69916b07bd2451a477a2982bc50e303dba71aca1becd3904c756c06"
 
 [[files]]
 file = "config/libraryferret_1.properties"
-hash = "a301b34b3c346305a72ce2e2d0427556f23f1792df527ad2dff2244f6cb4773c"
+hash = "65081ac09508dd32884bccabc2abe07fea6dbd30ae206fba46cb861a7e912c61"
 
 [[files]]
 file = "config/limitedchunks-common.toml"
@@ -1959,10 +1935,6 @@ hash = "a4976d6a5206a02939ee0ad164b06eb0bd0530dc5ffff42c9372327d1f5e5b64"
 [[files]]
 file = "config/mantle-client.toml"
 hash = "6644e92bfaff6604d045bd09995a4168da7312e5d89781190bc9999a10c8f286"
-
-[[files]]
-file = "config/mc2discord.toml"
-hash = "919e6f547c84bf9f595aa08b535cd214ea8c06f09fd650857f724216e893543c"
 
 [[files]]
 file = "config/mcjtylib-client.toml"
@@ -2042,35 +2014,11 @@ hash = "8deed1a37e1d8b3741c5059ec8351ab8855ea44614ae22b2c377f9d3c7b34aaf"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "c21a2867ce0f01a52330b96b662959d75fd48d4252c41ed00cd042e72e4d9e9b"
+hash = "85ce563571e79ad9eb9e08b41249ceb08463f024de5f303919e8992ad8d67606"
 
 [[files]]
 file = "config/openloader/advanced_options.json"
 hash = "accb774b8cdd52fece03a4e4349eb0e8408ed64143acd10a36e4e930c288c04e"
-
-[[files]]
-file = "config/openloader/data/blacklist.zip"
-hash = "b768e8bd5acafe0e5acb9617f57682244915bd7d42274249bbeaeff6c2144639"
-
-[[files]]
-file = "config/openloader/data/catchable.zip"
-hash = "880ca980af0d34b6a893bb11d2774a1fc76f3212e34679695e7e47d85dea7550"
-
-[[files]]
-file = "config/openloader/data/mobdrops.zip"
-hash = "9966c90feba1aa80ae6f23abef69cc2373cf856452545904cd3a63a5b9331d0a"
-
-[[files]]
-file = "config/openloader/data/snad.zip"
-hash = "4c4dd50adbf4fe38e9dcab981704f3f45326337401b91dbc20544171206a2a07"
-
-[[files]]
-file = "config/openloader/resources/VHBook.zip"
-hash = "4aeb2268aade887459466b9e3811573faa217bbfb358992c3aae0bbab01fd2da"
-
-[[files]]
-file = "config/openloader/snad.zip"
-hash = "4c4dd50adbf4fe38e9dcab981704f3f45326337401b91dbc20544171206a2a07"
 
 [[files]]
 file = "config/packmenu.cfg"
@@ -2146,7 +2094,7 @@ hash = "bec37cb0afeda17ce5292e517316ccc87d01ea4c83f845adae178bcc23dafadc"
 
 [[files]]
 file = "config/powah.json5"
-hash = "38820b6802bcd9afd7fff14a51de7998309d8d4e29fca86df7a4ef58802e61f9"
+hash = "d0846663186e4ca94478808a20a09216e95d8ff6bc59f022b03074a713cb1fb6"
 
 [[files]]
 file = "config/pregen/base.cfg"
@@ -2161,16 +2109,12 @@ file = "config/quark-common.toml"
 hash = "98256ad5187eeb2590d08a6b6451e0d79bb4b2b8227a9eb834777a578746a25b"
 
 [[files]]
-file = "config/radium.properties"
-hash = "2e391fbddee698d542f57bae7d554b93be5f6f989e09d349edf92fde49252739"
-
-[[files]]
 file = "config/refinedstorage-client.toml"
 hash = "1688fbd31e8cd3a63f9ca3f5aa407dc4c5725bb727e450df69a24fd45418181a"
 
 [[files]]
 file = "config/reforgium-renderer.properties"
-hash = "28e7e29cc0b92707cafa9b5dd982cf5873bff6982a665fe99b0d577bae540d8f"
+hash = "94998d1d695e9d7a12b2f589698fa113b0aa693aebb9c2ed27ec3707f4b0c8d4"
 
 [[files]]
 file = "config/rftoolsbase-common.toml"
@@ -2187,10 +2131,6 @@ hash = "622e98cf832506aa24634e302984536fd06be31fe29e9621317776589f995e56"
 [[files]]
 file = "config/rsrequestify-common.toml"
 hash = "dd9d58eb53802e7d5192f347b50fea11d50289fc35f763c0a9268c87c73154e6"
-
-[[files]]
-file = "config/rubidium_extras.toml"
-hash = "5a6d577447fdb5616bee4b7c216c279dcb6528e5e35e5daac96af3adfbf242b9"
 
 [[files]]
 file = "config/saturn-optimizations.toml"
@@ -3217,10 +3157,6 @@ file = "config/storagenetwork.toml"
 hash = "7f8d56d09201cef633996be90d0214b45f5e25cfbf474483538dd7039c305b7b"
 
 [[files]]
-file = "config/supplementaries-client-1.toml.bak"
-hash = "5e44e500036d6d503b1dc40783f60c3338815e73c736b5923a11cef837671c4f"
-
-[[files]]
 file = "config/supplementaries-client.toml"
 hash = "d2532a4b9e8c3b010e8fcfaec16d4d8b84560ec1b032e1a411284e2ac230dbee"
 
@@ -3239,26 +3175,6 @@ hash = "11ef4c2666fa094b456310710c2b5cb8babbd71982d4d187c9a80ad4011d8014"
 [[files]]
 file = "config/test.txt"
 hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
-
-[[files]]
-file = "config/the_vault/.idea/misc.xml"
-hash = "45e1de29c2ec54466bc1c279a7f432d6e89c42764cd821662e691b056ba070b8"
-
-[[files]]
-file = "config/the_vault/.idea/modules.xml"
-hash = "410a0e56656261cd215f6c546dde119f5c184cb4018c14a3956ab34f6301cd26"
-
-[[files]]
-file = "config/the_vault/.idea/the_vault.iml"
-hash = "c96ea0b5b29abb7d5807671dd208fd63f63694dd236335d2fe8c074e89e94aa6"
-
-[[files]]
-file = "config/the_vault/.idea/vcs.xml"
-hash = "7cfc0c134b2e38484597804dbafb8cb32878ea0f164fdb7ce2b4676ebda72293"
-
-[[files]]
-file = "config/the_vault/.idea/workspace.xml"
-hash = "ce79099b646acfaf3abd33594d12c985152ac620e3531247d847090d2da10a3d"
 
 [[files]]
 file = "config/the_vault/abilities.json"
@@ -3390,7 +3306,7 @@ hash = "243e6a89039da872fbd178c1fe8fa055acf64576687ae60685b76f004c19e991"
 
 [[files]]
 file = "config/the_vault/bounty/rewards.json"
-hash = "8e260dc72bfb8c87a8f2d16dd84789c81d180c5ada25188df8994cf4d9538aea"
+hash = "9dc4ab95f6f2b057dbf5c9df9993e14e534d4b35b966597af2a35d07ab7db2d4"
 
 [[files]]
 file = "config/the_vault/bounty/task/completion.json"
@@ -9317,10 +9233,6 @@ file = "config/the_vault/gen/1.0/structures/vault/decor/highlighter/mustard3/str
 hash = "dc36dcda2bdff8b018111c9136c67af8e18c8fca113452359564fb90070930a4"
 
 [[files]]
-file = "config/the_vault/gen/1.0/structures/vault/decor/highlighter/mustard3/structure3/structure3.zip"
-hash = "f1ccf915e9d8bf9e149198a9811ca559a08ed9f64db7b2fa62f28558c36e8a84"
-
-[[files]]
 file = "config/the_vault/gen/1.0/structures/vault/decor/highlighter/mustard3/structure3/wooden1.nbt"
 hash = "45f7a595b17a215c9d1b7064ff336e4314d581bc21c573caf2ef6e02feb78e9e"
 
@@ -15190,7 +15102,7 @@ hash = "dcf2d161601ba964a5524d2859c9473f9368b773d417faf7b55aa3ad0e9c30ca"
 
 [[files]]
 file = "config/the_vault/quest/quests.json"
-hash = "92dcf3ed5763b10a5b1e42001d45f8b7cd5422389511380b84b268bb5ae590a1"
+hash = "3f7baa78c0d61c4d58c513ef0d10cca67e95a153169d094c612d8db3cbcb0745"
 
 [[files]]
 file = "config/the_vault/quest/sky_quests.json"
@@ -15259,6 +15171,122 @@ hash = "8d7d3005ec6d8db042cb0f149f2aba0e1a2da723b1c3cab9d2cf400be6f51e09"
 [[files]]
 file = "config/the_vault/scavenger_hunt.json"
 hash = "98e6bc92abe1dbd2a61d979eb8dd83aaf6b706ffe5b3f15543658a4956f8bdbb"
+
+[[files]]
+file = "config/the_vault/server/abilities.json"
+hash = "f7587142d0d354fcd927da8ee44426cd4e863351a6499cd830cbb2c0f98eb607"
+
+[[files]]
+file = "config/the_vault/server/abilities_descriptions.json"
+hash = "abd0cc020e1402be6c5ffdc07469cda4d786b804669369d9baffd98d83121a87"
+
+[[files]]
+file = "config/the_vault/server/abilities_gui_styles.json"
+hash = "5517f268dcdb059ff1e5ca510d671f13bac902df7bca78d74bf7c11bf888c73a"
+
+[[files]]
+file = "config/the_vault/server/ascension_forge.json"
+hash = "877412f7342d290b10cb52c97b7ba584e633ea3146cffd72066209ef4bb2c0cc"
+
+[[files]]
+file = "config/the_vault/server/card_essence_extractor.json"
+hash = "2635a0788cf0341c5689eb14eb8ee8dc027b75dbcc7b0bf4aff20046efcb784d"
+
+[[files]]
+file = "config/the_vault/server/expertises.json"
+hash = "1c0bed1bbf9697336462dc17e745d5ac50179eaf69dac35583e135e86e70eae8"
+
+[[files]]
+file = "config/the_vault/server/expertises_gui_styles.json"
+hash = "44564ecdd268f5afe60f1a04c5476141ebd3432c79537c2b875f472073ce1e31"
+
+[[files]]
+file = "config/the_vault/server/loot_info.json"
+hash = "f4eb850aaf23d7548e5124048a49021406fafcc8905b86703fa148a6a58ed82d"
+
+[[files]]
+file = "config/the_vault/server/loot_table.json"
+hash = "6bab2195e2991efff661ddf87274650b07c35a38e10a3a9a10dea84d437d6647"
+
+[[files]]
+file = "config/the_vault/server/player_titles.json"
+hash = "f056c08d0231aea1e50848c7aa2c9209b3156db341036d40950acf83a06c7d0b"
+
+[[files]]
+file = "config/the_vault/server/researches.json"
+hash = "4b81c936bc195482056f7e0b00bfa068a40aefd613e0cdc99abfda2bcc94974d"
+
+[[files]]
+file = "config/the_vault/server/researches_groups.json"
+hash = "b09b1dadf60eb32b767a4c7842a9fc8b6450c835475766059c04cf8886ae8e85"
+
+[[files]]
+file = "config/the_vault/server/researches_groups_styles.json"
+hash = "712fc727dc0c97ec2cd1004e3313a2bcb77a519bcb09cddeae52fc8b4a40f1c7"
+
+[[files]]
+file = "config/the_vault/server/researches_gui_styles.json"
+hash = "bb9c9bf2e38335450c96f0428c4cdc30f824ef840940a81ffdd9eceb4507fd4e"
+
+[[files]]
+file = "config/the_vault/server/skill_descriptions.json"
+hash = "8197028d759af04cca9fc90c1e11b3d2b24dde67c57882628599a38f238e8a48"
+
+[[files]]
+file = "config/the_vault/server/statue_loot.json"
+hash = "6b79a06e849055ccfcafdcd8726bc44baa10af2486b50cf1808aa7d47f9dd1a8"
+
+[[files]]
+file = "config/the_vault/server/talents.json"
+hash = "f751ef58ae5af59f8515801292ab3c9ae8ae8e587ef8a697e6edee0a1125cb28"
+
+[[files]]
+file = "config/the_vault/server/tooltip.json"
+hash = "01356edf0dda0cc2f0ecf2f0ec06c9fcc15e425ac1971f65d6487a2bd9fac907"
+
+[[files]]
+file = "config/the_vault/server/trinket.json"
+hash = "54ee494656cdcd537db7fb6d2c6fc952386ac044a1f79abf26db7c4116042907"
+
+[[files]]
+file = "config/the_vault/server/vault_general.json"
+hash = "e9b604ec0cb897932340f58bff019a5dcb62f1b7350077194b389fb00c983e10"
+
+[[files]]
+file = "config/the_vault/server/vault_modifiers.json"
+hash = "e6bea5eeefdd58689265e49fc50fb7524afbb335bf1a72efef355c40199982ab"
+
+[[files]]
+file = "config/the_vault/server/vaultadditions_events.json"
+hash = "42b104624c1b6faaac49b03755e81a9cf7c97103be8c502a6415ec185003e8bd"
+
+[[files]]
+file = "config/the_vault/server/vaultadditions_name_provider.json"
+hash = "029953c6b4d969c04e93454cb2e87501497b42abea08e796ffc0de3b75e93789"
+
+[[files]]
+file = "config/the_vault/server/vaultadditions_power.json"
+hash = "2f81a5415ec573eb37c49af445765d18a4cf3a71d637cbf253a9918bb7eeffa8"
+
+[[files]]
+file = "config/the_vault/server/vaultadditions_power_gui_styles.json"
+hash = "9f36d55008c12b1befe6a925bc19641b1e45e4d6d8dff6a8e0db1928599cddf6"
+
+[[files]]
+file = "config/the_vault/server/vaultadditions_statue_arena.json"
+hash = "e5edbaddb9725e9cecdf6e94c6525affda9a3551376d67623f49eadb59bfca1f"
+
+[[files]]
+file = "config/the_vault/server/vaultadditions_statue_gift.json"
+hash = "40990262364097ae1e11a2e778274b16a8c39952dce5008a68f07ac6383b46eb"
+
+[[files]]
+file = "config/the_vault/server/vaultadditions_statue_mega_gift.json"
+hash = "69d127cbbb4900a54fb4259e66ce170c7f94a3a809edcfaa4193205e251e67a4"
+
+[[files]]
+file = "config/the_vault/server/vaultadditions_statue_vault.json"
+hash = "7f03dce159d0d45c7a487f03e8c8cece4d9cff4e6a8e8e09566e147715b960f5"
 
 [[files]]
 file = "config/the_vault/sets.json"
@@ -15645,10 +15673,6 @@ file = "config/trashcans-common.toml"
 hash = "9098a40f3445da4e4e330750079d5629abe4632c211c6f8db11bb0dea829e5d8"
 
 [[files]]
-file = "config/treeharvester.json5"
-hash = "efdf43a77146253fd2c7b29e82cbd0d9b97e399a64579775a6fb0398d8440a44"
-
-[[files]]
 file = "config/tweakerge.json"
 hash = "a965d903e14ebe2fd0d547cb6d474c16a18424d67786292c8f54dfcd07024a98"
 
@@ -15702,7 +15726,7 @@ hash = "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1"
 
 [[files]]
 file = "config/voicechat/username-cache.json"
-hash = "31d814b345ae92115b6ecdf532a9eef93e3b3c5dbd0daea1dbd0958ac649d19a"
+hash = "dc1b88b3f1229a0f9991532eb57f83160d77280082ff9bac1ae623157996c6ec"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
@@ -16214,7 +16238,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "aa9859f17b18ca3e3e964d8d88750e27c000935154c707a7d61a8be8aa6b1b60"
+hash = "96672c6d6e3700eaafab91aa5fa687ea9e41dfe82cce41470aa40e3b3af146f9"
 
 [[files]]
 file = "config/xaerominimap.txt"
@@ -16222,7 +16246,7 @@ hash = "602a5e9d38c0100c4dddc73d77cbd01e02f063a13e7cad15a7e1786fe4aabefa"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "ec91f71e2222cfce04aef09e0636cb0e33fd41c55044cac0d1a99cf4dd481acb"
+hash = "cd1bdd0e246a2a491e0a6a01f37d2009827ee0b8fc7f578dff5c8585eb849bd5"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -19168,6 +19192,10 @@ hash = "25ca73ede906cc0162479b6fefaafa3d4c79f97ccd3580cbb3df2755322c7099"
 metafile = true
 
 [[files]]
+file = "options.txt"
+hash = "98eefdb5f6adb89860ead5809ab645fe7f9acbf4b9ce8b92c2596c37627ada53"
+
+[[files]]
 file = "packmenu/resources/assets/packmenu/textures/gui/aklizbutton.png"
 hash = "0cebbd7cea1cb15bde9b058ae93058db935e79ef607ea2c1af990805fbf43701"
 
@@ -19198,6 +19226,10 @@ hash = "c92d7a6dc58ca7168bda2dfc3cc0a5acde7af7a4d2134ec54d2014ecf47d9928"
 [[files]]
 file = "packmenu/resources/pack.png"
 hash = "db4ba9188052b75c67fe536e5e7fc127499611abcb98b3542cf79a450fa13ece"
+
+[[files]]
+file = "packwizl"
+hash = "e965aba8b0eb751ea339565a4208a4b3d7a02478959e69694fde9d2b4a0960fe"
 
 [[files]]
 file = "patchouli_books/the_vault_main_guide/book.json"
@@ -19453,6 +19485,238 @@ hash = "2f22b3ef24cac4bc38598f789a80d7581f2a8804c6d75621f1c6f37d64c4713b"
 metafile = true
 
 [[files]]
+file = "scripts/00_millennium_scripts.zs"
+hash = "297008c957271d61fe57ccdb8b7935fdc00274f03ebc2564d1ec44abd4c13722"
+
+[[files]]
+file = "scripts/00_remove_recipes.zs"
+hash = "3c4d21489a32e4aebace56e050fd62a96a0ffd1380cf527e5e31366075e6cfc1"
+
+[[files]]
+file = "scripts/Backpacks.zs"
+hash = "fc8c2fe489c03033a60c2003a8bd1f5b922097e45b3f1dd78de867c2807df931"
+
+[[files]]
+file = "scripts/Botania.zs"
+hash = "ff76e9e872a2ed73789b5004423a092da93c9ea498d335eb48d5c6776c20e077"
+
+[[files]]
+file = "scripts/Botany_Pots.zs"
+hash = "83ee1140b2b081a546aae46540ed7223f055d6f5c10988dab7fad61c8352c5d4"
+
+[[files]]
+file = "scripts/Botany_Tiers.zs"
+hash = "1828245b87a783bb4fdaa7b17246532db9fb26e587ebac6fbfe925985424efc7"
+
+[[files]]
+file = "scripts/BuildingGadgets.zs"
+hash = "c71836298feabc6ff73b05d94256803f09a98f759e03799c9f05156a4be465cf"
+
+[[files]]
+file = "scripts/Cagerium.zs"
+hash = "da8ed6600faabfb148be7c2e35c8b0a00dc2f2ad7ecb836b9fb4f0cd3b91bbd0"
+
+[[files]]
+file = "scripts/CollosalChests.zs"
+hash = "a7bee56242419d00d92a4b67d30f7b350be71ca6352a09670fcb8781e354c781"
+
+[[files]]
+file = "scripts/Compressium.zs"
+hash = "0a759b465103289030ceb581c3a3071cf3fe2b8368f11fd76dcb4d70a9db1e6a"
+
+[[files]]
+file = "scripts/Cooking.zs"
+hash = "573f7a307233487aa99d69bac1eeea0c513f849a75b56d0cb7d832f3815457b6"
+
+[[files]]
+file = "scripts/Create.zs"
+hash = "65ae0f2676efc417803d1a854f6aa1ed43d6099f4de9af9fdee1b81c9f23b9eb"
+
+[[files]]
+file = "scripts/Create_Compressium.zs"
+hash = "2e31423da511b9d319e849a2604fd898b89840d0115cc5c27e4227be9e0dcb7c"
+
+[[files]]
+file = "scripts/DarkUtilities.zs"
+hash = "1a73ee358ef56cf372424bdfcc025e3ac82bc8b1f2e9485dd0ce8813ff8e96ea"
+
+[[files]]
+file = "scripts/Drawers.zs"
+hash = "e30e5aad9c546b8fdf3ff09ae375670305e13ee0f791dd864f1467d2abf20078"
+
+[[files]]
+file = "scripts/Elevatorid.zs"
+hash = "3401af1cf66a8c2bddae013c0480c19422119d1ade1404bb159e7cfda871a87c"
+
+[[files]]
+file = "scripts/ExtraTags.zs"
+hash = "fd52259bcc49ca818be52f0fb2b906d1c38479e0e93d1492dbdce21b2fc488fe"
+
+[[files]]
+file = "scripts/Flux.zs"
+hash = "d7923a4cf51cf2e60559e44f7adb4a569131bfdb4d8650ca59f650236bc766d1"
+
+[[files]]
+file = "scripts/GodTags.zs"
+hash = "4117125631f8908291a9d43e8041e9ef299d970d6b71a91d5347b7aeeb5fd501"
+
+[[files]]
+file = "scripts/Macaw.zs"
+hash = "497620752fb3b0693007c68ea6d6a7e842553d29bea24dc48caee11897cdcf2b"
+
+[[files]]
+file = "scripts/Mekanism.zs"
+hash = "d6e4482a4fc6a06f36bc27dd254b5081f176cba34c27d744b549c5facdc60d5c"
+
+[[files]]
+file = "scripts/MekanismCustom.zs"
+hash = "399b3d6e039eabf086bff36413e61f9b2924d303d41c9d7b635570c983fbf2c3"
+
+[[files]]
+file = "scripts/MiningGadgets.zs"
+hash = "a60e3ad9926e34eb08ea891f0dacd9ca02dfbe34938a77a6c4830b27ab80b0e5"
+
+[[files]]
+file = "scripts/Pipez.zs"
+hash = "f2d08e8d477e37dddb9e62447364bc6b1531c41f5ed480396b48c72bde74fb12"
+
+[[files]]
+file = "scripts/Powah.zs"
+hash = "a2607c2e1f800aed8107c8218a88098b4828d8918ba9ff31a63f3ec1bb146776"
+
+[[files]]
+file = "scripts/Quark.zs"
+hash = "fb37a09e60d8ef19ca1462ffc932018ac0a56a98cc70a06686096f06634d7193"
+
+[[files]]
+file = "scripts/RFTools.zs"
+hash = "bfcbb981e9191509c96fb3099b6c7eb7e9d4798fed5c1640c8d47c4e312358ad"
+
+[[files]]
+file = "scripts/RefinedStorage.zs"
+hash = "758ed1a39508cc929897785576f08d7602ae3a9002c8394cb46280af15e0f4b8"
+
+[[files]]
+file = "scripts/Routers.zs"
+hash = "3ac1414e889235a5dc0d1e8973058908b5e56d47b2cbc33369eeb5b8f9441217"
+
+[[files]]
+file = "scripts/SimpleStorage.zs"
+hash = "66d04360233866d704e537c5f76fd3a1348c9c715a8508c48e7d7ab2e8ffb25c"
+
+[[files]]
+file = "scripts/Snad.zs"
+hash = "c5e73a3e2442b3879e6d6cf6cff7aeff7b7bf1ef937eaa0358044780d5712ba3"
+
+[[files]]
+file = "scripts/Tags.zs"
+hash = "236f92c10dab3662ccaf3e2945f1adb62f6969bd96e9c1488bc1292a895b8617"
+
+[[files]]
+file = "scripts/Thermal.zs"
+hash = "6a4fdb9b86628645a24de789c17d0babfa1a5402b7875d74b327cf6b83f33bf3"
+
+[[files]]
+file = "scripts/Torchmaster.zs"
+hash = "c9dc0a09fa0f117da1522cb98a869d0f7634fe4251ee06aaca8ddf8c5df2bd09"
+
+[[files]]
+file = "scripts/Traders.zs"
+hash = "60b0334456969af2b8ff61bf8e1d707545e1b20497cecee651a4f7399dba00a5"
+
+[[files]]
+file = "scripts/Vanilla.zs"
+hash = "e8443f41d236d8de52752bb4bcdf97f8cdc3aadb73f29722e1099935572ba9f0"
+
+[[files]]
+file = "scripts/Waystones.zs"
+hash = "d3cf3b12883cf5d01c16286c6928fa856c37fa65afcaa8fa6f5b027dda4140bc"
+
+[[files]]
+file = "scripts/Xnet.zs"
+hash = "e16ae9a557cbcb4b205e7b26bef950659c276738c40f8b403670e4efc09e4c92"
+
+[[files]]
+file = "scripts/ae2.zs"
+hash = "37b0036a8715c86f0426ea9de99c4c9fb72afb918bc8754c331bf9469ff516eb"
+
+[[files]]
+file = "scripts/ae2_boosters.zs"
+hash = "f6234d596f4c8b4df2e34ae0dfe8ae8d5f7eadac37dbf734df85f7c80cb1b3b8"
+
+[[files]]
+file = "scripts/ae2_mekanistics.zs"
+hash = "f154dcc55bf6df38ae29eabadb15711facf09f2917a822de825c350ea7d78235"
+
+[[files]]
+file = "scripts/ae2_things.zs"
+hash = "a81d62ced7358e27c46823bdc76b432d52ddb772b2ecff7d78619d1819f8966b"
+
+[[files]]
+file = "scripts/alexsmobs.zs"
+hash = "a4d5a67deaa8cdf6d0d1a6d3cf06be16e274ea3a88a265a54043e57fcba7d890"
+
+[[files]]
+file = "scripts/blockCapentry.zs"
+hash = "32ba1f3197a2e6b4c2dc7249a8f29e18b6af570252f86228b30bd98a9882c11f"
+
+[[files]]
+file = "scripts/byg.zs"
+hash = "eec0a079f21d2c21799106738b430db55c334b44c5227045607265d5122e892b"
+
+[[files]]
+file = "scripts/functional_storage.zs"
+hash = "ba2d7c34f233d1425ff273191116e14448cbccfd283d6477c2e30223b31b3d2f"
+
+[[files]]
+file = "scripts/iceandfire.zs"
+hash = "366f489b3c8b11f84f4ec772ad3e5e66e9f7f67ea1fee69d8404d626cd0f2c82"
+
+[[files]]
+file = "scripts/iron_generators_furnaces.zs"
+hash = "3fcb95684a63b18dd628363185326602a88e021c70ad641ebb18274efcea6a70"
+
+[[files]]
+file = "scripts/jeiInformation.zs"
+hash = "404c3f98cd2267fd04c330923a2d0c4a5f548f61dee67d76a14580a01aba3086"
+
+[[files]]
+file = "scripts/kubejs.zs"
+hash = "82f637dd72755879124b03b1136a128178e40158c859afcc66f3593de2c51ea6"
+
+[[files]]
+file = "scripts/mushroomEvents.zs"
+hash = "2d9330b07464e34f9a6d8d84be9d01c98425a6dc5bbb29b58e98f5325a8f59df"
+
+[[files]]
+file = "scripts/raw_smelting.zs"
+hash = "c9a6861f31165a9161aada7bbdc89f8061ebfad3f1f1c9f35e0e52e0d6103c99"
+
+[[files]]
+file = "scripts/sophisticated_storage.zs"
+hash = "045dc350a1fffa62bd74ffe4442756ff900634fc08f05b6b923825f2ef4a6f90"
+
+[[files]]
+file = "scripts/starting_inventory.zs"
+hash = "fff226c0edac371ceb74ac0554e7ac6b0dd2fa6a2bc2baf129b064d866109f1f"
+
+[[files]]
+file = "scripts/test.zs"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
+file = "scripts/vanillatweaks_scripts.zs"
+hash = "3e93997462f4a6cc41145ce9014edd575f705b9ae9f06d2ceb8cfddd8115ab39"
+
+[[files]]
+file = "scripts/vanillatweaks_scripts.zs1"
+hash = "0672863bfa8462cce4c6768360c310403e217b2bef779fcf4a4dabfa7f5dbcaa"
+
+[[files]]
+file = "scripts/vaultadditions.zs"
+hash = "4b68fc39af12ae1ad52bbfa8b4b5f3b8724ece5d396f33eef61e8af038849402"
+
+[[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
 hash = "e6996ecb68a6c690558f589e7194d7df23a186ab8b75f0f67cfed069a280470b"
 metafile = true
@@ -19461,7 +19725,3 @@ metafile = true
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "d222003558c856ef20e0865b26d03f92d1a6015bc6c6d637169bdbbfdbafcf3c"
 metafile = true
-
-[[files]]
-file = "something.bat"
-hash = "96aab502490e96a0a3cb2ed393386c477a6e4249e204ffe28888c920b2f7b822"
