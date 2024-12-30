@@ -1,0 +1,368 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 1,
+        "max": 2
+      },
+      "pool": [
+        {
+          "weight": 50,
+          "pool": [
+            {
+              "weight": 1,
+              "item": {
+                "id": "sophisticatedbackpacks:gold_backpack",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:helmet",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:chestplate",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:leggings",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:boots",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:sword",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:axe",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:shield",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:wand",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:magnet",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:focus",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:trident",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:battlestaff",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:inscription",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:jewel_pouch",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:sour_orange",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:trinket_scrap",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:trinket",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:artifact_fragment",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:knowledge_star",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:vault_catalyst",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:vault_catalyst_chaos",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:crystal_seal_cake",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:crystal_seal_unhinged",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:crystal_seal_spirits",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:mystery_egg",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:gem_box",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:bitter_lemon",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:hardened_chest_scroll",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:flesh_chest_scroll",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:enigma_chest_scroll",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:mod_box",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:supply_box",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:altar_recatalyzer",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:general_decor_scroll",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

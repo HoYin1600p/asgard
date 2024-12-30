@@ -1,0 +1,20 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "the_vault:mystery_egg",
+        "amountMin": 4,
+        "amountMax": 4
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "the_vault:mystery_hostile_egg",
+        "amountMin": 4,
+        "amountMax": 4
+      },
+      "weight": 1
+    }
+  ]
+}

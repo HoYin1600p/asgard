@@ -1,0 +1,84 @@
+{
+  "LOOT": [
+    {
+      "value": {
+        "ITEM": "minecraft:nether_brick",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ice",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:granite",
+        "NBT": "{}"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:diorite",
+        "NBT": "{}"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:andesite",
+        "NBT": "{}"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:cobblestone",
+        "NBT": "{}"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:cobbled_deepslate",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:cobweb",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack",
+        "NBT": "{}"
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "ITEM": "the_vault:unknown_item",
+        "NBT": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:10s}],display:{Name:'{\"color\":\"red\",\"text\":\"Fancy Example NBT item\"}'}}"
+      },
+      "weight": 10
+    }
+  ],
+  "INTERVAL": 500,
+  "MIN_ITEM_GENERATED": 100,
+  "MAX_ITEM_GENERATED": 200
+}

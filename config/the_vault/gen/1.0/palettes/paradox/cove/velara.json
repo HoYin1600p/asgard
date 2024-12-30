@@ -1,0 +1,178 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sand",
+      "output": {
+        "minecraft:lime_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:cobbled_sandstone",
+      "output": {
+        "the_vault:velara_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:dirty_sand",
+      "output": {
+        "minecraft:lime_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "everycomp:ap/ecologics/coconut_boards",
+      "output": {
+        "the_vault:velara_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone",
+      "output": {
+        "the_vault:velara_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone",
+      "output": {
+        "the_vault:velara_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone_wall",
+      "output": {
+        "everycomp:cfm/the_vault/velara_hedge": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_carpet",
+      "output": {
+        "minecraft:red_carpet": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stripped_spruce_log",
+      "output": {
+        "the_vault:velara_stripped_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stripped_spruce_wood",
+      "output": {
+        "the_vault:velara_stripped_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_planks",
+      "output": {
+        "the_vault:velara_planks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_slab",
+      "output": {
+        "the_vault:velara_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_stairs",
+      "output": {
+        "the_vault:velara_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_fence",
+      "output": {
+        "quark:azalea_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:spruce_vertical_slab",
+      "output": {
+        "twigs:bamboo_thatch_vertical_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "decorative_blocks:spruce_beam",
+      "output": {
+        "everycomp:db/the_vault/velara_beam": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:spruce_boards",
+      "output": {
+        "everycomp:ap/the_vault/velara_boards": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:spruce_railing",
+      "output": {
+        "everycomp:ap/the_vault/velara_railing": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "cfm:stripped_spruce_upgraded_fence",
+      "output": {
+        "everycomp:cfm/the_vault/velara_upgraded_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwlights:spruce_tiki_torch",
+      "output": {
+        "everycomp:mcl/the_vault/soul_velara_tiki_torch": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwwindows:spruce_plank_parapet",
+      "output": {
+        "everycomp:mcw/the_vault/velara_plank_parapet": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_slab",
+      "output": {
+        "botania:dreamwood_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_stairs",
+      "output": {
+        "botania:dreamwood_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_trapdoor",
+      "output": {
+        "everycomp:mct/botania/dreamwood_classic_trapdoor": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

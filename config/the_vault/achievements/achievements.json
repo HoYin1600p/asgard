@@ -1,0 +1,82 @@
+{
+  "achievements": {
+    "delegate": {
+      "id": "achivement_tree",
+      "renderer": {
+        "overview": {
+          "dragging": false
+        },
+        "details": {
+          "dragging": false
+        },
+        "modifiers": {},
+        "type": "achievement"
+      },
+      "type": "achievement"
+    },
+    "operating": false,
+    "children": [
+      {
+        "delegate": {
+          "id": "kill_20_zombies",
+          "renderer": {
+            "name": "Kill 20 Zombies",
+            "description": "Sample description about killing 20 zombies.",
+            "icon": "the_vault:textures/gui/achievements/altar.png",
+            "position": [
+              0.0,
+              0.0
+            ],
+            "hidden": false,
+            "type": "achievement"
+          },
+          "filter": "@the_vault:zombie",
+          "counter": {
+            "variables": {},
+            "target": {
+              "count": 20,
+              "type": "constant"
+            },
+            "type": "target"
+          },
+          "type": "kill_entity"
+        },
+        "operating": false,
+        "children": [
+          {
+            "delegate": {
+              "renderer": {
+                "type": "achievement"
+              },
+              "transmogs": [
+                "the_vault:gear/armor/angel/helmet",
+                "the_vault:gear/armor/angel/chestplate",
+                "the_vault:gear/armor/angel/leggings",
+                "the_vault:gear/armor/angel/boots"
+              ],
+              "consumed": false,
+              "type": "transmog_reward"
+            },
+            "operating": false,
+            "children": [],
+            "type": "node"
+          },
+          {
+            "delegate": {
+              "title": "Kill 20 Zombies",
+              "message": "${player} has achieved ${title}!",
+              "icon": "the_vault:textures/gui/achievements/altar.png",
+              "consumed": false,
+              "type": "achievement_complete"
+            },
+            "operating": false,
+            "children": [],
+            "type": "node"
+          }
+        ],
+        "type": "node"
+      }
+    ],
+    "type": "node"
+  }
+}

@@ -1,0 +1,2173 @@
+{
+  "elixirToSize": {
+    "0": 0,
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 4,
+    "5": 7,
+    "6": 7,
+    "7": 10,
+    "8": 10,
+    "9": 10,
+    "10": 10
+  },
+  "mobGroups": {
+    "the_vault:t0_tank_mobs": [
+      "the_vault:vault_green_gummy_soldier",
+      "rottencreatures:undead_miner",
+      "minecraft:enderman"
+    ],
+    "the_vault:t1_tank_mobs": [
+      "the_vault:t1_enderman"
+    ],
+    "the_vault:t2_tank_mobs": [
+      "the_vault:t2_enderman"
+    ],
+    "the_vault:tank_mobs": [
+      "@the_vault:tank"
+    ],
+    "the_vault:horde_mobs": [
+      "@the_vault:horde"
+    ],
+    "the_vault:t3_tank_mobs": [
+      "the_vault:winterwalker_t4",
+      "the_vault:overgrown_zombie_t4",
+      "the_vault:mushroom_t4",
+      "the_vault:winterwalker_t5",
+      "the_vault:overgrown_zombie_t5",
+      "the_vault:mushroom_t5",
+      "the_vault:miner_zombie_t4",
+      "the_vault:miner_zombie_t5",
+      "the_vault:mummy_t0",
+      "the_vault:mummy_t1",
+      "rottencreatures:swampy",
+      "rottencreatures:burned",
+      "the_vault:mummy_t2"
+    ],
+    "the_vault:t0_damage_mobs": [
+      "minecraft:skeleton",
+      "minecraft:witch",
+      "minecraft:ravager",
+      "minecraft:pillager",
+      "minecraft:vindicator",
+      "minecraft:wither_skeleton",
+      "the_vault:skeleton_pirate_t0",
+      "the_vault:deep_dark_silverfish",
+      "the_vault:vault_blue_gummy_soldier",
+      "minecraft:stray",
+      "minecraft:creeper",
+      "the_vault:vault_spider",
+      "quark:wraith",
+      "minecraft:slime",
+      "minecraft:magma_cube",
+      "minecraft:blaze",
+      "alexsmobs:soul_vulture",
+      "minecraft:polar_bear",
+      "minecraft:shulker",
+      "minecraft:silverfish",
+      "the_vault:vault_spider_baby",
+      "auxiliaryblocks:snowdood",
+      "quark:foxhound",
+      "ecologics:coconut_crab",
+      "alexsmobs:bunfungus",
+      "alexsmobs:alligator_snapping_turtle",
+      "the_vault:deep_dark_piglin",
+      "the_vault:levishroom"
+    ],
+    "the_vault:t1_damage_mobs": [
+      "the_vault:t1_creeper",
+      "the_vault:t1_wither_skeleton",
+      "the_vault:t1_skeleton",
+      "the_vault:t1_stray",
+      "the_vault:skeleton_pirate_t1"
+    ],
+    "the_vault:t2_damage_mobs": [
+      "the_vault:t2_stray",
+      "the_vault:skeleton_pirate_t2",
+      "the_vault:t2_creeper",
+      "the_vault:t2_wither_skeleton",
+      "the_vault:t2_skeleton",
+      "the_vault:winter_wolf"
+    ],
+    "the_vault:t3_damage_mobs": [
+      "the_vault:t3_stray",
+      "the_vault:t3_creeper",
+      "the_vault:t3_wither_skeleton",
+      "the_vault:skeleton_pirate_t3",
+      "the_vault:skeleton_pirate_t4",
+      "the_vault:skeleton_pirate_t5",
+      "the_vault:t3_skeleton",
+      "alexsmobs:rocky_roller",
+      "alexsmobs:mantis_shrimp",
+      "alexsmobs:tusklin"
+    ],
+    "the_vault:dwellers": [
+      "the_vault:vault_fighter",
+      "the_vault:vault_fighter_1",
+      "the_vault:vault_fighter_2",
+      "the_vault:vault_fighter_3",
+      "the_vault:vault_fighter_4"
+    ],    
+    "the_vault:elites": [
+      "the_vault:elite_husk",
+      "the_vault:elite_drowned",
+      "the_vault:elite_spider",
+      "the_vault:elite_stray",
+      "the_vault:elite_witch",
+      "the_vault:elite_wither_skeleton",
+      "the_vault:elite_zombie",
+      "the_vault:elite_skeleton"
+    ]
+  },
+  "entries": [
+    { "level": 0,
+      "target": [
+        {
+          "value": {
+            "min": 300,
+            "max": 500,
+            "type": "uniform"
+          },
+          "weight": 1
+        }
+      ],
+      "tasks": [
+        {
+          "chest_type": "WOODEN",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "LIVING",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "GILDED",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "ORNATE",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 4,
+                "max": 4,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "coin_stacks"
+        },
+        {
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "ore"
+        },
+        {
+          "group": "the_vault:t0_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 6,
+                "max": 8,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t1_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t2_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t3_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 5,
+                "max": 7,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:horde_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 2,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t0_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t1_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t2_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t3_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:dwellers",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:elites",
+          "rolls": [
+            {
+              "value": {
+                "min": 10,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        }
+      ]
+    },
+    { "level": 30,
+      "target": [
+        {
+          "value": {
+            "min": 600,
+            "max": 1000,
+            "type": "uniform"
+          },
+          "weight": 1
+        }
+      ],
+      "tasks": [
+        {
+          "chest_type": "WOODEN",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "LIVING",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "GILDED",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "ORNATE",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 4,
+                "max": 4,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "coin_stacks"
+        },
+        {
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "ore"
+        },
+        {
+          "group": "the_vault:t0_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 6,
+                "max": 8,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t1_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t2_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t3_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 5,
+                "max": 7,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:horde_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 2,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t0_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t1_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t2_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t3_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:dwellers",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:elites",
+          "rolls": [
+            {
+              "value": {
+                "min": 10,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        }
+      ]
+    },
+    { "level": 50,
+      "target": [
+        {
+          "value": {
+            "min": 1000,
+            "max": 1600,
+            "type": "uniform"
+          },
+          "weight": 1
+        }
+      ],
+      "tasks": [
+        {
+          "chest_type": "WOODEN",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "LIVING",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "GILDED",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "ORNATE",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 4,
+                "max": 4,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "coin_stacks"
+        },
+        {
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "ore"
+        },
+        {
+          "group": "the_vault:t0_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 6,
+                "max": 8,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t1_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t2_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t3_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 5,
+                "max": 7,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:horde_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 2,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t0_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t1_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t2_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t3_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:dwellers",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:elites",
+          "rolls": [
+            {
+              "value": {
+                "min": 10,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        }
+      ]
+    },
+    { "level": 80,
+      "target": [
+        {
+          "value": {
+            "min": 1200,
+            "max": 2000,
+            "type": "uniform"
+          },
+          "weight": 1
+        }
+      ],
+      "tasks": [
+        {
+          "chest_type": "WOODEN",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "LIVING",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "GILDED",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "chest_type": "ORNATE",
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "chest"
+        },
+        {
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 4,
+                "max": 4,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "coin_stacks"
+        },
+        {
+          "rolls": [
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "ore"
+        },
+        {
+          "group": "the_vault:t0_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 6,
+                "max": 8,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t1_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t2_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t3_tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:tank_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 5,
+                "max": 7,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:horde_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 2,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 1,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t0_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t1_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t2_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:t3_damage_mobs",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:dwellers",
+          "rolls": [
+            {
+              "value": {
+                "min": 0,
+                "max": 3,
+                "type": "uniform"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "min": 5,
+                "max": 5,
+                "type": "uniform"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "min": 7,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        },
+        {
+          "group": "the_vault:elites",
+          "rolls": [
+            {
+              "value": {
+                "min": 10,
+                "max": 10,
+                "type": "uniform"
+              },
+              "weight": 1
+            }
+          ],
+          "type": "mob"
+        }
+      ]
+    }
+  ]
+}

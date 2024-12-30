@@ -1,0 +1,156 @@
+{
+  "quests": [
+    {
+      "type": "survive",
+      "id": "survive_vault",
+      "name": "Survive",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Default config description for ",
+            "color": "$text"
+          },
+          {
+            "text": "survive_vault",
+            "color": "$name"
+          },
+          {
+            "text": " - please configure me!",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/c",
+      "targetId": "the_vault:vault",
+      "targetProgress": 1.0,
+      "unlockedBy": "collect_driftwood",
+      "reward": {
+        "items": [
+          {
+            "item": "minecraft:diamond",
+            "amount": 32
+          },
+          {
+            "item": "minecraft:apple",
+            "amount": 32
+          }
+        ],
+        "vaultExp": 100
+      }
+    },
+    {
+      "type": "crafting",
+      "id": "craft_vault_altar",
+      "name": "Craft Vault Altar",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Default config description for ",
+            "color": "$text"
+          },
+          {
+            "text": "craft_vault_altar",
+            "color": "$name"
+          },
+          {
+            "text": " - please configure me!",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/a",
+      "targetId": "the_vault:vault_altar",
+      "targetProgress": 1.0,
+      "unlockedBy": "",
+      "reward": {
+        "items": [
+          {
+            "item": "minecraft:diamond",
+            "amount": 32
+          },
+          {
+            "item": "minecraft:apple",
+            "amount": 32
+          }
+        ],
+        "vaultExp": 100
+      }
+    },
+    {
+      "type": "anvil",
+      "id": "apply_jewel",
+      "name": "Apply Jewel",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Default config description for ",
+            "color": "$text"
+          },
+          {
+            "text": "apply_jewel",
+            "color": "$name"
+          },
+          {
+            "text": " - please configure me!",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/d",
+      "targetId": "the_vault:jewel",
+      "targetProgress": 1.0,
+      "unlockedBy": "survive_vault",
+      "reward": {
+        "items": [
+          {
+            "item": "minecraft:diamond",
+            "amount": 32
+          },
+          {
+            "item": "minecraft:apple",
+            "amount": 32
+          }
+        ],
+        "vaultExp": 100
+      }
+    },
+    {
+      "type": "collection",
+      "id": "collect_driftwood",
+      "name": "Collect Driftwood",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Default config description for ",
+            "color": "$text"
+          },
+          {
+            "text": "collect_driftwood",
+            "color": "$name"
+          },
+          {
+            "text": " - please configure me!",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/b",
+      "targetId": "the_vault:driftwood",
+      "targetProgress": 16.0,
+      "unlockedBy": "craft_vault_altar",
+      "reward": {
+        "items": [
+          {
+            "item": "minecraft:diamond",
+            "amount": 32
+          },
+          {
+            "item": "minecraft:apple",
+            "amount": 32
+          }
+        ],
+        "vaultExp": 100
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+#This option allows to toggle if Vault Dolls should be able to place in the world.
+#By default: false - does not blocks vault doll placement
+block-vault-dolls = false
+#This option allows to change the amount of energy that Doll Dismantler stores inside block.
+#By default: 1000
+#Range: > 0
+doll-dismantler-energy-storage = 1000
+#This option allows to change the amount of energy that Doll Dismantler uses per tick.
+#By default: 16
+#Range: > 0
+doll-dismantler-energy-consumption = 16
+#This option allows to change the amount of energy that Doll Dismantler can receive/extract.
+#By default: 100
+#Range: > 0
+doll-dismantler-energy-transfer = 100
+#This option allows to change the extraction speed for doll dismantler.
+#The extraction speed is defined by `stack per ticks`.
+#By default: 5
+#Range: 1 ~ 100
+doll-dismantler-extraction-speed = 5
+#This option allows to change the sound for Doll Dismantler operation.
+#By default: 0.5
+#Range: 0.0 ~ 1.0
+doll-dismantler-volume = 0.5
+#This option allows to change the rotation speed for Doll inside Dismantler.
+#By default: 25
+#Range: 0.0 ~ 2000.0
+doll-dismantler-rotation-speed = 25.0
+

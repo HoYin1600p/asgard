@@ -1,0 +1,2360 @@
+{
+    "trades": [
+        {
+            "minLevel": 0,
+            "shardTradePrice": 1500,
+            "shardTrades": [
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:knowledge_star",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 7200,
+                        "maxPrice": 14400
+                    },
+                    "weight": 10
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:bitter_lemon",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4200
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_platinum",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:regret_orb",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 300,
+                        "maxPrice": 600
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:jewel_pouch",
+                            "AMOUNT": 1
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 3200
+                    },
+                    "weight": 30
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:helmet",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:chestplate",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:leggings",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:boots",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:sword",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:axe",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:shield",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 18
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:wand",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 18
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:magnet",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trident",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:battlestaff",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 750,
+                        "maxPrice": 1500
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "minecraft:emerald",
+                            "AMOUNT": 32,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 120,
+                        "maxPrice": 300
+                    },
+                    "weight": 64
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "minecraft:elytra",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 600,
+                        "maxPrice": 1800
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:black_chromatic_steel_nugget",
+                            "AMOUNT": 4,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 40
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "minecraft:wither_skeleton_skull",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 300,
+                        "maxPrice": 600
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_diamond",
+                            "AMOUNT": 4,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1800,
+                        "maxPrice": 3000
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:gem_pog",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 3000,
+                        "maxPrice": 4200
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "sophisticatedbackpacks:backpack",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 4800,
+                        "maxPrice": 7200
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:chromatic_steel_ingot",
+                            "AMOUNT": 6,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 64
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:repair_core",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 900,
+                        "maxPrice": 1500
+                    },
+                    "weight": 32
+                }
+            ]
+        },
+        {
+            "minLevel": 20,
+            "shardTradePrice": 3600,
+            "shardTrades": [
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:knowledge_star",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 7200,
+                        "maxPrice": 14400
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:repair_core",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 1800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:mango",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 9000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:bitter_lemon",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4200
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_platinum",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 20
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:regret_orb",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 300,
+                        "maxPrice": 1200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:mod_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:augment_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:catalyst_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1600,
+                        "maxPrice": 3200
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:inscription_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:opportunistic_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9600,
+                        "maxPrice": 18000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:resilient_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:fundamental_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2700,
+                        "maxPrice": 4200
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trinket",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 24000,
+                        "maxPrice": 36000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trinket_scrap",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 12000,
+                        "maxPrice": 24000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:eye_of_avarice",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 9000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_catalyst_chaos",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 18000,
+                        "maxPrice": 36000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:jewel_pouch",
+                            "AMOUNT": 1
+                        },
+                        "minPrice": 1600,
+                        "maxPrice": 3200
+                    },
+                    "weight": 28
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:helmet",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:chestplate",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:leggings",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:boots",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:sword",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:axe",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:shield",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 26
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:wand",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 26
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:magnet",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trident",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:battlestaff",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1500,
+                        "maxPrice": 2700
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:crystal_seal_cake",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 18000,
+                        "maxPrice": 24000
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:mystery_egg",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 600,
+                        "maxPrice": 1200
+                    },
+                    "weight": 20
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:mystery_hostile_egg",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:artifact_fragment",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:wooden_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 6
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:ornate_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 6
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:living_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 6
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:gilded_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 6
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_catalyst_infused",
+                            "AMOUNT": 1,
+                            "NBT": "{\"pool\": \"the_vault:black_market\"}"
+                        },
+                        "minPrice": 1800,
+                        "maxPrice": 3600
+                    },
+                    "weight": 48
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:black_chromatic_steel_ingot",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1800,
+                        "maxPrice": 3000
+                    },
+                    "weight": 40
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_diamond",
+                            "AMOUNT": 4,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1800,
+                        "maxPrice": 3000
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:gem_pog",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 3000,
+                        "maxPrice": 4200
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "sophisticatedbackpacks:backpack",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 4800,
+                        "maxPrice": 7200
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:chromatic_steel_ingot",
+                            "AMOUNT": 6,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 64
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:spicy_hearty_burger",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9000,
+                        "maxPrice": 10800
+                    },
+                    "weight": 12
+                }
+            ]
+        },
+        {
+            "minLevel": 50,
+            "shardTradePrice": 4500,
+            "shardTrades": [
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:etched_vault_layout",
+                            "AMOUNT": 1,
+                            "NBT": "{level: 150}"
+                        },
+                        "minPrice": 1000,
+                        "maxPrice": 3000
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:blank_key",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 18000,
+                        "maxPrice": 36000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:unidentified_artifact",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 60000,
+                        "maxPrice": 96000
+                    },
+                    "weight": 1
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:knowledge_star",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 7200,
+                        "maxPrice": 14400
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:repair_core",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 1800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:sour_orange",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:bitter_lemon",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4200
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_platinum",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:regret_orb",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 300,
+                        "maxPrice": 1200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:mod_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:augment_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:catalyst_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1600,
+                        "maxPrice": 3200
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:inscription_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:opportunistic_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9600,
+                        "maxPrice": 18000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:cryonic_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9600,
+                        "maxPrice": 18000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:pyretic_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9600,
+                        "maxPrice": 18000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vorpal_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9600,
+                        "maxPrice": 18000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:empowered_chaotic_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:resilient_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:fundamental_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2700,
+                        "maxPrice": 4200
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:chaotic_focus",
+                            "AMOUNT": 3,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 1800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trinket",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 24000,
+                        "maxPrice": 36000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trinket_scrap",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 12000,
+                        "maxPrice": 24000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:eye_of_avarice",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 9000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_catalyst_chaos",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 18000,
+                        "maxPrice": 36000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:jewel_pouch",
+                            "AMOUNT": 1
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 3200
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:inscription",
+                            "AMOUNT": 1,
+                            "NBT": "{pool:\"the_vault:blackmarket\"}"
+                        },
+                        "minPrice": 3000,
+                        "maxPrice": 5400
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:helmet",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:chestplate",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:leggings",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:boots",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:sword",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:axe",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:shield",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 26
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:wand",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 26
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:magnet",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trident",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:battlestaff",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:plushie",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:loot_sack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2100,
+                        "maxPrice": 4200
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:crystal_seal_cake",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:mystery_egg",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 600,
+                        "maxPrice": 1200
+                    },
+                    "weight": 18
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:mystery_hostile_egg",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 6
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:artifact_fragment",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:wooden_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:ornate_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:living_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:gilded_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_catalyst_infused",
+                            "AMOUNT": 1,
+                            "NBT": "{\"pool\": \"the_vault:black_market\"}"
+                        },
+                        "minPrice": 1800,
+                        "maxPrice": 3600
+                    },
+                    "weight": 48
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:black_chromatic_steel_ingot",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1800,
+                        "maxPrice": 3000
+                    },
+                    "weight": 40
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:gem_pog",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 3600
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "sophisticatedbackpacks:iron_backpack",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 4800,
+                        "maxPrice": 7200
+                    },
+                    "weight": 6
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:chromatic_steel_ingot",
+                            "AMOUNT": 7,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 64
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:spicy_hearty_burger",
+                            "AMOUNT": 2,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 10800,
+                        "maxPrice": 13200
+                    },
+                    "weight": 12
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:card_deck",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"black\"}"
+                        },
+                        "minPrice": 18000,
+                        "maxPrice": 30000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:stat_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:mix_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:resource_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:arcane_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 12
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:wild_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 12
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:mega_arcane_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:mega_stat_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:mega_mix_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 3
+                }
+            ]
+        },
+        {
+            "minLevel": 75,
+            "shardTradePrice": 4500,
+            "shardTrades": [
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:etched_vault_layout",
+                            "AMOUNT": 1,
+                            "NBT": "{level: 150}"
+                        },
+                        "minPrice": 1000,
+                        "maxPrice": 3000
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:blank_key",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 18000,
+                        "maxPrice": 36000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:unidentified_artifact",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 60000,
+                        "maxPrice": 96000
+                    },
+                    "weight": 1
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:knowledge_star",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 7200,
+                        "maxPrice": 14400
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:repair_core",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1800,
+                        "maxPrice": 3000
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:sour_orange",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:modifier_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:bitter_lemon",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4200
+                    },
+                    "weight": 8
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_platinum",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:regret_orb",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 300,
+                        "maxPrice": 1200
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:augment_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:catalyst_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1600,
+                        "maxPrice": 3200
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:inscription_box",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:opportunistic_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9600,
+                        "maxPrice": 18000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:cryonic_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9600,
+                        "maxPrice": 18000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:pyretic_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9600,
+                        "maxPrice": 18000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vorpal_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 9600,
+                        "maxPrice": 18000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:empowered_chaotic_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:resilient_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:fundamental_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2700,
+                        "maxPrice": 4200
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:chaotic_focus",
+                            "AMOUNT": 3,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 1800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:waxing_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 3900,
+                        "maxPrice": 5700
+                    },
+                    "weight": 10
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:waning_focus",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 3900,
+                        "maxPrice": 5700
+                    },
+                    "weight": 10
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trinket",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 24000,
+                        "maxPrice": 36000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trinket_scrap",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 12000,
+                        "maxPrice": 24000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:eye_of_avarice",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 9000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_catalyst_chaos",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 18000,
+                        "maxPrice": 36000
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:jewel_pouch",
+                            "AMOUNT": 1
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 3200
+                    },
+                    "weight": 20
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:inscription",
+                            "AMOUNT": 1,
+                            "NBT": "{pool:\"the_vault:blackmarket\"}"
+                        },
+                        "minPrice": 4200,
+                        "maxPrice": 7800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:helmet",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:chestplate",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:leggings",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:boots",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:sword",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:axe",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:shield",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 26
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:wand",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 26
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:magnet",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 32
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trident",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:battlestaff",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:crystal_seal_cake",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:mystery_egg",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 600,
+                        "maxPrice": 1200
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:mystery_hostile_egg",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:artifact_fragment",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 2
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:wooden_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1200,
+                        "maxPrice": 2400
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:ornate_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:living_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:gilded_chest_scroll",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 2400,
+                        "maxPrice": 4800
+                    },
+                    "weight": 4
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_catalyst_infused",
+                            "AMOUNT": 1,
+                            "NBT": "{\"pool\":\"the_vault:black_market\"}"
+                        },
+                        "minPrice": 1800,
+                        "maxPrice": 3600
+                    },
+                    "weight": 48
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:black_chromatic_steel_ingot",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 1800,
+                        "maxPrice": 3000
+                    },
+                    "weight": 30
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:spicy_hearty_burger",
+                            "AMOUNT": 3,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 13200,
+                        "maxPrice": 15000
+                    },
+                    "weight": 12
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:card_deck",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"black\"}"
+                        },
+                        "minPrice": 18000,
+                        "maxPrice": 30000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:stat_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:mix_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:resource_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 16
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:arcane_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 12
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:wild_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 12
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:mega_arcane_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:mega_stat_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:mega_mix_pack\"}"
+                        },
+                        "minPrice": 4500,
+                        "maxPrice": 6000
+                    },
+                    "weight": 3
+                }
+            ]
+        }
+    ],
+    "defaultShardDrops": {
+        "min": 3,
+        "max": 3,
+        "chance": 3.0
+    },
+    "shardDrops": {
+        "@the_vault:horde": {
+            "min": 3,
+            "max": 6,
+            "chance": 1.0
+        },
+        "@the_vault:tank": {
+            "min": 20,
+            "max": 30,
+            "chance": 1.0
+        },
+        "@the_vault:guardian": {
+            "min": 20,
+            "max": 30,
+            "chance": 1.0
+        },
+        "@the_vault:assassin": {
+            "min": 6,
+            "max": 12,
+            "chance": 1.0
+        },
+        "@the_vault:mob_type/champion": {
+            "min": 60,
+            "max": 140,
+            "chance": 1.0
+        }
+    }
+}

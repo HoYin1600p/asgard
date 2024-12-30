@@ -1,0 +1,109 @@
+{
+    "tile_processors": [
+        {
+        "type": "placeholder",
+        "target": "ORE",
+        "levels": [
+                {
+                "level": 0,
+                "probability": 0.20,
+                "success": {
+                    "the_vault:ore_larimar[type=stone,generated=true]": 0,
+                    "the_vault:ore_benitoite[type=stone,generated=true]": 80,
+                    "the_vault:ore_alexandrite[type=stone,generated=true]": 40,
+                    "the_vault:ore_painite[type=stone,generated=true]": 40,
+                    "the_vault:ore_black_opal[type=stone,generated=true]": 10,
+                    "the_vault:ore_iskallium[type=stone,generated=true]": 3,
+                    "the_vault:ore_gorginite[type=stone,generated=true]": 3,
+                    "the_vault:ore_ashium[type=stone,generated=true]": 3,
+                    "the_vault:ore_sparkletine[type=stone,generated=true]": 3,
+                    "the_vault:ore_bomignite[type=stone,generated=true]": 3,
+                    "the_vault:ore_tubium[type=stone,generated=true]": 3,
+                    "the_vault:ore_upaline[type=stone,generated=true]": 3,
+                    "the_vault:ore_xenium[type=stone,generated=true]": 3,
+                    "the_vault:ore_petzanite[type=stone,generated=true]": 3,
+                    "the_vault:ore_echo[type=stone,generated=true]": 1
+                    
+                },
+                "failure": {
+                    "minecraft:white_wool": 1
+                    }
+                },
+                {
+                    "level": 11,
+                    "probability": 0.23,
+                    "success": {
+                        "the_vault:ore_larimar[type=stone,generated=true]": 0,
+                        "the_vault:ore_benitoite[type=stone,generated=true]": 80,
+                        "the_vault:ore_alexandrite[type=stone,generated=true]": 40,
+                        "the_vault:ore_painite[type=stone,generated=true]": 40,
+                        "the_vault:ore_black_opal[type=stone,generated=true]": 10,
+                        "the_vault:ore_iskallium[type=stone,generated=true]": 3,
+                        "the_vault:ore_gorginite[type=stone,generated=true]": 3,
+                        "the_vault:ore_ashium[type=stone,generated=true]": 3,
+                        "the_vault:ore_sparkletine[type=stone,generated=true]": 3,
+                        "the_vault:ore_bomignite[type=stone,generated=true]": 3,
+                        "the_vault:ore_tubium[type=stone,generated=true]": 3,
+                        "the_vault:ore_upaline[type=stone,generated=true]": 3,
+                        "the_vault:ore_xenium[type=stone,generated=true]": 3,
+                        "the_vault:ore_petzanite[type=stone,generated=true]": 3,
+                        "the_vault:ore_echo[type=stone,generated=true]": 1
+                    },
+                    "failure": {
+                        "minecraft:white_wool": 1
+                    }
+                },
+                {
+                    "level": 23,
+                    "probability": 0.26,
+                    "success": {
+                        "the_vault:ore_larimar[type=stone,generated=true]": 0,
+                        "the_vault:ore_benitoite[type=stone,generated=true]": 80,
+                        "the_vault:ore_alexandrite[type=stone,generated=true]": 40,
+                        "the_vault:ore_painite[type=stone,generated=true]": 40,
+                        "the_vault:ore_black_opal[type=stone,generated=true]": 10,
+                        "the_vault:ore_iskallium[type=stone,generated=true]": 3,
+                        "the_vault:ore_gorginite[type=stone,generated=true]": 3,
+                        "the_vault:ore_ashium[type=stone,generated=true]": 3,
+                        "the_vault:ore_sparkletine[type=stone,generated=true]": 3,
+                        "the_vault:ore_bomignite[type=stone,generated=true]": 3,
+                        "the_vault:ore_tubium[type=stone,generated=true]": 3,
+                        "the_vault:ore_upaline[type=stone,generated=true]": 3,
+                        "the_vault:ore_xenium[type=stone,generated=true]": 3,
+                        "the_vault:ore_petzanite[type=stone,generated=true]": 3,
+                        "the_vault:ore_echo[type=stone,generated=true]": 1
+                    },
+                    "failure": {
+                        "minecraft:white_wool": 1
+                    }
+                },
+                {
+                    "level": 40,
+                    "probability": 0.29,
+                    "success": {
+                        "the_vault:ore_larimar[type=stone,generated=true]": 0,
+                        "the_vault:ore_benitoite[type=stone,generated=true]": 80,
+                        "the_vault:ore_alexandrite[type=stone,generated=true]": 40,
+                        "the_vault:ore_painite[type=stone,generated=true]": 40,
+                        "the_vault:ore_black_opal[type=stone,generated=true]": 10,
+                        "the_vault:ore_iskallium[type=stone,generated=true]": 3,
+                        "the_vault:ore_gorginite[type=stone,generated=true]": 3,
+                        "the_vault:ore_ashium[type=stone,generated=true]": 3,
+                        "the_vault:ore_sparkletine[type=stone,generated=true]": 3,
+                        "the_vault:ore_bomignite[type=stone,generated=true]": 3,
+                        "the_vault:ore_tubium[type=stone,generated=true]": 3,
+                        "the_vault:ore_upaline[type=stone,generated=true]": 3,
+                        "the_vault:ore_xenium[type=stone,generated=true]": 3,
+                        "the_vault:ore_petzanite[type=stone,generated=true]": 3,
+                        "the_vault:ore_echo[type=stone,generated=true]": 1
+                    },
+                    "failure": {
+                        "minecraft:white_wool": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "entity_processors": [],
+    "decorators": []
+}

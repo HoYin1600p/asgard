@@ -1,0 +1,328 @@
+{
+  "groups": {
+    "the_vault:zombie": [
+      "minecraft:zombie",
+      "the_vault:t1_zombie",
+      "the_vault:t2_zombie",
+      "the_vault:t3_zombie"
+    ],
+    "the_vault:husk": [
+      "minecraft:husk",
+      "the_vault:t1_husk",
+      "the_vault:t2_husk",
+      "the_vault:t3_husk"
+    ],
+    "the_vault:drowned": [
+      "minecraft:drowned",
+      "the_vault:t1_drowned",
+      "the_vault:t2_drowned",
+      "the_vault:t3_drowned"
+    ],
+    "the_vault:skeleton": [
+      "minecraft:skeleton",
+      "the_vault:t1_skeleton",
+      "the_vault:t2_skeleton",
+      "the_vault:t3_skeleton"
+    ],
+    "the_vault:stray": [
+      "minecraft:stray",
+      "the_vault:t1_stray",
+      "the_vault:t2_stray",
+      "the_vault:t3_stray"
+    ],
+    "the_vault:creeper": [
+      "minecraft:creeper",
+      "the_vault:t1_creeper",
+      "the_vault:t2_creeper",
+      "the_vault:t3_creeper"
+    ],
+    "the_vault:spider": [
+      "minecraft:spider",
+      "the_vault:vault_spider"
+    ],
+    "the_vault:piglin": [
+      "minecraft:piglin",
+      "the_vault:t1_piglin",
+      "the_vault:t2_piglin",
+      "the_vault:t3_piglin"
+    ],
+    "the_vault:wither_skeleton": [
+      "minecraft:wither_skeleton",
+      "the_vault:t1_wither_skeleton",
+      "the_vault:t2_wither_skeleton",
+      "the_vault:t3_wither_skeleton",
+      "the_vault:t4_wither_skeleton",
+      "the_vault:t5_wither_skeleton"
+    ],
+    "the_vault:enderman": [
+      "minecraft:enderman",
+      "the_vault:t1_enderman",
+      "the_vault:t2_enderman",
+      "the_vault:t3_enderman"
+    ],
+    "the_vault:fighter": [
+      "the_vault:vault_fighter",
+      "the_vault:vault_fighter_1",
+      "the_vault:vault_fighter_2",
+      "the_vault:vault_fighter_3",
+      "the_vault:vault_fighter_4"
+    ],
+    "the_vault:mobs": [
+      "@the_vault:husk",
+      "@the_vault:drowned",
+      "@the_vault:skeleton",
+      "@the_vault:stray",
+      "@the_vault:creeper",
+      "@the_vault:spider",
+      "@the_vault:piglin",
+      "@the_vault:wither_skeleton",
+      "@the_vault:enderman",
+      "@the_vault:fighter",
+      "@the_vault:horde",
+      "@the_vault:tank",
+      "@the_vault:assassin",
+      "@the_vault:guardians",
+      "@the_vault:dungeon"
+    ],
+    "the_vault:mob_type/nether": [
+      "@the_vault:piglin",
+      "@the_vault:wither_skeleton",
+      "minecraft:piglin_brute",
+      "minecraft:blaze",
+      "the_vault:dungeon_piglin"
+    ],
+    "the_vault:mob_type/dungeon": [
+      "@the_vault:dungeon"
+    ],
+    "the_vault:mob_type/assassin": [
+      "@the_vault:assassin"
+    ],
+    "the_vault:mob_type/dweller": [
+      "@the_vault:fighter"
+    ],
+    "the_vault:mob_type/tank": [
+      "@the_vault:tank"
+    ],
+    "the_vault:mob_type/champion": [
+      "{Tags:[\"vault_champion\"]}"
+    ],
+    "the_vault:mob_type/horde": [
+      "@the_vault:horde"
+    ],
+    "the_vault:mob_type/creeper": [
+      "minecraft:creeper",
+      "the_vault:t1_creeper",
+      "the_vault:t2_creeper",
+      "the_vault:t3_creeper"
+    ],
+    "the_vault:mob_type/dogs": [
+      "quark:foxhound",
+      "the_vault:winter_wolf"
+    ],
+    "the_vault:mob_type/polar_bears": [
+      "minecraft:polar_bear"
+    ],
+    "the_vault:mob_type/evil_rabbit": [
+      "minecraft:rabbit"
+    ],
+    "the_vault:horde": [
+      "minecraft:husk",
+      "the_vault:t1_husk",
+      "the_vault:t2_husk",
+      "minecraft:drowned",
+      "the_vault:t1_drowned",
+      "the_vault:t2_drowned",
+      "minecraft:piglin",
+      "the_vault:t1_piglin",
+      "the_vault:t2_piglin",
+      "the_vault:winterwalker_t0",
+      "the_vault:winterwalker_t1",
+      "the_vault:winterwalker_t2",
+      "the_vault:winterwalker_t3",
+      "the_vault:winterwalker_t4",
+      "the_vault:miner_zombie_t0",
+      "the_vault:miner_zombie_t1",
+      "the_vault:miner_zombie_t2",
+      "the_vault:miner_zombie_t3",
+      "the_vault:miner_zombie_t4",
+      "the_vault:mushroom_t0",
+      "the_vault:mushroom_t1",
+      "the_vault:mushroom_t2",
+      "the_vault:mushroom_t3",
+      "the_vault:mushroom_t4",
+      "the_vault:overgrown_zombie_t0",
+      "the_vault:overgrown_zombie_t1",
+      "the_vault:overgrown_zombie_t2",
+      "the_vault:overgrown_zombie_t3",
+      "the_vault:overgrown_zombie_t4",
+      "the_vault:vault_yellow_gummy_soldier",
+      "the_vault:deep_dark_skeleton",
+      "the_vault:deep_dark_zombie",
+      "the_vault:blood_horde_t1",
+      "the_vault:blood_horde_t2",
+      "the_vault:blood_horde_t3",
+      "the_vault:blood_horde_t4",
+      "the_vault:blood_horde_t5",
+      "the_vault:t1_plastic_zombie",
+      "the_vault:t2_plastic_zombie",
+      "the_vault:t3_plastic_zombie",
+      "the_vault:t4_plastic_zombie"
+    ],
+    "the_vault:assassin": [
+      "the_vault:deep_dark_silverfish",
+      "the_vault:deep_dark_piglin",
+      "alexsmobs:alligator_snapping_turtle",
+      "the_vault:vault_blue_gummy_soldier",
+      "minecraft:slime",
+      "the_vault:vault_spider",
+      "ecologics:coconut_crab",
+      "quark:wraith",
+      "minecraft:skeleton",
+      "the_vault:t1_skeleton",
+      "the_vault:t2_skeleton",
+      "the_vault:t3_skeleton",
+      "minecraft:stray",
+      "the_vault:t1_stray",
+      "the_vault:t2_stray",
+      "the_vault:t3_stray",
+      "minecraft:wither_skeleton",
+      "the_vault:t1_wither_skeleton",
+      "the_vault:t2_wither_skeleton",
+      "the_vault:t3_wither_skeleton",
+      "the_vault:skeleton_pirate_t0",
+      "the_vault:skeleton_pirate_t1",
+      "the_vault:skeleton_pirate_t2",
+      "the_vault:skeleton_pirate_t3",
+      "the_vault:skeleton_pirate_t4",
+      "the_vault:skeleton_pirate_t5",
+      "minecraft:polar_bear",
+      "alexsmobs:tusklin",
+      "minecraft:magma_cube",
+      "the_vault:levishroom",
+      "the_vault:winter_wolf",
+      "the_vault:blood_slime",
+      "the_vault:blood_skeleton_t0",
+      "the_vault:blood_skeleton_t1",
+      "the_vault:blood_skeleton_t2",
+      "the_vault:blood_skeleton_t3",
+      "the_vault:blood_skeleton_t4",
+      "the_vault:blood_skeleton_t5",
+      "the_vault:blood_silverfish",
+      "minecraft:creeper",
+      "the_vault:t1_creeper",
+      "the_vault:t2_creeper",
+      "the_vault:t3_creeper",
+      "the_vault:t1_plastic_skeleton",
+      "the_vault:t2_plastic_skeleton",
+      "the_vault:t3_plastic_skeleton",
+      "the_vault:t4_plastic_skeleton",
+      "the_vault:t1_plastic_slime",
+      "the_vault:t2_plastic_slime",
+      "the_vault:t3_plastic_slime",
+      "the_vault:t4_plastic_slime",
+      "the_vault:scarab",
+      "the_vault:swamp_zombie",
+      "the_vault:t0_cave_skeleton",
+      "the_vault:t1_cave_skeleton",
+      "the_vault:t2_cave_skeleton",
+      "the_vault:t3_cave_skeleton",
+      "the_vault:t4_cave_skeleton",
+      "the_vault:t5_cave_skeleton",
+      "the_vault:overgrown_woodman_t0",
+      "the_vault:overgrown_woodman_t1",
+      "the_vault:overgrown_woodman_t2"
+    ],
+    "the_vault:tank": [
+      "the_vault:shiver",
+      "the_vault:deathcap",
+      "the_vault:t3_zombie",
+      "the_vault:t3_drowned",
+      "the_vault:t3_husk",
+      "the_vault:t3_piglin",
+      "the_vault:vault_red_gummy_soldier",
+      "minecraft:piglin_brute",
+      "the_vault:deep_dark_horror",
+      "rottencreatures:dead_beard",
+      "rottencreatures:mummy",
+      "rottencreatures:glacial_hunter",
+      "the_vault:blood_tank",
+      "the_vault:overgrown_tank"
+    ],
+    "the_vault:guardian": [
+      "the_vault:bruiser_guardian",
+      "the_vault:arbalist_guardian"
+    ],
+    "the_vault:winterwalker": [
+      "the_vault:winterwalker_t0",
+      "the_vault:winterwalker_t1",
+      "the_vault:winterwalker_t2",
+      "the_vault:winterwalker_t3",
+      "the_vault:winterwalker_t4",
+      "the_vault:winterwalker_t5"
+    ],
+    "the_vault:overgrown_zombie": [
+      "the_vault:overgrown_zombie_t0",
+      "the_vault:overgrown_zombie_t1",
+      "the_vault:overgrown_zombie_t2",
+      "the_vault:overgrown_zombie_t3",
+      "the_vault:overgrown_zombie_t4",
+      "the_vault:overgrown_zombie_t5"
+    ],
+    "the_vault:mushroom": [
+      "the_vault:mushroom_t0",
+      "the_vault:mushroom_t1",
+      "the_vault:mushroom_t2",
+      "the_vault:mushroom_t3",
+      "the_vault:mushroom_t4",
+      "the_vault:mushroom_t5"
+    ],
+    "minecraft:piglin": [
+      "the_vault:t1_piglin",
+      "the_vault:t2_piglin",
+      "the_vault:t3_piglin",
+      "the_vault:t4_piglin",
+      "the_vault:t5_piglin"
+    ],
+    "the_vault:dungeon": [
+      "the_vault:dungeon_piglin_brute",
+      "the_vault:dungeon_piglin",
+      "the_vault:t1_zombie",
+      "the_vault:t2_zombie",
+      "the_vault:dungeon_witch",
+      "the_vault:dungeon_spider",
+      "the_vault:dungeon_black_widow_spider",
+      "the_vault:dungeon_pillager",
+      "the_vault:dungeon_vindicator",
+      "the_vault:dungeon_skeleton"
+    ],
+    "the_vault:illagers": [
+      "minecraft:vindicator",
+      "minecraft:ravager",
+      "minecraft:vex",
+      "minecraft:pillager",
+      "minecraft:evoker",
+      "the_vault:healer"
+    ],
+    "the_vault:guardians": [
+      "the_vault:bruiser_guardian",
+      "the_vault:arbalist_guardian",
+      "the_vault:pirate_bruiser_guardian",
+      "the_vault:pirate_arbalist_guardian",
+      "the_vault:crystal_bruiser_guardian",
+      "the_vault:crystal_arbalist_guardian",
+      "the_vault:butcher_bruiser_guardian",
+      "the_vault:butcher_arbalist_guardian"
+    ],
+    "the_vault:elite": [
+      "the_vault:elite_skeleton",
+      "the_vault:elite_drowned",
+      "the_vault:elite_enderman",
+      "the_vault:elite_husk",
+      "the_vault:elite_stray",
+      "the_vault:elite_witch",
+      "the_vault:elite_wither_skeleton",
+      "the_vault:elite_zombie"
+    ]
+  }
+}
+

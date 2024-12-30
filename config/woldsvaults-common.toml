@@ -1,0 +1,9 @@
+
+[Features]
+	#Whether recipes for the Vault Gear Items should be enabled or not.
+	enableVaultGearRecipes = true
+	#Whether recipes for the Vault Gem Reagents should be enabled or not.
+	enableGemReagents = true
+	#Whether vault ores should drop smashed vault gems instead of nothing.
+	enableGemDropsOverhaul = true
+

@@ -1,0 +1,361 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 7,
+        "max": 8
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+                "weight": 20,
+                "item": {
+                "id": "the_vault:rotten_meat",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+                }
+            },
+            {
+              "weight": 20,
+              "item": {
+              "id": "the_vault:mossy_bone",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },        
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:vault_moss",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:acacia_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:oak_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:birch_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:dark_oak_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:spruce_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:jungle_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:acacia_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:oak_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:birch_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:dark_oak_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:spruce_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:jungle_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+            
+          ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:honey_bottle",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+          },
+          {
+            "weight": 10,
+            "item": {
+              "id": "minecraft:slime_ball",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "minecraft:shulker_shell",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "minecraft:blaze_rod",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "minecraft:ender_pearl",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "minecraft:ghast_tear",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          }
+
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+                "weight": 2,
+                "item": {
+                  "id": "minecraft:honey_bottle",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "minecraft:slime_ball",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:shulker_shell",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:blaze_rod",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:ender_pearl",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:ghast_tear",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 25,
+              "item": {
+                "id": "the_vault:mystery_egg",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 5,
+              "item": {
+                "id": "the_vault:mystery_hostile_egg",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:flesh_chest_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

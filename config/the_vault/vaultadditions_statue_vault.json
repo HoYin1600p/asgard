@@ -1,0 +1,140 @@
+{
+  "LOOT": [
+    {
+      "value": {
+        "ITEM": "minecraft:stone",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:granite",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:diorite",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dirt",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:grass_block",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:gravel",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:sand",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:cobblestone",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_log",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_leaves",
+        "NBT": "{}"
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:spruce_leaves",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:birch_leaves",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:basalt",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:mossy_cobblestone",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:clay",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:terracotta",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:pumpkin",
+        "NBT": "{}"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:melon",
+        "NBT": "{}"
+      },
+      "weight": 1
+    }
+  ],
+  "INTERVAL": 500,
+  "MIN_ITEM_GENERATED": 128,
+  "MAX_ITEM_GENERATED": 384
+}

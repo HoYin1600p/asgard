@@ -1,0 +1,17 @@
+
+["Black Market"]
+	#Show shard count in black market
+	showShardCountInBlackMarket = false
+	#Show 12.3k instead of 12345 in black market
+	blackMarketShortFmt = false
+
+["Inventory HUD"]
+	#Show shard count in Inventory HUD overlay
+	invHudShardCount = true
+	#Show 12.3k instead of 12345 in Inventory HUD overlay for shard pouch
+	invHudShardCountShortFmt = true
+	#Show charm uses left in Inventory HUD overlay
+	invHudCharmUsesLeft = true
+	#Show trinket uses left in Inventory HUD overlay
+	invHudTrinketUsesLeft = true
+

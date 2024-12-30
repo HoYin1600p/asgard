@@ -1,0 +1,539 @@
+{
+  "titles": {
+    "PREFIX": {
+      "clearprefix": {
+        "display": {
+          "TAB_LIST": {
+            "text": "",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": ""
+          }
+        },
+        "cost": 1
+      },
+      "lord": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Lord ",
+            "color": "#e4fcff"
+          },
+          "CHAT": {
+            "text": "Lord ",
+            "color": "#e4fcff"
+          }
+        },
+        "cost": 1
+      },
+      "lady": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Lady ",
+            "color": "#e4fcff"
+          },
+          "CHAT": {
+            "text": "Lady ",
+            "color": "#e4fcff"
+          }
+        },
+        "cost": 1
+      },
+      "captain": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Captain ",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "Captain ",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "baron": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Baron ",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "Baron ",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "master": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Master ",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "Master ",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "grand": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Grand ",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "Grand ",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "commander": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Commander ",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "Commander ",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "mega": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Mega ",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "Mega ",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "slayer": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Slayer ",
+            "color": "#f04848"
+          },
+          "CHAT": {
+            "text": "Slayer ",
+            "color": "#f04848"
+          }
+        },
+        "cost": 1
+      },
+      "omega": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Omega ",
+            "color": "#6AFF00"
+          },
+          "CHAT": {
+            "text": "Omega ",
+            "color": "#6AFF00"
+          }
+        },
+        "cost": 1
+      },
+      "epic": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Epic ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Epic ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "shady": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Shady ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Shady ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "scrappy": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Scrappy ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Scrappy ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "fantastic": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Fantastic ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Fantastic ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "stunning": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Stunning ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Stunning ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "gorgeous": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Gorgeous ",
+            "color": "#ff64e7"
+          },
+          "CHAT": {
+            "text": "Gorgeous ",
+            "color": "#ff64e7"
+          }
+        },
+        "cost": 1
+      },
+      "sir": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Sir ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Sir ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "humble": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Humble ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Humble ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      }
+    },
+    "SUFFIX": {
+      "clearsuffix": {
+        "display": {
+          "TAB_LIST": {
+            "text": "",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": ""
+          }
+        },
+        "cost": 1
+      },
+      "of_doom": {
+        "display": {
+          "TAB_LIST": {
+            "text": " of Doom",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " of Doom",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_great": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Great",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Great",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_geezer": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Geezer",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Geezer",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_plonker": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Plonker",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Plonker",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_eternal": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Eternal",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Eternal",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_magnificent": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Magnificent",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Magnificent",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_brave": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Brave",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Brave",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_wise": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Wise",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Wise",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_gray": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Gray",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Gray",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_terrible": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Terrible",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Terrible",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_noob": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Noob",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Noob",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_creator": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Creator",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Creator",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_redstoner": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Redstoner",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Redstoner",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_slab": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Slab",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Slab",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_explorer": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Explorer",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Explorer",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_hunter": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Hunter",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Hunter",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_treasure_hunter": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Treasure Hunter",
+            "color": "#ffc926"
+          },
+          "CHAT": {
+            "text": " the Treasure Hunter",
+            "color": "#ffc926"
+          }
+        },
+        "cost": 1
+      },
+      "of_destruction": {
+        "display": {
+          "TAB_LIST": {
+            "text": " of Destruction",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " of Destruction",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "of_chaos": {
+        "display": {
+          "TAB_LIST": {
+            "text": " of Chaos",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " of Chaos",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "of_the_stars": {
+        "display": {
+          "TAB_LIST": {
+            "text": " of the Stars",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " of the Stars",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "of_the_ancients": {
+        "display": {
+          "TAB_LIST": {
+            "text": " of the Ancients",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " of the Ancients",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      }
+    }
+  }
+}

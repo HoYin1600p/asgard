@@ -1,0 +1,508 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock",
+      "output": {
+        "{God: VELARA, RoomPalettes: [\"the_vault:universal_velara\"]}": 1,
+        "{God: TENOS, RoomPalettes: [ \"the_vault:universal_tenos\" ]}": 1,
+        "{God: WENDARR, RoomPalettes: [ \"the_vault:universal_wendarr\" ]}": 1,
+        "{God: IDONA, RoomPalettes: [ \"the_vault:universal_idona\" ]}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock{_Rarity:Common}",
+      "output": [{ "nbt": {
+        "FullCost": [
+          {
+            "id": "the_vault:vault_gold",
+            "count": { "type": "uniform", "min": 20, "max": 20 }
+          }
+        ],
+        "TunnelCost": [
+          {
+            "id": "the_vault:vault_gold",
+            "count": { "type": "uniform", "min": 8, "max": 8 }
+          }
+        ]
+      }, "weight": 1}]
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock{_Rarity:Ore}",
+      "output": [{ "nbt": {
+        "FullCost": [
+          {
+            "id": "the_vault:vault_gold",
+            "count": { "type": "uniform", "min": 32, "max": 64 }
+          }
+        ],
+        "TunnelCost": [
+          {
+            "id": "the_vault:vault_gold",
+            "count": { "type": "uniform", "min": 8, "max": 8 }
+          }
+        ]
+      }, "weight": 1}]
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock{_Rarity:Challenge}",
+      "output": [{ "nbt": {
+        "FullCost": [
+          {
+            "id": "the_vault:vault_gold",
+            "count": { "type": "uniform", "min": 48, "max": 72 }
+          }
+        ],
+        "TunnelCost": [
+          {
+            "id": "the_vault:vault_gold",
+            "count": { "type": "uniform", "min": 8, "max": 8 }
+          }
+        ]
+      }, "weight": 1}]
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock{_Rarity:Omega}",
+      "output": [{ "nbt": {
+        "FullCost": [
+          {
+            "id": "the_vault:vault_gold",
+            "count": { "type": "uniform", "min": 64, "max": 128 }
+          }
+        ],
+        "TunnelCost": [
+          {
+            "id": "the_vault:vault_gold",
+            "count": { "type": "uniform", "min": 8, "max": 8 }
+          }
+        ]
+      }, "weight": 1}]
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/blacksmith\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/blacksmith/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/blacksmith\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/blacksmith/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/blacksmith\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/blacksmith/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/blacksmith\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/blacksmith/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/cove\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/cove/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/cove\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/cove/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/cove\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/cove/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/cove\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/cove/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/challenge/crystal_caves\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/crystal_caves/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/challenge/crystal_caves\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/crystal_caves/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/challenge/crystal_caves\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/crystal_caves/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/challenge/crystal_caves\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/crystal_caves/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/cube\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/cube/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/cube\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/cube/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/cube\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/cube/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/cube\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/cube/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/digsite2\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/digsite2/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/digsite2\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/digsite2/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/digsite2\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/digsite2/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/digsite2\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/digsite2/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/challenge/dragon\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/dragon/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/challenge/dragon\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/dragon/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/challenge/dragon\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/dragon/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/challenge/dragon\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/dragon/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/challenge/factory\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/factory/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/challenge/factory\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/factory/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/challenge/factory\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/factory/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/challenge/factory\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/factory/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/library\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/library/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/library\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/library/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/library\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/library/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/library\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/library/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/mine\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/mine/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/mine\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/mine/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/mine\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/mine/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/mine\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/mine/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/mush_room\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/mush_room/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/mush_room\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/mush_room/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/mush_room\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/mush_room/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/mush_room\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/mush_room/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/painting\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/painting/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/painting\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/painting/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/painting\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/painting/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/painting\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/painting/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/vendor\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/vendor/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/vendor\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/vendor/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/vendor\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/vendor/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/vendor\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/vendor/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/challenge/village\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/village/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/challenge/village\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/village/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/challenge/village\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/village/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/challenge/village\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/village/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/challenge/wildwest\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/wildwest/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/challenge/wildwest\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/wildwest/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/challenge/wildwest\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/wildwest/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/challenge/wildwest\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/wildwest/idona\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/challenge/x-mark\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/x-mark/velara\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/challenge/x-mark\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/x-mark/tenos\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/challenge/x-mark\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/x-mark/wendarr\"]}": 1
+		}
+    },
+	{
+	  "type": "weighted_target",
+      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/challenge/x-mark\"}",
+        "output": {
+		  "{RoomPalettes: [\"the_vault:paradox/x-mark/idona\"]}": 1
+		}
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

@@ -1,0 +1,33 @@
+
+[General]
+	#Enable / Disable the possibility to add Soulbound to the pouch.
+	enableSoulbound = true
+	#Enable / Disable interaction with Vault Forge without taking coins out of the pouch.
+	vaultForgeInteraction = true
+	#Enable / Disable interaction with Tool Station without taking coins out of the pouch.
+	toolStationInteraction = true
+	#Enable / Disable interaction with Inscription Table without taking coins out of the pouch.
+	inscriptionTableInteraction = true
+	#Enable / Disable interaction with Modifier Workbench without taking coins out of the pouch.
+	modifierWorkbenchInteraction = true
+	#Enable / Disable interaction with Alchemy Table without taking coins out of the pouch.
+	alchemyTableInteraction = true
+	#Enable / Disable interaction with Shop Pedestal without taking coins out of the pouch.
+	shopPedestalInteraction = true
+	#Enable / Disable interaction with Transmog Table without taking coins out of the pouch.
+	transmogTableInteraction = true
+	#Enable / Disable interaction with Vault Artisan Station without taking coins out of the pouch.
+	vaultArtisanStationInteraction = true
+	#Enable / Disable interaction with Jewel Crafting Station without taking coins out of the pouch.
+	jewelCraftingTableInteraction = true
+	#Enable / Disable interaction with Spirit Extractor without taking coins out of the pouch.
+	spiritExtractorInteraction = true
+	#Enable / Disable interaction with Paradox Doors without taking coins out of the pouch.
+	paradoxDoorInteraction = true
+	#Enable / Disable coin display in the Inventory HUD overlay.
+	showCoinCountInInventoryHud = true
+	#Display 1k instead of 1000.
+	useShortCoinCountInInventoryHud = true
+	#How should coin display be align.
+	horizontalAlignInInventoryHud = false
+

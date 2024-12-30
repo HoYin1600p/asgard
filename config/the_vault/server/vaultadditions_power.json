@@ -1,0 +1,2523 @@
+{
+  "tree": {
+    "present": false,
+    "unlockLevel": 0,
+    "learnPointCost": 0,
+    "regretPointCost": 0,
+    "skills": [
+      {
+        "id": "BountyOfTheEarth",
+        "name": "Bounty Of The Earth",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.02,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.04,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.06,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.08,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.1,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.12,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.14,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.16,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.18,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.2,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "NaturesBoon",
+        "name": "Nature's Boon",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.04,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.08,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.12,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.16,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_quantity",
+            "value": 0.2,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "CelestialFortune",
+        "name": "Celestial Fortune",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.02,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.04,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.06,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.08,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.1,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.12,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.14,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.16,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.18,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.2,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "CelestialProvidence",
+        "name": "Celestial Providence",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.04,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.08,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.12,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.16,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:item_rarity",
+            "value": 0.2,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "EssenceFlow",
+        "name": "Essence Flow",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.06,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.12,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.18,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.24,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.3,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.36,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.42,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.48,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.54,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.6,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "EssenceFlow2",
+        "name": "Essence Flow2",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.08,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.16,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.24,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.32,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mana_regen",
+            "value": 0.4,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "GaiasWard",
+        "name": "Gaia's Ward",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.015,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.03,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.045,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.06,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.075,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.09,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.105,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.12,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.135,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.15,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "GaiasWard2",
+        "name": "Gaia's Ward2",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.02,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.04,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.06,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.08,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:resistance",
+            "value": 0.1,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "SpiritMastery",
+        "name": "Spirit Mastery",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "SpiritMastery2",
+        "name": "Spirit Mastery2",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 2000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 2000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 2000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 2000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 2000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_skill_point_increase"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "StonesResolve",
+        "name": "Stone's Resolve",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.02,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.04,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.06,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.08,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.1,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.12,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.14,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.16,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.18,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.2,
+            "type": "power_vanilla_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "RootedFortitute",
+        "name": "Rooted Fortitute",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.02,
+            "type": "power_vanilla_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.04,
+            "type": "power_vanilla_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.06,
+            "type": "power_vanilla_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.08,
+            "type": "power_vanilla_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "generic.knockback_resistance",
+            "operation": "ADDITION",
+            "amount": 0.1,
+            "type": "power_vanilla_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "WardensInsight",
+        "name": "Warden's Insight",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_expertise_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_expertise_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_expertise_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_expertise_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_expertise_point_increase"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "SagesBlessing",
+        "name": "Sage's Blessing",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_expertise_point_increase"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "pointIncrease": 1,
+            "type": "power_expertise_point_increase"
+          }
+        ],
+        "maxLearnableTier": 2,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "GaiasGenerosity",
+        "name": "Gaia's Generosity",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.05,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.1,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.15,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.2,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.25,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.3,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.35,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.4,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.45,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.5,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "GaiasGenerosity2",
+        "name": "Gaia's Generosity2",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.05,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.1,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.15,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.2,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:copiously",
+            "value": 0.25,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "TemporalHarmony",
+        "name": "Temporal Harmony",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.025,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.05,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.075,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.1,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.125,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.15,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.175,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.2,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.225,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.25,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "TemporalFlow",
+        "name": "Temporal Flow",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.03,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.06,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.09,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.12,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:cooldown_reduction",
+            "value": 0.15,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "SpiritualShield",
+        "name": "Spiritual Shield",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.025,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.05,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.075,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.1,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.125,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.15,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.175,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.2,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.225,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.25,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "SpiritualShield2",
+        "name": "Spiritual Shield2",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.03,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.06,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.9,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.12,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 400,
+            "regretPointCost": 0,
+            "attribute": "the_vault:critical_hit_mitigation",
+            "value": 0.15,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "LifesPulse",
+        "name": "Life's Pulse",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.05,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.1,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.15,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.2,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.25,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.3,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.35,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.4,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.45,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.5,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "LifewellResonance",
+        "name": "Lifewell Resonance",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.05,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.1,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.15,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.2,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:healing_effectiveness",
+            "value": 0.25,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "EssenceCommunion",
+        "name": "Essence Communion",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 0.5,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 1.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 1.5,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 2.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 2.5,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 3.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 3.5,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 4.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 4.5,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 250,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 5.0,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "EssenceCommunion2",
+        "name": "Essence Communion2",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 0.5,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 1.0,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 1.5,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 2.0,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "the_vault:soul_chance",
+            "value": 2.5,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "SpiritsGrasp",
+        "name": "Spirit's Grasp",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 0.5,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 1.0,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 1.5,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 2.0,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 2.5,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 3.0,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 3.5,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 4.0,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 4.5,
+            "type": "power_vanilla_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 500,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 5.0,
+            "type": "power_vanilla_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "SpiritsGrasp2",
+        "name": "Spirit's Grasp2",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 0.5,
+            "type": "power_vanilla_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 1.0,
+            "type": "power_vanilla_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 1.5,
+            "type": "power_vanilla_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 2.0,
+            "type": "power_vanilla_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1000,
+            "regretPointCost": 0,
+            "attribute": "forge:reach_distance",
+            "operation": "ADDITION",
+            "amount": 2.5,
+            "type": "power_vanilla_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "EarthsRhythm",
+        "name": "Earth's Rhythm",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 5.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 10.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 15.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 20.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 25.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 30.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 35.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 40.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 45.0,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 100,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 50.0,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "EarthsRhythm2",
+        "name": "Earth's Rhythm2",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 5.0,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 10.0,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 15.0,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 20.0,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 200,
+            "regretPointCost": 0,
+            "attribute": "the_vault:mining_speed",
+            "value": 25.0,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "VelarasEndurance",
+        "name": "Velaras Endurance",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.03,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.06,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.9,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.12,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.15,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.18,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.21,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.24,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.27,
+            "type": "power_gear_attribute"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 150,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.3,
+            "type": "power_gear_attribute"
+          }
+        ],
+        "maxLearnableTier": 10,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "VelarasEndurance2",
+        "name": "Velaras Endurance2",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.04,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.08,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.12,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.16,
+            "type": "power_gear_attribute_2"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 300,
+            "regretPointCost": 0,
+            "attribute": "the_vault:durability_wear_reduction",
+            "value": 0.2,
+            "type": "power_gear_attribute_2"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "Elvish",
+        "name": "Elvish",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.1,
+            "type": "power_fall_reduction"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.2,
+            "type": "power_fall_reduction"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.3,
+            "type": "power_fall_reduction"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.4,
+            "type": "power_fall_reduction"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.5,
+            "type": "power_fall_reduction"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "Careless",
+        "name": "Careless",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.1,
+            "type": "power_kinetic_reduction"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.2,
+            "type": "power_kinetic_reduction"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.3,
+            "type": "power_kinetic_reduction"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.4,
+            "type": "power_kinetic_reduction"
+          },
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 1250,
+            "regretPointCost": 0,
+            "damageReduction": 0.5,
+            "type": "power_kinetic_reduction"
+          }
+        ],
+        "maxLearnableTier": 5,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      },
+      {
+        "id": "ZephyrsGrace",
+        "name": "Zephyr's Grace",
+        "present": false,
+        "unlockLevel": 0,
+        "learnPointCost": 0,
+        "regretPointCost": 0,
+        "tiers": [
+          {
+            "present": false,
+            "unlockLevel": 0,
+            "learnPointCost": 10000,
+            "regretPointCost": 0,
+            "playerBaseSpeed": 0.2,
+            "playerBaseAirMovement": 0.05,
+            "type": "power_air_mobility"
+          }
+        ],
+        "maxLearnableTier": 1,
+        "tier": 0,
+        "bonusTier": 0,
+        "type": "tiered"
+      }
+    ],
+    "type": "vaultadditions_expertises"
+  }
+}

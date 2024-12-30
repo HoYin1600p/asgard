@@ -1,0 +1,22 @@
+{
+  "levels": [
+    {
+      "level": 0,
+      "stackModifierPool": "the_vault:brazier",
+      "overStackModifierPool": "the_vault:brazier_pillage",
+      "overStackLootTable": "the_vault:brazier_lvl0"
+    },
+    {
+      "level": 20,
+      "stackModifierPool": "the_vault:brazier",
+      "overStackModifierPool": "the_vault:brazier_pillage",
+      "overStackLootTable": "the_vault:brazier_lvl20"
+    },
+    {
+      "level": 50,
+      "stackModifierPool": "the_vault:brazier_new",
+      "overStackModifierPool": "the_vault:brazier_pillage",
+      "overStackLootTable": "the_vault:brazier_lvl50"
+    }
+  ]
+}

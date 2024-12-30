@@ -1,0 +1,81 @@
+{
+  "MODIFIER_POOLS": {
+    "BAD": {
+      "modifiers": [
+        "the_vault:injured",
+        "the_vault:chunky_mobs",
+        "the_vault:furious_mobs",
+        "the_vault:wild",
+        "the_vault:trapped",
+        "the_vault:frail",
+        "the_vault:infuriated_mobs",
+        "the_vault:draining",
+        "the_vault:brutal_mobs",
+        "the_vault:grievous_wounds",
+        "the_vault:fading",
+        "the_vault:random_negative",
+        "the_vault:challenge_stack"
+      ]
+    },
+    "GOOD": {
+      "modifiers": [
+        "the_vault:coin_cascade",
+        "the_vault:gilded_cascade",
+        "the_vault:living_cascade",
+        "the_vault:ornate_cascade",
+        "the_vault:wooden_cascade",
+        "the_vault:plentiful",
+        "the_vault:extended",
+        "the_vault:xp_gain",
+        "the_vault:hoard",
+        "the_vault:treasure",
+        "the_vault:soul_boost"
+      ]
+    },
+    "CURSE": {
+      "modifiers": [
+        "the_vault:hunger",
+        "the_vault:tired",
+        "the_vault:slowed",
+        "the_vault:weakened",
+        "the_vault:inert",
+        "the_vault:wounded",
+        "the_vault:drained",
+        "the_vault:minefield",
+        "the_vault:collapsing",
+        "the_vault:volcanic",
+        "the_vault:explosive",
+        "the_vault:shulker",
+        "the_vault:poor",
+        "the_vault:unlucky",
+        "the_vault:tired_t2",
+        "the_vault:slowed_t2",
+        "the_vault:weakened_t2",
+        "the_vault:weakened_t3",
+        "the_vault:curse_collapsing",
+        "the_vault:curse_voiding",
+        "the_vault:curse_explosive",
+        "the_vault:curse_freezing",
+        "the_vault:curse"
+      ]
+    }
+  },
+  "MODIFIER_POOL_GROUPS": [{
+      "value": {
+        "pools": [
+          "the_vault:catalyst_positive"
+        ]
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "pools": [
+          "the_vault:catalyst_positive",
+          "the_vault:catalyst_negative"
+        ]
+      },
+      "weight": 9
+    }
+  ]
+}

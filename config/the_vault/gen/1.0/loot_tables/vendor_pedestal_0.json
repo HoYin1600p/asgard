@@ -1,0 +1,168 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 1,
+        "max": 2
+      },
+      "pool": [
+        {
+          "weight": 50,
+          "pool": [
+            {
+              "weight": 1,
+              "item": {
+                "id": "sophisticatedbackpacks:iron_backpack",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:helmet",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:chestplate",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:leggings",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:boots",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:sword",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:axe",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:shield",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:wand",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:magnet",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:focus",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:trident",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:battlestaff",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:knowledge_star",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "woldsvaults:general_decor_scroll",
+                "count": {
+                  "type": "constant",
+                  "count": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

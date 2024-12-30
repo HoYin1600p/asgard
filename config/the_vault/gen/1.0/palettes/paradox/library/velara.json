@@ -1,0 +1,105 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_bricks",
+      "output": {
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:heavy_stone_bricks",
+      "output": {
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:heavy_cracked_stone_bricks",
+      "output": {
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_brick_stairs",
+      "output": {
+        "quark:midori_block_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:andesite_pillar",
+      "output": {
+        "create:veridium_pillar": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:layered_andesite",
+      "output": {
+        "create:layered_veridium": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite",
+      "output": {
+        "create:cut_veridium": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite_brick_stairs",
+      "output": {
+        "create:cut_veridium_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite_stairs",
+      "output": {
+        "create:cut_veridium_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite_slab",
+      "output": {
+        "create:cut_veridium_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite_brick_wall",
+      "output": {
+        "create:cut_veridium_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:acacia_leaves",
+      "output": {
+        "the_vault:velara_leaves": 2,
+        "the_vault:velara_bush": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:acacia_hedge",
+      "output": {
+        "everycomp:q/the_vault/velara_hedge": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/blood_moon_starts",
+  "rooms": "the_vault:vault/rooms/blood_moon_rooms",
+  "tunnels": "the_vault:vault/tunnels/blood_moon_tunnels",
+  "ambient_light": 0.2,
+  "fog_color": 7475479,
+  "grass_color": 11407654,
+  "foliage_color": 11407654,
+  "water_color": 7475479,
+  "water_fog_color": 12194632,
+  "particle": "minecraft:ash",
+  "particle_probability": 0.005
+}

@@ -1,0 +1,142 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_bricks",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_bricks",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tiles",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_deepslate_bricks",
+      "output": {
+        "create:cut_crimsite_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:layered_deepslate",
+      "output": {
+        "create:layered_crimsite": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_deepslate",
+      "output": {
+        "create:cut_crimsite": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:deepslate_pillar",
+      "output": {
+        "create:crimsite_pillar": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:polished_blackstone_bricks",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:blackstone_bricks",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_deepslate_brick_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_deepslate_brick_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_leaves",
+      "output": {
+        "quark:red_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:spruce_hedge",
+      "output": {
+        "quark:red_blossom_hedge": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

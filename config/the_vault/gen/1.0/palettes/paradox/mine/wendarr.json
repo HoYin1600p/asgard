@@ -1,0 +1,52 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone",
+      "output": {
+        "create:cut_ochrum": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:andesite",
+      "output": {
+        "create:ochrum": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone",
+      "output": {
+        "minecraft:smooth_red_sandstone": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:gravel",
+      "output": {
+        "minecraft:smooth_red_sandstone": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_slab",
+      "output": {
+        "minecraft:smooth_red_sandstone_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "minecraft:soul_lantern": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

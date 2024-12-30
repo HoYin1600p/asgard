@@ -1,0 +1,181 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tiles",
+      "output": {
+        "the_vault:tenos_gem_block": 1,
+        "architects_palette:warped_boards": 1,
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "minecraft:cyan_concrete": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_slab",
+      "output": {
+        "architects_palette:warped_board_slab": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_stairs",
+      "output": {
+        "architects_palette:warped_board_stairs": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_wall",
+      "output": {
+        "architects_palette:warped_board_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_tiles",
+      "output": {
+        "the_vault:tenos_gem_block": 1,
+        "architects_palette:warped_boards": 1,
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "minecraft:cyan_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_bricks",
+      "output": {
+        "the_vault:tenos_light_smooth_brick": 2,
+        "the_vault:tenos_brick_chiseled": 3,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_slab",
+      "output": {
+        "architects_palette:warped_board_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_stairs",
+      "output": {
+        "architects_palette:warped_board_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_bricks",
+      "output": {
+        "the_vault:tenos_light_smooth_brick": 2,
+        "the_vault:tenos_brick_chiseled": 3,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobbled_deepslate",
+      "output": {
+        "the_vault:tenos_light_smooth_brick": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:cobbled_deepslate_wall",
+      "output": {
+        "architects_palette:warped_board_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:red_shingles",
+      "output": {
+        "quark:blue_shingles": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:red_shingles_slab",
+      "output": {
+        "quark:blue_shingles_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:red_shingles_stairs",
+      "output": {
+        "quark:blue_shingles_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_terracotta",
+      "output": {
+        "minecraft:blue_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:nether_bricks",
+      "output": {
+        "supplementaries:lapis_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:nether_brick_slab",
+      "output": {
+        "supplementaries:lapis_bricks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:nether_brick_stairs",
+      "output": {
+        "supplementaries:lapis_bricks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:netherrack",
+      "output": {
+        "minecraft:warped_wart_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_nether_bricks",
+      "output": {
+        "quark:blue_nether_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_nether_brick_slab",
+      "output": {
+        "quark:blue_nether_bricks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_nether_brick_stairs",
+      "output": {
+        "quark:blue_nether_bricks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oxidized_cut_copper_slab",
+      "output": {
+        "architects_palette:polished_packed_ice_slab": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

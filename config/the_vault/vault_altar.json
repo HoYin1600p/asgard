@@ -1,0 +1,300 @@
+{
+  "PULL_SPEED": 1.0,
+  "PLAYER_RANGE_CHECK": 32.0,
+  "ITEM_RANGE_CHECK": 8.0,
+  "INFUSION_TIME": 5,
+  "GROUP_DISPLAY_TICKS": 20,
+  "INTERFACES": [
+    {
+      "input": "the_vault:vault_rock",
+      "output": "the_vault:vault_crystal"
+    },
+    {
+      "input": "the_vault:crystal_seal_cake",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Objective": {
+              "type": "cake",
+              "objective_probability": 1.0
+            },
+            "Layout": {
+              "type": "spiral",
+              "tunnel_span": 1,
+              "half_length": 99,
+              "rotation": "CLOCKWISE_90"
+            },
+            "Modifiers": {
+              "type": "default",
+              "RandomModifiers": 0
+            },
+            "Theme": {
+              "type": "value",
+              "id": "the_vault:classic_vault_chaos_cake"
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0
+            },
+            "Version": 3
+          }
+        }
+      }
+    },
+    {
+      "input": "the_vault:plunderer_pearl",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Modifiers": {
+              "type": "default",
+              "RandomModifiers": 0,
+              "List": [
+                {
+                  "id": "the_vault:plunderer",
+                  "size": 1
+                }
+              ]
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0
+            },
+            "Version": 3
+          }
+        }
+      }
+    },
+    {
+      "input": "the_vault:wardens_pearl",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Modifiers": {
+              "type": "default",
+              "RandomModifiers": 0,
+              "List": [
+                {
+                  "id": "the_vault:afterlife",
+                  "size": 1
+                }
+              ]
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0
+            },
+            "Version": 3
+          }
+        }
+      }
+    },
+    {
+      "input": "the_vault:vault_catalyst_chaos",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Modifiers": {
+              "type": "default",
+              "RandomModifiers": 0,
+              "List": [
+                {
+                  "id": "the_vault:chaos",
+                  "size": 1
+                }
+              ]
+            },
+            "Model": {
+              "type": "chaos"
+            },
+            "Theme": {
+              "type": "value",
+              "id": "the_vault:classic_vault_chaos"
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0
+            },
+            "Version": 3
+          }
+        }
+      }
+    },
+    {
+      "input": "the_vault:crystal_seal_herald",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Modifiers": {
+              "type": "default",
+              "RandomModifiers": 0,
+              "List": [
+                {
+                  "id": "the_vault:herald",
+                  "size": 1
+                }
+              ]
+            },
+            "Objective": {
+              "type": "herald"
+            },
+            "Layout": {
+              "type": "herald"
+            },
+            "Theme": {
+              "type": "value",
+              "id": "the_vault:classic_vault_herald"
+            },
+            "Time": {
+              "type": "value",
+              "roll": {
+                "type": "constant",
+                "count": 96000
+              }
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0,
+              "level": 100
+            },
+            "Version": 3
+          }
+        }
+      }
+    },
+    {
+      "input": "the_vault:crystal_seal_ordinator_build",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Objective": {
+              "type": "paradox",
+              "goal": "BUILD"
+            },
+            "Layout": {
+              "type": "paradox"
+            },
+            "Modifiers": {
+              "type": "paradox"
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0
+            },
+            "Version": 3
+          }
+        }
+      }
+    },
+    {
+      "input": "the_vault:crystal_seal_ordinator_run",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Objective": {
+              "type": "paradox",
+              "goal": "RUN"
+            },
+            "Layout": {
+              "type": "paradox"
+            },
+            "Modifiers": {
+              "type": "paradox"
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0
+            },
+            "Version": 3
+          }
+        }
+      }
+    },
+    {
+      "input": "the_vault:crystal_seal_raid",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Objective": {
+              "type": "raid"
+            },
+            "Theme": {
+              "type": "pool",
+              "id": "the_vault:base_raid"
+            },
+            "Layout": {
+              "type": "raid"
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0
+            },
+            "Modifiers": {
+              "type": "default",
+              "RandomModifiers": 0,
+              "List": [
+                {
+                  "id": "the_vault:raid",
+                  "size": 1
+                }
+              ]
+            },
+            "Version": 3
+          }
+        }
+      }
+    },
+    {
+      "input": "the_vault:crystal_seal_raid_infinite",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Objective": {
+              "type": "raid"
+            },
+            "Theme": {
+              "type": "pool",
+              "id": "the_vault:infinite_raid"
+            },
+            "Layout": {
+              "type": "raid"
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0
+            },
+            "Modifiers": {
+              "type": "default",
+              "RandomModifiers": 0,
+              "List": [
+                {
+                  "id": "the_vault:raid",
+                  "size": 1
+                }
+              ]
+            },
+            "Version": 3
+          }
+        }
+      }
+    }
+  ]
+}

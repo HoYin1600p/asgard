@@ -1,0 +1,301 @@
+{
+  "jewelCraftingRecipes": [
+    {
+      "jewelAttribute": "the_vault:wooden_affinity",
+      "size": 5,
+      "id": "the_vault:jewel_crafting_wooden_affinity",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:ornate_affinity",
+      "size": 5,
+      "id": "the_vault:jewel_crafting_ornate_affinity",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:gilded_affinity",
+      "size": 5,
+      "id": "the_vault:jewel_crafting_gilded_affinity",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:living_affinity",
+      "size": 5,
+      "id": "the_vault:jewel_crafting_living_affinity",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:coin_affinity",
+      "size": 5,
+      "id": "the_vault:jewel_crafting_coin_affinity",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:picking",
+      "size": 5,
+      "id": "the_vault:jewel_crafting_picking",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:axing",
+      "size": 5,
+      "id": "the_vault:jewel_crafting_axing",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:shovelling",
+      "size": 5,
+      "id": "the_vault:jewel_crafting_shovelling",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:smelting",
+      "size": 15,
+      "id": "the_vault:jewel_crafting_smelting",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 128,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:pulverizing",
+      "size": 10,
+      "id": "the_vault:jewel_crafting_pulverizing",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "jewelAttribute": "the_vault:hydrovoid",
+      "size": 20,
+      "id": "the_vault:jewel_crafting_hydrovoid",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:jewel",
+        "NBT": "{}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:gemstone",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:silver_scrap",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 32,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    }
+  ]
+}

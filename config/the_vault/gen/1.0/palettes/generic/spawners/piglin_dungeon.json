@@ -1,0 +1,49 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawner_base"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "spawner",
+                    "target": "ispawner:spawner",
+                    "output": [
+                        {
+                          "elements": {
+                            "the_vault:dungeon_piglin": 2,
+                            "the_vault:dungeon_piglin_brute": 1
+                          },
+                          "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/dungeon_settings"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{ group:champion }",
+                    "output": [
+                        {
+                          "elements": {
+                            "the_vault:dungeon_piglin_brute{Tags:[\"vault_champion\"]}": 1
+                          },
+                          "weight": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

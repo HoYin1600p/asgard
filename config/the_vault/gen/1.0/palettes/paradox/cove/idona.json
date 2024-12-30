@@ -1,0 +1,178 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sand",
+      "output": {
+        "minecraft:red_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:cobbled_sandstone",
+      "output": {
+        "the_vault:idona_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:dirty_sand",
+      "output": {
+        "minecraft:red_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "everycomp:ap/ecologics/coconut_boards",
+      "output": {
+        "the_vault:idona_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone",
+      "output": {
+        "the_vault:idona_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone",
+      "output": {
+        "the_vault:idona_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone_wall",
+      "output": {
+        "minecraft:red_nether_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_carpet",
+      "output": {
+        "minecraft:yellow_carpet": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stripped_spruce_log",
+      "output": {
+        "minecraft:stripped_crimson_stem": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stripped_spruce_wood",
+      "output": {
+        "minecraft:stripped_crimson_hyphae": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_planks",
+      "output": {
+        "minecraft:crimson_planks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_slab",
+      "output": {
+        "minecraft:crimson_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_stairs",
+      "output": {
+        "minecraft:crimson_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_fence",
+      "output": {
+        "minecraft:crimson_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:spruce_vertical_slab",
+      "output": {
+        "quark:crimson_vertical_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "decorative_blocks:spruce_beam",
+      "output": {
+        "decorative_blocks:crimson_beam": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:spruce_boards",
+      "output": {
+        "architects_palette:crimson_boards": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:spruce_railing",
+      "output": {
+        "architects_palette:crimson_railing": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "cfm:stripped_spruce_upgraded_fence",
+      "output": {
+        "cfm:stripped_crimson_upgraded_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwlights:spruce_tiki_torch",
+      "output": {
+        "mcwlights:soul_crimson_tiki_torch": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwwindows:spruce_plank_parapet",
+      "output": {
+        "mcwwindows:crimson_plank_parapet": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_slab",
+      "output": {
+        "botania:dreamwood_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_stairs",
+      "output": {
+        "botania:dreamwood_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_trapdoor",
+      "output": {
+        "everycomp:mct/botania/dreamwood_classic_trapdoor": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

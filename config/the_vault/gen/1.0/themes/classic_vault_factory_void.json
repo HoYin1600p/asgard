@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/factory_void_starts",
+  "rooms": "the_vault:vault/rooms/factory_void_rooms",
+  "tunnels": "the_vault:vault/tunnels/factory_void_tunnels",
+  "ambient_light": 0.2,
+  "fog_color": 11740196,
+  "grass_color": 4997184,
+  "foliage_color": 4997184,
+  "water_color": 10887459,
+  "water_fog_color": 10887459,
+  "particle": "minecraft:crimson_spore",
+  "particle_probability": 0.002
+}

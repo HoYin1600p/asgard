@@ -1,0 +1,1928 @@
+{
+  "data": {
+    "Battle_Cry_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Battle_Cry_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "attackDamagePerStack",
+        "radius",
+        "stacksUsedPerHit",
+        "maxStacks",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "attackDamagePerStack",
+        "radius",
+        "stacksUsedPerHit",
+        "maxStacks",
+        "duration"
+      ]
+    },
+    "Battle_Cry_Lucky_Strike": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Battle_Cry_Lucky_Strike",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "luckyHitPerStack",
+        "radius",
+        "stacksUsedPerHit",
+        "maxStacks",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "luckyHitPerStack",
+        "radius",
+        "stacksUsedPerHit",
+        "maxStacks",
+        "duration"
+      ]
+    },
+    "Battle_Cry_Spectral_Strike": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Battle_Cry_Spectral_Strike",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "abilityPowerPerStack",
+        "radius",
+        "stacksUsedPerHit",
+        "maxStacks",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "abilityPowerPerStack",
+        "radius",
+        "stacksUsedPerHit",
+        "maxStacks",
+        "duration"
+      ]
+    },
+    "Dash_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Dash_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "distance"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "distance"
+      ]
+    },
+    "Dash_Damage": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Dash_Damage",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "distance",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "distance",
+        "damage"
+      ]
+    },
+    "Dash_Warp": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Dash_Warp",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "force"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "force"
+      ]
+    },
+    "Empower_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Empower_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "speed"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "speed"
+      ]
+    },
+    "Empower_Ice_Armour": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Empower_Ice_Armour",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "chilled",
+        "duration",
+        "additionalManaPerHit"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "chilled",
+        "duration",
+        "additionalManaPerHit"
+      ]
+    },
+    "Empower_Slowness_Aura": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Empower_Slowness_Aura",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "slowness",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "slowness",
+        "radius"
+      ]
+    },
+    "Farmer_Animal": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Farmer_Animal",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical",
+        "chance"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical",
+        "chance"
+      ]
+    },
+    "Farmer_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Farmer_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ]
+    },
+    "Farmer_Cactus": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Farmer_Cactus",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ]
+    },
+    "Farmer_Melon": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Farmer_Melon",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "delay",
+        "rangeHorizontal",
+        "rangeVertical"
+      ]
+    },
+    "Fireball_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Fireball_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "ability_power",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "ability_power",
+        "radius"
+      ]
+    },
+    "Fireball_Fireshot": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Fireball_Fireshot",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "ability_power"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "ability_power"
+      ]
+    },
+    "Fireball_Volley": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Fireball_Volley",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "ability_power",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "ability_power",
+        "radius"
+      ]
+    },
+    "Ghost Walk_Spirit_Walk": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Ghost Walk_Spirit_Walk",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration"
+      ]
+    },
+    "Ghost_Walk_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Ghost_Walk_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration"
+      ]
+    },
+    "Heal_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Heal_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "heal"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "heal"
+      ]
+    },
+    "Heal_Cleanse": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Heal_Cleanse",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost"
+      ]
+    },
+    "Heal_Group": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Heal_Group",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "heal",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "heal",
+        "radius"
+      ]
+    },
+    "Hunter_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Hunter_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius"
+      ]
+    },
+    "Implode": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Implode",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "radius",
+        "damage"
+      ]
+    },
+    "Implode_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Implode_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "damage"
+      ]
+    },
+    "Javelin_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Javelin_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "damage",
+        "throwPower",
+        "knockback"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "damage",
+        "throwPower",
+        "knockback"
+      ]
+    },
+    "Javelin_Piercing": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Javelin_Piercing",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "damage",
+        "throwPower",
+        "piercing"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "damage",
+        "throwPower",
+        "piercing"
+      ]
+    },
+    "Javelin_Scatter": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Javelin_Scatter",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "damage",
+        "throwPower",
+        "numberOfBounces",
+        "numberOfJavelins"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "damage",
+        "throwPower",
+        "numberOfBounces",
+        "numberOfJavelins"
+      ]
+    },
+    "Javelin_Sight": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Javelin_Sight",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "damage",
+        "throwPower",
+        "radius",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "damage",
+        "throwPower",
+        "radius",
+        "duration"
+      ]
+    },
+    "Mana_Shield_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Mana_Shield_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "absorb"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "absorb"
+      ]
+    },
+    "Mana_Shield_Cast_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Mana_Shield_Cast_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "healthPoints"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "healthPoints"
+      ]
+    },
+    "Mega Jump_Break_Down": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Mega Jump_Break_Down",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "rangeVertical",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "rangeVertical",
+        "radius"
+      ]
+    },
+    "Mega Jump_Break_Up": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Mega Jump_Break_Up",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "rangeVertical"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "rangeVertical"
+      ]
+    },
+    "Mega_Jump_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Mega_Jump_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "rangeVertical"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "rangeVertical"
+      ]
+    },
+    "Nova_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Nova_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius",
+        "ability_power",
+        "knockback"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "radius",
+        "ability_power",
+        "knockback"
+      ]
+    },
+    "Nova_Dot": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Nova_Dot",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius",
+        "ability_power",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "radius",
+        "ability_power",
+        "duration"
+      ]
+    },
+    "Nova_Speed": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Nova_Speed",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration",
+        "slowness"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration",
+        "slowness"
+      ]
+    },
+    "Rampage_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Rampage_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "damage"
+      ]
+    },
+    "Rampage_Chain": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Rampage_Chain",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "chains"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "chains"
+      ]
+    },
+    "Rampage_Leech": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Rampage_Leech",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "leech"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "leech"
+      ]
+    },
+    "Retribution": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Retribution",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "distance",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "distance",
+        "damage"
+      ]
+    },
+    "Retribution_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Retribution_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "distance",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "distance",
+        "damage"
+      ]
+    },
+    "Shell_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Shell_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "stunChance",
+        "stunAmplifier",
+        "stunDuration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "additionalManaPerHit",
+        "stunChance",
+        "stunAmplifier",
+        "stunDuration"
+      ]
+    },
+    "Shell_Porcupine": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Shell_Porcupine",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "durabilityWearReduction",
+        "damage",
+        "additionalManaPerHit"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "durabilityWearReduction",
+        "damage",
+        "additionalManaPerHit"
+      ]
+    },
+    "Shell_Quill": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Shell_Quill",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "durabilityWearReduction",
+        "damage",
+        "additionalManaPerHit",
+        "quillCount"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "durabilityWearReduction",
+        "damage",
+        "additionalManaPerHit",
+        "quillCount"
+      ]
+    },
+    "Smite_Archon": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Smite_Archon",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "radius",
+        "damage",
+        "damageInterval",
+        "additionalManaPerBolt"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "radius",
+        "damage",
+        "damageInterval",
+        "additionalManaPerBolt"
+      ]
+    },
+    "Smite_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Smite_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "radius",
+        "damage",
+        "damageInterval",
+        "additionalManaPerBolt"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "radius",
+        "damage",
+        "damageInterval",
+        "additionalManaPerBolt"
+      ]
+    },
+    "Smite_Thunderstorm": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Smite_Thunderstorm",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCostPerSecond",
+        "radius",
+        "damage",
+        "damageInterval",
+        "additionalManaPerBolt"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCostPerSecond",
+        "radius",
+        "damage",
+        "damageInterval",
+        "additionalManaPerBolt"
+      ]
+    },
+    "Stonefall_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Stonefall_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "damageReduction",
+        "radius",
+        "knockback"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "damageReduction",
+        "radius",
+        "knockback"
+      ]
+    },
+    "Stonefall_Cold": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Stonefall_Cold",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "damageReduction",
+        "freezeDuration",
+        "amplifier",
+        "radius"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "damageReduction",
+        "freezeDuration",
+        "amplifier",
+        "radius"
+      ]
+    },
+    "Stonefall_Snow": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Stonefall_Snow",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "damageReduction",
+        "radius",
+        "ability_power"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "damageReduction",
+        "radius",
+        "ability_power"
+      ]
+    },
+    "Storm_Arrow_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Storm_Arrow_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "ability_power",
+        "radius",
+        "stormInterval"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "ability_power",
+        "radius",
+        "stormInterval"
+      ]
+    },
+    "Storm_Arrow_Blizzard": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Storm_Arrow_Blizzard",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "ability_power",
+        "radius",
+        "stormInterval",
+        "frostbiteChance",
+        "frostbiteDuration",
+        "slowDuration",
+        "amplifier"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "ability_power",
+        "radius",
+        "stormInterval",
+        "frostbiteChance",
+        "frostbiteDuration",
+        "slowDuration",
+        "amplifier"
+      ]
+    },
+    "Summon_Eternal_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Summon_Eternal_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "eternals",
+        "duration",
+        "ancientChance"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "eternals",
+        "duration",
+        "ancientChance"
+      ]
+    },
+    "Taunt_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Taunt_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration"
+      ]
+    },
+    "Taunt_Charm": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Taunt_Charm",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration",
+        "maxTargets",
+        "ability_power"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration",
+        "maxTargets",
+        "ability_power"
+      ]
+    },
+    "Taunt_Repel": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Taunt_Repel",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration",
+        "distance"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "radius",
+        "duration",
+        "distance"
+      ]
+    },
+    "Totem_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Totem_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "heal"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "heal"
+      ]
+    },
+    "Totem_Mana_Regen": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Totem_Mob_Damage",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "manaRegen"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "manaRegen"
+      ]
+    },
+    "Totem_Mob_Damage": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Totem_Mob_Damage",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "damage"
+      ]
+    },
+    "Totem_Player_Damage": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Totem_Mob_Damage",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "damage"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "manaCost",
+        "duration",
+        "radius",
+        "damage"
+      ]
+    },
+    "Vein Miner_Durability": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Vein Miner_Durability",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "blocks",
+        "unbreaking"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "blocks",
+        "unbreaking"
+      ]
+    },
+    "Vein Miner_Fortune": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Vein Miner_Fortune",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "blocks",
+        "fortune"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "blocks",
+        "fortune"
+      ]
+    },
+    "Vein Miner_Void": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Vein Miner_Void",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "blocks"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "blocks"
+      ]
+    },
+    "Vein_Miner_Base": {
+      "description": [
+        {
+          "text": "Default config description for ",
+          "color": "$text"
+        },
+        {
+          "text": "Vein_Miner_Base",
+          "color": "$name"
+        },
+        {
+          "text": " - please configure me!",
+          "color": "$text"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "blocks"
+      ],
+      "next": [
+        "level",
+        "cooldown",
+        "blocks"
+      ]
+    }
+  }
+}

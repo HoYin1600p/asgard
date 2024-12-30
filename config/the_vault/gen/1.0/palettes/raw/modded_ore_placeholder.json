@@ -1,0 +1,36 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "ORE",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.35,
+          "success": {
+            "ae2:deepslate_quartz_ore": 5,
+            "ae2:sky_stone_block": 5,
+            "create:deepslate_zinc_ore": 5,
+            "mekanism:deepslate_tin_ore": 5,
+            "thermal:deepslate_tin_ore": 5,
+            "mekanism:deepslate_osmium_ore": 8,
+            "mekanism:deepslate_fluorite_ore": 5,
+            "mekanism:deepslate_lead_ore": 3,
+            "thermal:deepslate_lead_ore": 2,
+            "mekanism:deepslate_uranium_ore": 5,
+            "thermal:deepslate_cinnabar_ore": 5,
+            "thermal:deepslate_niter_ore": 5,
+            "thermal:deepslate_sulfur_ore": 5,
+            "thermal:deepslate_silver_ore": 7,
+            "thermal:deepslate_nickel_ore": 7,
+            "thermal:deepslate_apatite_ore": 8,
+            "rftoolsbase:dimensionalshard_overworld": 1
+          },
+          "failure": {
+            "minecraft:deepslate": 1
+          }
+        }
+      ]
+    }
+  ]
+}

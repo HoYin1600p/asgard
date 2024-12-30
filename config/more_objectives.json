@@ -1,0 +1,212 @@
+{
+  // The Fruit Cake settings.
+  "fruit_cake_settings": {
+    // The chance for cake objective to be Fruit Cake.
+    // The default chance is 0.1 which is 10%.
+    // Value 0 and bellow will mean that fruit cakes are disabled.
+    // Value 1 and above will mean that all cake vaults will be fruit vaults.
+    "chance": 0.1,
+    // The start modifiers that are applied on the cake vault start.
+    // You can set any modifiers you want to be added for the vault.
+    // The default modifiers are:
+    //  - the_vault:rotten modifier 1 times
+    //  - the_vault:shortened modifier 15 times
+    "start_modifiers": [
+      {
+        // The Vault Hunters modifier identifier.
+        "modifier": "the_vault:rotten",
+        // The count of modifiers.
+        "count": 1
+      },
+      {
+        // The Vault Hunters modifier identifier.
+        "modifier": "the_vault:shortened",
+        // The count of modifiers.
+        "count": 15
+      }
+    ],
+    // The fruits that can be added for cakes to be tastier.
+    // Chosen fruits matches VH fruits, however, you can use any values and names you want.
+    // The default fruits are:
+    //  - Sweet Kiwi with icon the_vault:sweet_kiwi, time added 200 and 0.6888 chance to spawn.
+    //  - Grapes with icon the_vault:grapes, time added 400 and 0.1721 chance to spawn.
+    //  - Bitter Lemon with icon the_vault:bitter_lemon, time added 600 and 0.0767 chance to spawn.
+    //  - Mango with icon the_vault:mango, time added 900 and 0.0340 chance to spawn.
+    //  - Sour Orange with icon the_vault:sour_orange, time added 1200 and 0.0191 chance to spawn.
+    //  - Star Fruit with icon the_vault:star_fruit, time added 1800 and 0.0085 chance to spawn.
+    //  - Mystic Pear with icon the_vault:mystic_pear, time added 6000 and 0.0008 chance to spawn.
+    "fruits": [
+      {
+        // The name of fruit that will be added before cake name when player clicks on cake.
+        "name": "Sweet Kiwi",
+        // The icon resource location. You can use any item in minecraft, as long as you
+        // provide correct resource location to it.
+        // The icon is spawned over cake as item to show it.
+        "icon": "the_vault:sweet_kiwi",
+        // The time increment in game ticks that is added for clicking on a cake.
+        // A second is 20 game ticks (normally) so your time in seconds need to be
+        // multiplied by 20.
+        "increment": 200,
+        // The chance for cake to spawn with this fruit.
+        // The value should be between 0 to 1.
+        "chance": 0.6888
+      },
+      {
+        // The name of fruit that will be added before cake name when player clicks on cake.
+        "name": "Grapes",
+        // The icon resource location. You can use any item in minecraft, as long as you
+        // provide correct resource location to it.
+        // The icon is spawned over cake as item to show it.
+        "icon": "the_vault:grapes",
+        // The time increment in game ticks that is added for clicking on a cake.
+        // A second is 20 game ticks (normally) so your time in seconds need to be
+        // multiplied by 20.
+        "increment": 400,
+        // The chance for cake to spawn with this fruit.
+        // The value should be between 0 to 1.
+        "chance": 0.1721
+      },
+      {
+        // The name of fruit that will be added before cake name when player clicks on cake.
+        "name": "Bitter Lemon",
+        // The icon resource location. You can use any item in minecraft, as long as you
+        // provide correct resource location to it.
+        // The icon is spawned over cake as item to show it.
+        "icon": "the_vault:bitter_lemon",
+        // The time increment in game ticks that is added for clicking on a cake.
+        // A second is 20 game ticks (normally) so your time in seconds need to be
+        // multiplied by 20.
+        "increment": 600,
+        // The chance for cake to spawn with this fruit.
+        // The value should be between 0 to 1.
+        "chance": 0.0767
+      },
+      {
+        // The name of fruit that will be added before cake name when player clicks on cake.
+        "name": "Mango",
+        // The icon resource location. You can use any item in minecraft, as long as you
+        // provide correct resource location to it.
+        // The icon is spawned over cake as item to show it.
+        "icon": "the_vault:mango",
+        // The time increment in game ticks that is added for clicking on a cake.
+        // A second is 20 game ticks (normally) so your time in seconds need to be
+        // multiplied by 20.
+        "increment": 900,
+        // The chance for cake to spawn with this fruit.
+        // The value should be between 0 to 1.
+        "chance": 0.034
+      },
+      {
+        // The name of fruit that will be added before cake name when player clicks on cake.
+        "name": "Sour Orange",
+        // The icon resource location. You can use any item in minecraft, as long as you
+        // provide correct resource location to it.
+        // The icon is spawned over cake as item to show it.
+        "icon": "the_vault:sour_orange",
+        // The time increment in game ticks that is added for clicking on a cake.
+        // A second is 20 game ticks (normally) so your time in seconds need to be
+        // multiplied by 20.
+        "increment": 1200,
+        // The chance for cake to spawn with this fruit.
+        // The value should be between 0 to 1.
+        "chance": 0.0191
+      },
+      {
+        // The name of fruit that will be added before cake name when player clicks on cake.
+        "name": "Star Fruit",
+        // The icon resource location. You can use any item in minecraft, as long as you
+        // provide correct resource location to it.
+        // The icon is spawned over cake as item to show it.
+        "icon": "the_vault:star_fruit",
+        // The time increment in game ticks that is added for clicking on a cake.
+        // A second is 20 game ticks (normally) so your time in seconds need to be
+        // multiplied by 20.
+        "increment": 1800,
+        // The chance for cake to spawn with this fruit.
+        // The value should be between 0 to 1.
+        "chance": 0.0085
+      },
+      {
+        // The name of fruit that will be added before cake name when player clicks on cake.
+        "name": "Mystic Pear",
+        // The icon resource location. You can use any item in minecraft, as long as you
+        // provide correct resource location to it.
+        // The icon is spawned over cake as item to show it.
+        "icon": "the_vault:mystic_pear",
+        // The time increment in game ticks that is added for clicking on a cake.
+        // A second is 20 game ticks (normally) so your time in seconds need to be
+        // multiplied by 20.
+        "increment": 6000,
+        // The chance for cake to spawn with this fruit.
+        // The value should be between 0 to 1.
+        "chance": 8.0E-4
+      }
+    ],
+    // This map allows to define list of fruits that are disabled if you have more then X players in vault.
+    // You can define it as you want, but you need to keep fruit names the same here.
+    // Blocking fruit will increase chance to have other fruits instead.
+    // The default just shows the way how it can be added.
+    //   The number <30> shows on how many vault runners it will be triggered.
+    //   The list of names are the exact you defined in `Fruit` list.
+    //   The fruits are removed from defined and all next levels.
+    //   In default setting 30 and 31 vault runners will not get Star Fruit, but 32 and more runners
+    //   will not get Star Fruit and Mangos. Bellow 30 vault runners will have all fruits.
+    "member_count_punishments": {
+      "30": [
+        "Star Fruit"
+      ],
+      "32": [
+        "Star Fruit",
+        "Mango"
+      ]
+    }
+  },
+  // The cow vault settings.
+  "cow_vault_settings": {
+    // This allows to define in which 'theme' cow vaults can be triggered.
+    // The default value `the_vault:classic_vault_chaos` makes cow vaults to be
+    // triggered only in chaos vaults.
+    // Setting value to `the_vault:null` will make it work in all themes, and all vault types.
+    "theme": "the_vault:classic_vault_chaos",
+    // This allows to define in which 'objective' cow vaults can be triggered.
+    // The default value `""` allows it to generate in all objectives.
+    "objective": "",
+    // This allows to define extra modifiers that are added to the vault when cow vault is triggered.
+    // The default value coin explosion.
+    "extra_modifiers": [
+      {
+        // The Vault Hunters modifier identifier.
+        "modifier": "the_vault:bronze_nuke",
+        // The count of modifiers.
+        "count": 1
+      }
+    ],
+    // The list of modifiers that triggers cow vaults.
+    // The default list contains:
+    //  - the_vault:wild modifier 5 times
+    //  - the_vault:furious_mobs modifier 5 times
+    //  - the_vault:infuriated_mobs modifier 5 times
+    // You can change and modify this list, however, keep in mind that cow vaults are
+    // triggered only in chaos vaults, so you can use only chaos vaults modifiers.
+    "cow_vault_triggers": [
+      {
+        // The Vault Hunters modifier identifier.
+        "modifier": "the_vault:wild",
+        // The count of modifiers.
+        "count": 5
+      },
+      {
+        // The Vault Hunters modifier identifier.
+        "modifier": "the_vault:furious_mobs",
+        // The count of modifiers.
+        "count": 5
+      },
+      {
+        // The Vault Hunters modifier identifier.
+        "modifier": "the_vault:infuriated_mobs",
+        // The count of modifiers.
+        "count": 5
+      }
+    ]
+  }
+}

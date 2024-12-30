@@ -1,0 +1,531 @@
+{
+  "perRecoveryMultiplierIncrease": 0.0,
+  "perCompletionMultiplierDecrease": 5.0,
+  "heroDiscountMin": 0.0,
+  "heroDiscountMax": 0.0,
+  "rescuedBonusMin": 0.3,
+  "rescuedBonusMax": 0.9,
+  "levelCosts": [
+    {
+      "minLevel": 0,
+      "item": "the_vault:vault_gold",
+      "count": 0.0,
+      "gearRarityCost": {
+        "SCRAPPY": 0,
+        "COMMON": 0,
+        "RARE": 1,
+        "EPIC": 2,
+        "OMEGA": 3,
+        "UNIQUE": 0
+      },
+      "toolMaterialCost": {
+        "CHROMATIC_IRON_INGOT": 0,
+        "CHROMATIC_STEEL_INGOT": 0,
+        "VAULTERITE_INGOT": 2,
+        "VAULT_ALLOY": 6,
+        "BLACK_CHROMATIC_STEEL_INGOT": 12,
+        "ECHOING_INGOT": 24,
+        "OMEGA_POG": 48
+      },
+      "itemCost": [
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_iskallium"
+          },
+          5
+        ],
+        [
+          {
+            "item": "the_vault:key_gorginite"
+          },
+          5
+        ],
+        [
+          {
+            "item": "the_vault:key_tubium"
+          },
+          5
+        ],
+        [
+          {
+            "item": "the_vault:key_sparkletine"
+          },
+          5
+        ],
+        [
+          {
+            "item": "the_vault:key_ashium"
+          },
+          5
+        ],
+        [
+          {
+            "item": "the_vault:key_bomignite"
+          },
+          5
+        ],
+        [
+          {
+            "item": "the_vault:key_upaline"
+          },
+          5
+        ],
+        [
+          {
+            "item": "the_vault:key_petzanite"
+          },
+          5
+        ],
+        [
+          {
+            "item": "the_vault:key_xenium"
+          },
+          5
+        ]
+      ],
+      "trinketCost": 10
+    },
+    {
+      "minLevel": 20,
+      "item": "the_vault:vault_gold",
+      "count": 0.05,
+      "gearRarityCost": {
+        "SCRAPPY": 0,
+        "COMMON": 1,
+        "RARE": 2,
+        "EPIC": 4,
+        "OMEGA": 5,
+        "UNIQUE": 0
+      },
+      "toolMaterialCost": {
+        "CHROMATIC_IRON_INGOT": 0,
+        "CHROMATIC_STEEL_INGOT": 0,
+        "VAULTERITE_INGOT": 2,
+        "VAULT_ALLOY": 6,
+        "BLACK_CHROMATIC_STEEL_INGOT": 12,
+        "ECHOING_INGOT": 24,
+        "OMEGA_POG": 48
+      },
+      "itemCost": [
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_iskallium"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_gorginite"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_tubium"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_sparkletine"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_ashium"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_bomignite"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_upaline"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_petzanite"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_xenium"
+          },
+          6
+        ]
+      ],
+      "trinketCost": 10
+    },
+    {
+      "minLevel": 40,
+      "item": "the_vault:vault_gold",
+      "count": 0.1,
+      "gearRarityCost": {
+        "SCRAPPY": 0,
+        "COMMON": 2,
+        "RARE": 4,
+        "EPIC": 8,
+        "OMEGA": 12,
+        "UNIQUE": 0
+      },
+      "toolMaterialCost": {
+        "CHROMATIC_IRON_INGOT": 0,
+        "CHROMATIC_STEEL_INGOT": 0,
+        "VAULTERITE_INGOT": 2,
+        "VAULT_ALLOY": 6,
+        "BLACK_CHROMATIC_STEEL_INGOT": 12,
+        "ECHOING_INGOT": 24,
+        "OMEGA_POG": 48
+      },
+      "itemCost": [
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_iskallium"
+          },
+          7
+        ],
+        [
+          {
+            "item": "the_vault:key_gorginite"
+          },
+          7
+        ],
+        [
+          {
+            "item": "the_vault:key_tubium"
+          },
+          7
+        ],
+        [
+          {
+            "item": "the_vault:key_sparkletine"
+          },
+          7
+        ],
+        [
+          {
+            "item": "the_vault:key_ashium"
+          },
+          7
+        ],
+        [
+          {
+            "item": "the_vault:key_bomignite"
+          },
+          7
+        ],
+        [
+          {
+            "item": "the_vault:key_upaline"
+          },
+          7
+        ],
+        [
+          {
+            "item": "the_vault:key_petzanite"
+          },
+          7
+        ],
+        [
+          {
+            "item": "the_vault:key_xenium"
+          },
+          7
+        ]
+      ],
+      "trinketCost": 12
+    },
+    {
+      "minLevel": 50,
+      "item": "the_vault:vault_gold",
+      "count": 0.2,
+      "gearRarityCost": {
+        "SCRAPPY": 0,
+        "COMMON": 2,
+        "RARE": 5,
+        "EPIC": 9,
+        "OMEGA": 14,
+        "UNIQUE": 0
+      },
+      "toolMaterialCost": {
+        "CHROMATIC_IRON_INGOT": 0,
+        "CHROMATIC_STEEL_INGOT": 0,
+        "VAULTERITE_INGOT": 2,
+        "VAULT_ALLOY": 6,
+        "BLACK_CHROMATIC_STEEL_INGOT": 12,
+        "ECHOING_INGOT": 24,
+        "OMEGA_POG": 48
+      },
+      "itemCost": [
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_iskallium"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_gorginite"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_tubium"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_sparkletine"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_ashium"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_bomignite"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_upaline"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_petzanite"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_xenium"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:card_deck"
+          },
+          8
+        ]
+      ],
+      "trinketCost": 14
+    },
+    {
+      "minLevel": 65,
+      "item": "the_vault:vault_gold",
+      "count": 0.2,
+      "gearRarityCost": {
+        "SCRAPPY": 0,
+        "COMMON": 2,
+        "RARE": 8,
+        "EPIC": 13,
+        "OMEGA": 18,
+        "UNIQUE": 0
+      },
+      "toolMaterialCost": {
+        "CHROMATIC_IRON_INGOT": 0,
+        "CHROMATIC_STEEL_INGOT": 0,
+        "VAULTERITE_INGOT": 2,
+        "VAULT_ALLOY": 6,
+        "BLACK_CHROMATIC_STEEL_INGOT": 12,
+        "ECHOING_INGOT": 24,
+        "OMEGA_POG": 48
+      },
+      "itemCost": [
+        [
+          {
+            "item": "sophisticatedbackpacks:iron_backpack"
+          }, 
+          1
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:gold_backpack"
+          },
+          2
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:diamond_backpack"
+          },
+          4
+        ],
+        [
+          {
+            "item": "sophisticatedbackpacks:netherite_backpack"
+          },
+          6
+        ],
+        [
+          {
+            "item": "the_vault:key_iskallium"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_gorginite"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_tubium"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_sparkletine"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_ashium"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_bomignite"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_upaline"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_petzanite"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:key_xenium"
+          },
+          8
+        ]
+      ],
+      "trinketCost": 14
+    }
+  ]
+}

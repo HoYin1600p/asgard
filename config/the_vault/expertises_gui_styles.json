@@ -1,0 +1,88 @@
+{
+  "styles": {
+    "Lucky_Altar": {
+      "x": 210,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/lucky_altar"
+    },
+    "Bartering": {
+      "x": 140,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/bartering"
+    },
+    "Artisan": {
+      "x": 280,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/blacksmithing"
+    },
+    "Angel": {
+      "x": 350,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/angel"
+    },
+    "Bounty_Hunter": {
+      "x": 280,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/bounty_hunter"
+    },
+    "Marketer": {
+      "x": 350,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/marketer"
+    },
+    "Unbreakable": {
+      "x": 70,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/unbreakable"
+    },
+    "Divine": {
+      "x": 280,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/divine"
+    },
+    "Trinketer": {
+      "x": 210,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/trinketer"
+    },
+    "Mystic": {
+      "x": 140,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/mystic"
+    },
+    "Infuser": {
+      "x": 70,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/infuser"
+    },
+    "Experienced": {
+      "x": 140,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/experienced"
+    },
+    "Fortunate": {
+      "x": 70,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/fortunate"
+    },
+    "Fortuitous_Finesse": {
+      "x": 350,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/fortuitous_finesse"
+    }
+  }
+}

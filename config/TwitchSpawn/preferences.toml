@@ -1,0 +1,45 @@
+# Displaying style of the status indicator. Can be:
+# "enabled" to fully enable
+# "circle_only" to show the circle only, without the logo
+# "disabled" to fully disable
+indicatorDisplay="disabled"
+
+# Displaying style of the event messages. Can be:
+# "titles" to display on titles in the middle of screen
+# "chat" to display on chatbox
+# "disabled" to fully disable
+messageDisplay="disabled"
+
+# Volume of the notification sound
+# Min: 0.0 - Max: 1.0
+notificationVolume=0.0
+
+# Pitch of the notification sound
+# Min: 0.0 - Max: 1.0
+# Alternatively -1.0 for random pitch each time
+notificationPitch=0.0
+
+# Delay between each event to be handled
+# Unit of it is milliseconds (5000 milliseconds = 5 seconds)
+# Min: 0
+notificationDelay=5000
+
+# Attempt to auto-start the mod when the server/world is starting
+# Connection issues will be resulted in mod to stop. However, you can still start it manually.
+# Either "enabled" or "disabled"
+autoStart="disabled"
+
+# Global cooldown before Twitch Chat Message event can be triggered.
+# Unit of it is milliseconds (1000 milliseconds = 1 second)
+# Min: 0
+chatGlobalCooldown=60000
+
+# Individual cooldown before an individual viewer can trigger a new Twitch Chat Message event
+# Unit of it is milliseconds (1000 milliseconds = 1 second)
+# Min: 0
+chatIndividualCooldown=120000
+
+# Whether it should warn users on the chat when a cooldown is present or not
+# Either "enabled" or "disabled"
+chatWarnings="enabled"
+

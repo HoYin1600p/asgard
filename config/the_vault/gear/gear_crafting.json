@@ -1,0 +1,119 @@
+{
+  "defaultCraftedPool": "Scrappy",
+  "proficiencyPools": [
+    {
+      "minProficiency": 0.0,
+      "proficiencyName": "Beginner",
+      "durabilityOutcomeName": "Very Low",
+      "pool": "Scrappy+",
+      "color": 14745587,
+      "craftingPotentialMultiplier": 0.0,
+      "greaterModifierChance": 0.0,
+      "maximumRepairSlots": 1,
+      "soulboundChance": 0.0,
+      "soulboundModifierId": "the_vault:base_soulbound",
+      "gearRollOutcomeModifiers": [
+        {
+          "gearModifierId": "the_vault:base_durability",
+          "outcomeBias": "WORST",
+          "rollAttempts": 40
+        }
+      ]
+    },
+    {
+      "minProficiency": 0.2,
+      "proficiencyName": "Apprentice",
+      "durabilityOutcomeName": "Low",
+      "pool": "Common+",
+      "color": 11794910,
+      "craftingPotentialMultiplier": 0.2,
+      "greaterModifierChance": 0.02,
+      "maximumRepairSlots": 2,
+      "soulboundChance": 0.1,
+      "soulboundModifierId": "the_vault:base_soulbound",
+      "gearRollOutcomeModifiers": [
+        {
+          "gearModifierId": "the_vault:base_durability",
+          "outcomeBias": "WORST",
+          "rollAttempts": 20
+        }
+      ]
+    },
+    {
+      "minProficiency": 0.4,
+      "proficiencyName": "Adept",
+      "durabilityOutcomeName": "Mid",
+      "pool": "Common+",
+      "color": 8844233,
+      "craftingPotentialMultiplier": 0.4,
+      "greaterModifierChance": 0.04,
+      "maximumRepairSlots": 3,
+      "soulboundChance": 0.2,
+      "soulboundModifierId": "the_vault:base_soulbound",
+      "gearRollOutcomeModifiers": [
+        {
+          "gearModifierId": "the_vault:base_durability",
+          "outcomeBias": "BEST",
+          "rollAttempts": 5
+        }
+      ]
+    },
+    {
+      "minProficiency": 0.6,
+      "proficiencyName": "Expert",
+      "durabilityOutcomeName": "High",
+      "pool": "Common+",
+      "color": 5959092,
+      "craftingPotentialMultiplier": 0.6,
+      "greaterModifierChance": 0.06,
+      "maximumRepairSlots": 4,
+      "soulboundChance": 0.3,
+      "soulboundModifierId": "the_vault:base_soulbound",
+      "gearRollOutcomeModifiers": [
+        {
+          "gearModifierId": "the_vault:base_durability",
+          "outcomeBias": "BEST",
+          "rollAttempts": 10
+        }
+      ]
+    },
+    {
+      "minProficiency": 0.8,
+      "proficiencyName": "Master",
+      "durabilityOutcomeName": "Very High",
+      "pool": "Rare+",
+      "color": 3008415,
+      "craftingPotentialMultiplier": 0.8,
+      "greaterModifierChance": 0.08,
+      "maximumRepairSlots": 5,
+      "soulboundChance": 0.4,
+      "soulboundModifierId": "the_vault:base_soulbound",
+      "gearRollOutcomeModifiers": [
+        {
+          "gearModifierId": "the_vault:base_durability",
+          "outcomeBias": "BEST",
+          "rollAttempts": 20
+        }
+      ]
+    },
+    {
+      "minProficiency": 1.0,
+      "proficiencyName": "Grandmaster",
+      "durabilityOutcomeName": "Excellent",
+      "pool": "Rare+",
+      "color": 57738,
+      "craftingPotentialMultiplier": 1.0,
+      "greaterModifierChance": 0.1,
+      "maximumRepairSlots": 6,
+      "soulboundChance": 0.5,
+      "soulboundModifierId": "the_vault:base_soulbound",
+      "gearRollOutcomeModifiers": [
+        {
+          "gearModifierId": "the_vault:base_durability",
+          "outcomeBias": "BEST",
+          "rollAttempts": 100
+        }
+      ]
+    }
+  ]
+}

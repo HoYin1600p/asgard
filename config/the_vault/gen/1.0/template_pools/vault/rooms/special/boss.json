@@ -1,0 +1,16 @@
+[
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/rooms/special/boss1",
+      "palettes": [ "the_vault:special/boss/boss1" ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/rooms/special/boss2",
+      "palettes": [ "the_vault:special/boss/boss2" ]
+    }
+  }
+]

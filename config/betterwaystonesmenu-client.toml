@@ -1,0 +1,19 @@
+#Waystone List Sorting Mode
+#Allowed Values: INDEX, NAME, DISTANCE
+sortMode = "NAME"
+#Focus Search bar when the menu opens
+focusSearch = true
+#Disable scrollbar animation
+reducedMotion = false
+#Menu height scale in percentage
+#Range: 0.4 ~ 0.8
+menuHeightScale = 0.66
+#Completely disable the menu
+disabled = false
+
+[advanced]
+	#Put Special Characters at first for Sort by Name mode
+	specialCharsFirst = true
+	#Show most relevant search results first
+	weightedSearch = true
+

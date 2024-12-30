@@ -1,0 +1,26 @@
+#override max level
+#Range: > -1
+maxLevelOverride = -1
+#show ability enhancements
+showAbilityEnhancements = false
+#show weight
+showWeight = false
+#show chance
+showChance = true
+#vhcir won't show chance/weight for affixes in these groups
+affixTagGroupBlacklist = ["CRAFTED_PREFIX", "CRAFTED_SUFFIX"]
+
+[BUTTON]
+	#open VHat can I roll? from vault screen
+	vaultScreenButton = true
+	#x position of the button
+	#Range: > -2147483648
+	buttonPositionX = 5
+	#y position of the button (109 default, 130 for QOL Hunters)
+	#Range: > -2147483648
+	buttonPositionY = 130
+
+[DEBUG]
+	#QOL Hunters conflict resolution (shouldn't be disabled unless it causes issues)
+	QOLHuntersConflictResolution = true
+

@@ -1,0 +1,243 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "the_vault:tenos_light_smooth_brick": 1,
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "the_vault:tenos_light_smooth_brick": 1,
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:mossy_cobblestone",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "the_vault:tenos_light_smooth_brick": 1,
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tuff",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "the_vault:tenos_light_smooth_brick": 1,
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_tuff",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "the_vault:tenos_light_smooth_brick": 1,
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:rocky_stone",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "the_vault:tenos_light_smooth_brick": 1,
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:mossy_stone",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "the_vault:tenos_light_smooth_brick": 1,
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass_block",
+      "output": {
+        "botania:infused_grass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:moss_block",
+      "output": {
+        "minecraft:warped_wart_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_concrete_powder",
+      "output": {
+        "minecraft:cyan_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_concrete",
+      "output": {
+        "minecraft:cyan_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:clay",
+      "output": {
+        "minecraft:cyan_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dirt_path",
+      "output": {
+        "minecraft:light_blue_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "twigs:tuff_stairs",
+      "output": {
+        "quark:blue_nether_bricks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:azalea_leaves",
+      "output": {
+        "quark:blue_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:flowering_azalea_leaves",
+      "output": {
+        "quark:lavender_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cave_vines",
+      "output": {
+        "quark:pink_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cave_vines_plant",
+      "output": {
+        "quark:pink_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:brown_mushroom",
+      "output": {
+        "quark:glow_shroom": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_mushroom",
+      "output": {
+        "quark:glow_shroom": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass",
+      "output": {
+        "minecraft:cyan_candle[lit=true,candles=1]": 4,
+        "minecraft:cyan_candle[lit=true,candles=2]": 3,
+        "minecraft:cyan_candle[lit=true,candles=3]": 2,
+        "minecraft:cyan_candle[lit=true,candles=4]": 1,
+        "quark:glow_lichen_growth": 10
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:azalea",
+      "output": {
+        "botania:cyan_shiny_flower": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:flowering_azalea",
+      "output": {
+        "botania:blue_shiny_flower": 1,
+        "botania:light_blue_shiny_flower": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:large_fern[half=lower]",
+      "output": {
+        "botania:cyan_double_flower[half=lower]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:large_fern[half=upper]",
+      "output": {
+        "botania:cyan_double_flower[half=upper]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_mushroom_block",
+      "output": {
+        "auxiliaryblocks:purple_gelatin": 2,
+        "auxiliaryblocks:blue_crystal": 1,
+        "quark:indigo_corundum": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:brown_mushroom_block",
+      "output": {
+        "auxiliaryblocks:cyan_gelatin": 2,
+        "auxiliaryblocks:blue_crystal": 1,
+        "quark:blue_corundum": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:moss_carpet",
+      "output": {
+        "minecraft:cyan_carpet": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "ecologics:moss_layer",
+      "output": {
+        "minecraft:cyan_carpet": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_slab",
+      "output": {
+        "minecraft:warped_slab": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

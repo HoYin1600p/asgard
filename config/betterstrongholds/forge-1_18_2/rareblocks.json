@@ -1,0 +1,12 @@
+{
+  "blockChances": {
+    "entries": {
+      "minecraft:diamond_block": 0.1,
+      "minecraft:quartz_block": 0.3,
+      "minecraft:iron_block": 0.3,
+      "minecraft:gold_block": 0.3,
+      "the_vault:chromatic_iron_block": 0.15
+    },
+    "defaultBlock": "minecraft:iron_block"
+  }
+}

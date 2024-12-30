@@ -1,0 +1,16 @@
+{
+  "type": "diy_vault",
+  "starts": "the_vault:vault/starts/blank_starts",
+  "common_rooms": "the_vault:vault/rooms/blank_common_rooms",
+  "challenge_rooms": "the_vault:vault/rooms/challenge_rooms",
+  "omega_rooms": "the_vault:vault/rooms/omega_rooms",
+  "tunnels": "the_vault:vault/tunnels/blank_tunnels",
+  "ambient_light": 0.2,
+  "fog_color": 14408667,
+  "grass_color": 14408667,
+  "foliage_color": 14408667,
+  "water_color": 14408667,
+  "water_fog_color": 14408667,
+  "particle": "minecraft:ash",
+  "particle_probability": 0.001
+}

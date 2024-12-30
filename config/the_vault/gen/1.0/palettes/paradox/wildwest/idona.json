@@ -1,0 +1,132 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sand",
+      "output": {
+        "minecraft:red_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:dirty_sand",
+      "output": {
+        "minecraft:red_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone",
+      "output": {
+        "minecraft:red_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone",
+      "output": {
+        "minecraft:red_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:cobbled_sandstone",
+      "output": {
+        "minecraft:red_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cut_sandstone_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone_wall",
+      "output": {
+        "minecraft:red_nether_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:birch_pressure_plate",
+      "output": {
+        "minecraft:crimson_pressure_plate": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_dripstone_bricks",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:yellow_pastel",
+      "output": {
+        "the_vault:idona_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:smooth_yellow_pastel",
+      "output": {
+        "the_vault:idona_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:orange_pastel",
+      "output": {
+        "the_vault:idona_dark_smooth_brick": 9,
+        "the_vault:idona_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:smooth_orange_pastel",
+      "output": {
+        "the_vault:idona_dark_smooth_brick": 9,
+        "the_vault:idona_gem_block": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

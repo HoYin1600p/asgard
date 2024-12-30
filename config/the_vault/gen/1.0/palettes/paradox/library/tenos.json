@@ -1,0 +1,104 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_bricks",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:heavy_stone_bricks",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:heavy_cracked_stone_bricks",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_brick_stairs",
+      "output": {
+        "quark:blue_nether_bricks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:andesite_pillar",
+      "output": {
+        "create:asurine_pillar": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:layered_andesite",
+      "output": {
+        "create:layered_asurine": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite",
+      "output": {
+        "create:cut_asurine": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite_brick_stairs",
+      "output": {
+        "create:cut_asurine_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite_stairs",
+      "output": {
+        "create:cut_asurine_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite_slab",
+      "output": {
+        "create:cut_asurine_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_andesite_brick_wall",
+      "output": {
+        "create:cut_asurine_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:acacia_leaves",
+      "output": {
+        "quark:blue_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:acacia_hedge",
+      "output": {
+        "quark:blue_blossom_hedge": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

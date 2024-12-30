@@ -1,0 +1,94 @@
+{
+  "styles": {
+    "Unbreakable": {
+      "x": 70,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/unbreakable"
+    },
+    "Mystic": {
+      "x": 140,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/mystic"
+    },
+    "Angel": {
+      "x": 350,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/angel"
+    },
+    "Bartering": {
+      "x": 140,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/bartering"
+    },
+    "Divine": {
+      "x": 280,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/divine"
+    },
+    "Fortuitous_Finesse": {
+      "x": 350,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/fortuitous_finesse"
+    },
+    "Artisan": {
+      "x": 280,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/blacksmithing"
+    },
+    "Bounty_Hunter": {
+      "x": 280,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/bounty_hunter"
+    },
+    "Experienced": {
+      "x": 140,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/experienced"
+    },
+    "Trinketer": {
+      "x": 210,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/trinketer"
+    },
+    "Craftsman": {
+      "x": 210,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/blacksmithing"
+    },
+    "Marketer": {
+      "x": 350,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/marketer"
+    },
+    "Fortunate": {
+      "x": 70,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/fortunate"
+    },
+    "Lucky_Altar": {
+      "x": 210,
+      "y": 260,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/lucky_altar"
+    },
+    "Infuser": {
+      "x": 70,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/infuser"
+    }
+  }
+}

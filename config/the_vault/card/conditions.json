@@ -1,0 +1,425 @@
+{
+  "values": {
+    "default": {
+      "tiers": [
+        {
+          "tier": 1,
+          "pool": [
+            {
+              "filters": [
+                {
+                  "neighborFilter": [
+                    {
+                      "weight": 3.0
+                    },
+                    {
+                      "value": [ "ROW" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "COLUMN" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "DIAGONAL" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "ADJACENT" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "SURROUNDING" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "tierFilter": [
+                    {
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [
+                        2
+                      ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "colorFilter": [
+                    {
+                      "weight": 2.0
+                    },
+                    {
+                      "value": [ "GREEN" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "BLUE" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "YELLOW" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "RED" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "groupFilter": [
+                    {
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "Foil" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "Stat" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "minCount": {
+                    "min": 1,
+                    "max": 2,
+                    "type": "uniform"
+                  },
+                  "maxCount": {
+                    "min": 5,
+                    "max": 6,
+                    "type": "uniform"
+                  }
+                }
+              ],
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    "arcane_conditions": {
+      "tiers": [
+        {
+          "tier": 1,
+          "pool": [
+            {
+              "filters": [
+                {
+                  "neighborFilter": [
+                    {
+                      "weight": 100.0
+                    }
+                  ],
+                  "colorFilter": [
+                    {
+                      "value": [ "GREEN" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "BLUE" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "YELLOW" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "RED" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "groupFilter": [
+                    {
+                      "value": [ "Stat" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "Resource" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "Evolution" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "minCount": {
+                    "min": 7,
+                    "max": 10,
+                    "type": "uniform"
+                  }
+                }
+              ],
+              "weight": 1.0
+            },
+            {
+              "filters": [
+                {
+                  "neighborFilter": [
+                    {
+                      "value": [ "ROW" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "COLUMN" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "DIAGONAL" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "ADJACENT" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "colorFilter": [
+                    {
+                      "value": [ "GREEN" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "BLUE" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "YELLOW" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "RED" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "groupFilter": [
+                    {
+                      "value": [ "Stat" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "Resource" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "Evolution" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "minCount": {
+                    "min": 3,
+                    "max": 4,
+                    "type": "uniform"
+                  }
+                }
+              ],
+              "weight": 1.0
+            },
+            {
+              "filters": [
+                {
+                  "neighborFilter": [
+                    {
+                      "weight": 1.0
+                    }
+                  ],
+                  "colorFilter": [
+                    {
+                      "weight": 1.0
+                    }
+                  ],
+                  "groupFilter": [
+                    {
+                      "value": [ "Arcane" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "maxCount": {
+                    "min": 1,
+                    "max": 3,
+                    "type": "uniform"
+                  }
+                }
+              ],
+              "weight": 1.0
+            },
+            {
+              "filters": [
+                {
+                  "neighborFilter": [
+                    {
+                      "weight": 1.0
+                    }
+                  ],
+                  "colorFilter": [
+                    {
+                      "weight": 1.0
+                    }
+                  ],
+                  "groupFilter": [
+                    {
+                      "value": [ "Stat" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "Resource" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "Evolution" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "minCount": {
+                    "min": 1,
+                    "max": 2,
+                    "type": "uniform"
+                  },
+                  "maxCount": {
+                    "min": 4,
+                    "max": 6,
+                    "type": "uniform"
+                  }
+                }
+              ],
+              "weight": 1.0
+            },
+            {
+              "filters": [
+                {
+                  "neighborFilter": [
+                    {
+                      "weight": 1.0
+                    }
+                  ],
+                  "colorFilter": [
+                    {
+                      "value": [ "GREEN" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "BLUE" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "YELLOW" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "RED" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "groupFilter": [
+                    {
+                      "weight": 1.0
+                    }
+                  ],
+                  "minCount": {
+                    "min": 1,
+                    "max": 2,
+                    "type": "uniform"
+                  },
+                  "maxCount": {
+                    "min": 4,
+                    "max": 6,
+                    "type": "uniform"
+                  }
+                }
+              ],
+              "weight": 1.0
+            },
+            {
+              "filters": [
+                {
+                  "neighborFilter": [
+                    {
+                      "value": [ "ROW" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "COLUMN" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "DIAGONAL" ],
+                      "weight": 1.0
+                    },
+                    {
+                      "value": [ "ADJACENT" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "colorFilter": [
+                    {
+                      "weight": 1.0
+                    }
+                  ],
+                  "groupFilter": [
+                    {
+                      "weight": 1.0
+                    }
+                  ],
+                  "maxCount": {
+                    "min": 1,
+                    "max": 2,
+                    "type": "uniform"
+                  }
+                }
+              ],
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    "temporal_conditions": {
+      "tiers": [
+        {
+          "tier": 1,
+          "pool": [
+            {
+              "filters": [
+                {
+                  "neighborFilter": [
+                    {
+                      "weight": 100.0
+                    }
+                  ],
+                  "colorFilter": [
+                    {
+                      "weight": 40.0
+                    }
+                  ],
+                  "groupFilter": [
+                    {
+                      "value": [ "Temporal" ],
+                      "weight": 1.0
+                    }
+                  ],
+                  "maxCount": {
+                    "min": 1,
+                    "max": 1,
+                    "type": "uniform"
+                  }
+                }
+              ],
+              "weight": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pools": {
+    "default": [
+      {
+        "value": "arcane_conditions",
+        "weight": 1.0
+      }
+    ],
+    "temporal": [
+      {
+        "value": "temporal_conditions",
+        "weight": 1.0
+      }
+    ]
+  }
+}

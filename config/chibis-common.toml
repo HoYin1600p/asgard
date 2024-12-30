@@ -1,0 +1,14 @@
+
+["Configs for Chibis"]
+	#The AI targeting goal.
+	#Allowed Values: PROFILE, PLAYERS, CHIBIS, NONE, ALL, ENEMY, TAMED, LIST
+	"AI Targeting Module" = "PROFILE"
+	#If AI Targeting Goal is 'LIST', the following IDs will be targeted.
+	"List Config IDs" = ["minecraft:pig", "minecraft:sheep", "minecraft:cat"]
+	#Food items heal the Chibis
+	"Food Items Heal" = true
+	#Drops Playerhead on death
+	"Drops PlayerHead" = false
+	#Drops Given Equipment on death. (If false, items you give the chibi may be lost forever!)
+	"Drops Given Equipment" = true
+

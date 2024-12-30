@@ -1,0 +1,236 @@
+{
+  "donation": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " donated you ${amount_f}${currency}",
+      "color": "white"
+    }
+  ],
+  "loyalty point redemption": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " redeemed a reward!",
+      "color": "white"
+    }
+  ],
+  "twitch follow": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " followed you!",
+      "color": "white"
+    }
+  ],
+  "twitch subscription": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " subscribed you!",
+      "color": "white"
+    },
+    {
+      "text": " (Month(s): ${months})",
+      "color": "gold"
+    }
+  ],
+  "twitch subscription gift": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " gifted",
+      "color": "white"
+    },
+    {
+      "text": " ${amount_i}",
+      "color": "gold"
+    },
+    {
+      "text": " x ",
+      "color": "white"
+    },
+    {
+      "text": "Tier ${tier}",
+      "color": "gold"
+    },
+    {
+      "text": " subs!",
+      "color": "white"
+    }
+  ],
+  "twitch host": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " hosted you",
+      "color": "white"
+    },
+    {
+      "text": " with ${viewers} viewer(s)!",
+      "color": "gold"
+    }
+  ],
+  "twitch raid": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " raided you",
+      "color": "white"
+    },
+    {
+      "text": " with ${raiders} raider(s)!",
+      "color": "gold"
+    }
+  ],
+  "twitch bits": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " cheered ${amount_i} bit(s)",
+      "color": "white"
+    }
+  ],
+  "twitch channel point reward": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " redeemed an award!",
+      "color": "white"
+    }
+  ],
+  "twitch chat message": [
+    {
+      "text": "${actor}",
+      "color": "aqua"
+    },
+    {
+      "text": " sent something in chat!",
+      "color": "white"
+    }
+  ],
+  "youtube subscription": [
+    "Incoming youtube subscription"
+  ],
+  "youtube sponsor": [
+    "Incoming youtube sponsor"
+  ],
+  "youtube superchat": [
+    "Incoming youtube superchat"
+  ],
+  "mixer follow": [
+    "Incoming mixer follow"
+  ],
+  "mixer subscription": [
+    "Incoming mixer subscription"
+  ],
+  "mixer host": [
+    "Incoming mixer host"
+  ],
+  "reflection": [
+    {
+      "text": "${streamer}",
+      "color": "dark_purple"
+    },
+    {
+      "text": " reflected you a ",
+      "color": "white"
+    },
+    {
+      "text": "${event}",
+      "color": "gold"
+    },
+    {
+      "text": "!",
+      "color": "white"
+    }
+  ],
+  "justgiving donation": [
+    {
+      "text": "${actor}",
+      "color": "dark_purple"
+    },
+    {
+      "text": " donated ${amount_f}${currency}!",
+      "color": "white"
+    },
+    {
+      "text": " (JustGiving)",
+      "color": "gold"
+    }
+  ],
+  "extralife donation": [
+    {
+      "text": "${actor}",
+      "color": "dark_purple"
+    },
+    {
+      "text": " donated ${amount_f}${currency}!",
+      "color": "white"
+    },
+    {
+      "text": " (ExtraLife)",
+      "color": "gold"
+    }
+  ],
+  "tiltify donation": [
+    {
+      "text": "${actor}",
+      "color": "dark_purple"
+    },
+    {
+      "text": " donated ${amount_f}${currency}!",
+      "color": "white"
+    },
+    {
+      "text": " (Tiltify)",
+      "color": "gold"
+    }
+  ],
+  "patreon pledge": [
+    {
+      "text": "${actor}",
+      "color": "dark_purple"
+    },
+    {
+      "text": " pledged ${amount_f}${currency}!",
+      "color": "white"
+    },
+    {
+      "text": " (Patreon)",
+      "color": "gold"
+    }
+  ],
+  "treatstream treat": [
+    {
+      "text": "${actor}",
+      "color": "dark_purple"
+    },
+    {
+      "text": " treated you to a ${title}!",
+      "color": "white"
+    },
+    {
+      "text": " (TreatStream)",
+      "color": "gold"
+    }
+  ]
+}

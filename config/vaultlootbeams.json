@@ -1,0 +1,573 @@
+{
+  "renderDistance": 24.0,
+  "requireGround": true,
+  "renderCondition": "LISTS_ONLY",
+  "renderWhitelist": [
+    "the_vault:helmet",
+    "the_vault:chestplate",
+    "the_vault:leggings",
+    "the_vault:boots",
+    "the_vault:wand",
+    "the_vault:focus",
+    "the_vault:shield",
+    "the_vault:idol_benevolent",
+    "the_vault:idol_malevolence",
+    "the_vault:idol_omniscient",
+    "the_vault:idol_timekeeper",
+    "the_vault:axe",
+    "the_vault:sword",
+    "the_vault:trident",
+    "the_vault:battlestaff",
+    "the_vault:plushie",
+    "the_vault:loot_sack",
+    "the_vault:magnet",
+    "the_vault:trinket",
+    "the_vault:small_charm",
+    "the_vault:large_charm",
+    "the_vault:grand_charm",
+    "the_vault:majestic_charm",
+    "the_vault:card_deck",
+    "the_vault:gemstone",
+    "the_vault:key_piece",
+    "the_vault:blank_key",
+    "the_vault:unidentified_treasure_key",
+    "the_vault:knowledge_star",
+    "the_vault:antique",
+    "the_vault:tool"
+  ],
+  "renderBlacklist": [],
+  "beamRadius": 1.0,
+  "beamHeight": 2.0,
+  "beamYOffset": 0.0,
+  "beamAlpha": 0.7,
+  "whiteBeamCenter": true,
+  "beamShadow": true,
+  "shadowRadius": 0.5,
+  "shadowAlphaMultiplier": 1.0,
+  "animateShadow": true,
+  "beamRenderMode": "GLOWING",
+  "beamColorMode": "NAME_OR_RARITY",
+  "colorOverrides": {
+    "artifacts": {
+      "items": [
+        "the_vault:*_artifact",
+        "the_vault:vault_crate",
+        "the_vault:vault_crate_elixir",
+        "the_vault:vault_crate_monolith",
+        "the_vault:vault_crate_scavenger",
+        "the_vault:vault_crate_bingo",
+        "the_vault:vault_crate_bingo_full",
+        "the_vault:vault_crate_cake",
+        "the_vault:vault_crate_champion",
+        "the_vault:vault_crate_paradox",
+        "the_vault:vault_crate_bounty",
+        "the_vault:vault_crate_offering_boss",
+        "the_vault:jewel_pouch"
+      ],
+      "colors": "0xFFA800"
+    },
+    "the_vault:inscription": "0x8BFFCA",
+    "the_vault:lost_bounty": "0xFFFA9E",
+    "the_vault:old_notes": "0xD4A661",
+    "the_vault:bounty_pearl": "0x38203E",
+    "the_vault:vault_catalyst": "0xDCCE90",
+    "the_vault:card_deck": "0x008080",
+    "prismatics": {
+      "items": [
+        "the_vault:*_pog",
+        "woldsvaults:*_prism",
+        "woldsvaults:gem_box",
+        "woldsvaults:omega_box",
+        "vaultkeychain:keychain",
+        "woldsvaults:smashed_vault_gem",
+        "woldsvaults:wold_star_chunk",
+        "woldsvaults:wold_star",
+        "woldsvaults:gem_pog_block",
+        "woldsvaults:omega_pog_block",
+        "woldsvaults:catalyst_box",
+        "woldsvaults:prismatic_angel_ring"
+      ],
+      "colors": [
+        "0x6FE400",
+        "0x0249F4",
+        "0xFF21FF",
+        "0xDF1A1A"
+      ]
+    },
+    "gigatonium": {
+      "items": [
+        "the_vault:*_ashium",
+        "woldsvaults:*_ashium"
+      ],
+      "colors": "0xD9772F"
+    },
+    "holladium": {
+      "items": [
+        "the_vault:*_bomignite",
+        "woldsvaults:*_bomignite"
+      ],
+      "colors": [
+        "0xE03847",
+        "0x000000",
+        "0x3F7BDA",
+        "0x000000"
+      ]
+    },
+    "linathyst": {
+      "items": [
+        "the_vault:*_gorginite",
+        "woldsvaults:*_gorginite"
+      ],
+      "colors": "0xCE1E77"
+    },
+    "shrimpium": {
+      "items": [
+        "the_vault:*_iskallium",
+        "woldsvaults:*_iskallium"
+      ],
+      "colors": "0x72B704"
+    },
+    "jawnnite": {
+      "items": [
+        "the_vault:*_petzanite",
+        "woldsvaults:*_petzanite"
+      ],
+      "colors": "0x7BE1B0"
+    },
+    "spikium": {
+      "items": [
+        "the_vault:*_sparkletine",
+        "woldsvaults:*_sparkletine"
+      ],
+      "colors": "0xC1A705"
+    },
+    "tazanite": {
+      "items": [
+        "the_vault:*_tubium",
+        "woldsvaults:*_tubium"
+      ],
+      "colors": "0x027441"
+    },
+    "kvoterium": {
+      "items": [
+        "the_vault:*_upaline",
+        "woldsvaults:*_upaline"
+      ],
+      "colors": "0xF8DFF4"
+    },
+    "zeeabar": {
+      "items": [
+        "the_vault:*_xenium",
+        "woldsvaults:*_xenium"
+      ],
+      "colors": "0x322589"
+    },
+    "the_vault:crystal_seal_raid": "0xA7040B",
+    "the_vault:crystal_seal_architect": "0x488BB7",
+    "the_vault:crystal_seal_hunter": "0xB8F719",
+    "the_vault:crystal_seal_executioner": "0xE65713",
+    "the_vault:crystal_seal_sage": "0xC113E5",
+    "the_vault:crystal_seal_scout": "0xE0DC0E",
+    "the_vault:crystal_seal_prophet": "0x409CB7",
+    "woldsvaults:crystal_seal_enchanter": [
+      "0x785582",
+      "0xCDBCD1"
+    ],
+    "woldsvaults:crystal_seal_spirits": [
+      "0xA6B7B7",
+      "0x586C6C"
+    ],
+    "woldsvaults:crystal_seal_unhinged": [
+      "0xC82648",
+      "0x26786D"
+    ],
+    "woldsvaults:crystal_seal_titan": [
+      "0xFFB5BB",
+      "0xED1F32"
+    ],
+    "woldsvaults:crystal_seal_doomsayer": [
+      "0xCA6A28",
+      "0x1B456D"
+    ],
+    "woldsvaults:crystal_seal_zealot": [
+      "0xD6F533",
+      "0xA7B367"
+    ],
+    "the_vault:vault_bronze": [
+      "0xD27E49",
+      "0xA05723"
+    ],
+    "the_vault:vault_silver": "0x6A6A6A",
+    "the_vault:vault_gold": [
+      "0xFEC527",
+      "0xD88900"
+    ],
+    "the_vault:vault_platinum": "0xD3D3D3",
+    "the_vault:mystery_box": [
+      "0xFAD353",
+      "0xFCBF02"
+    ],
+    "woldsvaults:vault_palladium": "0x7CD0D0",
+    "woldsvaults:vault_iridium": "0x7A67DF",
+    "the_vault:sweet_kiwi": "0x9AB754",
+    "the_vault:grapes": "0x40155F",
+    "the_vault:bitter_lemon": "0xFBC520",
+    "the_vault:sour_orange": "0xFD8324",
+    "the_vault:mango": [
+      "0x66851A",
+      "0xDC9F2A",
+      "0xA8321A"
+    ],
+    "the_vault:star_fruit": [
+      "0xC4DD2B",
+      "0x527E1A"
+    ],
+    "the_vault:mystic_pear": [
+      "0xD8D487",
+      "0x8B9335"
+    ],
+    "woldsvaults:poltergeist_plum": [
+      "0x788DC6",
+      "0x284071"
+    ],
+    "woldsvaults:hasty_pomegranate": "0xDF2D35",
+    "woldsvaults:wisdom_fruit": [
+      "0x208066",
+      "0x496696",
+      "0x3A1864"
+    ],
+    "woldsvaults:chromatic_iron_angel_ring": [
+      "0xC7E7F7",
+      "0xBDE1F1",
+      "0xEFC2ED",
+      "0xD9DBE3",
+      "0xC1C7FC",
+      "0xC1C7FC",
+      "0xC7D3F1",
+      "0xC3CBF3"
+    ],
+    "woldsvaults:chromatic_gold_angel_ring": [
+      "0xFFDB9D",
+      "0xFFC460",
+      "0xFFBB47"
+    ],
+    "woldsvaults:chromatic_steel_angel_ring": [
+      "0x5F858F",
+      "0x48818C",
+      "0x8F5389",
+      "0x7C7B82",
+      "0x388692",
+      "0x515E92",
+      "0x5E718B",
+      "0x58638E"
+    ],
+    "woldsvaults:black_chromatic_steel_angel_ring": [
+      "0x50495D",
+      "0x524B59",
+      "0x544C56",
+      "0x414E5F",
+      "0x464F5C",
+      "0x45485F",
+      "0x4A4A5D",
+      "0x3F585F"
+    ],
+    "woldsvaults:general_decor_scroll": [
+      "0xFFF2D2",
+      "0x776B4D"
+    ],
+    "woldsvaults:altar_recatalyzer": [
+      "0x3CADAC",
+      "0x836089",
+      "0x3CAD61"
+    ],
+    "woldsvaults:supply_box": [
+      "0xEBC149",
+      "0x855E1A"
+    ],
+    "woldsvaults:augment_box": "0x549698",
+    "woldsvaults:inscription_box": "0x765A9E",
+    "the_vault:capstone_dungeon_hunter": "0x666666",
+    "the_vault:capstone_pylon_hunter": [
+      "0x4556A3",
+      "0x3F858D",
+      "0x3CB37C"
+    ],
+    "the_vault:capstone_vendoor_hunter": [
+      "0xE75442",
+      "0xF2994E",
+      "0xFFDF16"
+    ],
+    "the_vault:capstone_treasure_hunter": "0xF2E100",
+    "woldsvaults:capstone_frenzy": [
+      "0xFF3C3C",
+      "0xD98633"
+    ],
+    "woldsvaults:capstone_prosperous": [
+      "0xC4C4C4",
+      "0xC5D9A6"
+    ],
+    "woldsvaults:capstone_all_seeing_eye": [
+      "0x6FE400",
+      "0x0249F4",
+      "0xFF21FF",
+      "0xDF1A1A"
+    ],
+    "woldsvaults:capstone_enchanted": [
+      "0x6182B8",
+      "0x9A30C4",
+      "0xB707CA",
+      "0x5D0068"
+    ],
+    "the_vault:eye_of_avarice": "0x4225FF",
+    "the_vault:phoenix_feather": "0xFF4A15",
+    "the_vault:shard_pouch": [
+      "0x6900C6",
+      "0x2C0C78"
+    ],
+    "vaultcoinpouch:coin_pouch": [
+      "0xD27E49",
+      "0x848484",
+      "0xFEC527",
+      "0xD3D3D3"
+    ],
+    "vaultadditions:globe_expander": [
+      "0x4CCA2B",
+      "0x2BCA6B",
+      "0x2BCA8B",
+      "0x2BCABB",
+      "0x2BC1CA"
+    ],
+    "vaultadditions:power_crystal": [
+      "0xF063CB",
+      "0xAA1181"
+    ],
+    "the_vault:wooden_chest_scroll": "0x804F26",
+    "the_vault:living_chest_scroll": [
+      "0x77E87E",
+      "0x28A82F"
+    ],
+    "the_vault:gilded_chest_scroll": [
+      "0xF5CC27",
+      "0xD39632"
+    ],
+    "the_vault:ornate_chest_scroll": "0x862A2D",
+    "the_vault:hardened_chest_scroll": [
+      "0x94969B",
+      "0x585960"
+    ],
+    "the_vault:flesh_chest_scroll": [
+      "0xC58181",
+      "0x54090C"
+    ],
+    "the_vault:enigma_chest_scroll": "0x7D44A3",
+    "the_vault:altar_chest_scroll": [
+      "0x51FFE1",
+      "0x17C0A3"
+    ],
+    "the_vault:treasure_chest_scroll": [
+      "0xFFEC4F",
+      "0xF5CC27"
+    ],
+    "the_vault:wooden_catalyst_inhibitor": "0x804F26",
+    "the_vault:living_catalyst_inhibitor": [
+      "0x77E87E",
+      "0x28A82F"
+    ],
+    "the_vault:gilded_catalyst_inhibitor": [
+      "0xF5CC27",
+      "0xD39632"
+    ],
+    "the_vault:ornate_catalyst_inhibitor": "0x862A2D",
+    "woldsvaults:idona_dagger": "0x880808",
+    "woldsvaults:tome_of_tenos": [
+      "0x00FFFF",
+      "0x0000FF"
+    ],
+    "woldsvaults:velara_apple": "0x228B22",
+    "woldsvaults:wendarr_gem": "0xFFFF00"
+  },
+  "beamParticles": true,
+  "particleGroups": {
+    "default": {
+      "particleSize": 0.25,
+      "particleSpeed": 0.1,
+      "particleSpread": 0.05,
+      "particleCount": 19,
+      "particleLifetime": 20,
+      "particleCondition": "LISTS_ONLY",
+      "particleWhitelist": [],
+      "particleBlacklist": []
+    }
+  },
+  "beamNameplate": true,
+  "nameplateOnLook": true,
+  "nameplateLookSensitivity": 0.018,
+  "nameplateOutline": true,
+  "nameplateIncludeCount": true,
+  "nameplateScale": 1.0,
+  "nameplateYOffset": 0.75,
+  "nameplateTextAlpha": 1.0,
+  "nameplateBackgroundAlpha": 0.5,
+  "renderVanillaRarities": false,
+  "customNameplateRarities": [],
+  "nameplateCondition": "LISTS_ONLY",
+  "nameplateWhitelist": [
+    "the_vault:*_ashium",
+    "woldsvaults:*_ashium",
+    "the_vault:*_bomignite",
+    "woldsvaults:*_bomignite",
+    "the_vault:*_gorginite",
+    "woldsvaults:*_gorginite",
+    "the_vault:*_iskallium",
+    "woldsvaults:*_iskallium",
+    "the_vault:*_petzanite",
+    "woldsvaults:*_petzanite",
+    "the_vault:*sparkletine",
+    "woldsvaults:*_sparkletine",
+    "the_vault:*_tubium",
+    "woldsvaults:*_tubium",
+    "the_vault:*_upaline",
+    "woldsvaults:*_upaline",
+    "the_vault:*_xenium",
+    "woldsvaults:*_xenium",
+    "woldsvaults:*_angel_ring",
+    "the_vault:*_inhibitor",
+    "the_vault:vault_crate",
+    "the_vault:vault_crate_elixir",
+    "the_vault:vault_crate_monolith",
+    "the_vault:vault_crate_scavenger",
+    "the_vault:vault_crate_bingo",
+    "the_vault:vault_crate_bingo_full",
+    "the_vault:vault_crate_cake",
+    "the_vault:vault_crate_champion",
+    "the_vault:vault_crate_paradox",
+    "the_vault:vault_crate_bounty",
+    "the_vault:vault_crate_offering_boss",
+    "the_vault:inscription",
+    "the_vault:lost_bounty",
+    "the_vault:old_notes",
+    "the_vault:bounty_pearl",
+    "the_vault:vault_catalyst",
+    "the_vault:card_deck",
+    "the_vault:gem_pog",
+    "the_vault:omega_pog",
+    "woldsvaults:pog_prism",
+    "woldsvaults:extraordinary_pog_prism",
+    "woldsvaults:gem_box",
+    "woldsvaults:omega_box",
+    "vaultkeychain:keychain",
+    "woldsvaults:smashed_vault_gem",
+    "woldsvaults:wold_star_chunk",
+    "woldsvaults:wold_star",
+    "woldsvaults:gem_pog_block",
+    "woldsvaults:omega_pog_block",
+    "woldsvaults:catalyst_box",
+    "woldsvaults:prismatic_angel_ring",
+    "the_vault:crystal_seal_raid",
+    "the_vault:crystal_seal_architect",
+    "the_vault:crystal_seal_hunter",
+    "the_vault:crystal_seal_executioner",
+    "the_vault:crystal_seal_sage",
+    "the_vault:crystal_seal_scout",
+    "the_vault:crystal_seal_prophet",
+    "woldsvaults:crystal_seal_enchanter",
+    "woldsvaults:crystal_seal_spirits",
+    "woldsvaults:crystal_seal_unhinged",
+    "woldsvaults:crystal_seal_titan",
+    "woldsvaults:crystal_seal_doomsayer",
+    "woldsvaults:crystal_seal_zealot",
+    "the_vault:vault_bronze",
+    "the_vault:vault_silver",
+    "the_vault:vault_gold",
+    "the_vault:vault_platinum",
+    "woldsvaults:vault_palladium",
+    "woldsvaults:vault_iridium",
+    "the_vault:sweet_kiwi",
+    "the_vault:grapes",
+    "the_vault:bitter_lemon",
+    "the_vault:sour_orange",
+    "the_vault:mango",
+    "the_vault:star_fruit",
+    "the_vault:mystic_pear",
+    "woldsvaults:poltergeist_plum",
+    "woldsvaults:hasty_pomegranate",
+    "woldsvaults:wisdom_fruit",
+    "woldsvaults:general_decor_scroll",
+    "woldsvaults:altar_recatalyzer",
+    "woldsvaults:supply_box",
+    "woldsvaults:augment_box",
+    "woldsvaults:inscription_box",
+    "the_vault:capstone_dungeon_hunter",
+    "the_vault:capstone_pylon_hunter",
+    "the_vault:capstone_vendoor_hunter",
+    "the_vault:capstone_treasure_hunter",
+    "woldsvaults:capstone_frenzy",
+    "woldsvaults:capstone_prosperous",
+    "woldsvaults:capstone_all_seeing_eye",
+    "woldsvaults:capstone_enchanted",
+    "the_vault:eye_of_avarice",
+    "the_vault:phoenix_feather",
+    "the_vault:shard_pouch",
+    "vaultcoinpouch:coin_pouch",
+    "vaultadditions:globe_expander",
+    "vaultadditions:power_crystal",
+    "the_vault:wooden_chest_scroll",
+    "the_vault:living_chest_scroll",
+    "the_vault:gilded_chest_scroll",
+    "the_vault:ornate_chest_scroll",
+    "the_vault:hardened_chest_scroll",
+    "the_vault:flesh_chest_scroll",
+    "the_vault:enigma_chest_scroll",
+    "the_vault:altar_chest_scroll",
+    "the_vault:treasure_chest_scroll",
+    "woldsvaults:idona_dagger",
+    "woldsvaults:tome_of_tenos",
+    "woldsvaults:velara_apple",
+    "woldsvaults:wendarr_gem",
+    "the_vault:helmet",
+    "the_vault:chestplate",
+    "the_vault:leggings",
+    "the_vault:boots",
+    "the_vault:wand",
+    "the_vault:focus",
+    "the_vault:shield",
+    "the_vault:idol_benevolent",
+    "the_vault:idol_malevolence",
+    "the_vault:idol_omniscient",
+    "the_vault:idol_timekeeper",
+    "the_vault:axe",
+    "the_vault:sword",
+    "the_vault:trident",
+    "the_vault:battlestaff",
+    "the_vault:plushie",
+    "the_vault:loot_sack",
+    "the_vault:magnet",
+    "the_vault:trinket",
+    "the_vault:small_charm",
+    "the_vault:large_charm",
+    "the_vault:grand_charm",
+    "the_vault:majestic_charm",
+    "the_vault:gemstone",
+    "the_vault:key_piece",
+    "the_vault:blank_key",
+    "the_vault:unidentified_treasure_key",
+    "the_vault:knowledge_star",
+    "the_vault:antique",
+    "the_vault:mystery_box",
+    "the_vault:jewel_pouch",
+    "the_vault:jewel",
+    "the_vault:vault_catalyst_infused",
+    "the_vault:augment",
+    "the_vault:tool",
+    "the_vault:unidentified_artifact",
+    "the_vault:vault_artifact",
+    "the_vault:card",
+    "the_vault:bottle"
+  ],
+  "nameplateBlacklist": [],
+  "landingSound": false,
+  "soundVolume": 0.3,
+  "soundCondition": "LISTS_ONLY",
+  "soundWhitelist": [],
+  "soundBlacklist": []
+}

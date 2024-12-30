@@ -1,0 +1,327 @@
+{
+  "ARMOR_MODEL_ROLLS": {
+    "SCRAPPY": [
+      "the_vault:gear/armor/rusty_knight",
+      "the_vault:gear/armor/rusty_scavenger",
+      "the_vault:gear/armor/rusty_raider"
+    ],
+    "COMMON": [
+      "the_vault:gear/armor/minotaur",
+      "the_vault:gear/armor/rhino",
+      "the_vault:gear/armor/gladiator",
+      "the_vault:gear/armor/rogue",
+      "the_vault:gear/armor/hell_duck",
+      "the_vault:gear/armor/knight",
+      "the_vault:gear/armor/crusader",
+      "the_vault:gear/armor/platemail",
+      "the_vault:gear/armor/reinforced_platemail",
+      "the_vault:gear/armor/spiky_platemail",
+      "the_vault:gear/armor/mailbox",
+      "the_vault:gear/armor/warrior",
+      "the_vault:gear/armor/squire",
+      "the_vault:gear/armor/samurai",
+      "the_vault:gear/armor/hippopotamus",
+      "the_vault:gear/armor/minotaur",
+      "the_vault:gear/armor/minotaur_dark",
+      "the_vault:gear/armor/platemail_dark",
+      "the_vault:gear/armor/reinforced_platemail_dark",
+      "the_vault:gear/armor/spiky_platemail_dark",
+      "the_vault:gear/armor/mailbox_dark",
+      "the_vault:gear/armor/gladiator_dark",
+      "the_vault:gear/armor/rhino_dark",
+      "the_vault:gear/armor/magmatic"
+    ],
+    "RARE": [
+      "the_vault:gear/armor/grizzly",
+      "the_vault:gear/armor/donkey",
+      "the_vault:gear/armor/deer",
+      "the_vault:gear/armor/kitsune",
+      "the_vault:gear/armor/wizard",
+      "the_vault:gear/armor/monk",
+      "the_vault:gear/armor/bard",
+      "the_vault:gear/armor/shadow_king",
+      "the_vault:gear/armor/druid",
+      "the_vault:gear/armor/orc",
+      "the_vault:gear/armor/wither",
+      "the_vault:gear/armor/fox",
+      "the_vault:gear/armor/snow_wolf",
+      "the_vault:gear/armor/wither_wolf"
+    ],
+    "EPIC": [
+      "the_vault:gear/armor/royal_silver",
+      "the_vault:gear/armor/royal_golden",
+      "the_vault:gear/armor/lionguard",
+      "the_vault:gear/armor/cleric",
+      "the_vault:gear/armor/furnace",
+      "the_vault:gear/armor/jawbone",
+      "the_vault:gear/armor/witch",
+      "the_vault:gear/armor/soul_eater",
+      "the_vault:gear/armor/goat",
+      "the_vault:gear/armor/emperor_snow_wolf",
+      "the_vault:gear/armor/emperor_wither_wolf"
+
+    ],
+    "OMEGA": [
+      "the_vault:gear/armor/flamingo",
+      "the_vault:gear/armor/bone_dragon",
+      "the_vault:gear/armor/devil",
+      "the_vault:gear/armor/leprechaun",
+      "the_vault:gear/armor/paladin",
+      "the_vault:gear/armor/bunny_guardian",
+      "the_vault:gear/armor/pirate",
+      "the_vault:gear/armor/mushroom"
+
+    ],
+    "UNIQUE": [
+      "the_vault:gear/armor/atomatic",
+      "the_vault:gear/armor/botania",
+      "the_vault:gear/armor/builder",
+      "the_vault:gear/armor/cake",
+      "the_vault:gear/armor/create",
+      "the_vault:gear/armor/dank",
+      "the_vault:gear/armor/fairy",
+      "the_vault:gear/armor/flux",
+      "the_vault:gear/armor/robotic",
+      "the_vault:gear/armor/arcade",
+      "the_vault:gear/armor/meka_light",
+      "the_vault:gear/armor/meka_dark",
+      "the_vault:gear/armor/powah",
+      "the_vault:gear/armor/scarecrow",
+      "the_vault:gear/armor/thermal",
+      "the_vault:gear/armor/trash",
+      "the_vault:gear/armor/villager",
+      "the_vault:gear/armor/xnet",
+      "the_vault:gear/armor/zombie",
+      "the_vault:gear/armor/hell_cow",
+      "the_vault:gear/armor/stress_flower",
+      "the_vault:gear/armor/skallibomba",
+      "the_vault:gear/armor/jardoon_cheese",
+      "the_vault:gear/armor/bumbo",
+      "the_vault:gear/armor/crayon_blue",
+      "the_vault:gear/armor/crayon_green",
+      "the_vault:gear/armor/crayon_red",
+      "the_vault:gear/armor/crayon_yellow",
+      "the_vault:gear/armor/torch",
+      "the_vault:gear/armor/armour_idona",
+      "the_vault:gear/armor/armour_velara",
+      "the_vault:gear/armor/armour_tenos",
+      "the_vault:gear/armor/armour_wendarr",
+      "the_vault:gear/armor/penguin",
+      "the_vault:gear/armor/sweetheart",
+      "the_vault:gear/armor/jester",
+      "the_vault:gear/armor/scout",
+      "the_vault:gear/armor/bee_knight",
+      "the_vault:gear/armor/victory",
+      "the_vault:gear/armor/silentfoxxy",
+      "the_vault:gear/armor/guybrush",
+      "the_vault:gear/armor/lupicanis",
+      "the_vault:gear/armor/goldflame",
+      "the_vault:gear/armor/soulflame",
+      "the_vault:gear/armor/phoenix_goldflame",
+      "the_vault:gear/armor/phoenix_soulflame",
+      "the_vault:gear/armor/castle",
+      "the_vault:gear/armor/stormcrown",
+      "the_vault:gear/armor/crashguards",
+      "the_vault:gear/armor/spiral_guardian",
+      "the_vault:gear/armor/devilguise"
+    ]
+  },
+  "SWORD_MODEL_ROLLS": {
+    "SCRAPPY": [
+      "the_vault:gear/sword/sword_0",
+      "the_vault:gear/sword/sword_2"
+
+    ],
+    "COMMON": [
+      "the_vault:gear/sword/sword_1",
+      "the_vault:gear/sword/sword_3",
+      "the_vault:gear/sword/gladius"
+    ],
+    "RARE": [
+      "the_vault:gear/sword/sword_4",
+      "the_vault:gear/sword/sword_5",
+      "the_vault:gear/sword/plate_piercer",
+      "the_vault:gear/sword/swaxe"
+    ],
+    "EPIC": [
+      "the_vault:gear/sword/sword_6",
+      "the_vault:gear/sword/crystallised_blade",
+      "the_vault:gear/sword/double_blade",
+      "the_vault:gear/sword/moonshine",
+      "the_vault:gear/sword/refracted_blade",
+      "the_vault:gear/sword/tribal_blade",
+      "the_vault:gear/sword/tarnished_blade"
+    ],
+    "OMEGA": [
+      "the_vault:gear/sword/sword_7",
+      "the_vault:gear/sword/douwswords_swousky",
+      "the_vault:gear/sword/kindled_blade",
+      "the_vault:gear/sword/cutlass"
+    ],
+    "UNIQUE": [
+      "the_vault:gear/sword/chainsword",
+      "the_vault:gear/sword/baseball_bat",
+      "the_vault:gear/sword/alliumblade",
+      "the_vault:gear/sword/dark_blade",
+      "the_vault:gear/sword/soul_sword",
+      "the_vault:gear/sword/soul_sword_green",
+      "the_vault:gear/sword/soul_sword_blue",
+      "the_vault:gear/sword/red_katana",
+      "the_vault:gear/sword/nightfall",
+      "the_vault:gear/sword/velaras_greatsword",
+      "the_vault:gear/sword/wendarrs_greatsword",
+      "the_vault:gear/sword/deaths_door",
+      "the_vault:gear/sword/ring_blade",
+      "the_vault:gear/sword/glorem_glipsum",
+      "the_vault:gear/sword/bamboo",
+      "the_vault:gear/sword/idonas_sword",
+      "the_vault:gear/sword/honey_wand",
+      "the_vault:gear/sword/godsword",
+      "the_vault:gear/sword/soulflame",
+      "the_vault:gear/sword/inflatedjustice",
+      "the_vault:gear/sword/crystalblade",
+      "the_vault:gear/sword/crystaldoubleblade",
+      "the_vault:gear/sword/elite_skeleton_dagger"
+
+    ]
+  },
+  "AXE_MODEL_ROLLS": {
+    "SCRAPPY": [
+      "the_vault:gear/axe/axe_0",
+      "the_vault:gear/axe/axe_1"
+    ],
+    "COMMON": [
+      "the_vault:gear/axe/axe_2",
+      "the_vault:gear/axe/axe_3"
+    ],
+    "RARE": [
+      "the_vault:gear/axe/axe_4",
+      "the_vault:gear/axe/axe_5"
+    ],
+    "EPIC": [
+      "the_vault:gear/axe/axe_6",
+      "the_vault:gear/axe/axe_7",
+      "the_vault:gear/axe/axe_8"
+    ],
+    "OMEGA": [
+      "the_vault:gear/axe/axe_9",
+      "the_vault:gear/axe/axe_10",
+      "the_vault:gear/axe/axe_11",
+      "the_vault:gear/axe/axe_12",
+      "the_vault:gear/axe/axe_13"
+    ],
+    "UNIQUE": [
+      "the_vault:gear/axe/greathammer",
+      "the_vault:gear/axe/evil_mace",
+      "the_vault:gear/axe/tiny_hammer",
+      "the_vault:gear/axe/janitors_broom",
+      "the_vault:gear/axe/big_choppa",
+      "the_vault:gear/axe/blood_chopper",
+      "the_vault:gear/axe/wendarrs_clockaxe",
+      "the_vault:gear/axe/velaras_hammer",
+      "the_vault:gear/axe/tenos_staff",
+      "the_vault:gear/axe/idonas_scythe",
+      "the_vault:gear/axe/blood_cleaver",
+      "the_vault:gear/axe/last_sight",
+      "the_vault:gear/axe/godaxe",
+      "the_vault:gear/axe/butchers_bone_cleaver",
+      "the_vault:gear/axe/crystal_crusher"
+    ]
+  },
+  "SHIELD_MODEL_ROLLS": {
+    "SCRAPPY": [
+      "the_vault:gear/shield/vanilla",
+      "the_vault:gear/shield/scrap"
+    ],
+    "COMMON": [
+      "the_vault:gear/shield/wooden",
+      "the_vault:gear/shield/gold_plated",
+      "the_vault:gear/shield/peppermint"
+    ],
+    "RARE": [
+      "the_vault:gear/shield/coconut",
+      "the_vault:gear/shield/sculk",
+      "the_vault:gear/shield/flowah",
+      "the_vault:gear/shield/lifebuoy"
+
+    ],
+    "EPIC": [
+      "the_vault:gear/shield/ender",
+      "the_vault:gear/shield/present",
+      "the_vault:gear/shield/druid"
+    ],
+    "OMEGA": [
+      "the_vault:gear/shield/inferno",
+      "the_vault:gear/shield/emberwing"
+    ],
+    "UNIQUE": [
+      "the_vault:gear/shield/bell",
+      "the_vault:gear/shield/nou",
+      "the_vault:gear/shield/absolutebinner",
+      "the_vault:gear/shield/heart_chocolate",
+      "the_vault:gear/shield/heart_crystal",
+      "the_vault:gear/shield/turtle",
+      "the_vault:gear/shield/honey_drone",
+      "the_vault:gear/shield/grim",
+      "the_vault:gear/shield/slab",
+      "the_vault:gear/shield/cardboard",
+      "the_vault:gear/shield/glass_flower"
+    ]
+  },
+  "WAND_MODEL_ROLLS": {
+    "SCRAPPY": [
+      "the_vault:gear/wand/wooden"
+    ],
+    "COMMON": [
+      "the_vault:gear/wand/mage",
+      "the_vault:gear/wand/twig",
+      "the_vault:gear/wand/flower"
+    ],
+    "RARE": [
+      "the_vault:gear/wand/archmage",
+      "the_vault:gear/wand/lunar",
+      "the_vault:gear/wand/lightning",
+      "the_vault:gear/wand/frost"
+    ],
+    "EPIC": [
+      "the_vault:gear/wand/ender",
+      "the_vault:gear/wand/druid",
+      "the_vault:gear/wand/gorgeous"
+    ],
+    "OMEGA": [
+      "the_vault:gear/wand/master",
+      "the_vault:gear/wand/starlight",
+      "the_vault:gear/wand/bookofshadows"
+    ],
+    "UNIQUE": [
+      "the_vault:gear/wand/baguette",
+      "the_vault:gear/wand/carrot_on_a_wand",
+      "the_vault:gear/wand/carri_king",
+      "the_vault:gear/wand/soul",
+      "the_vault:gear/wand/infernos_reach",
+      "the_vault:gear/wand/chaining_wand"
+
+    ]
+  },
+  "FOCUS_MODEL_ROLLS": {
+    "SCRAPPY": [
+      "the_vault:gear/focus/tatteredtome"
+    ],
+    "COMMON": [
+      "the_vault:gear/focus/grimoire"
+    ],
+    "RARE": [
+      "the_vault:gear/focus/arcanecodex"
+    ],
+    "EPIC": [
+      "the_vault:gear/focus/mysticallexicon"
+    ],
+    "OMEGA": [
+      "the_vault:gear/focus/tomeofknowledge"
+    ],
+    "UNIQUE": [
+      "the_vault:gear/focus/soulorb",
+      "the_vault:gear/focus/frozenorb"
+    ]
+  }
+}

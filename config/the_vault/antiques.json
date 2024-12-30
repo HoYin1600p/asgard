@@ -1,0 +1,1702 @@
+{
+  "antiques": {
+    "the_vault:acquired_taste": {
+      "info": {
+        "name": "Acquired Taste",
+        "rewardDescription": "Wand with legendary Ability Power",
+        "subtext": "It's not going to be for everyone,\nbut it might be perfect for you",
+        "requiredCount": 6
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:wand",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Common+\"}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "guaranteedModifier": "antiqueAnyAbilityPower",
+        "referenceType": "TAG",
+        "operation": "MAKE_LEGENDARY",
+        "type": "the_vault:gear_item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "key": [
+              "the_vault:healer"
+            ],
+            "type": "the_vault:key",
+            "display": "From Raid Healers"
+          },
+          {
+            "chance": 0.05,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:lucky_cat_medallion": {
+      "info": {
+        "name": "Lucky Cat Medallion",
+        "rewardDescription": "Blue Trinket with 30 uses",
+        "subtext": "The luckiest of kitties",
+        "requiredCount": 6
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:stone_of_jordan\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:carapace\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:high_heels\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:cat_in_a_jar\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:gluttony_pendant\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:centipede_feet\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:night_vision_goggles\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:chromatic_feather\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:ender_anchor\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:elven_socks\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:velaras_petal\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:wendarrs_hourglass\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:trinket",
+              "nbt": "{\"the_vault:trinket\":\"the_vault:wings\", \"the_vault:state\":2, vaultUses:30}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "conditions": [
+              {
+                "tag": [
+                  "STRUCTURE_DUNGEON_SKELETON",
+                  "ENTITY_CHAMPION",
+                  "DUNGEON_DIFFICULTY_CHALLENGING"
+                ],
+                "type": "the_vault:tag",
+                "display": "In Skeleton Dungeons"
+              },
+              {
+                "tag": [
+                  "STRUCTURE_DUNGEON_SKELETON",
+                  "ENTITY_CHAMPION",
+                  "DUNGEON_DIFFICULTY_EXTREME"
+                ],
+                "type": "the_vault:tag",
+                "display": "From Champions"
+              },
+              {
+                "tag": [
+                  "STRUCTURE_DUNGEON_SKELETON",
+                  "ENTITY_CHAMPION",
+                  "DUNGEON_DIFFICULTY_IMPOSSIBLE"
+                ],
+                "type": "the_vault:tag",
+                "display": "Difficulty Challenging or higher"
+              }
+            ],
+            "type": "the_vault:or"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:ship_in_a_bottle": {
+      "info": {
+        "name": "Ship in a Bottle",
+        "rewardDescription": "Lost Bounty",
+        "subtext": "The spirit of adventure\nIn a bottle",
+        "requiredCount": 3
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:lost_bounty"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "tag": [
+              "THEME_CATEGORY_BEACH"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Pirate Themes"
+          },
+          {
+            "key": [
+              "ecologics:coconut_crab"
+            ],
+            "type": "the_vault:key",
+            "display": "From Coconut Crabs"
+          },
+          {
+            "chance": 0.01,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 50,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:gem_king": {
+      "info": {
+        "name": "The Gem King",
+        "rewardDescription": "3-12 rare Gems",
+        "subtext": "One gem to rule them all",
+        "requiredCount": 4
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:gem_echo"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:gem_xenium"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:gem_petzanite"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:gem_upaline"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:gem_tubium"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:gem_bomignite"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:gem_ashium"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:gem_sparkletine"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:gem_gorginite"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:gem_iskallium"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 3,
+          "max": 12
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "conditions": [
+              {
+                "tag": [
+                  "STRUCTURE_DUNGEON_PIGLIN",
+                  "ENTITY_CHAMPION",
+                  "DUNGEON_DIFFICULTY_HARD"
+                ],
+                "type": "the_vault:tag",
+                "display": "In Piglin Dungeons"
+              },
+              {
+                "tag": [
+                  "STRUCTURE_DUNGEON_PIGLIN",
+                  "ENTITY_CHAMPION",
+                  "DUNGEON_DIFFICULTY_CHALLENGING"
+                ],
+                "type": "the_vault:tag",
+                "display": "From Champions"
+              },
+              {
+                "tag": [
+                  "STRUCTURE_DUNGEON_PIGLIN",
+                  "ENTITY_CHAMPION",
+                  "DUNGEON_DIFFICULTY_EXTREME"
+                ],
+                "type": "the_vault:tag",
+                "display": "Difficulty Hard or higher"
+              },
+              {
+                "tag": [
+                  "STRUCTURE_DUNGEON_PIGLIN",
+                  "ENTITY_CHAMPION",
+                  "DUNGEON_DIFFICULTY_IMPOSSIBLE"
+                ],
+                "type": "the_vault:tag"
+              }
+            ],
+            "type": "the_vault:or"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:the_life_key": {
+      "info": {
+        "name": "The Life Key",
+        "rewardDescription": "Helmet with a legendary Loot Modifier",
+        "subtext": "To believe in yourself is the key to life",
+        "requiredCount": 8
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:helmet",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Rare+\"}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "guaranteedModifier": "antiqueAnyLooting",
+        "referenceType": "TAG",
+        "operation": "MAKE_LEGENDARY",
+        "type": "the_vault:gear_item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "group": [
+              "the_vault:tank"
+            ],
+            "type": "the_vault:entity_group",
+            "display": "From Tank mobs"
+          },
+          {
+            "tag": [
+              "THEME_CATEGORY_NETHER"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Nether Themes"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "chance": 0.025,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "minLevel": 30,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:the_blue_jay": {
+      "info": {
+        "name": "The Blue Jay",
+        "rewardDescription": "Mush Room Inscription",
+        "subtext": "A lively bird",
+        "requiredCount": 5
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:inscription",
+              "nbt": "{pool:\"the_vault:mushroom\", data:{color:7012096,model:2}, display:{Name:'{\"text\":\"Mush Room Inscription\",\"color\":\"#6AFF00\"}' }}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "tag": [
+              "THEME_CATEGORY_MUSHROOM"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Forest Themes"
+          },
+          {
+            "key": [
+              "the_vault:levishroom"
+            ],
+            "type": "the_vault:key",
+            "display": "From Levishrooms"
+          },
+          {
+            "chance": 0.01,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:lucky_bamboo": {
+      "info": {
+        "name": "Lucky Bamboo",
+        "rewardDescription": "Helmet with a Lucky Hit Implicit",
+        "subtext": "The rarest bamboo from a faraway land",
+        "requiredCount": 12
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:helmet",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Epic+\"}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "guaranteedModifier": "the_vault:base_lucky_hit_chance",
+        "referenceType": "IDENTIFIER",
+        "operation": "HIGHEST_TIER",
+        "type": "the_vault:gear_item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "group": [
+              "the_vault:assassin"
+            ],
+            "type": "the_vault:entity_group",
+            "display": "From Assassin mobs"
+          },
+          {
+            "tag": [
+              "THEME_CATEGORY_LUSH"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Lush Themes"
+          },
+          {
+            "chance": 0.025,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 25,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:glimpse_of_the_cosmos": {
+      "info": {
+        "name": "Glimpse of the Cosmos",
+        "rewardDescription": "1-3 Empowered Chaotic Focus",
+        "subtext": "The Cosmos is a vast and beautiful place\nLet's hope it doesn't bite back",
+        "requiredCount": 8
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:empowered_chaotic_focus"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 3
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "group": [
+              "the_vault:elite"
+            ],
+            "type": "the_vault:entity_group",
+            "display": "From The Lab"
+          },
+          {
+            "chance": 0.5,
+            "type": "the_vault:chance",
+            "display": "At a reasonable chance"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:the_unicorn": {
+      "info": {
+        "name": "The Unicorn",
+        "rewardDescription": "Treasure Capstone",
+        "subtext": "There's a pot of gold at the end of the unicorn",
+        "requiredCount": 6
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:capstone_treasure_hunter"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "group": [
+              "the_vault:mob_type/evil_rabbit"
+            ],
+            "type": "the_vault:entity_group",
+            "display": "From evil rabbits"
+          },
+          {
+            "tag": [
+              "THEME_CATEGORY_EASTER"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Easter Themes"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "chance": 0.5,
+            "type": "the_vault:chance",
+            "display": "At a high chance"
+          },
+          {
+            "minLevel": 50,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:compressed_cube": {
+      "info": {
+        "name": "Compressed Cube",
+        "rewardDescription": "Valuable Metal Block",
+        "subtext": "It's a cube, but it's also compressed",
+        "requiredCount": 9
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "compressium:gold_2"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "compressium:copper_3"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "compressium:iron_3"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:chromatic_steel_block"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "minecraft:netherite_block"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "tag": [
+              "STRUCTURE_DUNGEON_PILLAGER",
+              "ENTITY_CHAMPION",
+              "STRUCTURE_DUNGEON"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Pillager Dungeons"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type",
+            "display": "From Champions"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:soul_mirror": {
+      "info": {
+        "name": "Soul Mirror",
+        "rewardDescription": "Vault God Capstone",
+        "subtext": "A looking glass\nIt feels like you're being watched",
+        "requiredCount": 4
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:god_token",
+              "nbt": "{\"type\":\"velara\"}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:god_token",
+              "nbt": "{\"type\":\"tenos\"}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:god_token",
+              "nbt": "{\"type\":\"wendarr\"}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:god_token",
+              "nbt": "{\"type\":\"idona\"}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "condition": {
+              "group": [
+                "the_vault:horde"
+              ],
+              "type": "the_vault:entity_group",
+              "display": "From any mob except Horde mobs"
+            },
+            "type": "the_vault:not"
+          },
+          {
+            "chance": 0.005,
+            "type": "the_vault:chance",
+            "display": "At a very low chance"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 40,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:bountiful_harvest": {
+      "info": {
+        "name": "Bountiful Harvest",
+        "rewardDescription": "Assortment of Vault Fruit",
+        "subtext": "Carrots and Potatoes are fruit too",
+        "requiredCount": 5
+      },
+      "reward": {
+        "rewards": [
+          {
+            "results": [
+              {
+                "item": {
+                  "item": "the_vault:bitter_lemon"
+                },
+                "weight": 1.0
+              }
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            },
+            "type": "the_vault:item_list"
+          },
+          {
+            "results": [
+              {
+                "item": {
+                  "item": "the_vault:sour_orange"
+                },
+                "weight": 1.0
+              }
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            },
+            "type": "the_vault:item_list"
+          },
+          {
+            "results": [
+              {
+                "item": {
+                  "item": "the_vault:sweet_kiwi"
+                },
+                "weight": 1.0
+              }
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            },
+            "type": "the_vault:item_list"
+          },
+          {
+            "results": [
+              {
+                "item": {
+                  "item": "the_vault:grapes"
+                },
+                "weight": 1.0
+              }
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            },
+            "type": "the_vault:item_list"
+          },
+          {
+            "results": [
+              {
+                "item": {
+                  "item": "the_vault:mango"
+                },
+                "weight": 1.0
+              }
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            },
+            "type": "the_vault:item_list"
+          },
+          {
+            "results": [
+              {
+                "item": {
+                  "item": "the_vault:star_fruit"
+                },
+                "weight": 1.0
+              }
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            },
+            "type": "the_vault:item_list"
+          }
+        ],
+        "type": "the_vault:combined"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "condition": {
+              "group": [
+                "the_vault:horde"
+              ],
+              "type": "the_vault:entity_group",
+              "display": "From Horde mobs"
+            },
+            "type": "the_vault:not"
+          },
+          {
+            "tag": [
+              "THEME_HONEY_CAVE"
+            ],
+            "type": "the_vault:tag",
+            "display": "In the Honey Cave Theme"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "chance": 0.01,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:hags_cooking_pot": {
+      "info": {
+        "name": "Hag's Cooking Pot",
+        "rewardDescription": "3 Spicy Hearty Burger",
+        "subtext": "Belonged to a Vault Hunter from far away lands",
+        "requiredCount": 8
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:spicy_hearty_burger"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 3,
+          "max": 3
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "group": [
+              "the_vault:tank"
+            ],
+            "type": "the_vault:entity_group",
+            "display": "From Tank mobs"
+          },
+          {
+            "tag": [
+              "THEME_CATEGORY_CAVE"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Cave Themes"
+          },
+          {
+            "chance": 0.025,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:arcane_saber": {
+      "info": {
+        "name": "Arcane Saber",
+        "rewardDescription": "Perfect Legendary Jewel",
+        "subtext": "Why is it purple?",
+        "requiredCount": 4
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:jewel",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Omega\"}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "operation": "MAKE_LEGENDARY",
+        "type": "the_vault:gear_item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "conditions": [
+              {
+                "tag": [
+                  "THEME_MESA",
+                  "ENTITY_CHAMPION"
+                ],
+                "type": "the_vault:tag",
+                "display": "From Champions"
+              },
+              {
+                "tag": [
+                  "THEME_DEEP_MESA",
+                  "ENTITY_CHAMPION"
+                ],
+                "type": "the_vault:tag",
+                "display": "In Mesa Themes"
+              }
+            ],
+            "type": "the_vault:or"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "chance": 0.25,
+            "type": "the_vault:chance",
+            "display": "At an average chance"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:nazar_boncugu": {
+      "info": {
+        "name": "Nazar Boncugu",
+        "rewardDescription": "2 Chaotic Vault Rock",
+        "subtext": "It will protect you from the evil eye",
+        "requiredCount": 21
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:vault_catalyst_chaos"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 2,
+          "max": 2
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "group": [
+              "the_vault:mob_type/creeper"
+            ],
+            "type": "the_vault:entity_group",
+            "display": "From Creepers"
+          },
+          {
+            "tag": [
+              "THEME_CATEGORY_DESERT"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Desert Themes"
+          },
+          {
+            "chance": 0.05,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:snow_fox": {
+      "info": {
+        "name": "The Snow Fox",
+        "rewardDescription": "1-5 Special Vault Rock",
+        "subtext": "He's never gonna give you up",
+        "requiredCount": 4
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:vault_catalyst_chaos"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:plunderer_pearl"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:wardens_pearl"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:crystal_seal_cake"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 5
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "group": [
+              "the_vault:mob_type/dogs"
+            ],
+            "type": "the_vault:entity_group",
+            "display": "From Dogs"
+          },
+          {
+            "tag": [
+              "THEME_CATEGORY_ICE"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Ice Themes"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "chance": 0.05,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:crest_orange_brigade": {
+      "info": {
+        "name": "Orange Brigade Crest",
+        "rewardDescription": "5-9 Sour Orange",
+        "subtext": "Citrus helps",
+        "requiredCount": 10
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:sour_orange"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 5,
+          "max": 9
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "tag": [
+              "THEME_CATEGORY_BEACH"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Pirate Themes"
+          },
+          {
+            "key": [
+              "the_vault:coin_pile"
+            ],
+            "type": "the_vault:key",
+            "display": "From Coin Piles"
+          },
+          {
+            "chance": 0.025,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "BLOCK"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:the_snow_paw": {
+      "info": {
+        "name": "The Snow Paw",
+        "rewardDescription": "3-10 Key Pieces",
+        "subtext": "A snow leopard stepped on a key",
+        "requiredCount": 11
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:key_piece"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 3,
+          "max": 10
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "group": [
+              "the_vault:mob_type/polar_bears"
+            ],
+            "type": "the_vault:entity_group",
+            "display": "From Polar Bears"
+          },
+          {
+            "tag": [
+              "THEME_CATEGORY_ICE"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Ice Themes"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "chance": 0.05,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "minLevel": 50,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:pirates_lockpick": {
+      "info": {
+        "name": "Pirate's Lockpick",
+        "rewardDescription": "Unidentified Treasure Key",
+        "subtext": "Naffin' stands between a pirate and the treasure",
+        "requiredCount": 4
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:unidentified_treasure_key"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "tag": [
+              "THEME_CATEGORY_BEACH"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Pirate Themes"
+          },
+          {
+            "key": [
+              "the_vault:ornate_strongbox",
+              "the_vault:gilded_strongbox",
+              "the_vault:living_strongbox"
+            ],
+            "type": "the_vault:key",
+            "display": "In Strongboxes"
+          },
+          {
+            "chance": 0.05,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "BLOCK"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 50,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:pocket_penguin": {
+      "info": {
+        "name": "Pocket Penguin",
+        "rewardDescription": "Legendary Off-Hand Vault Gear",
+        "subtext": "You can hug it, just don't squeeze it too hard",
+        "requiredCount": 12
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:wand",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Common+\"}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:focus",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Common+\"}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:shield",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Common+\"}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "operation": "MAKE_LEGENDARY",
+        "type": "the_vault:gear_item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "tag": [
+              "THEME_CATEGORY_ICE"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Ice Themes"
+          },
+          {
+            "key": [
+              "ore_alexandrite",
+              "ore_ashium",
+              "ore_benitoite",
+              "ore_black_opal",
+              "ore_bomignite",
+              "ore_echo",
+              "ore_gorginite",
+              "ore_iskallium",
+              "ore_larimar",
+              "ore_painite",
+              "ore_petzanite",
+              "ore_puffium",
+              "ore_sparkletine",
+              "ore_tubium",
+              "ore_upaline",
+              "ore_wutodie",
+              "ore_xenium"
+            ],
+            "type": "the_vault:key",
+            "display": "From Vault Ores"
+          },
+          {
+            "chance": 0.025,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "BLOCK"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:fountain_of_knowledge": {
+      "info": {
+        "name": "Fountain of Knowledge",
+        "rewardDescription": "5-18 Mod Boxes",
+        "subtext": "Wisdom is the offspring of suffering and time",
+        "requiredCount": 6
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:mod_box"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 5,
+          "max": 18
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "tag": [
+              "STRUCTURE_DUNGEON_ZOMBIE"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Zombie Dungeons"
+          },
+          {
+            "chance": 0.05,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type",
+            "display": "By killing mobs"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:the_lost_one": {
+      "info": {
+        "name": "The Lost One",
+        "rewardDescription": "Vault Gear with a legendary Mana Modifier",
+        "subtext": "An odd creature with unknown origin",
+        "requiredCount": 7
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:boots",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Common+\"}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:chestplate",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Common+\"}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:focus",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Common+\"}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:helmet",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Common+\"}"
+            },
+            "weight": 1.0
+          },
+          {
+            "item": {
+              "item": "the_vault:leggings",
+              "nbt": "{\"the_vault:gear_roll_type\": \"Common+\"}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "guaranteedModifier": "antiqueAnyMana",
+        "referenceType": "TAG",
+        "operation": "MAKE_LEGENDARY",
+        "type": "the_vault:gear_item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "group": [
+              "the_vault:mob_type/dogs"
+            ],
+            "type": "the_vault:entity_group",
+            "display": "From Dogs"
+          },
+          {
+            "tag": [
+              "THEME_CATEGORY_NETHER"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Nether Themes"
+          },
+          {
+            "types": [
+              "ENTITY"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "chance": 0.025,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "minLevel": 20,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    },
+    "the_vault:intertwined": {
+      "info": {
+        "name": "Intertwined",
+        "rewardDescription": "Factory Void Augment",
+        "subtext": "What kind of gem is that?",
+        "requiredCount": 8
+      },
+      "reward": {
+        "results": [
+          {
+            "item": {
+              "item": "the_vault:augment",
+              "nbt": "{theme:\"the_vault:classic_vault_factory_void\"}"
+            },
+            "weight": 1.0
+          }
+        ],
+        "count": {
+          "min": 1,
+          "max": 1
+        },
+        "type": "the_vault:item_list"
+      },
+      "condition": {
+        "conditions": [
+          {
+            "tag": [
+              "STRUCTURE_ROOM_VILLAGE"
+            ],
+            "type": "the_vault:tag",
+            "display": "In Village Rooms"
+          },
+          {
+            "key": [
+              "the_vault:wooden_chest",
+              "the_vault:gilded_chest",
+              "the_vault:living_chest",
+              "the_vault:ornate_chest",
+              "the_vault:treasure_chest",
+              "the_vault:altar_chest",
+              "the_vault:ornate_strongbox",
+              "the_vault:gilded_strongbox",
+              "the_vault:living_strongbox",
+              "the_vault:hardened_chest",
+              "the_vault:enigma_chest",
+              "the_vault:flesh_chest"
+            ],
+            "type": "the_vault:key",
+            "display": "From Chests"
+          },
+          {
+            "chance": 0.025,
+            "type": "the_vault:chance",
+            "display": "At a low chance"
+          },
+          {
+            "types": [
+              "BLOCK"
+            ],
+            "type": "the_vault:type"
+          },
+          {
+            "minLevel": 30,
+            "type": "the_vault:level"
+          }
+        ],
+        "type": "the_vault:and"
+      }
+    }
+  }
+}

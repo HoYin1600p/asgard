@@ -1,0 +1,39 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 1,
+        "max": 1
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+              "weight": 100,
+              "item": {
+                "id": "minecraft:exposed_copper",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 100,
+              "item": {
+                "id": "minecraft:emerald",
+                "count": {
+                  "type": "uniform",
+                  "min": 2,
+                  "max": 8
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

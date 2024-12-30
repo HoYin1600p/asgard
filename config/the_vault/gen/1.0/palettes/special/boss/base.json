@@ -1,0 +1,62 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=objective]",
+      "output": [
+        {
+          "block": "the_vault:offering_pillar",
+          "offering": "the_vault:offering",
+          "count": {
+            "type": "uniform",
+            "min": 3,
+            "max": 5
+          },
+          "boss": [
+            {
+              "id": "the_vault:blaze_boss",
+              "BaseTraits": [
+                "fireball_ranged_attack",
+                "evoker_fangs",
+                "heal"
+              ],
+              "ModifierTraits": {
+                "light_ranged": "shulker_bullet"
+              },
+              "weight": 1
+            },
+            {
+              "id": "the_vault:golem_boss",
+              "BaseTraits": [
+                "melee_attack",
+                "summoning_vault",
+                "life_leech_on_hit",
+                "levitate_on_hit"
+              ],
+              "ModifierTraits": {
+                "light_ranged": "blood_orb"
+              },
+              "weight": 1
+            },
+            {
+              "id": "the_vault:black_widow_boss",
+              "BaseTraits": [
+                "melee_attack",
+                "life_leech_on_hit",
+                "wither_on_hit",
+                "throw_lingering_poison"
+              ],
+              "ModifierTraits": {
+                "light_ranged": "evoker_fangs"
+              },
+              "weight": 1
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

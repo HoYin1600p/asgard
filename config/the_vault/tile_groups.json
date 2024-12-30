@@ -1,0 +1,78 @@
+{
+  "groups": {
+    "the_vault:rare_ores": [
+      "the_vault:ore_alexandrite[generated=true]",
+      "the_vault:ore_benitoite[generated=true]",
+      "the_vault:ore_black_opal[generated=true]",
+      "the_vault:ore_echo[generated=true]",
+      "the_vault:ore_larimar[generated=true]",
+      "the_vault:ore_painite[generated=true]",
+      "the_vault:ore_wutodie[generated=true]"
+    ],
+    "the_vault:player_ores": [
+      "the_vault:ore_ashium[generated=true]",
+      "the_vault:ore_bomignite[generated=true]",
+      "the_vault:ore_gorginite[generated=true]",
+      "the_vault:ore_iskallium[generated=true]",
+      "the_vault:ore_petzanite[generated=true]",
+      "the_vault:ore_sparkletine[generated=true]",
+      "the_vault:ore_tubium[generated=true]",
+      "the_vault:ore_upaline[generated=true]",
+      "the_vault:ore_xenium[generated=true]"
+    ],
+    "the_vault:ores": [
+      "@the_vault:rare_ores",
+      "@the_vault:player_ores"
+    ],
+    "the_vault:objective_blocks": [
+      "the_vault:obelisk",
+      "the_vault:scavenger_altar",
+      "the_vault:monolith",
+      "the_vault:lodestone",
+      "the_vault:crake_pedestal",
+      "the_vault:grid_gateway"
+    ],
+    "the_vault:god_altars": [
+      "the_vault:xp_altar",
+      "the_vault:blood_altar",
+      "the_vault:time_altar",
+      "the_vault:soul_altar"
+    ],
+    "the_vault:living": [
+      "the_vault:living_chest",
+      "the_vault:living_strongbox"
+    ],
+    "the_vault:wooden": [
+      "the_vault:wooden_chest"
+    ],
+    "the_vault:gilded": [
+      "the_vault:gilded_chest",
+      "the_vault:gilded_strongbox"
+    ],
+    "the_vault:ornate": [
+      "the_vault:ornate_chest",
+      "the_vault:ornate_strongbox"
+    ],
+    "the_vault:coins": [
+      "the_vault:coin_pile"
+    ],
+    "the_vault:vault_lootables": [
+      "@the_vault:ores",
+      "@the_vault:coins",
+      "@the_vault:ornate",
+      "@the_vault:gilded",
+      "@the_vault:wooden",
+      "@the_vault:living",
+      "the_vault:treasure_chest",
+      "the_vault:treasure_sand",
+      "the_vault:placeholder"
+    ],
+    "the_vault:chest": [
+
+      "@the_vault:ornate",
+      "@the_vault:gilded",
+      "@the_vault:wooden",
+      "@the_vault:living"
+    ]
+  }
+}

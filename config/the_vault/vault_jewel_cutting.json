@@ -1,0 +1,43 @@
+{
+  "jewelCuttingInput": {
+    "mainInput": {
+      "item": "the_vault:silver_scrap",
+      "amount": 5
+    },
+    "secondInput": {
+      "item": "the_vault:vault_gold",
+      "amount": 1
+    }
+  },
+  "jewelCuttingOutput": {
+    "mainOutput": {
+      "chance": 1.0,
+      "stack": {
+        "item": "the_vault:gemstone"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "extraOutput1": {
+      "chance": 0.0,
+      "stack": {
+        "item": "minecraft:air"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "extraOutput2": {
+      "chance": 0.0,
+      "stack": {
+        "item": "minecraft:air"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    }
+  },
+  "jewelCuttingRange": {
+    "min": 1,
+    "max": 4
+  },
+  "jewelCuttingModifierRemovalChance": 1.0
+}

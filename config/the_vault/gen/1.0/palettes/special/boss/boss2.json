@@ -1,0 +1,25 @@
+{
+  "tile_processors": [
+    {
+      "type": "reference",
+      "id": "the_vault:special/boss/base"
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:offering_pillar",
+      "output": [
+        {
+          "block": "the_vault:offering_pillar",
+          "zone": {
+            "min": [-23, -18, -23],
+            "max": [23, 28, 23]
+          },
+          "roomStyle": "BOSS_2",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

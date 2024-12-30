@@ -1,0 +1,62 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawner_base"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "spawner",
+                    "target": "ispawner:spawner",
+                    "output": [
+                        {
+                          "elements": {
+                            "the_vault:dungeon_vindicator": 1
+                          },
+                          "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "level": 15,
+                    "type": "spawner",
+                    "target": "ispawner:spawner",
+                    "output": [
+                        {
+                          "elements": {
+                            "the_vault:dungeon_vindicator": 5,
+                            "the_vault:dungeon_pillager": 1
+                          },
+                          "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/dungeon_settings"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{ group:champion }",
+                    "output": [
+                        {
+                          "elements": {
+                            "the_vault:dungeon_vindicator{Tags:[\"vault_champion\"]}": 1
+                          },
+                          "weight": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

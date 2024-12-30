@@ -1,0 +1,54 @@
+
+[Info]
+	# Values may be edited, but not removed
+	# Color accepts hex and decimal
+	# Use \n to change line on tooltips.
+	#
+	# Enable / Disable the option to overwrite keys info.
+	"Custom Keys" = false
+
+[Ashium]
+	Name = "Ashium"
+	Color = "#DD7211"
+	Tooltip = "Opens a treasure room with an Ashium door inside the vaults"
+
+[Bomignite]
+	Name = "Bomignite"
+	Color = "#4380E2"
+	Tooltip = "Opens a treasure room with an Bomignite door inside the vaults"
+
+[Gorginite]
+	Name = "Gorginite"
+	Color = "#CE1E77"
+	Tooltip = "Opens a treasure room with an Gorginite door inside the vaults"
+
+[Iskallium]
+	Name = "Iskallium"
+	Color = "#82B103"
+	Tooltip = "Opens a treasure room with an Iskallium door inside the vaults"
+
+[Petzanite]
+	Name = "Petzanite"
+	Color = "#86FBC2"
+	Tooltip = "Opens a treasure room with an Petzanite door inside the vaults"
+
+[Sparkletine]
+	Name = "Sparkletine"
+	Color = "#C9BA05"
+	Tooltip = "Opens a treasure room with an Sparkletine door inside the vaults"
+
+[Tubium]
+	Name = "Tubium"
+	Color = "#009A58"
+	Tooltip = "Opens a treasure room with an Tubium door inside the vaults"
+
+[Upaline]
+	Name = "Upaline"
+	Color = "#CB99BD"
+	Tooltip = "Opens a treasure room with an Upaline door inside the vaults"
+
+[Xenium]
+	Name = "Xenium"
+	Color = "#3F3191"
+	Tooltip = "Opens a treasure room with an Xenium door inside the vaults"
+
