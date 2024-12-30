@@ -1,0 +1,13 @@
+name = "Keychain - Vault Hunters Addon"
+filename = "vaultkeychain-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "04b5bb50da6bb33055f025368ff3d2f64df75ea5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6034952
+project-id = 1120036
