@@ -18143,6 +18143,11 @@ hash = "41f6246558b54203b6702b3f306deece3e0a5fd1ea9b6795e5a4fbbec073c4fd"
 metafile = true
 
 [[files]]
+file = "mods/draggablebookmarks.pw.toml"
+hash = "f882bb1652d0ed4dfb49603ff89c8f1fe709ca296500968d16186e27afdeb02f"
+metafile = true
+
+[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "ab4a6b7aa6a01201f232ca29e3470d714d90748a286fd9fde996a9c93c142ab8"
 metafile = true
@@ -18404,7 +18409,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei-bookmark-sharing.pw.toml"
-hash = "1f39a71aecebb260b5a891f0f650e9d17ac54d830086e9d697d7f53e1eac4ea7"
+hash = "60fe88996ccc87a977730c37a2e854b668ced73fd716420aaa9af6393e478f19"
 metafile = true
 
 [[files]]
@@ -18610,6 +18615,11 @@ metafile = true
 [[files]]
 file = "mods/more-villagers.pw.toml"
 hash = "1e3256743830fc8970f761e38ec328a3052976cab65ccc15d2c8b73a4ae92136"
+metafile = true
+
+[[files]]
+file = "mods/morevaultkeybinds.pw.toml"
+hash = "cc0c020824b120e06be2fba6d4735cb83b449ddc411a02da0d19fe4d6862c259"
 metafile = true
 
 [[files]]
@@ -19090,6 +19100,11 @@ metafile = true
 [[files]]
 file = "mods/vault-hunters-official-mod.pw.toml"
 hash = "9f11afbc37084d18f9b638f12765503f94a92c337fddd2791d8c9e0a5f63e972"
+metafile = true
+
+[[files]]
+file = "mods/vault-hunters-sync-server-config-fork.pw.toml"
+hash = "79554ac9f77d0193d1cc9ca2cfe7410fc7c6db2514e87ad407f05a93bcc23966"
 metafile = true
 
 [[files]]
