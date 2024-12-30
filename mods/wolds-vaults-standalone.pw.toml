@@ -1,0 +1,13 @@
+name = "Wold's Vaults Standalone"
+filename = "woldsvaults-0.15.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d03d51fabe0650b8fd82196949be1af5f68c36ea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6013909
+project-id = 1132404

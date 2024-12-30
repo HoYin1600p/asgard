@@ -1,0 +1,13 @@
+name = "Thermal Expansion"
+filename = "thermal_expansion-1.18.2-9.1.0.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d5b9937d2dc5741cfa6625d9ed9da80dea88d58b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4101926
+project-id = 69163

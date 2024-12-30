@@ -1,0 +1,13 @@
+name = "AtomicStryker's Infernal Mobs"
+filename = "infernalmobs-1.18.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eba9f676587f5a63a2cdd9d1d29688ba79372627"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4149699
+project-id = 227875

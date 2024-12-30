@@ -1,0 +1,13 @@
+name = "JEI Bookmark Sharing"
+filename = "bookmarksharing-jei10-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "397597679b24e2884655b785eb3c66fcf1ff77f8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5862902
+project-id = 1130772

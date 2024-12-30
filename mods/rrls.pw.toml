@@ -1,0 +1,13 @@
+name = "Remove Reloading Screen"
+filename = "Rrls-1.18.2-3.1.0-forge.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "796bb3e729b9c5c6c85fdd6afebf1a997c42fbf4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4611233
+project-id = 833233

@@ -1,0 +1,13 @@
+name = "Chibis"
+filename = "chibis-1.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af25cbf08175231e4e24812824c445fc781af2ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4891456
+project-id = 941328

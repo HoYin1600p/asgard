@@ -1,0 +1,13 @@
+name = "Enercell"
+filename = "enercell-1.18.2-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d3dbc459cfb12cdaff338330ed0f2f40881e90e1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4092029
+project-id = 703852
