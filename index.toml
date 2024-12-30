@@ -19210,7 +19210,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "8506d8bd2c2004bb376e7e6e83a7ad3012e74794361add751e28898ea45c9570"
+hash = "4ab711b4388c4fe85bf2dc3b83ca5181e2dd7bc3a96e48577eaad9d016d12d8f"
 
 [[files]]
 file = "packmenu/resources/assets/packmenu/textures/gui/aklizbutton.png"
@@ -19732,6 +19732,10 @@ hash = "0672863bfa8462cce4c6768360c310403e217b2bef779fcf4a4dabfa7f5dbcaa"
 [[files]]
 file = "scripts/vaultadditions.zs"
 hash = "4b68fc39af12ae1ad52bbfa8b4b5f3b8724ece5d396f33eef61e8af038849402"
+
+[[files]]
+file = "servers.dat"
+hash = "a3cf86432dcc420ed46d3c48db089b5513191861cc84fc35464dcdb8dc02d1af"
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
