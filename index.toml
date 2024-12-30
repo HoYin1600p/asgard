@@ -17818,6 +17818,11 @@ hash = "9e66f32990ecd4cb815cc9c434848e5768d53996f5e2b6ba1f35b88d5ab7aa1d"
 metafile = true
 
 [[files]]
+file = "mods/better-mods-button.pw.toml"
+hash = "2b3124f8247a3e103e3d0d6114a1b8485639005232b34d4f52f0eef86eed7b59"
+metafile = true
+
+[[files]]
 file = "mods/better-ping-display.pw.toml"
 hash = "91510269d5a967725153ce06893a97bca2333b4fe15ab1bd7547c38c6f0403db"
 metafile = true
@@ -19084,7 +19089,7 @@ metafile = true
 
 [[files]]
 file = "mods/vault-hunters-api.pw.toml"
-hash = "54d562df9a4fb0c196c43d291f98453014f694571a1f0eb1b55e478019106fb8"
+hash = "7dd85c6ac543eb989f648470747bfcba25c55658df1189dc888bceee2aba243d"
 metafile = true
 
 [[files]]
