@@ -1,0 +1,34 @@
+{
+  
+  "sortnum": 4,
+  "name": "Research Commands",
+  "icon": "the_vault:mod_box",
+  "category": "patchouli:useful_commands_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Research Teams can be created to progressively unlock all $(l:game_mechanics/researches)$(l)Researches$() together with $(l)others$().$(br2)Working together on discovering Researches adds a small $(l)increase$() to the costs of Researches.$(br2)Researches unlocked $(l)prior to joining$() a Research Team do $(l)not$() get unlocked $(l)retrospectively$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Research Commands",
+      "text": "$(li)$(8)$(l)/the_vault research_team invite <player>$()$(li2)Invites a player$()$(br)$(li)$(8)$(l)/the_vault research_team accept_invite <player>$()$(li2)Accepts the invite of a player to their research team$()$(br)$(li)$(c:/the_vault research_team list)$(t:Click to execute this command)$(l)/the_vault research_team list$()$(li2)Lists all members$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Research Commands",
+      "text": "$(li)$(c:/the_vault research_team leave)$(t:Click to execute this command)$(l)/the_vault research_team leave$()$(li2)Leaves the research team$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

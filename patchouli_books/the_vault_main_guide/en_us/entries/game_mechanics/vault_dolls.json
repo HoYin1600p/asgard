@@ -1,0 +1,23 @@
+{
+
+  "name": "Vault Dolls",
+  "icon": "the_vault:vault_doll",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Vault Dolls are crafted to let $(l)other players$() run Vaults $(l)for you$() while carrying it.$(br2)Upon crafting, they have a $(l)Loot Efficiency$() and $(l)Experience Efficiency$(), which determines the percentages of $(l)loot$() and $(l)Vault Experience$() they will retrieve.$(br2)The Vault Doll only functions when placed in the $(l)Head curio slot$()."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_doll",
+      "title": "Vault Dolls",
+      "text": "Once out of a Vault, the Vault Doll can be $(l)released$() by the $(l)owner$().$(br2)They can $(l)place$() the Vault Doll on the ground, after which it needs to be $(l)unalived$() to retrieve its rewards."
+    }
+
+  ]
+
+}

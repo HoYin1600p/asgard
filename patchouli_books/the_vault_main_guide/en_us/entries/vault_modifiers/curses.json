@@ -1,0 +1,74 @@
+{
+  
+  "sortnum": 3,
+  "name": "Curses",
+  "icon": "the_vault:scavenger_skeleton_skull",
+  "category": "patchouli:modifiers_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Curses influence the Vault to the player's $(l)heavy disadvantage$().$(br2)Curses can only occur during a Vault if the Vault Crystal has been $(l:game_mechanics/crystal_modification)$(l)modified$() with $(l)Vault Catalysts$(), $(l)Inscriptions$(), a $(l)Soul Flame$() or $(l)Wither Skeleton Skulls$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Curses",
+      "text": "$(br)The number of $(l)skulls$() on a Vault Crystal indicate the $(l)amount$() of Curses the Vault Crystal yields.$(br2)Which curses occur during a Vault $(l)can$() be viewed and controlled by the player through the use of $(l:game_mechanics/crystal_modification#motes)$(t:Motes)$(l)Motes$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:player_head",
+      "title": "Player Curses",
+      "text": "Player curses affect the player's $(l)statistics$() in a Vault.$(br2)This may range from applying $(l)Mining Fatigue$() to decreasing $(l)Mana Regeneration$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Player Curses",
+      "text": "$(li)$(l)Hunger$()$(li2)+1 Hunger$()$(br)$(li)$(l)Mining Fatigue$()$(li2)+1 Mining Fatigue$()$(br)$(li)$(l)Slowed$()$(li2)+1 Slowness$()$(br)$(li)$(l)Weakened$()$(li2)+1 Weakness$()$(br)$(li)$(l)Inert$()$(li2)-10% Cooldown Reduction$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Player Curses",
+      "text": "$(li)$(l)Wounded$()$(li2)-10 Health$()$(br)$(li)$(l)Drained$()$(li2)-70% Mana Regeneration$()$(br)$(li)$(l)Modifier$()$(li2)ModifierText$()$(br)$(li)$(l)Frenzy$()$(li2)+300% Mob Damage$()$(li2)+10% Mob Speed$()$(li2)Mob health reduced to 1$()"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:map",
+      "title": "Generation Curses",
+      "text": "Generation curses affect the way the $(l)Vault$() gets $(l)generated$().$(br2)The exit to the Vault can be $(l)locked$(), or it may even have $(l)TNT$() randomly spawn."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Generation Curses",
+      "text": "$(li)$(l)Collapsing$()$(li2)Bedrock gradually fills the Vault$()$(br)$(li)$(l)Volcanic$()$(li2)Lava gradually fills the Vault$()$(br)$(li)$(l)Explosive$()$(li2)TNT gradually blows up the Vault$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Generation Curses",
+      "text": "$(li)$(l)Shulkered$()$(li2)Shulker projectiles randomly spawn in the Vault$()$(br)$(li)$(l)Locked$()$(li2)The exit is locked until the $(l:the_vault/objectives)objective$() is completed$()"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:experience_bottle",
+      "title": "Other Curses",
+      "text": "$(li)$(l)Rotten$()$(li2)$(l:the_vault/vault_fruits)Vault Fruits$() can't be eaten$()$(br)$(li)$(l)Minefield$()$(li2)+40% Chest Trap Chance$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Other Curses",
+      "text": "$(li)$(l)Jupiter Gravity°$()$(li2)The player can't jump$()$(br)$(li)$(l)Crabwalk°$()$(li2)The player can only move left and right$()$(br)$(li)$(l)Confused°$()$(li2)The player's movement is reversed$()$(br2)$(br)* Only applied by using$(br)Wither Skeleton Skulls$()"
+    }
+
+  ]
+
+}

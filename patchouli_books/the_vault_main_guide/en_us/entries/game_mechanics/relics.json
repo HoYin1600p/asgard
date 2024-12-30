@@ -1,0 +1,23 @@
+{
+  
+  "name": "Relics",
+  "icon": "the_vault:vault_relic{VaultModelId:\"the_vault:relic/elemental/statue\"}",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Relics are antiquities from the Vault Gods.$(br2)Each $(l)uniquely$() completed Relic set grants $(l)30 additional seconds$() of $(l)time$() within all Vaults.$(br2)Relic Fragments can be obtained from both $(l)Relic Booster Packs$() and $(l)Unidentified Relic Fragments$()."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:relic_pedestal",
+      "title": "Relic Pedestal",
+      "text": "Once $(l)all$() Relic Fragments are $(l)collected$(), they can be assembled into a $(l)Relic$().$(br2)This is done in a Relic Pedestal, by $(l)selecting$() the correct Relic."
+    }
+
+  ]
+
+}

@@ -1,0 +1,49 @@
+{
+  
+  "sortnum": 2,
+  "name": "Gamerule Commands",
+  "icon": "minecraft:clock",
+  "category": "patchouli:useful_commands_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Several custom gamerules have been introduced, to $(l)adjust$() the Vault Hunters $(l)experience$().$(br2)On multiplayer servers, these rules are applied to $(l)all$() players.$(br2)Most of these game rules will throw off the $(l)balance$() of the game. It is therefore $(l)recommended$() to keep most gamerules on their $(l)default setting$()."
+    },
+
+    {
+      "anchor": "vaultmode",
+      "type": "patchouli:text",
+      "title": "Gamerule Commands",
+      "text": "$(li)$(8)$(l)/gamerule$(br)vaultMode$(br)<mode>$()$(li2)Changes what happens when a player $(l:game_mechanics/spirits)unalives in a Vault$()$()$(br2)Possible arguments:$(li)$(c:/gamerule vaultMode CASUAL)$(t:Click to execute the command)Casual$()$(li2)Keep items on Vault death$()$(li)$(c:/gamerule vaultMode NORMAL)$(t:Click to execute the command)Normal$(/c)$(/t) $(8)(Default)$()$(li2)Spirit on Vault death$()$(li)$(c:/gamerule vaultMode HARDCORE)$(t:Click to execute the command)Hardcore$()$(li2)No spirit on Vault death$()"
+    },
+
+    {
+      "anchor": "vaultloot",
+      "type": "patchouli:text",
+      "title": "Gamerule Commands",
+      "text": "$(li)$(8)$(l)/gamerule$(br)vaultLoot$(br)<loot>$()$(li2)Changes the amount of $(l:the_vault/loot)loot$() found within all chests in a Vault$()$()$(br2)Possible arguments:$(li)$(c:/gamerule vaultLoot NORMAL)$(t:Click to execute the command)Normal$(/c)$(/t) $(8)(Default)$()$(li2)1x Vault loot$()$(li)$(c:/gamerule vaultLoot PLENTY)$(t:Click to execute the command)Plenty$()$(li2)2x Vault loot$()$(li)$(c:/gamerule vaultLoot EXTREME)$(t:Click to execute the command)Extreme$()$(li2)3x Vault loot$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Gamerule Commands",
+      "text": "$(li)$(8)$(l)/gamerule$(br)vaultCrystalMode$(br)<crystalMode>$()$(li2)Changes Vault Altar costs$()$()$(br2)Possible arguments:$(li)$(c:/gamerule vaultCrystalMode INFINITY)$(t:Click to execute the command)Infinity$()$(li2)$(t:The Vault Altar still needs to be\nactivated through a Redstone signal)No Vault Altar scaling$()$(li)$(c:/gamerule vaultCrystalMode NORMAL)$(t:Click to execute the command)Normal$(/c)$(/t) $(8)(Default)$()$(li2)1x Vault Altar scaling$()$(li)$(c:/gamerule vaultCrystalMode EXTREME)$(t:Click to execute the command)Extreme$()$(li2)2x Vault Altar scaling$()$(li)$(c:/gamerule vaultCrystalMode GRINDY)$(t:Click to execute the command)Grindy$()$(li2)3x Vault Altar scaling$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Gamerule Commands",
+      "text": "$(li)$(8)$(l)/gamerule$(br)vaultAllowWaypoints$(br)<true/false>$()$(li2)Changes whether Waypoints are allowed to be set in a Vault$()$()$(br2)Possible arguments:$(li)$(c:/gamerule vaultAllowWaypoints true)$(t:Click to execute the command)True$()$(li2)Allows waypoints in Vaults$()$(li)$(c:/gamerule vaultAllowWaypoints false)$(t:Click to execute the command)False$(/c)$(/t) $(8)(Default)$()$(li2)No waypoints in Vaults$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Gamerule Commands",
+      "text": "$(li)$(8)$(l)/gamerule$(br)vaultJoinRequireParty$(br)<true/false>$()$(li2)Changes whether players have to be in a party to $(l:the_vault/cooperative_vaults)cooperate$() on a Vault$()$()$(br2)Possible arguments:$(li)$(c:/gamerule vaultAllowWaypoints true)$(t:Click to execute the command)True$()$(li2)Parties are required$()$(li)$(c:/gamerule vaultAllowWaypoints false)$(t:Click to execute the command)False$(/c)$(/t) $(8)(Default)$()$(li2)Parties are not required$()"
+    }
+
+  ]
+
+}

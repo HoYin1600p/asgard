@@ -1,0 +1,23 @@
+{
+  
+  "sortnum": 2,
+  "name": "Chromatic iron",
+  "icon": "the_vault:raw_chromatic_iron",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Chromatic Iron is an ore that can spawn in plentiful veins $(l)below Y: -32$(), sometimes exposed to the surface.$(br2)When mined, it yields $(l)Raw Chromatic Iron$(). The amount of Raw Chromatic Iron dropped per ore can be increased with $(l)fortune$()."
+    },
+
+    {
+      "type": "patchouli:smelting",
+      "recipe": "the_vault:smelt_raw_chromatic_iron",
+      "title": "Chromatic Iron",
+      "text": "Raw Chromatic Iron can be smelted into $(l)Chromatic Iron Ingots$(). $(br2)Chromatic Iron Ingot is used in a lot $(l)recipes$().$(br2)Only $(l)some$() has to be found in the overworld, as it can also be found $(l)within Vaults$()."
+    }
+
+  ]
+
+}

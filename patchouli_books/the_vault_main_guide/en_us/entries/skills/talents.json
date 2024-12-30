@@ -1,0 +1,23 @@
+{
+
+  "sortnum": 3,
+  "name": "Talents",
+  "icon": "the_vault:quest_book",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Talents are $(l)passive$() skills that $(l)don't$() require any mana.$(br2)Similarly to $(l:skills/abilities)Abilities$(), Talents can be $(l)learned$() or $(l)upgraded$() by spending $(l)Skill Points$() on it.$(br2)It can also be unlearned using $(l)Regret Points$().$(br2)Each Talent has various $(l)attributes$() that $(l)scale$() per level of the Talent."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Relations",
+      "text": "$(br)Talents can be $(l)related$() to other Talents in $(l)2$() different ways.$(br2)One Talent may $(l)exclude$() another from being learned, leaving a $(l)choice$() between those talents.$(br2)Some Talents are $(l)grouped$() together, which $(l)limits$() the number of $(l)Skill Points$() that can be $(l)spent$() on Talents in that group."
+    }
+
+  ]
+
+}

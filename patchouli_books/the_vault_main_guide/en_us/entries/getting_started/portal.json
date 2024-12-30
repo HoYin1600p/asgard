@@ -1,0 +1,40 @@
+{
+  
+  "sortnum": 5,
+  "name": "Vault Portal",
+  "icon": "the_vault:vault_stone",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "After infusing the Vault Rock to create a Vault Crystal, the player requires a $(l)portal frame$().$(br2)Right-clicking with a $(l)Vault Crystal$() inside the portal opens a gateway to the Vault Dimension.$(br2)The frame can be built out of $(l)any type$() of $(l)Vault Stone.$()"
+    },
+
+    {
+      "type": "patchouli:multiblock",
+      "name": "Vault Portal",
+      "multiblock": {
+        "pattern": [
+          [ "    ", "SVSS", "    " ],
+          [ "    ", "B  P", "    " ],
+          [ "    ", "S  V", "    " ],
+          [ "    ", "V  S", "    " ],
+          [ "   0", "PSCS", "    " ]
+        ],
+        "mapping": {
+          "S": "the_vault:vault_stone",
+          "P": "the_vault:polished_vault_stone",
+          "V": "the_vault:vault_cobblestone",
+          "B": "the_vault:bumbo_polished_vault_stone",
+          "C": "the_vault:chiseled_vault_stone"
+        },
+        "symmetrical": false
+      },
+      "enable_visualize": true,
+      "text": "The portal may vary in size with a $(l)minimum of 4x5$() and a $(l)maximum of 23x23$()."
+    }
+
+  ]
+
+}

@@ -1,0 +1,36 @@
+{
+  
+  "sortnum": 2,
+  "name": "Modification",
+  "icon": "the_vault:alchemy_table",
+  "category": "patchouli:vault_potions_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Vault Potions can be modified to contain $(l)modifiers$().$(br2)The $(l)higher$() the $(l)tier$() of the Vault Potion, the more modifiers slots it contains.$(br2)The number of slots are:$(br)$(li)0: $(l)Vial$()$(li)1: $(l)Potion$()$(li)2: $(l)Mixture$()$(li)3: $(l)Brew$()"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:alchemy_table",
+      "title": "Alchemy Table",
+      "text": "In the Alchemy Table, the preferred modifiers can be $(l)crafted$() onto the Vault Potion at the cost of $(l)Vault Gold$() and $(l)Poisonous Mushrooms$().$(br2)Upon $(l)consuming$() the Vault Potion, the modifier(s) are applied for $(l)20 seconds$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:alchemy_archive",
+      "title": "Alchemy Archive",
+      "text": "$(l)Not$() all available modifiers can be crafted onto a Vault Potion.$(br2)Some modifiers are gated behind the player's $(l)level$().$(br2)Others can be taught to the player by finding an $(l)Alchemy Archive$() inside a $(l:the_vault/layout#dungeons)$(t:Dungeons)dungeon$() in any Vault."
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

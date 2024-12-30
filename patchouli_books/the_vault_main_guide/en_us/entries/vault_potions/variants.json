@@ -1,0 +1,36 @@
+{
+  
+  "sortnum": 1,
+  "name": "Variants",
+  "icon": "the_vault:bottle{charges:6,recharge:\"time\",type:\"potion\",vaultGearData:[L;-6653475995900397510L,3031496174923122195L,1514722424829610010L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]}",
+  "category": "patchouli:vault_potions_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Vault Potions are used to $(l)regenerate health$() inside of Vaults.$(br2)They are crafted by the player in a $(l)Crafting Table$().$(br2)They can be modified to also apply temporary $(l)modifiers$() to the player after consumption.$(br2)After $(l)exiting$() a Vault, the Vault Potion gets $(l)reset$() to its $(l)initial$() state."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:bottle{charges:6,recharge:\"time\",type:\"potion\",vaultGearData:[L;-6653475995900397510L,3031496174923122195L,1514722424829610010L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]}",
+      "title": "Variants",
+      "text": "Each Vault Potion has $(l)6 charges$() at the $(l)start$() of a Vault. Drinking the Vault Potion $(l)requires a charge$().$(br2)These charges can be regenerated depending on the $(l)recharger$() used by the Vault Potion.$(br2)Only $(l)one$() Vault Potion is $(l)functional$() inside of a Vault."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Tiers",
+      "text": "$(br)There are various tiers of Vault Potions. This determines the $(l)health$() it $(l)regenerates$() and the number of $(l)modifiers$().$(br2)The available tiers are:$(br)$(li)$(l)Vial$()$(li)$(l)Potion$()$(li)$(l)Mixture$()$(li)$(l)Brew$()$(br2)All tiers, except Vials, are locked behind $(l)Research$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Rechargers",
+      "text": "$(br)Each Vault Potion also has a recharger that is $(l)determined$() upon $(l)crafting$() it.$(br2)The recharger is the method of $(l)regenerating$() a $(l)charge$() on the Vault Potion.$(br2)The recharge can either occur every $(l)5 minutes$() or every $(l)150 mob unalived$()."
+    }
+
+  ]
+
+}

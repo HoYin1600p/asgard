@@ -1,0 +1,79 @@
+{
+  
+  "name": "Loot",
+  "icon": "the_vault:vault_diamond",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Different types of loot are collectable inside $(l)chests$(), $(l)coin piles$() and $(l)ores$(), as well as $(l)$(l:the_vault/treasure_rooms)treasure rooms$().$(br2)$(l)Completion Crates$() are given to the player upon completing an $(l)$(l:the_vault/objectives)objective$(), which yield some very valuable resources.$(br2)Starting at $(l)4 levels$() above the Vault's level, a player receives a $(l)penalty$() in loot quantity."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Points of Interest",
+      "text": "$(br)Scattered around the Vault rooms are various points of interest, each containing a $(l)different variety$() in loot.$(br2)Each chest has a $(l)tier$(), indicating the quality of the items inside of it. A chest may be $(l)Common$(), $(l)Rare$(), $(l)Epic$() or $(l)Omega$().$(br2)There are a few common $(l)chest variants$(), talked about on the following pages."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:vault_gold",
+      "title": "Coin Piles",
+      "text": "Coin Piles contain various pieces of $(l)Vault Bronze$(), $(l)Vault Silver$() and even $(l)Vault Gold$().$(br2)Each pile may $(l)vary$() in size, depending on the Vault's level."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:ore_larimar{type:'vault_stone'}",
+      "title": "Vault Ores",
+      "text": "$(l)Vault Stone$() POIs contain various Vault Ores.$(br2)These range anywhere from the frequently found $(l)Larimar Ores$() to the legendary $(l)Echo Ores$().$(br2)$(l)Vault Gems$(), obtained from Vault Ores, are used in various $(l)crafting$() recipes."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:wooden_chest",
+      "title": "Wooden Chests",
+      "text": "Being the $(l)most commonly found$() chests within any Vault, Wooden Chests contain a big variety of $(l)frequently used$() items.$(br2)They also contain $(l)Bounty Pearls$() used for rerolling $(l:game_mechanics/bounty_system)Bounties$(). At later levels, they even include $(l)Catalyst Fragments$() and $(l)Gemstones$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:gilded_chest",
+      "title": "Gilded Chests",
+      "text": "Gilded Chests contain items that focus on $(l)Valuables$().$(br2)They contain Vault Diamonds, Vault Essence and Jewels, as well as rare $(l)Key Pieces$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:living_chest",
+      "title": "Living Chests",
+      "text": "Living Chests contain items that focus on $(l)Progression$().$(br2)They contain Knowledge Essence, Burger Parts and $(l:the_vault/vault_fruit)Vault Fruit$(), and occasionally $(l)Mystery Eggs$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:ornate_chest",
+      "title": "Ornate Chests",
+      "text": "Ornate Chests contain items that focus on $(l)Gear$() and $(l)Crafting$().$(br2)They contain various Ingots, Carbon and Focuses, and may even have $(l)Unidentified Vault Gear$() or a $(l)Trinket$()."
+    },
+
+    {
+      "anchor": "treasure_chests",
+      "type": "patchouli:spotlight",
+      "item": "the_vault:treasure_chest",
+      "title": "Treasure Chests",
+      "text": "Treasure Chests, found in $(l:the_vault/treasure_rooms)$(l)Treasure Rooms$(), yield $(l)rare$() items, some otherwise $(l)unobtainable$().$(br2)They contain several Motes and Vault Gear, and could contain $(l)Omega Vault Gear$(), a $(l)Trinket$() or an $(l)Opportunistic Focus$().$(br2)These are $(l)not$() affected by Item Quantity or Item Rarity."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:gilded_strongbox",
+      "title": "Strongboxes",
+      "text": "Strongboxes are $(l)tougher$() variants of Gilded, Living and Ornate Chests. They appear at $(l)Level 50$() and above.$(br2)Strongboxes $(l)can't$() be opened and thus have to be $(l)broken$(). Unlike regular chests, they are $(l)not sliced$().$(br2)These contain $(l)2.5x$() the loot of their regular variant."
+    }
+
+  ]
+
+}

@@ -1,0 +1,75 @@
+{
+  
+  "sortnum": 1,
+  "name": "Positive Vault Modifiers",
+  "icon": "botania:cosmetic_four_leaf_clover",
+  "category": "patchouli:modifiers_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Positive modifiers influence the Vault to the player's $(l)advantage$().$(br2)Which positive modifiers occur during a Vault $(l)can$() be controlled by the player by $(l:game_mechanics/crystal_modification)$(l)modifiying$() the Vault Crystal."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Positive Vault Modifiers",
+      "text": "$(br)These can roll $(l)at random$() within an $(l)unmodified$() Vault.$(br2)Additionally, these can roll on Vaults with Afterlife applied to it.$(br2)Some modifiers may also roll as a consequence of $(l:game_mechanics/crystal_modification#vault_catalysts)$(t:Vault Catalysts)$(l)Vault Catalysts$() applied on a Vault Crystal."
+    },
+
+    {
+      "anchor": "saving_grace_modifiers",
+      "type": "patchouli:spotlight",
+      "item": "the_vault:scavenger_skeleton_skull",
+      "title": "Saving Grace Modifiers",
+      "text": "Saving grace modifiers affect what occurs when the player $(l)unalives$() within Vaults.$(br2)This includes $(l)resurrection$() and $(l)inventory restoration$().$(br2)Unaliving with a saving grace modifier will $(l)lower$() any gear's $(l)durability$(), unless 21 levels above the Vault's level."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Saving Grace Modifiers",
+      "text": "$(li)$(l)Afterlife$()$(li2)Restores items on death$(li2)-50% Vault Experience$(br)$(li)$(l)Beginner's Grace$()$(li2)Restores items on death$(li2)Applies automatically at Vault level 0-19$(br)$(li)$(l)Phoenix$()$(li2)Ressurects the player on death, within the Vault$(li2)Can be stacked multiple times on a crystal"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:gilded_chest",
+      "title": "Loot Modifiers",
+      "text": "Loot modifiers affect the loot obtained within Vaults.$(br2)$(l)Bonus$() modifiers add $(l)Scattered$() unguarded loot.$(br2)$(l)Cascading$() modifiers increase the number of loot $(l)per loot spawn$() the Vault. The Wooden modifier is an example of this."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Loot Modifiers",
+      "text": "$(li)$(l)Beginner's Insurance$()$(li2)No trapped chests$()$(li2)Applies automatically at Vault level 0-4$()$(br)$(li)$(l)Looter's Dream$()$(li2)No trapped chests$(br)$(li)$(l)Trapped$()$(li2)+5% Chest Trap Chance"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Loot Modifiers",
+      "text": "$(li)$(l)Plentiful$()$(li2)+20% Vault Ores$(br)$(li)$(l)Bonus Gilded$()$(li2)+1 Set of Gilded Chests$(br)$(li)$(l)Bonus Living$()$(li2)+1 Set of Living Chests$(br)$(li)$(l)Bonus Ornate$()$(li2)+1 Set of Ornate Chests$(br)$(li)$(l)Coin Stacks$()$(li2)+1 Set of Coin Stacks"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Loot Modifiers",
+      "text": "$(li)$(l)Wooden$()$(li2)+25% Wooden Chests$(br)$(li)$(l)Gilded$()$(li2)+25% Gilded Chests$(br)$(li)$(l)Living$()$(li2)+25% Living Chests$(br)$(li)$(l)Ornate$()$(li2)+25% Ornate Chests$(br)$(li)$(l)Wealthy$()$(li2)+25% Coin Piles"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Loot Modifiers",
+      "text": "$(li)$(l)Opulent$()$(li2)+10% Item Quantity$(br)$(li)$(l)Lucky$()$(li2)+20% Item Rarity$(br)$(li)$(l)Prosperous$()$(li2)+10% Artifact Chance$(br)$(li)$(l)Prismatic$()$(li2)+10% Catalyst Fragments$(br)$(li)$(l)Haunted$()$(li2)+50% Soul Shard Drop Rate"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:experience_bottle",
+      "title": "Other Modifiers",
+      "text": "$(li)$(l)Extended$()$(li2)+1 Minute Vault Time$(br)$(li)$(l)Accustomed$()$(li2)+20% Vault Experience"
+    }
+
+  ]
+
+}

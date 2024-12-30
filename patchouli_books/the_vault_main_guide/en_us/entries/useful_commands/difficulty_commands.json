@@ -1,0 +1,35 @@
+{
+  
+  "sortnum": 1,
+  "name": "Difficulty Commands",
+  "icon": "the_vault:scavenger_skeleton_skull",
+  "category": "patchouli:useful_commands_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Difficulty can be set to the player's preference to adjust the $(l)scaling$() of $(l:the_vault/mobs)$(l)mobs$().$(br2)This changes their $(l)health$() and $(l)damage$(), and does $(l)not$() scale $(l)loot$() found within Vaults. This is done in a separate $(l:useful_commands/gamerule_commands#vaultloot)$(t:Gamerule: vaultLoot)$(l)gamerule$().$(br2)Starting at $(l)Hard$() difficulty, $(l)Vault Fighters$() may occassionally throw $(l)bricks$() at the player."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Difficulty Commands",
+      "text": "$(br)Possible Vault difficulties are:$(br)$(li)$(l)Piece of Cake$()$(li2)0.25x Mob Scaling$()$(li)$(l)Easy$()$(li2)0.50x Mob Scaling$()$(li)$(l)Normal$()$(li2)0.75x Mob Scaling$()$(li)$(l)Hard$()$(li2)1x Mob Scaling$()$(li)$(l)Impossible$()$(li2)2x Mob Scaling$()$(li)$(l)Fragged$()$(li2)4x Mob Scaling$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Difficulty Commands",
+      "text": "$(li)$(8)$(l)/the_vault$(br)difficulty$(br)<difficulty>$()$(li2)Sets the global Vault difficulty for every player$()$(br2)Possible arguments:$(li)$(c:/the_vault difficulty piece_of_cake)$(t:Click to execute the command)Piece of Cake$()$(li)$(c:/the_vault difficulty easy)$(t:Click to execute the command)Easy$()$(li)$(c:/the_vault difficulty normal)$(t:Click to execute the command)Normal$(/c)$(/t) $(8)(Default)$()$()$(li)$(c:/the_vault difficulty hard)$(t:Click to execute the command)Hard$()$(li)$(c:/the_vault difficulty impossible)$(t:Click to execute the command)Impossible$()$(li)$(c:/the_vault difficulty fragged)$(t:Click to execute the command)Fragged$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Difficulty Commands",
+      "text": "$(li)$(8)$(l)/the_vault$(br)local_difficulty$(br)<difficulty>$()$(li2)Sets the personal Vault difficulty for a player$()$(br2)Possible arguments:$(li)$(c:/the_vault local_difficulty @p piece_of_cake)$(t:Click to execute the command)Piece of Cake$()$(li)$(c:/the_vault local_difficulty @p easy)$(t:Click to execute the command)Easy$()$(li)$(c:/the_vault local_difficulty @p normal)$(t:Click to execute the command)Normal$(/c)$(/t) $(8)(Default)$()$()$(li)$(c:/the_vault local_difficulty @p hard)$(t:Click to execute the command)Hard$()$(li)$(c:/the_vault local_difficulty @p impossible)$(t:Click to execute the command)Impossible$()$(li)$(c:/the_vault local_difficulty @p fragged)$(t:Click to execute the command)Fragged$()"
+    }
+
+  ]
+
+}

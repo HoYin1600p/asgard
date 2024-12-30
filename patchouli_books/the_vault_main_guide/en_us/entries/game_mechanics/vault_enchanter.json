@@ -1,0 +1,23 @@
+{
+
+  "name": "Vault Enchanter",
+  "icon": "the_vault:vault_enchanter",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "The Vault Enchanter introduces an $(l)easier$() and $(l)less consuming$() way to $(l)enchant$() $(l:vault_gear/identification)$(t:Vault Gear)Vault Gear$() and $(l:vault_tools/variants)$(t:Vault Tools)Vault Tools$().$(br2)Instead of using an Enchantment Table or Villagers, it introduces a way to $(l)choose$() and $(l)replace$() enchantments from within a $(l)single UI$().$(br2)All enchantments in the Vault Enchanter are the $(l)maximum$() level for that enchantment."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_enchanter",
+      "title": "Vault Enchanter",
+      "text": "After inputting Vault Gear or a Vault Tool of choice, an enchantment can be selected for the $(l)cost$() of $(l)5 Emeralds$() and $(l)1 Experience level$()."
+    }
+
+  ]
+
+}

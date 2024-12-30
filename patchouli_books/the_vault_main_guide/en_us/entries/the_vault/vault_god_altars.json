@@ -1,0 +1,34 @@
+{
+
+  "name": "Vault God Altars",
+  "icon": "the_vault:xp_altar",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "$(l)Vault God Altars$() can be found inside the Vault. Each one of the Vault Gods has a different task to complete.$(br)$(li)$(l)Idona:$() Mob kills $(li)$(l)Tenos:$() Experience levels$(li)$(l)Wendarr:$() Mana$(li)$(l)Velara:$() Health$()$(br2)The requirements $(l)scale$() with the Vault level."
+    },
+    
+    {
+      "type": "patchouli:text",
+      "title": "Completion",
+      "text": "$(br)When completing an altar, the player is awarded a $(l)Vault Idol$() or a $(l)Blessing$(). Vault God Blessings are used to craft Vault Idols.$(br2)Additionally, there is a chance to gain a $(l)Favor$(), granting the $(l)player$() a small $(l)positive modifier$() in the $(l)next$() vault.$(br2)The odds of getting a favor scales with the God's $(l)affinity$() on the current Vault Idol. "
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Reputations",
+      "text": "$(br)With each $(l)Favored$() Vault $(l)completed$(), the reputation of the player with the respective Vault God is increased.$(br2)$(l)Higher$() reputation with a Vault God grants a $(l)larger statistic increase$() in Vaults Favored by that Vault God.$(br2)$(l)Which$() modifications can be applied by which Vault God can be found in the $(l)statistics menu$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Reputations",
+      "text": "$(br)Only $(l)100 reputation points$() are available to the player, spread over all Vault Gods.$(br2)After that limit is reached, gaining reputation points for one Vault God $(l)reduces$() them for $(l)another$().$(br2)Gaining 100 reputation points with $(l)one$() Vault God grants a unique $(l)Vault Armor model$()."
+    }
+
+  ]
+
+}

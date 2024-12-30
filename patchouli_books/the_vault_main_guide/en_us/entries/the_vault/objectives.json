@@ -1,0 +1,120 @@
+{
+  
+  "name": "Objectives",
+  "icon": "the_vault:obelisk",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "This chapter covers all objectives that are available within Vaults.$(br2)Applying a $(l)seal$() to a Vault Crystal $(l)forces$() the objective of a Vault, while unsealed Vault Crystals can roll $(l)one of several$() objectives.$(br2)After completing the objective of a Vault, a $(l)Completion Crate$() of that objective is awarded."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Hunter: Observer",
+      "text": "$(br)The $(l)Hunter$() specialization for $(l)Objective$() can be used to find the Objectives within a Vault.$(br2)This includes $(l)God Altars$(), more on which can be found $(l:the_vault/altars)here$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Objective odds",
+      "text": "$(li)$(l)Level 0-9$()$(br)100% Monolith$(br)$(li)$(l)Level 10-19$()$(br)50% Monolith, 50% Elixir$(br)$(li)$(l)Level 20-49$()$(br)33% Monolith, 33% Elixir, 33% Scavenger$(br)$(li)$(l)Level 50+$()$(br)25% Monolith, 25% Elixir, 25% Scavenger, 25% Hunt the Guardians"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:monolith",
+      "title": "Light the Monoliths",
+      "text": "Light the required $(l)Monoliths$().$(br2)Monoliths can spawn in every room, not necessarily within sight.$(br2)Once all have been lit, $(l)exit$() the Vault through the portal to complete the objective."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:lodestone",
+      "title": "Elixir Rush",
+      "text": "Fill the $(l)Elixir bar$() by looting chests, mining ores and killing mobs. $(br2)The amount of elixir contributed by every action $(l)differs per run$().$(br2)$(l)Small purple Elixir balls$() indicate how much Elixir is provided by a task, and $(l)don't$() need to be picked up."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_sage",
+      "title": "Elixir Rush",
+      "text": "Once the bar is full, find a $(l)Lodestone$() to complete the objective.$(br2)In a $(l)cooperative$() Elixir Vault, each player needs to find their own Lodestone.$(br2)A $(l)Seal of the Sage$() can be used to force the Elixir Rush objective."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:scavenger_altar",
+      "title": "Scavenger Hunt",
+      "text": "Collect all required items and hand in the items at the $(l)Scavenger Altar$().$(br2)The HUD shows where to get the required items from.$(br2)Excess Scavenger Items can't be used in another vault. Use them in a $(l)Soul Diffuser$() to gain $(l)Soul Dust$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_hunter",
+      "title": "Scavenger Hunt",
+      "text": "Once all Scavenger Items are found, they can be handed in at a Scavenger Altar.$(br2)In a $(l)cooperative$() Vault, each player has their $(l)own$() set of items to collect.$(br2)A $(l)Seal of the Hunter$() can be used to force the Scavenger Hunt objective."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:obelisk",
+      "title": "Hunt the Guardians",
+      "text": "Find the required $(l)Obelisks$() and activate them to summon $(l)Vault Guardians$().$(br2)How many Vault Guardians need to be defeated for every Obelisk is displayed underneath the respective Obelisk in the HUD."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_executioner",
+      "title": "Hunt the Guardians",
+      "text": "This objective is completed $(l)as soon as$() all obelisks have been $(l)activated$() and all Guardians have been $(l)defeated$(). The player will then automatically be $(l)teleported$() out of The Vault.$(br2)A $(l)Seal of the Executioner$() can be used to force the Hunt the Guardians objective."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cake",
+      "title": "Cake Hunt",
+      "text": "Find the cakes scattered around the rooms.$(br2)$(l)Pink fog$() appears when the player is near a cake.$(br2)The number of cakes is $(l)unlimited$(). With each room, the player gets further away from the starting room, as Vaults with this objective have a $(l)spiral$() room pattern."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_cake",
+      "title": "Cake Hunt",
+      "text": "Each room has a 10% chance to spawn a $(l)Crake Pedestal$(), which completes the Vault for the player who uses it.$(br2)In a $(l)cooperative$() Vault, each player needs to find their own Crake Pedestal to complete the Vault."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:cake",
+      "title": "Cake Hunt",
+      "text": "The Cake Hunt objective $(l)can't$() be rolled $(l)randomly$() on a Vault Crystal.$(br2)A $(l)Seal of the Confectioner$() can be used to force the Cake Hunt objective. This is the $(l)only way$() to initiate the Cake Hunt objective."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_cake",
+      "title": "Cake Hunt",
+      "text": "The Cake Hunt has several $(l)modifiers$() that get $(l)added$() when finding a cake.$(br)$(li)$(l)Delicious$()$(li2)+1% Item Quantity$()$(li)$(l)Sweet$()$(li2)+1% Item Rarity$()$(li)$(l)Heavy$()$(li2)+1% Mob Health$()$(li)$(l)Anger$()$(li2)+1% Mob Damage$()"
+    },
+
+    {
+      "anchor": "architect",
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_architect",
+      "title": "Architect Vault",
+      "text": "An Architect Vault has $(l)no objective$().$(br2)It is a Vault built with inscriptions after combining a Vault Crystal with a $(l)Seal of the Architect$().$(br2)The higher the completion, the more blocks of The Vault will be $(l)generated$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:scavenger_goblet",
+      "title": "The Final Challenge",
+      "text": "Ready for the $(l)final challenge$()?$(br2)More to come ..."
+    }
+
+  ]
+
+}

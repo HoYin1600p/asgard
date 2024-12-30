@@ -1,0 +1,38 @@
+{
+  
+  "sortnum": 4,
+  "name": "Modification",
+  "icon": "the_vault:modifier_workbench",
+  "category": "patchouli:vault_gear_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "After $(l)finding$() or $(l:vault_gear/crafting)$(l)crafting$() Vault Gear, it can be modified.$(br2)Gear modification can range anywhere from adjusting the $(t:Implicits, Prefixes & Suffixes)$(l)affixes$() to changing the number of $(l:vault_gear/variants#affixes_and_repairs)$(t:Repair Slots)$(l)Repair Slots$().$(br2)Modifiers can be altered in the $(l)Vault Artisan Station$() and the $(l)Modifier Workbench$()."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_artisan_station",
+      "title": "Vault Artisan Station",
+      "text": "In the Vault Artisan Station, $(l)Focuses$() can be applied to Vault Gear to modify it, with the use of $(l)Vault Plating$() and $(l)Vault Bronze$().$(br2)Each Focus has its own slot to be stored in."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:modifier_workbench",
+      "title": "Modifier Workbench",
+      "text": "The $(l)Modifier Workbench$() allows the player to $(l)craft$() a specific prefix or suffix on a gear piece.$(br2)$(l)Weapons$(), $(l)armor$() and $(l)utilities$() can contain have a $(l)single$() modifier crafted onto them."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:modifier_discovery",
+      "title": "Modifier Archive",
+      "text": "$(l)Not$() all available modifiers can be crafted onto Vault Gear.$(br2)Some modifiers are gated behind the player's $(l)level$()$(br2)Others can be taught to the player by finding a $(l)Modifier Archive$() inside a $(l:the_vault/layout#dungeons)$(t:Dungeons)dungeon$() in Vaults above $(l)level 60$()."
+    }
+
+  ]
+
+}

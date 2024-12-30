@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 5,
+  "name": "Researches",
+  "icon": "the_vault:knowledge_star",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Most Mods in Vault Hunters are $(l)locked$() behind $(l)Researches$().$(br2)Researches are $(l)grouped$(), which makes unlocking a Research potentially $(l)increase$() the $(l)cost$() of $(l)other$() Researches in the $(l)same group$().$(br2)Some Researches also discover a $(l:vault_gear/identification#model)$(t:Model)$(l)Model$() for $(l)Vault Gear$().$(br2)Researches can be $(l:useful_commands/research_commands)$(l)shared$() together with other players."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:knowledge_star",
+      "title": "Knowledge Stars",
+      "text": "Researches can be unlocked by consuming $(l)Knowledge Stars$().$(br2)Once learned, a Research $(l)can't$() be $(l)unlearned$()."
+    }
+
+  ]
+
+}

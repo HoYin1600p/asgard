@@ -1,0 +1,23 @@
+{
+
+  "name": "Treasure Rooms",
+  "icon": "the_vault:key_iskallium",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Several $(l)locked$() rooms can be found inside Vaults. Behind the sturdy door is a $(l)Treasure Room$().$(br2)A Treasure Room can be opened with the corresponding $(l)Treasure Key$() to reveal its treasures inside.$(br2)These can only be $(l)crafted$() by the player by combining a $(l)Blank Keys$() with a $(l)Gem Cluster$()."
+    },
+    
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:treasure_door{type:iskallium}",
+      "title": "The Treasures",
+      "text": "Inside, a $(l)Treasure Chest$() is found, alongside piles of $(l)Treasure Sand$().$(br2)Treasure Chests contain $(l)very rare loot$(), and are $(l)not$() affected by Item Quantity or Item Rarity.$(br2)Mining Treasure Sand has a chance of containing very $(l)valuable$() items."
+    }
+
+  ]
+
+}

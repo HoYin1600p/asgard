@@ -1,0 +1,35 @@
+{
+  
+  "sortnum": 4,
+  "name": "Vault Crystal",
+  "icon": "the_vault:vault_crystal",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "After obtaining a $(l)Vault Rock$(), it needs to be $(l)infused$() with the correct $(l)items$() in order to create a Vault Crystal.$(br2)This is done in a $(l)Vault Altar$(). These are blocks that are $(l)bound$() to the player.$(br2)It provides Vault Crystals the ability to construct a $(l)gateway$() to the Vault dimension, by placing a $(l)Vault Rock$() on the Vault Altar."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe":"the_vault:vault_altar",
+      "title": "Vault Crystal",
+      "text": "The requested items can be $(l)dropped$() onto the Vault Altar in order to materialize the Vault Crystal, after which it needs to be $(l)activated$() through $(l)Redstone$().$(br2)The number of requested items $(l)scales$() with $(l)Vault Level$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item":"the_vault:vault_crystal",
+      "title": "Vault Crystal",
+      "text": "Every Vault Crystal has an $(l)Objective$(), $(l)Theme$() and $(l)Layout$().$(br2)The Vault Crystal can be $(l:game_mechanics/crystal_modification)$(l)modified$() with the use of resources from $(l)within Vaults$().$(br2)The $(l)level$() of the Vault attached to the Vault Crystal is bound to the $(l)player's Vault Level$() at the moment it was forged."
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

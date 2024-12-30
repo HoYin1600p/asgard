@@ -1,0 +1,22 @@
+{
+  
+  "sortnum": 3,
+  "name": "Velara's Wrath",
+  "icon": "the_vault:scavenger_drowned_eye",
+  "category": "patchouli:vault_potions_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "A Vault Potion is the $(l)only$() potion type that $(l)doesn't$() anger $(l)Velara$(), Vault God of Health.$(br2)When consuming $(l)any other$() type of potion, Velara will cast their $(l)anger$() upon you by applying the $(l)Velara's Wrath$() $(l:the_vault/modifiers)Vault modifier$() to the Vault.$(br2)This reduces $(l)Healing Efficiency$() by $(l)20%$() and can reduce up to a total of $(l)80% maximum$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

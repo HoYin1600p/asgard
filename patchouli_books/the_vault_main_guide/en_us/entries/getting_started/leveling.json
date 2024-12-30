@@ -1,0 +1,23 @@
+{
+
+  "sortnum": 6,
+  "name": "Player Leveling",
+  "icon": "the_vault:crispy_deluxe_cheese_burger",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Each Vault Hunter starts their adventure at $(l)Vault Level 0$().$(br2)Vault Experience is gained by performing $(l)actions$() inside of $(l)Vaults$().$(br2)The maximum Vault Level reachable is $(l)Level 100$().$(br2)Starting at $(l)4 Vault Levels$() above the Vault's level, an $(l)penalty$() for $(l)experience$() is applied."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crispy_deluxe_cheese_burger",
+      "title": "Vault Burgers",
+      "text": "Vault Burgers can be $(l)consumed$() to gain Vault Experience.$(br2)The $(l)more ingredients$() used to craft the Burger, the $(l)more Vault Experience$() is gained."
+    }
+
+  ]
+
+}

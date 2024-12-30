@@ -1,0 +1,33 @@
+{
+
+  "name": "Spirits",
+  "icon": "the_vault:spirit_extractor",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Spirits are a way to $(l)recover items$() within Vaults after unaliving.$(br2)They contain the items the player carried $(l)upon$() unaliving.$(br2)Whether or not Spirits spawn depends on the corresponding $(l:useful_commands/gamerule_commands#vaultmode)$(t:Gamerule: vaultMode)$(l)gamerule$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Appearance",
+      "text": "$(br)When unaliving in a $(l:the_vault/cooperative_vaults)$(l)Cooperative Vault$(), the Spirit will appear at the $(l)location$() the player $(l)unalived$() in.$(br2)Upon finding the Spirit, it can be $(l)carried$() away and $(l)thrown$() through the Vault Portal.$(br2)If the player is the $(l)last$() remaining in the Vault, the Spirit will appear at the $(l)spawn$() location of the player in the $(l)Overworld$()."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:spirit_extractor",
+      "text": "To $(l)extract$() the items from a Spirit, it needs to be placed on the Spirit Extractor.$(br2)The extraction $(l)price$() depends on the items the Spirit contains."
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

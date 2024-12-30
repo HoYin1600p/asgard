@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 5,
+  "name": "Jewel Cutting",
+  "icon": "the_vault:vault_jewel_cutting_station",
+  "category": "patchouli:vault_tools_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Jewels can be cut in the $(l)Jewel Cutting Station$().$(br2)At the $(l)cost$() of $(l)Silver Scrap$() and $(l)Vault Bronze$(), the $(l)size$() of Jewels can be $(l)decreased$(), down to a minimum of 10.$(br2)"
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_jewel_cutting_station",
+      "title": "Jewel Cutting Station",
+      "text": "By default, there is a $(l)50%$() chance at $(l)failure$(), reducing the Jewel's rarity by $(l)removing$() a $(l)modifier$().$(br2)If the Jewel is already $(l)Chipped$() at failure, it will $(l)break$() into some materials."
+    }
+
+  ]
+
+}

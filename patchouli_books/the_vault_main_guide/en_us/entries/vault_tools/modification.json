@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 6,
+  "name": "Modification",
+  "icon": "the_vault:vault_anvil",
+  "category": "patchouli:vault_tools_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "A Vault Tool can be $(l)enhanced$() with Jewels in an $(l)Anvil$().$(br2)If the $(l)capacity$() of the Vault Tool is $(l)higher$() than the $(l)size$() of the Jewel, it $(l)can$() be applied. This $(l)lowers$() the $(l)capacity$() by the Jewel's size.$(br2)The $(l)level requirement$() for the Vault Tool $(l)raises$() if a Jewel is applied to it that has a $(l)higher$() level than that of the Vault Tool."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:tool{Damage:0,offset:0L,vaultGearData:[L;5114323307339234010L,-8478985076520735578L,1514722424829605914L,4616400934536516931L,80955347137L,423054278681L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,8589934592L,184828609003782144L,185388976097100464L,140751079104801L,34359738360L,1024L,1514722424829605888L,5770026126585140547L,-8388307835L,2199023255555L,-6594373764144693248L,57035561565684368L,18014398507621451L,536870912L,11551781620285440L,5287668535996753963L,70368744170396L,2097152L,1077936128L]}",
+      "title": "Advanced Types",
+      "text": "Aside from overall improvements, $(l:vault_tools/variants#base_types)$(t:Base Types)$(l)base types$() can be applied to a Vault Tool, changing the $(l)appearance$() of the Vault Tool.$(br2)This grants the Vault Tool the $(l)functionality$() of $(l)all base type$() modifiers applied to it.$(br2)There are a total of $(l)18$() different $(l)advanced$() types."
+    }
+
+  ]
+
+}

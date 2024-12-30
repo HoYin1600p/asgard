@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 4,
+  "name": "Expertises",
+  "icon": "fairylights:witch_light{color:8991416}",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Expertises are $(l)passive$() skills that $(l)don't$() require any mana.$(br2)Expertises can be $(l)learned$() or $(l)upgraded$() by spending $(l)Expertise Points$() on it, which is gained every 5 levels upon $(l)leveling up$().$(br2)Each Expertise has various $(l)attributes$() that $(l)scale$() per level of the Expertise."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:neuralizer",
+      "title": "Neuralizers",
+      "text": "Expertises are costly to $(l)unlearn$().$(br2)Right-clicking with a Neuralizer consumes it and $(l)resets all$() Expertises at once."
+    }
+
+  ]
+
+}

@@ -1,0 +1,37 @@
+{
+
+  "name": "Soul Shards",
+  "icon": "the_vault:soul_shard",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "In Vaults, $(l)unaliving mobs$() grants a number of Soul Shards.$(br2)The $(l)Shard Pouch$() can be used to store an $(l)infinite$() number of Soul Shards.$(br2)Soul Shards can be used to craft $(l:game_mechanics/crystal_modification#banished_souls)$(t:Banished Souls)$(l)Banished Souls$(), to lower the level of a Vault."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_diffuser",
+      "title": "Vault Soul Diffuser",
+      "text": "Many items found within Vaults have a $(l)Soul Value$().$(br2)Those items can be $(l)diffused$() to $(l)Soul Dust$() in the Vault Soul Diffuser.$(br2)Soul Dust can be $(l)crafted$() into Soul Shards."
+    },
+
+    {
+      "anchor": "black_market",
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:black_market",
+      "title": "Black Market",
+      "text": "The Black Market is a $(l)shop$() where the player can $(l)purchase$() items with Soul Shards.$(br2)Each player has their $(l)individual$() items in stock."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Black Market",
+      "text": "$(br)All items have their $(l)own price range$(). The Unknown Item can grant $(l)any$() item available in the shop, at the cost of $(l)1,500$() Soul Shards.$(br2)Purchasing an item clears that slot and puts it $(l)out of stock$().$(br2)Every $(l)2 hours$(), the Black Market's stock $(l)resets$(), meaning $(l)3 renewed$() items are available."
+    }
+
+  ]
+
+}

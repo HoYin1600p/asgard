@@ -1,0 +1,121 @@
+{
+  
+  "name": "Crystal Modification",
+  "icon": "the_vault:augment",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "After forging a Vault Crystal, it can be $(l)modified$() to adjust the experience in the Vault.$(br2)Modifications are applied through an $(l)Anvil$(), at the cost of some experience levels.$(br2)Applying certain modifications to the Vault Crystal cause its $(l)instability$() to raise."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Instability",
+      "text": "$(br)The higher the instability, the higher the odds of it becoming $(l)cursed$() or $(l)unmodifiable$(). This can only occur when applying a modification that $(l)alters$() the Vault Crystal's instability.$(br2)A Vault Crystal has a 75% chance of getting $(l)Cursed$(), adding a random curse modifier. The number of curses on the Vault Crystal are indicated by the amount of $(l)skulls$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:crystal_seal_executioner",
+      "title": "Seals",
+      "text": "A Seal can be applied to force a certain $(l)$(l:the_vault/objectives)objective$().$(br2)They are $(l)crafted$() by the player.$(br2)There is a Seal for $(l)all objectives$(), $(l)except$() Light the Monoliths. The Cake Hunt objective can $(l)only$() be initiated through a Seal."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:augment",
+      "title": "Augments",
+      "text": "An Augment can be applied to force a certain $(l)theme$().$(br2)Augments are awarded rarely inside $(l)Completion Crates$(), at a 20% chance.$(br2)The theme engraved on the Augment is the $(l)same$() as the theme of the $(l)completed Vault$().$(br2)"
+    },
+
+    {
+      "anchor": "vault_catalysts",
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_catalyst",
+      "title": "Vault Catalysts",
+      "text": "Vault Catalyst Fragments can be found within $(l)Wooden Chests$().$(br2)These can be crafted together to create a Vault Catalyst."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:vault_catalyst",
+      "title": "Vault Catalysts",
+      "text": "A Vault Catalyst can be applied to add certain $(l)$(l:the_vault/modifiers)modifiers$().$(br2)This increases the $(l)instability$() of the Vault Crystal by $(l)5% per modifier$() added to it.$(br2)Before you can apply a Vault Catalyst, however, it needs to be $(l)infused$()."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:catalyst_infusion_table",
+      "title": "Vault Catalysts",
+      "text": "This is done inside a $(l)Catalyst Infusion Table$(), together with $(l)Mystical Essence$().$(br2)This applies a $(l)positive$() modifier, and often adds a $(l)random negative$() modifier."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:vault_catalyst_chaos",
+      "title": "Chaos Vault Catalysts",
+      "text": "Found in $(l:the_vault/loot#treasure_chests)Treasure Chests$() and the $(l:game_mechanics/soul_shards#black_market)Black Market$(), the Chaos Vault Catalyst offers a $(l)wild$() experience in a Vault.$(br2)It applies $(l)30 random $(l:the_vault/modifiers)modifiers$() to the Vault, both $(l)positive$() and $(l)negative$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:inscription{data:{completion:0.07f,instability:0.012f,model:0,time:693}}",
+      "title": "Inscriptions",
+      "text": "Inscriptions can be found in Living Chests, and $(l)Inscription Pieces$() in both Wooden and Living Chests. $(br2)An inscription rolls $(l)Completion$(), $(l)Time$() and $(l)Instability$() randomly. Completion is a mechanic where parts of the Vault will be replaced with $(l)Bedrock$(). "
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:inscription_table",
+      "title": "Inscriptions",
+      "text": "Inscriptions can be created in the $(l)Inscription Table$() with Inscription Pieces.$(br2)Both $(l)Empty$() Inscriptions and $(l)Room$() Inscriptions can be crafted."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:inscription{data:{completion:0.07f,instability:0.012f,model:0,time:2273,entries:[{color:7012096,count:1,pool:'the_vault:vault/rooms/omega/mush_room'}],model:2}}",
+      "title": "Room Inscriptions",
+      "text": "Room Inscriptions contain an $(l)Omega$() or $(l)Challenge$() Rooms.$(br2)These can be combined with a $(l)Vault Crystal$(), bound to an $(l:the_vault/objectives#architect)$(l)Architect Vault$().$(br2)$(l)Other$() inscriptions, without rooms on them, can be added to increase the $(l)time$() and $(l)completion$() of the Architect Vault."
+    },
+
+    {
+      "anchor": "motes",
+      "type": "patchouli:spotlight",
+      "item": "the_vault:mote_clarity",
+      "title": "Motes",
+      "text": "Motes are used to reveal or remove those curses. They can also be applied to $(l)unmodifiable$() Vault Crystals.$(br)$(li)$(l)Mote of Clarity$()$(li2)Reveals all curses$()$(li)$(l)Mote of Purity$()$(li2)Removes a random curse$()$(li)$(l)Mote of Sanctity$()$(li2)Removes all curses$()"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:wither_skeleton_skull",
+      "title": "Wither Skeleton Skulls",
+      "text": "Combining a Vault Crystal with a Wither Skeleton Skull will result in it applying a $(l:vault_modifiers/curses)$(l)curse$().$(br2)This may be done to add an $(l)additional challenge$() to the Vault."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:soul_flame",
+      "title": "Soul Flames",
+      "text": "$(l:vault_modifiers/positive_modifiers/saving_grace_modifiers)$(t:Saving Grace Modifiers)$(l)Afterlife$() is a modifier that can only be applied through Soul Flames.$(br2)It can only be applied to any $(l)unmodified$() crystal to prevent item loss on death."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:banished_soul",
+      "title": "Banished Souls",
+      "text": "Banished Souls are used to $(l)lower$() the $(l)level$() of a Vault.$(br2)Starting at $(l)4 levels$() above the Vault's level, a player receives a $(l)penalty$() in loot quantity."
+    },
+
+    {
+      "anchor": "banished_souls",
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

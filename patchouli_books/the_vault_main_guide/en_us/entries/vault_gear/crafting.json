@@ -1,0 +1,35 @@
+{
+  
+  "sortnum": 3,
+  "name": "Crafting",
+  "icon": "the_vault:vault_forge",
+  "category": "patchouli:vault_gear_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Aside from being $(l)found$() as $(l:the_vault/loot)$(l)loot$() within Vaults, Vault Gear can also be $(l)crafted$().$(br2)It can be crafted $(l)at or below$() the player's level.$(br2)This gives the option for the player to $(l)improve$() their gear set at their own choice."
+    },
+    
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_forge",
+      "title": "Vault Forge",
+      "text": "All gear $(l:vault_gear/variants)$(l)variants$() can be crafted inside the Vault Forge.$(br2)$(l)Trinkets$() can only be crafted $(l)after$() having been $(l)discovered$(). They always roll 20 uses on being crafted."
+    },
+    
+    {
+      "type": "patchouli:text",
+      "title": "Proficiency",
+      "text": "$(br)The Proficiency for each gear variant $(l)increases$() with $(l)every craft$() of it.$(br2)The $(l)higher$() the Proficiency, the higher the $(l)tier$() of the Vault Gear. Higher tiers improve the $(l)odds$() of the Vault Gear rolling a $(l)higher rarity$().$(br2)Tiers progress from $(l)Novice$() to $(l)Apprentice$(), to $(l)Master$(), to $(l)Artisan$(), to $(l)Master Artisan$()."
+    },
+    
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

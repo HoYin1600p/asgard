@@ -1,0 +1,46 @@
+{
+
+  "name": "Bounties",
+  "icon": "the_vault:bounty_block",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Bounties are $(l)challenges$() that can be completed in order to receive $(l)Vault Experience$() and $(l)resources$().$(br2)Bounties have 3 states: $(l)Available$(), $(l)Active$() and $(l)Completed$().$(br2)Available Bounties can be initiated using the Bounty Table. Once $(l)completed$(), the $(l)rewards$() can be claimed."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:bounty_block",
+      "text": "$(l)Completing$() a Bounty will $(l)renew$() it after a small period. $(l)Active$() Bounties can also be abandoned, but trigger an $(l)abandon penalty$().$(br2)Available Bounties can be renewed using $(l)Bounty Pearls$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Bounty Tasks",
+      "text": "$(li)$(l)Kill Entity$()$(li2)Unalive a number of entities inside a defined dimension$(br)$(li)$(l)Completion$()$(li2)Complete a number of Vaults, possibly based on an objective"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Bounty Tasks",
+      "text": "$(li)$(l)Item Submission$()$(li2)Submit a number of items to the Bounty Table$(br)$(li)$(l)Item Discovery$()$(li2)Find a number of items in Vaults$(br)$(li)$(l)Mining$()$(li2)Mine a number of ores in Vaults"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:lost_bounty",
+      "title": "Legendary Bounties",
+      "text": "$(l)Lost Bounties$() can be found in $(l)Treasure Sand$() in $(l:the_vault/treasure_rooms)$(l)Treasure Rooms$().$(br2)They can initiate Legendary Bounties by $(l)right-clicking$() on a Bounty Table.$(br2)Legendary Bounties are $(l)separate$() from regular Bounties and can be completed simultaneously."
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

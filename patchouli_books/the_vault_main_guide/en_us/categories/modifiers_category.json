@@ -1,0 +1,6 @@
+{
+    "sortnum": 8,
+    "name": "Vault Modifiers",
+    "description": "Any unmodified Vault Crystal may roll $(l)random$() Vault Modifiers when the Vault is entered.$(br2)Vault Modifiers heavily affect the experience in a Vault.$(br2)There are both $(l)positive$() and $(l)negative$() modifiers, as well as $(l)curses$(). Curses can only appear in a $(l:game_mechanics/crystal_modification)$(l)modified$() Vault.",
+    "icon": "the_vault:vault_catalyst"
+}

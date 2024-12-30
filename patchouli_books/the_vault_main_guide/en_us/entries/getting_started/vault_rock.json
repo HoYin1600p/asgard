@@ -1,0 +1,22 @@
+{
+  
+  "sortnum": 3,
+  "name": "Vault Rock",
+  "icon": "the_vault:vault_rock",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "After finding the necessary amounts of Chromatic Iron, clusters of Vault Stone can be found $(l)below Y: -5$().$(br2)When mining Vault Stone, there is a 10% chance for it to drop a $(l)Chipped Vault Rock$()."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_rock",
+      "text": "Combining $(l)Chipped Vault Rocks$() with $(l)Chromatic Iron$() in a Crafting Table results in a $(l)Vault Rock$()."
+    }
+
+  ]
+
+}

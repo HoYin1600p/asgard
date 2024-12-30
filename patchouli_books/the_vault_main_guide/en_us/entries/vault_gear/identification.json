@@ -1,0 +1,49 @@
+{
+  
+  "sortnum": 1,
+  "name": "Identification",
+  "icon": "the_vault:chestplate",
+  "category": "patchouli:vault_gear_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Vault Gear is the main source of $(l)defense$() when entering a Vault.$(br2)It can be $(l)found$() within Vaults or $(l)crafted$() by the player.$(br2)Unidentified Vault Gear can be identified by right-clicking it to reveal its $(l)rarity$() and $(l)model$()."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:identification_stand",
+      "text": "An Identification Stand $(l)fastens$() the $(l)identification$() of Vault Gear.$(br2)The table can be right-clicked to identify any Vault Gear in the player's inventory $(l)at once$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Level",
+      "text": "$(br)The $(l)higher$() the $(l)level$() of Vault Gear, which scales with the Vault Level when it was found or crafted, the better the $(l)tiers$() of the $(l)modifiers$().$(br2)Vault Gear only protects the player if they are $(l)at or above$() the gear's level.$(br2)The level of Vault Gear can be lowered when combined with a $(l)Banished Soul$() in an anvil."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Rarity",
+      "text": "$(br)The $(l)better$() the $(l)rarity$() of Vault Gear, the more $(l)prefixes$() and $(l)suffixes$() it rolls. $(br2)$(l)Possible rarities$() include:$(li)Scrappy$(li)Common$(li)Rare$(li)Epic$(li)Omega $(br2)A $(l)Scrappy+$() piece of gear may roll its rarity anywhere from Scrappy to Omega."
+    },
+
+    {
+      "anchor": "model",
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:transmog_table",
+      "title": "Model",
+      "text": "Rolling a model for the $(l)first time$() unlocks it for that gear piece.$(br2)After unlocking a model, Vault Gear of that type can be changed to that model in the $(l)Transmogrification Table$() in exchange for Vault Bronze."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Legendary Modifiers",
+      "text": "$(br)When $(l)identifying$() Vault Gear, it may roll Legendary Modifiers randomly. These can $(l)only$() be obtained through identifying Vault Gear, not by modifying it.$(br2)These modifiers are of a $(l)higher tier$() than regular modifiers."
+    }
+
+  ]
+
+}

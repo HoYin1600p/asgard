@@ -1,0 +1,34 @@
+{
+
+  "sortnum": 2,
+  "name": "Abilities",
+  "icon": "the_vault:scavenger_wizard_wand",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Abilities are $(l)active buffs$() and $(l)actions$() that require $(l:skills/mana)$(l)Mana$().$(br2)An Ability can be $(l)learned$() or $(l)upgraded$() by spending $(l)Skill Points$() on it, which is gained upon $(l)leveling up$().$(br2)It can be unlearned using $(l)Regret Points$() that are obtained by consuming $(l)Regret Orbs$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Specializations",
+      "text": "$(br)Certain Abilities have Specializations. Choosing one $(l)locks$() the Ability into that Specialization.$(br2)They can be unlocked with the corresponding $(l)Choice Flask$() for that Ability.$(br2)Each Ability and Specialization has its own $(l)Mana cost$() and $(l)cooldown$(), along with other $(l)attributes$(), that $(l)scale$() per level of the Ability."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Types",
+      "text": "$(br)Abilities have varying types. The available types are:$(br)$(li)$(l)Cast$()$(li2)Casts on key press$()$(li)$(l)Toggle$()$(li2)Toggles ability on/off on key press$()$(li)$(l)Hold$()$(li2)Active while key held$()$(li)$(l)On Next Hit$()$(li2)Casts on next hit after key press$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

@@ -1,0 +1,23 @@
+{
+
+  "name": "Cooperative Vaults",
+  "icon": "minecraft:player_head",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "A Vault can be ran together with others. This is done by simply entering the $(l)same$() Vault $(l)portal$() as another player.$(br2)Upon $(l)unaliving$() in a Vault, a $(l:game_mechanics/spirits)$(l)spirit$() spawns at the player's location, given they're not the last remaining in the Vault.$(br2)Once a player leaves the Vault, they $(l)can't rejoin$()."
+    },
+
+    {
+      "anchor": "parties",
+      "type": "patchouli:text",
+      "title": "Parties",
+      "text": "$(br)Running with others is made easier with parties.$(br2)A party can be created and managed through $(l:useful_commands/party_commands)$(t:Party Commands)$(l)commands$().$(br2)The members of the party and their $(l)health$() are shown in the HUD on the $(l)right$() side of the screen."
+    }
+
+  ]
+
+}

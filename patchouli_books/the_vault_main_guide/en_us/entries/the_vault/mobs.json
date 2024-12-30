@@ -1,0 +1,22 @@
+{
+  
+  "name": "Mobs",
+  "icon": "minecraft:skeleton_skull",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "A $(l)variety$() of mobs appear inside of Vaults, some only appearing after a certain $(l)level$().$(br2)Mobs have various $(l)tiers$(), which start appearing at higher levels.$(br2)The $(l)health$(), $(l)damage$(), $(l)armor$() and $(l)weapons$() of mobs all scale accordingly."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Mob Types",
+      "text": "A common Vault mob is the $(l)Vault Dweller$(), which is a mob that can $(l)jump$().$(br2)Different $(l:the_vault/layout)$(l)themes$() spawn different mobs, each with their own competencies.$(br2)$(l)Elite Mobs$() are stronger versions of common mobs, with a different look. They have a unique ability when fought or unalived. Unaliving Elite Mobs yields $(l)more Vault experience$()."
+    }
+
+  ]
+
+}

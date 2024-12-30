@@ -1,0 +1,23 @@
+{
+  
+  "sortnum": 3,
+  "name": "Party Commands",
+  "icon": "minecraft:player_head",
+  "category": "patchouli:useful_commands_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "$(l:the_vault/cooperative_vaults#parties)$(t:Parties)Parties$() can be created and managed to allow for $(l)cooperative$() vaults.$(br2)There is also a $(l)$(l:useful_commands/gamerule_commands)gamerule$() to determine players are $(l)required$() to be $(l)in a party$() to join a cooperative Vault.$(br2)"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Party Commands",
+      "text": "$(li)$(c:/party create)$(t:Click to execute this command)$(l)/party create$()$(li2)Creates a party$()$(br)$(li)$(8)$(l)/party invite <player>$()$(li2)Invites a player to the party$()$(br)$(li)$(8)$(l)/party remove <player>$()$(li2)Removes a player from the party$()$(br)$(li)$(c:/party disband)$(t:Click to execute this command)$(l)/party disband$()$(li2)Disbands the party$()"
+    }
+
+  ]
+
+}

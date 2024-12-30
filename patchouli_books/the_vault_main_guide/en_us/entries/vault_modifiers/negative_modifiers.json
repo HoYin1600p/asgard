@@ -1,0 +1,49 @@
+{
+  
+  "sortnum": 2,
+  "name": "Negative Vault Modifiers",
+  "icon": "the_vault:trinket{vaultGearData:[L;4980174741243706682L,920500155886778059L,1514722424829573162L,5928572538477319491L,2676634361676693832L,23103583915527717L,1409363459118813270L,1391649128524L],vaultUses:24}",
+  "category": "patchouli:modifiers_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Negative modifiers influence the Vault to the player's $(l)disadvantage$().$(br2)Which negative modifiers occur during a Vault $(l)can't$() be controlled by the player."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Negative Vault Modifiers",
+      "text": "$(br)These can roll $(l)at random$() within an $(l)unmodified$() Vault.$(br2)Additionally, these can roll on Vaults with Afterlife applied to it.$(br2)Some modifiers may also roll as a consequence of $(l:game_mechanics/crystal_modification#vault_catalysts)$(t:Vault Catalysts)$(l)Vault Catalysts$() applied on a Vault Crystal."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:zombie_head",
+      "title": "Mob Modifiers",
+      "text": "Mob modifiers affect the mobs within Vaults.$(br2)One may summon mobs when entering a room, while another $(l)increases$() their $(l)damage$() dealt."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Mob Modifiers",
+      "text": "$(li)$(l)Wild$()$(li2)+1 Set Wildly Spawned Mobs$(br)$(li)$(l)Chunky Mobs$()$(li2)+10% Mob Health$(br)$(li)$(l)Furious$()$(li2)+10% Mob Damage$(br)$(li)$(l)Rapid Mobs$()$(li2)+5% Mob Speed"
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:experience_bottle",
+      "title": "Other Modifiers",
+      "text": "$(li)$(l)Shortened$()$(li2)-1 Minute Vault Time$(br)$(li)$(l)Frail$()$(li2)+20% Durability Damage$(br)$(li)$(l)Trapped$()$(li2)+5% Chest Trap Chance"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Other Modifiers",
+      "text": "$(li)$(l)Draining$()$(li2)-10% Mana Regeneration$(br)$(li)$(l)Velara's Wrath$()$(li2)-20% Healing Efficiency$(br)$(li)$(l)Vault XP Reduction$()$(li2)-25% Vault Experience$(li2)Only occurs in Sky Vaults"
+    }
+
+  ]
+
+}

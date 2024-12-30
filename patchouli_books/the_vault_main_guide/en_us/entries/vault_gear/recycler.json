@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 5,
+  "name": "Recycling",
+  "icon": "the_vault:vault_recycler",
+  "category": "patchouli:vault_gear_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Vault Gear can be recycled into $(l)small$() amounts of resources.$(br2)It may reward $(l)Vault Scrap$(), $(l)Magnetite$(), $(l)Trinket Scrap$() or other materials, depending on the gear variant smelted.$(br2)$(l)Unidentified$() Vault Gear can also be recycled."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:vault_recycler",
+      "title": "Vault Recycler",
+      "text": "This is done in the Vault Recycler.$(br2)The more $(l)durability$() of the Vault Gear has been lowered, the $(l)lower$() the number of $(l)materials$() gained from recycling."
+    }
+
+  ]
+
+}

@@ -1,0 +1,23 @@
+{
+
+  "sortnum": 4,
+  "name": "Crafting",
+  "icon": "the_vault:tool_station",
+  "category": "patchouli:vault_tools_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Before being able to apply Jewels to a Vault Tool, it needs to be crafted.$(br2)They can be crafted $(l)at or below$() the player's level.$(br2)Crafted Jewels have $(l)slightly decreased$() odds in comparison to Jewels found within Vaults."
+    },
+    
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:tool_station",
+      "text": "Both Vault Tools and Jewels are both crafted in the $(l)Tool Station$().$(br2)The $(l)base type$() and $(l)tier$() is determined by the player upon crafting the Vault Tool."
+    }
+
+  ]
+
+}

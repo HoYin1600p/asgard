@@ -1,0 +1,23 @@
+{
+
+  "sortnum": 1,
+  "name": "Mana",
+  "icon": "botania:mana_bottle",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "At the bottom left of the HUD, the $(l)blue bar$() indicates the player's current $(l)Mana$().$(br2)Mana is used to activate and use player $(l)abilities$().$(br2)By default, the player's maximum $(l)Mana$() is $(l)100$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Mana",
+      "text": "$(br)Mana regenerates $(l)passively$() over time. The $(l)amount$() of Mana and its $(l)regeneration speed$() is seen in the $(l)statistics menu$().$(br2)Mana statistics can be $(l)enhanced$() by certain affixes on $(l:vault_gear/variants)$(t:Vault Gear)$(l)Vault Gear$() and $(l:vault_potions/variants)$(t:Vault Potions)$(l)Vault Potions$()."
+    }
+
+  ]
+
+}

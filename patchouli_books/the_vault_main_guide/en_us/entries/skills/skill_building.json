@@ -1,0 +1,24 @@
+{
+
+  "sortnum": 6,
+  "name": "Skill Building",
+  "icon": "the_vault:skill_altar",
+  "category": "patchouli:skills_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Skills are a crucial part of the player's build.$(br2)The Skill Altar is used to store both $(l)Talents$() and $(l)Abilities$().$(br2)A maximum of $(l)5 different$() builds can be saved. These skills are saved $(l)per player$(), not per Skill Altar."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_vault:skill_altar",
+      "title": "Skill Altar",
+      "text": "Builds can be $(l)saved$() at $(l)no cost$().$(br2)$(l)Swapping$() between different builds can be done at the cost of a $(l)small$() percentage of $(l)Regret Orbs$()."
+    }
+
+  ]
+
+}

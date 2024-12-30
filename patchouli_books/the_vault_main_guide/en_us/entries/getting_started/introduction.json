@@ -1,0 +1,22 @@
+{
+  
+  "sortnum": 1,
+  "name": "Introduction",
+  "icon": "create:brass_hand",
+  "category": "patchouli:getting_started_category",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Vault Hunters is a $(l)progression based Action RPG$() Game.$(br2)It is aimed to be played over a $(l)longer period$() of time and has many accessibility settings to $(l)customise$() the experience of the playthrough."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Introduction",
+      "text": "$(br)In this modpack, the goal is to progress through the game by running $(l)Vaults$(). Vaults are located in $(l)another dimension$() that can $(l)temporarily$() be entered by the player.$(br2)Each Vault contains $(l)loot$() that can enhance the gameplay.$(br2)Progressing through Vaults also gives $(l)Vault Experience$(). Level advancement is a crucial element of the modpack."
+    }
+
+  ]
+
+}

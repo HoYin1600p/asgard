@@ -1,0 +1,47 @@
+{
+
+  "sortnum": 3,
+  "name": "Jewel Modifiers",
+  "icon": "thermal:gold_gear",
+  "category": "patchouli:vault_tools_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Jewels can roll a variety of Jewel modifiers.$(br2)They have $(l)prefixes$() and $(l)suffixes$(), which are the modifiers they add.$(br2)These can range anywhere from $(l)mining speed$() to Overworld $(l)unbreakability$().$(br2)$(l)Legendary modifiers$() can also be found on Jewels. These are of a $(l)higher tier$()."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Jewel Modifiers",
+      "text": "$(br)Jewel Modifiers can give a Vault Tool the corresponding $(l)functionality$(). This means a base Pick could function as an Axe.$(br2)Chests within Vaults can be broken with their $(l)Affinities$(). These are required to $(l)instantly$() break all Chest types, except Wooden Chests."
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Prefixes",
+      "text": "$(li)$(l)Wooden Affinity$()$(li2)Wooden Chest mining speed$()$(br)$(li)$(l)Gilded Affinity$()$(li2)Gilded Chest mining speed$()$(br)$(li)$(l)Living Affinity$()$(li2)Living Chest mining speed$()$(br)$(li)$(l)Ornate Affinity$()$(li2)Ornate Chest mining speed$()$(br)$(li)$(l)Coin Affinity$()$(li2)Coin Pile mining speed$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Prefixes",
+      "text": "$(li)$(l)Picking$()$(li2)Pickaxe functionality$()$(br)$(li)$(l)Axing$()$(li2)Axe functionality$()$(br)$(li)$(l)Shovelling$()$(li2)Shovel functionality$()$(br)$(li)$(l)Smelting$()$(li2)Smelts mined blocks$()$(br)$(li)$(l)Pulverizing$()$(li2)Pulverizes mined blocks$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Suffixes",
+      "text": "$(li)$(l)Mining Speed$()$(li2)Mining speed$()$(br)$(li)$(l)Durability$()$(li2)Durability$()$(br)$(li)$(l)Copiously$()$(li2)Ore duplication odds$()$(br)$(li)$(l)Item Quantity$()$(li2)Amount of loot$()$(br)$(li)$(l)Item Rarity$()$(li2)Quality of loot$()"
+    },
+
+    {
+      "type": "patchouli:text",
+      "title": "Suffixes",
+      "text": "$(li)$(l)Soulbound$()$(li2)Keeps item on death$()$(br)$(li)$(l)Trap Disarm Chance$()$(li2)Trapped Chest disarm odds$()$(br)$(li)$(l)Vanilla Immortality$()$(li2)Overworld unbreakability$()$(br)$(li)$(l)Reach$()$(li2)Additional reach$()$(br)$(li)$(l)Hammer Size$()$(li2)Radius for a Hammer$()"
+    }
+
+  ]
+
+}

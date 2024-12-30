@@ -1,0 +1,35 @@
+{
+
+  "name": "Altar Automation",
+  "icon": "the_vault:altar_conduit",
+  "category": "patchouli:game_mechanics_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Automating the process of completing the $(l:getting_started/vault_crystal)$(t:Vault Altar)$(l)Vault Altar$() is locked behind $(l:skills/researches)$(l)Research$().$(br2)After crafting an $(l)Altar Conduit$(), it can be placed onto a $(l)Controller$() of $(l)Refined Storage$() or $(l)Applied Energistics$() to connect it.$(br2)Per player, only $(l)one$() Altar Conduit is functional."
+    },
+
+    {
+      "type": "patchouli:crafting",
+      "recipe": "vaultintegrations:altar_conduit",
+      "title": "Altar Conduit",
+      "text": "After linking it, the Altar Conduit can be placed $(l)above$() the Vault Altar to automatically complete it with the requested materials.$(br2)Items added to the $(l)blacklist$() don't get transported."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "vaultintegrations:speed_enhancement",
+      "title": "Enhancements",
+      "text": "Enhancements can be added to the Altar Conduit to $(l)improve$() its $(l)efficiency$().$(br)$(li)$(l)Speed Enhancement$()$(li2)Increases velocity$(br)$(li)$(l)Stack Enhancement$()$(li2)Increases stack size$(br)$(li)$(l)Stack Enhancement$()$(li2)Instantly teleports items"
+    },
+
+    {
+      "type": "patchouli:text",
+      "text": ""
+    }
+
+  ]
+
+}

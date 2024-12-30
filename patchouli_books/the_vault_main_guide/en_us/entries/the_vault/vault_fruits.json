@@ -1,0 +1,23 @@
+{
+  
+  "name": "Vault Fruits",
+  "icon": "the_vault:sweet_kiwi",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "The time within a Vault can be $(l)extended$() by eating Vault Fruit.$(br2)The caviat of eating Vault Fruit is that it $(l)reduces$() the $(l)maximum health$() of the player by $(l)10%$().$(br2)Vault Fruits can't be eaten when the Vault is cursed with $(l)Rotten$()."
+    },
+
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:sweet_kiwi",
+      "title": "Vault Fruits",
+      "text": "The different Vault Fruits are:$(br)$(li)$(l)Sweet Kiwi$()$(li2)+10 Seconds Vault Time$()$(br)$(li)$(l)Bitter Lemmon$()$(li2)+30 Seconds Vault Time$()$(br)$(li)$(l)Sour Orange$()$(li2)+60 Seconds Vault Time$()"
+    }
+
+  ]
+
+}

@@ -1,0 +1,23 @@
+{
+
+  "name": "Pylons",
+  "icon": "the_vault:pylon",
+  "category": "patchouli:the_vault_category",
+  "read_by_default": "true",
+  "pages": [
+
+    {
+      "type": "patchouli:text",
+      "text": "Pylons can be found in Vaults.$(br2)They grant a $(l)temporary statistic increase$() to the player. The $(l)effect$() it gives and the $(l)duration$() of it is displayed $(l)above$() the Pylon.$(br2)A Pylon can be $(l)consumed$() by $(l)right-clicking$() it."
+    },
+    
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_vault:pylon",
+      "title": "Effects",
+      "text": "The available $(l)effects$() it may apply to the player are:$(br)$(li)Regeneration$()$(li)Increased Health$()$(li)Regenerate all Mana$()$(li)Speed$()$(li)Strength$()$(li)Item Quantity$()$(li)Item Rarity$()"
+    }
+
+  ]
+
+}
