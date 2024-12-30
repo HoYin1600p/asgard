@@ -1,0 +1,309 @@
+To refresh this file, delete it and run /reload command again! Last updated: Nov 11, 2024, 1:12:45 PM
+
+#forge:oxygen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+
+#forge:crude_oil
+- thermal:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- the_vault:void_liquid
+- the_vault:flowing_void_liquid
+- auxiliaryblocks:black_water
+- auxiliaryblocks:blue_water
+- auxiliaryblocks:brown_water
+- auxiliaryblocks:cyan_water
+- auxiliaryblocks:gray_water
+- auxiliaryblocks:green_water
+- auxiliaryblocks:light_blue_water
+- auxiliaryblocks:light_gray_water
+- auxiliaryblocks:lime_water
+- auxiliaryblocks:magenta_water
+- auxiliaryblocks:orange_water
+- auxiliaryblocks:pink_water
+- auxiliaryblocks:purple_water
+- auxiliaryblocks:red_water
+- auxiliaryblocks:white_water
+- auxiliaryblocks:yellow_water
+- auxiliaryblocks:black_water_flowing
+- auxiliaryblocks:blue_water_flowing
+- auxiliaryblocks:brown_water_flowing
+- auxiliaryblocks:cyan_water_flowing
+- auxiliaryblocks:gray_water_flowing
+- auxiliaryblocks:green_water_flowing
+- auxiliaryblocks:light_blue_water_flowing
+- auxiliaryblocks:light_gray_water_flowing
+- auxiliaryblocks:lime_water_flowing
+- auxiliaryblocks:magenta_water_flowing
+- auxiliaryblocks:orange_water_flowing
+- auxiliaryblocks:pink_water_flowing
+- auxiliaryblocks:purple_water_flowing
+- auxiliaryblocks:red_water_flowing
+- auxiliaryblocks:white_water_flowing
+- auxiliaryblocks:yellow_water_flowing
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:redstone
+- thermal:redstone
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:tritium
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+
+#forge:uranium_hexafluoride
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#forge:ethene
+- mekanism:ethene
+- mekanism:flowing_ethene
+
+#forge:sulfur_dioxide
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+
+#forge:hydrogen
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+
+#create:bottomless/deny
+
+#forge:uranium_oxide
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+
+#forge:fusion_fuel
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:chlorine
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+
+#auxiliaryblocks:colored_water_flowing
+- auxiliaryblocks:black_water_flowing
+- auxiliaryblocks:blue_water_flowing
+- auxiliaryblocks:brown_water_flowing
+- auxiliaryblocks:cyan_water_flowing
+- auxiliaryblocks:gray_water_flowing
+- auxiliaryblocks:green_water_flowing
+- auxiliaryblocks:light_blue_water_flowing
+- auxiliaryblocks:light_gray_water_flowing
+- auxiliaryblocks:lime_water_flowing
+- auxiliaryblocks:magenta_water_flowing
+- auxiliaryblocks:orange_water_flowing
+- auxiliaryblocks:pink_water_flowing
+- auxiliaryblocks:purple_water_flowing
+- auxiliaryblocks:red_water_flowing
+- auxiliaryblocks:white_water_flowing
+- auxiliaryblocks:yellow_water_flowing
+
+#create:bottomless/allow
+- minecraft:water
+- minecraft:lava
+
+#forge:superheated_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+
+#forge:sodium
+- mekanism:sodium
+- mekanism:flowing_sodium
+
+#forge:potion
+- cofh_core:potion
+
+#forge:sulfur_trioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+
+#auxiliaryblocks:colored_water
+- auxiliaryblocks:black_water
+- auxiliaryblocks:blue_water
+- auxiliaryblocks:brown_water
+- auxiliaryblocks:cyan_water
+- auxiliaryblocks:gray_water
+- auxiliaryblocks:green_water
+- auxiliaryblocks:light_blue_water
+- auxiliaryblocks:light_gray_water
+- auxiliaryblocks:lime_water
+- auxiliaryblocks:magenta_water
+- auxiliaryblocks:orange_water
+- auxiliaryblocks:pink_water
+- auxiliaryblocks:purple_water
+- auxiliaryblocks:red_water
+- auxiliaryblocks:white_water
+- auxiliaryblocks:yellow_water
+- auxiliaryblocks:black_water_flowing
+- auxiliaryblocks:blue_water_flowing
+- auxiliaryblocks:brown_water_flowing
+- auxiliaryblocks:cyan_water_flowing
+- auxiliaryblocks:gray_water_flowing
+- auxiliaryblocks:green_water_flowing
+- auxiliaryblocks:light_blue_water_flowing
+- auxiliaryblocks:light_gray_water_flowing
+- auxiliaryblocks:lime_water_flowing
+- auxiliaryblocks:magenta_water_flowing
+- auxiliaryblocks:orange_water_flowing
+- auxiliaryblocks:pink_water_flowing
+- auxiliaryblocks:purple_water_flowing
+- auxiliaryblocks:red_water_flowing
+- auxiliaryblocks:white_water_flowing
+- auxiliaryblocks:yellow_water_flowing
+
+#forge:sulfuric_acid
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+
+#forge:steam
+- mekanism:steam
+- mekanism:flowing_steam
+
+#forge:ender
+- thermal:ender
+
+#forge:experience
+- sophisticatedcore:xp_still
+- cofh_core:experience
+
+#forge:hydrogen_chloride
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+
+#forge:glowstone
+- thermal:glowstone
+
+#mantle:water
+- minecraft:water
+- minecraft:flowing_water
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:lithium
+- mekanism:lithium
+- mekanism:flowing_lithium
+
+#mantle:lava
+- minecraft:lava
+- minecraft:flowing_lava
+
+#ae2:blacklisted/annihilation_plane
+
+#forge:deuterium
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+
+#forge:hydrofluoric_acid
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+
+#forge:brine
+- mekanism:brine
+- mekanism:flowing_brine
+
+#forge:latex
+- thermal:latex
+
+#forge:bioethanol
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch
+- decorative_blocks:flowing_thatch
+
+#forge:honey
+- cofh_core:honey
+- create:flowing_honey
+- create:honey
+
+#forge:creosote
+- thermal:creosote
+
+#auxiliaryblocks:colored_water_source
+- auxiliaryblocks:black_water
+- auxiliaryblocks:blue_water
+- auxiliaryblocks:brown_water
+- auxiliaryblocks:cyan_water
+- auxiliaryblocks:gray_water
+- auxiliaryblocks:green_water
+- auxiliaryblocks:light_blue_water
+- auxiliaryblocks:light_gray_water
+- auxiliaryblocks:lime_water
+- auxiliaryblocks:magenta_water
+- auxiliaryblocks:orange_water
+- auxiliaryblocks:pink_water
+- auxiliaryblocks:purple_water
+- auxiliaryblocks:red_water
+- auxiliaryblocks:white_water
+- auxiliaryblocks:yellow_water
+
+#create:no_infinite_draining
+- mekanism:hydrogen
+- mekanism:flowing_hydrogen
+- mekanism:oxygen
+- mekanism:flowing_oxygen
+- mekanism:chlorine
+- mekanism:flowing_chlorine
+- mekanism:sulfur_dioxide
+- mekanism:flowing_sulfur_dioxide
+- mekanism:sulfur_trioxide
+- mekanism:flowing_sulfur_trioxide
+- mekanism:sulfuric_acid
+- mekanism:flowing_sulfuric_acid
+- mekanism:hydrogen_chloride
+- mekanism:flowing_hydrogen_chloride
+- mekanism:hydrofluoric_acid
+- mekanism:flowing_hydrofluoric_acid
+- mekanism:uranium_oxide
+- mekanism:flowing_uranium_oxide
+- mekanism:uranium_hexafluoride
+- mekanism:flowing_uranium_hexafluoride
+- mekanism:ethene
+- mekanism:flowing_ethene
+- mekanism:sodium
+- mekanism:flowing_sodium
+- mekanism:superheated_sodium
+- mekanism:flowing_superheated_sodium
+- mekanism:brine
+- mekanism:flowing_brine
+- mekanism:lithium
+- mekanism:flowing_lithium
+- mekanism:steam
+- mekanism:flowing_steam
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
+- mekanism:nutritional_paste
+- mekanism:flowing_nutritional_paste
+- mekanismgenerators:bioethanol
+- mekanismgenerators:flowing_bioethanol
+- mekanismgenerators:deuterium
+- mekanismgenerators:flowing_deuterium
+- mekanismgenerators:fusion_fuel
+- mekanismgenerators:flowing_fusion_fuel
+- mekanismgenerators:tritium
+- mekanismgenerators:flowing_tritium
+
+#forge:heavy_water
+- mekanism:heavy_water
+- mekanism:flowing_heavy_water
