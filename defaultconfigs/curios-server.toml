@@ -1,0 +1,73 @@
+[[curiosSettings]]
+	identifier = "head"
+	visible = true
+	override = true
+
+[[curiosSettings]]
+	identifier = "belt"
+	visible = true
+	override = true
+
+[[curiosSettings]]
+	identifier = "back"
+	visible = true
+	override = true
+
+[[curiosSettings]]
+	identifier = "body"
+	visible = false
+	override = true
+
+[[curiosSettings]]
+	identifier = "ring"
+	visible = false
+	override = true
+
+[[curiosSettings]]
+	identifier = "trinket"
+	priority = 10
+	size = 1
+	visible = false
+	cosmetic = false
+	icon = "curios:item/empty_cosmetic_slot"
+
+[[curiosSettings]]
+	identifier = "red_trinket"
+	priority = 10
+	size = 1
+	visible = true
+	cosmetic = false
+	icon = "curios:item/empty_cosmetic_slot"
+
+[[curiosSettings]]
+	identifier = "blue_trinket"
+	priority = 10
+	size = 1
+	visible = true
+	cosmetic = false
+	icon = "curios:item/empty_cosmetic_slot"
+
+[[curiosSettings]]
+	identifier = "green_trinket"
+	priority = 10
+	size = 1
+	visible = true
+	cosmetic = false
+	icon = "curios:item/empty_cosmetic_slot"
+
+[[curiosSettings]]
+	identifier = "charm"
+	priority = 9
+	size = 1
+	visible = true
+	cosmetic = false
+	icon = "curios:item/empty_charm_slot"
+	override = true
+
+[[curiosSettings]]
+	identifier = "deck"
+	priority = 11
+	size = 1
+	visible = true
+	cosmetic = false
+	icon = "the_vault:gui/slot/curios/deck_slot"
