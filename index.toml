@@ -1725,36 +1725,12 @@ file = "config/inventoryhud-client.toml"
 hash = "144320a8d489c181e7635d96d8e957ac6ec0d306dde9e91357f962bb9f805c68"
 
 [[files]]
-file = "config/inventoryprofilesnext/104.194.10.91&25569/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/172.93.101.134&25570/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/172.93.106.251&25571/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/New World/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
-file = "config/inventoryprofilesnext/config test/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
-
-[[files]]
 file = "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json"
 hash = "ca413dea02cce69c69dccdc525fb0ec013236876eff2d142772c68db3d772d3a"
 
 [[files]]
 file = "config/inventoryprofilesnext/inventoryprofiles.json"
 hash = "77e82d676b54d5789a15b40aba5b1f7127ba1500fb4efb8c91b4057ea7dad6c2"
-
-[[files]]
-file = "config/inventoryprofilesnext/proxy.vhsmp.ca/villager-trading-config.json"
-hash = "900a5d6592eaefcc3812b240e2efc8a48eb4edb5684a0435feebeaa18992aaf3"
 
 [[files]]
 file = "config/invmove.json"
@@ -17853,11 +17829,6 @@ hash = "4eb49b72abcfa48c788c0a7f308f2c672c9974c790a6bc1360ba935f73123964"
 metafile = true
 
 [[files]]
-file = "mods/blackmarketrerollitem.pw.toml"
-hash = "dadb8083be6ccbb6a6935a55db5fe0138078161da21caf19c5f6201070db8a19"
-metafile = true
-
-[[files]]
 file = "mods/blockcarpentry.pw.toml"
 hash = "36f67dc18bbd64db07e957c356d11db4ed032e7f5ebdd2f993df836f6c32b450"
 metafile = true
@@ -18145,11 +18116,6 @@ metafile = true
 [[files]]
 file = "mods/draggable-bookmarks.pw.toml"
 hash = "41f6246558b54203b6702b3f306deece3e0a5fd1ea9b6795e5a4fbbec073c4fd"
-metafile = true
-
-[[files]]
-file = "mods/draggablebookmarks.pw.toml"
-hash = "f882bb1652d0ed4dfb49603ff89c8f1fe709ca296500968d16186e27afdeb02f"
 metafile = true
 
 [[files]]
