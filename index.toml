@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "LICENSE"
-hash = "38a95a93df9ac916014c88947526f876b967c74f018e6251d07e11094fabea2b"
+hash = "cb291b004e2b6cc0038f1c62b87d063e1e5b2ceecc71cd5afaa545119c4a650a"
 
 [[files]]
 file = "config/ChunkyMcChunkFace-common.toml"
@@ -17697,6 +17697,11 @@ file = "kubejs/startup_scripts/script.js"
 hash = "4a0f0a326f879d9f5186678727cbb05539bd82bb150985f5a70c5d50eeb135ec"
 
 [[files]]
+file = "mods/abilityscreenpanregion.pw.toml"
+hash = "0ec29cca0f9bdfe84dc8c00ce969b169acaac376a8e27ffb0ad5050963fcd24e"
+metafile = true
+
+[[files]]
 file = "mods/additional-lanterns.pw.toml"
 hash = "f06f7ae45dc1d705e01a3973a5e51a1c208ee02960b6f2624f81d01a0a4d493d"
 metafile = true
@@ -17844,6 +17849,11 @@ metafile = true
 [[files]]
 file = "mods/betterwaystonesmenu.pw.toml"
 hash = "4eb49b72abcfa48c788c0a7f308f2c672c9974c790a6bc1360ba935f73123964"
+metafile = true
+
+[[files]]
+file = "mods/blackmarketrerollitem.pw.toml"
+hash = "dadb8083be6ccbb6a6935a55db5fe0138078161da21caf19c5f6201070db8a19"
 metafile = true
 
 [[files]]
@@ -18429,6 +18439,11 @@ metafile = true
 [[files]]
 file = "mods/just-zoom.pw.toml"
 hash = "c5cd47e457c91f387f137ccd0d3e0b61bed598cc9ddbff92d42bdb0fe87d7d34"
+metafile = true
+
+[[files]]
+file = "mods/keychain-vault-hunters-addon.pw.toml"
+hash = "fca6b923dd94abc88dc9670b3bbec4fefbd5b28e11b63b54930c59f0514f33f6"
 metafile = true
 
 [[files]]
@@ -19057,6 +19072,11 @@ hash = "6a8fe4565e4f9f3550ac0d747b3d1cc3dcb991d1f917c5600b169fa4269f656c"
 metafile = true
 
 [[files]]
+file = "mods/vault-gui-upgrade.pw.toml"
+hash = "905e3fad06f933407ed6314106dcf5f60a5e8796929b196a14c0e89958dba656"
+metafile = true
+
+[[files]]
 file = "mods/vault-hunters-api.pw.toml"
 hash = "54d562df9a4fb0c196c43d291f98453014f694571a1f0eb1b55e478019106fb8"
 metafile = true
@@ -19088,7 +19108,7 @@ metafile = true
 
 [[files]]
 file = "mods/vaulthuntersmorevaulttables.pw.toml"
-hash = "d71c6077c92b729db68124aafac424fd573731f1c3bfa562054ad81c02dfb8fe"
+hash = "f53befe94e46fd4b45603590b3e455f01bbd4f2203c4f6772b5bf85a6a44ade1"
 metafile = true
 
 [[files]]
