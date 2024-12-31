@@ -3,8 +3,8 @@ filename = "CyclopsCore-1.18.2-1.16.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "04ef3d9edfd0cff715ce54363ba2adaf37b764e6"
+hash-format = "sha256"
+hash = "ec15de033ce72cddd273fb0de2cbfc80dcf46fbb2172487369b4e2e745780232"
 mode = "metadata:curseforge"
 
 [update]

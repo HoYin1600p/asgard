@@ -3,8 +3,8 @@ filename = "elevatorid-1.18.2-1.8.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c32376d6741c1f8ec4ed637bb55e070c3ad3200e"
+hash-format = "sha256"
+hash = "1798ba3fd9082e5436b3d429f5c81393a9aed2042a5e1ab8ad0c6895d283ac8f"
 mode = "metadata:curseforge"
 
 [update]

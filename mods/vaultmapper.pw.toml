@@ -3,8 +3,8 @@ filename = "vaultmapper-1.6.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "14a4db9a018dbfb8ec872cf78309f3ad0e7c5dd0"
+hash-format = "sha256"
+hash = "0038538071b995c31602f80f96b258c7cbfb4849a6c7161723163d3469b2a25a"
 mode = "metadata:curseforge"
 
 [update]

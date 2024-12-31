@@ -3,8 +3,8 @@ filename = "decocraft-3.0.0.4-beta-1.18.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4841c63b1101235e556ab38053a40dd8684f7d49"
+hash-format = "sha256"
+hash = "92cced7db7bdeadc4a06b2441510bb1cc19f4cc731d6f7949f8ea4a50e16dea2"
 mode = "metadata:curseforge"
 
 [update]

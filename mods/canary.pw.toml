@@ -3,8 +3,8 @@ filename = "canary-mc1.18.2-0.3.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "df4b8bff9f1d68d035fb1999974a20f73128e345"
+hash-format = "sha256"
+hash = "34f3cf34b4c976bbca5b342a982461edd9f7a63b45302ff26fd86ac08679cbdb"
 mode = "metadata:curseforge"
 
 [update]

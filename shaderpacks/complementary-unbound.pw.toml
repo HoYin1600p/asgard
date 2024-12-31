@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/R6NEzAwj/versions/CVu3AGAd/ComplementaryUnbound_r5.3.zip"
-hash-format = "sha512"
-hash = "77171616e35fe456898a6d140f858de6c2011e7001d3263404e6cd45a356ffeccfacef9182478d6315a1e321642d14bdd5eca3865ecad85b750f5d4f404df055"
+hash-format = "sha256"
+hash = "66061b3c5b4843e31bc9a7562a7ac697a51bb77c73defc7071f996b783efacce"
 
 [update]
 [update.modrinth]

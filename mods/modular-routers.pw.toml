@@ -3,8 +3,8 @@ filename = "modular-routers-1.18.2-9.1.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "57ad9522d02cf7334959c055cf67a09603a3b51a"
+hash-format = "sha256"
+hash = "760f823a691c84079322b483297a6dbbbdc1d0610aa45681d8812bc897993472"
 mode = "metadata:curseforge"
 
 [update]

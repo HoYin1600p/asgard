@@ -3,8 +3,8 @@ filename = "rebindnarrator-forge-1.18.x-1.2.2.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "e2c7d72643a6b21bd2e37e02ed507f0974ac2377"
+hash-format = "sha256"
+hash = "4a22b0740930d957b7caa4aa1459f664157e6056439e5f0283e84952e3adeb39"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "notenoughcrashes-4.2.0+1.18.2-forge.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "24c462969cc153f72e37e009f498407b7f46de06"
+hash-format = "sha256"
+hash = "fa45ae84eb64e13cc235e06f05050ee3e3846d775d543d2bf7d74fa4657093d4"
 mode = "metadata:curseforge"
 
 [update]

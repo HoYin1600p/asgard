@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/DffzSFhj/versions/v8bYqqim/BetterWaystonesMenu-1.2.0%2Bmc1.18.2.jar"
-hash-format = "sha512"
-hash = "899dda44560c4d75d64aaf1d461f0044fe666b454ed09bb2afe3650fd4a68c3b61008f389f7da8904c1d3f9bf355a00bbdf2364e73dd33faaeaf54988d3d22d1"
+hash-format = "sha256"
+hash = "69e53aa3b5d18326895d4c30118e8386ed3057ceeaa592e9a5ce8009d1985185"
 
 [update]
 [update.modrinth]

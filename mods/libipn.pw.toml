@@ -3,8 +3,8 @@ filename = "libIPN-forge-1.18.2-4.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b8f0ab9567010bd0dd7875a75795cd7306f624ba"
+hash-format = "sha256"
+hash = "f3835354dbde85ad8a5523a0656a6f21546916abaf08eb96da79a9472cd22df9"
 mode = "metadata:curseforge"
 
 [update]

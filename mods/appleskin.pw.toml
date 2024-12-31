@@ -3,8 +3,8 @@ filename = "appleskin-forge-mc1.18.2-2.4.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6fa3d2485e3a7b416470ad5a3c708f1ce366195c"
+hash-format = "sha256"
+hash = "166aab14acbdbaad82b949f5d8249ce6b0801543974261ac5c07ffe57470c6fe"
 mode = "metadata:curseforge"
 
 [update]

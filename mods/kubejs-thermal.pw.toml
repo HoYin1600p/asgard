@@ -3,8 +3,8 @@ filename = "kubejs-thermal-1802.1.6-build.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1d6ab80c419d23f595974960c100f57b207ad991"
+hash-format = "sha256"
+hash = "088aef5978d537482da3663405d66d18796aeede4204aa8ca069e266649bf15f"
 mode = "metadata:curseforge"
 
 [update]

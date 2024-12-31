@@ -3,8 +3,8 @@ filename = "OpenLoader-Forge-1.18.2-12.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "358ac27631553212dbc88dbd67a94247cf9debaf"
+hash-format = "sha256"
+hash = "f4c25820bb54dd03281a3e5b4aa7ff6cb1c3660fa3449400f463d67c3d31ccd3"
 mode = "metadata:curseforge"
 
 [update]

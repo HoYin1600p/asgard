@@ -3,8 +3,8 @@ filename = "appliedcooking-1.0.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "829860ed23dd120c407c08a22e754a3deb064b72"
+hash-format = "sha256"
+hash = "dd32f871cfb98bd154d0c2bf5c0db87e38e896fe5d28a88585da912c99195e70"
 mode = "metadata:curseforge"
 
 [update]

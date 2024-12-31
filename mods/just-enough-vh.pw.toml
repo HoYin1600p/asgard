@@ -3,8 +3,8 @@ filename = "the_vault_jei-0.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "20c74e3f14b2927fb4d642a239084027cc7aee8f"
+hash-format = "sha256"
+hash = "dc88f96d555cd25a27d5383ed553fcc798f9eb4358044486bab034b39d222391"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "woldsvaults-0.15.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d03d51fabe0650b8fd82196949be1af5f68c36ea"
+hash-format = "sha256"
+hash = "1d505b994edc6839184edb19bceb6bb33f3c1625fb3ee9c0c47ca2ba0f6e9370"
 mode = "metadata:curseforge"
 
 [update]

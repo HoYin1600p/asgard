@@ -3,8 +3,8 @@ filename = "everycomp-1.18.2-1.6.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "739b6716a51c64f3292ea0785f8204d7a1396a58"
+hash-format = "sha256"
+hash = "9b12145ac6985acd919d926ad7d3f5b83c635972e568f61cda8efdbeebb3f85b"
 mode = "metadata:curseforge"
 
 [update]

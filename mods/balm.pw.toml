@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/MBAkmtvl/versions/RAATKbAN/balm-3.2.6.jar"
-hash-format = "sha512"
-hash = "9a55d477452cebb10eaf3e9c4cd711b0fc6b361e60513c2475992e279189de68b9a660d69d047a0d80d21469ecb01d7b4fe85b494b396a23ea19db72f2eb8d13"
+hash-format = "sha256"
+hash = "778836126627893164a39eca8e4ec4321b9f00d0aeb7cc3fafaac10f1f288eba"
 
 [update]
 [update.modrinth]

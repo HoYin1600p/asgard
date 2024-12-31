@@ -3,8 +3,8 @@ filename = "ironfurnaces-1.18.2-3.3.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "170f080fb3ed4d2c691b11db0d704e705d78845d"
+hash-format = "sha256"
+hash = "ef585a7a3f6d32541335d06eb3e18410603d815152425ff29174733eae35146d"
 mode = "metadata:curseforge"
 
 [update]

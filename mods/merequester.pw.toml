@@ -3,8 +3,8 @@ filename = "merequester-1.18.2-1.1.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "1e0a2316e31e1fb6214e838644a4667e8c0e8cf2"
+hash-format = "sha256"
+hash = "29d228021b880617022b8d2e46ad84c96e06f2c8b5382bfa118f30a4d9fe05eb"
 mode = "metadata:curseforge"
 
 [update]

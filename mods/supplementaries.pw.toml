@@ -3,8 +3,8 @@ filename = "supplementaries-1.18.2-1.5.18.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "77c92894d7482b71bd6489ba43355b6558a024d6"
+hash-format = "sha256"
+hash = "2ab0363daed627b9c8df5908cf89f9b61000ece499a6b6016f63206da17df384"
 mode = "metadata:curseforge"
 
 [update]

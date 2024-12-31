@@ -3,8 +3,8 @@ filename = "cluttered-2.1-1.18.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0195d7d6cd2efae5f1420397cce21ea6f0aa1bf7"
+hash-format = "sha256"
+hash = "bd1115ca116452ec767aa7c0b9d1a8f3da31d51abc0e5eb7105fcbf8712bd5a8"
 mode = "metadata:curseforge"
 
 [update]

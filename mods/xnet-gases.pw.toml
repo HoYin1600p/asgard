@@ -3,8 +3,8 @@ filename = "XNetGases-1.18.2-3.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f62201d1e136cf4cb95d0b93cfe62332c2749695"
+hash-format = "sha256"
+hash = "c2b65dcec024f777f69e436f59ec2f36d4fa9aa3e8c4dc601512480cc53d58cf"
 mode = "metadata:curseforge"
 
 [update]

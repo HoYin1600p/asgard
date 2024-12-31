@@ -3,8 +3,8 @@ filename = "mcw-bridges-2.1.0-mc1.18.2forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b68f1d268c641a03bcbc2f952c0ca4ba609b7c9c"
+hash-format = "sha256"
+hash = "9a10253c200a506d314d694b84121769c1a15a957055c5be88d670fd6362bf06"
 mode = "metadata:curseforge"
 
 [update]

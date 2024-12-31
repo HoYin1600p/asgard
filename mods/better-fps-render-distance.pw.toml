@@ -3,8 +3,8 @@ filename = "betterfpsdist-1.18.2-1.5.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "00a1e55481f45aa43ab5f72ba146b81c770568d5"
+hash-format = "sha256"
+hash = "b1a8a2896e057e185ec0ae97559d27dcff7ca7ef3ba9b223c12e1db6d4c2d1a7"
 mode = "metadata:curseforge"
 
 [update]

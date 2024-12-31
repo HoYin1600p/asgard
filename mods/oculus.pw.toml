@@ -3,8 +3,8 @@ filename = "oculus-mc1.18.2-1.6.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "9bafc5d3069d533c49a19b6f5bdb53637a1d47c2"
+hash-format = "sha256"
+hash = "7731a22424f21f2637a6ad565c12d9b063bbefc4d516a292cb80d9e0ac9798ba"
 mode = "metadata:curseforge"
 
 [update]

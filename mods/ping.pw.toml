@@ -3,8 +3,8 @@ filename = "Ping-1.18-1.8.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ca5467a172f1277c570dff8a7b00768a00977174"
+hash-format = "sha256"
+hash = "f92f111443724c5c03ecc78be0d4c0d915c7ab87700d51a863552145d044ad9e"
 mode = "metadata:curseforge"
 
 [update]

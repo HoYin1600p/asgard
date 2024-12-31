@@ -3,8 +3,8 @@ filename = "kotlinforforge-3.12.0-all.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "cf09c1be6d8950e3f7551f02f141818aee5a3ec0"
+hash-format = "sha256"
+hash = "a42d10a97afd3313af57ecc88f531fffb048d89b2aa2fd01c586d67c161fdcca"
 mode = "metadata:curseforge"
 
 [update]

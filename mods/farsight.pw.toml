@@ -3,8 +3,8 @@ filename = "farsight-1.18.2-1.9.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "a45bed30998e441e561f960234e484c7f9fe39ae"
+hash-format = "sha256"
+hash = "849aa4d60fd942347c19b7978941558d9f37a4ec86b128f4d8e6a6acdfd5a511"
 mode = "metadata:curseforge"
 
 [update]

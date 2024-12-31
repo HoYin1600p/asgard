@@ -3,8 +3,8 @@ filename = "collective-1.18.2-7.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2eedfbe66d21d7392bdcbdf9d41aab844410dc1f"
+hash-format = "sha256"
+hash = "994753ec9be993bca4ec65342f842d00e4cfa9456875cba31e7b38963aff39aa"
 mode = "metadata:curseforge"
 
 [update]

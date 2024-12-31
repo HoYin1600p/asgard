@@ -3,8 +3,8 @@ filename = "curtain-mc1.18.2-1.3.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "c1049e20f69cb03a6165d8a8e9922db3f867c1d6"
+hash-format = "sha256"
+hash = "752c86f5989d1bfec83f25127f4159902ff336f6284f5af892eea01cd1f4a277"
 mode = "metadata:curseforge"
 
 [update]

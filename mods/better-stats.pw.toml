@@ -3,8 +3,8 @@ filename = "betterstats-2.2.2+1.18.2.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "9a3e08392c036384e9ccd45682614e467a61abd2"
+hash-format = "sha256"
+hash = "81f3d1f12067052aac9ccc09abf5a2d83b330beb816e88737f7e6fc16eccde57"
 mode = "metadata:curseforge"
 
 [update]

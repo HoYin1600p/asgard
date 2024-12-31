@@ -3,8 +3,8 @@ filename = "libraryferret-forge-1.18.2-4.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "934ca27333c5a146822ab29debc2369726897d30"
+hash-format = "sha256"
+hash = "40515cd1ea1d5a7ec488ee8bed6479ff95a389f7db73044a5d5762c8031098fd"
 mode = "metadata:curseforge"
 
 [update]

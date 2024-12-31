@@ -3,8 +3,8 @@ filename = "NoFog-1.3.6+1.18.2-forge.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "0d24d4d454389be9093a69e399d294e472761ea8"
+hash-format = "sha256"
+hash = "9dad5253d793c7f9f4ce310d728c0089dde57805e1c4143bd4211b28bda8d981"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "rhino-forge-1802.2.1-build.255.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "75416af83d41e260a0d5a1e9789ba1914ac0bd1b"
+hash-format = "sha256"
+hash = "72c08867dabd2bb863753b4ac4afb0fbb08931ac51f5241b044fa51d0236f4f2"
 mode = "metadata:curseforge"
 
 [update]

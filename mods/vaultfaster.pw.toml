@@ -3,8 +3,8 @@ filename = "vaultfaster-2.2.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "acf9034e0685072508578dd318aff22eef83cfc4"
+hash-format = "sha256"
+hash = "5e3cd58d3158a5d5d81f204d0434eb626d8a4a66a2434c1472146aec2e297bce"
 mode = "metadata:curseforge"
 
 [update]

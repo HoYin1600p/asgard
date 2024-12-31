@@ -3,8 +3,8 @@ filename = "vaultintegrations-1.18.2-1.0.14.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "60b8dca1a868b5c454fad6589d17caf0b9da4d99"
+hash-format = "sha256"
+hash = "8857fc433b4dd8e295b5b10e104a75881c3495712d1a996d2681a7bc38572a43"
 mode = "metadata:curseforge"
 
 [update]

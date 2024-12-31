@@ -3,8 +3,8 @@ filename = "lightspeed-1.18.2-1.0.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "172412a46c61659b6aa6a8df7b29a38fd721b5cf"
+hash-format = "sha256"
+hash = "7e8ddecda4de01eab55d97dbaa749ff002638c859e1f2196de0eeb0961492fa4"
 mode = "metadata:curseforge"
 
 [update]

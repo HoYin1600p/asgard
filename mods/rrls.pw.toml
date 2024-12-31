@@ -3,8 +3,8 @@ filename = "Rrls-1.18.2-3.1.0-forge.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "796bb3e729b9c5c6c85fdd6afebf1a997c42fbf4"
+hash-format = "sha256"
+hash = "4b56ee6eaa89e22311bb0a7189c5132ee5621555c52327a6daf997c5926d53d8"
 mode = "metadata:curseforge"
 
 [update]

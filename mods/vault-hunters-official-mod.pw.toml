@@ -3,8 +3,8 @@ filename = "the_vault-1.18.2-3.15.2.3663.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e862a6d9d72fffbcc230a3405a8b3aaf91c69ff9"
+hash-format = "sha256"
+hash = "338d87ffec56a7f099a120011e18d7e2f3d985aea03f1f69043291d22b147c71"
 mode = "metadata:curseforge"
 
 [update]
