@@ -1,9 +1,9 @@
 name = "Ability Screen Pan Region"
 filename = "AbilityScreenPanRegion-1.0.jar"
-side = "client"
+side = "both"
 
 [download]
-hash-format = "sha256"
+hash-format = "sha1"
 hash = "6b9c99d2066b37cd3785d218ccbdc7a0a1315053"
 mode = "metadata:curseforge"
 
