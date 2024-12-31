@@ -17669,6 +17669,11 @@ file = "kubejs/startup_scripts/script.js"
 hash = "4a0f0a326f879d9f5186678727cbb05539bd82bb150985f5a70c5d50eeb135ec"
 
 [[files]]
+file = "mods/ability-screen-pan-region.pw.toml"
+hash = "0f139224c3c19c8f2d00d17b8b6fafc9bd93fc156805fd6a44b838f55232dacc"
+metafile = true
+
+[[files]]
 file = "mods/abilityscreenpanregion.pw.toml"
 hash = "0ec29cca0f9bdfe84dc8c00ce969b169acaac376a8e27ffb0ad5050963fcd24e"
 metafile = true
@@ -17826,6 +17831,11 @@ metafile = true
 [[files]]
 file = "mods/betterwaystonesmenu.pw.toml"
 hash = "f95b113ea75ad66cf88026b7e93ba48e2f1282cad539293fa9039cc9598b53e7"
+metafile = true
+
+[[files]]
+file = "mods/black-market-tweaks.pw.toml"
+hash = "d3e2e0a821e159210b6bb023895a7b40a49efb5ae57eb6e3443e2a3611d6fe24"
 metafile = true
 
 [[files]]
@@ -18410,7 +18420,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-vh.pw.toml"
-hash = "8b4701eb57b519dd6fc40e386023cc32d71233229a1317c263f62ac155776f52"
+hash = "8989411b58f985a009b368a7810457cd75ba89ca1d1ff1e0433d1bd804bacb21"
 metafile = true
 
 [[files]]

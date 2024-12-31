@@ -1,0 +1,13 @@
+name = "Black Market Tweaks"
+filename = "BlackMarketTweaks-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "af0803237d57a719f924f1695d7b372742aff37650eaba8d3a04a17d5539b178"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6037889
+project-id = 1168437
