@@ -3,8 +3,8 @@ filename = "mininggadgets-1.11.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6c8a539873926f99e2923afcf970c1437a93efff"
+hash-format = "sha256"
+hash = "c549a04272f849aafba7e45ac340f70458258fff828c35ef92ca62a234b53241"
 mode = "metadata:curseforge"
 
 [update]

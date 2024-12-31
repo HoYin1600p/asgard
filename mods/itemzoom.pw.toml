@@ -3,8 +3,8 @@ filename = "itemzoom-1.18.2-2.6.0.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "c353c4a5369b6dc34531f8e250f01fb8cc5bd0a1"
+hash-format = "sha256"
+hash = "b6901a85833d6c44d6455e2c7f68ddbbbc36379b99dec31070c115edcefa2794"
 mode = "metadata:curseforge"
 
 [update]

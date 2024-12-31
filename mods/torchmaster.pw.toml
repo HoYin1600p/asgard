@@ -3,8 +3,8 @@ filename = "torchmaster-18.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "de042e7bd650f6ee00959cd32b6e53cb12a25413"
+hash-format = "sha256"
+hash = "938f4960ac657a811ed8ac8f8e9c7a7fc4687663bf150c358840701c5770bd8a"
 mode = "metadata:curseforge"
 
 [update]

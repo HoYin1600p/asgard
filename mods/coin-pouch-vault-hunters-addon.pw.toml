@@ -3,8 +3,8 @@ filename = "vaultcoinpouch-1.6.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5ef3c962d8ecc2c29b62687937934f1bfe8e8c46"
+hash-format = "sha256"
+hash = "070848973de54e53d1709af92109c1ce2b1ccb0d646f2e0591a3a6a19f8adb6a"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "vault_gui_upgrade-1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b244f26f70f9dd5466ba8fd974ac0da849c60b62"
+hash-format = "sha256"
+hash = "01bf3899fcefa26381ffe26b07d888844c0fd4bbbebdad6c44f617009c23f3ce"
 mode = "metadata:curseforge"
 
 [update]

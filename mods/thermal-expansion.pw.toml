@@ -3,8 +3,8 @@ filename = "thermal_expansion-1.18.2-9.1.0.18.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d5b9937d2dc5741cfa6625d9ed9da80dea88d58b"
+hash-format = "sha256"
+hash = "61ec76b864582c72bb824bb4e38eaa94329df99d2c4f4d77c522a2f7c194aaf0"
 mode = "metadata:curseforge"
 
 [update]

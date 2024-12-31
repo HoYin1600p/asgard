@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/afu4kdAc/versions/1.1.0/NoChatLagForge-1.1.0-1.17-1.18.jar"
-hash-format = "sha512"
-hash = "324527bdc8860012fb1a444445fd5428eb878d43af66827fbc962b7804e5df18d021ee13cbef85183741069fcbd06cc1eb7405d95323d90aecddd9135f2183c1"
+hash-format = "sha256"
+hash = "01b608e7c1b574cd178ce4f3a52ce871b875df52e01419a21c11eb5f4141e33a"
 
 [update]
 [update.modrinth]

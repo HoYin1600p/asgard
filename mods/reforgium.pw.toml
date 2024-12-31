@@ -3,8 +3,8 @@ filename = "reforgium-1.18.2-1.0.12a.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "75530289d19191dcc80ced1b63ce7fca360f32ae"
+hash-format = "sha256"
+hash = "0205c381d00636d30ff07a135bea6d24e508d7714b2f1f3a654aced37cfc438d"
 mode = "metadata:curseforge"
 
 [update]

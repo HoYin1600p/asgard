@@ -3,8 +3,8 @@ filename = "Compressium-1.4.2-build.9+mc1.18.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "ed23c42d18f713e77a5ec3cba514086d7839e1cd"
+hash-format = "sha256"
+hash = "f1c45fc5f61f04f67a4f4110775f32e9b30c47750eded30976f1cf719b1b0834"
 mode = "metadata:curseforge"
 
 [update]

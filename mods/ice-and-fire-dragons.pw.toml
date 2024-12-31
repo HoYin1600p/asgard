@@ -3,8 +3,8 @@ filename = "iceandfire-2.1.13-1.18.2-beta-3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a4630af26a3220d874af061edd4c4a732d400542"
+hash-format = "sha256"
+hash = "d2cdb16b490601fd7a651ff0f7bd453f5b7fecb518712c35d73214e416ce8c80"
 mode = "metadata:curseforge"
 
 [update]

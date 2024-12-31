@@ -3,8 +3,8 @@ filename = "vaultkeychain-2.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "04b5bb50da6bb33055f025368ff3d2f64df75ea5"
+hash-format = "sha256"
+hash = "7ab98181b332f30f53252bb53c3bf026268295438daea0003845e21d08351234"
 mode = "metadata:curseforge"
 
 [update]

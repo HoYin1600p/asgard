@@ -3,8 +3,8 @@ filename = "serverconfigupdater-2.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "4456d30523a1a3c8473c04613c4772df152d0444"
+hash-format = "sha256"
+hash = "0f981eabcc9a761f12782686aa0fcc16a209bea3675b3ae8c4d295694819a103"
 mode = "metadata:curseforge"
 
 [update]

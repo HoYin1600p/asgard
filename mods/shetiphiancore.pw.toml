@@ -3,8 +3,8 @@ filename = "shetiphiancore-1.18-3.10.12.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "da4961f38f9857292fcb0f7a57bc4c063bbc9158"
+hash-format = "sha256"
+hash = "4a25272492ec26780d834ad406199eb7ca0e06aa65b2ffd8382f608217f9b3d8"
 mode = "metadata:curseforge"
 
 [update]

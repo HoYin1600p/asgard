@@ -3,8 +3,8 @@ filename = "CreateCompression-1.18.2-1.8.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d306619b7dc834cb6fd1d5e3ef2b737aebe7215e"
+hash-format = "sha256"
+hash = "352086ea9d260b3372d2f731d2b1e13eac50baeec9de594baf03efb02b93f6de"
 mode = "metadata:curseforge"
 
 [update]

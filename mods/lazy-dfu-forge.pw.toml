@@ -3,8 +3,8 @@ filename = "lazydfu-1.0-1.18+.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "069f72997244b57b76c96ac86faa37b1838d52de"
+hash-format = "sha256"
+hash = "0f2cd2caba33e696fd810c8ea1c27c2e0a651bbeec54c7ac971840f238e40513"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "pipez-1.18.2-1.1.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "682ec5966f21786ebbda23138fb72aa5d86a503f"
+hash-format = "sha256"
+hash = "1e0779feeadd9bf79266e3b8734f0ff16ac8ed64b2179ba7c4a5ef67b3712610"
 mode = "metadata:curseforge"
 
 [update]

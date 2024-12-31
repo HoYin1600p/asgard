@@ -3,8 +3,8 @@ filename = "spark-1.10.38-forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "67e95b23b539ba28f82037eca2308e8ed0e32b03"
+hash-format = "sha256"
+hash = "9de840f1c5d4a31b04d43c99ba815d5c044940417c5575dcaec0451b7aa6089c"
 mode = "metadata:curseforge"
 
 [update]

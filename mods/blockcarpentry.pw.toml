@@ -3,8 +3,8 @@ filename = "blockcarpentry-1.18-0.3.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "fcca084f83d689141ddc4f6cd1998c97b0dfb385"
+hash-format = "sha256"
+hash = "8348730a945089a00abb4616caf39954ec6f4e3d3058fd66e2523a4aa6506631"
 mode = "metadata:curseforge"
 
 [update]

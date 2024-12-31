@@ -3,8 +3,8 @@ filename = "Powah-3.0.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "bda75dc694b490dc055a9d4d041bc9f1d2ba4ab3"
+hash-format = "sha256"
+hash = "7ef79e58099e08dd92df3798956d41b52d922993a0ac23a8f77945c345ad516c"
 mode = "metadata:curseforge"
 
 [update]

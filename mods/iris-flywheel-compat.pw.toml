@@ -3,8 +3,8 @@ filename = "oculus-flywheel-compat-1.18.2-0.2.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "96692da39b86f92773cbd4cad5c664345b572e4d"
+hash-format = "sha256"
+hash = "407559e7e905c1e80ea26026b1a3a91e8a14d68339a38cacac3225709fe58513"
 mode = "metadata:curseforge"
 
 [update]

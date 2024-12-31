@@ -3,8 +3,8 @@ filename = "vaultadditions-1.10.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2fd248c0fbd121fe6fc76d13a1b9625d74f7ac1a"
+hash-format = "sha256"
+hash = "08488a910ca679626cf944feb882dc72b73dc51bf88ba207dac51b2cb5d30bf6"
 mode = "metadata:curseforge"
 
 [update]

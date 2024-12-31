@@ -3,8 +3,8 @@ filename = "saturn-mc1.18.2-0.1.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "819bcc189f80982c7ac8ea6bb5bea39325b35ead"
+hash-format = "sha256"
+hash = "5516235e8d80c94e458f7e927de24a59827c0ddee3cc32c2b3dceccf7ddf4f7f"
 mode = "metadata:curseforge"
 
 [update]

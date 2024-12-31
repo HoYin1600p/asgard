@@ -3,8 +3,8 @@ filename = "twigs-1.1.4-patch4+1.18.2-forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2703c2f4f439282d54a64ebe5c2fb7fc44504477"
+hash-format = "sha256"
+hash = "20b9ca87e9a9ffbef0e89239c3dc22db0812362bcf9f6d34d2516346f5dceb8f"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "embeddiumplus-1.18.2-v1.2.14.jar"
 side = "client"
 
 [download]
-hash-format = "sha1"
-hash = "aed0d3887c1dc17e77f5ac7a153a3c641d676856"
+hash-format = "sha256"
+hash = "6d0e24852c264e60ffd71a856adc2a590371e71419b238e895e7b26c2162e6b7"
 mode = "metadata:curseforge"
 
 [update]

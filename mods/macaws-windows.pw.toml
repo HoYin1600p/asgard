@@ -3,8 +3,8 @@ filename = "mcw-windows-2.2.1-mc1.18.2forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "8ff4d59c991c3ce0e922ffae114522b982cfc601"
+hash-format = "sha256"
+hash = "6bca432cfed17b4ff91e363c1c1df18fbaf671c1c0f6c16cc62063c7a11eebce"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "cfm-7.0.0-pre35-1.18.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2e73f576c3b1d6b36ed258df6ac67cb8a82bcc98"
+hash-format = "sha256"
+hash = "48d55a12e01d5d2de970b4be4f3eea188202f8a95058c8bb47b50f12d61661b2"
 mode = "metadata:curseforge"
 
 [update]
