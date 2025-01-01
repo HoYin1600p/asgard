@@ -40,5 +40,10 @@
 	#Enable syncing the map data between players
 	SYNC_ENABLED = true
 	#The IP of the Vault Mapper Sync Server to sync through
-	SYNC_SERVER = "wss://vmsync.boykiss.ing:25284"
-
+	VMSYNC_SERVER = "wss://vmsync.ndmh.xyz"
+	#Your color for other players in the vault
+	SYNC_COLOR = "#64a8a2"
+	#Number of cells rendered around player
+	PC_CUTOFF = 10
+	#Enable player centric rendering
+	PLAYER_CENTRIC_RENDERING = true
