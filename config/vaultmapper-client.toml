@@ -41,8 +41,6 @@
 	SYNC_ENABLED = true
 	#The IP of the Vault Mapper Sync Server to sync through
 	VMSYNC_SERVER = "wss://vmsync.ndmh.xyz"
-	#Your color for other players in the vault
-	SYNC_COLOR = "#64a8a2"
 	#Number of cells rendered around player
 	PC_CUTOFF = 10
 	#Enable player centric rendering
