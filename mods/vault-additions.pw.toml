@@ -1,13 +1,13 @@
 name = "Vault Additions"
-filename = "vaultadditions-1.10.1.jar"
+filename = "vaultadditions-1.10.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha256"
-hash = "08488a910ca679626cf944feb882dc72b73dc51bf88ba207dac51b2cb5d30bf6"
+hash = "e8a907a37c40120c5ce233f821b54616764d560ad58b9d0e6fb3cd1b9c65c307"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6033305
+file-id = 6045904
 project-id = 1166562
