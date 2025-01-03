@@ -1,13 +1,13 @@
 name = "VaultMapper"
-filename = "vaultmapper-1.6.2.jar"
-side = "both"
+filename = "vaultmapper-1.7.0.jar"
+side = "client"
 
 [download]
 hash-format = "sha256"
-hash = "0038538071b995c31602f80f96b258c7cbfb4849a6c7161723163d3469b2a25a"
+hash = "74d4543453458a59547699bccbf3749ee538a3d87058c99f7ee4b7eed10c7a8f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6003530
+file-id = 6037767
 project-id = 1099126

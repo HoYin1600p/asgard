@@ -3434,7 +3434,7 @@ hash = "d005294e57ace5c44b96ac6238d7d0096ee1804c197437b94f61c330181cc046"
 
 [[files]]
 file = "config/the_vault/expertises.json"
-hash = "49af80186afb2cf03d7c41fbb44ab7bac291839f27feda55b861904cc49a2c15"
+hash = "8a50644b70d748f4f1c6d3dd624fc8fb30134d3b61dfbf26e0e944d5b834ce71"
 
 [[files]]
 file = "config/the_vault/expertises_gui_styles.json"
@@ -11498,7 +11498,7 @@ hash = "37970ae58db89137e7a8f982e3d46b76c691928110c468d72e71946703e0b3d0"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/vendor_rooms/vendor2.nbt"
-hash = "f28c635724af147a0adabc666ad6706b39809bc7367f9a03cdcae8ab0f2f4d27"
+hash = "735beceab3cc4c80298dd98b68e655a7b091f796966f055f96c41332fb5dbae2"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/vendor_rooms/vendor3.nbt"
@@ -14546,7 +14546,7 @@ hash = "46a40551bc3bcb042f915be169bd47541c11ffbe59ba5841b2c912b11a7ce4eb"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/vendor_rooms/vendor_rooms.json"
-hash = "eb69b77affdbb7559434129ddf658aaa00e999002e97bee811d70d2c5fb866cd"
+hash = "2c5e1e61faf30e6964a43fbfb3c92307223a4300ff19856d985e7ee0bfd31831"
 
 [[files]]
 file = "config/the_vault/gen/1.0/themes/classic_vault_aurora_cave.json"
@@ -15674,7 +15674,7 @@ hash = "c73d34a484c4ea4ef6542e3cc28d819ec90f033042d3808af105cc8ecf325c1a"
 
 [[files]]
 file = "config/vaultmapper-client.toml"
-hash = "f6d93c9a97de090edb43635273a9ea47f11ddb52649249c638b02c2a6f9480af"
+hash = "0e16c32a8f38d8c824d286f2108581be0c9f0db1580f2be11175aef666f10931"
 
 [[files]]
 file = "config/vhapi-common.toml"
@@ -17669,8 +17669,8 @@ file = "kubejs/startup_scripts/script.js"
 hash = "4a0f0a326f879d9f5186678727cbb05539bd82bb150985f5a70c5d50eeb135ec"
 
 [[files]]
-file = "mods/abilityscreenpanregion.pw.toml"
-hash = "0ec29cca0f9bdfe84dc8c00ce969b169acaac376a8e27ffb0ad5050963fcd24e"
+file = "mods/ability-screen-pan-region.pw.toml"
+hash = "d235769a2ec47258376d9949d71c11fd5b7221484e9b9a1f6617097073c1aed9"
 metafile = true
 
 [[files]]
@@ -17826,6 +17826,11 @@ metafile = true
 [[files]]
 file = "mods/betterwaystonesmenu.pw.toml"
 hash = "f95b113ea75ad66cf88026b7e93ba48e2f1282cad539293fa9039cc9598b53e7"
+metafile = true
+
+[[files]]
+file = "mods/black-market-tweaks.pw.toml"
+hash = "d3e2e0a821e159210b6bb023895a7b40a49efb5ae57eb6e3443e2a3611d6fe24"
 metafile = true
 
 [[files]]
@@ -18410,7 +18415,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-vh.pw.toml"
-hash = "8b4701eb57b519dd6fc40e386023cc32d71233229a1317c263f62ac155776f52"
+hash = "8989411b58f985a009b368a7810457cd75ba89ca1d1ff1e0433d1bd804bacb21"
 metafile = true
 
 [[files]]
@@ -19034,8 +19039,13 @@ hash = "ea735a4aae77fbc65537f417a3ef24d756811b1daf0ab458614113f146bc347d"
 metafile = true
 
 [[files]]
+file = "mods/unobtanium-vault-hunters-fixes.pw.toml"
+hash = "563e14c9b6ccecf412e4812a394588438b8fca29f7d6bb38de80b1aa2003ed3a"
+metafile = true
+
+[[files]]
 file = "mods/vault-additions.pw.toml"
-hash = "e5515fb3999fada0ab3961d969120bec984aa8086b336122b3a77b40204fbda1"
+hash = "7284a130209366980a228465b2e1e99c9e1301487d09b060c79e733f278f3f92"
 metafile = true
 
 [[files]]
@@ -19110,7 +19120,7 @@ metafile = true
 
 [[files]]
 file = "mods/vaultmapper.pw.toml"
-hash = "0814b4c55cc319a41f0715c3ff0c82bb7272d837999ef800a1799f77a89539fb"
+hash = "bc95107cb9ee068d77459b8632bfe4b4149cb4e7934e4b18d8715e835b52e001"
 metafile = true
 
 [[files]]
@@ -19660,7 +19670,7 @@ hash = "e16ae9a557cbcb4b205e7b26bef950659c276738c40f8b403670e4efc09e4c92"
 
 [[files]]
 file = "scripts/ae2.zs"
-hash = "37b0036a8715c86f0426ea9de99c4c9fb72afb918bc8754c331bf9469ff516eb"
+hash = "28c387c031ab98d748a895e6733cf6e4dc1e915222f156c7e647bd2fdbde51c0"
 
 [[files]]
 file = "scripts/ae2_boosters.zs"

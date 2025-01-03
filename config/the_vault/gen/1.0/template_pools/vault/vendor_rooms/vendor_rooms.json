@@ -1,6 +1,6 @@
 [
     {
-      "weight": 20,
+      "weight": 25,
       "value": {
         "template": "the_vault:vault/vendor_rooms/vendor1",
         "palettes": [
@@ -9,7 +9,7 @@
       }
     },
     {
-      "weight": 9,
+      "weight": 12,
       "value": {
         "template": "the_vault:vault/vendor_rooms/vendor2",
         "palettes": [
@@ -18,7 +18,7 @@
       }
     },
     {
-      "weight": 20,
+      "weight": 25,
       "value": {
         "template": "the_vault:vault/vendor_rooms/vendor3",
         "palettes": [
@@ -27,7 +27,7 @@
       }
     },
     {
-      "weight": 20,
+      "weight": 25,
       "value": {
         "template": "the_vault:vault/vendor_rooms/vendor4",
         "palettes": [
@@ -36,7 +36,7 @@
       }
     },
     {
-      "weight": 9,
+      "weight": 12,
       "value": {
         "template": "the_vault:vault/vendor_rooms/vendor5",
         "palettes": [
@@ -54,7 +54,7 @@
       }
     },
     {
-      "weight": 2000,
+      "weight": 5,
       "value": {
         "template": "the_vault:vault/vendor_rooms/vendor7",
         "palettes": [

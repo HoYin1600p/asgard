@@ -2,7 +2,7 @@
 for Vaulthunters */
 
 // adding recipes
-/*
+
 craftingTable.addShaped("ae2_logic_processor", <item:ae2:logic_processor>, [
     [<item:minecraft:air>, <item:minecraft:gold_ingot>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:ae2:silicon>, <item:minecraft:air>],
@@ -26,7 +26,7 @@ craftingTable.addShaped("ae2_controller", <item:ae2:controller>, [
     [<item:ae2:fluix_crystal>, <item:ae2:engineering_processor>, <item:ae2:fluix_crystal>],
     [<item:the_vault:chromatic_steel_ingot>, <item:ae2:fluix_crystal>, <item:the_vault:chromatic_steel_ingot>]
 ]);
-*/
+
 
 // <recipetype:ae2:inscriber>.addJsonRecipe("ae2_logic_processor", { 
 // "result": {"item": "ae2:logic_processor"},
