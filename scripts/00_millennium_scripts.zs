@@ -344,6 +344,14 @@ craftingTable.addShaped("chromatic_gold_ingot", <item:woldsvaults:chromatic_gold
         [<item:minecraft:gold_ingot>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:gold_ingot>]
     ]);
 
+craftingTable.addShaped("chromatic_gold_ingot_2", <item:woldsvaults:chromatic_gold_ingot>, [
+        [<item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>],
+        [<item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>],
+        [<item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>]
+    ]);
+
+craftingTable.addShapeless("chromatic_gold_ingot_3", <item:woldsvaults:chromatic_gold_ingot>*9, [<item:woldsvaults:chromatic_gold_block>]);
+
 // chromatic gold block
 craftingTable.addShaped("chromatic_gold_block", <item:woldsvaults:chromatic_gold_block> *9, [
         [<item:minecraft:gold_block>, <item:the_vault:chromatic_iron_block>, <item:minecraft:gold_block>],
@@ -498,3 +506,14 @@ for reagent in vault_gem {
         <item:woldsvaults:gem_reagent_${reagent}>, <tag:items:the_vault:playergems>
     ]);
 }
+
+craftingTable.remove(<item:the_vault:wooden_chest>);
+craftingTable.remove(<item:the_vault:living_chest>);
+craftingTable.remove(<item:the_vault:gilded_chest>);
+craftingTable.remove(<item:the_vault:ornate_chest>);
+craftingTable.remove(<item:the_vault:altar_chest>);
+craftingTable.remove(<item:the_vault:treasure_chest>);
+craftingTable.remove(<item:the_vault:hardened_chest>);
+craftingTable.remove(<item:the_vault:flesh_chest>);
+craftingTable.remove(<item:the_vault:enigma_chest>);
+

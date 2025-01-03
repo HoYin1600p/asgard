@@ -123,75 +123,129 @@ craftingTable.remove(<item:sophisticatedstorage:stack_upgrade_tier_4>);
 // added recipe
 
 craftingTable.addShaped("sophisticated_treasure_chest", <item:sophisticatedstorage:treasure_chest>, [
-    [<item:woldsvaults:pog_prism>, <item:the_vault:extraordinary_larimar>, <item:woldsvaults:pog_prism>],
-    [<item:the_vault:vault_diamond_block>, <item:the_vault:treasure_chest_placeable>, <item:the_vault:vault_diamond_block>],
-    [<item:woldsvaults:pog_prism>, <item:the_vault:extraordinary_larimar>, <item:woldsvaults:pog_prism>]
+    [<item:woldsvaults:pog_prism>, <item:the_vault:treasure_chest_scroll>, <item:woldsvaults:pog_prism>],
+    [<item:the_vault:treasure_chest_scroll>, <item:the_vault:extraordinary_larimar>, <item:the_vault:treasure_chest_scroll>],
+    [<item:woldsvaults:pog_prism>, <item:the_vault:treasure_chest_scroll>, <item:woldsvaults:pog_prism>]
+]);
+
+craftingTable.addShaped("sophisticated_treasure_chest_2", <item:sophisticatedstorage:treasure_chest>, [
+    [<item:woldsvaults:pog_prism>, <item:the_vault:treasure_chest>, <item:woldsvaults:pog_prism>],
+    [<item:the_vault:treasure_chest>, <item:the_vault:extraordinary_larimar>, <item:the_vault:treasure_chest>],
+    [<item:woldsvaults:pog_prism>, <item:the_vault:treasure_chest>, <item:woldsvaults:pog_prism>]
 ]);
 
 craftingTable.addShaped("sophisticated_wooden_chest", <item:sophisticatedstorage:wooden_chest>, [
-    [<item:the_vault:wooden_planks>, <item:the_vault:vault_diamond>, <item:the_vault:wooden_planks>],
-    [<item:the_vault:vault_diamond>, <item:the_vault:wooden_chest_placeable>, <item:the_vault:vault_diamond>],
-    [<item:the_vault:wooden_planks>, <item:the_vault:vault_diamond>, <item:the_vault:wooden_planks>]
+    [<item:the_vault:wooden_planks>, <item:the_vault:gem_pog>, <item:the_vault:wooden_planks>],
+    [<item:the_vault:wooden_chest_scroll>, <item:the_vault:wooden_chest_scroll>, <item:the_vault:wooden_chest_scroll>],
+    [<item:the_vault:wooden_planks>, <item:the_vault:gem_pog>, <item:the_vault:wooden_planks>]
+]);
+
+craftingTable.addShaped("sophisticated_wooden_chest2", <item:sophisticatedstorage:wooden_chest>, [
+    [<item:the_vault:wooden_planks>, <item:the_vault:gem_pog>, <item:the_vault:wooden_planks>],
+    [<item:the_vault:wooden_chest>, <item:the_vault:wooden_chest>, <item:the_vault:wooden_chest>],
+    [<item:the_vault:wooden_planks>, <item:the_vault:gem_pog>, <item:the_vault:wooden_planks>]
 ]);
 
 craftingTable.addShaped("sophisticated_ornate_chest", <item:sophisticatedstorage:ornate_chest>, [
-    [<item:the_vault:perfect_painite>, <item:the_vault:ornate_block>, <item:the_vault:perfect_painite>],
-    [<item:the_vault:ornate_block>, <item:the_vault:ornate_chest_placeable>, <item:the_vault:ornate_block>],
-    [<item:the_vault:perfect_painite>, <item:the_vault:ornate_block>, <item:the_vault:perfect_painite>]
+    [<item:the_vault:ornate_block>, <item:the_vault:perfect_painite>, <item:the_vault:ornate_block>],
+    [<item:the_vault:ornate_chest_scroll>, <item:woldsvaults:pog_prism>, <item:the_vault:ornate_chest_scroll>],
+    [<item:the_vault:ornate_block>, <item:the_vault:ornate_chest_scroll>, <item:the_vault:ornate_block>]
+]);
+
+craftingTable.addShaped("sophisticated_ornate_chest2", <item:sophisticatedstorage:ornate_chest>, [
+    [<item:the_vault:ornate_block>, <item:the_vault:perfect_painite>, <item:the_vault:ornate_block>],
+    [<item:the_vault:ornate_chest>, <item:woldsvaults:pog_prism>, <item:the_vault:ornate_chest>],
+    [<item:the_vault:ornate_block>, <item:the_vault:ornate_chest>, <item:the_vault:ornate_block>]
 ]);
 
 craftingTable.addShaped("sophisticated_gilded_chest", <item:sophisticatedstorage:gilded_chest>, [
-    [<item:woldsvaults:chromatic_gold_ingot>, <item:the_vault:gilded_block>, <item:woldsvaults:chromatic_gold_ingot>],
-    [<item:the_vault:gilded_block>, <item:the_vault:gilded_chest_placeable>, <item:the_vault:gilded_block>],
-    [<item:woldsvaults:chromatic_gold_ingot>, <item:the_vault:gilded_block>, <item:woldsvaults:chromatic_gold_ingot>]
+    [<item:the_vault:gilded_block>, <item:woldsvaults:chromatic_gold_block>, <item:the_vault:gilded_block>],
+    [<item:the_vault:gilded_chest_scroll>, <item:woldsvaults:pog_prism>, <item:the_vault:gilded_chest_scroll>],
+    [<item:the_vault:gilded_block>, <item:the_vault:gilded_chest_scroll>, <item:the_vault:gilded_block>]
+]);
+
+craftingTable.addShaped("sophisticated_gilded_chest2", <item:sophisticatedstorage:gilded_chest>, [
+    [<item:the_vault:gilded_block>, <item:woldsvaults:chromatic_gold_block>, <item:the_vault:gilded_block>],
+    [<item:the_vault:gilded_chest>, <item:woldsvaults:pog_prism>, <item:the_vault:gilded_chest>],
+    [<item:the_vault:gilded_block>, <item:the_vault:gilded_chest>, <item:the_vault:gilded_block>]
 ]);
 
 craftingTable.addShaped("sophisticated_living_chest", <item:sophisticatedstorage:living_chest>, [
-    [<item:the_vault:perfect_alexandrite>, <item:the_vault:mossy_bone_block>, <item:the_vault:perfect_alexandrite>],
-    [<item:the_vault:mossy_bone_block>, <item:the_vault:living_chest_placeable>, <item:the_vault:mossy_bone_block>],
-    [<item:the_vault:perfect_alexandrite>, <item:the_vault:mossy_bone_block>, <item:the_vault:perfect_alexandrite>]
+    [<item:the_vault:mossy_bone_block>, <item:the_vault:perfect_alexandrite>, <item:the_vault:mossy_bone_block>],
+    [<item:the_vault:living_chest_scroll>, <item:woldsvaults:pog_prism>, <item:the_vault:living_chest_scroll>],
+    [<item:the_vault:mossy_bone_block>, <item:the_vault:living_chest_scroll>, <item:the_vault:mossy_bone_block>]
+]);
+
+craftingTable.addShaped("sophisticated_living_chest2", <item:sophisticatedstorage:living_chest>, [
+    [<item:the_vault:mossy_bone_block>, <item:the_vault:perfect_alexandrite>, <item:the_vault:mossy_bone_block>],
+    [<item:the_vault:living_chest>, <item:woldsvaults:pog_prism>, <item:the_vault:living_chest>],
+    [<item:the_vault:mossy_bone_block>, <item:the_vault:living_chest>, <item:the_vault:mossy_bone_block>]
 ]);
 
 craftingTable.addShaped("sophisticated_altar_chest", <item:sophisticatedstorage:altar_chest>, [
-       [<item:the_vault:perfect_larimar>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:perfect_larimar>],
-       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:altar_chest_placeable>, <item:the_vault:black_chromatic_steel_ingot>],
-       [<item:the_vault:perfect_larimar>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:perfect_larimar>]
+       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:altar_chest_scroll>, <item:the_vault:black_chromatic_steel_ingot>],
+       [<item:the_vault:altar_chest_scroll>, <item:woldsvaults:pog_prism>, <item:the_vault:altar_chest_scroll>],
+       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:altar_chest_scroll>, <item:the_vault:black_chromatic_steel_ingot>]
+]);
+
+craftingTable.addShaped("sophisticated_altar_chest2", <item:sophisticatedstorage:altar_chest>, [
+       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:altar_chest>, <item:the_vault:black_chromatic_steel_ingot>],
+       [<item:the_vault:altar_chest>, <item:woldsvaults:pog_prism>, <item:the_vault:altar_chest>],
+       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:altar_chest>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("sophisticated_hardened_chest", <item:sophisticatedstorage:hardened_chest>, [
-       [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_stone>, <item:the_vault:chromatic_iron_ingot>],
-       [<item:the_vault:vault_stone>, <item:the_vault:hardened_chest_placeable>, <item:the_vault:vault_stone>],
-       [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_stone>, <item:the_vault:chromatic_iron_ingot>]
+       [<item:the_vault:vault_stone>, <item:the_vault:gem_pog>, <item:the_vault:vault_stone>],
+       [<item:the_vault:hardened_chest_scroll>, <item:the_vault:hardened_chest_scroll>, <item:the_vault:hardened_chest_scroll>],
+       [<item:the_vault:vault_stone>, <item:the_vault:gem_pog>, <item:the_vault:vault_stone>]
+]);
+
+craftingTable.addShaped("sophisticated_hardened_chest2", <item:sophisticatedstorage:hardened_chest>, [
+       [<item:the_vault:vault_stone>, <item:the_vault:gem_pog>, <item:the_vault:vault_stone>],
+       [<item:the_vault:hardened_chest>, <item:the_vault:hardened_chest>, <item:the_vault:hardened_chest>],
+       [<item:the_vault:vault_stone>, <item:the_vault:gem_pog>, <item:the_vault:vault_stone>]
 ]);
 
 craftingTable.addShaped("sophisticated_enigma_chest", <item:sophisticatedstorage:enigma_chest>, [
-       [<item:the_vault:perfect_wutodie>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:perfect_wutodie>],
-       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:enigma_chest_placeable>, <item:the_vault:black_chromatic_steel_ingot>],
-       [<item:the_vault:perfect_wutodie>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:perfect_wutodie>]
+       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:enigma_chest_scroll>, <item:the_vault:black_chromatic_steel_ingot>],
+       [<item:the_vault:enigma_chest_scroll>, <item:woldsvaults:pog_prism>, <item:the_vault:enigma_chest_scroll>],
+       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:enigma_chest_scroll>, <item:the_vault:black_chromatic_steel_ingot>]
+]);
+
+craftingTable.addShaped("sophisticated_enigma_chest2", <item:sophisticatedstorage:enigma_chest>, [
+       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:enigma_chest>, <item:the_vault:black_chromatic_steel_ingot>],
+       [<item:the_vault:enigma_chest>, <item:woldsvaults:pog_prism>, <item:the_vault:enigma_chest>],
+       [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:enigma_chest>, <item:the_vault:black_chromatic_steel_ingot>]
 ]);
 
 craftingTable.addShaped("sophisticated_flesh_chest", <item:sophisticatedstorage:flesh_chest>, [
-       [<item:the_vault:vault_meat_block>, <item:the_vault:regret_chunk>, <item:the_vault:vault_meat_block>],
-       [<item:the_vault:regret_chunk>, <item:the_vault:flesh_chest_placeable>, <item:the_vault:regret_chunk>],
-       [<item:the_vault:vault_meat_block>, <item:the_vault:regret_chunk>, <item:the_vault:vault_meat_block>]
+       [<item:the_vault:vault_meat_block>, <item:the_vault:gem_pog>, <item:the_vault:vault_meat_block>],
+       [<item:the_vault:flesh_chest_scroll>, <item:the_vault:flesh_chest_scroll>, <item:the_vault:flesh_chest_scroll>],
+       [<item:the_vault:vault_meat_block>, <item:the_vault:gem_pog>, <item:the_vault:vault_meat_block>]
+]);
+
+craftingTable.addShaped("sophisticated_flesh_chest2", <item:sophisticatedstorage:flesh_chest>, [
+       [<item:the_vault:vault_meat_block>, <item:the_vault:gem_pog>, <item:the_vault:vault_meat_block>],
+       [<item:the_vault:flesh_chest>, <item:the_vault:flesh_chest>, <item:the_vault:flesh_chest>],
+       [<item:the_vault:vault_meat_block>, <item:the_vault:gem_pog>, <item:the_vault:vault_meat_block>]
 ]);
 
 craftingTable.addShaped("sophisticated_ornate_strongbox", <item:sophisticatedstorage:ornate_strongbox>, [
-       [<item:the_vault:ornate_chest_scroll>, <item:the_vault:perfect_painite>, <item:the_vault:ornate_chest_scroll>],
-       [<item:the_vault:perfect_painite>, <item:sophisticatedstorage:ornate_chest>, <item:the_vault:perfect_painite>],
-       [<item:the_vault:ornate_chest_scroll>, <item:the_vault:perfect_painite>, <item:the_vault:ornate_chest_scroll>]
+       [<item:the_vault:ornate_block_1>, <item:the_vault:extraordinary_painite>, <item:the_vault:ornate_block_1>],
+       [<item:sophisticatedstorage:ornate_chest>, <item:the_vault:echo_pog>, <item:sophisticatedstorage:ornate_chest>],
+       [<item:the_vault:ornate_block_1>, <item:the_vault:extraordinary_painite>, <item:the_vault:ornate_block_1>]
 ]);
 
 craftingTable.addShaped("sophisticated_gilded_strongbox", <item:sophisticatedstorage:gilded_strongbox>, [
-       [<item:the_vault:gilded_chest_scroll>, <item:woldsvaults:chromatic_gold_ingot>, <item:the_vault:gilded_chest_scroll>],
-       [<item:woldsvaults:chromatic_gold_ingot>, <item:sophisticatedstorage:gilded_chest>, <item:woldsvaults:chromatic_gold_ingot>],
-       [<item:the_vault:gilded_chest_scroll>, <item:woldsvaults:chromatic_gold_ingot>, <item:the_vault:gilded_chest_scroll>]
+       [<item:the_vault:gilded_block_1>, <item:woldsvaults:chromatic_gold_block>, <item:the_vault:gilded_block_1>],
+       [<item:sophisticatedstorage:gilded_chest>, <item:the_vault:echo_pog>, <item:sophisticatedstorage:gilded_chest>],
+       [<item:the_vault:gilded_block_1>, <item:woldsvaults:chromatic_gold_block>, <item:the_vault:gilded_block_1>]
 ]);
 
 craftingTable.addShaped("sophisticated_living_strongbox", <item:sophisticatedstorage:living_strongbox>, [
-       [<item:the_vault:living_chest_scroll>, <item:the_vault:perfect_alexandrite>, <item:the_vault:living_chest_scroll>],
-       [<item:the_vault:perfect_alexandrite>, <item:sophisticatedstorage:living_chest>, <item:the_vault:perfect_alexandrite>],
-       [<item:the_vault:living_chest_scroll>, <item:the_vault:perfect_alexandrite>, <item:the_vault:living_chest_scroll>]
+       [<item:the_vault:mossy_bone_block_1>, <item:the_vault:extraordinary_alexandrite>, <item:the_vault:mossy_bone_block_1>],
+       [<item:sophisticatedstorage:living_chest>, <item:the_vault:echo_pog>, <item:sophisticatedstorage:living_chest>],
+       [<item:the_vault:mossy_bone_block_1>, <item:the_vault:extraordinary_alexandrite>, <item:the_vault:mossy_bone_block_1>]
 ]);
 
 

@@ -5,7 +5,7 @@ import mods.jei.JEI;
 
 //JEI.hideMod("iceandfire");
 <recipetype:iceandfire:dragonforge>.removeAll();
-//craftingTable.removeByModid("iceandfire");
+craftingTable.removeByModid("iceandfire");
 
 
 
