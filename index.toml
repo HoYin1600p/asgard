@@ -19040,12 +19040,12 @@ metafile = true
 
 [[files]]
 file = "mods/unobtanium-vault-hunters-fixes.pw.toml"
-hash = "563e14c9b6ccecf412e4812a394588438b8fca29f7d6bb38de80b1aa2003ed3a"
+hash = "95075e1cdc6a344e945c3a80fecf276b05d4c85c15232249617f11e3170af6bf"
 metafile = true
 
 [[files]]
 file = "mods/vault-additions.pw.toml"
-hash = "7284a130209366980a228465b2e1e99c9e1301487d09b060c79e733f278f3f92"
+hash = "59a6d2b3dfc8544bd2041603d856298ea2e9bd453e1f6758d35fecc648a42b92"
 metafile = true
 
 [[files]]
@@ -19105,7 +19105,7 @@ metafile = true
 
 [[files]]
 file = "mods/vaulthuntersmorevaulttables.pw.toml"
-hash = "75b492dc51e44854161ee9ae6df0383382d4a37e4c56b3500b7419a2872adcc0"
+hash = "1f44798dca6364505b6b8590f901234bf45556060f8a19c8812cb37cf95557fd"
 metafile = true
 
 [[files]]
@@ -19514,6 +19514,11 @@ hash = "f7d0e95bb7a5ad0cab8ad1c633cb75775f1c17c3935104c4c4f64401b9280d54"
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "bc02556c366733bd70550fd07283f652f47089c5fe00832cd709f2178426b5cc"
+metafile = true
+
+[[files]]
+file = "resourcepacks/mvp-totems.pw.toml"
+hash = "1eed2b056adb41a857d58ee0cfe92146a3364d2b7486f081599259362e0f9262"
 metafile = true
 
 [[files]]
