@@ -516,4 +516,3 @@ craftingTable.remove(<item:the_vault:treasure_chest>);
 craftingTable.remove(<item:the_vault:hardened_chest>);
 craftingTable.remove(<item:the_vault:flesh_chest>);
 craftingTable.remove(<item:the_vault:enigma_chest>);
-
