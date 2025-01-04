@@ -2,6 +2,10 @@
 for Vaulthunters */
 
 import crafttweaker.api.ingredient.IIngredient;
+import mods.jei.JEI;
+
+//hiding recipes
+JEI.hideIngredient(<item:thermal:satchel>);
 
 // adding recipes
 
@@ -186,11 +190,11 @@ craftingTable.addShaped("thermal_aqueous_accumulator", <item:thermal:device_wate
     [<item:the_vault:chromatic_steel_ingot>, <item:thermal:redstone_servo>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
-craftingTable.addShaped("thermal_satchel", <item:thermal:satchel>, [
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:magic_silk_block>, <item:the_vault:chromatic_steel_ingot>],
-    [<item:the_vault:magic_silk_block>, <tag:items:minecraft:wool>, <item:the_vault:magic_silk_block>],
-    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:magic_silk_block>, <item:the_vault:chromatic_steel_ingot>]
-]);
+//craftingTable.addShaped("thermal_satchel", <item:thermal:satchel>, [
+//    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:magic_silk_block>, <item:the_vault:chromatic_steel_ingot>],
+//    [<item:the_vault:magic_silk_block>, <tag:items:minecraft:wool>, <item:the_vault:magic_silk_block>],
+//    [<item:the_vault:chromatic_steel_ingot>, <item:the_vault:magic_silk_block>, <item:the_vault:chromatic_steel_ingot>]
+//]);
 
 craftingTable.addShaped("thermal_stabilized_coil", <item:thermal:rf_coil_storage_augment>, [
     [<item:minecraft:air>, <tag:items:forge:ingots/silver>, <item:minecraft:air>],
