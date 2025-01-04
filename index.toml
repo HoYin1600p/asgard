@@ -15674,7 +15674,7 @@ hash = "c73d34a484c4ea4ef6542e3cc28d819ec90f033042d3808af105cc8ecf325c1a"
 
 [[files]]
 file = "config/vaultmapper-client.toml"
-hash = "0e16c32a8f38d8c824d286f2108581be0c9f0db1580f2be11175aef666f10931"
+hash = "914250b581d6cd6ee6bf8b9e3da4cfb230be01503be19eba7657d686fddbdd98"
 
 [[files]]
 file = "config/vhapi-common.toml"
@@ -17830,12 +17830,7 @@ metafile = true
 
 [[files]]
 file = "mods/black-market-tweaks.pw.toml"
-hash = "d3e2e0a821e159210b6bb023895a7b40a49efb5ae57eb6e3443e2a3611d6fe24"
-metafile = true
-
-[[files]]
-file = "mods/blackmarkettweaker.pw.toml"
-hash = "117c02b1888b46bff4925888a13de6bdc47751f127c03485a6f21c882f759772"
+hash = "6a8ea1bc8828091022f873c1e0f7fdc717099860c303ea35e0bfe4a9721a7e3b"
 metafile = true
 
 [[files]]
@@ -19040,12 +19035,12 @@ metafile = true
 
 [[files]]
 file = "mods/unobtanium-vault-hunters-fixes.pw.toml"
-hash = "563e14c9b6ccecf412e4812a394588438b8fca29f7d6bb38de80b1aa2003ed3a"
+hash = "df9c78cfcd40271d59c02c77b8d31f0c1ee6f8da2a55316cb5b15dad38c9607d"
 metafile = true
 
 [[files]]
 file = "mods/vault-additions.pw.toml"
-hash = "7284a130209366980a228465b2e1e99c9e1301487d09b060c79e733f278f3f92"
+hash = "59a6d2b3dfc8544bd2041603d856298ea2e9bd453e1f6758d35fecc648a42b92"
 metafile = true
 
 [[files]]
@@ -19105,7 +19100,7 @@ metafile = true
 
 [[files]]
 file = "mods/vaulthuntersmorevaulttables.pw.toml"
-hash = "75b492dc51e44854161ee9ae6df0383382d4a37e4c56b3500b7419a2872adcc0"
+hash = "06045b14dc942e76f63dd6cb50223946875b70ae3862a08a95925f683674f3d5"
 metafile = true
 
 [[files]]
@@ -19517,8 +19512,13 @@ hash = "bc02556c366733bd70550fd07283f652f47089c5fe00832cd709f2178426b5cc"
 metafile = true
 
 [[files]]
+file = "resourcepacks/mvp-totems.pw.toml"
+hash = "1eed2b056adb41a857d58ee0cfe92146a3364d2b7486f081599259362e0f9262"
+metafile = true
+
+[[files]]
 file = "scripts/00_millennium_scripts.zs"
-hash = "297008c957271d61fe57ccdb8b7935fdc00274f03ebc2564d1ec44abd4c13722"
+hash = "e946fbe239febc160d3b7de09349f977efe31f83dc2a77c64e416b5c54e52b9f"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
@@ -19646,7 +19646,7 @@ hash = "236f92c10dab3662ccaf3e2945f1adb62f6969bd96e9c1488bc1292a895b8617"
 
 [[files]]
 file = "scripts/Thermal.zs"
-hash = "6a4fdb9b86628645a24de789c17d0babfa1a5402b7875d74b327cf6b83f33bf3"
+hash = "2cf687aafa89163d20b0e86e189781ba4c1219ce4041530ce698085920472ecc"
 
 [[files]]
 file = "scripts/Torchmaster.zs"
@@ -19658,7 +19658,7 @@ hash = "60b0334456969af2b8ff61bf8e1d707545e1b20497cecee651a4f7399dba00a5"
 
 [[files]]
 file = "scripts/Vanilla.zs"
-hash = "e8443f41d236d8de52752bb4bcdf97f8cdc3aadb73f29722e1099935572ba9f0"
+hash = "1bec5a5918481c663d5b7acefdec0431070067d0819a5ef7a07eaf57d2777bb8"
 
 [[files]]
 file = "scripts/Waystones.zs"
@@ -19702,7 +19702,7 @@ hash = "ba2d7c34f233d1425ff273191116e14448cbccfd283d6477c2e30223b31b3d2f"
 
 [[files]]
 file = "scripts/iceandfire.zs"
-hash = "366f489b3c8b11f84f4ec772ad3e5e66e9f7f67ea1fee69d8404d626cd0f2c82"
+hash = "57376fb46f58500ded1c42a1a0324c390f7c2ef15b78ed7bd0753093767d53a0"
 
 [[files]]
 file = "scripts/iron_generators_furnaces.zs"
@@ -19726,11 +19726,11 @@ hash = "c9a6861f31165a9161aada7bbdc89f8061ebfad3f1f1c9f35e0e52e0d6103c99"
 
 [[files]]
 file = "scripts/sophisticated_storage.zs"
-hash = "045dc350a1fffa62bd74ffe4442756ff900634fc08f05b6b923825f2ef4a6f90"
+hash = "9e5dda19a3da4e49c2675c5067b2b9c50f5dc07b79ee28836cea75d94d9a980c"
 
 [[files]]
 file = "scripts/starting_inventory.zs"
-hash = "fff226c0edac371ceb74ac0554e7ac6b0dd2fa6a2bc2baf129b064d866109f1f"
+hash = "e0954d96dc411a604755a0f4d7be406500b6339a67d24ba87f04fb5ecf417cff"
 
 [[files]]
 file = "scripts/test.zs"

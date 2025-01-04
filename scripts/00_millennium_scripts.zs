@@ -249,8 +249,25 @@ craftingTable.remove(<item:the_vault:cryo_chamber>);
 craftingTable.remove(<item:the_vault:eternal_pedestal>);
 craftingTable.remove(<item:the_vault:infused_eternal_soul>);
 craftingTable.remove(<item:the_vault:vault_doll>);
+craftingTable.remove(<item:the_vault:memory_powder>);
+craftingTable.remove(<item:the_vault:memory_shard>);
+craftingTable.remove(<item:the_vault:memory_crystal>);
 
 // recipe additions
+
+craftingTable.addShaped("memory_powder", <item:the_vault:memory_shard> , [
+        [<item:the_vault:memory_powder>, <item:the_vault:memory_powder>, <item:the_vault:memory_powder>],
+        [<item:the_vault:memory_powder>, <item:the_vault:memory_powder>, <item:the_vault:memory_powder>],
+        [<item:the_vault:memory_powder>, <item:the_vault:memory_powder>, <item:the_vault:memory_powder>]
+    ]);
+
+craftingTable.addShaped("memory_crystal", <item:the_vault:memory_crystal> , [
+        [<item:the_vault:memory_shard>, <item:the_vault:memory_shard>, <item:the_vault:memory_shard>],
+        [<item:the_vault:memory_shard>, <item:the_vault:extraordinary_painite>, <item:the_vault:memory_shard>],
+        [<item:the_vault:memory_shard>, <item:the_vault:memory_shard>, <item:the_vault:memory_shard>]
+    ]);
+
+craftingTable.addShapeless("memory_shard_2_crystal", <item:the_vault:memory_powder>*9, [<item:the_vault:memory_shard>]);
 
 craftingTable.addShapeless("fragments_from_catalyst", <item:the_vault:vault_catalyst_fragment>*3, [<item:the_vault:vault_catalyst>]);
 craftingTable.addShapeless("fragments_from_infused_catalyst", <item:the_vault:vault_catalyst_fragment>*3, [<item:the_vault:vault_catalyst_infused>]);
@@ -343,6 +360,14 @@ craftingTable.addShaped("chromatic_gold_ingot", <item:woldsvaults:chromatic_gold
         [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_essence>, <item:the_vault:chromatic_iron_ingot>],
         [<item:minecraft:gold_ingot>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:gold_ingot>]
     ]);
+
+craftingTable.addShaped("chromatic_gold_ingot_2", <item:woldsvaults:chromatic_gold_ingot>, [
+        [<item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>],
+        [<item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>],
+        [<item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>, <item:woldsvaults:chromatic_gold_nugget>]
+    ]);
+
+craftingTable.addShapeless("chromatic_gold_ingot_3", <item:woldsvaults:chromatic_gold_ingot>*9, [<item:woldsvaults:chromatic_gold_block>]);
 
 // chromatic gold block
 craftingTable.addShaped("chromatic_gold_block", <item:woldsvaults:chromatic_gold_block> *9, [
