@@ -5448,23 +5448,11 @@
             "color": "$ballistic"
           },
           {
-            "text": " objective to a crystal.\n\nConsidered to be the hardest objective in the game, complete bingo lines with a newly revamped system. For each task you complete, you will gain a ",
+            "text": " objective to a crystal.\n\nConsidered to be the hardest objective in the game, complete bingo lines with a newly revamped system. ",
             "color": "$text"
           },
           {
-            "text": "Positive ",
-            "color": "green"
-          },
-          {
-            "text": "or ",
-            "color": "$text"
-          },
-          {
-            "text": "Negative ",
-            "color": "red"
-          },
-          {
-            "text": "modifier.\n\nFor each bingo line completed, additional modifiers will be added to the vault.\n\nOh, I should probably mention that the size of the bingo vaults has been altered to the following.",
+            "text": "For each bingo line completed, additional modifiers will be added to the vault.\n\nOh, I should probably mention that the size of the bingo vaults has been altered to the following.",
             "color": "$text"
           },
           {
@@ -5492,7 +5480,7 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDue to how this objective scales, there is no recommended level. This objective cannot roll randomly (can only be applied with a seal). ",
+            "text": "\n\nDue to how this objective can scale, the recommended level is 80-100.\n\nThis objective cannot roll randomly (can only be applied with a seal). ",
             "color": "$qhighlight"
           },
           {
