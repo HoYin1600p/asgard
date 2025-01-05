@@ -59,10 +59,13 @@ JEI.hideIngredient(<item:functionalstorage:creative_vending_upgrade>);
 for matName, matId in f_mat {
     // 1x1 storage
     craftingTable.remove(<item:functionalstorage:${matName}_1>);
+    <tag:items:functionalstorage:drawer>.add(<item:functionalstorage:${matName}_1>);
     // 1x2 storage
     craftingTable.remove(<item:functionalstorage:${matName}_2>);
+    <tag:items:functionalstorage:drawer>.add(<item:functionalstorage:${matName}_2>);
     // 2x2 storage
     craftingTable.remove(<item:functionalstorage:${matName}_4>);
+    <tag:items:functionalstorage:drawer>.add(<item:functionalstorage:${matName}_4>);
 }
 
 craftingTable.remove(<item:functionalstorage:fluid_1>);
