@@ -152,7 +152,7 @@ JEI.addDescription(<item:woldsvaults:crystal_seal_spirits>, ["Combine with a cry
 JEI.addDescription(<item:woldsvaults:crystal_seal_enchanter>, ["Combine with a crystal to add the Enchanted Elixir objective to a crystal.  For more info about this objective, check out the quest entry."]);
 JEI.addDescription(<item:woldsvaults:crystal_seal_titan>, ["Combine with a crystal to add the Slay the Brutal Bosses objective to a crystal.  For more info about this objective, check out the quest entry."]);
 JEI.addDescription(<item:woldsvaults:crystal_seal_doomsayer>, ["Combine with a crystal to add the Ballistic Bingo objective to a crystal.  For more info about this objective, check out the quest entry."]);
-JEI.addDescription(<item:woldsvaults:crystal_seal_zealot>, ["Combine with a crystal to add the Zealot objective to a crystal.  For more info about this objective, check out the quest entry."]);
+JEI.addDescription(<item:woldsvaults:crystal_seal_zealot>, ["Combine with a crystal to add the Zealot objective to a crystal.  For more info about this objective, check out the quest entry. (Temporarily Unobtainable)"]);
 JEI.addDescription(<item:woldsvaults:gem_box>, ["Roll to get 1-4 random gems or a POG."]);
 JEI.addDescription(<item:woldsvaults:supply_box>, ["Roll to get some random crafting items."]);
 JEI.addDescription(<item:woldsvaults:inscription_box>, ["Roll to get a random size 5 or size 10 inscription or even a uber inscription."]);
@@ -252,6 +252,7 @@ craftingTable.remove(<item:the_vault:vault_doll>);
 craftingTable.remove(<item:the_vault:memory_powder>);
 craftingTable.remove(<item:the_vault:memory_shard>);
 craftingTable.remove(<item:the_vault:memory_crystal>);
+craftingTable.remove(<item:the_vault:red_vault_essence>);
 
 // recipe additions
 
