@@ -513,6 +513,7 @@ craftingTable.addShapeless("double_compressed_2_compressed_flex_tape", <item:wol
 
 for gem in vault_gem {
     // gem reagent
+    craftingTable.remove(<item:woldsvaults:gem_reagent_${gem}>);
     craftingTable.addShapeless(gem + "reagent", <item:woldsvaults:gem_reagent_${gem}>, [
         <item:the_vault:gem_${gem}>, <item:the_vault:wild_focus>, <item:the_vault:vault_essence>, <item:woldsvaults:smashed_vault_gem_cluster>
     ]);
