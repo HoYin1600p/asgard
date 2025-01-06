@@ -44,18 +44,18 @@ craftingTable.addShaped("minecraft_" + dyeName + "_concrete", <item:minecraft:${
 ]);
 }
 
-blastFurnace.addRecipe("raw_iron_block_2_iron", <item:minecraft:iron_ingot>*9, <item:minecraft:raw_iron_block>, 5.0, 200);
-blastFurnace.addRecipe("raw_gold_block_3_gold", <item:minecraft:gold_ingot>*9, <item:minecraft:raw_gold_block>, 5.0, 200);
-blastFurnace.addRecipe("raw_copper_block_2_copper", <item:minecraft:copper_ingot>*9, <item:minecraft:raw_copper_block>, 5.0, 200);
-blastFurnace.addRecipe("raw_chromatic_block_2_chromatic_iron", <item:the_vault:chromatic_iron_ingot>*9, <item:the_vault:raw_chromatic_iron_block>, 5.0, 200);
-blastFurnace.addRecipe("raw_osmium_block_2_osmium", <item:mekanism:ingot_osmium>*9, <item:mekanism:block_raw_osmium>, 5.0, 200);
-blastFurnace.addRecipe("raw_uranium_block_2_uranium", <item:mekanism:ingot_uranium>*9, <item:mekanism:block_raw_uranium>, 5.0, 200);
-blastFurnace.addRecipe("raw_lead_block_2_lead", <item:mekanism:ingot_lead>*9, <item:mekanism:block_raw_lead>, 5.0, 200);
-blastFurnace.addRecipe("raw_tin_block_2_tin", <item:mekanism:ingot_tin>*9, <item:mekanism:block_raw_tin>, 5.0, 200);
-blastFurnace.addRecipe("raw_thermal_tin_block_2_tin", <item:thermal:tin_ingot>*9, <item:thermal:raw_tin_block>, 5.0, 200);
-blastFurnace.addRecipe("raw_thermal_lead_block_2_lead", <item:thermal:lead_ingot>*9, <item:thermal:raw_lead_block>, 5.0, 200);
-blastFurnace.addRecipe("raw_thermal_silver_block_2_silver", <item:thermal:silver_ingot>*9, <item:thermal:raw_silver_block>, 5.0, 200);
-blastFurnace.addRecipe("raw_thermal_nickel_block_2_nickel", <item:thermal:nickel_ingot>*9, <item:thermal:raw_nickel_block>, 5.0, 200);
+blastFurnace.addRecipe("raw_iron_block_2_iron", <item:minecraft:iron_block>, <item:minecraft:raw_iron_block>, 1.0, 200);
+blastFurnace.addRecipe("raw_gold_block_3_gold", <item:minecraft:gold_block>, <item:minecraft:raw_gold_block>, 1.0, 200);
+blastFurnace.addRecipe("raw_copper_block_2_copper", <item:minecraft:copper_block>, <item:minecraft:raw_copper_block>, 1.0, 200);
+blastFurnace.addRecipe("raw_chromatic_block_2_chromatic_iron", <item:the_vault:chromatic_iron_block>, <item:the_vault:raw_chromatic_iron_block>, 1.0, 200);
+blastFurnace.addRecipe("raw_osmium_block_2_osmium", <item:mekanism:block_osmium>, <item:mekanism:block_raw_osmium>, 1.0, 200);
+blastFurnace.addRecipe("raw_uranium_block_2_uranium", <item:mekanism:block_uranium>, <item:mekanism:block_raw_uranium>, 1.0, 200);
+blastFurnace.addRecipe("raw_lead_block_2_lead", <item:mekanism:block_lead>, <item:mekanism:block_raw_lead>, 1.0, 200);
+blastFurnace.addRecipe("raw_tin_block_2_tin", <item:mekanism:block_tin>, <item:mekanism:block_raw_tin>, 1.0, 200);
+blastFurnace.addRecipe("raw_thermal_tin_block_2_tin", <item:thermal:tin_block>, <item:thermal:raw_tin_block>, 1.0, 200);
+blastFurnace.addRecipe("raw_thermal_lead_block_2_lead", <item:thermal:lead_block>, <item:thermal:raw_lead_block>, 1.0, 200);
+blastFurnace.addRecipe("raw_thermal_silver_block_2_silver", <item:thermal:silver_block>, <item:thermal:raw_silver_block>, 1.0, 200);
+blastFurnace.addRecipe("raw_thermal_nickel_block_2_nickel", <item:thermal:nickel_block>, <item:thermal:raw_nickel_block>, 1.0, 200);
 
 craftingTable.addShaped("goldenapple", <item:minecraft:golden_apple>, [
     [<item:minecraft:gold_block>, <item:minecraft:gold_ingot>, <item:minecraft:gold_block>],

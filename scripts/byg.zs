@@ -73,3 +73,5 @@ craftingTable.addShaped("byg_frost_magma", <item:byg:frost_magma>*8 , [
         [<item:byg:subzero_crystal_shard>, <item:minecraft:magma_block>, <item:byg:subzero_crystal_shard>],
         [<item:byg:subzero_crystal_shard>, <item:byg:subzero_crystal_shard>, <item:byg:subzero_crystal_shard>]
     ]);
+
+craftingTable.addShapeless("byg_bulbis_wood_2_stem", <item:byg:bulbis_stem>*4, [<item:byg:bulbis_wood>, <item:byg:bulbis_wood>, <item:byg:bulbis_wood>]);
