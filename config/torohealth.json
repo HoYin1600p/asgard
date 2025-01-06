@@ -20,10 +20,10 @@
     "foeColorSecondary": "#800000"
   },
   "inWorld": {
-    "mode": "NONE",
+    "mode": "ALWAYS",
     "distance": 60.0,
     "onlyWhenLookingAt": false,
-    "onlyWhenHurt": false
+    "onlyWhenHurt": true
   },
   "particle": {
     "show": true,
