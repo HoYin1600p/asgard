@@ -131,6 +131,17 @@
               }
             },
             {
+              "weight": 3,
+              "item": {
+                "id": "vaultadditions:power_crystal",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            },
+            {
               "weight": 10,
               "item": {
                 "id": "the_vault:vault_essence",
@@ -180,7 +191,7 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 3,
               "item": {
                 "id": "vaultadditions:power_crystal",
                 "count": {

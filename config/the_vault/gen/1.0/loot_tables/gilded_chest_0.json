@@ -58,7 +58,7 @@
         { "weight": 20,
         "pool": [
           {
-            "weight": 24,
+            "weight": 30,
             "item": {
               "id": "the_vault:magic_silk",
               "count": {
@@ -69,7 +69,7 @@
             }
           },
           {
-            "weight": 16,
+            "weight": 20,
             "item": {
               "id": "the_vault:vault_essence",
               "count": {
