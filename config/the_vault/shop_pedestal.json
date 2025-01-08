@@ -477,17 +477,6 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:vault_catalyst"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 8,
-            "MAX_COST": 12
-          },
-          "weight": 100
-        },
-        {
-          "value": {
-            "OFFER": {
               "item": "the_vault:vault_catalyst_chaos"
             },
             "CURRENCY": "the_vault:vault_gold",
