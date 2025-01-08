@@ -69,11 +69,11 @@
       }
     },
     {
-      "type": "template_stack_tile",
-      "target": "@the_vault:vault_lootables",
-      "stack": [
-        "STRUCTURE_VENDOR_ROOM"
-      ]
+        "type": "template_stack_tile",
+        "target": "@the_vault:vault_lootables",
+        "stack": [
+            "STRUCTURE_VENDOR_ROOM"
+        ]
     }
   ]
 }

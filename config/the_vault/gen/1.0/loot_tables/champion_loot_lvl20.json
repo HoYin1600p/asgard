@@ -10,7 +10,7 @@
         { "weight": 70,
           "pool": [
             {
-              "weight": 100,
+              "weight": 50,
               "item": {
                 "id": "the_vault:loot_sack",
                 "nbt": {
@@ -24,7 +24,7 @@
               }
             },
             {
-              "weight": 100,
+              "weight": 50,
               "item": {
                 "id": "the_vault:plushie",
                 "nbt": {
