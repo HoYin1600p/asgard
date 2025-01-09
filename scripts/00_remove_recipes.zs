@@ -1465,7 +1465,6 @@ JEI.hideIngredient(<item:the_vault:archetype_star>);
 JEI.hideIngredient(<item:the_vault:archetype_star_core>);
 JEI.hideIngredient(<item:the_vault:archetype_star_essence>);
 JEI.hideIngredient(<item:the_vault:archetype_star_shard>);
-JEI.hideIngredient(<item:the_vault:acceleration_chip>);
 JEI.hideIngredient(<item:the_vault:cluster_netherite>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_raid>);
 JEI.hideIngredient(<item:the_vault:infused_eternal_soul>);

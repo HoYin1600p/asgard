@@ -10,15 +10,15 @@
         { "weight": 70,
           "pool": [
             {
-                "weight": 24,
-                "item": {
+              "weight": 24,
+              "item": {
                 "id": "the_vault:gilded_sconce",
                 "count": {
                   "type": "uniform",
                   "min": 1,
                   "max": 2
-                  }
                 }
+              }
             },
             {
               "weight": 12,
@@ -28,7 +28,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -39,7 +39,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 2
-                  }
+                }
               }
             },
             {
@@ -50,7 +50,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -61,7 +61,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -72,7 +72,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 2
-                  }
+                }
               }
             },
             {
@@ -83,10 +83,10 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 3
-                  }
+                }
               }
             }
-            
+
           ]
         },
         { "weight": 20,
@@ -99,7 +99,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 2
-                  }
+                }
               }
             },
             {
@@ -108,9 +108,9 @@
                 "id": "vaultadditions:power_crystal",
                 "count": {
                   "type": "uniform",
-                  "min": 1,
-                  "max": 2
-                  }
+                  "min": 2,
+                  "max": 4
+                }
               }
             },
             {
@@ -121,7 +121,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -132,7 +132,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 2
-                  }
+                }
               }
             },
             {
@@ -143,7 +143,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 3
-                  }
+                }
               }
             },
             {
@@ -154,7 +154,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 2
-                  }
+                }
               }
             }
           ]
@@ -162,15 +162,15 @@
         { "weight": 8,
           "pool": [
             {
-                "weight": 7,
-                "item": {
-                  "id": "minecraft:experience_bottle",
-                  "count": {
-                    "type": "uniform",
-                    "min": 1,
-                    "max": 2
-                    }
+              "weight": 7,
+              "item": {
+                "id": "minecraft:experience_bottle",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
                 }
+              }
             },
             {
               "weight": 1,
@@ -180,7 +180,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 2
-                  }
+                }
               }
             },
             {
@@ -191,7 +191,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 2
-                  }
+                }
               }
             },
             {
@@ -202,7 +202,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -212,8 +212,8 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 1
-                  }
+                  "max": 2
+                }
               }
             },
             {
@@ -224,7 +224,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             }
           ]
@@ -239,7 +239,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             },
             {
@@ -250,7 +250,7 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
+                }
               }
             }
           ]
