@@ -9,7 +9,7 @@
 	#Load animated emojis, if disabled they will be a still image
 	gifs = true
 	#Replace short versions of emoji like :) into :smile: so they can be rendered as emoji
-	short_emoji_replacement = true
+	short_emoji_replacement = false
 
 	[Emojiful.EmojiTypes]
 		#Loads Twemojis used in sites like Twitter and Discord
