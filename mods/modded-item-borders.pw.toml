@@ -1,0 +1,13 @@
+name = "Item Borders Integration"
+filename = "moddeditemborders-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "40f67fed388d9f9776ec2c9db6f40606d84336673b787bd3c712b7b96516b05b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6044948
+project-id = 1170138
