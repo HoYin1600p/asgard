@@ -11,10 +11,19 @@ craftingTable.remove(<item:aeinfinitybooster:infinity_card>);
 craftingTable.remove(<item:aeinfinitybooster:dimension_card>);
 
 craftingTable.remove(<item:ae2wtlib:infinity_booster_card>);
+JEI.hideIngredient(<item:ae2wtlib:infinity_booster_card>);
+
 craftingTable.remove(<item:ae2wtlib:magnet_card>);
+JEI.hideIngredient(<item:ae2wtlib:magnet_card>);
+
 craftingTable.remove(<item:ae2wtlib:wireless_pattern_encoding_terminal>);
+JEI.hideIngredient(<item:ae2wtlib:wireless_pattern_encoding_terminal>);
+
 craftingTable.remove(<item:ae2wtlib:wireless_pattern_access_terminal>);
+JEI.hideIngredient(<item:ae2wtlib:wireless_pattern_access_terminal>);
+
 craftingTable.remove(<item:ae2wtlib:wireless_universal_terminal>);
+JEI.hideIngredient(<item:ae2wtlib:wireless_universal_terminal>);
 
 // infinity booster custom recipe
 craftingTable.addShaped("ae2_infinity_booster", <item:aeinfinitybooster:infinity_card>, [
