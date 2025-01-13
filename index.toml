@@ -15122,7 +15122,7 @@ hash = "2a1038d281899a169f5d53abe8a2bd0b37cae654dee74ec5f788f77477ce5ab5"
 
 [[files]]
 file = "config/the_vault/researches.json"
-hash = "0d11001bbeddb14678c63f58d3dd3d64f655e1676303a3ed1cc59a2d13ec0e6f"
+hash = "9dcff0a974ee610178a85b6512071dcdcd610c0f63645b0c3ad950f19320b345"
 
 [[files]]
 file = "config/the_vault/researches_groups.json"
@@ -15474,7 +15474,7 @@ hash = "25a187e3578e191b44e99915575a77ec50b985117cde4531f623ab790d3baa86"
 
 [[files]]
 file = "config/the_vault/vault_general.json"
-hash = "73253a0a7bd1e282400383bf71d4520848fbf638a94484b579a364b713b0126c"
+hash = "47b252c1ccf53d32ab15df11b189905aa9549fb7a35983aae80f7b81f69245b1"
 
 [[files]]
 file = "config/the_vault/vault_guardian.json"
@@ -17718,8 +17718,13 @@ hash = "67f1f488b7434bb23b8f869957b98513936d1e4236d8d311388a9615e9d1d1f0"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+hash = "e3bb8e4c2ac30540af2f37bef859894507647df37aa9f4aa1b048992f9f8504e"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "8fbaceaf37acd689652210ba1240b8b2ac4f7df2edcdca0eddf71ea8fbe4f9bc"
+hash = "205025b843c793ec8e5a0b56eabfc86be8cc1e00fedf361409ef899b02a2ce66"
 metafile = true
 
 [[files]]
@@ -17834,7 +17839,7 @@ metafile = true
 
 [[files]]
 file = "mods/black-market-tweaks.pw.toml"
-hash = "9f4321be31261e3ebaeace764ddd51bc6126b4b4d89f4d9caaeb68fb38066296"
+hash = "12f435e5f8260fd3c610757750ee98110916cf0a69c0ad2a8f855319719356e0"
 metafile = true
 
 [[files]]
@@ -18848,11 +18853,6 @@ hash = "d784ac87a134347d84215f3fc89e80f4981162b3dd9aa52e79af60e7bff0a821"
 metafile = true
 
 [[files]]
-file = "mods/secretrooms.pw.toml"
-hash = "bf54226bf4ee764ab2a680b1788f31794098d6ae078061e438682d3c59503f5a"
-metafile = true
-
-[[files]]
 file = "mods/selene.pw.toml"
 hash = "74702eebc0ec6b579bee07bec4814125a6cebcb40447a831a49df8048d91ead0"
 metafile = true
@@ -19049,7 +19049,7 @@ metafile = true
 
 [[files]]
 file = "mods/vault-additions.pw.toml"
-hash = "59a6d2b3dfc8544bd2041603d856298ea2e9bd453e1f6758d35fecc648a42b92"
+hash = "0f107bbf18fdad9f52e53f15dce4a0bad01074eeee7fac50d0e8f0757ab97a4f"
 metafile = true
 
 [[files]]
@@ -19683,7 +19683,7 @@ hash = "28c387c031ab98d748a895e6733cf6e4dc1e915222f156c7e647bd2fdbde51c0"
 
 [[files]]
 file = "scripts/ae2_boosters.zs"
-hash = "f6234d596f4c8b4df2e34ae0dfe8ae8d5f7eadac37dbf734df85f7c80cb1b3b8"
+hash = "ed9d3157f206a02b768ddf535852a37dac35635113367aa729d912d2fd7cf3a3"
 
 [[files]]
 file = "scripts/ae2_mekanistics.zs"
