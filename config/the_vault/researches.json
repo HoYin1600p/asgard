@@ -196,7 +196,8 @@
       "modIds": [
         "ae2",
         "ae2things",
-        "aeinfinitybooster"
+        "aeinfinitybooster",
+        "ae2wtlib"
       ],
       "restrictions": {
         "restricts": {
@@ -807,6 +808,27 @@
           }
         },
         "refinedstorage:pattern": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2wtlib:wireless_universal_terminal": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2wtlib:wireless_pattern_encoding_terminal": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        },
+        "ae2wtlib:magnet_card": {
           "restricts": {
             "HITTABILITY": true,
             "USABILITY": true,

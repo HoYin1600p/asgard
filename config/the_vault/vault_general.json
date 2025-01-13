@@ -6,6 +6,7 @@
 	"OBELISK_DROP_CHANCE": 2,
 	"ITEM_BLACKLIST": [
 		"ae2things:*",
+        "ae2wtlib:*",
 		"aeinfinitybooster:*",
 		"appmek:*",
 		"decocraft:*",
@@ -187,6 +188,7 @@
 	],
 	"BLOCK_BLACKLIST": [
 		"ae2things:*",
+        "ae2wtlib:*",
 		"appmek:*",
 		"decocraft:*",
 		"morevaulttables:*",
