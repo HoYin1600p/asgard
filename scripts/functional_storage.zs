@@ -53,6 +53,7 @@ var f_mat = {
 //Functional Storage Recipes
 
 JEI.hideIngredient(<item:functionalstorage:creative_vending_upgrade>);
+JEI.hideIngredient(<item:functionalstorage:controller_extension>);
 
 // remove recipes
 
@@ -157,13 +158,6 @@ craftingTable.addShaped("drawer_controller", <item:functionalstorage:storage_con
         [<tag:items:functionalstorage:drawer>, <item:the_vault:gem_pog>, <tag:items:functionalstorage:drawer>],
         [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>, <item:the_vault:black_chromatic_steel_ingot>]
     ]);
-
-craftingTable.addShaped("drawer_controller_extension", <item:functionalstorage:controller_extension>, [
-        [<item:the_vault:polished_vault_stone>, <item:the_vault:vault_diamond>, <item:the_vault:polished_vault_stone>],
-        [<item:the_vault:chromatic_steel_ingot>, <tag:items:functionalstorage:drawer>, <item:the_vault:chromatic_steel_ingot>],
-        [<item:the_vault:polished_vault_stone>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:polished_vault_stone>]
-    ]);
-
 
 // tools
 craftingTable.addShaped("drawer_linking_tool", <item:functionalstorage:linking_tool>, [
