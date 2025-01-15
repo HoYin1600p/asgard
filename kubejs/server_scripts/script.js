@@ -26,8 +26,49 @@ onEvent('recipes', event => {
 		event.shapeless('1x kubejs:purple_unobtanium_block', '4x kubejs:purple_unobtanium')
 		event.shapeless('1x kubejs:black_unobtanium_block', '4x kubejs:black_unobtanium')
 		event.shapeless('1x kubejs:rainbow_unobtanium_block', '4x kubejs:rainbow_unobtanium')
+		// Functional Storage
+    	event.custom({
+        	type: "functionalstorage:custom_compacting",
+        	higher_input: {
+            	count: 1,
+            	item: "the_vault:wooden_log"
+        	},
+        	lower_input: {
+            	count: 4,
+            	item: "the_vault:wooden_planks"
+        	}
+        })
+    	event.custom({
+        	type: "functionalstorage:custom_compacting",
+        	higher_input: {
+            	count: 1,
+            	item: "the_vault:driftwood_log"
+        	},
+        	lower_input: {
+            	count: 4,
+            	item: "the_vault:driftwood_planks"
+        	}
+        })
+   		 event.custom({
+        	type: "functionalstorage:custom_compacting",
+        	higher_input: {
+            	count: 1,
+            	item: "the_vault:overgrown_wooden_log"
+        	},
+        	lower_input: {
+            	count: 4,
+            	item: "the_vault:overgrown_wooden_planks"
+        	}
+        })
 
-		// Decompression
+    // Decompacting snow block into snowballs
+    event.shapeless('4x minecraft:snowball', [
+        'minecraft:snow_block'
+    ]);
+
+
+
+       	// Decompression
 		event.shapeless('5x kubejs:white_unobtanium', '1x kubejs:white_unobtanium_block')
 		event.shapeless('5x kubejs:orange_unobtanium', '1x kubejs:orange_unobtanium_block')
 		event.shapeless('5x kubejs:magenta_unobtanium', '1x kubejs:magenta_unobtanium_block')
@@ -67,9 +108,103 @@ onEvent('recipes', event => {
 })
 
 onEvent('item.tags', event => {
+    const framedBlacklist = event.get('functionalstorage:framed_blacklist')
+    Item.getList().forEach((item) => {
+
+        const itemStr = item.toString().replace("'", "")
+        if (itemStr.startsWith('chipped:')) {
+
+            framedBlacklist.add(itemStr)
+        }
+	})
+})
+// KubeJS Script for Myalite Recipes (Quark Mod)
+onEvent('recipes', event => {
+    // Base Myalite Block (attainable block)
+
+    // Stonecutting Recipes
+    event.stonecutting('quark:polished_myalite', 'quark:myalite');
+    event.stonecutting('quark:myalite_bricks', 'quark:myalite');
+    event.stonecutting('quark:chiseled_myalite_bricks', 'quark:myalite_bricks');
+    event.stonecutting('quark:myalite_pillar', 'quark:myalite');
+
+    // Crafting Variants
+
+    // Polished Myalite Variants
+    event.stonecutting('quark:polished_myalite_slab', 'quark:polished_myalite');
+    event.stonecutting('quark:polished_myalite_stairs', 'quark:polished_myalite');
+    event.stonecutting('quark:polished_myalite_vertical_slab', 'quark:polished_myalite');
+
+    event.shaped('6x quark:polished_myalite_slab', [
+        ['quark:polished_myalite', 'quark:polished_myalite', 'quark:polished_myalite']
+    ]);
+
+    event.shaped('4x quark:polished_myalite_stairs', [
+        ['quark:polished_myalite', '', ''],
+        ['quark:polished_myalite', 'quark:polished_myalite', ''],
+        ['quark:polished_myalite', 'quark:polished_myalite', 'quark:polished_myalite']
+    ]);
+
+    event.shaped('3x quark:polished_myalite_vertical_slab', [
+        ['quark:polished_myalite'],
+        ['quark:polished_myalite'],
+        ['quark:polished_myalite']
+    ]);
+
+    // Myalite Bricks Variants
+    event.stonecutting('quark:myalite_bricks_slab', 'quark:myalite_bricks');
+    event.stonecutting('quark:myalite_bricks_stairs', 'quark:myalite_bricks');
+    event.stonecutting('quark:myalite_bricks_wall', 'quark:myalite_bricks');
+    event.stonecutting('quark:myalite_bricks_vertical_slab', 'quark:myalite_bricks');
+
+    // Myalite Block Variants
+    event.stonecutting('quark:myalite_slab', 'quark:myalite');
+    event.stonecutting('quark:myalite_stairs', 'quark:myalite');
+    event.stonecutting('quark:myalite_wall', 'quark:myalite');
+    event.stonecutting('quark:myalite_vertical_slab', 'quark:myalite');
+
+    event.shaped('6x quark:myalite_slab', [
+        ['quark:myalite', 'quark:myalite', 'quark:myalite']
+    ]);
+
+    event.shaped('4x quark:myalite_stairs', [
+        ['quark:myalite', '', ''],
+        ['quark:myalite', 'quark:myalite', ''],
+        ['quark:myalite', 'quark:myalite', 'quark:myalite']
+    ]);
+
+    event.shaped('3x quark:myalite_vertical_slab', [
+        ['quark:myalite'],
+        ['quark:myalite'],
+        ['quark:myalite']
+    ]);
+
+    // Smelting Recipes
+    event.smelting('quark:dusky_myalite', 'quark:myalite')
+        .xp(0.1);
+
+    // Myalite Crystal from Smelting
+    event.smelting('quark:myalite_crystal', 'quark:dusky_myalite')
+        .xp(0.2);
+
+    // Additional Recipes for Combining Blocks
+
+    // Myalite Bricks from Polished Myalite
+    event.shaped('quark:myalite_bricks', [
+        ['quark:polished_myalite', 'quark:polished_myalite'],
+        ['quark:polished_myalite', 'quark:polished_myalite']
+    ]);
+});
+
+
+
+
+
+
+
+
 	// Get the #forge:cobblestone tag collection and add Diamond Ore to it
 	// event.get('forge:cobblestone').add('minecraft:diamond_ore')
 
 	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
 	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
-})
