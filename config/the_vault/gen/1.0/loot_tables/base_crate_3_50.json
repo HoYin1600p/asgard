@@ -3,8 +3,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 3,
-        "max": 3
+        "min": 2,
+        "max": 2
       },
       "pool": [
         {
@@ -296,8 +296,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 3,
-        "max": 3
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -321,8 +321,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 3,
-        "max": 3
+        "min": 2,
+        "max": 2
       },
       "pool": [
         {
@@ -345,8 +345,8 @@
                 "id": "the_vault:sweet_kiwi",
                 "count": {
                   "type": "uniform",
-                  "min": 2,
-                  "max": 4
+                  "min": 1,
+                  "max": 2
                 }
               }
             },
@@ -357,7 +357,7 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 2
+                  "max": 1
                 }
               }
             }
@@ -368,8 +368,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 3,
-        "max": 3
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -547,7 +547,7 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 1,
+        "min": 2,
         "max": 3
       },
       "pool": [
@@ -555,7 +555,7 @@
           "weight": 6,
           "pool": [
             {
-              "weight": 4,
+              "weight": 6,
               "item": {
                 "id": "the_vault:soul_vortex",
                 "count": {
@@ -566,7 +566,7 @@
               }
             },
             {
-              "weight": 5,
+              "weight": 2,
               "item": {
                 "id": "the_vault:trinket",
                 "count": {
@@ -577,7 +577,18 @@
               }
             },
             {
-              "weight": 5,
+              "weight": 12,
+              "item": {
+                "id": "woldsvaults:gem_box",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                }
+              }
+            },
+            {
+              "weight": 8,
               "item": {
                 "id": "woldsvaults:catalyst_box",
                 "count": {
@@ -615,13 +626,24 @@
               }
             },
             {
+              "weight": 3,
+              "item": {
+                "id": "the_vault:star_fruit",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
               "weight": 12,
               "item": {
                 "id": "woldsvaults:wisdom_fruit",
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 2
+                  "max": 1
                 }
               }
             },
@@ -632,7 +654,7 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 2
+                  "max": 1
                 }
               }
             }
@@ -653,18 +675,7 @@
               }
             },
             {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:capstone_treasure_hunter",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 1,
+              "weight": 3,
               "item": {
                 "id": "the_vault:capstone_vendoor_hunter",
                 "count": {
@@ -675,7 +686,7 @@
               }
             },
             {
-              "weight": 1,
+              "weight": 2,
               "item": {
                 "id": "the_vault:capstone_pylon_hunter",
                 "count": {
@@ -756,31 +767,6 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                }
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "roll": {
-        "type": "uniform",
-        "min": 2,
-        "max": 2
-      },
-      "pool": [
-        {
-          "weight": 1,
-          "pool": [
-            {
-              "weight": 1,
-              "item": {
-                "id": "woldsvaults:gem_box",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 3
                 }
               }
             }

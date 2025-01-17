@@ -16,33 +16,8 @@
                                 "id": "the_vault:eternal_soul",
                                 "count": {
                                     "type": "uniform",
-                                    "min": 3,
-                                    "max": 5
-                                }
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "roll": {
-                "type": "uniform",
-                "min": 1,
-                "max": 1
-            },
-            "pool": [
-                {
-                    "weight": 1,
-                    "pool": [
-                        {
-                            "weight": 1,
-                            "item": {
-                                "id": "woldsvaults:arcane_essence",
-                                "count": {
-                                    "type": "uniform",
-                                    "min": 1,
-                                    "max": 1
+                                    "min": 8,
+                                    "max": 10
                                 }
                             }
                         }
@@ -54,7 +29,7 @@
             "roll": {
                 "type": "uniform",
                 "min": 2,
-                "max": 3
+                "max": 2
             },
             "pool": [
                 {
@@ -79,7 +54,7 @@
             "roll": {
                 "type": "uniform",
                 "min": 2,
-                "max": 3
+                "max": 2
             },
             "pool": [
                 {
@@ -275,7 +250,7 @@
             "roll": {
                 "type": "uniform",
                 "min": 1,
-                "max": 2
+                "max": 1
             },
             "pool": [
                 {
@@ -304,13 +279,13 @@
                             }
                         },
                         {
-                            "weight": 3,
+                            "weight": 8,
                             "item": {
                                 "id": "the_vault:chaotic_focus",
                                 "count": {
                                     "type": "uniform",
                                     "min": 1,
-                                    "max": 3
+                                    "max": 1
                                 }
                             }
                         }
@@ -321,7 +296,7 @@
         {
             "roll": {
                 "type": "uniform",
-                "min": 1,
+                "min": 2,
                 "max": 2
             },
             "pool": [
@@ -347,7 +322,7 @@
             "roll": {
                 "type": "uniform",
                 "min": 1,
-                "max": 2
+                "max": 1
             },
             "pool": [
                 {
@@ -359,8 +334,8 @@
                                 "id": "the_vault:vault_gold",
                                 "count": {
                                     "type": "uniform",
-                                    "min": 10,
-                                    "max": 14
+                                    "min": 7,
+                                    "max": 10
                                 }
                             }
                         }
@@ -372,42 +347,31 @@
             "roll": {
                 "type": "uniform",
                 "min": 1,
-                "max": 2
+                "max": 1
             },
             "pool": [
                 {
                     "weight": 1,
                     "pool": [
                         {
-                            "weight": 1,
-                            "item": {
-                                "id": "the_vault:bitter_lemon",
-                                "count": {
-                                    "type": "uniform",
-                                    "min": 1,
-                                    "max": 1
-                                }
-                            }
-                        },
-                        {
-                            "weight": 6,
+                            "weight": 7,
                             "item": {
                                 "id": "the_vault:sweet_kiwi",
                                 "count": {
                                     "type": "uniform",
-                                    "min": 2,
-                                    "max": 4
+                                    "min": 1,
+                                    "max": 2
                                 }
                             }
                         },
                         {
-                            "weight": 4,
+                            "weight": 3,
                             "item": {
                                 "id": "the_vault:grapes",
                                 "count": {
                                     "type": "uniform",
                                     "min": 1,
-                                    "max": 2
+                                    "max": 1
                                 }
                             }
                         }
@@ -443,7 +407,7 @@
         {
             "roll": {
                 "type": "uniform",
-                "min": 2,
+                "min": 1,
                 "max": 2
             },
             "pool": [
@@ -598,7 +562,7 @@
             "roll": {
                 "type": "uniform",
                 "min": 1,
-                "max": 2
+                "max": 1
             },
             "pool": [
                 {
@@ -632,8 +596,8 @@
                                 "id": "woldsvaults:gem_box",
                                 "count": {
                                     "type": "uniform",
-                                    "min": 4,
-                                    "max": 4
+                                    "min": 1,
+                                    "max": 2
                                 }
                             }
                         },
@@ -641,17 +605,6 @@
                             "weight": 12,
                             "item": {
                                 "id": "woldsvaults:catalyst_box",
-                                "count": {
-                                    "type": "uniform",
-                                    "min": 1,
-                                    "max": 2
-                                }
-                            }
-                        },
-                        {
-                            "weight": 8,
-                            "item": {
-                                "id": "woldsvaults:omega_box",
                                 "count": {
                                     "type": "uniform",
                                     "min": 1,
@@ -678,7 +631,7 @@
                         {
                             "weight": 18,
                             "item": {
-                                "id": "the_vault:mango",
+                                "id": "the_vault:bitter_lemon",
                                 "count": {
                                     "type": "uniform",
                                     "min": 1,
@@ -687,9 +640,9 @@
                             }
                         },
                         {
-                            "weight": 12,
+                            "weight": 6,
                             "item": {
-                                "id": "the_vault:sour_orange",
+                                "id": "the_vault:mango",
                                 "count": {
                                     "type": "uniform",
                                     "min": 1,
@@ -704,7 +657,7 @@
                                 "count": {
                                     "type": "uniform",
                                     "min": 1,
-                                    "max": 2
+                                    "max": 1
                                 }
                             }
                         },
@@ -715,7 +668,7 @@
                                 "count": {
                                     "type": "uniform",
                                     "min": 1,
-                                    "max": 2
+                                    "max": 1
                                 }
                             }
                         }
@@ -736,31 +689,9 @@
                             }
                         },
                         {
-                            "weight": 1,
+                            "weight": 3,
                             "item": {
-                                "id": "the_vault:capstone_treasure_hunter",
-                                "count": {
-                                    "type": "uniform",
-                                    "min": 1,
-                                    "max": 1
-                                }
-                            }
-                        },
-                        {
-                            "weight": 1,
-                            "item": {
-                                "id": "the_vault:capstone_vendoor_hunter",
-                                "count": {
-                                    "type": "uniform",
-                                    "min": 1,
-                                    "max": 1
-                                }
-                            }
-                        },
-                        {
-                            "weight": 1,
-                            "item": {
-                                "id": "the_vault:capstone_pylon_hunter",
+                                "id": "woldsvaults:capstone_frenzy",
                                 "count": {
                                     "type": "uniform",
                                     "min": 1,

@@ -3,8 +3,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 0,
+        "max": 0
       },
       "pool": [
         {
@@ -17,7 +17,7 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 2
+                  "max": 1
                 }
               }
             }
@@ -28,8 +28,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 1,
-        "max": 2
+        "min": 0,
+        "max": 0
       },
       "pool": [
         {
@@ -53,8 +53,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 1,
-        "max": 2
+        "min": 0,
+        "max": 0
       },
       "pool": [
         {
@@ -221,8 +221,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 3
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -234,8 +234,8 @@
                 "id": "the_vault:vault_bronze",
                 "count": {
                   "type": "uniform",
-                  "min": 7,
-                  "max": 10
+                  "min": 0,
+                  "max": 1
                 }
               }
             }
