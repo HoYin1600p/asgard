@@ -195,7 +195,13 @@ onEvent('recipes', event => {
         ['quark:polished_myalite', 'quark:polished_myalite']
     ]);
 });
-
+// KubeJS Script for Decompacting Dripstone Block
+onEvent('recipes', event => {
+    // Decompacting Dripstone Block into Pointed Dripstone
+    event.shapeless('4x minecraft:pointed_dripstone', [
+        'minecraft:dripstone_block'
+    ]);
+});
 
 
 
