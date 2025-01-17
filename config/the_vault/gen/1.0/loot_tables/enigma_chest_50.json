@@ -156,17 +156,6 @@
         { "weight": 2,
           "pool": [
             {
-                "weight": 10,
-                "item": {
-                  "id": "the_vault:trinket",
-                  "count": {
-                    "type": "uniform",
-                    "min": 1,
-                    "max": 1
-                    }
-                }
-            },
-            {
               "weight": 10,
               "item": {
                 "id": "quark:pickarang",

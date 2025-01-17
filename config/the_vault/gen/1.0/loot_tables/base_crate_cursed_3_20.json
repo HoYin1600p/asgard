@@ -29,7 +29,7 @@
       "roll": {
         "type": "uniform",
         "min": 2,
-        "max": 2
+        "max": 3
       },
       "pool": [
         {
@@ -53,8 +53,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 4
       },
       "pool": [
         {
@@ -268,8 +268,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 1,
-        "max": 1
+        "min": 2,
+        "max": 2
       },
       "pool": [
         {
@@ -306,8 +306,8 @@
                 "id": "the_vault:vault_gold",
                 "count": {
                   "type": "uniform",
-                  "min": 5,
-                  "max": 10
+                  "min": 10,
+                  "max": 14
                 }
               }
             }

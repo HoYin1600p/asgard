@@ -3,8 +3,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -28,8 +28,8 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       "pool": [
         {
@@ -232,7 +232,7 @@
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 3
+                  "max": 2
                 }
               }
             }
@@ -281,8 +281,8 @@
                 "id": "the_vault:vault_gold",
                 "count": {
                   "type": "uniform",
-                  "min": 7,
-                  "max": 10
+                  "min": 3,
+                  "max": 5
                 }
               }
             }
@@ -301,31 +301,9 @@
           "weight": 1,
           "pool": [
             {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:bitter_lemon",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
               "weight": 6,
               "item": {
                 "id": "the_vault:sweet_kiwi",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 4
-                }
-              }
-            },
-            {
-              "weight": 4,
-              "item": {
-                "id": "the_vault:grapes",
                 "count": {
                   "type": "uniform",
                   "min": 1,
