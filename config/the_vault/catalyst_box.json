@@ -3,7 +3,7 @@
     {
       "value": {
         "id": "the_vault:vault_catalyst_infused",
-        "nbt": "{model:8,modifiers:[\"the_vault:plentiful\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "nbt": "{model:1,modifiers:[\"the_vault:wooden_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -12,11 +12,11 @@
     {
       "value": {
         "id": "the_vault:vault_catalyst_infused",
-        "nbt": "{model:6,modifiers:[\"the_vault:extended\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "nbt": "{model:1,modifiers:[\"the_vault:wooden_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 192
+      "weight": 18
     },
     {
       "value": {
@@ -30,20 +30,11 @@
     {
       "value": {
         "id": "the_vault:vault_catalyst_infused",
-        "nbt": "{model:5,modifiers:[\"the_vault:coin_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "nbt": "{model:3,modifiers:[\"the_vault:living_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 192
-    },
-    {
-      "value": {
-        "id": "the_vault:vault_catalyst_infused",
-        "nbt": "{model:4,modifiers:[\"the_vault:ornate_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
-        "amountMin": 1,
-        "amountMax": 1
-      },
-      "weight": 192
+      "weight": 24
     },
     {
       "value": {
@@ -57,11 +48,65 @@
     {
       "value": {
         "id": "the_vault:vault_catalyst_infused",
-        "nbt": "{model:1,modifiers:[\"the_vault:wooden_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "nbt": "{model:2,modifiers:[\"the_vault:gilded_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:4,modifiers:[\"the_vault:ornate_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
         "amountMin": 1,
         "amountMax": 1
       },
       "weight": 192
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:4,modifiers:[\"the_vault:ornate_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:5,modifiers:[\"the_vault:coin_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 192
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:5,modifiers:[\"the_vault:coin_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 24
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:8,modifiers:[\"the_vault:plentiful\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 192
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:8,modifiers:[\"the_vault:plentiful\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 12
     },
     {
       "value": {
@@ -75,7 +120,7 @@
     {
       "value": {
         "id": "the_vault:vault_catalyst_infused",
-        "nbt": "{model:13,modifiers:[\"the_vault:coin_pile\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "nbt": "{model:9,modifiers:[\"the_vault:soul_boost\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -93,6 +138,15 @@
     {
       "value": {
         "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:11,modifiers:[\"the_vault:living\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
         "nbt": "{model:10,modifiers:[\"the_vault:gilded\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
         "amountMin": 1,
         "amountMax": 1
@@ -102,11 +156,11 @@
     {
       "value": {
         "id": "the_vault:vault_catalyst_infused",
-        "nbt": "{model:1,modifiers:[\"the_vault:wooden\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "nbt": "{model:10,modifiers:[\"the_vault:gilded\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 48
+      "weight": 6
     },
     {
       "value": {
@@ -116,6 +170,42 @@
         "amountMax": 1
       },
       "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:12,modifiers:[\"the_vault:ornate\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:13,modifiers:[\"the_vault:coin_pile\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:13,modifiers:[\"the_vault:coin_pile\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:5}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_catalyst_infused",
+        "nbt": "{model:6,modifiers:[\"the_vault:extended\",\"the_vault:challenge_stack\"],pool:\"the_vault:catalyst_box\",size:10}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
     },
     {
       "value": {
