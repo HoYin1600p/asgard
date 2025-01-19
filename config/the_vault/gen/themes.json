@@ -418,10 +418,22 @@
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_wendarr.json"
     },
     {
+      "id": "the_vault:classic_vault_wendarr_normal",
+      "name": "God: Wendarr",
+      "color": 15638528,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_wendarr_normal.json"
+    },
+    {
       "id": "the_vault:classic_vault_tenos",
       "name": "Tenos",
       "color": 687572,
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_tenos.json"
+    },
+    {
+      "id": "the_vault:classic_vault_tenos_normal",
+      "name": "God: Tenos",
+      "color": 687572,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_tenos_normal.json"
     },
     {
       "id": "the_vault:classic_vault_velara",
@@ -430,10 +442,22 @@
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_velara.json"
     },
     {
+      "id": "the_vault:classic_vault_velara_normal",
+      "name": "God: Velara",
+      "color": 1296178,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_velara_normal.json"
+    },
+    {
       "id": "the_vault:classic_vault_idona",
       "name": "Idona",
       "color": 13041664,
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_idona.json"
+    },
+    {
+      "id": "the_vault:classic_vault_idona_normal",
+      "name": "God: Idona",
+      "color": 13041664,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_idona_normal.json"
     },
     {
       "id": "the_vault:classic_vault_intermediary",
