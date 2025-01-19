@@ -2,6 +2,37 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:green_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:blackstone",
+      "output": {
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete_powder",
+      "output": {
+        "the_vault:velara_dark_smooth_brick": 7,
+        "the_vault:velara_light_smooth_brick": 3
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete",
+      "output": {
+        "the_vault:velara_dark_smooth_brick": 9,
+        "the_vault:velara_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:deepslate",
       "output": {
         "the_vault:velara_brick_chiseled": 9,
@@ -36,28 +67,31 @@
       "type": "weighted_target",
       "target": "create:cut_deepslate_bricks",
       "output": {
-        "quark:midori_block": 1
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:layered_deepslate",
       "output": {
-        "quark:midori_pillar": 1
+        "the_vault:velara_gem_block": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:cut_deepslate",
       "output": {
-        "quark:midori_block": 1
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:deepslate_pillar",
       "output": {
-        "quark:midori_pillar": 1
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
       }
     },
     {
@@ -80,42 +114,42 @@
       "type": "weighted_target",
       "target": "minecraft:deepslate_brick_slab",
       "output": {
-        "quark:midori_block_slab": 1
+        "the_vault:velara_planks_slab": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:deepslate_brick_stairs",
       "output": {
-        "quark:midori_block_stairs": 1
+        "the_vault:velara_planks_stairs": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_slab",
       "output": {
-        "quark:midori_block_slab": 1
+        "the_vault:velara_planks_slab": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_stairs",
       "output": {
-        "quark:midori_block_stairs": 1
+        "the_vault:velara_planks_stairs": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:cut_deepslate_brick_slab",
       "output": {
-        "quark:midori_block_slab": 1
+        "the_vault:velara_planks_slab": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:cut_deepslate_brick_stairs",
       "output": {
-        "quark:midori_block_stairs": 1
+        "the_vault:velara_planks_stairs": 1
       }
     },
     {

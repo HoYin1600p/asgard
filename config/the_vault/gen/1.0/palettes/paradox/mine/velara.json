@@ -2,44 +2,178 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:cobblestone_wall",
+      "output": {
+        "quark:azalea_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "create:veridium": 1
+        "the_vault:velara_light_smooth_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:andesite",
       "output": {
-        "create:cut_veridium": 1
+        "the_vault:velara_gem_block": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "botania:metamorphic_forest_stone": 1
+        "the_vault:velara_dark_smooth_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:gravel",
       "output": {
-        "botania:metamorphic_forest_stone": 1
+        "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dirt",
+      "output": {
+        "the_vault:velara_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:coarse_dirt",
+      "output": {
+        "the_vault:velara_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:rocky_dirt",
+      "output": {
+        "the_vault:velara_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone_slab",
       "output": {
-        "botania:metamorphic_forest_stone_slab": 1
+        "the_vault:velara_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_slab",
+      "output": {
+        "the_vault:velara_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_log",
+      "output": {
+        "the_vault:velara_stripped_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_log",
+      "output": {
+        "the_vault:velara_stripped_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_log",
+      "output": {
+        "the_vault:velara_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_planks",
+      "output": {
+        "the_vault:velara_brick": 2,
+        "the_vault:velara_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stripped_spruce_log",
+      "output": {
+        "the_vault:velara_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_fence_gate",
+      "output": {
+        "quark:azalea_fence_gate": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_fence",
+      "output": {
+        "quark:azalea_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_fence",
+      "output": {
+        "quark:azalea_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_stairs",
+      "output": {
+        "the_vault:velara_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_stairs",
+      "output": {
+        "the_vault:velara_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_stairs",
+      "output": {
+        "the_vault:velara_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_trapdoor",
+      "output": {
+        "everycomp:mct/the_vault/velara_tropical_trapdoor": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwtrpdoors:spruce_barred_trapdoor",
+      "output": {
+        "everycomp:mct/the_vault/velara_tropical_trapdoor": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:lantern",
       "output": {
-        "minecraft:soul_lantern": 1
+        "additionallanterns:green_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "supplementaries:wall_lantern{Lantern:{Name:\"minecraft:lantern\"}}",
+      "output": {
+        "additionallanterns:green_blackstone_lantern": 1
       }
     },
     {

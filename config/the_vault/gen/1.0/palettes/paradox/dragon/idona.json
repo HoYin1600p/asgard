@@ -2,6 +2,13 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:red_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:deepslate_tiles",
       "output": {
         "the_vault:idona_dark_smooth_brick": 1,
@@ -111,21 +118,21 @@
         "create:small_scorchia_brick_stairs": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_slab",
       "output": {
         "minecraft:red_nether_brick_slab": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_stairs",
       "output": {
         "minecraft:red_nether_brick_stairs": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_wall",
       "output": {
@@ -153,7 +160,7 @@
         "the_vault:idona_light_smooth_brick": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:cobbled_deepslate_wall",
       "output": {

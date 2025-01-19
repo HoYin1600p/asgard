@@ -95,6 +95,85 @@
       }
     },
     {
+      "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:cyan_bricks_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:candle",
+      "output": {
+        "minecraft:blue_candle": 1,
+        "minecraft:light_blue_candle": 1,
+        "minecraft:cyan_candle": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "supplementaries:candle_holder",
+      "output": {
+        "minecraft:blue_candle": 1,
+        "minecraft:light_blue_candle": 1,
+        "minecraft:cyan_candle": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwlights:double_street_lamp",
+      "output": {
+        "additionallanterns:cyan_bricks_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:yellow_glazed_terracotta",
+      "output": {
+        "minecraft:cyan_glazed_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:yellow_shingles",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:gingerbread_block",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 7,
+        "the_vault:tenos_brick": 3
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_tiles",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 8,
+        "the_vault:tenos_brick": 2
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_bricks",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 8,
+        "the_vault:tenos_brick": 2
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tiles",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 8,
+        "the_vault:tenos_brick": 2
+      }
+    },
+    {
         "type": "reference",
         "id": "the_vault:gate_lock/base"
     }

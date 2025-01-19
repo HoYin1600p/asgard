@@ -2,44 +2,178 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:cobblestone_wall",
+      "output": {
+        "minecraft:red_nether_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:stone",
       "output": {
-        "create:cut_crimsite": 1
+        "the_vault:idona_light_smooth_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:andesite",
       "output": {
-        "create:crimsite": 1
+        "the_vault:idona_gem_block": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "create:cut_granite": 1
+        "the_vault:idona_dark_smooth_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:gravel",
       "output": {
-        "create:cut_granite": 1
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dirt",
+      "output": {
+        "the_vault:idona_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:coarse_dirt",
+      "output": {
+        "the_vault:idona_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:rocky_dirt",
+      "output": {
+        "the_vault:idona_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone_slab",
       "output": {
-        "create:cut_granite_slab": 1
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_log",
+      "output": {
+        "architects_palette:hadaline_lamp": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_log",
+      "output": {
+        "architects_palette:hadaline_lamp": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_log",
+      "output": {
+        "architects_palette:hadaline_lamp": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_planks",
+      "output": {
+        "the_vault:idona_brick": 2,
+        "the_vault:idona_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stripped_spruce_log",
+      "output": {
+        "architects_palette:hadaline_lamp": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_fence_gate",
+      "output": {
+        "minecraft:crimson_fence_gate": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_fence",
+      "output": {
+        "minecraft:crimson_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_fence",
+      "output": {
+        "minecraft:crimson_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_trapdoor",
+      "output": {
+        "mcwtrpdoors:crimson_tropical_trapdoor": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwtrpdoors:spruce_barred_trapdoor",
+      "output": {
+        "mcwtrpdoors:crimson_tropical_trapdoor": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:lantern",
       "output": {
-        "minecraft:soul_lantern": 1
+        "additionallanterns:red_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "supplementaries:wall_lantern{Lantern:{Name:\"minecraft:lantern\"}}",
+      "output": {
+        "additionallanterns:red_blackstone_lantern": 1
       }
     },
     {
