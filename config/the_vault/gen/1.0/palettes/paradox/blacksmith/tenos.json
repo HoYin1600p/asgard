@@ -2,6 +2,37 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:cyan_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:blackstone",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete_powder",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 7,
+        "the_vault:tenos_light_smooth_brick": 3
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 9,
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:deepslate",
       "output": {
         "the_vault:tenos_brick_chiseled": 9,
@@ -36,28 +67,31 @@
       "type": "weighted_target",
       "target": "create:cut_deepslate_bricks",
       "output": {
-        "create:cut_asurine_bricks": 1
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:layered_deepslate",
       "output": {
-        "create:layered_asurine": 1
+        "the_vault:tenos_gem_block": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:cut_deepslate",
       "output": {
-        "create:cut_asurine": 1
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:deepslate_pillar",
       "output": {
-        "create:asurine_pillar": 1
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
       }
     },
     {

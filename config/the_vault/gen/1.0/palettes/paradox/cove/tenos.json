@@ -2,6 +2,22 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:stone",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:andesite",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 9,
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:sand",
       "output": {
         "minecraft:cyan_concrete_powder": 1
@@ -151,21 +167,21 @@
       "type": "weighted_target",
       "target": "minecraft:oak_slab",
       "output": {
-        "botania:dreamwood_planks_slab": 1
+        "minecraft:warped_slab": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_stairs",
       "output": {
-        "botania:dreamwood_planks_stairs": 1
+        "minecraft:warped_stairs": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_trapdoor",
       "output": {
-        "everycomp:mct/botania/dreamwood_classic_trapdoor": 1
+        "minecraft:warped_trapdoor": 1
       }
     },
     {

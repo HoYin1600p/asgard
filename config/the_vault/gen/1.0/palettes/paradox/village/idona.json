@@ -113,56 +113,58 @@
       "type": "weighted_target",
       "target": "minecraft:cobblestone",
       "output": {
-        "quark:netherrack_bricks": 1
+        "the_vault:idona_light_smooth_brick": 1,
+        "the_vault:idona_dark_smooth_brick": 3,
+        "the_vault:idona_gem_block": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone_slab",
       "output": {
-        "quark:netherrack_bricks_slab": 1
+        "minecraft:netherrack_bricks_slab": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone_stairs",
       "output": {
-        "quark:netherrack_bricks_stairs": 1
+        "minecraft:netherrack_bricks_stairs": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:cobblestone_wall",
       "output": {
-        "quark:netherrack_bricks_wall": 1
+        "minecraft:netherrack_bricks_wall": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:andesite",
       "output": {
-        "quark:netherrack_bricks": 1
+        "minecraft:netherrack_bricks": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:andesite_slab",
       "output": {
-        "quark:netherrack_bricks_slab": 1
+        "minecraft:red_nether_brick_slab": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:andesite_stairs",
       "output": {
-        "quark:netherrack_bricks_stairs": 1
+        "minecraft:red_nether_brick_stairs": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:andesite_wall",
       "output": {
-        "quark:netherrack_bricks_wall": 1
+        "minecraft:red_nether_brick_wall": 1
       }
     },
     {
@@ -229,14 +231,14 @@
       "type": "weighted_target",
       "target": "minecraft:mossy_cobblestone_slab",
       "output": {
-        "quark:netherrack_bricks_slab": 1
+        "minecraft:red_nether_brick_slab": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:mossy_cobblestone_stairs",
       "output": {
-        "quark:netherrack_bricks_stairs": 1
+        "minecraft:red_nether_brick_stairs": 1
       }
     },
     {
@@ -271,14 +273,16 @@
       "type": "weighted_target",
       "target": "minecraft:coal_ore",
       "output": {
-        "quark:netherrack_bricks": 1
+        "the_vault:idona_light_smooth_brick": 1,
+        "the_vault:idona_dark_smooth_brick": 3,
+        "the_vault:idona_gem_block": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:lantern",
       "output": {
-        "minecraft:soul_lantern": 1
+        "additionallanterns:red_normal_lantern": 1
       }
     },
     {

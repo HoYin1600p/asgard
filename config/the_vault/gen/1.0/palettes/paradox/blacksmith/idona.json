@@ -2,6 +2,37 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:red_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:blackstone",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete_powder",
+      "output": {
+        "the_vault:idona_dark_smooth_brick": 7,
+        "the_vault:idona_light_smooth_brick": 3
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete",
+      "output": {
+        "the_vault:idona_dark_smooth_brick": 9,
+        "the_vault:idona_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:deepslate",
       "output": {
         "the_vault:idona_brick_chiseled": 9,
@@ -36,28 +67,31 @@
       "type": "weighted_target",
       "target": "create:cut_deepslate_bricks",
       "output": {
-        "create:cut_crimsite_bricks": 1
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:layered_deepslate",
       "output": {
-        "create:layered_crimsite": 1
+        "the_vault:idona_gem_block": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:cut_deepslate",
       "output": {
-        "create:cut_crimsite": 1
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "create:deepslate_pillar",
       "output": {
-        "create:crimsite_pillar": 1
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
       }
     },
     {

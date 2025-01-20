@@ -2,6 +2,13 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:green_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:deepslate_tiles",
       "output": {
         "minecraft:lime_concrete": 1,
@@ -9,21 +16,21 @@
         "the_vault:velara_gem_block": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_slab",
       "output": {
-        "quark:azalea_planks_slab": 1
+        "the_vault:velara_planks_slab": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_stairs",
       "output": {
-        "quark:azalea_planks_stairs": 1
+        "the_vault:velara_planks_stairs": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_wall",
       "output": {
@@ -44,22 +51,21 @@
       "target": "minecraft:deepslate_bricks",
       "output": {
         "the_vault:velara_brick_chiseled": 3,
-        "the_vault:velara_brick": 1,
-        "quark:stripped_azalea_wood": 2
+        "the_vault:velara_brick": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:deepslate_brick_slab",
       "output": {
-        "quark:azalea_planks_slab": 1
+        "the_vault:velara_planks_slab": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:deepslate_brick_stairs",
       "output": {
-        "quark:azalea_planks_stairs": 1
+        "the_vault:velara_planks_stairs": 1
       }
     },
     {
@@ -67,8 +73,7 @@
       "target": "minecraft:cracked_deepslate_bricks",
       "output": {
         "the_vault:velara_brick_chiseled": 3,
-        "the_vault:velara_brick": 1,
-        "quark:stripped_azalea_wood": 2
+        "the_vault:velara_brick": 1
       }
     },
     {
@@ -78,7 +83,7 @@
         "the_vault:velara_light_smooth_brick": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:cobbled_deepslate_wall",
       "output": {

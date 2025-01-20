@@ -2,6 +2,13 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:cyan_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:deepslate_tiles",
       "output": {
         "the_vault:tenos_gem_block": 1,
@@ -10,21 +17,21 @@
         "minecraft:cyan_concrete": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_slab",
       "output": {
         "architects_palette:warped_board_slab": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_stairs",
       "output": {
         "architects_palette:warped_board_stairs": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_wall",
       "output": {
@@ -80,7 +87,7 @@
         "the_vault:tenos_light_smooth_brick": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:cobbled_deepslate_wall",
       "output": {

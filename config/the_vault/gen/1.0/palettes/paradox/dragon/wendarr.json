@@ -2,6 +2,13 @@
   "tile_processors": [
     {
       "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:yellow_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
       "target": "minecraft:deepslate_tiles",
       "output": {
         "the_vault:wendarr_brick_chiseled": 1,
@@ -9,21 +16,21 @@
         "the_vault:wendarr_gem_block": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_slab",
       "output": {
         "architects_palette:oak_board_slab": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_stairs",
       "output": {
         "architects_palette:oak_board_stairs": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:deepslate_tile_wall",
       "output": {
@@ -76,7 +83,7 @@
         "the_vault:wendarr_light_smooth_brick": 1
       }
     },
-	{
+    {
       "type": "weighted_target",
       "target": "minecraft:cobbled_deepslate_wall",
       "output": {

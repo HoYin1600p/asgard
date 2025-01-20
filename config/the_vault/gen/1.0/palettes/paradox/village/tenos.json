@@ -278,7 +278,7 @@
       "type": "weighted_target",
       "target": "minecraft:lantern",
       "output": {
-        "minecraft:soul_lantern": 1
+        "additionallanterns:cyan_normal_lantern": 1
       }
     },
     {

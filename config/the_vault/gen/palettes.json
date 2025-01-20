@@ -186,9 +186,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/universal_wendarr.json"
     },
     {
+      "id": "the_vault:universal_wendarr_normal",
+      "name": "Universal Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_wendarr_normal.json"
+    },
+    {
       "id": "the_vault:universal_velara",
       "name": "Universal Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/universal_velara.json"
+    },
+    {
+      "id": "the_vault:universal_velara_normal",
+      "name": "Universal Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_velara_normal.json"
     },
     {
       "id": "the_vault:universal_tenos",
@@ -196,9 +206,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/universal_tenos.json"
     },
     {
+      "id": "the_vault:universal_tenos_normal",
+      "name": "Universal Tenos Normal",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_tenos_normal.json"
+    },
+    {
       "id": "the_vault:universal_idona",
       "name": "Universal Idona",
       "1.0": "config/the_vault/gen/1.0/palettes/universal_idona.json"
+    },
+    {
+      "id": "the_vault:universal_idona_normal",
+      "name": "Universal Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_idona_normal.json"
     },
     {
       "id": "the_vault:universal_intermediary",
@@ -524,6 +544,11 @@
       "id": "the_vault:village/base",
       "name": "Village Base",
       "1.0": "config/the_vault/gen/1.0/palettes/village/base.json"
+    },
+    {
+      "id": "the_vault:chaos/arcade/base",
+      "name": "Chaos Arcade Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/chaos/arcade/base.json"
     },
     {
       "id": "the_vault:chaos/village/base",
@@ -1706,9 +1731,99 @@
       "1.0": "config/the_vault/gen/1.0/palettes/gate_lock/gods.json"
     },
     {
+      "id": "the_vault:paradox/garden/wendarr",
+      "name": "Omega Garden Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/paradox/garden/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/garden/wendarr",
+      "name": "Omega Garden Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/garden/wendarr.json"
+    },
+    {
+      "id": "the_vault:paradox/garden/tenos",
+      "name": "Omega Garden Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/paradox/garden/tenos.json"
+    },
+    {
+      "id": "the_vault:nonparadox/garden/tenos",
+      "name": "Omega Garden Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/garden/tenos.json"
+    },
+    {
+      "id": "the_vault:paradox/garden/velara",
+      "name": "Omega Garden Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/paradox/garden/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/garden/velara",
+      "name": "Omega Garden Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/garden/velara.json"
+    },
+    {
+      "id": "the_vault:paradox/garden/idona",
+      "name": "Omega Garden Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/paradox/garden/idona.json"
+    },
+    {
+      "id": "the_vault:nonparadox/garden/idona",
+      "name": "Omega Garden Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/garden/idona.json"
+    },
+    {
+      "id": "the_vault:paradox/arcade/wendarr",
+      "name": "Omega Arcade Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/paradox/arcade/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/arcade/wendarr",
+      "name": "Omega Arcade Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/arcade/wendarr.json"
+    },
+    {
+      "id": "the_vault:paradox/arcade/tenos",
+      "name": "Omega Arcade Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/paradox/arcade/tenos.json"
+    },
+    {
+      "id": "the_vault:nonparadox/arcade/tenos",
+      "name": "Omega Arcade Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/arcade/tenos.json"
+    },
+    {
+      "id": "the_vault:paradox/arcade/velara",
+      "name": "Omega Arcade Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/paradox/arcade/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/arcade/velara",
+      "name": "Omega Arcade Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/arcade/velara.json"
+    },
+    {
+      "id": "the_vault:paradox/arcade/idona",
+      "name": "Omega Arcade Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/paradox/arcade/idona.json"
+    },
+    {
+      "id": "the_vault:nonparadox/arcade/idona",
+      "name": "Omega Arcade Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/arcade/idona.json"
+    },
+    {
       "id": "the_vault:paradox/blacksmith/wendarr",
       "name": "Omega Blacksmith Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/blacksmith/wendarr.json"
+    },
+    {
+      "id": "the_vault:paradox/blacksmith/wendarr",
+      "name": "Omega Blacksmith Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/paradox/blacksmith/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/blacksmith/wendarr",
+      "name": "Omega Blacksmith Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/blacksmith/wendarr.json"
     },
     {
       "id": "the_vault:paradox/blacksmith/tenos",
@@ -1716,9 +1831,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/blacksmith/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/blacksmith/tenos",
+      "name": "Omega Blacksmith Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/blacksmith/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/blacksmith/velara",
       "name": "Omega Blacksmith Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/blacksmith/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/blacksmith/velara",
+      "name": "Omega Blacksmith Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/blacksmith/velara.json"
     },
     {
       "id": "the_vault:paradox/blacksmith/idona",
@@ -1726,9 +1851,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/blacksmith/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/blacksmith/idona",
+      "name": "Omega Blacksmith Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/blacksmith/idona.json"
+    },
+    {
       "id": "the_vault:paradox/cove/wendarr",
       "name": "Omega Cove Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/cove/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/cove/wendarr",
+      "name": "Omega Cove Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/cove/wendarr.json"
     },
     {
       "id": "the_vault:paradox/cove/tenos",
@@ -1736,9 +1871,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/cove/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/cove/tenos",
+      "name": "Omega Cove Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/cove/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/cove/velara",
       "name": "Omega Cove Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/cove/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/cove/velara",
+      "name": "Omega Cove Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/cove/velara.json"
     },
     {
       "id": "the_vault:paradox/cove/idona",
@@ -1746,9 +1891,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/cove/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/cove/idona",
+      "name": "Omega Cove Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/cove/idona.json"
+    },
+    {
       "id": "the_vault:paradox/crystal_caves/wendarr",
       "name": "Crystal Caves Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/crystal_caves/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/crystal_caves/wendarr",
+      "name": "Crystal Caves Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/crystal_caves/wendarr.json"
     },
     {
       "id": "the_vault:paradox/crystal_caves/tenos",
@@ -1756,9 +1911,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/crystal_caves/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/crystal_caves/tenos",
+      "name": "Crystal Caves Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/crystal_caves/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/crystal_caves/velara",
       "name": "Crystal Caves Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/crystal_caves/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/crystal_caves/velara",
+      "name": "Crystal Caves Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/crystal_caves/velara.json"
     },
     {
       "id": "the_vault:paradox/crystal_caves/idona",
@@ -1766,9 +1931,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/crystal_caves/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/crystal_caves/idona",
+      "name": "Crystal Caves Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/crystal_caves/idona.json"
+    },
+    {
       "id": "the_vault:paradox/cube/wendarr",
       "name": "Omega Cube Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/cube/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/cube/wendarr",
+      "name": "Omega Cube Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/cube/wendarr.json"
     },
     {
       "id": "the_vault:paradox/cube/tenos",
@@ -1776,9 +1951,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/cube/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/cube/tenos",
+      "name": "Omega Cube Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/cube/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/cube/velara",
       "name": "Omega Cube Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/cube/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/cube/velara",
+      "name": "Omega Cube Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/cube/velara.json"
     },
     {
       "id": "the_vault:paradox/cube/idona",
@@ -1786,9 +1971,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/cube/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/cube/idona",
+      "name": "Omega Cube Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/cube/idona.json"
+    },
+    {
       "id": "the_vault:paradox/digsite2/wendarr",
       "name": "Omega Digsite Wendarr 2",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/digsite2/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/digsite2/wendarr",
+      "name": "Omega Digsite Wendarr 2",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/digsite2/wendarr.json"
     },
     {
       "id": "the_vault:paradox/digsite2/tenos",
@@ -1796,9 +1991,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/digsite2/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/digsite2/tenos",
+      "name": "Omega Digsite Tenos 2",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/digsite2/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/digsite2/velara",
       "name": "Omega Digsite Velara 2",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/digsite2/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/digsite2/velara",
+      "name": "Omega Digsite Velara 2",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/digsite2/velara.json"
     },
     {
       "id": "the_vault:paradox/digsite2/idona",
@@ -1806,9 +2011,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/digsite2/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/digsite2/idona",
+      "name": "Omega Digsite Idona 2",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/digsite2/idona.json"
+    },
+    {
       "id": "the_vault:paradox/dragon/wendarr",
       "name": "Dragon Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/dragon/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/dragon/wendarr",
+      "name": "Dragon Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/dragon/wendarr.json"
     },
     {
       "id": "the_vault:paradox/dragon/tenos",
@@ -1816,9 +2031,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/dragon/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/dragon/tenos",
+      "name": "Dragon Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/dragon/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/dragon/velara",
       "name": "Dragon Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/dragon/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/dragon/velara",
+      "name": "Dragon Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/dragon/velara.json"
     },
     {
       "id": "the_vault:paradox/dragon/idona",
@@ -1826,9 +2051,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/dragon/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/dragon/idona",
+      "name": "Dragon Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/dragon/idona.json"
+    },
+    {
       "id": "the_vault:paradox/factory/wendarr",
       "name": "Factory Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/factory/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/factory/wendarr",
+      "name": "Factory Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/factory/wendarr.json"
     },
     {
       "id": "the_vault:paradox/factory/tenos",
@@ -1836,9 +2071,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/factory/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/factory/tenos",
+      "name": "Factory Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/factory/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/factory/velara",
       "name": "Factory Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/factory/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/factory/velara",
+      "name": "Factory Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/factory/velara.json"
     },
     {
       "id": "the_vault:paradox/factory/idona",
@@ -1846,9 +2091,24 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/factory/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/factory/idona",
+      "name": "Factory Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/factory/idona.json"
+    },
+    {
+      "id": "the_vault:nonparadox/library/wendarr",
+      "name": "Omega Library Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/library/wendarr.json"
+    },
+    {
       "id": "the_vault:paradox/library/wendarr",
       "name": "Omega Library Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/library/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/library/wendarr",
+      "name": "Omega Library Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/library/wendarr.json"
     },
     {
       "id": "the_vault:paradox/library/tenos",
@@ -1856,9 +2116,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/library/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/library/tenos",
+      "name": "Omega Library Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/library/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/library/velara",
       "name": "Omega Library Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/library/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/library/velara",
+      "name": "Omega Library Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/library/velara.json"
     },
     {
       "id": "the_vault:paradox/library/idona",
@@ -1866,9 +2136,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/library/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/library/idona",
+      "name": "Omega Library Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/library/idona.json"
+    },
+    {
       "id": "the_vault:paradox/mine/wendarr",
       "name": "Omega Mine Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/mine/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/mine/wendarr",
+      "name": "Omega Mine Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/mine/wendarr.json"
     },
     {
       "id": "the_vault:paradox/mine/tenos",
@@ -1876,9 +2156,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/mine/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/mine/tenos",
+      "name": "Omega Mine Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/mine/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/mine/velara",
       "name": "Omega Mine Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/mine/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/mine/velara",
+      "name": "Omega Mine Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/mine/velara.json"
     },
     {
       "id": "the_vault:paradox/mine/idona",
@@ -1886,9 +2176,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/mine/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/mine/idona",
+      "name": "Omega Mine Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/mine/idona.json"
+    },
+    {
       "id": "the_vault:paradox/mush_room/wendarr",
       "name": "Omega Mush Room Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/mush_room/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/mush_room/wendarr",
+      "name": "Omega Mush Room Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/mush_room/wendarr.json"
     },
     {
       "id": "the_vault:paradox/mush_room/tenos",
@@ -1896,9 +2196,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/mush_room/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/mush_room/tenos",
+      "name": "Omega Mush Room Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/mush_room/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/mush_room/velara",
       "name": "Omega Mush Room Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/mush_room/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/mush_room/velara",
+      "name": "Omega Mush Room Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/mush_room/velara.json"
     },
     {
       "id": "the_vault:paradox/mush_room/idona",
@@ -1906,9 +2216,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/mush_room/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/mush_room/idona",
+      "name": "Omega Mush Room Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/mush_room/idona.json"
+    },
+    {
       "id": "the_vault:paradox/painting/wendarr",
       "name": "Omega Painting Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/painting/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/painting/wendarr",
+      "name": "Omega Painting Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/painting/wendarr.json"
     },
     {
       "id": "the_vault:paradox/painting/tenos",
@@ -1916,9 +2236,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/painting/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/painting/tenos",
+      "name": "Omega Painting Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/painting/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/painting/velara",
       "name": "Omega Painting Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/painting/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/painting/velara",
+      "name": "Omega Painting Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/painting/velara.json"
     },
     {
       "id": "the_vault:paradox/painting/idona",
@@ -1926,9 +2256,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/painting/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/painting/idona",
+      "name": "Omega Painting Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/painting/idona.json"
+    },
+    {
       "id": "the_vault:paradox/vendor/wendarr",
       "name": "Omega Vendor Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/vendor/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/vendor/wendarr",
+      "name": "Omega Vendor Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/vendor/wendarr.json"
     },
     {
       "id": "the_vault:paradox/vendor/tenos",
@@ -1936,9 +2276,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/vendor/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/vendor/tenos",
+      "name": "Omega Vendor Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/vendor/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/vendor/velara",
       "name": "Omega Vendor Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/vendor/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/vendor/velara",
+      "name": "Omega Vendor Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/vendor/velara.json"
     },
     {
       "id": "the_vault:paradox/vendor/idona",
@@ -1946,9 +2296,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/vendor/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/vendor/idona",
+      "name": "Omega Vendor Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/vendor/idona.json"
+    },
+    {
       "id": "the_vault:paradox/village/wendarr",
       "name": "Village Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/village/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/village/wendarr",
+      "name": "Village Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/village/wendarr.json"
     },
     {
       "id": "the_vault:paradox/village/tenos",
@@ -1956,9 +2316,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/village/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/village/tenos",
+      "name": "Village Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/village/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/village/velara",
       "name": "Village Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/village/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/village/velara",
+      "name": "Village Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/village/velara.json"
     },
     {
       "id": "the_vault:paradox/village/idona",
@@ -1966,9 +2336,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/village/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/village/idona",
+      "name": "Village Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/village/idona.json"
+    },
+    {
       "id": "the_vault:paradox/wildwest/wendarr",
       "name": "Wild West Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/wildwest/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/wildwest/wendarr",
+      "name": "Wild West Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/wildwest/wendarr.json"
     },
     {
       "id": "the_vault:paradox/wildwest/tenos",
@@ -1976,9 +2356,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/wildwest/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/wildwest/tenos",
+      "name": "Wild West Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/wildwest/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/wildwest/velara",
       "name": "Wild West Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/wildwest/velara.json"
+    },
+    {
+      "id": "the_vault:nonparadox/wildwest/velara",
+      "name": "Wild West Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/wildwest/velara.json"
     },
     {
       "id": "the_vault:paradox/wildwest/idona",
@@ -1986,9 +2376,19 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/wildwest/idona.json"
     },
     {
+      "id": "the_vault:nonparadox/wildwest/idona",
+      "name": "Wild West Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/wildwest/idona.json"
+    },
+    {
       "id": "the_vault:paradox/x-mark/wendarr",
       "name": "X-Mark Wendarr",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/x-mark/wendarr.json"
+    },
+    {
+      "id": "the_vault:nonparadox/x-mark/wendarr",
+      "name": "X-Mark Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/x-mark/wendarr.json"
     },
     {
       "id": "the_vault:paradox/x-mark/tenos",
@@ -1996,14 +2396,29 @@
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/x-mark/tenos.json"
     },
     {
+      "id": "the_vault:nonparadox/x-mark/tenos",
+      "name": "X-Mark Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/x-mark/tenos.json"
+    },
+    {
       "id": "the_vault:paradox/x-mark/velara",
       "name": "X-Mark Velara",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/x-mark/velara.json"
     },
     {
+      "id": "the_vault:nonparadox/x-mark/velara",
+      "name": "X-Mark Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/x-mark/velara.json"
+    },
+    {
       "id": "the_vault:paradox/x-mark/idona",
       "name": "X-Mark Idona",
       "1.0": "config/the_vault/gen/1.0/palettes/paradox/x-mark/idona.json"
+    },
+    {
+      "id": "the_vault:nonparadox/x-mark/idona",
+      "name": "X-Mark Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/nonparadox/x-mark/idona.json"
     },
     {
       "id": "the_vault:generic/god_altars",

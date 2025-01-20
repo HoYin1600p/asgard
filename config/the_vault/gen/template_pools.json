@@ -306,9 +306,19 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/wendarr_starts.json"
     },
     {
+      "id": "the_vault:vault/starts/wendarr_starts_normal",
+      "name": "Wendarr Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/wendarr_starts_normal.json"
+    },
+    {
       "id": "the_vault:vault/starts/tenos_starts",
       "name": "Tenos Starts",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/tenos_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/tenos_starts_normal",
+      "name": "Tenos Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/tenos_starts_normal.json"
     },
     {
       "id": "the_vault:vault/starts/velara_starts",
@@ -316,9 +326,19 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/velara_starts.json"
     },
     {
+      "id": "the_vault:vault/starts/velara_starts_normal",
+      "name": "Velara Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/velara_starts_normal.json"
+    },
+    {
       "id": "the_vault:vault/starts/idona_starts",
       "name": "Idona Starts",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/idona_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/idona_starts_normal",
+      "name": "Idona Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/idona_starts_normal.json"
     },
     {
       "id": "the_vault:vault/starts/intermediary_starts",
@@ -1306,6 +1326,121 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/challenge/x-mark.json"
     },
     {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/arcade",
+      "name": "Tenos Arcade",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/arcade.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/arcade",
+      "name": "Tenos Arcade",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/arcade.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/arcade",
+      "name": "Velara Arcade",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/arcade.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/arcade",
+      "name": "Velara Arcade",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/arcade.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/arcade",
+      "name": "Wendarr Arcade",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/arcade.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/arcade",
+      "name": "Wendarr Arcade",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/arcade.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/arcade",
+      "name": "Idona Arcade",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/arcade.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/arcade",
+      "name": "Idona Arcade",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/arcade.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/tenos/omega/garden",
+      "name": "Tenos Garden",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/garden.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/garden",
+      "name": "Tenos Garden",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/garden.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/velara/omega/garden",
+      "name": "Velara Garden",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/garden.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/garden",
+      "name": "Velara Garden",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/garden.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/wendarr/omega/garden",
+      "name": "Wendarr Garden",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/garden.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/garden",
+      "name": "Wendarr Garden",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/garden.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/paradox/idona/omega/garden",
+      "name": "Idona Garden",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/garden.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/garden",
+      "name": "Idona Garden",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/garden.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/challenge_rooms",
+      "name": "Wendarr Challenge Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/challenge/crystal_caves",
+      "name": "Wendarr Crystal Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/challenge/crystal_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/challenge/dragon",
+      "name": "Wendarr Dragon",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/challenge/dragon.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/challenge/factory",
+      "name": "Wendarr Factory",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/challenge/factory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/challenge/village",
+      "name": "Wendarr Village",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/challenge/wildwest",
+      "name": "Wendarr Wild West",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/challenge/x-mark",
+      "name": "Wendarr X-mark",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/challenge/x-mark.json"
+    },
+    {
       "id": "the_vault:vault/rooms/paradox/wendarr/challenge_rooms",
       "name": "Wendarr Challenge Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/challenge_rooms.json"
@@ -1339,6 +1474,41 @@
       "id": "the_vault:vault/rooms/paradox/wendarr/challenge/x-mark",
       "name": "Wendarr X-mark",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/challenge/x-mark.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/challenge_rooms",
+      "name": "Tenos Challenge Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/challenge/crystal_caves",
+      "name": "Tenos Crystal Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/challenge/crystal_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/challenge/dragon",
+      "name": "Tenos Dragon",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/challenge/dragon.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/challenge/factory",
+      "name": "Tenos Factory",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/challenge/factory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/challenge/village",
+      "name": "Tenos Village",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/challenge/wildwest",
+      "name": "Tenos Wild West",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/challenge/x-mark",
+      "name": "Tenos X-mark",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/challenge/x-mark.json"
     },
     {
       "id": "the_vault:vault/rooms/paradox/tenos/challenge_rooms",
@@ -1376,6 +1546,41 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/challenge/x-mark.json"
     },
     {
+      "id": "the_vault:vault/rooms/nonparadox/velara/challenge_rooms",
+      "name": "Velara Challenge Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/challenge/crystal_caves",
+      "name": "Velara Crystal Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/challenge/crystal_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/challenge/dragon",
+      "name": "Velara Dragon",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/challenge/dragon.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/challenge/factory",
+      "name": "Velara Factory",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/challenge/factory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/challenge/village",
+      "name": "Velara Village",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/challenge/wildwest",
+      "name": "Velara Wild West",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/challenge/x-mark",
+      "name": "Velara X-mark",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/challenge/x-mark.json"
+    },
+    {
       "id": "the_vault:vault/rooms/paradox/velara/challenge_rooms",
       "name": "Velara Challenge Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/challenge_rooms.json"
@@ -1409,6 +1614,41 @@
       "id": "the_vault:vault/rooms/paradox/velara/challenge/x-mark",
       "name": "Velara X-mark",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/challenge/x-mark.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/challenge_rooms",
+      "name": "Idona Challenge Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/challenge_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/challenge/crystal_caves",
+      "name": "Idona Crystal Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/challenge/crystal_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/challenge/dragon",
+      "name": "Idona Dragon",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/challenge/dragon.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/challenge/factory",
+      "name": "Idona Factory",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/challenge/factory.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/challenge/village",
+      "name": "Idona Village",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/challenge/village.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/challenge/wildwest",
+      "name": "Idona Wild West",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/challenge/wildwest.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/challenge/x-mark",
+      "name": "Idona X-mark",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/challenge/x-mark.json"
     },
     {
       "id": "the_vault:vault/rooms/paradox/idona/challenge_rooms",
@@ -1582,7 +1822,7 @@
     },
     {
       "id": "the_vault:vault/rooms/omega/garden",
-      "name": "Iskallian Garden",
+      "name": "Garden",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/garden.json"
     },
     {
@@ -1650,6 +1890,57 @@
       "name": "Void Omega Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_void.json"
     },
+
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/cube",
+      "name": "Wendarr Cube",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/cube.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/digsite2",
+      "name": "Wendarr Dig Site",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/digsite2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/vendor",
+      "name": "Wendarr Vendor",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/painting",
+      "name": "Wendarr Painting",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/mine",
+      "name": "Wendarr Mine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/blacksmith",
+      "name": "Wendarr Blacksmith",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega_rooms",
+      "name": "Wendarr Omega Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/mush_room",
+      "name": "Wendarr Mush Room",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/library",
+      "name": "Wendarr Library",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/cove",
+      "name": "Wendarr Cove",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/wendarr/omega/cove.json"
+    },
     {
       "id": "the_vault:vault/rooms/paradox/wendarr/omega/cube",
       "name": "Wendarr Cube",
@@ -1701,6 +1992,56 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr/omega/cove.json"
     },
     {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/cube",
+      "name": "Tenos Cube",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/cube.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/digsite2",
+      "name": "Tenos Dig Site",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/digsite2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/vendor",
+      "name": "Tenos Vendor",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/painting",
+      "name": "Tenos Painting",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/mine",
+      "name": "Tenos Mine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/blacksmith",
+      "name": "Tenos Blacksmith",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega_rooms",
+      "name": "Tenos Omega Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/mush_room",
+      "name": "Tenos Mush Room",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/library",
+      "name": "Tenos Library",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/cove",
+      "name": "Tenos Cove",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/cove.json"
+    },
+    {
       "id": "the_vault:vault/rooms/paradox/tenos/omega/cube",
       "name": "Tenos Cube",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/cube.json"
@@ -1741,6 +2082,11 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/mush_room.json"
     },
     {
+      "id": "the_vault:vault/rooms/nonparadox/tenos/omega/mush_room",
+      "name": "Tenos Mush Room",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/tenos/omega/mush_room.json"
+    },
+    {
       "id": "the_vault:vault/rooms/paradox/tenos/omega/library",
       "name": "Tenos Library",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/library.json"
@@ -1749,6 +2095,56 @@
       "id": "the_vault:vault/rooms/paradox/tenos/omega/cove",
       "name": "Tenos Cove",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos/omega/cove.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/cube",
+      "name": "Velara Cube",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/cube.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/digsite2",
+      "name": "Velara Dig Site",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/digsite2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/vendor",
+      "name": "Velara Vendor",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/painting",
+      "name": "Velara Painting",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/mine",
+      "name": "Velara Mine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/blacksmith",
+      "name": "Velara Blacksmith",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega_rooms",
+      "name": "Velara Omega Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/mush_room",
+      "name": "Velara Mush Room",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/library",
+      "name": "Velara Library",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/cove",
+      "name": "Velara Cove",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/cove.json"
     },
     {
       "id": "the_vault:vault/rooms/paradox/velara/omega/cube",
@@ -1796,9 +2192,64 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/library.json"
     },
     {
+      "id": "the_vault:vault/rooms/nonparadox/velara/omega/library",
+      "name": "Velara Library",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/velara/omega/library.json"
+    },
+    {
       "id": "the_vault:vault/rooms/paradox/velara/omega/cove",
       "name": "Velara Cove",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara/omega/cove.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/cube",
+      "name": "Idona Cube",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/cube.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/digsite2",
+      "name": "Idona Dig Site",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/digsite2.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/vendor",
+      "name": "Idona Vendor",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/vendor.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/painting",
+      "name": "Idona Painting",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/painting.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/mine",
+      "name": "Idona Mine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/blacksmith",
+      "name": "Idona Blacksmith",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/blacksmith.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega_rooms",
+      "name": "Idona Omega Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/mush_room",
+      "name": "Idona Mush Room",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/mush_room.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/library",
+      "name": "Idona Library",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/library.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/cove",
+      "name": "Idona Cove",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/cove.json"
     },
     {
       "id": "the_vault:vault/rooms/paradox/idona/omega/cube",
@@ -1824,6 +2275,11 @@
       "id": "the_vault:vault/rooms/paradox/idona/omega/mine",
       "name": "Idona Mine",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/omega/mine.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/nonparadox/idona/omega/mine",
+      "name": "Idona Mine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/nonparadox/idona/omega/mine.json"
     },
     {
       "id": "the_vault:vault/rooms/paradox/idona/omega/blacksmith",
@@ -3088,9 +3544,19 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/wendarr_tunnels.json"
     },
     {
+      "id": "the_vault:vault/tunnels/wendarr_tunnels_normal",
+      "name": "Wendarr Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/wendarr_tunnels_normal.json"
+    },
+    {
       "id": "the_vault:vault/tunnels/tenos_tunnels",
       "name": "Tenos Tunnels",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/tenos_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/tenos_tunnels_normal",
+      "name": "Tenos Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/tenos_tunnels_normal.json"
     },
     {
       "id": "the_vault:vault/tunnels/velara_tunnels",
@@ -3098,9 +3564,19 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/velara_tunnels.json"
     },
     {
+      "id": "the_vault:vault/tunnels/velara_tunnels_normal",
+      "name": "Velara Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/velara_tunnels_normal.json"
+    },
+    {
       "id": "the_vault:vault/tunnels/idona_tunnels",
       "name": "Idona Tunnels",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/idona_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/idona_tunnels_normal",
+      "name": "Idona Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/idona_tunnels_normal.json"
     },
     {
       "id": "the_vault:vault/tunnels/intermediary_tunnels",
@@ -3118,14 +3594,34 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/wendarr_rooms.json"
     },
     {
+      "id": "the_vault:vault/rooms/wendarr_common_rooms",
+      "name": "Wendarr Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/wendarr_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/wendarr_rooms",
+      "name": "Wendarr Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/wendarr_rooms.json"
+    },
+    {
       "id": "the_vault:vault/rooms/paradox/tenos_common_rooms",
       "name": "Tenos Common Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos_common_rooms.json"
     },
     {
+      "id": "the_vault:vault/rooms/tenos_common_rooms",
+      "name": "Tenos Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/tenos_common_rooms.json"
+    },
+    {
       "id": "the_vault:vault/rooms/paradox/tenos_rooms",
       "name": "Tenos Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/tenos_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/tenos_rooms",
+      "name": "Tenos Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/tenos_rooms.json"
     },
     {
       "id": "the_vault:vault/rooms/paradox/velara_common_rooms",
@@ -3138,6 +3634,16 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/velara_rooms.json"
     },
     {
+      "id": "the_vault:vault/rooms/velara_common_rooms",
+      "name": "Velara Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/velara_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/velara_rooms",
+      "name": "Velara Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/velara_rooms.json"
+    },
+    {
       "id": "the_vault:vault/rooms/paradox/idona_common_rooms",
       "name": "Idona Common Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona_common_rooms.json"
@@ -3146,6 +3652,16 @@
       "id": "the_vault:vault/rooms/paradox/idona_rooms",
       "name": "Idona Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/idona_common_rooms",
+      "name": "Idona Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/idona_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/idona_rooms",
+      "name": "Idona Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/idona_rooms.json"
     },
     {
       "id": "the_vault:vault/rooms/paradox/intermediary_common_rooms",
