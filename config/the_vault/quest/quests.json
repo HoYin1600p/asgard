@@ -3947,13 +3947,13 @@
       }
     },
     {
-      "type": "collection",
+      "type": "checkmark",
       "id": "craft_zealot_seal",
-      "name": "Seal of the Zealot",
+      "name": "Zealot Vault",
       "descriptionData": {
         "description": [
           {
-            "text": "With the God's now noticing you, a new vault objective is available.\n\nApplying a Seal of the ",
+            "text": "With the God's noticing you, ",
             "color": "$text"
           },
           {
@@ -3961,7 +3961,7 @@
             "color": "green"
           },
           {
-            "text": "to a crystal will change the objective of the vault to ",
+            "text": "vaults are now available. These vaults are special vaults and will take on the different properties of the Vault Gods.\n\n",
             "color": "$text"
           },
           {
@@ -3969,17 +3969,56 @@
             "color": "green"
           },
           {
-            "text": ".\n\nTo complete this objective, you will need to finish a certain amount of gold altars before exiting the vault.",
+            "text": "vaults are accessed via the following.\n\n",
             "color": "$text"
           },
           {
-            "text": "\n\nThis objective is very straight forward and can even be an alternative vault objective when reputation running (rep running).",
+            "text": "Obtain one of the 4 God items listed below: \n\n",
             "color": "$text"
           },
-
           {
-            "text": "\n\nCraft a Seal of the Zealot",
-            "color": "$heal"
+            "text": "Idonian Sacrificial Dagger\n",
+            "color": "$idona"
+          },
+          {
+            "text": "Tome of Tenos\n",
+            "color": "$tenos"
+          },
+          {
+            "text": "Velaran Emerald Apple\n",
+            "color": "$velara"
+          },
+          {
+            "text": "Wendarrian Focus Gem\n\n",
+            "color": "$wendarr"
+          },
+          {
+            "text": "Click on your vault altar with the chosen item to create a crystal. ",
+            "color": "$text"
+          },
+          {
+            "text": "Everything in this vault will be tailored for the Vault God you've chosen.",
+            "color": "$text"
+          },
+          {
+            "text": ".\n\nTo complete this objective, you will need to complete 3-5 God altars before exiting the vault through the start room. You can of course always complete more altars than is needed for completion if desired.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nNote: ",
+            "color": "red"
+          },
+          {
+            "text": "Zealot crystals will always have 50 capacity and do not scale with the ",
+            "color": "$text"
+          },
+          {
+            "text": "Crystalmancer ",
+            "color": "yellow"
+          },
+          {
+            "text": "expertise.",
+            "color": "$text"
           }
         ]
       },
@@ -3990,7 +4029,16 @@
       "reward": {
         "items": [
           {
-            "item": "the_vault:vault_gold"
+            "item": "woldsvaults:idona_dagger"
+          },
+          {
+            "item": "woldsvaults:tome_of_tenos"
+          },
+          {
+            "item": "woldsvaults:velara_apple"
+          },
+          {
+            "item": "woldsvaults:wendarr_gem"
           }
         ],
         "vaultExp": 0
