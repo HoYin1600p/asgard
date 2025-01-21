@@ -3505,7 +3505,7 @@
     "resource_gem_larimar": {
       "type": "task_loot",
       "name": {
-        "text": "Larimar Card"
+        "text": "Verimar Card"
       },
       "model": "the_vault:gem_larimar#inventory",
       "groups": [
@@ -3540,7 +3540,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Larimar ",
+          "text":  " Verimar ",
           "color": "yellow"
         },
         {
@@ -3553,7 +3553,7 @@
     "resource_gem_benitoite": {
       "type": "task_loot",
       "name": {
-        "text": "Benitoite Card"
+        "text": "BONNetoite Card"
       },
       "model": "the_vault:gem_benitoite#inventory",
       "groups": [
@@ -3588,7 +3588,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Benitoite ",
+          "text":  " BONNetoite ",
           "color": "yellow"
         },
         {
@@ -3601,7 +3601,7 @@
     "resource_gem_alexandrite": {
       "type": "task_loot",
       "name": {
-        "text": "Alexandrite Card"
+        "text": "Lunaphire Card"
       },
       "model": "the_vault:gem_alexandrite#inventory",
       "groups": [
@@ -3636,7 +3636,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Alexandrite ",
+          "text":  "Lunaphire ",
           "color": "yellow"
         },
         {
@@ -3649,7 +3649,7 @@
     "resource_gem_wutodie": {
       "type": "task_loot",
       "name": {
-        "text": "Wutodie Card"
+        "text": "Gothartica Card"
       },
       "model": "the_vault:gem_wutodie#inventory",
       "groups": [
@@ -3684,7 +3684,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Wutodie ",
+          "text":  " Gothartica ",
           "color": "yellow"
         },
         {
@@ -3697,7 +3697,7 @@
     "resource_gem_black_opal": {
       "type": "task_loot",
       "name": {
-        "text": "Black Opal Card"
+        "text": "Kronkium Card"
       },
       "model": "the_vault:gem_black_opal#inventory",
       "groups": [
@@ -3732,7 +3732,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Black Opal ",
+          "text":  " Kronkium ",
           "color": "yellow"
         },
         {
@@ -3793,7 +3793,7 @@
     "resource_gem_painite": {
       "type": "task_loot",
       "name": {
-        "text": "Painite Card"
+        "text": "Hellfire Card"
       },
       "model": "the_vault:gem_painite#inventory",
       "groups": [
@@ -3828,7 +3828,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Painite ",
+          "text":  " Hellfire ",
           "color": "yellow"
         },
         {
@@ -3841,7 +3841,7 @@
     "resource_gem_iskallium": {
       "type": "task_loot",
       "name": {
-        "text": "Iskallium Card"
+        "text": "Shrimpium Card"
       },
       "model": "the_vault:gem_iskallium#inventory",
       "groups": [
@@ -3876,7 +3876,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Iskallium ",
+          "text":  " Shrimpium ",
           "color": "yellow"
         },
         {
@@ -3889,7 +3889,7 @@
     "resource_gem_gorginite": {
       "type": "task_loot",
       "name": {
-        "text": "Gorginite Card"
+        "text": "Linathyst Card"
       },
       "model": "the_vault:gem_gorginite#inventory",
       "groups": [
@@ -3924,7 +3924,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Gorginite ",
+          "text":  " Linathyst ",
           "color": "yellow"
         },
         {
@@ -3937,7 +3937,7 @@
     "resource_gem_sparkletine": {
       "type": "task_loot",
       "name": {
-        "text": "Sparkletine Card"
+        "text": "Zeeabar Card"
       },
       "model": "the_vault:gem_sparkletine#inventory",
       "groups": [
@@ -3972,7 +3972,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Sparkletine ",
+          "text":  " Zeeabar ",
           "color": "yellow"
         },
         {
@@ -3985,7 +3985,7 @@
     "resource_gem_ashium": {
       "type": "task_loot",
       "name": {
-        "text": "Ashium Card"
+        "text": "Gigatonium Card"
       },
       "model": "the_vault:gem_ashium#inventory",
       "groups": [
@@ -4020,7 +4020,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Ashium ",
+          "text":  " Gigatonium ",
           "color": "yellow"
         },
         {
@@ -4033,7 +4033,7 @@
     "resource_gem_bomignite": {
       "type": "task_loot",
       "name": {
-        "text": "Bomignite Card"
+        "text": "K-Terium Card"
       },
       "model": "the_vault:gem_bomignite#inventory",
       "groups": [
@@ -4068,7 +4068,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Bomignite ",
+          "text":  " K-Terium ",
           "color": "yellow"
         },
         {
@@ -4081,7 +4081,7 @@
     "resource_gem_tubium": {
       "type": "task_loot",
       "name": {
-        "text": "Tubium Card"
+        "text": "Tazanite Card"
       },
       "model": "the_vault:gem_tubium#inventory",
       "groups": [
@@ -4116,7 +4116,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Tubium ",
+          "text":  " Tazanite ",
           "color": "yellow"
         },
         {
@@ -4129,7 +4129,7 @@
     "resource_gem_upaline": {
       "type": "task_loot",
       "name": {
-        "text": "Upaline Card"
+        "text": "Spikium Card"
       },
       "model": "the_vault:gem_upaline#inventory",
       "groups": [
@@ -4164,7 +4164,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Upaline ",
+          "text":  " Spikium ",
           "color": "yellow"
         },
         {
@@ -4177,7 +4177,7 @@
     "resource_gem_petzanite": {
       "type": "task_loot",
       "name": {
-        "text": "Petzanite Card"
+        "text": "Jawwnnite Card"
       },
       "model": "the_vault:gem_petzanite#inventory",
       "groups": [
@@ -4212,7 +4212,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Petzanite ",
+          "text":  " Jawwnnite ",
           "color": "yellow"
         },
         {
@@ -4225,7 +4225,7 @@
     "resource_gem_xeenium": {
       "type": "task_loot",
       "name": {
-        "text": "Xeenium Card"
+        "text": "Holladium Card"
       },
       "model": "the_vault:gem_xenium#inventory",
       "groups": [
@@ -4260,7 +4260,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Xeenium ",
+          "text":  " Holladium ",
           "color": "yellow"
         },
         {
