@@ -5,50 +5,50 @@
 	# Use \n to change line on tooltips.
 	#
 	# Enable / Disable the option to overwrite keys info.
-	"Custom Keys" = false
+	"Custom Keys" = true
 
-[Ashium]
-	Name = "Ashium"
-	Color = "#DD7211"
-	Tooltip = "Opens a treasure room with an Ashium door inside the vaults"
+["Ashium Key"]
+	Name = "Gigatonium Treasure Key"
+	Color = "#ff9863"
+	Tooltip = "Opens a Gigatonium Treasure Door inside the vaults"
 
-[Bomignite]
-	Name = "Bomignite"
-	Color = "#4380E2"
-	Tooltip = "Opens a treasure room with an Bomignite door inside the vaults"
+["Xenium Key"]
+	Name = "Holladium Treasure Key"
+	Color = "#cb0616"
+	Tooltip = "Opens a Holladium Treasure Door inside the vaults"
 
-[Gorginite]
-	Name = "Gorginite"
-	Color = "#CE1E77"
-	Tooltip = "Opens a treasure room with an Gorginite door inside the vaults"
+["Petzanite Key"]
+	Name = "Jawwnnite Treasure Key"
+	Color = "#58ccf1"
+	Tooltip = "Opens a Jawwnnite Treasure Door inside the vaults"
 
-[Iskallium]
-	Name = "Iskallium"
-	Color = "#82B103"
-	Tooltip = "Opens a treasure room with an Iskallium door inside the vaults"
+["Bomignite Key"]
+	Name = "K-Terium Treasure Key"
+	Color = "#ff402c"
+	Tooltip = "Opens a K-Terium Treasure Door inside the vaults"
 
-[Petzanite]
-	Name = "Petzanite"
-	Color = "#86FBC2"
-	Tooltip = "Opens a treasure room with an Petzanite door inside the vaults"
+["Iskallium Key"]
+	Name = "Shrimpium Treasure Key"
+	Color = "#9bde46"
+	Tooltip = "Opens a Shrimpium Treasure Door inside the vaults"
 
-[Sparkletine]
-	Name = "Sparkletine"
-	Color = "#C9BA05"
-	Tooltip = "Opens a treasure room with an Sparkletine door inside the vaults"
+["Gorginite Key"]
+	Name = "Linathyst Treasure Key"
+	Color = "#bd3fff"
+	Tooltip = "Opens a Linathyst Treasure Door inside the vaults"
 
-[Tubium]
-	Name = "Tubium"
-	Color = "#009A58"
-	Tooltip = "Opens a treasure room with an Tubium door inside the vaults"
+["Upaline Key"]
+	Name = "Spikium Treasure Key"
+	Color = "#2140c4"
+	Tooltip = "Opens a Spikium Treasure Door inside the vaults"
 
-[Upaline]
-	Name = "Upaline"
-	Color = "#CB99BD"
-	Tooltip = "Opens a treasure room with an Upaline door inside the vaults"
+["Tubium Key"]
+	Name = "Tazanite Treasure Key"
+	Color = "#00e185"
+	Tooltip = "Opens a Tazanite Treasure Door inside the vaults"
 
-[Xenium]
-	Name = "Xenium"
-	Color = "#3F3191"
-	Tooltip = "Opens a treasure room with an Xenium door inside the vaults"
+["Sparkletine Key"]
+	Name = "Zeeabar Treasure Key"
+	Color = "#60d7b0"
+	Tooltip = "Opens a Zeeabar Treasure Door inside the vaults"
 
