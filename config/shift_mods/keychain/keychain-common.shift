@@ -2,4 +2,8 @@
 [Common]
 	#Enable / Disable the possibility to pickup keys directly to the pouch.
 	"Enable Pickup" = true
+	#Type cost to be applied on spirit revive. 0 - No cost, 1 - Per stack, 2 - Per item
+	"Key Cost" = 1
+	#Should the cost type apply to all inventories or only Keychain
+	"Only Keychain" = false
 
