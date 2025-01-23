@@ -118,6 +118,16 @@ JEI.hideIngredient(<item:the_vault:vault_jewel_cutting_station>);
 JEI.hideIngredient(<item:auxiliaryblocks:purple_diorite>);
 JEI.hideIngredient(<item:auxiliaryblocks:dark_purple_diorite>);
 
+craftingTable.remove(<item:the_vault:gem_petzanite>);
+craftingTable.remove(<item:the_vault:gem_ashium>);
+craftingTable.remove(<item:the_vault:gem_tubium>);
+craftingTable.remove(<item:the_vault:gem_iskallium>);
+craftingTable.remove(<item:the_vault:gem_gorginite>);
+craftingTable.remove(<item:the_vault:gem_sparkletine>);
+craftingTable.remove(<item:the_vault:gem_xenium>);
+craftingTable.remove(<item:the_vault:gem_upaline>);
+craftingTable.remove(<item:the_vault:gem_bomignite>);
+
 //Wolds
 JEI.hideIngredient(<item:woldsvaults:enigma_egg>);
 JEI.hideIngredient(<item:woldsvaults:capstone_vendoors>);
@@ -132,6 +142,8 @@ JEI.hideIngredient(<item:woldsvaults:robot_spawn_egg>);
 JEI.hideIngredient(<item:woldsvaults:monster_eye_spawn_egg>);
 JEI.hideIngredient(<item:woldsvaults:blue_blaze_spawn_egg>);
 JEI.hideIngredient(<item:woldsvaults:research_token>);
+craftingTable.remove(<item:woldsvaults:gem_reagent_petzanite>);
+
 
 //Vault Additions
 //JEI.hideIngredient(<item:vaultadditions:power_orb>);
@@ -176,15 +188,7 @@ JEI.addDescription(<item:woldsvaults:wold_star>, ["The ultimate crafting ingredi
 JEI.addDescription(<item:woldsvaults:pog_prism>, ["A low-mid-tier crafting ingredient that is more expensive than a POG, but cheaper than an Echo POG "]);
 JEI.addDescription(<item:woldsvaults:extraordinary_pog_prism>, ["A mid-high tier crafting ingredient that is more expensive than an Echo POG, but cheaper than an Omega POG"]);
 JEI.addDescription(<item:woldsvaults:general_decor_scroll>, ["The vault Deco Scroll is a rare item that can be used to craft placeable version of some of the vault objective submission blocks"]);
-JEI.addDescription(<item:woldsvaults:gem_reagent_iskallium>, ["A reagent used to turn any player gem into a Iskallium gem"]);
-JEI.addDescription(<item:woldsvaults:gem_reagent_gorginite>, ["A reagent used to turn any player gem into a Gorginite gem"]);
-JEI.addDescription(<item:woldsvaults:gem_reagent_sparkletine>, ["A reagent used to turn any player gem into a Sparkletine gem"]);
-JEI.addDescription(<item:woldsvaults:gem_reagent_bomignite>, ["A reagent used to turn any player gem into a Bomignite gem"]);
-JEI.addDescription(<item:woldsvaults:gem_reagent_upaline>, ["A reagent used to turn any player gem into a Upaline gem"]);
-JEI.addDescription(<item:woldsvaults:gem_reagent_tubium>, ["A reagent used to turn any player gem into a Tubium gem"]);
-JEI.addDescription(<item:woldsvaults:gem_reagent_xenium>, ["A reagent used to turn any player gem into a Xeenium gem"]);
-JEI.addDescription(<item:woldsvaults:gem_reagent_petzanite>, ["A reagent used to turn any player gem into a Petzanite gem"]);
-JEI.addDescription(<item:woldsvaults:gem_reagent_ashium>, ["A reagent used to turn any player gem into an Ashium gem"]);
+JEI.addDescription(<item:woldsvaults:gem_reagent_petzanite>, ["A reagent used to convert a player gem to another player gem"]);
 JEI.addDescription(<item:woldsvaults:idona_dagger>, ["Idona's Dagger is used as a crafting ingredient along with the other god items to obtain a Zealot Seal"]);
 JEI.addDescription(<item:woldsvaults:wendarr_gem>, ["Wendarr's Gem is used as a crafting ingredient along with the other god items to obtain a Zealot Seal"]);
 JEI.addDescription(<item:woldsvaults:velara_apple>, ["Velara's Apple is used as a crafting ingredient along with the other god items to obtain a Zealot Seal"]);
@@ -211,6 +215,7 @@ JEI.addDescription(<item:morevaulttables:doll_dismantling_block>, ["The Doll Jui
 
 JEI.addDescription(<item:vaultjp:jewel_purpuser>, ["The Jewel Purposer is a one in all jewel storage and tool building block. This block will help you build your tool and can serve as a vault recycler to scrap trash jewels."]);
 
+
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //Variable Definitions
 
@@ -221,7 +226,6 @@ var vault_gem = [
     "upaline",
     "bomignite",
     "sparkletine",
-    "petzanite",
     "xenium",
     "tubium"
 ];
@@ -514,14 +518,25 @@ craftingTable.addShapeless("double_compressed_2_compressed_flex_tape", <item:wol
 for gem in vault_gem {
     // gem reagent
     craftingTable.remove(<item:woldsvaults:gem_reagent_${gem}>);
-    craftingTable.addShapeless(gem + "reagent", <item:woldsvaults:gem_reagent_${gem}>, [
-        <item:the_vault:gem_${gem}>, <item:the_vault:wild_focus>, <item:the_vault:vault_essence>, <item:woldsvaults:smashed_vault_gem_cluster>
+    JEI.hideIngredient(<item:woldsvaults:gem_reagent_${gem}>);
+}
+
+
+// gem reagent
+craftingTable.addShapeless("gem_reagent", <item:woldsvaults:gem_reagent_petzanite>, [
+    <tag:items:the_vault:playergems>, <item:the_vault:wild_focus>, <item:the_vault:vault_essence>, <item:woldsvaults:smashed_vault_gem_cluster>
+]);
+
+
+for gem in vault_gem {
+    // gem reagent
+    craftingTable.addShapeless("gem_transmogrification_" + gem, <item:the_vault:gem_${gem}> *2, [
+        <item:woldsvaults:gem_reagent_petzanite>, <item:the_vault:gem_${gem}>
     ]);
 }
 
-for reagent in vault_gem {
-    // gem reagent
-    craftingTable.addShapeless(reagent + "transmogrification", <item:the_vault:gem_${reagent}> *2, [
-        <item:woldsvaults:gem_reagent_${reagent}>, <tag:items:the_vault:playergems>
+craftingTable.addShapeless("gem_transmogrification_petzanite", <item:the_vault:gem_petzanite> *2, [
+        <item:woldsvaults:gem_reagent_petzanite>, <item:the_vault:gem_petzanite>
     ]);
-}
+
+
