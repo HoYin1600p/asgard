@@ -18298,7 +18298,7 @@ hash = "76b008d39e70956d8c2a887b3c8b8cf0caf91205f6bed2197b222d7826f43a02"
 
 [[files]]
 file = "kubejs/assets/woldsvaults/lang/en_us.json"
-hash = "282cb8f441f9e86a2b84c79872ccd39f394b7f91b43d0bbce7ea8ef131afeab2"
+hash = "2f935fffdcfc3695417999e5e458dfeccf0444567d57eba5a5e125c78959de7f"
 
 [[files]]
 file = "kubejs/assets/woldsvaults/textures/item/gem_reagent_iskallium.png"
@@ -18307,6 +18307,10 @@ hash = "cce7bd586d1392b2513ea55077226a7caa61c5760ca413b558a2ae80fa288f40"
 [[files]]
 file = "kubejs/assets/woldsvaults/textures/item/gem_reagent_iskallium.png.mcmeta"
 hash = "77d80b3fdecb850e7c91c6459be15f8c172813928599e88a2535817a7ddcc82f"
+
+[[files]]
+file = "kubejs/assets/woldsvaults/textures/item/gem_reagent_petzanite.png"
+hash = "41f0d7c86c0ba73be48105d85a8facc5a44a005ed577b34de788a4779b76e3da"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -20763,7 +20767,7 @@ metafile = true
 
 [[files]]
 file = "scripts/00_millennium_scripts.zs"
-hash = "c0bcba028779a8ef2e57abce0f21ce3ad0a2d496b31a25cb2ea12694fe4e3403"
+hash = "f10d294602d238f3ca1322633f38787202904533c7ff448254e12950cb13266e"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
