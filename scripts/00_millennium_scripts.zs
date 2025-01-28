@@ -334,9 +334,9 @@ craftingTable.addShaped("vault_doll2", <item:the_vault:vault_doll>, [
 ]);
 
 craftingTable.addShaped("vault_doll3", <item:the_vault:vault_doll>, [
-    [<item:minecraft:memory_shard>, <item:the_vault:vault_essence>, <item:minecraft:memory_shard>],
+    [<item:the_vault:memory_shard>, <item:the_vault:vault_essence>, <item:the_vault:memory_shard>],
     [<item:the_vault:regret_orb>, <item:the_vault:vault_doll>, <item:the_vault:regret_orb>],
-    [<item:minecraft:memory_shard>, <item:the_vault:extraordinary_benitoite>, <item:minecraft:memory_shard>]
+    [<item:the_vault:memory_shard>, <item:the_vault:extraordinary_benitoite>, <item:the_vault:memory_shard>]
 ]);
 
 
