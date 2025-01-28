@@ -34,6 +34,13 @@ import mods.jei.JEI;
     "snow"
 ];
 
+var raw = [
+    "raw_iron",
+    "raw_gold",
+    "raw_copper"
+];
+
+
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //Recipes
 
@@ -65,4 +72,22 @@ for mat in compressed {
     // Tier 9
     craftingTable.remove(<item:createcompression:compressed_${mat}_9x>);
     JEI.hideIngredient(<item:createcompression:compressed_${mat}_9x>);
+}
+
+for mat in raw {
+    // Tier 1
+    craftingTable.remove(<item:createcompression:compressed_${mat}_1x>);
+    //JEI.hideIngredient(<item:createcompression:compressed_${mat}_1x>);
+    craftingTable.remove(<item:createcompression:compressed_${mat}_2x>);
+
+    craftingTable.addShaped("createcompression_" + mat, <item:createcompression:compressed_${mat}_2x> , [
+        [<item:minecraft:${mat}_block>, <item:minecraft:${mat}_block>, <item:minecraft:${mat}_block>],
+        [<item:minecraft:${mat}_block>, <item:minecraft:${mat}_block>, <item:minecraft:${mat}_block>],
+        [<item:minecraft:${mat}_block>, <item:minecraft:${mat}_block>, <item:minecraft:${mat}_block>]
+    ]);
+
+
+    craftingTable.addShapeless(mat + "_decompression", <item:minecraft:${mat}_block>*9, [
+        <item:createcompression:compressed_${mat}_2x>
+    ]);
 }
