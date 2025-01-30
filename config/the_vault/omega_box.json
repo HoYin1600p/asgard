@@ -43,7 +43,7 @@
         "amountMin": 1,
         "amountMax": 2
       },
-      "weight": 128
+      "weight": 64
     },
     {
       "value": {
@@ -61,7 +61,7 @@
         "amountMin": 1,
         "amountMax": 3
       },
-      "weight": 64
+      "weight": 128
     },
     {
       "value": {
@@ -151,7 +151,7 @@
         "amountMin": 1,
         "amountMax": 2
       },
-      "weight": 80
+      "weight": 40
     },
     {
       "value": {
