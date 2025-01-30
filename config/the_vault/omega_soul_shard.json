@@ -702,8 +702,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 4800,
-                        "maxPrice": 9600
+                        "minPrice": 8192,
+                        "maxPrice": 16384
                     },
                     "weight": 6
                 },
@@ -726,8 +726,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 7200,
-                        "maxPrice": 14400
+                        "minPrice": 14400,
+                        "maxPrice": 28800
                     },
                     "weight": 6
                 },
@@ -762,8 +762,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 56000,
-                        "maxPrice": 96000
+                        "minPrice": 64000,
+                        "maxPrice": 108000
                     },
                     "weight": 2
                 },
@@ -1318,8 +1318,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 5600,
-                        "maxPrice": 11200
+                        "minPrice": 8192,
+                        "maxPrice": 16384
                     },
                     "weight": 6
                 },
@@ -1342,8 +1342,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 7200,
-                        "maxPrice": 14400
+                        "minPrice": 14400,
+                        "maxPrice": 28800
                     },
                     "weight": 6
                 },
@@ -1378,8 +1378,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 56000,
-                        "maxPrice": 96000
+                        "minPrice": 64000,
+                        "maxPrice": 108000
                     },
                     "weight": 4
                 },
