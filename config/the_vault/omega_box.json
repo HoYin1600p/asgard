@@ -140,7 +140,16 @@
         "id": "the_vault:sour_orange",
         "nbt": "{}",
         "amountMin": 2,
-        "amountMax": 5
+        "amountMax": 4
+      },
+      "weight": 160
+    },
+    {
+      "value": {
+        "id": "the_vault:star_fruit",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 2
       },
       "weight": 80
     },
