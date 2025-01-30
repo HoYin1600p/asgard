@@ -7,7 +7,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 24
+      "weight": 1
     },
     {
       "value": {
@@ -52,7 +52,7 @@
         "amountMin": 1,
         "amountMax": 3
       },
-      "weight": 128
+      "weight": 64
     },
     {
       "value": {
@@ -61,7 +61,7 @@
         "amountMin": 1,
         "amountMax": 3
       },
-      "weight": 128
+      "weight": 64
     },
     {
       "value": {
@@ -142,7 +142,7 @@
         "amountMin": 2,
         "amountMax": 5
       },
-      "weight": 160
+      "weight": 80
     },
     {
       "value": {
@@ -273,7 +273,7 @@
     {
       "value": {
         "id": "the_vault:inscription",
-        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/x-mark\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/dragon\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/factory\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/wildwest\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/village\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/crystal_caves\"}],model: 11, size: 25}}",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/x-mark\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/dragon\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/factory\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/village\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/crystal_caves\"}],model: 11, size: 25}}",
         "amountMin": 1,
         "amountMax": 1
       },
