@@ -846,7 +846,7 @@
         "target": {
           "type": "uniform",
           "min": 40,
-          "max": 50
+          "max": 60
         },
         "variables": {
           "targetTierContribution": 1.0
@@ -995,7 +995,7 @@
         "weight": 1
       },
       {
-        "value": "kill_assassin_medium",
+        "value": "kill_assassin_easy",
         "weight": 1
       },
       {
