@@ -140,7 +140,7 @@
                     "type": "uniform",
                     "min": 1,
                     "max": 1
-                    }
+                  }
                 }
               },
               {
@@ -151,7 +151,7 @@
                     "type": "uniform",
                     "min": 1,
                     "max": 1
-                    }
+                  }
                 }
               },
               {
@@ -166,23 +166,23 @@
                 }
               },
               {
-                "weight": 5,
-                "item": {
-                  "id": "the_vault:trinket",
-                  "count": {
-                    "type": "uniform",
-                    "min": 1,
-                    "max": 1
-                    }
-                }
-              },
-              {
                 "weight": 3,
                 "item": {
                   "id": "the_vault:card_deck",
                   "nbt": {
                     "id": "odungeon"
                   },
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                  }
+                }
+              },
+              {
+                "weight": 5,
+                "item": {
+                  "id": "the_vault:trinket",
                   "count": {
                     "type": "uniform",
                     "min": 1,
