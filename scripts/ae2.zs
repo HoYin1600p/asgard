@@ -147,6 +147,11 @@ craftingTable.addShaped("ae2_drive", <item:ae2:drive>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:ae2:engineering_processor>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
+craftingTable.addShaped("ae2_memory_card", <item:ae2:memory_card>, [
+    [<item:ae2:calculation_processor>, <item:the_vault:chromatic_iron_ingot>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:woldsvaults:chromatic_gold_ingot>, <item:minecraft:redstone>, <item:woldsvaults:chromatic_gold_ingot>]
+]);
+
 craftingTable.addShaped("ae2_formation_core", <item:ae2:formation_core>, [
     [<item:minecraft:air>, <item:the_vault:gem_larimar>, <item:minecraft:air>],
     [<tag:items:forge:gems/certus_quartz>, <item:ae2:fluix_block>, <item:ae2:logic_processor>],
