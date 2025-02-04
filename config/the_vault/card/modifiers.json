@@ -3302,10 +3302,10 @@
           "modifier": "the_vault:bronze_nuke",
           "count": 1,
           "time": {
-  "min": 100,
-  "max": 400,
-  "step": 20
-}
+            "min": 100,
+            "max": 400,
+            "step": 20
+          }
         }
       ],
       "maxTier": 1
@@ -3327,10 +3327,10 @@
           "modifier": "the_vault:kill_hunter",
           "count": 1,
           "time": {
-  "min": 100,
-  "max": 400,
-  "step": 20
-}
+            "min": 100,
+            "max": 400,
+            "step": 20
+          }
         }
       ],
       "maxTier": 1
@@ -3353,10 +3353,10 @@
           "modifier": "the_vault:kill_nuke",
           "count": 1,
           "time": {
-  "min": 100,
-  "max": 400,
-  "step": 20
-}
+            "min": 100,
+            "max": 400,
+            "step": 20
+          }
         }
       ],
       "maxTier": 1
@@ -3379,10 +3379,10 @@
           "modifier": "the_vault:kill_totem",
           "count": 1,
           "time": {
-  "min": 100,
-  "max": 400,
-  "step": 20
-}
+            "min": 100,
+            "max": 400,
+            "step": 20
+          }
         }
       ],
       "maxTier": 1
@@ -3404,10 +3404,10 @@
           "modifier": "the_vault:loot_goblin",
           "count": 1,
           "time": {
-  "min": 100,
-  "max": 400,
-  "step": 20
-}
+            "min": 100,
+            "max": 400,
+            "step": 20
+          }
         }
       ],
       "maxTier": 1
@@ -3429,10 +3429,10 @@
           "modifier": "the_vault:door_hunter",
           "count": 1,
           "time": {
-  "min": 100,
-  "max": 400,
-  "step": 20
-}
+            "min": 100,
+            "max": 400,
+            "step": 20
+          }
         }
       ],
       "maxTier": 1
@@ -4270,7 +4270,6 @@
       "highlightColor": "0x00FF00",
       "maxTier": 1
     },
-    
     "resource_bronze": {
       "type": "task_loot",
       "name": {
@@ -4358,6 +4357,102 @@
         },
         {
           "text":  " Vault Silver ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_gold": {
+      "type": "task_loot",
+      "name": {
+        "text": "Vault Gold Card"
+      },
+      "model": "the_vault:vault_gold#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:vault_gold"
+          }
+        }
+      ],
+      "task": "@hard",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Vault Gold ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_platinum": {
+      "type": "task_loot",
+      "name": {
+        "text": "Vault Platinum Card"
+      },
+      "model": "the_vault:vault_platinum#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:vault_platinum"
+          }
+        }
+      ],
+      "task": "@hard",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Vault Platinum ",
           "color": "yellow"
         },
         {
@@ -4919,7 +5014,7 @@
           "roll": {
             "type": "uniform",
             "min": 1,
-            "max": 2
+            "max": 1
           }
         }
       ],
@@ -4933,7 +5028,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Juicy Grapes ",
+          "text":  " Juicy Grape ",
           "color": "yellow"
         },
         {
@@ -4967,7 +5062,7 @@
           "roll": {
             "type": "uniform",
             "min": 1,
-            "max": 1
+            "max": 2
           }
         }
       ],
@@ -5104,7 +5199,7 @@
           }
         }
       ],
-      "task": "@extreme",
+      "task": "@impossible",
       "count": [
         {
           "tier": 1,
@@ -5231,6 +5326,150 @@
       "highlightColor": "0x00FF00",
       "maxTier": 1
     },
+    "resource_chromatic_steel_ingot": {
+      "type": "task_loot",
+      "name": {
+        "text": "Chromatic Steel Ingot Card"
+      },
+      "model": "the_vault:chromatic_steel_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:chromatic_steel_ingot"
+          }
+        }
+      ],
+      "task": "@hard",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 4
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Chromatic Steel Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_chromatic_gold_ingot": {
+      "type": "task_loot",
+      "name": {
+        "text": "Chromatic Gold Ingot Card"
+      },
+      "model": "woldsvaults:chromatic_gold_ingot#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "woldsvaults:chromatic_gold_ingot"
+          }
+        }
+      ],
+      "task": "@medium",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 4
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Chromatic Gold Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_reagent": {
+      "type": "task_loot",
+      "name": {
+        "text": "Reagent Card"
+      },
+      "model": "woldsvaults:gem_reagent_petzanite#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "woldsvaults:gem_reagent_petzanite"
+          }
+        }
+      ],
+      "task": "@hard",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Player Gem Reagent ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
     "resource_faceted_focus": {
       "type": "task_loot",
       "name": {
@@ -5279,6 +5518,347 @@
       "highlightColor": "0x00FF00",
       "maxTier": 1
     },
+
+    "resource_focus_cryonic": {
+      "type": "task_loot",
+      "name": {
+        "text": "Cryonic Focus Card"
+      },
+      "model": "the_vault:cryonic_focus#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:cryonic_focus"
+          }
+        }
+      ],
+      "task": "@impossible",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Cryonic Focus ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_focus_empowered_chaotic": {
+      "type": "task_loot",
+      "name": {
+        "text": "Empowered Chaotic Focus Card"
+      },
+      "model": "the_vault:empowered_chaotic_focus#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:empowered_chaotic_focus"
+          }
+        }
+      ],
+      "task": "@impossible",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Empowered Chaotic Focus ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_focus_pyretic": {
+      "type": "task_loot",
+      "name": {
+        "text": "Pyretic Focus Card"
+      },
+      "model": "the_vault:pyretic_focus#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:pyretic_focus"
+          }
+        }
+      ],
+      "task": "@impossible",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Pyretic Focus ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_focus_vorpal": {
+      "type": "task_loot",
+      "name": {
+        "text": "Vorpal Focus Card"
+      },
+      "model": "the_vault:vorpal_focus#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:vorpal_focus"
+          }
+        }
+      ],
+      "task": "@hard",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Vorpal Focus ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+
+    "resource_chili": {
+      "type": "task_loot",
+      "name": {
+        "text": "Burger Chili Card"
+      },
+      "model": "the_vault:burger_chili#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:burger_chili"
+          }
+        }
+      ],
+      "task": "@hard",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 2,
+            "max": 4
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Burger Chili Ingot ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+
+    "resource_arena_statue": {
+      "type": "task_loot",
+      "name": {
+        "text": "Arena Statue Card"
+      },
+      "model": "vaultadditions:loot_statue_arena#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "vaultadditions:loot_statue_arena"
+          }
+        }
+      ],
+      "task": "@extreme",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Arena Statue ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+    "resource_mega_gift_statue": {
+      "type": "task_loot",
+      "name": {
+        "text": "Mega Gift Statue Card"
+      },
+      "model": "vaultadditions:loot_statue_gift_mega#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "vaultadditions:loot_statue_gift_mega"
+          }
+        }
+      ],
+      "task": "@hard",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Mega Gift Statue ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+
+
 
     "wild_base": {
       "type": "dummy",
@@ -5338,22 +5918,22 @@
       "maxTier": 1
     },
     "wild_green": {
-    "type": "dummy",
-    "name": {
-      "text": "Green Wild Card"
-    },
-    "colors": [
-      "GREEN"
-    ],
-    "groups": [
-      "Wild",
-      "Stat",
-      "Arcane",
-      "Temporal",
-      "Resource",
-      "Evolution"
-    ],
-    "maxTier": 1
+      "type": "dummy",
+      "name": {
+        "text": "Green Wild Card"
+      },
+      "colors": [
+        "GREEN"
+      ],
+      "groups": [
+        "Wild",
+        "Stat",
+        "Arcane",
+        "Temporal",
+        "Resource",
+        "Evolution"
+      ],
+      "maxTier": 1
     },
     "wild_blue": {
       "type": "dummy",
@@ -5949,12 +6529,24 @@
         "weight": 9.0
       },
       {
+        "value": "resource_reagent",
+        "weight": 6.0
+      },
+      {
         "value": "resource_bronze",
         "weight": 64.0
       },
       {
         "value": "resource_silver",
         "weight": 48.0
+      },
+      {
+        "value": "resource_gold",
+        "weight": 32.0
+      },
+      {
+        "value": "resource_platinum",
+        "weight": 16.0
       },
       {
         "value": "resource_focus_waning",
@@ -5969,6 +6561,22 @@
         "weight": 3.0
       },
       {
+        "value": "resource_focus_vorpal",
+        "weight": 2.0
+      },
+      {
+        "value": "resource_focus_empowered_chaotic",
+        "weight": 1.0
+      },
+      {
+        "value": "resource_focus_pyretic",
+        "weight": 1.0
+      },
+      {
+        "value": "resource_focus_cryonic",
+        "weight": 1.0
+      },
+      {
         "value": "resource_focus_chaotic",
         "weight": 18.0
       },
@@ -5978,8 +6586,17 @@
       },
       {
         "value": "resource_chromatic_iron_ingot",
-        "weight": 66.0
+        "weight": 64.0
       },
+      {
+        "value": "resource_chromatic_steel_ingot",
+        "weight": 16.0
+      },
+      {
+        "value": "resource_chromatic_gold_ingot",
+        "weight": 48.0
+      },
+
       {
         "value": "resource_mod_box",
         "weight": 12.0
@@ -6002,7 +6619,7 @@
       },
       {
         "value": "resource_grapes",
-        "weight": 12.0
+        "weight": 10.0
       },
       {
         "value": "resource_lemon",
@@ -6014,7 +6631,7 @@
       },
       {
         "value": "resource_orange",
-        "weight": 3.0
+        "weight": 2.0
       },
       {
         "value": "resource_star_fruit",
@@ -6027,6 +6644,18 @@
       {
         "value": "resource_faceted_focus",
         "weight": 8.0
+      },
+      {
+        "value": "resource_chili",
+        "weight": 12.0
+      },
+      {
+        "value": "resource_arena_statue",
+        "weight": 1.0
+      },
+      {
+        "value": "resource_mega_gift_statue",
+        "weight": 2.0
       }
     ],
     "scaling": [
