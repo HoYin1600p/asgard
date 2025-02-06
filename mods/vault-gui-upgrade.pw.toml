@@ -1,13 +1,13 @@
 name = "Vault GUI Upgrade"
-filename = "vault_gui_upgrade-1.0.jar"
+filename = "vault_gui_upgrade-1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha256"
-hash = "01bf3899fcefa26381ffe26b07d888844c0fd4bbbebdad6c44f617009c23f3ce"
+hash = "000173cfb67ed4891441f40b670898d74382b363207b080f917c4a4ecb87784c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6016924
+file-id = 6164664
 project-id = 1164593
