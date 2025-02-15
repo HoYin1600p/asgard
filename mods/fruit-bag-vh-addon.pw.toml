@@ -1,0 +1,13 @@
+name = "Fruit Bag - VH Addon"
+filename = "vaultfruitbag-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "5be7284d4bf53804c641b0d2f230db2c12296f18faa518992b7eb68f90861734"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6193420
+project-id = 1186313
