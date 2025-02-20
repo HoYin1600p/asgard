@@ -3406,7 +3406,7 @@ hash = "483fff568c453f3652ca235db4200899271d64f61fa7458c78052553f121c1c0"
 
 [[files]]
 file = "config/the_vault/entity_groups.json"
-hash = "b84e5bddcd1a55cb1d87cd7fc92720a5a0fb3d3c65e8672c9f99f5570fd23691"
+hash = "83ccabe070fdcac7b9b0d63b74dd7f797bb7c4eea8a88f60047901dc37ab086e"
 
 [[files]]
 file = "config/the_vault/etching.json"
@@ -15934,7 +15934,7 @@ hash = "2a1038d281899a169f5d53abe8a2bd0b37cae654dee74ec5f788f77477ce5ab5"
 
 [[files]]
 file = "config/the_vault/researches.json"
-hash = "912f3fda83d05c336fd5a332906376db8cf56ef43d695b9020841aa3afd03677"
+hash = "47e120f3ed7e5e20a52fe8e9cd63542d170adf14ed50b7246e7434a72f0c9ae2"
 
 [[files]]
 file = "config/the_vault/researches_groups.json"
@@ -17054,7 +17054,7 @@ hash = "a1e2b159a36444019f29f5b55c3ba48c511dd3a3a23a027162c180ab7f64eae6"
 
 [[files]]
 file = "defaultconfigs/curios-server.toml"
-hash = "077297574dd0d8a7c99ae9eed223e11e78c41971a807eb4c6896e9b230e27441"
+hash = "531985e190482f3eb21d5a5792c61c53669317be38b94bc4acc6321164b31091"
 
 [[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
@@ -18331,6 +18331,10 @@ hash = "e39afbf8ae28a4b31e1f2eaddabef27a8800f06a7916ae40d1d32b3371cfa4df"
 [[files]]
 file = "kubejs/data/curios/tags/items/angelring.json"
 hash = "bedb357fe62bc85c6ae88a708fb8900976da99294e734a9db3fd4d8640d8210c"
+
+[[files]]
+file = "kubejs/data/curios/tags/items/antique.json"
+hash = "9d4c4cebdc2c33c88dd30a4921efa0e149efc09dec1cb0915f5481b63074bcba"
 
 [[files]]
 file = "kubejs/data/curios/tags/items/curio.json"
@@ -20944,7 +20948,7 @@ hash = "32ba1f3197a2e6b4c2dc7249a8f29e18b6af570252f86228b30bd98a9882c11f"
 
 [[files]]
 file = "scripts/byg.zs"
-hash = "04e1d333bfbfefcb1f5db7b097822cad88b952d71d0582da4e53b431588ed8c9"
+hash = "ac455cb7b04aec6b7b3432e9957a4bc372f72cd203a158c0394309cfa9118ec6"
 
 [[files]]
 file = "scripts/functional_storage.zs"

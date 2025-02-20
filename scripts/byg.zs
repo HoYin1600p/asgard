@@ -5,6 +5,36 @@ import mods.jei.JEI;
 
 JEI.hideIngredient(<item:byg:cryptic_bramble_branch>);
 JEI.hideIngredient(<item:byg:raw_quartz_block>);
+craftingTable.remove(<item:byg:blue_sand>);
+
+//colored sand recipes
+
+craftingTable.addShapeless("byg_black_sand", <item:byg:black_sand>*2,
+    [<tag:items:minecraft:sand>, <item:minecraft:black_dye> ]);
+
+craftingTable.addShapeless("byg_white_sand", <item:byg:white_sand>*2,
+    [<tag:items:minecraft:sand>, <item:minecraft:white_dye>,]);
+
+craftingTable.addShapeless("byg_pink_sand", <item:byg:pink_sand>*2,
+    [<tag:items:minecraft:sand>, <item:minecraft:pink_dye> ]);
+
+craftingTable.addShapeless("byg_purple_sand", <item:byg:purple_sand>*2,
+    [<tag:items:minecraft:sand>, <item:minecraft:purple_dye> ]);
+
+craftingTable.addShapeless("byg_blue_sand", <item:byg:blue_sand>*2,
+    [<tag:items:minecraft:sand>, <item:minecraft:blue_dye> ]);
+
+craftingTable.addShapeless("byg_windswept_sand", <item:byg:windswept_sand>*2,
+    [<tag:items:minecraft:sand>, <item:minecraft:magenta_dye> ]);
+
+craftingTable.addShapeless("byg_warped_soul_sand", <item:byg:warped_soul_sand>*2,
+    [<tag:items:minecraft:sand>, <item:minecraft:warped_wart_block> ]);
+
+craftingTable.addShapeless("byg_end_sand", <item:byg:end_sand>*2,
+    [<tag:items:minecraft:sand>, <item:botania:ender_air_bottle> ]);
+
+craftingTable.addShapeless("byg_crack_red_sand", <item:byg:cracked_red_sand>*2,
+    [<tag:items:minecraft:sand>, <item:minecraft:red_dye>, <item:twigs:pebble> ]);
 
 // BYG Recipes for biomes taken out
 

@@ -197,7 +197,8 @@
         "ae2",
         "ae2things",
         "aeinfinitybooster",
-        "ae2wtlib"
+        "ae2wtlib",
+        "appmek"
       ],
       "restrictions": {
         "restricts": {
@@ -217,24 +218,6 @@
         "the_vault:gear/armor/robotic/leggings",
         "the_vault:gear/armor/robotic/boots"
       ]
-    },
-    {
-
-      "modIds": [
-        "appmek"
-      ],
-      "restrictions": {
-        "restricts": {
-          "HITTABILITY": false,
-          "BLOCK_INTERACTABILITY": true,
-          "USABILITY": true,
-          "CRAFTABILITY": true,
-          "ENTITY_INTERACTABILITY": false
-        }
-      },
-      "name": "Applied Mekanistics",
-      "cost": 2,
-      "usesKnowledge": true
     },
     {
       "modIds": [
