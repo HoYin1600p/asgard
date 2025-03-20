@@ -16310,11 +16310,11 @@ hash = "398b9edb76d089d576ec34083301bdd16d4772ddbe309ec291eb84ff9058ce89"
 
 [[files]]
 file = "config/the_vault/vault_mobs.json"
-hash = "0e85a3c807ef523109c2651f61cbc168b6e8376c66be473634c2887c8a1ce8aa"
+hash = "a555a5cf988890c1f805bec08e3e91273ddf0b7e6689acc4aa7fa3766435ec21"
 
 [[files]]
 file = "config/the_vault/vault_mobs_gear.json"
-hash = "a950b59686bdbd5442e2fb1d25dd6ad3144b632917cff1e138c9f5e6d91d6fec"
+hash = "f7d1c9caf44c98a95ec3f70790a47cf150496d4e17aa37160e00add5cbd86a21"
 
 [[files]]
 file = "config/the_vault/vault_modifier_overlay.json"
@@ -17091,6 +17091,22 @@ hash = "4279f08dfa10057c0003b7e7bd3b717a7e19c00d5375b9a87e7f8783540324a1"
 [[files]]
 file = "kubejs/assets/curios/textures/slot/wireless_terminal.png"
 hash = "59cf2e60907d0926344a2e94de11ecd07e7d96253e7971364214c2a9b9a3a651"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/block/dreadstone_bricks.png"
+hash = "e757957e5fd2af43bee527fd88ea49034c8d7740f82bcb41353e268db40cf665"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/block/dreadstone_bricks_cracked.png"
+hash = "02237fc90cc8c7d1a7111c347a71716b99f0cc0d98e95ae568668f409d908aed"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/block/dreadstone_bricks_mossy.png"
+hash = "7d7128a337424e927fc3c737aa381e44a0187a3279c3e84e2dcf97b9cbbf41e3"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/block/dreadstone_tile.png"
+hash = "1fc4b4c5865a8d1a106c11c095ed2cbd21855f64a0825491849b165a0a448249"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/aqua_unobtanium_block.png"
@@ -17985,6 +18001,10 @@ file = "kubejs/assets/the_vault/textures/gui/skills/zephyrs.png"
 hash = "2d7e5c5c827d7c32d621b921e2d63a9805e89de24333365500fef2c6c72d4d45"
 
 [[files]]
+file = "kubejs/assets/the_vault/textures/item/candy_bar.png"
+hash = "d47cb7b5d54427caa6f659527e6d806878a56f7bb9777d83844875244c4ae608"
+
+[[files]]
 file = "kubejs/assets/the_vault/textures/item/catalyst/21.png"
 hash = "bcfcb886109b9394483be89902580420ee83acfac2b2ce5a1da1898f5e03807a"
 
@@ -18121,6 +18141,10 @@ file = "kubejs/assets/the_vault/textures/item/cluster_xenium.png"
 hash = "0824b6d91ee1965e3928bb87f2a953c34b1f2988231c900fac145cd58412a421"
 
 [[files]]
+file = "kubejs/assets/the_vault/textures/item/cobalt_apple.png"
+hash = "ce06745f4c166b1dad1251a64393f3eb45595156fb726fad3302ca68c26295bf"
+
+[[files]]
 file = "kubejs/assets/the_vault/textures/item/extraordinary_alexandrite.png"
 hash = "ed51f636e218b0a7a6bcab73f9dcc8e226b3629d2537b633f200ecc18a14e47f"
 
@@ -18221,6 +18245,18 @@ file = "kubejs/assets/the_vault/textures/item/gem_xenium.png"
 hash = "fcc0851021581af3aecef7fc875c47b087526cd1a55a04eee0a39b5f33505375"
 
 [[files]]
+file = "kubejs/assets/the_vault/textures/item/ghost_apple.png"
+hash = "07cba50a0c7bcb643491704c0d37487838b10c102f61ca765259fc4d405a934c"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/golem_apple.png"
+hash = "fe81114b4dc44e219315719034a1f88eba754452ab06cadf254ee2e74edda42b"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/jade_apple.png"
+hash = "f4b35bc81cb12ad23471d1a79e6879f49415a5d0f1e73108d5b01ae182f37688"
+
+[[files]]
 file = "kubejs/assets/the_vault/textures/item/key_ashium.png"
 hash = "728e2a5459b3c579ca95d5f12bccdfd1cf45920ba0af7abe890d20557bb5487b"
 
@@ -18257,6 +18293,10 @@ file = "kubejs/assets/the_vault/textures/item/key_xenium.png"
 hash = "5958473921a56c0c0c99d41fc3505a2a2f39c8aef29b2f043dc423058dcccfc5"
 
 [[files]]
+file = "kubejs/assets/the_vault/textures/item/lucky_apple.png"
+hash = "740ed2ed7392f0027fcc7a9012fe17270f426069b911e9aa3d7ca98685792aeb"
+
+[[files]]
 file = "kubejs/assets/the_vault/textures/item/offering_template.png"
 hash = "42f14b1ed354330961d77521f0daeba27611da483a4652e229758b714637ab92"
 
@@ -18287,6 +18327,30 @@ hash = "191ea85c587843c0d86f85d5b26c6a888e5c41d1decc85156e997a6c272e26c5"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/perfect_wutodie.png"
 hash = "e778285e0f0a101fcb2bce8b7de0b372929256fe1823eaaa61b95d787533a8f5"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/pixie_apple.png"
+hash = "95bf23bc5e4bfb81f103e4f217787b3d02ab67dfe19118a035bdd28aae37ee6f"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/power_apple.png"
+hash = "b8791a74e55f974826600624b2691f5b4d7b8a7de76d0b275fd65c718efc2758"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/power_bar.png"
+hash = "578f734224cbf9606163acc085eb42b91eb102934e0cab2a48b9d8cb318c365d"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/sweet_apple.png"
+hash = "3f4edd7f0e368a6f41b0941649018f5496a9fc1cb5cfa277789603dc6ae648f1"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/treasure_apple.png"
+hash = "d99a7c70d6a5b4233cfec0e3d97f2ca24af9b263bf29aa3682ebc3620d80ffc7"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/unknown_item.png"
+hash = "c21d9df06c109e6ae7a9370bd4f3aa6a1c54969bfa5fe5c09b41a48044cb3168"
 
 [[files]]
 file = "kubejs/assets/vaultadditions/sounds/abilities/tiger/activate_manashield.ogg"
@@ -18910,11 +18974,15 @@ hash = "51caac5ee0cafdbafc0c4fdd291154c31b35a182d9b2eda4e53186c93446591d"
 
 [[files]]
 file = "kubejs/startup_scripts/block_stuff.js"
-hash = "bf13a6d00351d1f51842728fab0ca9cc8f5535f492d1ee70a39251638cfc99a5"
+hash = "01e2d579c7043001310ca7955695405eef1cab109b6dff980643f25ff1d24f96"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
 hash = "4a0f0a326f879d9f5186678727cbb05539bd82bb150985f5a70c5d50eeb135ec"
+
+[[files]]
+file = "kubejs/startup_scripts/vault_consumables.js"
+hash = "d8a3eb7cc443f57ff25359a5141bf25b6636d3954870cd5c89f8f7422efec4f3"
 
 [[files]]
 file = "mods/Card Deck Optimization-1.1.1.jar"
