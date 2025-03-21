@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/dreadlands_day_starts",
+  "rooms": "the_vault:vault/rooms/dreadlands_day_rooms",
+  "tunnels": "the_vault:vault/tunnels/dreadlands_day_tunnels",
+  "ambient_light": 0.1,
+  "fog_color": 5534602,
+  "grass_color": 2375250,
+  "foliage_color": 2375250,
+  "water_color": 5534602,
+  "water_fog_color": 5534602,
+  "particle": "minecraft:soul",
+  "particle_probability": 0.001
+}
