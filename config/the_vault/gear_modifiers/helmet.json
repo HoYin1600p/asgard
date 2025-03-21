@@ -140,7 +140,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": 13,
+            "maxLevel": 19,
             "weight": 100,
             "value": {
               "min": 3,
@@ -150,7 +150,7 @@
           },
           {
             "minLevel": 14,
-            "maxLevel": 26,
+            "maxLevel": 39,
             "weight": 100,
             "value": {
               "min": 6,
@@ -160,7 +160,7 @@
           },
           {
             "minLevel": 27,
-            "maxLevel": 39,
+            "maxLevel": 51,
             "weight": 100,
             "value": {
               "min": 8,
@@ -170,7 +170,7 @@
           },
           {
             "minLevel": 40,
-            "maxLevel": 51,
+            "maxLevel": 64,
             "weight": 100,
             "value": {
               "min": 11,
@@ -180,7 +180,7 @@
           },
           {
             "minLevel": 52,
-            "maxLevel": 64,
+            "maxLevel": 73,
             "weight": 100,
             "value": {
               "min": 14,
@@ -190,7 +190,7 @@
           },
           {
             "minLevel": 65,
-            "maxLevel": -1,
+            "maxLevel": 85,
             "weight": 100,
             "value": {
               "min": 17,
@@ -200,7 +200,7 @@
           },
           {
             "minLevel": 74,
-            "maxLevel": -1,
+            "maxLevel": 96,
             "weight": 100,
             "value": {
               "min": 21,
@@ -314,7 +314,7 @@
           },
           {
             "minLevel": 34,
-            "maxLevel": 79,
+            "maxLevel": 70,
             "weight": 100,
             "value": {
               "min": 17.0,
@@ -324,7 +324,7 @@
           },
           {
             "minLevel": 47,
-            "maxLevel": -1,
+            "maxLevel": 79,
             "weight": 100,
             "value": {
               "min": 21.0,
@@ -334,7 +334,7 @@
           },
           {
             "minLevel": 62,
-            "maxLevel": -1,
+            "maxLevel": 85,
             "weight": 100,
             "value": {
               "min": 25.0,
@@ -344,7 +344,7 @@
           },
           {
             "minLevel": 71,
-            "maxLevel": -1,
+            "maxLevel": 95,
             "weight": 100,
             "value": {
               "min": 29.0,
@@ -390,7 +390,7 @@
         "tiers": [
           {
             "minLevel": 25,
-            "maxLevel": -1,
+            "maxLevel": 90,
             "weight": 80,
             "value": {
               "min": 0.02,
@@ -400,11 +400,31 @@
           },
           {
             "minLevel": 40,
-            "maxLevel": -1,
+            "maxLevel": 99,
             "weight": 80,
             "value": {
               "min": 0.05,
               "max": 0.06,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 91,
+            "maxLevel": -1,
+            "weight": 80,
+            "value": {
+              "min": 0.07,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 40,
+            "value": {
+              "min": 0.09,
+              "max": 0.1,
               "step": 0.01
             }
           }
