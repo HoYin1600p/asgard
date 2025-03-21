@@ -19,8 +19,8 @@
       "icon": "the_vault:gui/skills/blacksmithing"
     },
     "Angel": {
-      "x": 350,
-      "y": 190,
+      "x": 210,
+      "y": 70,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/angel"
     },
@@ -29,6 +29,12 @@
       "y": 260,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/bounty_hunter"
+    },
+    "Lapidarist": {
+      "x": 350,
+      "y": 190,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/jeweller"
     },
     "Marketer": {
       "x": 350,

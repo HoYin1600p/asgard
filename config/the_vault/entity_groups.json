@@ -65,7 +65,8 @@
       "the_vault:vault_fighter_1",
       "the_vault:vault_fighter_2",
       "the_vault:vault_fighter_3",
-      "the_vault:vault_fighter_4"
+      "the_vault:vault_fighter_4",
+      "iceandfire:dread_knight"
     ],
     "the_vault:mobs": [
       "@the_vault:husk",
@@ -166,7 +167,8 @@
       "the_vault:t1_plastic_zombie",
       "the_vault:t2_plastic_zombie",
       "the_vault:t3_plastic_zombie",
-      "the_vault:t4_plastic_zombie"
+      "the_vault:t4_plastic_zombie",
+      "iceandfire:dread_ghoul"
     ],
     "the_vault:assassin": [
       "the_vault:deep_dark_silverfish",
@@ -230,7 +232,9 @@
       "the_vault:t5_cave_skeleton",
       "the_vault:overgrown_woodman_t0",
       "the_vault:overgrown_woodman_t1",
-      "the_vault:overgrown_woodman_t2"
+      "the_vault:overgrown_woodman_t2",
+      "iceandfire:dread_beast",
+      "iceandfire:dread_thrall"
     ],
     "the_vault:tank": [
       "the_vault:shiver",
@@ -246,7 +250,9 @@
       "rottencreatures:mummy",
       "rottencreatures:glacial_hunter",
       "the_vault:blood_tank",
-      "the_vault:overgrown_tank"
+      "the_vault:overgrown_tank",
+      "iceandfire:dread_lich",
+      "iceandfire:dread_scuttler"
     ],
     "the_vault:guardian": [
       "the_vault:bruiser_guardian",
@@ -329,6 +335,15 @@
       "the_vault:elite_witch",
       "the_vault:elite_wither_skeleton",
       "the_vault:elite_zombie"
+    ],
+    "iceandfire:dread": [
+      "iceandfire:dread_thrall",
+      "iceandfire:dread_ghoul",
+      "iceandfire:dread_beast",
+      "iceandfire:dread_lich",
+      "iceandfire:dread_knight",
+      "iceandfire:dread_scuttler",
+      "iceandfire:dread_horse"
     ]
   }
 }
