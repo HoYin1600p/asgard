@@ -85,7 +85,7 @@ craftingTable.addShapeless("modularrouters_extruder_module_2", <item:modularrout
     <item:modularrouters:extruder_module_1>, <item:the_vault:gem_pog>
 ]);
 
-craftingTable.addShaped("modularrouters_speed_upgrade", <item:modularrouters:speed_upgrade>, [
+craftingTable.addShaped("modularrouters_speed_upgrade", <item:modularrouters:speed_upgrade> *3, [
     [<item:the_vault:red_vault_essence>, <item:woldsvaults:chromatic_gold_ingot>, <item:the_vault:red_vault_essence>],
     [<item:woldsvaults:chromatic_gold_nugget>, <item:modularrouters:blank_upgrade>, <item:woldsvaults:chromatic_gold_nugget>],
     [<item:the_vault:vault_essence>, <item:minecraft:blaze_rod>, <item:the_vault:vault_essence>]

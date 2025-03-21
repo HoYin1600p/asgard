@@ -88,7 +88,20 @@ var augment = [
     "chipped/philosopher_workbench_upgrade",
     "chipped/tinkerer_workbench_upgrade",
     "storage_link",
-    "controller"
+    "controller",
+    "storage_tool",
+    "debug_tool"
+];
+
+var backpack_upgrade = [
+    "chipped/botanist_workbench_upgrade",
+    "chipped/glassblower_workbench_upgrade",
+    "chipped/carpenter_workbench_upgrade",
+    "chipped/shepherd_workbench_upgrade",
+    "chipped/mason_workbench_upgrade",
+    "chipped/philosopher_workbench_upgrade",
+    "chipped/tinkerer_workbench_upgrade",
+    "anvil_upgrade"
 ];
 
 
@@ -105,6 +118,13 @@ for item in augment{
     craftingTable.remove(<item:sophisticatedstorage:${item}>);
     JEI.hideIngredient(<item:sophisticatedstorage:${item}>);
 }
+
+for item in backpack_upgrade{
+    //removing all the things
+    craftingTable.remove(<item:sophisticatedbackpacks:${item}>);
+    JEI.hideIngredient(<item:sophisticatedbackpacks:${item}>);
+}
+
 
 craftingTable.remove(<item:sophisticatedstorage:filter_upgrade>);
 craftingTable.remove(<item:sophisticatedstorage:advanced_filter_upgrade>);
@@ -307,11 +327,12 @@ craftingTable.addShaped("storage_advanced_void_upgrade", <item:sophisticatedstor
 
 
 // tools
-craftingTable.addShaped("sophisticated_storage_tool", <item:sophisticatedstorage:storage_tool>, [
-       [<item:minecraft:air>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>],
-       [<item:minecraft:air>, <item:minecraft:stick>, <item:the_vault:red_vault_essence>],
-       [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:air>]
-]);
+//craftingTable.addShaped("sophisticated_storage_tool", <item:sophisticatedstorage:storage_tool>, [
+//       [<item:minecraft:air>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>],
+//       [<item:minecraft:air>, <item:minecraft:stick>, <item:the_vault:red_vault_essence>],
+//       [<item:minecraft:stick>, <item:minecraft:air>, <item:minecraft:air>]
+//]);
+
 craftingTable.addShapeless("sophisticated_packing_tape", <item:sophisticatedstorage:packing_tape>, [
     <item:minecraft:slime_ball>, <item:minecraft:paper>, <item:the_vault:vault_essence>
 ]);
