@@ -350,6 +350,20 @@
       },
       {
         "type": "tiered",
+        "id": "Lapidarist",
+        "name": "Lapidarist",
+        "tiers": [
+          {
+            "type": "jeweler",
+            "additionalIdentifiedJewels": 1,
+            "learnPointCost": 2,
+            "regretPointCost": 0,
+            "unlockLevel": 0
+          }
+        ]
+      },
+      {
+        "type": "tiered",
         "id": "Marketer",
         "name": "Marketer",
         "tiers": [

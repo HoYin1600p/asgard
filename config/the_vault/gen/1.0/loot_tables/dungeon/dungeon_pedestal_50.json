@@ -22,17 +22,6 @@
               }
             },
             {
-              "weight": 120,
-              "item": {
-                "id": "the_vault:perfect_black_opal",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            },
-            {
               "weight": 40,
               "item": {
                 "id": "woldsvaults:gem_box",
@@ -44,7 +33,7 @@
               }
             },
             {
-              "weight": 40,
+              "weight": 20,
               "item": {
                 "id": "woldsvaults:augment_box",
                 "count": {
@@ -55,7 +44,7 @@
               }
             },
             {
-              "weight": 10,
+              "weight": 5,
               "item": {
                 "id": "woldsvaults:omega_box",
                 "count": {
@@ -66,7 +55,7 @@
               }
             },
             {
-              "weight": 10,
+              "weight": 20,
               "item": {
                 "id": "woldsvaults:inscription_box",
                 "count": {
@@ -297,9 +286,64 @@
               }
             },
             {
-              "weight": 5,
+              "weight": 10,
               "item": {
                 "id": "woldsvaults:general_decor_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 60,
+              "item": {
+                "id": "the_vault:power_bar",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 60,
+              "item": {
+                "id": "the_vault:candy_bar",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:jade_apple",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 5,
+              "item": {
+                "id": "the_vault:ghost_apple",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "woldsvaults:resonating_reinforcement",
                 "count": {
                   "type": "uniform",
                   "min": 1,

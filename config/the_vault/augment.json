@@ -118,6 +118,12 @@
     "the_vault:classic_vault_blood_moon": {
       "the_vault:augment{theme:\"the_vault:classic_vault_blood_moon\"}": 5
     },
+    "the_vault:classic_vault_dreadlands_day": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_day\"}": 5
+    },
+    "the_vault:classic_vault_dreadlands_night": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_night\"}": 5
+    },
     "the_vault:classic_vault_flesh": {
       "the_vault:augment{theme:\"the_vault:classic_vault_flesh\"}": 5
     },
@@ -199,7 +205,13 @@
       "the_vault:augment{theme:\"the_vault:classic_vault_season_winter\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_shipwreck\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_sweet\"}": 5,
-      "the_vault:augment{theme:\"the_vault:classic_vault_void\"}": 5
+      "the_vault:augment{theme:\"the_vault:classic_vault_void\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_day\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_night\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_idonis\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_altenous\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_veldallum\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_wendtoh\"}": 5
     },
     "the_vault:classic_vault_chaos_cake": {
       "the_vault:augment{theme:\"the_vault:classic_vault_aurora_cave\"}": 5,
@@ -240,7 +252,14 @@
       "the_vault:augment{theme:\"the_vault:classic_vault_season_winter\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_shipwreck\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_sweet\"}": 5,
-      "the_vault:augment{theme:\"the_vault:classic_vault_void\"}": 5
+      "the_vault:augment{theme:\"the_vault:classic_vault_void\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_day\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_night\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_idonis\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_altenous\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_veldallum\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_wendtoh\"}": 5
+
     },
     "the_vault:classic_vault_season_spring": {
       "the_vault:augment{theme:\"the_vault:classic_vault_season_spring\"}": 5
@@ -286,6 +305,18 @@
     },
     "the_vault:classic_vault_idona_normal": {
       "minecraft:air": 1
+    },
+   "the_vault:classic_vault_ancient_idonis": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_idonis\"}": 5
+    },
+    "the_vault:classic_vault_ancient_altenous": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_altenous\"}": 5
+    },
+    "the_vault:classic_vault_ancient_veldallum": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_veldallum\"}": 5
+    },
+    "the_vault:classic_vault_ancient_wendtoh": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_wendtoh\"}": 5
     },
     "the_vault:classic_vault_intermediary": {
       "the_vault:augment{theme:\"the_vault:classic_vault_intermediary\"}": 5

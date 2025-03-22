@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/desert_starts",
+  "rooms": "the_vault:vault/rooms/desert_rooms",
+  "tunnels": "the_vault:vault/tunnels/desert_tunnels",
+  "ambient_light": 0.2,
+  "fog_color": 6737150,
+  "grass_color": 6737150,
+  "foliage_color": 6737150,
+  "water_color": 6737150,
+  "water_fog_color": 6737150,
+  "particle": "minecraft:block sand",
+  "particle_probability": 0.002
+}

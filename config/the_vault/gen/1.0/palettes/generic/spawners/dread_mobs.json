@@ -1,0 +1,421 @@
+{
+  "tile_processors": [
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "ispawner:spawner{group:standard}",
+          "output": {
+            "ispawner:spawner{ Inventory: { Stacks: [ {id: \"iceandfire:spawn_egg_dread_knight\", Count: 10}, {id: \"iceandfire:spawn_egg_dread_thrall\", Count: 10}, {id: \"ispawner:spawn_egg\", Count: 4, tag: {EntityTag:{id:\"iceandfire:spawn_egg_dread_ghoul\"}}} ] } }": 1
+          }
+        },
+        {
+          "level": 20,
+          "type": "weighted_target",
+          "target": "ispawner:spawner{group:standard}",
+          "output": {
+            "ispawner:spawner{ Inventory: { Stacks: [ {id: \"iceandfire:spawn_egg_dread_knight\", Count: 10}, {id: \"iceandfire:spawn_egg_dread_thrall\", Count: 7}, {id: \"iceandfire:spawn_egg_dread_beast\", Count: 3}, {id: \"ispawner:spawn_egg\", Count: 1, tag: {EntityTag:{id:\"iceandfire:spawn_egg_dread_ghoul\"}}} ] } }": 1
+          }
+        },
+        {
+          "level": 25,
+          "type": "weighted_target",
+          "target": "ispawner:spawner{group:standard}",
+          "output": {
+            "ispawner:spawner{ Inventory: { Stacks: [ {id: \"iceandfire:spawn_egg_dread_knight\", Count: 11}, {id: \"iceandfire:spawn_egg_dread_horse\", Count: 5}, {id: \"iceandfire:spawn_egg_dread_thrall\", Count: 7}, {id: \"iceandfire:spawn_egg_dread_beast\", Count: 3}, {id: \"ispawner:spawn_egg\", Count: 1, tag: {EntityTag:{id:\"iceandfire:spawn_egg_dread_ghoul\"}}} ] } }": 1
+          }
+        },
+        {
+          "level": 70,
+          "type": "weighted_target",
+          "target": "ispawner:spawner{group:standard}",
+          "output": {
+            "ispawner:spawner{ Inventory: { Stacks: [ {id: \"iceandfire:spawn_egg_dread_knight\", Count: 16}, {id: \"iceandfire:spawn_egg_dread_horse\", Count: 8}, {id: \"iceandfire:spawn_egg_dread_lich\", Count: 2}, {id: \"iceandfire:spawn_egg_dread_thrall\", Count: 14}, {id: \"iceandfire:spawn_egg_dread_beast\", Count: 6}, {id: \"ispawner:spawn_egg\", Count: 4, tag: {EntityTag:{id:\"iceandfire:spawn_egg_dread_ghoul\"}}} ] } }": 1
+          }
+        },
+        {
+          "level": 80,
+          "type": "weighted_target",
+          "target": "ispawner:spawner{group:standard}",
+          "output": {
+            "ispawner:spawner{ Inventory: { Stacks: [ {id: \"iceandfire:spawn_egg_dread_knight\", Count: 16}, {id: \"iceandfire:spawn_egg_dread_horse\", Count: 8}, {id: \"iceandfire:spawn_egg_dread_lich\", Count: 2}, {id: \"iceandfire:spawn_egg_dread_thrall\", Count: 14}, {id: \"iceandfire:spawn_egg_dread_beast\", Count: 6}, {id: \"ispawner:spawn_egg\", Count: 7, tag: {EntityTag:{id:\"iceandfire:spawn_egg_dread_ghoul\"}}} ] } }": 1
+          }
+        },
+        {
+          "level": 90,
+          "type": "weighted_target",
+          "target": "ispawner:spawner{group:standard}",
+          "output": {
+            "ispawner:spawner{ Inventory: { Stacks: [ {id: \"iceandfire:spawn_egg_dread_knight\", Count: 16}, {id: \"iceandfire:spawn_egg_dread_horse\", Count: 8}, {id: \"iceandfire:spawn_egg_dread_lich\", Count: 2}, {id: \"iceandfire:spawn_egg_dread_thrall\", Count: 14}, {id: \"iceandfire:spawn_egg_dread_beast\", Count: 6}, {id: \"ispawner:spawn_egg\", Count: 10, tag: {EntityTag:{id:\"iceandfire:spawn_egg_dread_ghoul\"}}} ] } }": 1
+          }
+        },
+        {
+          "level": 100,
+          "type": "weighted_target",
+          "target": "ispawner:spawner{group:standard}",
+          "output": {
+            "ispawner:spawner{ Inventory: { Stacks: [ {id: \"iceandfire:spawn_egg_dread_knight\", Count: 20}, {id: \"iceandfire:spawn_egg_dread_horse\", Count: 10}, {id: \"iceandfire:spawn_egg_dread_lich\", Count: 2}, {id: \"iceandfire:spawn_egg_dread_thrall\", Count: 20}, {id: \"iceandfire:spawn_egg_dread_beast\", Count: 10}, {id: \"ispawner:spawn_egg\", Count: 4, tag: {EntityTag:{id:\"iceandfire:spawn_egg_dread_ghoul\"}}} ] } }": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:tank}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_scuttler": 1
+
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 65,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:tank}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_lich": 1,
+                "iceandfire:dread_scuttler": 4
+              },
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 2
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 7,
+                "iceandfire:dread_beast": 3
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 30,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 7,
+                "iceandfire:dread_beast": 3
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 40,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 7,
+                "iceandfire:dread_beast": 3
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 50,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 7,
+                "iceandfire:dread_beast": 3
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 60,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 7,
+                "iceandfire:dread_beast": 3
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 65,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 6,
+                "iceandfire:dread_beast": 4
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 70,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 6,
+                "iceandfire:dread_beast": 4
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 80,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 6,
+                "iceandfire:dread_beast": 4
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 90,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 6,
+                "iceandfire:dread_beast": 4
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 100,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:assassin}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_thrall": 5,
+                "iceandfire:dread_beast": 5
+              },
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 12
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 20,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 12
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 25,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 4
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 30,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 4
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 40,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 4
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 50,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 17
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 55,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 15
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 60,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 34
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 65,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 38
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 70,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 30
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 80,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 10
+              },
+              "weight": 1
+            }
+          ]
+        },
+        {
+          "level": 90,
+          "type": "spawner",
+          "target": "ispawner:spawner{group:horde}",
+          "output": [
+            {
+              "elements": {
+                "iceandfire:dread_ghoul": 20
+              },
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/spawners/group_settings"
+    }
+  ]
+}

@@ -359,6 +359,42 @@
         "amountMax": 1
       },
       "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:augment",
+        "nbt": "{theme:\"the_vault:classic_vault_ancient_idonis\"}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:augment",
+        "nbt": "{theme:\"the_vault:classic_vault_ancient_altenous\"}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:augment",
+        "nbt": "{theme:\"the_vault:classic_vault_ancient_veldallum\"}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:augment",
+        "nbt": "{theme:\"the_vault:classic_vault_ancient_wendtoh\"}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
     }
   ]
 }

@@ -1960,6 +1960,14 @@
       }
     },
     {
+      "id": "the_vault:vault/rooms/omega/pixel",
+      "name": "Omega Pixel",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/pixel.nbt"
+      }
+    },
+    {
       "id": "the_vault:vault/rooms/omega/mine1",
       "name": "Omega Mine 1",
       "1.0": {
@@ -4535,6 +4543,235 @@
         "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/brush4.nbt"
       }
     },
+
+
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_boots_hanging",
+      "name": "Omega Pixel Boots 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_boots_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_leggings_hanging",
+      "name": "Omega Pixel Leggings 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_leggings_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_chest_hanging",
+      "name": "Omega Pixel Chest 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_chest_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_helmet_hanging",
+      "name": "Omega Pixel Helmet 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_helmet_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_sword_hanging",
+      "name": "Omega Pixel Sword 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_sword_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_totem_hanging",
+      "name": "Omega Pixel Totem 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_totem_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_cata_hanging",
+      "name": "Omega Pixel Cata 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_cata_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_mod_hanging",
+      "name": "Omega Pixel Modbox 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_mod_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_omega_hanging",
+      "name": "Omega Pixel OmegaBox 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_omega_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_mystery_hanging",
+      "name": "Omega Pixel Mystery 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_mystery_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_bronze_hanging",
+      "name": "Omega Pixel Bronze 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_bronze_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_silver_hanging",
+      "name": "Omega Pixel Silver 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_silver_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_gold_hanging",
+      "name": "Omega Pixel Gold 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_gold_hanging.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_platinum_hanging",
+      "name": "Omega Pixel Platinum 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_platinum_hanging.nbt"
+      }
+    },
+
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_boots_floor",
+      "name": "Omega Pixel Boots 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_boots_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_leggings_floor",
+      "name": "Omega Pixel Leggings 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_leggings_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_chest_floor",
+      "name": "Omega Pixel Chest 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_chest_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_helmet_floor",
+      "name": "Omega Pixel Helmet 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_helmet_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_sword_floor",
+      "name": "Omega Pixel Sword 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_sword_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_totem_floor",
+      "name": "Omega Pixel Totem 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_totem_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_cata_floor",
+      "name": "Omega Pixel Cata 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_cata_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_mod_floor",
+      "name": "Omega Pixel Modbox 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_mod_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_omega_floor",
+      "name": "Omega Pixel OmegaBox 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_omega_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_mystery_floor",
+      "name": "Omega Pixel Mystery 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_mystery_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_bronze_floor",
+      "name": "Omega Pixel Bronze 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_bronze_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_silver_floor",
+      "name": "Omega Pixel Silver 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_silver_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_gold_floor",
+      "name": "Omega Pixel Gold 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_gold_floor.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/pixel_platinum_floor",
+      "name": "Omega Pixel Platinum 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_platinum_floor.nbt"
+      }
+    },
+
+
     {
       "id": "the_vault:vault/decor/vendor/fort_house1",
       "name": "Omega Vendor Fort House 1",
@@ -4557,6 +4794,86 @@
       "1.0": {
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/fort_house3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_shop_closed1",
+      "name": "Omega Millennium Closed Shop 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/sewer_shop_closed1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_shop_closed2",
+      "name": "Omega Millennium Closed Shop 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/sewer_shop_closed2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_shop_closed3",
+      "name": "Omega Millennium Closed Shop 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/sewer_shop_closed3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_shop_closed4",
+      "name": "Omega Millennium Closed Shop 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/sewer_shop_closed4.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_shop_closed5",
+      "name": "Omega Millennium Closed Shop 5",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/sewer_shop_closed5.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_shop_open1",
+      "name": "Omega Millennium Open Shop 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/sewer_shop_open1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_shop_open2",
+      "name": "Omega Millennium Open Shop 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/sewer_shop_open2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_shop_open3",
+      "name": "Omega Millennium Open Shop 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/sewer_shop_open3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_stall",
+      "name": "Omega Millennium Sewer Stall",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/sewer_stall.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/teacup",
+      "name": "Omega Millennium Tea Cup",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/vendor/teacup.nbt"
       }
     },
     {

@@ -12,6 +12,10 @@
         "reference": "the_vault:vault/rooms/challenge/village"
       },
       {
+        "weight": 0,
+        "reference": "the_vault:vault/rooms/challenge/wildwest"
+      },
+      {
         "weight": 6,
         "reference": "the_vault:vault/rooms/challenge/factory"
       },

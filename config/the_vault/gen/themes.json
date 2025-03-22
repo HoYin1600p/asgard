@@ -304,6 +304,18 @@
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_flesh.json"
     },
     {
+      "id": "the_vault:classic_vault_dreadlands_day",
+      "name": "Dread: Dreadlands Day",
+      "color": 5534602,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_dreadlands_day.json"
+    },
+    {
+      "id": "the_vault:classic_vault_dreadlands_night",
+      "name": "Dread: Dreadlands Night",
+      "color": 6523760,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_dreadlands_night.json"
+    },
+    {
       "id": "the_vault:classic_vault_aurora_cave",
       "name": "Snowfall: Aurora",
       "color": 4533914,
@@ -488,6 +500,30 @@
       "name": "Bloodveil: Ashen",
       "color": 9109504,
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_blood_ash.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ancient_idonis",
+      "name": "Ancient: Idonis",
+      "color": 6629164,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ancient_idonis.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ancient_altenos",
+      "name": "Ancient: Altenous",
+      "color": 2571661,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ancient_altenos.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ancient_veldallum",
+      "name": "Ancient: Veldallum",
+      "color": 59955,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ancient_veldallum.json"
+    },
+    {
+      "id": "the_vault:classic_vault_ancient_wendtoh",
+      "name": "Ancient: Ankh Wendtoh",
+      "color": 16698419,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_ancient_wendtoh.json"
     }
   ]
 }

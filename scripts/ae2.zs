@@ -27,6 +27,10 @@ craftingTable.addShaped("ae2_controller", <item:ae2:controller>, [
     [<item:the_vault:chromatic_steel_ingot>, <item:ae2:fluix_crystal>, <item:the_vault:chromatic_steel_ingot>]
 ]);
 
+craftingTable.addShaped("ae2_biometric_card", <item:ae2:biometric_card>, [
+    [<item:ae2:engineering_processor>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>],
+    [<item:woldsvaults:chromatic_gold_ingot>, <item:the_vault:red_vault_essence>, <item:woldsvaults:chromatic_gold_ingot>]
+]);
 
 // <recipetype:ae2:inscriber>.addJsonRecipe("ae2_logic_processor", { 
 // "result": {"item": "ae2:logic_processor"},
@@ -254,10 +258,8 @@ craftingTable.addShaped("ae2_crafting_unit", <item:ae2:crafting_unit>, [
     [<item:the_vault:chromatic_iron_ingot>, <item:ae2:calculation_processor>, <item:the_vault:chromatic_iron_ingot>]
 ]);
 
-craftingTable.addShaped("ae2_wireless_crafting_terminal", <item:ae2:wireless_crafting_terminal>, [
-    [<item:minecraft:air>, <item:ae2:wireless_receiver>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:ae2:crafting_terminal>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:ae2:dense_energy_cell>, <item:minecraft:air>]
+craftingTable.addShapeless("ae2_wireless_crafting_terminal", <item:ae2:wireless_crafting_terminal>, [
+   <item:ae2:crafting_terminal>, <item:ae2:wireless_receiver>, <item:the_vault:echo_pog>, <item:ae2:dense_energy_cell>
 ]);
 
 craftingTable.addShapeless("ae2_shapeless_wireless_crafting_terminal", <item:ae2:wireless_crafting_terminal>, [

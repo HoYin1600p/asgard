@@ -26,9 +26,9 @@
           },
           {
             "level": 50,
-            "probability": 0.15,
+            "probability": 1.0,
             "success": {
-              "the_vault:vendor_door": 2,
+              "the_vault:vendor_door": 0,
               "the_vault:treasure_door": 1
             },
             "failure": {
@@ -67,6 +67,21 @@
       },
       {
         "type": "weighted_target",
+        "target": "the_vault:echo_treasure_door",
+        "output": [
+          {
+            "Pool": "the_vault:vault/treasure_rooms/treasure_rooms",
+            "Target": "the_vault:treasure_room",
+            "Palettes": [
+              "the_vault:treasure_rooms/treasure_rooms"
+            ],
+            "weight": 1
+          }
+        ]
+      },
+
+      {
+        "type": "weighted_target",
         "target": "the_vault:treasure_door",
         "output": {
           "[type=iskallium]": 1,
@@ -77,7 +92,8 @@
           "[type=tubium]": 1,
           "[type=gorginite]": 1,
           "[type=bomignite]": 1,
-          "[type=ashium]": 1
+          "[type=ashium]": 1,
+          "[type=puffium]": 1
         }
       },
       {

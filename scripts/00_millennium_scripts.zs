@@ -53,7 +53,6 @@ JEI.hideIngredient(<item:the_vault:drill_arrow_part>);
 JEI.hideIngredient(<item:the_vault:drill_arrow>);
 JEI.hideIngredient(<item:the_vault:card>);
 JEI.hideIngredient(<item:the_vault:title_scroll>);
-JEI.hideIngredient(<item:the_vault:vault_apple>);
 JEI.hideIngredient(<item:the_vault:hearty_apple>);
 JEI.hideIngredient(<item:the_vault:magnetite>);
 JEI.hideIngredient(<item:the_vault:magnetite_ingot>);
@@ -127,6 +126,7 @@ craftingTable.remove(<item:the_vault:gem_sparkletine>);
 craftingTable.remove(<item:the_vault:gem_xenium>);
 craftingTable.remove(<item:the_vault:gem_upaline>);
 craftingTable.remove(<item:the_vault:gem_bomignite>);
+craftingTable.remove(<item:the_vault:mod_box>);
 
 //Wolds
 JEI.hideIngredient(<item:woldsvaults:enigma_egg>);
@@ -339,6 +339,11 @@ craftingTable.addShaped("vault_doll3", <item:the_vault:vault_doll>, [
     [<item:the_vault:memory_shard>, <item:the_vault:extraordinary_benitoite>, <item:the_vault:memory_shard>]
 ]);
 
+craftingTable.addShaped("mod_box", <item:the_vault:mod_box>, [
+    [<item:the_vault:vault_diamond>, <item:the_vault:knowledge_star_shard>, <item:the_vault:vault_diamond>],
+    [<item:the_vault:knowledge_star_shard>, <item:the_vault:extraordinary_benitoite>, <item:the_vault:knowledge_star_shard>],
+    [<item:the_vault:vault_diamond>, <item:the_vault:knowledge_star_shard>, <item:the_vault:vault_diamond>]
+]);
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -538,5 +543,65 @@ for gem in vault_gem {
 craftingTable.addShapeless("gem_transmogrification_petzanite", <item:the_vault:gem_petzanite> *2, [
         <item:woldsvaults:gem_reagent_petzanite>, <item:the_vault:gem_petzanite>
     ]);
+
+// vault consumables
+
+craftingTable.addShaped("vault_apple", <item:the_vault:vault_apple>, [
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:minecraft:apple>, <item:woldsvaults:compressed_vault_essence>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("power_apple", <item:the_vault:power_apple>, [
+    [<item:the_vault:power_bar>, <item:the_vault:red_vault_essence>, <item:the_vault:power_bar>],
+    [<item:the_vault:gem_black_opal>, <item:the_vault:vault_apple>, <item:the_vault:gem_black_opal>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("sweet_apple", <item:the_vault:sweet_apple>, [
+    [<item:the_vault:candy_bar>, <item:the_vault:red_vault_essence>, <item:the_vault:candy_bar>],
+    [<item:the_vault:gem_black_opal>, <item:the_vault:vault_apple>, <item:the_vault:gem_black_opal>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("cobalt_apple", <item:the_vault:cobalt_apple>, [
+    [<item:minecraft:magma_cream>, <item:the_vault:red_vault_essence>, <item:minecraft:magma_cream>],
+    [<item:the_vault:perfect_benitoite>, <item:the_vault:vault_apple>, <item:the_vault:perfect_benitoite>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("pixie_apple", <item:the_vault:pixie_apple>, [
+    [<item:minecraft:phantom_membrane>, <item:the_vault:red_vault_essence>, <item:minecraft:phantom_membrane>],
+    [<item:the_vault:perfect_alexandrite>, <item:the_vault:vault_apple>, <item:the_vault:perfect_alexandrite>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("golem_apple", <item:the_vault:golem_apple>, [
+    [<item:the_vault:vault_alloy>, <item:the_vault:red_vault_essence>, <item:the_vault:vault_alloy>],
+    [<item:the_vault:perfect_painite>, <item:the_vault:vault_apple>, <item:the_vault:perfect_painite>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
