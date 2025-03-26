@@ -1,13 +1,13 @@
 name = "Wold's Vaults Standalone"
-filename = "woldsvaultsstandalone-0.15.10.jar"
+filename = "woldsvaultsstandalone-0.15.12.jar"
 side = "both"
 
 [download]
 hash-format = "sha256"
-hash = "4cd36e7c989e8e427c7a185c616f4bc7f887c37630cc75602566dc3482f410df"
+hash = "fec24b16d536bd6b6e18ad06b009bc984dea602c6806302fbdbff5dc71be5519"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6127038
+file-id = 6319118
 project-id = 1132404
