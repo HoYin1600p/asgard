@@ -8,69 +8,72 @@
             "type": "weighted_target",
             "target": "minecraft:stone",
             "output": {
-                "minecraft:smooth_sandstone": 3,
-                "minecraft:sandstone": 3,
-                "auxiliaryblocks:dirty_sand": 2,
-                "quark:sandstone_bricks": 1
+                "chipped:sandstone_24": 3,
+                "chipped:sandstone_66": 3,
+                "chipped:sandstone_67": 2,
+                "chipped:sandstone_26": 1,
+                "chipped:sandstone_34": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone",
             "output": {
-                "minecraft:smooth_sandstone": 1,
-                "minecraft:sandstone": 1,
-                "quark:sandstone_bricks": 1
+                "quark:limestone": 1,
+                "quark:polished_limestone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:gray_concrete",
             "output": {
-                "minecraft:smooth_red_sandstone": 1,
-                "minecraft:yellow_terracotta": 1,
-                "minecraft:orange_terracotta": 1,
-                "minecraft:terracotta": 1,
-                "minecraft:red_sandstone": 1
+                "botania:metamorphic_desert_stone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:grass_block",
             "output": {
-                "minecraft:sand": 1
+                "stoneworks:cracked_sandstone_tiles": 10,
+                "stoneworks:cobbled_sandstone": 15,
+                "stoneworks:sandstone_tiles": 65,
+                "chipped:sandstone_61": 10,
+                "stoneworks:red_sandstone_tiles": 5
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:sandstone": 1
+                "botania:metamorphic_desert_bricks": 1,
+                "minecraft:sand": 3
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:coarse_dirt",
             "output": {
-                "auxiliaryblocks:cobbled_sandstone": 3,
-                "auxiliaryblocks:dirty_sand": 4,
-                "auxiliaryblocks:rocky_sand": 1
+                "chipped:gravel_4": 2,
+                "minecraft:red_sand": 2,
+                "minecraft:sand": 3,
+                "chipped:sand_2": 2,
+                "botania:metamorphic_desert_bricks": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone_slab",
             "output": {
-                "minecraft:sandstone_slab": 1,
-                "minecraft:sand": 1,
-                "minecraft:sandstone": 1
+                "minecraft:sandstone_slab": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone_slab",
             "output": {
-                "minecraft:sandstone_slab": 1
+                "minecraft:sandstone_slab": 1,
+                "stoneworks:cobbled_sandstone_slab": 1,
+                "minecraft:cut_sandstone_slab": 1
             }
         },
         {
@@ -84,14 +87,15 @@
             "type": "weighted_target",
             "target": "minecraft:purple_wool",
             "output": {
-                "minecraft:terracotta": 1
+                "quark:limestone": 1,
+                "quark:polished_limestone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:water",
             "output": {
-                "minecraft:air": 1
+                "minecraft:water": 1
             }
         },
         {
@@ -112,28 +116,28 @@
             "type": "weighted_target",
             "target": "minecraft:warped_fence",
             "output": {
-                "minecraft:air": 1
+                "minecraft:cactus": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:warped_wart_block",
             "output": {
-                "minecraft:air": 1
+                "minecraft:cactus": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:shroomlight",
             "output": {
-                "minecraft:air": 1
+                "minecraft:cactus": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "architects_palette:twisted_fence",
             "output": {
-                "minecraft:oak_fence": 1
+                "minecraft:cactus": 1
             }
         },
         {
@@ -154,21 +158,21 @@
             "type": "weighted_target",
             "target": "minecraft:spore_blossom",
             "output": {
-                "minecraft:air": 1
+                "minecraft:hanging_roots": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:brown_wool",
             "output": {
-                "minecraft:air": 1
+                "botania:metamorphic_desert_stone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:pink_wool",
             "output": {
-                "minecraft:air": 1
+                "create:cut_ochrum": 1
             }
         },
         {
@@ -176,21 +180,21 @@
             "target": "minecraft:grass",
             "output": {
                 "minecraft:dead_bush": 1,
-                "minecraft:air": 7
+                "minecraft:air": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:tall_grass[half=lower]",
             "output": {
-                "minecraft:cactus": 1
+                "minecraft:air": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:tall_grass[half=upper]",
             "output": {
-                "minecraft:cactus": 1
+                "minecraft:air": 1
             }
         },
         {
@@ -211,6 +215,7 @@
             "type": "weighted_target",
             "target": "minecraft:fern",
             "output": {
+                "minecraft:dead_bush": 1,
                 "minecraft:air": 1
             }
         },
@@ -218,14 +223,15 @@
             "type": "weighted_target",
             "target": "minecraft:lime_wool",
             "output": {
-                "minecraft:air": 1
+                "botania:metamorphic_desert_stone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cyan_wool",
             "output": {
-                "minecraft:air": 1
+                "quark:limestone":  1,
+                "quark:polished_limestone": 1
             }
         },
         {
@@ -246,7 +252,7 @@
             "type": "weighted_target",
             "target": "minecraft:oak_leaves",
             "output": {
-                "ecologics:walnut_leaves": 1
+                "minecraft:acacia_leaves": 1
             }
         },
         {
@@ -274,9 +280,7 @@
             "type": "weighted_target",
             "target": "minecraft:oak_trapdoor",
             "output": {
-                "minecraft:acacia_trapdoor": 1,
-                "mcwtrpdoors:acacia_cottage_trapdoor": 2,
-                "mcwtrpdoors:jungle_cottage_trapdoor": 1
+                "minecraft:acacia_trapdoor": 1
             }
         },
         {
@@ -304,101 +308,91 @@
             "type": "weighted_target",
             "target": "minecraft:stone_bricks",
             "output": {
-                "quark:sandstone_bricks": 1,
-                "auxiliaryblocks:cobbled_sandstone": 1
+                "quark:limestone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone_brick_stairs",
             "output": {
-                "minecraft:sandstone_stairs": 1
+                "quark:limestone_stairs": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "create:andesite_pillar",
             "output": {
-                "minecraft:smooth_sandstone": 1
+                "quark:limestone_pillar": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:chiseled_stone_bricks",
             "output": {
-                "minecraft:chiseled_sandstone": 1
+                "quark:chiseled_limestone_bricks": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone_brick_slab",
             "output": {
-                "minecraft:sandstone_slab": 1
+                "architects_palette:gilded_sandstone_slab": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "quark:stone_brick_vertical_slab",
             "output": {
-                "quark:sandstone_vertical_slab": 1
+                "architects_palette:gilded_sandstone_vertical_slab": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "quark:stone_vertical_slab",
             "output": {
-                "quark:sandstone_vertical_slab": 3,
-                "quark:smooth_sandstone_vertical_slab": 3,
-                "quark:sandstone_bricks_vertical_slab": 1
+                "architects_palette:gilded_sandstone_vertical_slab": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:stone_brick_wall",
             "output": {
-                "quark:sandstone_bricks_wall": 1
+                "stoneworks:sandstone_plate_wall": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone_wall",
             "output": {
-                "minecraft:sandstone_wall": 2,
-                "quark:sandstone_bricks_wall": 1
+                "stoneworks:sandstone_plate_wall": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:cobblestone_stairs",
             "output": {
-                "minecraft:sandstone_stairs": 2,
-                "quark:sandstone_bricks_stairs": 1
+                "stoneworks:cobbled_sandstone_stairs": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:mossy_stone_bricks",
             "output": {
-                "quark:sandstone_bricks": 1,
-                "auxiliaryblocks:cobbled_sandstone": 1
+                "stoneworks:cobbled_sandstone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:mossy_cobblestone",
             "output": {
-                "minecraft:smooth_sandstone": 3,
-                "minecraft:sandstone": 3,
-                "auxiliaryblocks:dirty_sand": 2,
-                "quark:sandstone_bricks": 1
+                "minecraft:mossy_cobbled_sandstone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:green_concrete",
             "output": {
-                "minecraft:sand": 1,
-                "minecraft:smooth_sandstone": 2
+                "architects_palette:chiseled_gilded_sandstone": 1
             }
         },
         {
@@ -419,7 +413,7 @@
             "type": "weighted_target",
             "target": "minecraft:moss_carpet",
             "output": {
-                "minecraft:air": 1
+                "chipped:yellow_carpet_19": 1
             }
         },
         {
@@ -440,7 +434,7 @@
             "type": "weighted_target",
             "target": "minecraft:lantern",
             "output": {
-                "supplementaries:brass_lantern": 1
+                "additionallanterns:orange_gold_lantern": 1
             }
         },
         {
@@ -454,7 +448,7 @@
             "type": "weighted_target",
             "target": "minecraft:soul_lantern",
             "output": {
-                "supplementaries:brass_lantern": 1
+                "additionallanterns:orange_gold_lantern": 1
             }
         },
         {
@@ -468,14 +462,14 @@
             "type": "weighted_target",
             "target": "minecraft:cyan_stained_glass",
             "output": {
-                "minecraft:sand": 1
+                "minecraft:water": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:light_blue_stained_glass",
             "output": {
-                "minecraft:sand": 1
+                "minecraft:water": 1
             }
         },
         {
@@ -489,49 +483,49 @@
             "type": "weighted_target",
             "target": "ecologics:azalea_log",
             "output": {
-                "minecraft:acacia_log": 1
+                "byg:willow_wood": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "ecologics:azalea_fence",
             "output": {
-                "minecraft:acacia_fence": 1
+                "byg:cypress_fence": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "create:cut_crimsite_wall",
             "output": {
-                "minecraft:sandstone_wall": 1
+                "quark:limestone_wall": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "quark:azalea_log",
             "output": {
-                "minecraft:smooth_sandstone": 1
+                "byg:baobab_log": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "quark:azalea_planks",
             "output": {
-                "minecraft:chiseled_sandstone": 1
+                "byg:baobab_planks": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "quark:azalea_planks_stairs",
             "output": {
-                "minecraft:sandstone_stairs": 4
+                "byg:baobab_stairs": 4
             }
         },
         {
             "type": "weighted_target",
             "target": "create:cut_veridium_wall",
             "output": {
-                "minecraft:sandstone_wall": 1
+                "botania:metamorphic_desert_stone_wall": 1
             }
         },
         {
@@ -545,14 +539,14 @@
             "type": "weighted_target",
             "target": "minecraft:potted_oak_sapling",
             "output": {
-                "minecraft:potted_cactus": 1
+                "minecraft:potted_acacia_sapling": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "quark:oak_hedge",
             "output": {
-                "minecraft:air": 1
+                "quark:acacia_hedge": 1
             }
         },
         {
@@ -566,29 +560,28 @@
             "type": "weighted_target",
             "target": "minecraft:end_stone_bricks",
             "output": {
-                "minecraft:smooth_red_sandstone": 1,
-                "quark:red_sandstone_bricks": 1
+                "create:polished_cut_limestone": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:end_stone_brick_stairs",
             "output": {
-                "minecraft:smooth_red_sandstone_stairs": 1
+                "create:polished_cut_limestone_stairs": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:end_stone_brick_slab",
             "output": {
-                "minecraft:smooth_red_sandstone_slab": 1
+                "create:polished_cut_limestone_slab": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:end_stone",
             "output": {
-                "minecraft:chiseled_red_sandstone": 1
+                "create:limestone": 1
             }
         },
         {
@@ -607,16 +600,16 @@
             "type": "template_stack_tile",
             "target": "@the_vault:vault_lootables",
             "stack": [
-                "THEME_DESERT",
-                "THEME_CATEGORY_DESERT"
+                "THEME_ANCIENT_WENDARR",
+                "THEME_CATEGORY_ANCIENT"
             ]
         },
         {
             "type": "template_stack_spawner",
             "target": "ispawner:spawner",
             "stack": [
-                "THEME_DESERT",
-                "THEME_CATEGORY_DESERT"
+                "THEME_ANCIENT_WENDARR",
+                "THEME_CATEGORY_ANCIENT"
             ]
         }
     ],
