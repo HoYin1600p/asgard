@@ -19433,10 +19433,6 @@ file = "kubejs/exported/tags/worldgen/trunk_placer_type.txt"
 hash = "88214dbb8c3ff5fdf4442a8fa2a9ba36e4b8dc63115084582712aa0e03370362"
 
 [[files]]
-file = "kubejs/server_scripts/items.ts"
-hash = "cea8c8b4c6b7c764a8cbaed51ee5b80b50717a278179a20e7d14485882db84df"
-
-[[files]]
 file = "kubejs/server_scripts/script.js"
 hash = "88af084872dad8e1cd85f7d7fbaa8cc1c809ee4057918967cde8ad692b98d6e0"
 
@@ -19455,6 +19451,10 @@ hash = "4a0f0a326f879d9f5186678727cbb05539bd82bb150985f5a70c5d50eeb135ec"
 [[files]]
 file = "kubejs/startup_scripts/vault_consumables.js"
 hash = "d8a3eb7cc443f57ff25359a5141bf25b6636d3954870cd5c89f8f7422efec4f3"
+
+[[files]]
+file = "kubejs/startup_scripts/wirts_leg.js"
+hash = "e33e1be928414c332d86963a5dc244dcee094d07b80f17d0e708bcb34049b5cf"
 
 [[files]]
 file = "mods/Card Deck Optimization-1.1.1.jar"
