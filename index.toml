@@ -17561,6 +17561,10 @@ file = "kubejs/assets/iceandfire/textures/block/dreadstone_tile.png"
 hash = "1fc4b4c5865a8d1a106c11c095ed2cbd21855f64a0825491849b165a0a448249"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/item/wirts.json"
+hash = "1b7c226e12ae610657dee68c0d5a35ae8f59d828ddf70626f6eeb47c7de60f22"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/aqua_unobtanium_block.png"
 hash = "d43a20ff0ce4229a8b99636dbcc3b36d78bc73fa3337f095ce857154cd37cb76"
 
@@ -17715,6 +17719,10 @@ hash = "e4a0bfcd50b44c01b7a332a434d126e5fc6b94a85d000d24870655f3cb9762de"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/white_unobtanium.png"
 hash = "acb35c7286e42eb29e9d66f4fdd02dbe05ec71be496e8b088312b169f4633e03"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/wirts_leg.png"
+hash = "ef6d40f4238e6dfebc119d4b822a9f06d502ce181aaaff0bbd646e54b45af2ac"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/yellow_unobtanium.png"
@@ -18271,6 +18279,10 @@ hash = "be2f2837d269acbae76cdff58f395bfa81939d4e24238d49a0b4890f642879c9"
 [[files]]
 file = "kubejs/assets/the_vault/textures/gui/bingo/vindicator.png"
 hash = "dc835a2d4dc175d9cd680b856f35ef62094e53d24abac95e49709effb35f1f6e"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/gui/modifiers/bovine.png"
+hash = "7a54acad13cd91a917c7396d7afd3384bf294edb21b70c25920dea6f48a9e0bf"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/gui/modifiers/power.png"
@@ -19431,6 +19443,10 @@ hash = "51caac5ee0cafdbafc0c4fdd291154c31b35a182d9b2eda4e53186c93446591d"
 [[files]]
 file = "kubejs/startup_scripts/block_stuff.js"
 hash = "01e2d579c7043001310ca7955695405eef1cab109b6dff980643f25ff1d24f96"
+
+[[files]]
+file = "kubejs/startup_scripts/moo.js"
+hash = "c5215b04e0459749787d377d8a842b62435d791f9279e16a3649957a9b905384"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
