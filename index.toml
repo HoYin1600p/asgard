@@ -19433,6 +19433,10 @@ file = "kubejs/exported/tags/worldgen/trunk_placer_type.txt"
 hash = "88214dbb8c3ff5fdf4442a8fa2a9ba36e4b8dc63115084582712aa0e03370362"
 
 [[files]]
+file = "kubejs/server_scripts/items.js"
+hash = "cea8c8b4c6b7c764a8cbaed51ee5b80b50717a278179a20e7d14485882db84df"
+
+[[files]]
 file = "kubejs/server_scripts/script.js"
 hash = "88af084872dad8e1cd85f7d7fbaa8cc1c809ee4057918967cde8ad692b98d6e0"
 
@@ -19443,10 +19447,6 @@ hash = "51caac5ee0cafdbafc0c4fdd291154c31b35a182d9b2eda4e53186c93446591d"
 [[files]]
 file = "kubejs/startup_scripts/block_stuff.js"
 hash = "01e2d579c7043001310ca7955695405eef1cab109b6dff980643f25ff1d24f96"
-
-[[files]]
-file = "kubejs/startup_scripts/moo.js"
-hash = "c5215b04e0459749787d377d8a842b62435d791f9279e16a3649957a9b905384"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
