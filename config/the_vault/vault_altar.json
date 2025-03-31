@@ -451,6 +451,36 @@
           }
         }
       }
+    },
+    {
+      "input": "the_vault:wirts_leg",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Modifiers": {
+              "type": "default",
+              "RandomModifiers": 0,
+              "List": [
+                {
+                  "id": "the_vault:bovine",
+                  "size": 1
+                }
+              ]
+            },
+            "Theme": {
+              "type": "value",
+              "id": "the_vault:classic_vault_chaos"
+            },
+            "Properties": {
+              "type": "capacity",
+              "exhausted": 1,
+              "volume": 0
+            },
+            "Version": 3
+          }
+        }
+      }
     }
   ]
 }
