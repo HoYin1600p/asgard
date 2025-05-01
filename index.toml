@@ -19980,6 +19980,11 @@ hash = "bfd5519897396ddebba3a19acf46d59f6f4ae0508a56af0cfeef717a37a40b41"
 metafile = true
 
 [[files]]
+file = "mods/entangled.pw.toml"
+hash = "c86fecd8cc0041916ccdc4ea9da274397661fa734082cf7162e3e01de65d8ca2"
+metafile = true
+
+[[files]]
 file = "mods/entity-collision-fps-fix.pw.toml"
 hash = "d2ec828227de4acda3e961afd6f577284e4750046aba92e36987826981ddfe16"
 metafile = true
@@ -20272,6 +20277,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "705e545df8ef126bee5b5bb4449c7d841fdb8ab81a3fe0e5c0b5d985a54a7f7d"
+metafile = true
+
+[[files]]
+file = "mods/laser_bridges.pw.toml"
+hash = "8c51d44e0dc39a715bac467f5e43444e3a1321d140edfc46828dff389a035355"
 metafile = true
 
 [[files]]
