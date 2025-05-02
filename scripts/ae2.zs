@@ -5,19 +5,19 @@ for Vaulthunters */
 
 craftingTable.addShaped("ae2_logic_processor", <item:ae2:logic_processor>, [
     [<item:minecraft:air>, <item:minecraft:gold_ingot>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:ae2:silicon>, <item:minecraft:air>],
+    [<item:minecraft:air>, <tag:items:forge:silicon>, <item:minecraft:air>],
     [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_larimar>]
 ]);
 
 craftingTable.addShaped("ae2_engineering_processor", <item:ae2:engineering_processor>, [
     [<item:minecraft:air>, <item:minecraft:diamond>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:ae2:silicon>, <item:minecraft:air>],
+    [<item:minecraft:air>, <tag:items:forge:silicon>, <item:minecraft:air>],
     [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_larimar>]
 ]);
 
 craftingTable.addShaped("ae2_calculation_processor", <item:ae2:calculation_processor>, [
     [<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:ae2:silicon>, <item:minecraft:air>],
+    [<item:minecraft:air>, <tag:items:forge:silicon>, <item:minecraft:air>],
     [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_larimar>]
 ]);
 
@@ -32,7 +32,7 @@ craftingTable.addShaped("ae2_biometric_card", <item:ae2:biometric_card>, [
     [<item:woldsvaults:chromatic_gold_ingot>, <item:the_vault:red_vault_essence>, <item:woldsvaults:chromatic_gold_ingot>]
 ]);
 
-// <recipetype:ae2:inscriber>.addJsonRecipe("ae2_logic_processor", { 
+// <recipetype:ae2:inscriber>.addJsonRecipe("ae2_logic_processor", {
 // "result": {"item": "ae2:logic_processor"},
 //  "mode": "press",
 //   "ingredients": {
