@@ -19763,6 +19763,11 @@ hash = "acdfef80bc2389ba5e53ad7f340a86c10d8fa0c303166a65bf09c0b91f96f052"
 metafile = true
 
 [[files]]
+file = "mods/coin-pouch-vault-hunters-addon.pw.toml"
+hash = "657a2471cccca34d60ae4d3a5cf8fa7ace7e76eaddcb8d68ef8ae00fe7ed6071"
+metafile = true
+
+[[files]]
 file = "mods/collective.pw.toml"
 hash = "11d811987a78e001148e2ec3988119246ae2561db467220c95a134793ec3cbc9"
 metafile = true
@@ -19795,11 +19800,6 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "f4285a98a8b519ca74b482ab4a943430a180207abfce050bfed95f2c3f215742"
-metafile = true
-
-[[files]]
-file = "mods/content-creator-integration.pw.toml"
-hash = "0ffb0d6bcb25180032332d739245344bb892fc9615f5f9f7bcf372f756032a96"
 metafile = true
 
 [[files]]
@@ -20845,11 +20845,6 @@ metafile = true
 [[files]]
 file = "mods/twigs.pw.toml"
 hash = "19f2d695ae9532a167c0fba65c94cbf2e8810310144689847584030e40b9113b"
-metafile = true
-
-[[files]]
-file = "mods/twitchspawn.pw.toml"
-hash = "ea735a4aae77fbc65537f417a3ef24d756811b1daf0ab458614113f146bc347d"
 metafile = true
 
 [[files]]
