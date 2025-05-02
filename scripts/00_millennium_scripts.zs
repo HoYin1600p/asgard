@@ -217,6 +217,8 @@ JEI.addDescription(<item:morevaulttables:card_pack_opener_block>, ["This table w
 JEI.addDescription(<item:morevaulttables:jewel_sack_opener_block>, ["This table will allow you to open mass amounts of jewel pouches within its inventory"]);
 JEI.addDescription(<item:morevaulttables:doll_dismantling_block>, ["The Doll Juicer will intake a doll and spit out the items in a storage container below.  Requires RF to operate."]);
 
+JEI.addDescription(<item:vaultjp:jewel_purpuser>, ["The Jewel Purposer is a one in all jewel storage and tool building block. This block will help you build your tool and can serve as a vault recycler to scrap trash jewels."]);
+
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //Variable Definitions
@@ -235,7 +237,7 @@ var vault_gem = [
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Vault Coin Pouch
 
-//craftingTable.remove(<item:vaultcoinpouch:coin_pouch>);
+craftingTable.remove(<item:vaultcoinpouch:coin_pouch>);
 
 //craftingTable.addShaped("coin_pouch", <item:vaultcoinpouch:coin_pouch>, [
         //[<item:woldsvaults:chromatic_gold_nugget>, <item:minecraft:string>, <item:woldsvaults:chromatic_gold_nugget>],
