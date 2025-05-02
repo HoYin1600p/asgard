@@ -8,332 +8,285 @@
   "LOOT": [
     {
       "value": {
-        "ITEM": "minecraft:stone",
-        "NBT": "{}"
+        "ITEM": "minecraft:stone"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:granite"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:diorite"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dirt"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:grass_block"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:gravel"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:granite",
-        "NBT": "{}"
+        "ITEM": "minecraft:sand"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:diorite",
-        "NBT": "{}"
+        "ITEM": "minecraft:cobblestone"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_log"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:oak_leaves"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:spruce_leaves"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:birch_leaves"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:basalt"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:mossy_cobblestone"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:clay"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:terracotta"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:pumpkin"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:melon"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:deepslate"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:tuff"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:crimson_nylium"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:warped_nylium"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:coal_ore"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:dirt",
-        "NBT": "{}"
+        "ITEM": "minecraft:iron_ore"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:grass_block",
-        "NBT": "{}"
+        "ITEM": "minecraft:copper_ore"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:gravel",
-        "NBT": "{}"
+        "ITEM": "minecraft:lapis_ore"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:sand",
-        "NBT": "{}"
+        "ITEM": "minecraft:jungle_log"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:cobblestone",
-        "NBT": "{}"
+        "ITEM": "minecraft:acacia_log"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:oak_log",
-        "NBT": "{}"
+        "ITEM": "minecraft:dark_oak_log"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:oak_leaves",
-        "NBT": "{}"
+        "ITEM": "minecraft:spruce_log"
       },
-      "weight": 10
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:spruce_leaves",
-        "NBT": "{}"
+        "ITEM": "minecraft:jungle_leaves"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:birch_leaves",
-        "NBT": "{}"
+        "ITEM": "minecraft:flowering_azalea_leaves"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:netherrack",
-        "NBT": "{}"
+        "ITEM": "minecraft:sea_pickle"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "value": {
-        "ITEM": "minecraft:basalt",
-        "NBT": "{}"
+        "ITEM": "minecraft:dead_bush"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "value": {
-        "ITEM": "minecraft:mossy_cobblestone",
-        "NBT": "{}"
+        "ITEM": "minecraft:mycelium"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:clay",
-        "NBT": "{}"
+        "ITEM": "minecraft:mossy_stone_bricks"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:terracotta",
-        "NBT": "{}"
+        "ITEM": "minecraft:snow_block"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:pumpkin",
-        "NBT": "{}"
+        "ITEM": "minecraft:soul_sand"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:melon",
-        "NBT": "{}"
+        "ITEM": "minecraft:white_concrete"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:deepslate",
-        "NBT": "{}"
+        "ITEM": "minecraft:chorus_flower"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "value": {
-        "ITEM": "minecraft:tuff",
-        "NBT": "{}"
+        "ITEM": "minecraft:sea_lantern"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "value": {
-        "ITEM": "minecraft:crimson_nylium",
-        "NBT": "{}"
+        "ITEM": "minecraft:end_stone"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:warped_nylium",
-        "NBT": "{}"
+        "ITEM": "minecraft:magma_block"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:coal_ore",
-        "NBT": "{}"
+        "ITEM": "minecraft:white_wool"
       },
-      "weight": 1
+      "weight": 2
     },
     {
       "value": {
-        "ITEM": "minecraft:iron_ore",
-        "NBT": "{}"
+        "ITEM": "minecraft:crimson_stem"
       },
-      "weight": 1
+      "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:copper_ore",
-        "NBT": "{}"
+        "ITEM": "minecraft:warped_stem"
       },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:lapis_ore",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:jungle_log",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:acacia_log",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:dark_oak_log",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:spruce_log",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:jungle_leaves",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:flowering_azalea_leaves",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:sea_pickle",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:dead_bush",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:mycelium",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:mossy_stone_bricks",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:snow_block",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:soul_sand",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:white_concrete",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:chorus_flower",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:sea_lantern",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:end_stone",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:magma_block",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:white_wool",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:crimson_stem",
-        "NBT": "{}"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:warped_stem",
-        "NBT": "{}"
-      },
-      "weight": 1
+      "weight": 3
     }
   ],
   "INTERVAL": 1200,

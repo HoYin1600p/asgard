@@ -7,7 +7,7 @@
         "amountMin": 1,
         "amountMax": 1
       },
-      "weight": 1
+      "weight": 24
     },
     {
       "value": {
@@ -43,7 +43,7 @@
         "amountMin": 1,
         "amountMax": 2
       },
-      "weight": 64
+      "weight": 128
     },
     {
       "value": {
@@ -52,7 +52,7 @@
         "amountMin": 1,
         "amountMax": 3
       },
-      "weight": 64
+      "weight": 128
     },
     {
       "value": {
@@ -128,6 +128,15 @@
     },
     {
       "value": {
+        "id": "the_vault:key_piece",
+        "nbt": "{}",
+        "amountMin": 6,
+        "amountMax": 18
+      },
+      "weight": 128
+    },
+    {
+      "value": {
         "id": "the_vault:unidentified_treasure_key",
         "nbt": "{}",
         "amountMin": 1,
@@ -140,7 +149,7 @@
         "id": "the_vault:sour_orange",
         "nbt": "{}",
         "amountMin": 2,
-        "amountMax": 4
+        "amountMax": 5
       },
       "weight": 160
     },
@@ -149,9 +158,9 @@
         "id": "the_vault:star_fruit",
         "nbt": "{}",
         "amountMin": 1,
-        "amountMax": 2
+        "amountMax": 1
       },
-      "weight": 40
+      "weight": 48
     },
     {
       "value": {
@@ -183,6 +192,15 @@
     {
       "value": {
         "id": "the_vault:pyretic_focus",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 4
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:vorpal_focus",
         "nbt": "{}",
         "amountMin": 4,
         "amountMax": 4
@@ -260,6 +278,24 @@
         "amountMax": 2
       },
       "weight": 64
+    },
+    {
+      "value": {
+        "id": "woldsvaults:altar_recatalyzer",
+        "nbt": "{}",
+        "amountMin": 8,
+        "amountMax": 12
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:modifier_scroll",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 4
     },
     {
       "value": {

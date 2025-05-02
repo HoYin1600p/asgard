@@ -1,5 +1,81 @@
 {
   "data": {
+    "Colossus_Base": {
+      "description": [
+        {
+          "text": "Makes you considerably bigger, giving you ",
+          "color": "$text"
+        },
+        {
+          "text": "knockback immunity ",
+          "color": "$knockback"
+        },
+        {
+          "text": "and a boost in ",
+          "color": "$text"
+        },
+        {
+          "text": "resistance",
+          "color": "$radius"
+        },
+        {
+          "text": " for a limited duration\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "additionalResistance",
+        "size",
+        "cooldown",
+        "manaCost",
+        "duration"
+      ],
+      "next": [
+        "additionalResistance",
+        "size",
+        "cooldown",
+        "manaCost",
+        "duration"
+      ]
+    },
+    "Sneaky_Getaway": {
+      "description": [
+        {
+          "text": "Makes you considerably smaller and increases your",
+          "color": "$text"
+        },
+        {
+          "text": "movement speed",
+          "color": "$speed"
+        },
+        {
+          "text": "for a limited duration, allowing for a quick and sneaky getaway\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "speed",
+        "size",
+        "cooldown",
+        "manaCost",
+        "duration"
+      ],
+      "next": [
+        "speed",
+        "size",
+        "cooldown",
+        "manaCost",
+        "duration"
+      ]
+    },
     "Dash_Base": {
       "description": [
         {
@@ -25,7 +101,7 @@
         "distance"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "distance"
@@ -57,7 +133,7 @@
         "damage"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "distance",
@@ -101,7 +177,7 @@
         "force"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "force"
@@ -140,7 +216,7 @@
         "damage"
       ],
       "next": [
-        
+
         "cooldown",
         "duration",
         "damage"
@@ -204,7 +280,7 @@
         "rangeVertical"
       ],
       "next": [
-        
+
         "manaCost",
         "delay",
         "rangeHorizontal",
@@ -270,7 +346,7 @@
         "chance"
       ],
       "next": [
-        
+
         "manaCost",
         "delay",
         "rangeHorizontal",
@@ -328,7 +404,7 @@
         "rangeVertical"
       ],
       "next": [
-        
+
         "manaCost",
         "delay",
         "rangeHorizontal",
@@ -381,7 +457,7 @@
         "rangeVertical"
       ],
       "next": [
-        
+
         "manaCost",
         "delay",
         "rangeHorizontal",
@@ -413,7 +489,7 @@
         "duration"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration"
@@ -452,7 +528,7 @@
         "duration"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration"
@@ -483,7 +559,7 @@
         "heal"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "heal"
@@ -505,7 +581,7 @@
         "manaCost"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost"
       ]
@@ -536,7 +612,7 @@
         "radius"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "heal",
@@ -617,7 +693,7 @@
         "radius"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -658,7 +734,7 @@
         "radius"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -699,7 +775,7 @@
         "radius"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -740,7 +816,7 @@
         "radius"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -781,7 +857,7 @@
         "radius"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -822,7 +898,7 @@
         "radius"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -863,7 +939,7 @@
         "radius"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -872,8 +948,179 @@
     },
     "Shield_Bash": {
       "description": [
+        {
+          "text": "Bash mobs with your shield, dealing ",
+          "color": "$text"
+        },
+        {
+          "text": "Thorns Damage",
+          "color": "$thornsDamage"
+        },
+        {
+          "text": " in front of you in a ",
+          "color": "$text"
+        },
+        {
+          "text": "line",
+          "color": "$radius"
+        },
+        {
+          "text": ".",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25d0 Cast Ability",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "cooldown",
+        "thornsDamage",
+        "radius"
+
+      ],
+      "next": [
+        "manaCost",
+        "cooldown",
+        "thornsDamage",
+        "radius"
+      ]
+    },
+    "Mana_Shield_Base": {
+      "description": [
+        {
+          "text": "Grants a ",
+          "color": "$text"
+        },
+        {
+          "text": "protective barrier",
+          "color": "$absorb"
+        },
+        {
+          "text": " for a ",
+          "color": "$text"
+        },
+        {
+          "text": "limited time",
+          "color": "$duration"
+        },
+        {
+          "text": ", absorbing all incoming damage until the shield is depleted, or the time runs out.",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25d0 Cast Ability",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCost",
+        "cooldown",
+        "healthPoints"
+
+      ],
+      "next": [
+        "manaCost",
+        "cooldown",
+        "healthPoints"
+      ]
+    },
+
+    "Legacy_Mana_Shield_Base": {
+      "description": [
+        {
+          "text": "Gives you a shield that ",
+          "color": "$text"
+        },
+        {
+          "text": "redirects a percentage",
+          "color": "$absorb"
+        },
+        {
+          "text": " of incoming damage to your ",
+          "color": "$text"
+        },
+        {
+          "text": "mana pool",
+          "color": "$manaCost"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25d0 Toggle Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "absorb",
+        "manaPerDamage"
+      ],
+      "next": [
+
+        "cooldown",
+        "absorb",
+        "manaPerDamage"
+      ]
+    },
+
+    "Blade_Frenzy_Base": {
+      "description": [
+        {
+          "text": "Deal a percentage of your ",
+          "color": "$text"
+        },
+        {
+          "text": "attack damage ",
+          "color": "$damage"
+        },
+        {
+          "text": "in a ",
+          "color": "$text"
+        },
+        {
+          "text": "radius",
+          "color": "$radius"
+        },
+        {
+          "text": " around yourself.\n",
+          "color": "$text"
+        },
+        {
+          "text": "\n\n\u2734 Cast Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "cooldown",
+        "manaCost",
+        "radius",
+        "damage"
+      ],
+      "next": [
+
+        "cooldown",
+        "manaCost",
+        "radius",
+        "damage"
+      ]
+    },
+
+    "Shield_Wall": {
+      "description": [
           {
-            "text": "Bash mobs with your shield, dealing ",
+            "text": "Grants your shield 100% block chance for a duration of time",
             "color": "$text"
           },
           {
@@ -913,49 +1160,7 @@
         "thornsDamage"
       ]
     },
-    "Mana_Shield_Base": {
-      "description": [
-          {
-            "text": "Grants a ",
-            "color": "$text"
-          },
-          {
-            "text": "protective barrier",
-            "color": "$absorb"
-          },
-          {
-            "text": " for a ",
-            "color": "$text"
-          },
-          {
-            "text": "limited time",
-            "color": "$duration"
-          },
-          {
-            "text": ", absorbing all incoming damage until the shield is depleted, or the time runs out.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\n",
-            "color": "$text"
-          },
-          {
-            "text": "\u25d0 Cast Ability",
-            "color": "$castType"
-          }
-      ],
-      "current": [
-        "manaCost",
-        "cooldown",
-        "healthPoints"
 
-      ],
-      "next": [
-        "manaCost",
-        "cooldown",
-        "healthPoints"
-      ]
-    },
     "Retribution_Base": {
       "description": [
         {
@@ -1009,7 +1214,7 @@
         "cooldown"
 
       ],
-      "next": [        
+      "next": [
         "thornsDamage",
         "manaCost",
         "cooldown"
@@ -1069,7 +1274,7 @@
         "cooldown"
 
       ],
-      "next": [        
+      "next": [
         "thornsDamage",
         "radius",
         "manaCost",
@@ -1167,7 +1372,7 @@
         "radius"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "rangeVertical",
@@ -1195,10 +1400,30 @@
         "rangeVertical"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "rangeVertical"
+      ]
+    },
+    "Levitate": {
+      "description": [
+        {
+          "text": "Changes Mega Jump into an on-demand levitation effect.\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Hold Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "manaCostPerSecond",
+        "levitateSpeed"
+      ],
+      "next": [
+        "manaCostPerSecond",
+        "levitateSpeed"
       ]
     },
     "Nova_Base": {
@@ -1243,7 +1468,7 @@
         "ability_power"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "radius",
@@ -1293,7 +1518,7 @@
         "duration"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "radius",
@@ -1351,7 +1576,7 @@
         "duration"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "radius",
@@ -1383,7 +1608,7 @@
         "damage"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCostPerSecond",
         "damage"
@@ -1414,7 +1639,7 @@
         "chains"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCostPerSecond",
         "chains"
@@ -1445,7 +1670,7 @@
         "leech"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCostPerSecond",
         "leech"
@@ -1494,7 +1719,7 @@
         "duration"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "damageReduction",
@@ -1556,7 +1781,7 @@
         "duration",
         "cooldown",
         "manaCost"
-        
+
       ],
       "next": [
         "damageReduction",
@@ -1647,7 +1872,7 @@
         "duration"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "eternals",
@@ -1685,7 +1910,7 @@
 
       ],
       "next": [
-        
+
         "speed",
         "radius",
         "cooldown",
@@ -1834,7 +2059,7 @@
         "vulnerable"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "radius",
@@ -1885,7 +2110,7 @@
         "distance"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "radius",
@@ -1900,7 +2125,7 @@
           "color": "$text"
         },
         {
-          "text": "number of mobs",
+          "text": "random mob",
           "color": "$maxTargets"
         },
         {
@@ -1916,16 +2141,24 @@
           "color": "$text"
         },
         {
-          "text": "percentage of your ability power",
-          "color": "$ability_power"
+          "text": "percentage of your attack damage",
+          "color": "$damage"
         },
         {
           "text": " as damage to their targets and can trigger ",
           "color": "$text"
         },
         {
-          "text": "on-hit effects",
+          "text": "on-hit effects. ",
           "color": "$name"
+        },
+        {
+          "text": " Charmed mobs also have",
+          "color": "$text"
+        },
+        {
+          "text": " increased speed",
+          "color": "$speed"
         },
         {
           "text": ".\n\n",
@@ -1942,16 +2175,18 @@
         "radius",
         "duration",
         "maxTargets",
-        "ability_power"
+        "damage",
+        "speed"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "radius",
         "duration",
         "maxTargets",
-        "ability_power"
+        "damage",
+        "speed"
       ]
     },
     "Totem_Base": {
@@ -1989,7 +2224,7 @@
         "heal"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -2032,7 +2267,7 @@
         "manaRegen"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -2088,7 +2323,7 @@
         "delay"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -2132,7 +2367,7 @@
         "damage"
       ],
       "next": [
-        
+
         "cooldown",
         "manaCost",
         "duration",
@@ -2163,7 +2398,7 @@
         "blocks"
       ],
       "next": [
-        
+
         "blocks"
       ]
     },
@@ -2199,7 +2434,7 @@
         "unbreaking"
       ],
       "next": [
-        
+
         "blocks",
         "unbreaking"
       ]
@@ -2236,7 +2471,7 @@
         "fortune"
       ],
       "next": [
-        
+
         "blocks",
         "fortune"
       ]
@@ -2272,8 +2507,44 @@
         "blocks"
       ],
       "next": [
-        
+
         "blocks"
+      ]
+    },
+    "Vein_Miner_Chain": {
+      "description": [
+        {
+          "text": "Changes Vein Miner to mine blocks that are ",
+          "color": "$text"
+        },
+        {
+          "text": "further apart",
+          "color": "$distance"
+        },
+        {
+          "text": " at the cost of number of",
+          "color": "$text"
+        },
+        {
+          "text": " blocks mined",
+          "color": "$blocks"
+        },
+        {
+          "text": ".\n\n",
+          "color": "$text"
+        },
+        {
+          "text": "\u25cf Hold Ability ",
+          "color": "$castType"
+        }
+      ],
+      "current": [
+        "blocks",
+        "distance"
+      ],
+      "next": [
+        "blocks",
+        "distance"
       ]
     },
     "Javelin_Base": {
@@ -2315,7 +2586,7 @@
 
       ],
       "next": [
-        
+
         "damage",
         "knockback",
         "cooldown",
@@ -2361,7 +2632,7 @@
 
       ],
       "next": [
-        
+
         "damage",
         "piercing",
         "cooldown",
@@ -2412,7 +2683,7 @@
 
       ],
       "next": [
-        
+
         "damage",
         "numberOfJavelins",
         "numberOfBounces",
@@ -2508,7 +2779,7 @@
           "color": "$radius"
         },
         {
-          "text": " dealing a percentage of your ",
+          "text": " dealing a random percentage of your ",
           "color": "$text"
         },
         {
@@ -2526,7 +2797,7 @@
       ],
       "current": [
 
-        "ability_power",
+        "abilityRange",
         "damageInterval",
         "radius",
         "additionalManaPerBolt",
@@ -2534,9 +2805,9 @@
         "cooldown"
       ],
       "next": [
-        
 
-        "ability_power",
+
+        "abilityRange",
         "damageInterval",
         "radius",
         "additionalManaPerBolt",
@@ -2571,7 +2842,7 @@
           "color": "$radius"
         },
         {
-          "text": " dealing a percentage of your ",
+          "text": " dealing a random percentage of your ",
           "color": "$text"
         },
         {
@@ -2589,16 +2860,16 @@
       ],
       "current": [
 
-        "ability_power",
+        "abilityRange",
         "damageInterval",
         "radius",
         "manaCostPerSecond",
         "cooldown"
       ],
       "next": [
-        
 
-        "ability_power",
+
+        "abilityRange",
         "damageInterval",
         "radius",
         "manaCostPerSecond",
@@ -2616,7 +2887,7 @@
           "color": "$name"
         },
         {
-          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for a percentage of your ",
+          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for a random percentage of your ",
           "color": "$text"
         },
         {
@@ -2634,15 +2905,14 @@
       ],
       "current": [
 
-        "ability_power",
+        "abilityRange",
         "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
       ],
       "next": [
-        
 
-        "ability_power",
+        "abilityRange",
         "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
@@ -2683,7 +2953,7 @@
         "cooldown"
       ],
       "next": [
-        
+
         "stunChance",
         "manaCostPerSecond",
         "additionalManaPerHit",
@@ -2809,7 +3079,7 @@
 
       ],
       "next": [
-        
+
         "ability_power",
         "radius",
         "cooldown",
@@ -2868,7 +3138,7 @@
 
       ],
       "next": [
-        
+
         "ability_power",
         "radius",
         "duration",
@@ -2934,7 +3204,7 @@
           "color": "$text"
         },
         {
-          "text": "Deals an amount of ",
+          "text": "Deals a random amount of ",
           "color": "$text"
         },
         {
@@ -2967,7 +3237,7 @@
         }
       ],
       "current": [
-        "ability_power",
+        "abilityRange",
         "radius",
         "duration",
         "stormInterval",
@@ -2976,8 +3246,8 @@
 
       ],
       "next": [
-        
-        "ability_power",
+
+        "abilityRange",
         "radius",
         "duration",
         "stormInterval",
@@ -3036,7 +3306,7 @@
 
       ],
       "next": [
-        
+
         "radius",
         "duration",
         "stormInterval",
@@ -3101,7 +3371,7 @@
 
       ],
       "next": [
-        
+
         "radius",
         "duration",
         "attackDamagePerStack",
@@ -3165,7 +3435,7 @@
 
       ],
       "next": [
-        
+
         "radius",
         "duration",
         "abilityPowerPerStack",
@@ -3229,7 +3499,7 @@
 
       ],
       "next": [
-        
+
         "radius",
         "duration",
         "luckyHitPerStack",

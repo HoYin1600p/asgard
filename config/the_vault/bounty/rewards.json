@@ -11,23 +11,22 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 25
+              "weight": 4
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:regret_orb"
+                  "item": "the_vault:chromatic_iron_ingot"
                 },
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 14,
+                "maxCount": 32
               },
-              "weight": 10
+              "weight": 60
             },
             {
               "value": {
@@ -74,8 +73,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 6,
-                "maxCount": 12
+                "minCount": 4,
+                "maxCount": 8
               },
               "weight": 60
             },
@@ -84,8 +83,8 @@
                 "stack": {
                   "item": "the_vault:mystery_box"
                 },
-                "minCount": 2,
-                "maxCount": 5
+                "minCount": 1,
+                "maxCount": 3
               },
               "weight": 50
             },
@@ -95,19 +94,49 @@
                   "item": "the_vault:vault_diamond"
                 },
                 "minCount": 2,
-                "maxCount": 10
+                "maxCount": 3
               },
               "weight": 50
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
+                  "item": "the_vault:gem_benitoite"
                 },
-                "minCount": 1,
-                "maxCount": 2
+                "minCount": 3,
+                "maxCount": 8
+              },
+              "weight": 30
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_larimar"
+                },
+                "minCount": 6,
+                "maxCount": 18
               },
               "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_black_opal"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 20
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_painite"
+                },
+                "minCount": 2,
+                "maxCount": 8
+              },
+              "weight": 30
             },
             {
               "value": {
@@ -211,24 +240,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                  "item": "minecraft:diamond"
                 },
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 6,
+                "maxCount": 12
               },
-              "weight": 9
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 9
+              "weight": 50
             },
             {
               "value": {
@@ -243,52 +260,32 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:sweet_kiwi"
+                  "item": "minecraft:experience_bottle"
                 },
-                "minCount": 1,
-                "maxCount": 3
+                "minCount": 16,
+                "maxCount": 48
               },
-              "weight": 30
+              "weight": 50
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vault_essence"
-                },
-                "minCount": 6,
-                "maxCount": 32
-              },
-              "weight": 30
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:magic_silk"
-                },
-                "minCount": 4,
-                "maxCount": 14
-              },
-              "weight": 30
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:carbon"
+                  "item": "minecraft:netherite_ingot"
                 },
                 "minCount": 2,
-                "maxCount": 10
+                "maxCount": 4
               },
-              "weight": 30
+              "weight": 40
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vault_plating"
+                  "item": "minecraft:elytra"
                 },
-                "minCount": 4,
-                "maxCount": 16
+                "minCount": 1,
+                "maxCount": 1
               },
-              "weight": 30
+              "weight": 20
             }
           ],
           "minTotalStacks": 4,
@@ -306,23 +303,22 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 20
+              "weight": 4
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:regret_orb"
+                  "item": "the_vault:chromatic_iron_ingot"
                 },
-                "minCount": 1,
-                "maxCount": 2
+                "minCount": 18,
+                "maxCount": 40
               },
-              "weight": 20
+              "weight": 60
             },
             {
               "value": {
@@ -369,8 +365,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 7,
-                "maxCount": 14
+                "minCount": 6,
+                "maxCount": 11
               },
               "weight": 60
             },
@@ -379,8 +375,8 @@
                 "stack": {
                   "item": "the_vault:mystery_box"
                 },
-                "minCount": 2,
-                "maxCount": 5
+                "minCount": 1,
+                "maxCount": 3
               },
               "weight": 40
             },
@@ -397,12 +393,42 @@
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
+                  "item": "the_vault:gem_benitoite"
+                },
+                "minCount": 6,
+                "maxCount": 12
+              },
+              "weight": 30
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_larimar"
+                },
+                "minCount": 9,
+                "maxCount": 21
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_black_opal"
                 },
                 "minCount": 1,
                 "maxCount": 4
               },
-              "weight": 40
+              "weight": 20
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_painite"
+                },
+                "minCount": 3,
+                "maxCount": 10
+              },
+              "weight": 30
             },
             {
               "value": {
@@ -506,31 +532,29 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                  "item": "minecraft:diamond"
                 },
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 8,
+                "maxCount": 24
               },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
+              "weight": 45
             },
             {
               "value": {
                 "stack": {
                   "item": "minecraft:emerald"
                 },
-                "minCount": 32,
+                "minCount": 24,
+                "maxCount": 64
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "minecraft:experience_bottle"
+                },
+                "minCount": 24,
                 "maxCount": 64
               },
               "weight": 50
@@ -540,7 +564,7 @@
                 "stack": {
                   "item": "minecraft:netherite_ingot"
                 },
-                "minCount": 4,
+                "minCount": 3,
                 "maxCount": 8
               },
               "weight": 40
@@ -548,52 +572,22 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:sweet_kiwi"
+                  "item": "the_vault:repair_core"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 30
+              "weight": 12
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vault_essence"
-                },
-                "minCount": 6,
-                "maxCount": 32
-              },
-              "weight": 30
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:magic_silk"
-                },
-                "minCount": 5,
-                "maxCount": 15
-              },
-              "weight": 30
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:carbon"
-                },
-                "minCount": 3,
-                "maxCount": 15
-              },
-              "weight": 30
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
+                  "item": "minecraft:elytra"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 30
+              "weight": 10
             }
           ],
           "minTotalStacks": 4,
@@ -604,40 +598,29 @@
       "20": {
         "vaultExp": {
           "min": 2000,
-          "max": 3600
+          "max": 5000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 20
+              "weight": 6
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:regret_orb"
+                  "item": "the_vault:chromatic_iron_ingot"
                 },
-                "minCount": 1,
-                "maxCount": 3
+                "minCount": 32,
+                "maxCount": 64
               },
-              "weight": 16
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
-                },
-                "minCount": 1,
-                "maxCount": 2
-              },
-              "weight": 4
+              "weight": 60
             },
             {
               "value": {
@@ -685,7 +668,7 @@
                   "item": "the_vault:knowledge_star_essence"
                 },
                 "minCount": 9,
-                "maxCount": 18
+                "maxCount": 15
               },
               "weight": 60
             },
@@ -694,8 +677,8 @@
                 "stack": {
                   "item": "the_vault:mystery_box"
                 },
-                "minCount": 3,
-                "maxCount": 6
+                "minCount": 2,
+                "maxCount": 3
               },
               "weight": 30
             },
@@ -704,18 +687,48 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 8,
-                "maxCount": 16
+                "minCount": 3,
+                "maxCount": 6
               },
               "weight": 50
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
+                  "item": "the_vault:gem_benitoite"
+                },
+                "minCount": 7,
+                "maxCount": 14
+              },
+              "weight": 30
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_larimar"
+                },
+                "minCount": 12,
+                "maxCount": 21
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_black_opal"
                 },
                 "minCount": 1,
-                "maxCount": 5
+                "maxCount": 4
+              },
+              "weight": 20
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_painite"
+                },
+                "minCount": 3,
+                "maxCount": 10
               },
               "weight": 30
             },
@@ -727,7 +740,7 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 4
+              "weight": 8
             },
             {
               "value": {
@@ -831,31 +844,19 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
+                  "item": "minecraft:diamond"
                 },
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 15,
+                "maxCount": 35
               },
-              "weight": 7
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 7
+              "weight": 30
             },
             {
               "value": {
                 "stack": {
                   "item": "minecraft:emerald"
                 },
-                "minCount": 48,
+                "minCount": 24,
                 "maxCount": 64
               },
               "weight": 30
@@ -863,10 +864,20 @@
             {
               "value": {
                 "stack": {
+                  "item": "minecraft:experience_bottle"
+                },
+                "minCount": 24,
+                "maxCount": 64
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "minecraft:netherite_ingot"
                 },
-                "minCount": 4,
-                "maxCount": 12
+                "minCount": 3,
+                "maxCount": 8
               },
               "weight": 40
             },
@@ -876,7 +887,7 @@
                   "item": "the_vault:mystery_egg"
                 },
                 "minCount": 1,
-                "maxCount": 2
+                "maxCount": 1
               },
               "weight": 6
             },
@@ -889,6 +900,16 @@
                 "maxCount": 1
               },
               "weight": 4
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:cooked_vault_steak"
+                },
+                "minCount": 4,
+                "maxCount": 16
+              },
+              "weight": 24
             },
             {
               "value": {
@@ -913,16 +934,6 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:bitter_lemon"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 14
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:repair_core"
                 },
                 "minCount": 1,
@@ -938,41 +949,30 @@
       },
       "35": {
         "vaultExp": {
-          "min": 2600,
-          "max": 5000
+          "min": 5000,
+          "max": 10000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 20
+              "weight": 8
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:regret_orb"
+                  "item": "the_vault:chromatic_iron_ingot"
                 },
-                "minCount": 2,
-                "maxCount": 3
+                "minCount": 64,
+                "maxCount": 128
               },
-              "weight": 12
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
-                },
-                "minCount": 2,
-                "maxCount": 2
-              },
-              "weight": 7
+              "weight": 50
             },
             {
               "value": {
@@ -1019,8 +1019,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 10,
-                "maxCount": 20
+                "minCount": 9,
+                "maxCount": 18
               },
               "weight": 60
             },
@@ -1029,25 +1029,15 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 8,
-                "maxCount": 18
+                "minCount": 4,
+                "maxCount": 7
               },
               "weight": 60
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
-                },
-                "minCount": 2,
-                "maxCount": 5
-              },
-              "weight": 20
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
+                  "item": "the_vault:gem_black_opal"
                 },
                 "minCount": 1,
                 "maxCount": 4
@@ -1057,12 +1047,22 @@
             {
               "value": {
                 "stack": {
+                  "item": "the_vault:gem_painite"
+                },
+                "minCount": 2,
+                "maxCount": 8
+              },
+              "weight": 30
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:gem_echo"
                 },
                 "minCount": 1,
                 "maxCount": 2
               },
-              "weight": 4
+              "weight": 8
             },
             {
               "value": {
@@ -1166,32 +1166,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:mystery_egg"
                 },
                 "minCount": 1,
-                "maxCount": 2
+                "maxCount": 1
               },
               "weight": 8
             },
@@ -1202,6 +1180,16 @@
                 },
                 "minCount": 1,
                 "maxCount": 1
+              },
+              "weight": 10
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:cooked_vault_steak"
+                },
+                "minCount": 7,
+                "maxCount": 16
               },
               "weight": 10
             },
@@ -1224,16 +1212,6 @@
                 "maxCount": 4
               },
               "weight": 32
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:bitter_lemon"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 8
             },
             {
               "value": {
@@ -1264,32 +1242,20 @@
       },
       "50": {
         "vaultExp": {
-          "min": 3400,
-          "max": 6000
+          "min": 10000,
+          "max": 20000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 15
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 15
+              "weight": 6
             },
             {
               "value": {
@@ -1304,22 +1270,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:crystal_seal_empty"
+                  "item": "the_vault:chromatic_iron_ingot"
                 },
-                "minCount": 2,
-                "maxCount": 3
+                "minCount": 64,
+                "maxCount": 128
               },
-              "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_alloy"
-                },
-                "minCount": 9,
-                "maxCount": 16
-              },
-              "weight": 50
+              "weight": 20
             },
             {
               "value": {
@@ -1376,20 +1332,30 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 9,
-                "maxCount": 20
+                "minCount": 8,
+                "maxCount": 12
               },
               "weight": 60
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
+                  "item": "the_vault:gem_black_opal"
                 },
-                "minCount": 2,
+                "minCount": 3,
                 "maxCount": 6
               },
               "weight": 20
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_painite"
+                },
+                "minCount": 8,
+                "maxCount": 12
+              },
+              "weight": 30
             },
             {
               "value": {
@@ -1399,7 +1365,7 @@
                 "minCount": 1,
                 "maxCount": 2
               },
-              "weight": 4
+              "weight": 8
             },
             {
               "value": {
@@ -1503,32 +1469,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:mystery_egg"
                 },
                 "minCount": 1,
-                "maxCount": 3
+                "maxCount": 1
               },
               "weight": 10
             },
@@ -1570,7 +1514,7 @@
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 4
+              "weight": 1
             },
             {
               "value": {
@@ -1601,21 +1545,20 @@
       },
       "75": {
         "vaultExp": {
-          "min": 4000,
-          "max": 6400
+          "min": 20000,
+          "max": 40000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 15
+              "weight": 6
             },
             {
               "value": {
@@ -1626,26 +1569,6 @@
                 "maxCount": 1
               },
               "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
-                },
-                "minCount": 2,
-                "maxCount": 3
-              },
-              "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_alloy"
-                },
-                "minCount": 9,
-                "maxCount": 16
-              },
-              "weight": 50
             },
             {
               "value": {
@@ -1693,39 +1616,9 @@
                   "item": "the_vault:vault_diamond"
                 },
                 "minCount": 10,
-                "maxCount": 25
+                "maxCount": 14
               },
               "weight": 60
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:gem_box"
-                },
-                "minCount": 3,
-                "maxCount": 7
-              },
-              "weight": 40
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 2,
-                "maxCount": 6
-              },
-              "weight": 40
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:augment_box"
-                },
-                "minCount": 1,
-                "maxCount": 2
-              },
-              "weight": 6
             },
             {
               "value": {
@@ -1735,7 +1628,7 @@
                 "minCount": 1,
                 "maxCount": 3
               },
-              "weight": 4
+              "weight": 8
             },
             {
               "value": {
@@ -1839,32 +1732,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:mystery_egg"
                 },
                 "minCount": 1,
-                "maxCount": 4
+                "maxCount": 2
               },
               "weight": 10
             },
@@ -1883,7 +1754,7 @@
                 "stack": {
                   "item": "the_vault:black_chromatic_steel_ingot"
                 },
-                "minCount": 2,
+                "minCount": 1,
                 "maxCount": 3
               },
               "weight": 12
@@ -1893,8 +1764,8 @@
                 "stack": {
                   "item": "the_vault:sweet_kiwi"
                 },
-                "minCount": 3,
-                "maxCount": 6
+                "minCount": 2,
+                "maxCount": 5
               },
               "weight": 32
             },
@@ -1967,21 +1838,20 @@
       },
       "90": {
         "vaultExp": {
-          "min": 8000,
-          "max": 12000
+          "min": 40000,
+          "max": 80000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 22
+              "weight": 6
             },
             {
               "value": {
@@ -1992,26 +1862,6 @@
                 "maxCount": 1
               },
               "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
-                },
-                "minCount": 2,
-                "maxCount": 3
-              },
-              "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_alloy"
-                },
-                "minCount": 9,
-                "maxCount": 16
-              },
-              "weight": 50
             },
             {
               "value": {
@@ -2058,8 +1908,8 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 16,
-                "maxCount": 32
+                "minCount": 10,
+                "maxCount": 14
               },
               "weight": 60
             },
@@ -2071,7 +1921,7 @@
                 "minCount": 1,
                 "maxCount": 3
               },
-              "weight": 4
+              "weight": 8
             },
             {
               "value": {
@@ -2175,32 +2025,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:mystery_egg"
                 },
                 "minCount": 1,
-                "maxCount": 4
+                "maxCount": 2
               },
               "weight": 10
             },
@@ -2219,7 +2047,7 @@
                 "stack": {
                   "item": "the_vault:black_chromatic_steel_ingot"
                 },
-                "minCount": 2,
+                "minCount": 1,
                 "maxCount": 3
               },
               "weight": 12
@@ -2294,66 +2122,6 @@
                 "maxCount": 1
               },
               "weight": 1
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:augment_box"
-                },
-                "minCount": 1,
-                "maxCount": 3
-              },
-              "weight": 6
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:inscription_box"
-                },
-                "minCount": 1,
-                "maxCount": 2
-              },
-              "weight": 6
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:omega_box"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 1
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 5,
-                "maxCount": 10
-              },
-              "weight": 14
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:gem_box"
-                },
-                "minCount": 5,
-                "maxCount": 10
-              },
-              "weight": 14
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:mod_box"
-                },
-                "minCount": 4,
-                "maxCount": 6
-              },
-              "weight": 4
             }
           ],
           "minTotalStacks": 4,
@@ -2373,31 +2141,20 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 22
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:regret_orb"
-                },
-                "minCount": 2,
-                "maxCount": 2
-              },
-              "weight": 10
+              "weight": 4
             },
             {
               "value": {
                 "stack": {
                   "item": "the_vault:chromatic_steel_ingot"
                 },
-                "minCount": 8,
-                "maxCount": 20
+                "minCount": 4,
+                "maxCount": 11
               },
               "weight": 70
             },
@@ -2406,8 +2163,8 @@
                 "stack": {
                   "item": "the_vault:vault_gold"
                 },
-                "minCount": 2,
-                "maxCount": 10
+                "minCount": 1,
+                "maxCount": 5
               },
               "weight": 25
             },
@@ -2416,8 +2173,8 @@
                 "stack": {
                   "item": "the_vault:vault_silver"
                 },
-                "minCount": 12,
-                "maxCount": 30
+                "minCount": 8,
+                "maxCount": 24
               },
               "weight": 60
             },
@@ -2426,8 +2183,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 10,
-                "maxCount": 16
+                "minCount": 5,
+                "maxCount": 8
               },
               "weight": 60
             },
@@ -2436,18 +2193,48 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 8,
-                "maxCount": 16
+                "minCount": 3,
+                "maxCount": 5
               },
               "weight": 50
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
+                  "item": "the_vault:gem_benitoite"
+                },
+                "minCount": 4,
+                "maxCount": 8
+              },
+              "weight": 30
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_larimar"
+                },
+                "minCount": 6,
+                "maxCount": 21
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_black_opal"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 20
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_painite"
                 },
                 "minCount": 2,
-                "maxCount": 4
+                "maxCount": 8
               },
               "weight": 30
             },
@@ -2553,32 +2340,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "minecraft:diamond"
                 },
-                "minCount": 32,
-                "maxCount": 64
+                "minCount": 10,
+                "maxCount": 14
               },
               "weight": 50
             },
@@ -2587,8 +2352,18 @@
                 "stack": {
                   "item": "minecraft:emerald"
                 },
-                "minCount": 32,
-                "maxCount": 64
+                "minCount": 24,
+                "maxCount": 48
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "minecraft:experience_bottle"
+                },
+                "minCount": 24,
+                "maxCount": 48
               },
               "weight": 50
             },
@@ -2597,8 +2372,8 @@
                 "stack": {
                   "item": "minecraft:netherite_ingot"
                 },
-                "minCount": 4,
-                "maxCount": 8
+                "minCount": 2,
+                "maxCount": 4
               },
               "weight": 40
             },
@@ -2615,12 +2390,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:supply_box"
+                  "item": "the_vault:repair_core"
                 },
                 "minCount": 1,
-                "maxCount": 2
+                "maxCount": 1
               },
-              "weight": 20
+              "weight": 12
             }
           ],
           "minTotalStacks": 4,
@@ -2638,31 +2413,20 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 22
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:regret_orb"
-                },
-                "minCount": 2,
-                "maxCount": 2
-              },
-              "weight": 10
+              "weight": 4
             },
             {
               "value": {
                 "stack": {
                   "item": "the_vault:chromatic_steel_ingot"
                 },
-                "minCount": 10,
-                "maxCount": 24
+                "minCount": 8,
+                "maxCount": 17
               },
               "weight": 70
             },
@@ -2671,8 +2435,8 @@
                 "stack": {
                   "item": "the_vault:vault_gold"
                 },
-                "minCount": 3,
-                "maxCount": 8
+                "minCount": 2,
+                "maxCount": 5
               },
               "weight": 25
             },
@@ -2681,8 +2445,8 @@
                 "stack": {
                   "item": "the_vault:vault_silver"
                 },
-                "minCount": 14,
-                "maxCount": 32
+                "minCount": 8,
+                "maxCount": 26
               },
               "weight": 60
             },
@@ -2691,8 +2455,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 16,
-                "maxCount": 24
+                "minCount": 8,
+                "maxCount": 12
               },
               "weight": 60
             },
@@ -2701,18 +2465,48 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 12,
-                "maxCount": 24
+                "minCount": 4,
+                "maxCount": 6
               },
               "weight": 50
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
+                  "item": "the_vault:gem_benitoite"
                 },
-                "minCount": 3,
-                "maxCount": 8
+                "minCount": 6,
+                "maxCount": 12
+              },
+              "weight": 30
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_larimar"
+                },
+                "minCount": 10,
+                "maxCount": 21
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_black_opal"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 20
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_painite"
+                },
+                "minCount": 5,
+                "maxCount": 10
               },
               "weight": 30
             },
@@ -2818,32 +2612,30 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
+                  "item": "minecraft:diamond"
                 },
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 12,
+                "maxCount": 24
               },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
+              "weight": 50
             },
             {
               "value": {
                 "stack": {
                   "item": "minecraft:emerald"
                 },
-                "minCount": 48,
-                "maxCount": 80
+                "minCount": 30,
+                "maxCount": 64
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "minecraft:experience_bottle"
+                },
+                "minCount": 30,
+                "maxCount": 64
               },
               "weight": 50
             },
@@ -2852,10 +2644,20 @@
                 "stack": {
                   "item": "minecraft:netherite_ingot"
                 },
-                "minCount": 8,
-                "maxCount": 12
+                "minCount": 4,
+                "maxCount": 8
               },
               "weight": 40
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:repair_core"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 12
             }
           ],
           "minTotalStacks": 4,
@@ -2873,31 +2675,20 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 22
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
-                },
-                "minCount": 2,
-                "maxCount": 2
-              },
-              "weight": 4
+              "weight": 8
             },
             {
               "value": {
                 "stack": {
                   "item": "the_vault:chromatic_steel_ingot"
                 },
-                "minCount": 12,
-                "maxCount": 24
+                "minCount": 8,
+                "maxCount": 18
               },
               "weight": 70
             },
@@ -2906,8 +2697,8 @@
                 "stack": {
                   "item": "the_vault:vault_gold"
                 },
-                "minCount": 4,
-                "maxCount": 8
+                "minCount": 2,
+                "maxCount": 5
               },
               "weight": 30
             },
@@ -2916,8 +2707,8 @@
                 "stack": {
                   "item": "the_vault:vault_silver"
                 },
-                "minCount": 10,
-                "maxCount": 40
+                "minCount": 8,
+                "maxCount": 26
               },
               "weight": 60
             },
@@ -2926,8 +2717,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 16,
-                "maxCount": 24
+                "minCount": 9,
+                "maxCount": 12
               },
               "weight": 60
             },
@@ -2936,18 +2727,48 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 12,
-                "maxCount": 18
+                "minCount": 4,
+                "maxCount": 6
               },
               "weight": 50
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
+                  "item": "the_vault:gem_benitoite"
                 },
-                "minCount": 3,
-                "maxCount": 7
+                "minCount": 8,
+                "maxCount": 12
+              },
+              "weight": 30
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_larimar"
+                },
+                "minCount": 13,
+                "maxCount": 21
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_black_opal"
+                },
+                "minCount": 1,
+                "maxCount": 4
+              },
+              "weight": 20
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_painite"
+                },
+                "minCount": 6,
+                "maxCount": 12
               },
               "weight": 30
             },
@@ -3063,42 +2884,40 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
+                  "item": "minecraft:diamond"
                 },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 7
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 7
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "minecraft:emerald"
-                },
-                "minCount": 54,
-                "maxCount": 90
+                "minCount": 20,
+                "maxCount": 35
               },
               "weight": 30
             },
             {
               "value": {
                 "stack": {
+                  "item": "minecraft:emerald"
+                },
+                "minCount": 32,
+                "maxCount": 64
+              },
+              "weight": 30
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "minecraft:experience_bottle"
+                },
+                "minCount": 32,
+                "maxCount": 64
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "minecraft:netherite_ingot"
                 },
-                "minCount": 10,
-                "maxCount": 20
+                "minCount": 5,
+                "maxCount": 8
               },
               "weight": 40
             },
@@ -3107,8 +2926,8 @@
                 "stack": {
                   "item": "the_vault:mystery_egg"
                 },
-                "minCount": 2,
-                "maxCount": 2
+                "minCount": 1,
+                "maxCount": 1
               },
               "weight": 6
             },
@@ -3151,16 +2970,6 @@
                 "maxCount": 1
               },
               "weight": 12
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 2,
-                "maxCount": 3
-              },
-              "weight": 12
             }
           ],
           "minTotalStacks": 4,
@@ -3170,31 +2979,20 @@
       },
       "35": {
         "vaultExp": {
-          "min": 3000,
-          "max": 5500
+          "min": 10000,
+          "max": 20000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 35
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
-                },
-                "minCount": 1,
-                "maxCount": 2
-              },
-              "weight": 7
+              "weight": 8
             },
             {
               "value": {
@@ -3213,16 +3011,6 @@
                 },
                 "minCount": 1,
                 "maxCount": 8
-              },
-              "weight": 30
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 2,
-                "maxCount": 3
               },
               "weight": 30
             },
@@ -3251,8 +3039,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 16,
-                "maxCount": 22
+                "minCount": 12,
+                "maxCount": 18
               },
               "weight": 60
             },
@@ -3261,20 +3049,30 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 10,
-                "maxCount": 18
+                "minCount": 6,
+                "maxCount": 9
               },
               "weight": 60
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
+                  "item": "the_vault:gem_black_opal"
                 },
-                "minCount": 3,
-                "maxCount": 6
+                "minCount": 1,
+                "maxCount": 4
               },
               "weight": 20
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_painite"
+                },
+                "minCount": 7,
+                "maxCount": 14
+              },
+              "weight": 30
             },
             {
               "value": {
@@ -3388,32 +3186,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:mystery_egg"
                 },
                 "minCount": 1,
-                "maxCount": 3
+                "maxCount": 1
               },
               "weight": 8
             },
@@ -3446,16 +3222,6 @@
                 "maxCount": 2
               },
               "weight": 32
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_catalyst_chaos"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 4
             },
             {
               "value": {
@@ -3486,21 +3252,20 @@
       },
       "50": {
         "vaultExp": {
-          "min": 3800,
-          "max": 6400
+          "min": 20000,
+          "max": 40000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 35
+              "weight": 6
             },
             {
               "value": {
@@ -3515,12 +3280,22 @@
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:supply_box"
+                  "item": "the_vault:faceted_focus"
                 },
-                "minCount": 2,
-                "maxCount": 4
+                "minCount": 1,
+                "maxCount": 1
               },
-              "weight": 30
+              "weight": 8
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:phoenix_feather"
+                },
+                "minCount": 1,
+                "maxCount": 2
+              },
+              "weight": 8
             },
             {
               "value": {
@@ -3531,26 +3306,6 @@
                 "maxCount": 2
               },
               "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
-                },
-                "minCount": 1,
-                "maxCount": 2
-              },
-              "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_alloy"
-                },
-                "minCount": 16,
-                "maxCount": 22
-              },
-              "weight": 50
             },
             {
               "value": {
@@ -3597,8 +3352,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 20,
-                "maxCount": 36
+                "minCount": 14,
+                "maxCount": 24
               },
               "weight": 50
             },
@@ -3607,20 +3362,30 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 14,
-                "maxCount": 27
+                "minCount": 8,
+                "maxCount": 12
               },
               "weight": 50
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:gem_box"
+                  "item": "the_vault:gem_black_opal"
                 },
-                "minCount": 3,
+                "minCount": 4,
                 "maxCount": 8
               },
               "weight": 20
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:gem_painite"
+                },
+                "minCount": 8,
+                "maxCount": 15
+              },
+              "weight": 30
             },
             {
               "value": {
@@ -3734,32 +3499,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:mystery_egg"
                 },
                 "minCount": 2,
-                "maxCount": 4
+                "maxCount": 2
               },
               "weight": 10
             },
@@ -3833,36 +3576,6 @@
                 "maxCount": 3
               },
               "weight": 12
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:augment_box"
-                },
-                "minCount": 1,
-                "maxCount": 2
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:omega_box"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 2
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:inscription_box"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 3
             }
           ],
           "minTotalStacks": 4,
@@ -3872,21 +3585,20 @@
       },
       "75": {
         "vaultExp": {
-          "min": 4400,
-          "max": 6969
+          "min": 40000,
+          "max": 80000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 35
+              "weight": 6
             },
             {
               "value": {
@@ -3901,12 +3613,22 @@
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:supply_box"
+                  "item": "the_vault:faceted_focus"
                 },
-                "minCount": 3,
-                "maxCount": 8
+                "minCount": 1,
+                "maxCount": 1
               },
-              "weight": 30
+              "weight": 8
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "the_vault:phoenix_feather"
+                },
+                "minCount": 2,
+                "maxCount": 3
+              },
+              "weight": 8
             },
             {
               "value": {
@@ -3921,7 +3643,7 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vault_alloy"
+                  "item": "the_vault:chromatic_steel_ingot"
                 },
                 "minCount": 16,
                 "maxCount": 22
@@ -3931,20 +3653,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:chromatic_steel_ingot"
-                },
-                "minCount": 20,
-                "maxCount": 30
-              },
-              "weight": 50
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:vault_gold"
                 },
-                "minCount": 5,
-                "maxCount": 12
+                "minCount": 3,
+                "maxCount": 8
               },
               "weight": 40
             },
@@ -3953,8 +3665,8 @@
                 "stack": {
                   "item": "the_vault:vault_silver"
                 },
-                "minCount": 30,
-                "maxCount": 60
+                "minCount": 24,
+                "maxCount": 48
               },
               "weight": 60
             },
@@ -3973,8 +3685,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 20,
-                "maxCount": 44
+                "minCount": 14,
+                "maxCount": 24
               },
               "weight": 50
             },
@@ -3983,8 +3695,8 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 16,
-                "maxCount": 36
+                "minCount": 10,
+                "maxCount": 16
               },
               "weight": 50
             },
@@ -4100,32 +3812,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"gear_rare\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:mystery_egg"
                 },
-                "minCount": 3,
-                "maxCount": 3
+                "minCount": 2,
+                "maxCount": 2
               },
               "weight": 10
             },
@@ -4145,7 +3835,7 @@
                   "item": "the_vault:black_chromatic_steel_ingot"
                 },
                 "minCount": 2,
-                "maxCount": 5
+                "maxCount": 4
               },
               "weight": 10
             },
@@ -4154,8 +3844,8 @@
                 "stack": {
                   "item": "the_vault:sweet_kiwi"
                 },
-                "minCount": 6,
-                "maxCount": 12
+                "minCount": 3,
+                "maxCount": 6
               },
               "weight": 32
             },
@@ -4248,21 +3938,20 @@
       },
       "90": {
         "vaultExp": {
-          "min": 8600,
-          "max": 13000
+          "min": 80000,
+          "max": 160000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 35
+              "weight": 6
             },
             {
               "value": {
@@ -4277,20 +3966,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vault_alloy"
-                },
-                "minCount": 18,
-                "maxCount": 36
-              },
-              "weight": 50
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:chromatic_steel_ingot"
                 },
-                "minCount": 16,
-                "maxCount": 36
+                "minCount": 8,
+                "maxCount": 16
               },
               "weight": 50
             },
@@ -4299,28 +3978,18 @@
                 "stack": {
                   "item": "the_vault:vault_gold"
                 },
-                "minCount": 5,
-                "maxCount": 16
+                "minCount": 2,
+                "maxCount": 8
               },
               "weight": 40
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 5,
-                "maxCount": 12
-              },
-              "weight": 30
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:vault_silver"
                 },
-                "minCount": 20,
-                "maxCount": 64
+                "minCount": 16,
+                "maxCount": 48
               },
               "weight": 60
             },
@@ -4329,8 +3998,8 @@
                 "stack": {
                   "item": "the_vault:knowledge_star_essence"
                 },
-                "minCount": 26,
-                "maxCount": 64
+                "minCount": 13,
+                "maxCount": 24
               },
               "weight": 60
             },
@@ -4339,8 +4008,8 @@
                 "stack": {
                   "item": "the_vault:vault_diamond"
                 },
-                "minCount": 25,
-                "maxCount": 48
+                "minCount": 10,
+                "maxCount": 14
               },
               "weight": 60
             },
@@ -4350,7 +4019,7 @@
                   "item": "the_vault:gem_echo"
                 },
                 "minCount": 1,
-                "maxCount": 4
+                "maxCount": 3
               },
               "weight": 8
             },
@@ -4456,32 +4125,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"ornate0\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:mystery_egg"
                 },
-                "minCount": 4,
-                "maxCount": 4
+                "minCount": 1,
+                "maxCount": 2
               },
               "weight": 10
             },
@@ -4491,7 +4138,7 @@
                   "item": "the_vault:fundamental_focus"
                 },
                 "minCount": 1,
-                "maxCount": 4
+                "maxCount": 2
               },
               "weight": 16
             },
@@ -4521,7 +4168,7 @@
                   "item": "the_vault:bitter_lemon"
                 },
                 "minCount": 1,
-                "maxCount": 2
+                "maxCount": 1
               },
               "weight": 1
             },
@@ -4594,24 +4241,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vorpal_focus",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 35
+              "weight": 12
             },
             {
               "value": {
@@ -4693,50 +4328,6 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:axe",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 1
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:magnet",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:chonknet\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 1
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:vault_gold"
                 },
                 "minCount": 4,
@@ -4750,7 +4341,7 @@
                   "item": "the_vault:fundamental_focus"
                 },
                 "minCount": 1,
-                "maxCount": 2
+                "maxCount": 1
               },
               "weight": 70
             },
@@ -4803,36 +4394,6 @@
                 "maxCount": 1
               },
               "weight": 100
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:gem_box"
-                },
-                "minCount": 4,
-                "maxCount": 8
-              },
-              "weight": 80
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:omega_box"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 2
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:inscription_box"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 2
             }
           ],
           "minTotalStacks": 6,
@@ -4850,24 +4411,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vorpal_focus",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 50
+              "weight": 12
             },
             {
               "value": {
@@ -4949,32 +4498,10 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:vault_gold"
                 },
-                "minCount": 8,
-                "maxCount": 16
+                "minCount": 4,
+                "maxCount": 14
               },
               "weight": 100
             },
@@ -4984,7 +4511,7 @@
                   "item": "the_vault:fundamental_focus"
                 },
                 "minCount": 1,
-                "maxCount": 3
+                "maxCount": 1
               },
               "weight": 70
             },
@@ -4997,28 +4524,6 @@
                 "maxCount": 1
               },
               "weight": 80
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:axe",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:magnet",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:chonknet\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 4
             },
             {
               "value": {
@@ -5053,16 +4558,6 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:bitter_lemon"
-                },
-                "minCount": 1,
-                "maxCount": 3
-              },
-              "weight": 40
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:vault_catalyst_infused",
                   "nbt": "{\"pool\":\"the_vault:shop_pedestal\"}"
                 },
@@ -5074,22 +4569,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:omega_box"
+                  "item": "the_vault:bitter_lemon"
                 },
                 "minCount": 1,
-                "maxCount": 1
+                "maxCount": 2
               },
-              "weight": 2
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:inscription_box"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 2
+              "weight": 40
             }
           ],
           "minTotalStacks": 6,
@@ -5100,64 +4585,19 @@
       "50": {
         "vaultExp": {
           "min": 25000,
-          "max": 35000
+          "max": 50000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vorpal_focus",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:card_deck",
-                  "nbt": "{\"id\":\"lost\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 50
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:axe",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:magnet",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:chonknet\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 5
+              "weight": 12
             },
             {
               "value": {
@@ -5239,44 +4679,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:vault_gold"
                 },
-                "minCount": 8,
-                "maxCount": 20
+                "minCount": 4,
+                "maxCount": 14
               },
               "weight": 100
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 5,
-                "maxCount": 10
-              },
-              "weight": 40
             },
             {
               "value": {
@@ -5284,7 +4692,7 @@
                   "item": "the_vault:fundamental_focus"
                 },
                 "minCount": 1,
-                "maxCount": 4
+                "maxCount": 1
               },
               "weight": 70
             },
@@ -5321,47 +4729,18 @@
             {
               "value": {
                 "stack": {
+                  "item": "the_vault:card_deck",
+                  "nbt": "{\"id\":\"lost\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:opportunistic_focus"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:capstone_pylon_hunter"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:capstone_vendoor_hunter"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:bitter_lemon"
-                },
-                "minCount": 1,
-                "maxCount": 2
-              },
-              "weight": 40
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_catalyst_chaos"
                 },
                 "minCount": 1,
                 "maxCount": 1
@@ -5382,52 +4761,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:omega_box"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 2
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:gem_box"
-                },
-                "minCount": 4,
-                "maxCount": 8
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:inscription_box"
+                  "item": "the_vault:bitter_lemon"
                 },
                 "minCount": 1,
                 "maxCount": 2
               },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:augment_box"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 6,
-                "maxCount": 12
-              },
-              "weight": 4
+              "weight": 40
             }
           ],
           "minTotalStacks": 6,
@@ -5437,54 +4776,20 @@
       },
       "65": {
         "vaultExp": {
-          "min": 35000,
-          "max": 55000
+          "min": 50000,
+          "max": 100000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vorpal_focus",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:axe",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 6
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:magnet",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:chonknet\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 6
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 50
+              "weight": 12
             },
             {
               "value": {
@@ -5533,17 +4838,6 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:card_deck",
-                  "nbt": "{\"id\":\"lost\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:sword",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
                 },
@@ -5577,52 +4871,20 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:vault_gold"
                 },
-                "minCount": 10,
-                "maxCount": 25
+                "minCount": 4,
+                "maxCount": 14
               },
               "weight": 100
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 6,
-                "maxCount": 12
-              },
-              "weight": 40
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:fundamental_focus"
                 },
-                "minCount": 2,
-                "maxCount": 4
+                "minCount": 1,
+                "maxCount": 1
               },
               "weight": 70
             },
@@ -5659,43 +4921,23 @@
             {
               "value": {
                 "stack": {
+                  "item": "the_vault:card_deck",
+                  "nbt": "{\"id\":\"lost\"}"
+                },
+                "minCount": 1,
+                "maxCount": 1
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "the_vault:opportunistic_focus"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
               "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:bitter_lemon"
-                },
-                "minCount": 2,
-                "maxCount": 3
-              },
-              "weight": 40
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_catalyst_chaos"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_catalyst_infused",
-                  "nbt": "{\"modifiers\":[\"the_vault:gilded_cascade\"]}"
-                },
-                "minCount": 1,
-                "maxCount": 2
-              },
-              "weight": 10
             },
             {
               "value": {
@@ -5711,52 +4953,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:omega_box"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 2
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:gem_box"
-                },
-                "minCount": 7,
-                "maxCount": 10
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:inscription_box"
-                },
-                "minCount": 1,
-                "maxCount": 3
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:augment_box"
+                  "item": "the_vault:bitter_lemon"
                 },
                 "minCount": 1,
                 "maxCount": 2
               },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 8,
-                "maxCount": 16
-              },
-              "weight": 4
+              "weight": 40
             }
           ],
           "minTotalStacks": 6,
@@ -5766,54 +4968,20 @@
       },
       "90": {
         "vaultExp": {
-          "min": 48000,
-          "max": 68000
+          "min": 140000,
+          "max": 280000
         },
         "itemPool": {
           "pool": [
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:vorpal_focus",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 50
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:axe",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 6
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:magnet",
-                  "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:chonknet\",\"the_vault:gear_roll_type\":\"Unique\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 6
+              "weight": 8
             },
             {
               "value": {
@@ -5884,40 +5052,7 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:card_deck",
-                  "nbt": "{\"id\":\"lost\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:magnet",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:trident",
-                  "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 10
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:battlestaff",
                   "nbt": "{\"the_vault:gear_roll_type_pool\":\"treasure\"}"
                 },
                 "minCount": 1,
@@ -5930,28 +5065,18 @@
                 "stack": {
                   "item": "the_vault:vault_gold"
                 },
-                "minCount": 16,
-                "maxCount": 32
+                "minCount": 8,
+                "maxCount": 16
               },
               "weight": 100
             },
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 7,
-                "maxCount": 14
-              },
-              "weight": 40
-            },
-            {
-              "value": {
-                "stack": {
                   "item": "the_vault:fundamental_focus"
                 },
-                "minCount": 3,
-                "maxCount": 6
+                "minCount": 1,
+                "maxCount": 1
               },
               "weight": 70
             },
@@ -5988,27 +5113,18 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:opportunistic_focus"
+                  "item": "the_vault:card_deck",
+                  "nbt": "{\"id\":\"lost\"}"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 8
+              "weight": 4
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:bitter_lemon"
-                },
-                "minCount": 2,
-                "maxCount": 4
-              },
-              "weight": 40
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_catalyst_chaos"
+                  "item": "the_vault:opportunistic_focus"
                 },
                 "minCount": 1,
                 "maxCount": 1
@@ -6029,52 +5145,12 @@
             {
               "value": {
                 "stack": {
-                  "item": "woldsvaults:omega_box"
+                  "item": "the_vault:bitter_lemon"
                 },
                 "minCount": 1,
                 "maxCount": 2
               },
-              "weight": 2
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:gem_box"
-                },
-                "minCount": 8,
-                "maxCount": 14
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:inscription_box"
-                },
-                "minCount": 1,
-                "maxCount": 3
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:augment_box"
-                },
-                "minCount": 1,
-                "maxCount": 3
-              },
-              "weight": 4
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "woldsvaults:supply_box"
-                },
-                "minCount": 8,
-                "maxCount": 16
-              },
-              "weight": 4
+              "weight": 40
             }
           ],
           "minTotalStacks": 7,
@@ -6094,23 +5170,22 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 50
+              "weight": 4
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:regret_orb"
+                  "item": "the_vault:chromatic_iron_ingot"
                 },
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 8,
+                "maxCount": 30
               },
-              "weight": 10
+              "weight": 60
             },
             {
               "value": {
@@ -6313,6 +5388,16 @@
             {
               "value": {
                 "stack": {
+                  "item": "minecraft:diamond"
+                },
+                "minCount": 4,
+                "maxCount": 12
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "minecraft:emerald"
                 },
                 "minCount": 16,
@@ -6329,6 +5414,16 @@
                 "maxCount": 48
               },
               "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "minecraft:netherite_ingot"
+                },
+                "minCount": 2,
+                "maxCount": 4
+              },
+              "weight": 40
             },
             {
               "value": {
@@ -6356,33 +5451,22 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 15
+              "weight": 6
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:regret_orb"
+                  "item": "the_vault:chromatic_iron_ingot"
                 },
-                "minCount": 1,
-                "maxCount": 1
+                "minCount": 64,
+                "maxCount": 80
               },
-              "weight": 20
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 8
+              "weight": 40
             },
             {
               "value": {
@@ -6585,6 +5669,16 @@
             {
               "value": {
                 "stack": {
+                  "item": "minecraft:diamond"
+                },
+                "minCount": 8,
+                "maxCount": 24
+              },
+              "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
                   "item": "minecraft:emerald"
                 },
                 "minCount": 16,
@@ -6601,6 +5695,16 @@
                 "maxCount": 56
               },
               "weight": 50
+            },
+            {
+              "value": {
+                "stack": {
+                  "item": "minecraft:netherite_ingot"
+                },
+                "minCount": 2,
+                "maxCount": 4
+              },
+              "weight": 40
             }
           ],
           "minTotalStacks": 4,
@@ -6618,43 +5722,22 @@
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:jewel_pouch",
-                  "nbt": "{}"
+                  "item": "the_vault:jewel_pouch"
                 },
                 "minCount": 1,
                 "maxCount": 1
               },
-              "weight": 15
+              "weight": 6
             },
             {
               "value": {
                 "stack": {
-                  "item": "the_vault:regret_orb"
+                  "item": "the_vault:chromatic_iron_ingot"
                 },
-                "minCount": 1,
-                "maxCount": 2
+                "minCount": 64,
+                "maxCount": 100
               },
-              "weight": 20
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:crystal_seal_empty"
-                },
-                "minCount": 1,
-                "maxCount": 1
-              },
-              "weight": 8
-            },
-            {
-              "value": {
-                "stack": {
-                  "item": "the_vault:vault_alloy"
-                },
-                "minCount": 9,
-                "maxCount": 16
-              },
-              "weight": 50
+              "weight": 40
             },
             {
               "value": {

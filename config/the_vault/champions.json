@@ -7,6 +7,7 @@
     "the_vault:smolcap": -10.0,
     "minecraft:villager": -10.0,
     "minecraft:chicken": -10.0,
+    "minecraft:armor_stand": -10.0,
     "rottencreatures:flying_scarab": -10.0,
     "minecraft:cod": -10.0,
     "minecraft:salmon": -10.0,
@@ -18,11 +19,17 @@
     "minecraft:shulker_bullet": -10.0,
     "minecraft:slime": -10.0,
     "minecraft:silverfish": -10.0,
+    "the_vault:blood_silverfish": -10.0,
+    "minecraft:magma_cube": -10.0,
     "rottencreatures:zombie_lackey": -10.0,
     "rottencreatures:skeleton_lackey": -10.0,
     "alexsmobs:catfish": -10.0,
+    "the_vault:blood_slime": -10.0,
+    "@the_vault:bosses": -10.0,
     "@the_vault:elite": -10.0,
-    "minecraft:armor_stand": -20.0
+    "the_vault:vault_spider_baby": -10.0,
+    "the_vault:boogieman": -10.0,
+    "the_vault:treasure_goblin": -10
   },
   "defaultAttributeOverrides": [
     {

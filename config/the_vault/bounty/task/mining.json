@@ -50,21 +50,6 @@
         {
           "value": {
 
-            "value": "the_vault:ore_wutodie",
-            "amount": {
-              "min": 2,
-              "max": 8
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-
             "value": "the_vault:ore_alexandrite",
             "amount": {
               "min": 2,
@@ -272,21 +257,6 @@
             "amount": {
               "min": 8,
               "max": 12
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-
-            "value": "the_vault:ore_wutodie",
-            "amount": {
-              "min": 8,
-              "max": 10
             },
             "floorToNearestTen": false,
             "validDimensions": [],
@@ -516,21 +486,6 @@
         {
           "value": {
 
-            "value": "the_vault:ore_wutodie",
-            "amount": {
-              "min": 16,
-              "max": 28
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-
             "value": "the_vault:ore_alexandrite",
             "amount": {
               "min": 12,
@@ -744,21 +699,6 @@
             "amount": {
               "min": 24,
               "max": 48
-            },
-            "floorToNearestTen": false,
-            "validDimensions": [],
-            "vaultOnly": true,
-            "rewardPool": "common"
-          },
-          "weight": 20
-        },
-        {
-          "value": {
-
-            "value": "the_vault:ore_wutodie",
-            "amount": {
-              "min": 22,
-              "max": 28
             },
             "floorToNearestTen": false,
             "validDimensions": [],

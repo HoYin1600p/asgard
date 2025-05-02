@@ -68,7 +68,6 @@
     "the_vault:ore_iskallium": 160.0,
     "the_vault:ore_gorginite": 160.0,
     "the_vault:ore_sparkletine": 160.0,
-    "the_vault:ore_wutodie": 64.0,
     "the_vault:ore_ashium": 160.0,
     "the_vault:ore_bomignite": 160.0,
     "the_vault:ore_funsoide": 160.0,
@@ -81,7 +80,7 @@
   },
   "treasureRoomsOpened": 3400.0,
   "mobsKilled": {
-    "minecraft:default": 26.0,
+    "minecraft:default": 0.0,
     "the_vault:vault_fighter": 35.0,
     "minecraft:zombie": 22.0,
     "minecraft:skeleton": 53.0,
@@ -94,7 +93,7 @@
     "minecraft:stray": 75.0,
     "minecraft:wither_skeleton": 70.0,
     "minecraft:polar_bear": 141.0,
-    "quark:wraith": 70.0,
+    "the_vault:vault_wraith_white": 70.0,
     "minecraft:magma_cube": 110.0,
     "minecraft:piglin_brute": 141.0,
     "alexsmobs:soul_vulture": 158.0,
@@ -206,11 +205,14 @@
     "the_vault:dungeon_skeleton": 320.0,
     "the_vault:t1_zombie": 128.0,
     "the_vault:t2_zombie": 256.0,
-    "the_vault:t3_zombie": 256.0
-    
+    "the_vault:t3_zombie": 256.0,
+    "the_vault:vault_yellow_gummy_soldier": 26.0,
+    "the_vault:vault_blue_gummy_soldier": 26.0,
+    "the_vault:vault_green_gummy_soldier": 34.0,
+    "the_vault:vault_red_gummy_soldier": 53.0
   },
   "completion" : {
-    "boss": {
+    "rune_boss": {
       "BAILED": 0,
       "FAILED": 0,
       "COMPLETED": 16000
@@ -239,6 +241,11 @@
       "BAILED": 0,
       "FAILED": 0,
       "COMPLETED": 18000
+    },
+    "bingo": {
+      "BAILED": 0,
+      "FAILED": 0,
+      "COMPLETED": 24000
     },
     "default": {
       "BAILED": 0,

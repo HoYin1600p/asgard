@@ -204,6 +204,21 @@
           "weight": 1
         }
       ]
+    },
+    "the_vault:treasure_goblin": {
+      "elite": {
+        "entityName": "the_vault:treasure_goblin"
+      },
+      "min": 0,
+      "max": 0,
+      "minions": [
+        {
+          "value": {
+            "entityName": "rottencreatures:swampy"
+          },
+          "weight": 1
+        }
+      ]
     }
   }
 }

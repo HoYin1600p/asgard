@@ -6,8 +6,7 @@
       "the_vault:ore_black_opal[generated=true]",
       "the_vault:ore_echo[generated=true]",
       "the_vault:ore_larimar[generated=true]",
-      "the_vault:ore_painite[generated=true]",
-      "the_vault:ore_wutodie[generated=true]"
+      "the_vault:ore_painite[generated=true]"
     ],
     "the_vault:player_ores": [
       "the_vault:ore_ashium[generated=true]",
@@ -40,22 +39,18 @@
     ],
     "the_vault:living": [
       "the_vault:living_chest",
-      "the_vault:living_strongbox",
-      "the_vault:living_barrel"
+      "the_vault:living_strongbox"
     ],
     "the_vault:wooden": [
-      "the_vault:wooden_chest",
-      "the_vault:wooden_barrel"
+      "the_vault:wooden_chest"
     ],
     "the_vault:gilded": [
       "the_vault:gilded_chest",
-      "the_vault:gilded_strongbox",
-      "the_vault:gilded_barrel"
+      "the_vault:gilded_strongbox"
     ],
     "the_vault:ornate": [
       "the_vault:ornate_chest",
-      "the_vault:ornate_strongbox",
-      "the_vault:ornate_barrel"
+      "the_vault:ornate_strongbox"
     ],
     "the_vault:coins": [
       "the_vault:coin_pile"
@@ -72,10 +67,27 @@
       "the_vault:placeholder"
     ],
     "the_vault:chest": [
+
       "@the_vault:ornate",
       "@the_vault:gilded",
       "@the_vault:wooden",
       "@the_vault:living"
+    ],
+    "the_vault:all_wooden": [
+      "@the_vault:wooden",
+      "the_vault:wooden_barrel"
+    ],
+    "the_vault:all_living": [
+      "@the_vault:living",
+      "the_vault:living_barrel"
+    ],
+    "the_vault:all_gilded": [
+      "@the_vault:gilded",
+      "the_vault:gilded_barrel"
+    ],
+    "the_vault:all_ornate": [
+      "@the_vault:ornate",
+      "the_vault:ornate_barrel"
     ]
   }
 }

@@ -6,8 +6,7 @@
   "rescuedBonusMin": 0.3,
   "rescuedBonusMax": 0.9,
   "levelCosts": [
-    {
-      "minLevel": 0,
+    { "minLevel": 0,
       "item": "the_vault:vault_gold",
       "count": 0.0,
       "gearRarityCost": {
@@ -16,7 +15,7 @@
         "RARE": 1,
         "EPIC": 2,
         "OMEGA": 3,
-        "UNIQUE": 0
+        "UNIQUE": 3
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
@@ -109,8 +108,7 @@
       ],
       "trinketCost": 10
     },
-    {
-      "minLevel": 20,
+    { "minLevel": 20,
       "item": "the_vault:vault_gold",
       "count": 0.05,
       "gearRarityCost": {
@@ -119,7 +117,7 @@
         "RARE": 2,
         "EPIC": 4,
         "OMEGA": 5,
-        "UNIQUE": 0
+        "UNIQUE": 16
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
@@ -212,8 +210,7 @@
       ],
       "trinketCost": 10
     },
-    {
-      "minLevel": 40,
+    { "minLevel": 40,
       "item": "the_vault:vault_gold",
       "count": 0.1,
       "gearRarityCost": {
@@ -222,7 +219,7 @@
         "RARE": 4,
         "EPIC": 8,
         "OMEGA": 12,
-        "UNIQUE": 0
+        "UNIQUE": 16
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
@@ -315,8 +312,7 @@
       ],
       "trinketCost": 12
     },
-    {
-      "minLevel": 50,
+    { "minLevel": 50,
       "item": "the_vault:vault_gold",
       "count": 0.2,
       "gearRarityCost": {
@@ -325,7 +321,7 @@
         "RARE": 5,
         "EPIC": 9,
         "OMEGA": 14,
-        "UNIQUE": 0
+        "UNIQUE": 20
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
@@ -337,6 +333,12 @@
         "OMEGA_POG": 48
       },
       "itemCost": [
+        [
+          {
+            "item": "the_vault:treasure_keyring"
+          }, 
+          4
+        ],
         [
           {
             "item": "sophisticatedbackpacks:iron_backpack"
@@ -424,8 +426,7 @@
       ],
       "trinketCost": 14
     },
-    {
-      "minLevel": 65,
+    { "minLevel": 65,
       "item": "the_vault:vault_gold",
       "count": 0.2,
       "gearRarityCost": {
@@ -434,7 +435,7 @@
         "RARE": 8,
         "EPIC": 13,
         "OMEGA": 18,
-        "UNIQUE": 0
+        "UNIQUE": 32
       },
       "toolMaterialCost": {
         "CHROMATIC_IRON_INGOT": 0,
@@ -446,6 +447,12 @@
         "OMEGA_POG": 48
       },
       "itemCost": [
+        [
+          {
+            "item": "the_vault:treasure_keyring"
+          }, 
+          6
+        ],
         [
           {
             "item": "sophisticatedbackpacks:iron_backpack"

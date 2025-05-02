@@ -10,7 +10,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": 75,
+            "maxLevel": -1,
             "weight": 10,
             "value": {
               "min": 15000,
@@ -56,6 +56,38 @@
             "minLevel": 0,
             "maxLevel": -1,
             "weight": 80,
+            "value": {
+              "flag": false
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:living",
+        "group": "BaseLiving",
+        "identifier": "the_vault:base_living",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 2,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:living",
+        "group": "BaseLiving",
+        "identifier": "the_vault:base_no_living",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 98,
             "value": {
               "flag": false
             }
@@ -120,7 +152,7 @@
           },
           {
             "minLevel": 65,
-            "maxLevel": 80,
+            "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 15.1,
@@ -207,7 +239,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": 25,
+            "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 3.0,
@@ -217,7 +249,7 @@
           },
           {
             "minLevel": 21,
-            "maxLevel": 50,
+            "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 8.1,
@@ -276,7 +308,7 @@
           },
           {
             "minLevel": 19,
-            "maxLevel": 50,
+            "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 2.6,
@@ -286,7 +318,7 @@
           },
           {
             "minLevel": 45,
-            "maxLevel": 80,
+            "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 4.6,
@@ -365,7 +397,7 @@
           },
           {
             "minLevel": 38,
-            "maxLevel": 75,
+            "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 0.07,
@@ -454,7 +486,7 @@
           },
           {
             "minLevel": 43,
-            "maxLevel": 75,
+            "maxLevel": -1,
             "weight": 100,
             "value": {
               "min": 0.81,

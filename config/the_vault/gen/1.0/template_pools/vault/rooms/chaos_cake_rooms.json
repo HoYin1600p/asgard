@@ -73,10 +73,6 @@
   },
   {
     "weight": 1,
-    "reference": "the_vault:vault/rooms/gingerbread_common_rooms"
-  },
-  {
-    "weight": 1,
     "reference": "the_vault:vault/rooms/haunted_common_rooms"
   },
   {
@@ -193,18 +189,26 @@
   },
   {
     "weight": 1,
-    "reference": "the_vault:vault/rooms/idonis_common_rooms"
+    "reference": "the_vault:vault/rooms/ancient_idona_common_rooms"
   },
   {
     "weight": 1,
-    "reference": "the_vault:vault/rooms/altenous_common_rooms"
+    "reference": "the_vault:vault/rooms/ancient_tenos_common_rooms"
   },
   {
     "weight": 1,
-    "reference": "the_vault:vault/rooms/veldallum_common_rooms"
+    "reference": "the_vault:vault/rooms/ancient_velara_common_rooms"
   },
   {
     "weight": 1,
-    "reference": "the_vault:vault/rooms/wendtoh_common_rooms"
+    "reference": "the_vault:vault/rooms/ancient_wendarr_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/aberrant_garden_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/autumn_cherry_grove_common_rooms"
   }
 ]

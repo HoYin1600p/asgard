@@ -1,6 +1,13 @@
 {
   "dropChance": 0.2,
   "drops": {
+
+    "the_vault:classic_vault_aberrant_garden": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_aberrant_garden\"}": 1
+    },
+    "the_vault:classic_vault_autumn_cherry_grove": {
+      "the_vault:augment{theme:\"the_vault:classic_vault_autumn_cherry_grove\"}": 1
+    },
     "the_vault:classic_vault_ice": {
       "the_vault:augment{theme:\"the_vault:classic_vault_ice\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_ice_cave\"}": 3
@@ -169,6 +176,7 @@
     "the_vault:classic_vault_chaos": {
       "the_vault:augment{theme:\"the_vault:classic_vault_aurora_cave\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_beach\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_blank\"}": 0,
       "the_vault:augment{theme:\"the_vault:classic_vault_blood_moon\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_cave\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_cave_deepslate\"}": 5,
@@ -196,7 +204,12 @@
       "the_vault:augment{theme:\"the_vault:classic_vault_nether_crimson\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_nether_soul\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_nether_warped\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_plastic\"}": 0,
       "the_vault:augment{theme:\"the_vault:classic_vault_poison\"}": 5,
+      "the_vault:augment{theme:\"the_vault:classic_vault_raw_cave\"}": 0,
+      "the_vault:augment{theme:\"the_vault:classic_vault_raw_cave_andersite\"}": 0,
+      "the_vault:augment{theme:\"the_vault:classic_vault_raw_cave_diorite\"}": 0,
+      "the_vault:augment{theme:\"the_vault:classic_vault_raw_cave_granite\"}": 0,
       "the_vault:augment{theme:\"the_vault:classic_vault_sandy_cave\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_sea_floor\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_season_spring\"}": 5,

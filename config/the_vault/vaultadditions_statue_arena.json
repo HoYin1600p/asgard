@@ -1,51 +1,58 @@
 {
-  "LOOT": [
+  "DROPS": [
     {
       "value": {
-        "ITEM": "minecraft:diamond_ore",
-        "NBT": ""
+        "id": "minecraft:diamond_ore",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:ancient_debris",
-        "NBT": ""
+        "id": "minecraft:ancient_debris",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:raw_iron_block",
-        "NBT": ""
+        "id": "minecraft:raw_iron_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:gilded_blackstone",
-        "NBT": ""
+        "id": "minecraft:gilded_blackstone",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:raw_gold_block",
-        "NBT": ""
+        "id": "minecraft:raw_gold_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:crying_obsidian",
-        "NBT": ""
+        "id": "minecraft:crying_obsidian",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:redstone_block",
-        "NBT": ""
+        "id": "minecraft:redstone_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     }

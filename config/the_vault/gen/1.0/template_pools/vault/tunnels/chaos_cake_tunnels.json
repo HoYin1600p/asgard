@@ -2884,7 +2884,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel1",
       "palettes": [
-        "the_vault:universal_idonis",
+        "the_vault:universal_ancient_idona",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2894,7 +2894,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel2",
       "palettes": [
-        "the_vault:universal_idonis",
+        "the_vault:universal_ancient_idona",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2904,7 +2904,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel3",
       "palettes": [
-        "the_vault:universal_idonis",
+        "the_vault:universal_ancient_idona",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2914,7 +2914,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel4",
       "palettes": [
-        "the_vault:universal_idonis",
+        "the_vault:universal_ancient_idona",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2924,7 +2924,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel5",
       "palettes": [
-        "the_vault:universal_idonis",
+        "the_vault:universal_ancient_idona",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2934,7 +2934,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel6",
       "palettes": [
-        "the_vault:universal_idonis",
+        "the_vault:universal_ancient_idona",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2943,7 +2943,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel1",
       "palettes": [
-        "the_vault:universal_altenous",
+        "the_vault:universal_ancient_tenos",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2953,7 +2953,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel2",
       "palettes": [
-        "the_vault:universal_altenous",
+        "the_vault:universal_ancient_tenos",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2963,7 +2963,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel3",
       "palettes": [
-        "the_vault:universal_altenous",
+        "the_vault:universal_ancient_tenos",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2973,7 +2973,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel4",
       "palettes": [
-        "the_vault:universal_altenous",
+        "the_vault:universal_ancient_tenos",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2983,7 +2983,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel5",
       "palettes": [
-        "the_vault:universal_altenous",
+        "the_vault:universal_ancient_tenos",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -2993,7 +2993,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel6",
       "palettes": [
-        "the_vault:universal_altenous",
+        "the_vault:universal_ancient_tenos",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3003,7 +3003,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel1",
       "palettes": [
-        "the_vault:universal_veldallum",
+        "the_vault:universal_ancient_velara",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3013,7 +3013,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel2",
       "palettes": [
-        "the_vault:universal_veldallum",
+        "the_vault:universal_ancient_velara",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3023,7 +3023,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel3",
       "palettes": [
-        "the_vault:universal_veldallum",
+        "the_vault:universal_ancient_velara",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3033,7 +3033,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel4",
       "palettes": [
-        "the_vault:universal_veldallum",
+        "the_vault:universal_ancient_velara",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3043,7 +3043,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel5",
       "palettes": [
-        "the_vault:universal_veldallum",
+        "the_vault:universal_ancient_velara",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3053,16 +3053,17 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel6",
       "palettes": [
-        "the_vault:universal_veldallum",
+        "the_vault:universal_ancient_velara",
         "the_vault:generic/air_to_cave_air"
       ]
     }
-  },{
+  },
+  {
     "weight": 1,
     "value": {
       "template": "the_vault:vault/tunnels/tunnel1",
       "palettes": [
-        "the_vault:universal_wendtoh",
+        "the_vault:universal_ancient_wendarr",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3072,7 +3073,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel2",
       "palettes": [
-        "the_vault:universal_wendtoh",
+        "the_vault:universal_ancient_wendarr",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3082,7 +3083,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel3",
       "palettes": [
-        "the_vault:universal_wendtoh",
+        "the_vault:universal_ancient_wendarr",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3092,7 +3093,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel4",
       "palettes": [
-        "the_vault:universal_wendtoh",
+        "the_vault:universal_ancient_wendarr",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3102,7 +3103,7 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel5",
       "palettes": [
-        "the_vault:universal_wendtoh",
+        "the_vault:universal_ancient_wendarr",
         "the_vault:generic/air_to_cave_air"
       ]
     }
@@ -3112,7 +3113,127 @@
     "value": {
       "template": "the_vault:vault/tunnels/tunnel6",
       "palettes": [
-        "the_vault:universal_wendtoh",
+        "the_vault:universal_ancient_wendarr",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel1",
+      "palettes": [
+        "the_vault:universal_aberrant_garden",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel2",
+      "palettes": [
+        "the_vault:universal_aberrant_garden",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel3",
+      "palettes": [
+        "the_vault:universal_aberrant_garden",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel4",
+      "palettes": [
+        "the_vault:universal_aberrant_garden",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel5",
+      "palettes": [
+        "the_vault:universal_aberrant_garden",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel6",
+      "palettes": [
+        "the_vault:universal_aberrant_garden",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel1",
+      "palettes": [
+        "the_vault:universal_autumn_cherry_grove",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel2",
+      "palettes": [
+        "the_vault:universal_autumn_cherry_grove",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel3",
+      "palettes": [
+        "the_vault:universal_autumn_cherry_grove",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel4",
+      "palettes": [
+        "the_vault:universal_autumn_cherry_grove",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel5",
+      "palettes": [
+        "the_vault:universal_autumn_cherry_grove",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/tunnel6",
+      "palettes": [
+        "the_vault:universal_autumn_cherry_grove",
         "the_vault:generic/air_to_cave_air"
       ]
     }

@@ -39,11 +39,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\n/the_vault local_difficulty PlayerName difficulty",
+            "text": "\n\n/the_vault local_difficulty YourUserName difficulty",
             "color": "$manaCost"
           },
           {
-            "text": ".\n\nThe different difficulties from easiest to hardest are:\n",
+            "text": "\n\nThe different difficulties from easiest to hardest are:\n",
             "color": "$text"
           },
           {
@@ -153,7 +153,7 @@
     {
       "type": "checkmark",
       "id": "interact_globe_expander",
-      "name": "World Expansion",
+      "name": "World Expansion (Server SMP)",
       "descriptionData": {
         "description": [
           {
@@ -193,19 +193,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nNote",
-            "color": "red"
-          },
-          {
-            "text": ": You can also submit these crystals stacks at a time",
-            "color": "$text"
-          },
-          {
             "text": "\n\nGlobe Expander",
             "color": "aqua"
           },
           {
-            "text": ":\nThe Globe Expander will sit at spawn and accept ",
+            "text": ":\nThe Globe Expander is located at spawn and accepts ",
             "color": "$text"
           },
           {
@@ -216,6 +208,15 @@
             "text": ". If you are curious about the current size of the world border, you can right click on the block with an empty hand.",
             "color": "$text"
           },
+          {
+            "text": "\n\nNote",
+            "color": "red"
+          },
+          {
+            "text": ": You can also submit these crystals stacks at a time by shift clicking with an empty hand.",
+            "color": "$text"
+          },
+
           {
             "text": "\n\nSubmit a Power Gem to the Globe Expander",
             "color": "$heal"
@@ -259,11 +260,11 @@
             "color": "light_purple"
           },
           {
-            "text": ".\n\nThese portals can appear in all 3 main Minecraft dimensions, but the coordinates in the message will be partially hidden giving you only hints to it's location!\n\nOnce you have found the portal, you can enter to experience one of many different vault types each with their own sets of modifiers.",
+            "text": ".\n\nThese portals can appear in all 3 main Minecraft dimensions, but the coordinates in the message will be partially hidden giving you only hints to it's location!\n\nOnce you have found the portal you can enter to experience a variety of different vaults. Each vault will have its own modifiers.",
             "color": "$text"
           },
           {
-            "text": "\n\nOh and by the way...sometimes if a portal is open for too long....mobs and even bosses may leak from the portal. Surely this isn't that big of an issue....right?",
+            "text": "\n\nIf a portal is left open for too long the inhabitants may even venture into the Minecraft world, it's up to the community to close the portals!?",
             "color": "$text"
           },
 
@@ -354,15 +355,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The first step in your journey as a Vault Hunter is to find the ",
-            "color": "$text"
-          },
-          {
-            "text": "core metal",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " of Vault Hunters, ",
+            "text": "The first step in your journey as a Vault Hunter is to find ",
             "color": "$text"
           },
           {
@@ -449,27 +442,15 @@
             "color": "$qhighlight"
           },
           {
-            "text": " without silk touch, there is a chance to get a ",
+            "text": " without silk touch, there is a chance to get ",
             "color": "$text"
           },
           {
-            "text": "a Vault Rock",
+            "text": "Vault Rocks",
             "color": "$qhighlight"
           },
           {
-            "text": ", make sure to not throw these away as they are the key to enter a vault!",
-            "color": "$text"
-          },
-          {
-            "text": ".\n",
-            "color": "$text"
-          },
-          {
-            "text": "Vault Stone",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " itself is a very sturdy material used for many different things, but perhaps most importantly used to make your vault portals!",
+            "text": ". These are how you create Vault Crystals to enter Vaults.",
             "color": "$text"
           },
           {
@@ -504,7 +485,7 @@
             "color": "$text"
           },
           {
-            "text": "\n\nDon't like your current altar recipe?  With the ",
+            "text": "\n\nDon't like your current altar recipe? Re-roll with an ",
             "color": "$text"
           },
           {
@@ -512,7 +493,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": ", you can re-roll your recipe by sneaking and right clicking on the vault altar with the recatalyzer in hand.\n\nThis also works with the Lucky Altar expertise, so it's entirely possible to get a free recipe.",
+            "text": ". You can re-roll your recipe by sneak right clicking on the vault altar with the recatalyzer in hand.\n\nThis also works with the Lucky Altar expertise, so it's entirely possible to get a free recipe.",
             "color": "$text"
           },
           {
@@ -541,7 +522,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The time has come to forge your first Vault Crystal! Every recipe is different and the amount of required ingredients will slowly scale up as you craft more crystals.\n\nUsing a Vault Rock on a Vault Altar will identify the items required to complete the crystal recipe. You can submit items to the altar by throwing them out of your inventory near the altar. Once the altar recipe is finished, applying a redstone signal completes the crafting process.\n\nIf you struggle to tell what an item is you can crouch to view its name.",
+            "text": "The time has come to forge your first Vault Crystal! Every recipe is different and the amount of required ingredients will slowly scale up as you craft more crystals.\n\nUsing a Vault Rock on a Vault Altar will (show) the items required to complete the crystal recipe. You can submit items to the altar by throwing them out of your inventory near the altar. Once the altar recipe is finished, applying a redstone signal completes the crafting process.\n\nIf you struggle to tell what an item is you can crouch to view its name.",
             "color": "$text"
           },
           {
@@ -570,7 +551,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Before you get in to your first vault, we want to inform you about a few important parts of Vault Hunters. Vault Hunters has an in-depth Ability and Talent system that you will utilise to make your Vault experience much more enjoyable.\n\nAbilities typically focus on giving you powerful active skills that significantly change how you play the game; ranging from damaging abilities like Nova or Rampage, healing abilities like Heal and Totem and survivability abilities such as Dash and Ghost Walk.\n\nTalents provide the player with passive buffs. There is a wide variety of Talents to check out, each built to level up specific aspects of your experience.\n\nCheck the Vault UI by pressing 'H' by default and click on the second and third tabs at the top to view Abilities and Talents respectively.\n\nYour reward for this quest is ",
+            "text": "Before you get in to your first vault, we want to inform you about a few important parts of Vault Hunters. Vault Hunters has an in-depth Ability and Talent system that you will utilize to make your Vault experience much more enjoyable.\n\nYou can select from a variety of Damaging abilities, Healing abilities and Utility abilities.\n\nTalents provide the player with passive improvements. Select buffs that will strengthen your build as there is a wide variety of Talents to check out.\n\nCheck the Vault UI by pressing 'H' by default and click on the second and third tabs at the top to view Abilities and Talents respectively.\n\nYour reward for this quest is ",
             "color": "$text"
           },
           {
@@ -613,11 +594,11 @@
       "descriptionData": {
         "description": [
           {
-            "text": "In Vault Hunters, Enchantments are a bit different than in Vanilla Minecraft. Protection and Offensive enchantments have been disabled, in order to allow higher scaling of defensive and offensive attributes down the line. There are however some enchantments that work both on vanilla tools and gear, as well as vault tools and gear.",
+            "text": "In Vault Hunters, there are some Enchantments that work both on Vanilla equipment, as well as Vault equipment.\n\nProtection and Offensive enchantments have been disabled, in order to allow higher scaling of defensive and offensive attributes down the line.\n\nThere are however some enchantments that work both on vanilla tools and gear, as well as vault tools and gear.",
             "color": "$text"
           },
           {
-            "text": "\n\nThe Vault Enchanter is your go to table for enchanting any gear or tools, it will always offer the max available enchantment for the cost of some emeralds and xp, craft one and try to put any enchantable item in it.",
+            "text": "\n\nThe Vault Enchanter is an improved Enchanting Table and it will provide the max available enchantment. To enchant your gear or tools you will need Emeralds and XP.",
             "color": "$text"
           },
           {
@@ -651,7 +632,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Vault potions are an out of combat alternative to the ",
+            "text": "Vault potions provide an alternative to ",
             "color": "$text"
           },
           {
@@ -667,7 +648,7 @@
             "color": "$velara"
           },
           {
-            "text": " inside the vaults!\n\nVault Potions have a set amount of ",
+            "text": " inside the vaults!\n\nVault potions have a set amount of ",
             "color": "$text"
           },
           {
@@ -675,7 +656,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": " to be used each vault, completely refilling itself once you have exited a vault.\nStarting out you have access to the ",
+            "text": "  based on the type and they will completely refill when you exit a vault. Starting out you will have access to a ",
             "color": "$text"
           },
           {
@@ -683,15 +664,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": " tier of potions, later in your adventure you will have the possibility to research better tiers, granting you bigger heals with each charge.\nWhen crafting your first Potion (",
-            "color": "$text"
-          },
-          {
-            "text": "Vial",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ") you get to make the choice between 3 different recharge mechanics;\n\n",
+            "text": ", you will need to research better potions. \n\nThere are 3 different potion types;\n",
             "color": "$text"
           },
           {
@@ -699,7 +672,7 @@
             "color": "$red"
           },
           {
-            "text": ", which recharges your vial when killing a certain amount of mobs\n",
+            "text": ": charged by killing vault mobs\n",
             "color": "$text"
           },
           {
@@ -707,7 +680,7 @@
             "color": "$yellow"
           },
           {
-            "text": ", which recharges your vial when looting a certain amount of chests\n",
+            "text": ": charged by looting chests\n",
             "color": "$text"
           },
           {
@@ -715,7 +688,7 @@
             "color": "$blue"
           },
           {
-            "text": ", which recharges your vial passively over time\n\nDon't worry though, you can craft them all and see which fits you the best, but you can only ever use one per vault!",
+            "text": ": charges passively over time\n\nDon't worry though, you can craft them all and see which fits you the best, but you can only ever use one per vault!",
             "color": "$text"
           },
           {
@@ -761,7 +734,7 @@
             "color": "$itemrarity"
           },
           {
-            "text": "makes you find higher tier loot.\n",
+            "text": "makes you find higher tier loot.\n\n",
             "color": "$text"
           },
           {
@@ -781,7 +754,7 @@
             "color": "$name"
           },
           {
-            "text": ".\nHowever, all of this loot can quickly become overwhelming, and any good hunter needs good loot organisation!\n\n",
+            "text": ".\nHowever, all of this loot can quickly become overwhelming, and any good hunter needs good loot organization!\n\n",
             "color": "$text"
           },
           {
@@ -809,11 +782,11 @@
             "color": "$text"
           },
           {
-            "text": "knowledge\n\n",
+            "text": "knowledge",
             "color": "$knowledge"
           },
           {
-            "text": "Pouches can be upgraded with upgrade cards to make them carry more loot, automatically pick up loot when you break a chest, void excess loot and even feed you!\n",
+            "text": ".\n\nPouches can be improved with upgrades that allow for item pickup, stack size, voiding and more!\n",
             "color": "$text"
           },
           {
@@ -837,7 +810,7 @@
             "color": "$text"
           },
           {
-            "text": "Completing this quest will reward you with two basic upgrades, which can both be installed in your pouch:\n",
+            "text": "Completing this quest will reward you with two basic upgrades, which you can install in your pouch.\n",
             "color": "$text"
           },
           {
@@ -845,7 +818,7 @@
             "color": "$name"
           },
           {
-            "text": " which will make the pouch automatically pick up items from the floor, when a chest is broken or items are thrown out of it\n",
+            "text": " will make the pouch automatically pick up items from the floor, when a chest is broken or items are thrown out of it.\n",
             "color": "$text"
           },
           {
@@ -869,7 +842,7 @@
             "color": "$soulchance"
           },
           {
-            "text": ". The Shard Pouch can only store Soul Shards, but an infinite amount of them as long as it is in your inventory. It can also be left in your inventory while purchasing things from the Black Market, without you having to manually count Soul Shards, it is a must have for any hunter!",
+            "text": ". The Shard pouch stores Soul Shards only, but infinitely. There's no need to remove shards while purchasing from the Black Market.",
             "color": "$text"
           },
           {
@@ -907,7 +880,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Unlike normal Vault Hunters, coin pouches exist. Like the name says, the coin pouch can store a mass amount of coins. This pouch acts as a compacting drawer and automatically converts platinum to bronze and visa versa.",
+            "text": "Unlike normal Vault Hunters, coin pouches exist. Coin pouches allow you to store mass amounts of coins. This coin pouch will automatically convert coins.",
             "color": "$text"
           },
           {
@@ -942,43 +915,17 @@
       }
     },
     {
-      "type": "collection",
+      "type": "bounty_complete",
       "id": "complete_bounty",
       "name": "Bounty Hunting",
       "descriptionData": {
         "description": [
           {
-            "text": "Completing bounties is a great way to secure yourself some extra loot and give yourself a solid goal to work towards. You will first need to craft yourself a Bounty Table and then interact with it by right-clicking it.",
+            "text": "Completing bounties is a great way to secure yourself some extra loot and give yourself an additional goal to work towards.\n\nYou will first need to craft yourself a Bounty Table and then interact with it by right-clicking it.",
             "color": "$text"
           },
           {
-            "text": "\n\nCraft a Bounty Table",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/bounty_table",
-      "targetId": "the_vault:bounty_block",
-      "targetProgress": 1.0,
-      "unlockedBy": "welcome_quest",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:bounty_pearl",
-            "amount": 10
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "bounty_complete",
-      "id": "complete_bounty2",
-      "name": "Bounties and Rewards",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "Inside the Bounty Table you can select a bounty by clicking on one of the available bounties and clicking activate. Once you complete a bounty then you can go back to the table and collect your rewards.",
+            "text": "\n\nInside the Bounty Table you can select a bounty by clicking on one of the available bounties and clicking activate.\n\nOnce you complete a bounty then you can go back to the table and accept your reward crate.",
             "color": "$text"
           },
           {
@@ -996,19 +943,75 @@
           {
             "item": "the_vault:chromatic_iron_ingot",
             "amount": 32
+          },
+          {
+            "item": "the_vault:bounty_pearl",
+            "amount": 10
           }
         ],
         "vaultExp": 0
       }
     },
     {
-      "type": "collection",
-      "id": "tool_station",
+      "type": "forge_gear",
+      "id": "craft_tool",
       "name": "Tool Station",
       "descriptionData": {
         "description": [
           {
-            "text": "The Tool Station can be used to craft tools that are able to significantly enhance your experience in the vaults. It can also be used to craft jewels that can be applied to your vault tool",
+            "text": "The Tool Station allows for the crafting of vault tools which can significantly enhance your experience. Vault tools have a capacity that limit how many jewels can be applied.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "There are 6 tiers of vault tools with each tier increasing in capacity: \n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Chromatic Iron",
+            "color": "$chromatic_iron"
+          },
+          {
+            "text": ": 100 Capacity\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Chromatic Steel",
+            "color": "$chromatic_steel"
+          },
+          {
+            "text": ": Unlocks at lvl 20 and has 150 Capacity\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Vaulterite",
+            "color": "$vaulterite"
+          },
+          {
+            "text": ": Unlocks at lvl 50 and has 200 Capacity\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Black Chromatic Steel",
+            "color": "$black_chromatic"
+          },
+          {
+            "text": ": Unlocks at lvl 65 and has 250 Capacity\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Echoing",
+            "color": "$echoing"
+          },
+          {
+            "text": ": Unlocks at lvl 80 and has 350 Capacity\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Prismatic",
+            "color": "$prismatic"
+          },
+          {
+            "text": ": Unlocks at lvl 90 and has 500 Capacity\n\n",
             "color": "$text"
           },
           {
@@ -1034,123 +1037,188 @@
     {
       "type": "forge_gear",
       "id": "craft_tool",
-      "name": "Vault Tools",
+      "name": "Jewels",
       "descriptionData": {
         "description": [
           {
-            "text": "Vault Tools are the successor to vanilla tools. These can be modified with jewels to apply new affinities and traits to the tool.",
+            "text": "Jewels have a size attribute and can be applied to vault tools to make them better. All the different types of jewels you can find are listed below.\n\n",
             "color": "$text"
           },
           {
-            "text": "\n\nAffinities allow you to break chests/coins at a significantly faster speed enabling you to instantly mine all coins and chests apart from wooden ones.",
+            "text": "Wooden Affinity",
+            "color": "$wooden"
+          },
+          {
+            "text": ": Allows wooden chests to be broken\n\n",
             "color": "$text"
           },
           {
-            "text": "\n\nThere are also jewels that can change the tools functionality to include that of another. For example you could put a Shovelling jewel on a Pick to create a Mattock that can mine as fast as a pickaxe and dig as quick as a shovel! ",
+            "text": "Ornate Affinity",
+            "color": "$ornate"
+          },
+          {
+            "text": ": Allows ornate chests to be broken\n\n",
             "color": "$text"
           },
           {
-            "text": "\n\nThere are also more modifiers that enhance your tool significantly:",
+            "text": "Gilded Affinity",
+            "color": "$gilded"
+          },
+          {
+            "text": ": Allows gilded chests to be broken\n\n",
             "color": "$text"
           },
           {
-            "text": "\nItem Rarity",
-            "color": "#E5B819"
+            "text": "Living Affinity",
+            "color": "$living"
           },
           {
-            "text": " and ",
+            "text": ": Allows living chests to be broken\n\n",
             "color": "$text"
           },
           {
-            "text": "Item Quantity ",
-            "color": "#E88A12"
+            "text": "Coin Affinity",
+            "color": "$coins"
           },
           {
-            "text": " both enhance your tool with higher loot capabilities.",
+            "text": ": Allows coin piles to be broken\n\n",
             "color": "$text"
           },
           {
-            "text": "\nTrap Disarm Chance",
-            "color": "#8143FF"
+            "text": "Picking",
+            "color": "$picking"
           },
           {
-            "text": " has a chance to disarm a trapped chest inside the Vaults.",
+            "text": ": Adds pickaxe attributes to a tool\n\n",
             "color": "$text"
           },
           {
-            "text": "\nMining Speed",
-            "color": "#48BAF8"
+            "text": "Axing",
+            "color": "$axing"
           },
           {
-            "text": " increases base mining speed of your tool!",
+            "text": ": Adds axe attributes to a tool\n\n",
             "color": "$text"
           },
           {
-            "text": "\nCopiously",
-            "color": "#F74780"
+            "text": "Shovelling",
+            "color": "$shovelling"
           },
           {
-            "text": " adds a chance to double the output of a mined Vault Ore inside the vaults! Works with Silk Touch and Fortune.",
+            "text": ": Adds shovel attributes to a tool\n\n",
             "color": "$text"
           },
           {
-            "text": "\nDurability",
-            "color": "#DFD0FE"
+            "text": "Smelting",
+            "color": "$smelting"
           },
           {
-            "text": " increases the base Durability of the tool",
+            "text": ": Auto-smelts blocks\n\n",
             "color": "$text"
           },
           {
-            "text": "\nPulverizing",
-            "color": "#73B373"
+            "text": "Pulverizing",
+            "color": "$pulverizing"
           },
           {
-            "text": " and ",
+            "text": ": auto-pulverizes blocks\n\n",
             "color": "$text"
           },
           {
-            "text": "Smelting ",
-            "color": "#FF4500"
+            "text": "Hydrovoid",
+            "color": "$hydrovoid"
           },
           {
-            "text": "both change the tool to have special interactions. Pulverizing acts as a basic Tool based replacement to pulverizing/crushing processing the output of the block that is mined. Smelting will smelt the output of the block that is mined!",
+            "text": ": Voids liquid blocks\n\n",
             "color": "$text"
           },
           {
-            "text": "\nHammering ",
-            "color": "#25d4A5"
+            "text": "Mining Speed",
+            "color": "$mining_speed"
           },
           {
-            "text": "can be applied to Hammers to increase their mining AOE",
+            "text": ": Increases tool mining speed\n\n",
             "color": "$text"
           },
           {
-            "text": "\nSoulbound ",
-            "color": "#9664FD"
+            "text": "Reach",
+            "color": "$reach"
           },
           {
-            "text": "makes a tool stay in your inventory even through death!",
+            "text": ": Increases tool reach\n\n",
             "color": "$text"
           },
           {
-            "text": "\nVanilla Immortality ",
-            "color": "#AF8DC3"
+            "text": "Durability",
+            "color": "$durability"
           },
           {
-            "text": "applies a chance for your tool to not take durability outside of vaults. At 100% it will make your tool unbreakable!",
+            "text": ": Increases tool durabilityy\n\n",
             "color": "$text"
           },
           {
-            "text": "\nReach ",
-            "color": "#F9B37F"
+            "text": "Hammer Size",
+            "color": "$hammering"
           },
           {
-            "text": "increases the range at which the player can interact with blocks.",
+            "text": ": Increases horizontal mining range of a tool by 1 (Max of 7 for a 17x17 size tool)\n\n",
             "color": "$text"
           },
           {
-            "text": "\n\nCraft a Chromatic Iron Pick",
+            "text": "Copiously",
+            "color": "$copious"
+          },
+          {
+            "text": ": Doubles mined vault ores (Works on both silk touch and fortune)\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Item Quantity",
+            "color": "$quantity"
+          },
+          {
+            "text": ": Increases amount of items in chest\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Item Rarity",
+            "color": "$rarity"
+          },
+          {
+            "text": ": Increases rarity of items in chest\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Trap Disarm Chance",
+            "color": "$trap_disarm"
+          },
+          {
+            "text": ": Decreases chance of trapped chests\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Soulbound",
+            "color": "$soulbound"
+          },
+          {
+            "text": ": Tool will stay in inventory upon death\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Vanilla Immortality",
+            "color": "$vanilla_immortality"
+          },
+          {
+            "text": ": Tool won't take durability damage outside of the vault. (Need 100% for an unbreakable non-vault tool)\n\n",
+            "color": "$text"
+          },
+
+          {
+            "text": "You will encounter many different jewels and it is possible to obtain a jewel with more than one attribute.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nObtain a Jewel Pouch",
             "color": "$heal"
           }
         ]
@@ -1180,67 +1248,31 @@
     {
       "type": "collection",
       "id": "apply_jewel",
-      "name": "Jewels on Tools",
+      "name": "Applying Jewels",
       "descriptionData": {
         "description": [
           {
-            "text": "The Jewel Applicator makes applying jewels to you tools as simple as ever by providing you with the means of easily seeing the outcome of your Tool.",
+            "text": "The Jewel Applicator is where you will apply jewels onto your tools. You will have a preview of your finished tool so you can make adjustments before you click the apply button.\n\n",
             "color": "$text"
           },
           {
-            "text": "\n\nThe Jewel Applicator has three parts of its inventory; \nThe",
+            "text": "With the addition of Wolds Vaults you can use the ",
             "color": "$text"
           },
           {
-            "text": " Left Side ",
-            "color": "$manaCost"
-          },
-          {
-            "text": "is where you can put your jewels, showing you the total outcome of if they were placed on your tool. \nThe ",
-            "color": "$text"
-          },
-          {
-            "text": "Middle ",
-            "color": "$manaCost"
-          },
-          {
-            "text": "is where you place your tool and can also see the visual output of combining tool type jewels like shovelling or axing for example. \nLastly, the ",
-            "color": "$text"
-          },
-          {
-            "text": "Right Side ",
-            "color": "$manaCost"
-          },
-          {
-            "text": "will show you the updated stats using the jewels placed on the left side, automatically calculating capacity and all your prefixes and suffixes as you place jewels into the Applicator",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nEach jewel is given a ",
-            "color": "$text"
-          },
-          {
-            "text": "size",
+            "text": "Resonating Reinforcement",
             "color": "$qhighlight"
           },
           {
-            "text": " which can roll from ",
+            "text": " and the ",
             "color": "$text"
           },
           {
-            "text": "10-35",
+            "text": "Vault Tool Reinforcement",
             "color": "$qhighlight"
           },
           {
-            "text": " and this decides how much of the ",
-            "color": "$text"
-          },
-          {
-            "text": "capacity",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " of your Tool will be used up.",
+            "text": " to increase your tool's capacity.",
             "color": "$text"
           },
           {
@@ -1274,7 +1306,7 @@
             "color": "$text"
           },
           {
-            "text": "\n\nThere is a time limit within the Vault, requiring you to complete it before it ticks down to 0. Marking your way with blocks will allow you to easily find your way back to your portal.\n\nIf you die you will return to the overworld and if you are under vault level 20 you will be granted 'Beginners Grace' which will allow you to keep all your loot regardless of dying or escaping.\n\nIf you manage to complete the Vault you will be granted a Crate that can be placed and then Sneak+Right-Clicked to open!",
+            "text": "\n\nThere is a time limit in Vaults, you will be required to complete the vault before the timer reaches 0. If the timer reaches 0 you will die. If you are unable to complete your Vault you can always escape through the portal you entered.\n\nA Vault Compass and blocks that you can use to mark your path can help you navigate your vault.",
             "color": "$text"
           },
           {
@@ -1372,7 +1404,7 @@
             "color": "light_purple"
           },
           {
-            "text": "on the trident to gain a chance of triggering the effect.  When successful, lightning will strike with a chance to proc any effect clouds and do twice the damage of a thrown trident to those hit with the bolt.",
+            "text": "on the trident to gain a chance of triggering the effect. When successful, lightning will strike with a chance to proc any effect clouds and do twice the damage of a thrown trident to those hit with the bolt.",
             "color": "$text"
           },
           {
@@ -1401,15 +1433,32 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The Vault Battlestaff is a new piece of vault gear that is also used in the main hand. Vault Battlestaffs can roll many implicits and are the best when it comes to raw base ",
+            "text": "The Vault Battlestaff is a new piece of vault gear that is also used in the main hand. Unlike most gear pieces, battlestaffs can roll a lot of implicits.\n\nVault Battlestaffs can be used with ",
             "color": "$text"
           },
+          {
+            "text": "Attack Damage",
+            "color": "$attack_damage"
+          },
+          {
+            "text": " or ",
+            "color": "$text"
+          },
+          {
+            "text": "Ability Power ",
+            "color": "$ability_power"
+          },
+          {
+            "text": "and offer the highest base ",
+            "color": "$text"
+          },
+
           {
             "text": "Attack Speed",
             "color": "$speed"
           },
           {
-            "text": ".\n\nUnfortunately because of this high rate of attack, battlestaffs will do a bit less damage than a normal Vault Sword.",
+            "text": " rolls.\n\nBecause of this high rate of attack, battlestaffs will do a bit less damage than a normal Vault Sword.",
             "color": "$text"
           },
           {
@@ -1420,6 +1469,42 @@
       },
       "icon": "the_vault:gui/quests/battlestaff",
       "targetId": "the_vault:battlestaff",
+      "targetProgress": 1.0,
+      "unlockedBy": "enter_vault",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "obtain_vaultarang",
+      "name": "Vaultarang",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "The Vaultarang is a new piece of vault gear that is very similar to a pickarang. ",
+            "color": "$text"
+          },
+
+
+
+
+
+
+
+          {
+            "text": "\n\nObtain a Unidentified Vaultarang",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/rang",
+      "targetId": "the_vault:rang",
       "targetProgress": 1.0,
       "unlockedBy": "enter_vault",
       "reward": {
@@ -1469,7 +1554,23 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The Vault Forge is used to craft gear and weapons as well as powerful trinkets once they have been unlocked. Crafting gear increases proficiency further honing your skills at forging specific types of gear.",
+            "text": "The Vault Forge allows you to craft powerful gear using proficiency, which is tied to your player level.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nProficiency increases by sacrificing Vault Scrap in the forge, and it impacts Crafting Potential, Rarity, Durability, Repair Slots, Soulbound Chance, and Greater Modifier chance. A greater modifier is a modifier one level above the max level modifier for that gear level.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nCrafting gear does not consume proficiency, so you can continue to craft without losing your progress.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nThe primary cost of crafting is Vault Alloy, and the system is balanced to keep gear crafting powerful, especially in the early game.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nTo mass craft, hold down Shift while crafting to send crafted items directly to your inventory.",
             "color": "$text"
           },
           {
@@ -1485,20 +1586,12 @@
       "reward": {
         "items": [
           {
-            "item": "the_vault:vault_plating",
-            "amount": 9
-          },
-          {
-            "item": "minecraft:diamond",
-            "amount": 5
-          },
-          {
-            "item": "the_vault:vault_bronze",
-            "amount": 81
-          },
-          {
             "item": "the_vault:vault_alloy",
             "amount": 9
+          },
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 3
           }
         ],
         "vaultExp": 0
@@ -1541,7 +1634,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The Artisan Station can be used to further modify and create gear that is suited towards a certain build style. The interface has slots for Vault Plating, Vault Bronze, A wide variety of differently functioning focuses and your Vault Gear.",
+            "text": "The Artisan Station can be used to further modify and create gear that is suited towards a certain build style. The interface has slots for Vault Plating, Vault Bronze, and slots for a variety of Focuses. Place your gear that you wish to modify into the center and carefully roll your gear modifiers.",
             "color": "$text"
           },
           {
@@ -1571,31 +1664,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Rerolling and modifying gear is a very important part of Vault Hunters and it all starts with placing ",
-            "color": "$text"
-          },
-          {
-            "text": "Vault Bronze",
-            "color": "$gilded"
-          },
-          {
-            "text": ", ",
-            "color": "$text"
-          },
-          {
-            "text": "Vault Plating",
-            "color": "white"
-          },
-          {
-            "text": ", and a ",
-            "color": "$text"
-          },
-          {
-            "text": "Foci ",
-            "color": "$highlight"
-          },
-          {
-            "text": "into an Artisan Station.\n\nThere are many foci that you will obtain throughout your playthrough and they will be introduced accordingly, but the three main and 1 additional ",
+            "text": "There are many foci that you will obtain throughout your play-through and they will be introduced accordingly, but to start there are 4 important focuses to note.",
             "color": "$text"
           },
           {
@@ -1638,7 +1707,7 @@
             "color": "$text"
           },
           {
-            "text": "\n\nClicking the Reforge button next to the desired focus will apply new modifiers onto your gear/weapon. This is the starting steps to creating gear fit for your build style",
+            "text": "\n\nClicking the Reforge button next to the desired focus will apply new modifiers onto your gear/weapon. This is the start of creating gear that fits your build style.",
             "color": "$text"
           },
           {
@@ -1794,9 +1863,23 @@
       "descriptionData": {
         "description": [
           {
-            "text": "As you level up, the Vault will adapt and present you with new, more challenging Objectives; these can also be added to your crystal by crafting a Seal and applying it to your crystal in an anvil. \n\nLevel 10 marks the introduction of the Light the Brazier Objective to random vaults.\nLevel 20 marks the introduction of the Scavenger Objective to random vaults.\nLevel 40 marks the introduction of the Hunt the Guardians Objective to random vaults.\nLevel 50 marks the introduction of the Bingo objective to random vaults.",
+            "text": "As you level up the vault will adapt and present you with new challenges.\n\nLv10 unlocks random Light the Brazier objectives.\n\nLv20 unlocks random Scavenger objectives.\n\nLv40 unlocks random Hunt the Guardians objectives.\n\nLv50 unlocks random Bingo objectives.\n\n",
             "color": "$text"
           },
+          {
+            "text": "Objectives can also be added in a crystal workbench using ",
+            "color": "$text"
+          },
+          {
+            "text": "seals",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " . For more info on what seal does what, search 'seal' in JEI.",
+            "color": "$text"
+          },
+
+
           {
             "text": "\n\nReach Vault Level 10",
             "color": "$heal"
@@ -1823,56 +1906,72 @@
       "descriptionData": {
         "description": [
           {
-            "text": "It can be rather stressful to make decisions when it comes to which abilities and what talents to take throughout your playthrough, but, don't stress!\n\nVault Hunters have a mechanic for regretting your decisions using ",
+            "text": "It can be rather stressful to make decisions when it comes to which abilities and what talents to take throughout your playthrough, but, don't stress!",
             "color": "$text"
           },
           {
-            "text": "Regret Orbs",
-            "color": "$regret"
-          },
-          {
-            "text": ". Consuming a Regret Orb will give you an unspent regret point, which can be used to unlearn talents or abilities.\n\n",
+            "text": "\n\n",
             "color": "$text"
           },
           {
-            "text": "To craft a Regret Orb you need ",
+            "text": "Vault Hunters have a mechanic for regretting your decisions using ",
             "color": "$text"
           },
           {
-            "text": "Regret Nuggets",
-            "color": "$regret"
+            "text": "Vault Gold",
+            "color": "$qhighlight"
           },
           {
-            "text": " which can be found in ",
+            "text": ". If you have sufficient ",
             "color": "$text"
           },
           {
-            "text": "Living Chests",
-            "color": "$living"
+            "text": "Vault Gold ",
+            "color": "$qhighlight"
           },
           {
-            "text": ". Fully completed Regret Orbs can also be obtained through",
+            "text": "in your inventory, you can choose ",
             "color": "$text"
           },
           {
-            "text": " bounties ",
-            "color": "$name"
+            "text": "Unlearn ",
+            "color": "$qhighlight"
           },
           {
-            "text": "and",
+            "text": "from the ",
             "color": "$text"
           },
           {
-            "text": " completion crates",
-            "color": "$name"
+            "text": "Skill tree",
+            "color": "$qhighlight"
           },
           {
             "text": ".",
             "color": "$text"
           },
           {
-            "text": "\n\nAcquire a Regret Orb",
-            "color": "$heal"
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Note that this was previously done with a ",
+            "color": "$text"
+          },
+          {
+            "text": "Regret Orb",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", that mechanism has been removed.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Regret cannot be done while inside a vault.",
+            "color": "$text"
           }
         ]
       },
@@ -1897,7 +1996,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The black market has changed a little bit\n\nThe black market starts with 3 slots and can be expanded to a total of 6 slots by using the ",
+            "text": "The black market has changed a little bit\n\nThe black market starts with 3 slots and can be expanded with the",
             "color": "$text"
           },
           {
@@ -1905,7 +2004,7 @@
             "color": "white"
           },
           {
-            "text": "expertise.\n\nSoul shards are still the currency, but re-rolling now takes ",
+            "text": "expertise.\n\nEach level of Marketer will unlock one extra slot for a total of 6 slots. Soul shards are used to purchase items from the black market, and ",
             "color": "$text"
           },
           {
@@ -1913,10 +2012,9 @@
             "color": "light_purple"
           },
           {
-            "text": "and can be done indefinitely.",
+            "text": "are used to reroll the selection of items.",
             "color": "$text"
           },
-
           {
             "text": "\n\nInteract with a Black Market",
             "color": "$heal"
@@ -1944,7 +2042,19 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The Soul Diffuser breaks down vault items into soul dust which can then be turned into Soul Shards to be used as a currency for the Black Market. This gives you the choice of deciding what you deem valuable and what you deem worthy of diffusing!",
+            "text": "The Soul Diffuser converts vault items into soul dust which can be crafted into Soul Shards. You can use Soul Shards as a currency in the black market. Decide what items you no longer need and feed the Soul Diffuser.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "With the addition of Wold's Vaults, there is a ",
+            "color": "$text"
+          },
+          {
+            "text": "Soul Harvester",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " that is much faster but requires research to unlock.",
             "color": "$text"
           },
           {
@@ -1974,7 +2084,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The Identification Stand is a block that when right clicked on will ",
+            "text": "The Identification Stand is used to instantly ",
             "color": "$text"
           },
           {
@@ -1982,7 +2092,7 @@
             "color": "$name"
           },
           {
-            "text": " all unidentified vault gear in your inventory instantly.",
+            "text": " all gear in your inventory when interacted with. You can even identify entire bags of gear with the Identification Stand by right clicking the stand with the bag.",
             "color": "$text"
           },
           {
@@ -2024,11 +2134,11 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Obtaining and using Knowledge Stars is one of the key aspects to the Vault Hunters progression as it is the key component to unlocking new mods. Pressing the 'H' Key and selecting the Researches tab at the top will show you all the stuff you can unlock. Note that purchasing some of these will increase the price of subsequent unlocks within that group of unlocks.\n\nYour reward for this quest is a Mod Box! When used, the Mod Box awards a random item from your unlocked mods",
+            "text": "Obtaining Knowledge Stars is one of the key aspects to the Vault Hunters progression as it is the key component to unlocking new mods. Pressing the 'H' Key and selecting the Researches tab at the top will show you all the stuff you can unlock. Note that purchasing some of these will increase the price of subsequent unlocks within that group of unlocks.\n\nYour reward for this quest is a Mod Box! When used, the Mod Box awards a random item from your unlocked mods",
             "color": "$text"
           },
           {
-            "text": "\n\nCraft a Knowledge Star",
+            "text": "\n\nCraft a Knowledge Star.",
             "color": "$heal"
           }
         ]
@@ -2058,7 +2168,7 @@
             "color": "$text"
           },
           {
-            "text": "Unless you are playing ",
+            "text": "Unless you are playing in ",
             "color": "$text"
           },
           {
@@ -2066,7 +2176,7 @@
             "color": "$name"
           },
           {
-            "text": " dying in a vault no longer keeps your items, you will learn more about that in the ",
+            "text": " yoou will no longer keep your items if you die in a vault. You will have to revive your spirit with the ",
             "color": "$text"
           },
           {
@@ -2074,11 +2184,7 @@
             "color": "$name"
           },
           {
-            "text": " quest.\n\n",
-            "color": "$text"
-          },
-          {
-            "text": "A lot of new things happen at this level, you will now find ",
+            "text": ".\n\nA lot of new things happen at this level, you will now find ",
             "color": "$text"
           },
           {
@@ -2098,7 +2204,7 @@
             "color": "$text"
           },
           {
-            "text": "Don't worry though, you've only just begun!",
+            "text": "Don't worry though, your journey is just beginning!",
             "color": "$text"
           },
           {
@@ -2125,211 +2231,65 @@
       }
     },
     {
-      "type": "collection",
-      "id": "seals",
-      "name": "Choosing your own objective",
+      "type": "checkmark",
+      "id": "burgers",
+      "name": "Additional Experience",
       "descriptionData": {
         "description": [
           {
-            "text": "Seals are especially handy items as they let you set the objective of the vault. This way even if you are lower level you will be able to play any objective at any time. To use a seal apply it to a crystal in a anvil or in the crystal workbench",
+            "text": "Consuming ",
             "color": "$text"
           },
           {
-            "text": "\n\nAcquire a blank seal",
-            "color": "$heal"
+            "text": "Vault Burgers",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " gives you vault experience.\nVault Burgers can be found rarely in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Black Market",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " and in ",
+            "color": "$text"
+          },
+          {
+            "text": "Vendoors",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". They come in different sizes, and the more filling, the more experience they grant.\n While extra experience can sometimes be nice, use at your own risk, as you may outlevel your current gear!",
+            "color": "$text"
           }
-
         ]
       },
-      "icon": "the_vault:gui/quests/empty_seal",
-      "targetId": "the_vault:crystal_seal_empty",
+      "icon": "the_vault:gui/quests/burger",
+      "targetId": "the_vault:plain_burger",
       "targetProgress": 1.0,
       "unlockedBy": "reach_level_20",
       "reward": {
         "items": [
           {
-            "item": "the_vault:crystal_seal_empty"
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
-      "id": "craft_sage_seal",
-      "name": "Craft a Elixir seal",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "The Seal of the ",
-            "color": "$text"
-          },
-          {
-            "text": "Sage",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " applies the ",
-            "color": "$text"
-          },
-          {
-            "text": "Elixir",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " objective to a crystal. To craft it you will need a blank seal and a few vault ingredients",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nThe Elixir objective requires you to get a certain amount of elixir by looting chests, slaying mobs or mining ore. Once you fill up your elixir bar find a lodestone to exit the vault",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nThis objective has a recommended level of 0 and will randomly appear in the vaults as well after that level.",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "\n\nAcquire a Seal of the Sage ",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/sage",
-      "targetId": "the_vault:crystal_seal_sage",
-      "targetProgress": 1.0,
-      "unlockedBy": "seals",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:crystal_seal_sage",
+            "item": "the_vault:plain_burger",
             "amount": 1
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
-      "id": "craft_brazier_seal",
-      "name": "Craft a Brazier seal",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "The Seal of the ",
-            "color": "$text"
           },
           {
-            "text": "Scout",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " applies the ",
-            "color": "$text"
-          },
-          {
-            "text": "Light the Brazier",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " objective to a crystal. To craft it you will need a blank seal and a few vault ingredients",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nThe Light the Brazier objective requires you to find braziers and light them. These braziers will have positive and negative effects attached to them so choose carefully. After you have lit all the braziers you can choose to leave through the vault portal or pillage more braziers for additional loot!",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nThis objective has a recommended level of 10+ and will randomly appear in the vaults as well after that level.",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "\n\nAcquire a Seal of the Scout ",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/scout",
-      "targetId": "the_vault:crystal_seal_scout",
-      "targetProgress": 1.0,
-      "unlockedBy": "seals",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:crystal_seal_scout",
+            "item": "the_vault:cheese_burger",
             "amount": 1
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
-      "id": "craft_hunter_seal",
-      "name": "Craft a Scavenger seal",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "The Seal of the ",
-            "color": "$text"
           },
           {
-            "text": "Hunter",
-            "color": "$qhighlight"
+            "item": "the_vault:deluxe_cheese_burger",
+            "amount": 1
           },
           {
-            "text": " applies the ",
-            "color": "$text"
+            "item": "the_vault:crispy_deluxe_cheese_burger",
+            "amount": 1
           },
           {
-            "text": "Scavenger",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " objective to a crystal. To craft it you will need a blank seal and a few vault ingredients",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nWe also recommend you make a extra pouch just for scav items, commonly refered to as a ",
-            "color": "$text"
-          },
-          {
-            "text": "Scav Pouch",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ". This will make organising your scav items a lot easier! Another good thing to know is that when you exit the vaults the scav items become",
-            "color": "$text"
-          },
-          {
-            "text": "rotten",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ". Rotten scav items can't be used in another scav vault. They can be however smelted down into soul dust in the soul harvester.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nThe Scavenger objective requires you to find a certain list of items displayed at the top of your screen. You can see where you would get the items from by looking at the icons under the items, Once you have collected all items deposit them into a scavenger altar!",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nThis objective has a recommended level of 20+ and will randomly appear in the vaults as well after that level.",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "\n\nAcquire a Seal of the Hunter ",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/hunter",
-      "targetId": "the_vault:crystal_seal_hunter",
-      "targetProgress": 1.0,
-      "unlockedBy": "seals",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:crystal_seal_hunter",
+            "item": "the_vault:cheese_burger_feast",
             "amount": 1
           }
         ],
@@ -2343,15 +2303,15 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Vault Crystals can be ",
+            "text": "You can modify vault crystals in the ",
             "color": "$text"
           },
           {
-            "text": "modified",
+            "text": "Crystal Workbench",
             "color": "$qhighlight"
           },
           {
-            "text": " in order to suit your current needs, or preferences. There are several different modifications that can be done to a crystal.\n\n",
+            "text": ".\n\n",
             "color": "$text"
           },
           {
@@ -2359,7 +2319,7 @@
             "color": "$titleLine"
           },
           {
-            "text": " sets the theme of the vault, these are found ever so often in completion crates.\n\n",
+            "text": " sets the theme of the vault, these can be found occasionally in completion crates.\n\n",
             "color": "$text"
           },
           {
@@ -2395,23 +2355,15 @@
             "color": "$qhighlight"
           },
           {
-            "text": " crystals you can ",
+            "text": " a crystal you can create a unique vault that has what you want. Each crystal has a ",
             "color": "$text"
           },
           {
-            "text": "tailor",
+            "text": "capacity",
             "color": "$qhighlight"
           },
           {
-            "text": " the vault to your liking. Each crystal has a ",
-            "color": "$text"
-          },
-          {
-            "text": "capacity indicator",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ", the higher level you are, the higher capacity the crystal have. You can exceed the capacity of a crystal, but every time you do, you will add a ",
+            "text": ". The capacity of a crystal relates to your vault level. If you go over this capacity you will start to ",
             "color": "$text"
           },
           {
@@ -2419,15 +2371,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": " to the vault!\n\nAll modifications to a crystal are done in the ",
-            "color": "$text"
-          },
-          {
-            "text": "Crystal Workbench",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "!",
+            "text": " the vault, adding negative attributes.",
             "color": "$text"
           },
           {
@@ -2693,6 +2637,68 @@
       }
     },
     {
+      "type": "mining",
+      "id": "temporal_shards",
+      "name": "Pylons & Temporal Shards",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "You may already have come across ",
+            "color": "$text"
+          },
+          {
+            "text": "Pylons",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " inside your vaults. These powerful floating crystals, when right clicked, gives you a limited buff depending on the pylon.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "You can however choose to destroy the Pylon and its power, instead of consuming it, by breaking it with your tool. It does takes a long time to break it, but when done there is a small chance you will have it yield a ",
+            "color": "$text"
+          },
+          {
+            "text": "Temporal Shard",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". This is a very powerful item that when identified, gives you a consumable item, that adds a ",
+            "color": "$text"
+          },
+          {
+            "text": "Temporal Modifier",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " to the vault it is consumed in!\n\nTemporal Modifiers are super strong, and lasts for 5 minutes, and when used correctly they can completely change the outcome of your vault or your current objective!",
+            "color": "$text"
+          },
+          {
+            "text": "!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Break a Pylon to have a chance of getting a Temporal Shard",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/temporal_shard",
+      "targetId": "the_vault:pylon",
+      "targetProgress": 1,
+      "unlockedBy": "crystal_workbench",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:temporal_shard",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
       "type": "collection",
       "id": "artifact",
       "name": "Artifacts",
@@ -2703,7 +2709,7 @@
             "color": "$text"
           },
           {
-            "text": "Artifacts are rarely found in ",
+            "text": "Artifacts can be found in ",
             "color": "$text"
           },
           {
@@ -2711,7 +2717,7 @@
             "color": "$yellow"
           },
           {
-            "text": ", after level 20. The chance of finding an Artifact gets higher the higher level your vault is when you complete it.\n\n",
+            "text": " at a low chance after level 20. As your vault level increases, so does your chance of getting an artifact.\n\n",
             "color": "$text"
           },
           {
@@ -2735,7 +2741,7 @@
             "color": "$yellow"
           },
           {
-            "text": " will display the puzzle above it, and artifacts can be placed in their correct spot to complete the puzzle.\n\n",
+            "text": " will display a hologram above it so you can place the Artifact pieces in the correct location.\n\n",
             "color": "$text"
           },
           {
@@ -2780,7 +2786,7 @@
     {
       "type": "collection",
       "id": "spirit_extractor",
-      "name": "Revival",
+      "name": "Reviving",
       "descriptionData": {
         "description": [
           {
@@ -2814,7 +2820,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Another big change after level 20 is the ability to find Trinkets! These are powerful items that can be equipped in your bauble slots.\n\nThey come in three different colours, ",
+            "text": "Another big change after level 20 is the ability to find Trinkets! These are powerful items that can be equipped in your bauble slots.\n\nThey come in three different colors, ",
             "color": "$text"
           },
           {
@@ -2834,7 +2840,7 @@
             "color": "$red"
           },
           {
-            "text": ".\n\nYou may equip one of each colour at any given time for a total of three trinkets.\n\n",
+            "text": ".\n\nYou may equip one of each color at any given time for a total of three trinkets at a time.\n\n",
             "color": "$text"
           },
           {
@@ -2862,7 +2868,7 @@
             "color": "$text"
           },
           {
-            "text": "Vault Forge",
+            "text": "Trinket Forge",
             "color": "$name"
           },
           {
@@ -2902,13 +2908,79 @@
       }
     },
     {
+      "type": "collection",
+      "id": "trinket_forge",
+      "name": "Trinket Forge",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Now that you have discovered a",
+            "color": "$text"
+          },
+          {
+            "text": "Trinket",
+            "color": "$name"
+          },
+          {
+            "text": ", you can craft your own in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Trinket Forge",
+            "color": "$name"
+          },
+          {
+            "text": ".\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "You will need ",
+            "color": "$text"
+          },
+          {
+            "text": "Trinket Scraps",
+            "color": "$name"
+          },
+          {
+            "text": " which you can get in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Vault Recycler",
+            "color": "$name"
+          },
+          {
+            "text": ".\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Acquire a Trinket Forge",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/trinket_forge",
+      "targetId": "the_vault:trinket_forge",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:trinket_scrap",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
       "type": "checkmark",
       "id": "vaultrocks",
       "name": "Vault Rocks",
       "descriptionData": {
         "description": [
           {
-            "text": "The world of Vault Hunters also hosts mystical ",
+            "text": "Along normal Vault Rocks are ",
             "color": "$text"
           },
           {
@@ -2916,7 +2988,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": ", some of them craftable, others only findable.\n\nThese ",
+            "text": ", some are crafted while others are found.\n\nThese ",
             "color": "$text"
           },
           {
@@ -2924,7 +2996,7 @@
             "color": "$text"
           },
           {
-            "text": " can be used on the ",
+            "text": " can be placed on the ",
             "color": "$text"
           },
           {
@@ -2936,7 +3008,7 @@
             "color": "$text"
           },
           {
-            "text": "non-modifiable, special vault crystal",
+            "text": "non-modifiable crystal",
             "color": "$qhighlight"
           },
           {
@@ -3075,7 +3147,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Now that you have become level 20 you will be able to find ",
+            "text": "At level 20 ",
             "color": "$text"
           },
           {
@@ -3083,23 +3155,11 @@
             "color": "$qhighlight"
           },
           {
-            "text": " inside the vault!\n\nThese ",
+            "text": " will start appearing and you will find shopping pedestals inside.\n\n",
             "color": "$text"
           },
           {
-            "text": "dark red doors",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " are opened by right-clicking them with an empty hand, and have 3 ",
-            "color": "$text"
-          },
-          {
-            "text": "shopping pedestals",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " inside.\n\nThe prices are in ",
+            "text": "The prices are in ",
             "color": "$text"
           },
           {
@@ -3145,7 +3205,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Dungeons are scary places inside the vault, containing a challenge and loot!\n\n",
+            "text": "Dungeons are an added challenge to vaults. They contain difficult mobs and extra loot!. \n\n",
             "color": "$text"
           },
           {
@@ -3185,7 +3245,7 @@
             "color": "$text"
           },
           {
-            "text": " Dungeons have different ",
+            "text": " Dungeons have a variety of ",
             "color": "$text"
           },
           {
@@ -3193,7 +3253,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": ", the larger the dungeon, the more loot and the higher the chance for an ",
+            "text": ", the larger the dungeon, the higher chances for loot and an ",
             "color": "$text"
           },
           {
@@ -3217,19 +3277,11 @@
             "color": "$text"
           },
           {
-            "text": "barrier",
+            "text": "mob barrier",
             "color": "$qhighlight"
           },
           {
-            "text": ", making it so that the dungeon monsters can't exit the dungeon, but don't worry you can walk through this ",
-            "color": "$text"
-          },
-          {
-            "text": "barrier",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ".\nTread carefully, and respect the difficulty! Good luck hunter!",
+            "text": ", to keep dungeon monsters inside and vault mobs out. Players can walk through this barrier. Good luck dungeon delving! ",
             "color": "$text"
           },
           {
@@ -3338,7 +3390,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": " and will allow you to modify your ",
+            "text": " and unloccks more modifier options for your ",
             "color": "$text"
           },
           {
@@ -3346,11 +3398,15 @@
             "color": "$qhighlight"
           },
           {
-            "text": " or gear with more control and options!",
+            "text": " or ",
             "color": "$text"
           },
           {
-            "text": "\n\nThe ",
+            "text": "gear",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\nThe ",
             "color": "$text"
           },
           {
@@ -3442,11 +3498,11 @@
     {
       "type": "block_interact",
       "id": "storing_gear",
-      "name": "Storing Gear",
+      "name": "Wardrobe",
       "descriptionData": {
         "description": [
           {
-            "text": "The Wardrobe allows you to store a set of gear and a hotbar that you can quick switch between using the GUI. This enables having many different build sets to play with while allowing for much greater ease of access.",
+            "text": "The Wardrobe allows you to store a set of gear and a hotbar that you can quickly swap between. This allows you to have multiple gear sets for different styles of play.",
             "color": "$text"
           },
           {
@@ -3475,7 +3531,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Just like the Wardrobe allows for storing gear, the Skill Altar allows for storing Abilities and Talents so that you can quick switch between different builds! This synergises exceptionally well with the Wardrobe.",
+            "text": "A Skill altar allows you to save your Abilities and Talents so that you can switch between different builds. Regret orbs are the currency to swap out Skill sets, place them inside the Skill Altar.",
             "color": "$text"
           },
           {
@@ -3679,6 +3735,71 @@
         "vaultExp": 0
       }
     },
+    {
+      "type": "collection",
+      "id": "unique_codex",
+      "name": "Unique Gear",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Unique Gear ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "is an exciting element of Vault Hunters!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Unique Gear ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "pieces can not, unlike normal gear, be modified - however, it rolls with unique properties! ",
+            "color": "$text"
+          },
+          {
+            "text": "Some of them can for example give your abilities complete new uses, while others can greatly enhance a prefered playstyle.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Craft the ",
+            "color": "$text"
+          },
+          {
+            "text": "Unique Codex ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "and start browsing through where to find these exciting gear pieces, but beware, some of them are very rare!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Craft the Unique Codex",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/unique_codex",
+      "targetId": "the_vault:unique_codex",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [],
+        "vaultExp": 0
+      }
+    },
 
     {
       "type": "level_up",
@@ -3741,7 +3862,7 @@
             "color": "$highlight"
           },
           {
-            "text": "are available that you can use to modify gear. ",
+            "text": "are available that you can use to modify gear. These include ",
             "color": "$text"
           },
           {
@@ -3835,39 +3956,63 @@
             "color": "$text"
           },
           {
-            "text": "After level 40, you can find ",
+            "text": "Now that you have reached level 40, you may, however very rarely, come across ",
             "color": "$text"
           },
           {
-            "text": "charms",
+            "text": "God Charms",
             "color": "$qhighlight"
           },
           {
-            "text": " rarely inside ",
+            "text": ". They can be found inside ",
             "color": "$text"
           },
           {
             "text": "Living Chests",
-            "color": "$living"
+            "color": "$qhighlight"
           },
           {
-            "text": ". They can not be crafted.\n\nCharms is your way to show your affinity to a specific god while inside a vault",
+            "text": " and ",
             "color": "$text"
           },
           {
-            "text": ". They can be identified by rolling them like gear, and there are four different tiers of charms; ",
+            "text": "Living Dungeon Barrels",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". They can not be crafted, nor modified, but they can be recycled for vault scrap.\n\n",
             "color": "$text"
           },
           {
-            "text": "Noble, Distinguished, Regal and Majestic.",
+            "text": "Charms can be equipped in your ",
             "color": "$text"
           },
           {
-            "text": "\nThe higher the tier, the more affinity they can have to their god.\n\nCharms have uses, and can not be unequipped or equipped during a vault. A use charge is consumed every time you interact with a God Altar inside a vault.",
+            "text": "charm slot",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " and, like Trinkets, have uses until they deplete.\n\n",
             "color": "$text"
           },
           {
-            "text": "\n\nAffinity is important to understand for your next quest, so, here is your first charm, identify it, and wear it proudly!",
+            "text": "Depending on which God the charm is tied to, they can add valuable attributes and ",
+            "color": "$text"
+          },
+          {
+            "text": " Temporal Modifiers",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\nThe power of these attributes are based on your ",
+            "color": "$text"
+          },
+          {
+            "text": "reputation",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " with the god it is tied to! The higher your reputation, the more powerful the attributes become.\n\nIn the next quest you can learn about how to increase your god reputation, but for now, to get you off on the right foot, here is a free God Charm for you to identify!",
             "color": "$text"
           }
         ]
@@ -3879,7 +4024,7 @@
       "reward": {
         "items": [
           {
-            "item": "the_vault:small_charm"
+            "item": "the_vault:vault_god_charm"
           }
         ],
         "vaultExp": 0
@@ -3888,7 +4033,7 @@
     {
       "type": "block_interact",
       "id": "god_altars",
-      "name": "God Altars",
+      "name": "God Altars & Reputation",
       "descriptionData": {
         "description": [
           {
@@ -3908,7 +4053,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": ", strongly buffing you in the vault and if you are lucky enough, and show enough affinity to the god, you can also gain a ",
+            "text": ", strongly buffing you in the vault and perhaps more importantly, earn you a ",
             "color": "$text"
           },
           {
@@ -3924,7 +4069,23 @@
             "color": "$qhighlight"
           },
           {
-            "text": "!\n\nNote, you can only reach 25 reptuation points in total, after that point you will lose reputation with another god, when gaining a new one.",
+            "text": "!\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "You can reach ",
+            "color": "$text"
+          },
+          {
+            "text": "50",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " reputation points per each god, and you can track your progress in your statistics screen.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nThe more reputation you have with each god, the more powerful their charms are!",
             "color": "$text"
           },
           {
@@ -3936,7 +4097,7 @@
       "icon": "the_vault:gui/quests/god_altar",
       "targetId": "the_vault:god_altar",
       "targetProgress": 1.0,
-      "unlockedBy": "reach_level_40",
+      "unlockedBy": "charms",
       "reward": {
         "items": [
           {
@@ -4001,7 +4162,7 @@
             "color": "$text"
           },
           {
-            "text": ".\n\nTo complete this objective, you will need to complete 3-5 God altars before exiting the vault through the start room. You can of course always complete more altars than is needed for completion if desired.",
+            "text": "\n\nTo complete this objective, you will need to complete 3-5 God altars before exiting the vault through the start room. You can of course always complete more altars than is needed for completion if desired.",
             "color": "$text"
           },
           {
@@ -4291,60 +4452,6 @@
         "vaultExp": 0
       }
     },
-    {
-      "type": "collection",
-      "id": "craft_guardian_seal",
-      "name": "Craft a Hunt the Guardians seal",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "The Seal of the ",
-            "color": "$text"
-          },
-          {
-            "text": "Executioner",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " applies the ",
-            "color": "$text"
-          },
-          {
-            "text": "Hunt the Guardians",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " objective to a crystal.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nFor this type of vault, the objective is to find obelisks, activate them, and kill the guardians that get summoned. Once you have activated enough obelisks, and killed the guardians, the vault is complete.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nThis objective has a recommended level of 40+ and will randomly appear in the vaults as well after that level.",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "\n\nAcquire a Seal of the Executioner ",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/executioner",
-      "targetId": "the_vault:crystal_seal_executioner",
-      "targetProgress": 1.0,
-      "unlockedBy": "reach_level_40",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:crystal_seal_executioner",
-            "amount": 1
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
 
     {
       "type": "level_up",
@@ -4353,7 +4460,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Reaching Vault Level 50 marks the halfway point in terms of levels, this means that you currently have half of your total expertise points already. The Neuralizer allows you to completely reset your currently specced expertise points in case you change your mind and decide that another expertise may suit your needs better!",
+            "text": "Reaching Vault Level 50 marks the halfway point in terms of levels, this means that you currently have half of your total expertise points already.\n\nThe Neuralizer allows you to completely reset your currently selected expertise points.",
             "color": "$text"
           },
           {
@@ -4376,111 +4483,13 @@
       }
     },
     {
-      "type": "collection",
-      "id": "craft_Prophet_seal",
-      "name": "Craft a Bingo seal",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "The Seal of the ",
-            "color": "$text"
-          },
-          {
-            "text": "Prophet",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " applies the ",
-            "color": "$text"
-          },
-          {
-            "text": "Bingo",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " objective to a crystal. To craft it you will need a blank seal and a few vault ingredients",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nThe Bingo objective requires you to execute tasks on the bingo board and try to get a line completed. The rewards for this objective scale with the amount of lines completed.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nBingo objective modifiers:",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nRapidly: ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "Perform the task very quickly or it will reset. For example: Rapidly loot 10 wooden chests in 6 seconds",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nFlawlessly: ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "Perform the task without taking any damage(including poison and fall damage)",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nSilently: ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "Deal no damage to any mobs whilst performing the task",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nPrimitively: ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "Do not use any mana whilst performing the task",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nCombo: ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "Perform a series of task within a timeframe, when you complete the first task it will change to the next",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nThis objective has a recommended level of 50+ and will randomly appear in the vaults as well after that level.",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "\n\nAcquire a Seal of the Prophet",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/prophet",
-      "targetId": "the_vault:crystal_seal_prophet",
-      "targetProgress": 1.0,
-      "unlockedBy": "reach_level_50",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:crystal_seal_prophet",
-            "amount": 1
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
       "type": "checkmark",
       "id": "tier_3_rolling",
       "name": "Rerolling Gear - Chapter 3",
       "descriptionData": {
         "description": [
           {
-            "text": "By reaching level 50, you will now gain access to the rest of the ",
+            "text": "At Lv50 you will now gain access to the rest of the ",
             "color": "$text"
           },
           {
@@ -4488,7 +4497,7 @@
             "color": "$highlight"
           },
           {
-            "text": "needed to re-roll and modify gear pieces.",
+            "text": "needed to reroll and modify gear",
             "color": "$text"
           },
           {
@@ -4496,7 +4505,7 @@
             "color": "aqua"
           },
           {
-            "text": ": This focus will randomly re-roll the tier of a random modifier.",
+            "text": ": This focus will randomly reroll the tier of a random modifier.",
             "color": "$text"
           },
           {
@@ -4504,7 +4513,7 @@
             "color": "dark_aqua"
           },
           {
-            "text": ": This focus will re-roll the prefixes while leaving the suffixes the same.",
+            "text": ": This focus will only reroll the prefixes.",
             "color": "$text"
           },
           {
@@ -4512,7 +4521,7 @@
             "color": "dark_aqua"
           },
           {
-            "text": ": This focus will re-roll the suffixes while leaving the prefixes the same.",
+            "text": ": This focus will only reroll the suffixes.",
             "color": "$text"
           },
           {
@@ -4585,7 +4594,7 @@
             "color": "dark_red"
           },
           {
-            "text": "implicit will be added to the item and the item will be completely re-rolled.",
+            "text": "implicit will be added to the item and the item will be completely rerolled.",
             "color": "$text"
           },
           {
@@ -4619,7 +4628,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Another new feature introduced at level 50 is cards. They come in all different colors and varieties. You obtain them by finding booster packs in your completion crate or very rarely in your black market",
+            "text": "At Lv50 you will start seeing Card Packs. You can obtain them in many different ways, but more commonly by finding them in completion crates, the black market, or shop pedestals.",
             "color": "$text"
           },
           {
@@ -4627,7 +4636,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with stat cards. They improve stats depending on their tier and any requirements",
+            "text": "This pack provides you with stat cards. They improve stats depending on their tier and any requirements.",
             "color": "$text"
           },
           {
@@ -4635,7 +4644,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with resource cards. These cards add resources to your completion crate every time you fulfill their requirement",
+            "text": "This pack provides you with resource cards. These cards add resources to your completion crate every time you fulfill their requirement.",
             "color": "$text"
           },
           {
@@ -4643,7 +4652,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with a random set of cards",
+            "text": "This pack provides you with a random set of cards.",
             "color": "$text"
           },
           {
@@ -4651,7 +4660,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with arcane cards. These cards are especially powerful as they improve existing ability levels",
+            "text": "This pack provides you with arcane cards. These cards are especially powerful as they improve existing ability levels.",
             "color": "$text"
           },
           {
@@ -4659,7 +4668,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with temporal cards. Temporal cards are some of the most powerful cards out there. These cards randomly play legendary modifiers in your vault",
+            "text": "This pack provides you with temporal cards. Temporal cards are some of the most powerful cards out there. These cards randomly play legendary modifiers in your vault.",
             "color": "$text"
           },
           {
@@ -4667,7 +4676,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with wild cards. The perfect utility card. With these cards you can make card combinations a lot easier",
+            "text": "This pack provides you with wild cards. The perfect utility card. With these cards you can make card combinations a lot easier.",
             "color": "$text"
           },
           {
@@ -4675,11 +4684,11 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with evolution cards. These cards are similar in function to stat cards but become more powerful if placed in specific spots in your deck",
+            "text": "This pack provides you with evolution cards. These cards are similar in function to stat cards but become more powerful if placed in specific spots in your deck.",
             "color": "$text"
           },
           {
-            "text": "\n\nSome of these packs also have mega packs or shiny packs. You got to get them all!!",
+            "text": "\n\nSome of these packs also have mega packs or shiny packs.",
             "color": "$text"
           },
           {
@@ -4767,28 +4776,24 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Now that you have some cards you might want somewhere to put them! Thankfully we've thought of something. Introducing the ",
+            "text": "\"Once you've accumulated enough cards you'll want to build a ",
             "color": "$text"
           },
           {
-            "text": "Card Deck!",
+            "text": "Card Deck",
             "color": "$qhighlight"
           },
           {
-            "text": ". This handy item lets you bring cards into the vault and benefit from their special effects",
+            "text": ". Placing cards inside your deck will allow you to benefit from their special effects.",
             "color": "$text"
           },
           {
-            "text": "\n\nThey come in all shapes and sizes so keep a look out and you might just find one randomly.",
+            "text": "\n\nDecks come in all shapes and sizes so keep a look out and you might just find some vaulting or in the black market!",
             "color": "$text"
           },
           {
-            "text": "\n\nSome cards might have special requirements before they work. Hover over them in the deck to see which cards are affecting your card.",
+            "text": "\n\nSome cards might have special requirements before they work. Hover over the cards in your deck to see what positions affect your cards. You can craft a Starter Deck to get you started.",
             "color": "$text"
-          },
-          {
-            "text": "The first deck is called Starter(in JEI)",
-            "color": "$qhighlight"
           },
           {
             "text": "\n\nCraft A Card Deck",
@@ -4818,7 +4823,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "You might wonder, What can I do with the cards that I don't like? Well wait no more. \n\nIntroducing the ",
+            "text": "Some cards just don't stack up, you can place these less than desirable cards in the ",
             "color": "$text"
           },
           {
@@ -4826,11 +4831,11 @@
             "color": "$qhighlight"
           },
           {
-            "text": ". Any card you don't like can be ground down to its essence. A tier 1 card can be upgraded to tier 2 with 10 essence. Watch out though. The higher the tier the more expensive the cost!",
+            "text": ". Any card you don't want anymore can be ground down into essence to upgrade other cards. A Tier 1 card be upgraded with 10 essence to Tier 2. The higher the tier the more essence to upgrade.",
             "color": "$text"
           },
           {
-            "text": "\n\nIn order to use the machine, it needs a redstone signal. The card on the left will be juiced into essence. This essence can then be used to upgrade the card on the right.",
+            "text": "\n\nIn order to use the machine you will need a redstone signal. The Card on the left will have its essence extracted. This essence can then be used to upgrade a card on the right.",
             "color": "$text"
           },
           {
@@ -4930,7 +4935,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Once you have a treasure key completed, bring it with you in to the vaults and search for a corresponding door, use the key on the door to open it.\n\nTreasure Rooms contain a random amount of ",
+            "text": "Once you have a treasure key crafted, bring it with you into the vaults and search for the corresponding door. Use the key on the door to open it and make sure to loot everything\n\nTreasure Rooms contain a random amount of ",
             "color": "$text"
           },
           {
@@ -4946,7 +4951,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": "!\n\n The pedestal will always contain a legendary piece of gear although the rarity of the piece will by Common+.",
+            "text": "!\n\nThe pedestal will always contain a legendary piece of gear although the rarity of the piece will by Common+.",
             "color": "$text"
           },
           {
@@ -5279,7 +5284,7 @@
             "color": "$hunt_the_guardian"
           },
           {
-            "text": ", the goal of this objective is to find obelisks and defeat the boss elites that spawn from them.\n\nOh also...these elites will have nasty effects and for every one you defeat, new modifiers will be added to the vault",
+            "text": ", the goal of this objective is to find obelisks and defeat the boss elites that spawn from them.\n\nThese elites will have harsh effects and for every elite you defeat a new modifier will be added to the vault.",
             "color": "$text"
           },
           {
@@ -5324,7 +5329,7 @@
         ]
       },
       "icon": "the_vault:gui/quests/level65",
-      "targetId": "the_vault:100",
+      "targetId": "the_vault:65",
       "targetProgress": 1.0,
       "unlockedBy": "reach_level_50",
       "reward": {
@@ -5344,7 +5349,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Upon reaching level 65 you unlock the possibility to craft a ",
+            "text": "You've made it to Lv65, you can now craft your first ",
             "color": "$text"
           },
           {
@@ -5352,7 +5357,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": ".\n\nThis crystal can not be modified, and keeps track of your win streak (ascension). Every time you successfully complete a ",
+            "text": ".\n\nThis crystal is unmodifiable, and keeps track of your win streak (Ascension). Every time you successfully complete a ",
             "color": "$text"
           },
           {
@@ -5360,7 +5365,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": ", you increase the difficulty of the next Challenger's Crystal you run!\n\nWhen you eventually fail (and you will), you will receive ",
+            "text": ", you increase the difficulty for the next Challenger's Vault run.\n\nWhen you eventually fail to complete a Challenger's Vault you will receive ",
             "color": "$text"
           },
           {
@@ -5368,16 +5373,12 @@
             "color": "$qhighlight"
           },
           {
-            "text": ", depending on how far you got.\nEmbers are a currency item used in the ",
+            "text": ", depending on how far you Ascended.\nEmbers are the currency item used in the ",
             "color": "$text"
           },
           {
             "text": "Ascension Forge",
             "color": "$qhighlight"
-          },
-          {
-            "text": ".\n\nAre you ready for your Ascension?",
-            "color": "$text"
           },
           {
             "text": "\n\nCraft a Challenger's Vault Rock",
@@ -5426,11 +5427,11 @@
             "color": "$text"
           },
           {
-            "text": "special transmorgs",
+            "text": "special transmogs",
             "color": "$qhighlight"
           },
           {
-            "text": " for your gear, making you stick out as the Challenger you have become!\nYou can also purchase ",
+            "text": " for your gear. These transmogs will help you stand out as the Challenger that you have become!\nYou can also purchase ",
             "color": "$text"
           },
           {
@@ -5582,7 +5583,7 @@
             "color": "light_purple"
           },
           {
-            "text": ".It is recommended to work with others in order to obtain the submit all the crystals in order to obtain the boost.\n\n2. To re-open border expansion in the same manner as before.\n\nAll of these event dates are pre-determined and more specifics about the events can be found in Discord.",
+            "text": ". It is recommended to work with others in order to obtain the submit all the crystals in order to obtain the boost.\n\n2. To re-open border expansion in the same manner as before.\n\nAll of these event dates are pre-determined and more specifics about the events can be found in Discord.",
             "color": "$text"
           }
         ]
@@ -5620,7 +5621,7 @@
         ]
       },
       "icon": "the_vault:gui/quests/level90",
-      "targetId": "the_vault:95",
+      "targetId": "the_vault:90",
       "targetProgress": 1.0,
       "unlockedBy": "reach_level_65",
       "reward": {

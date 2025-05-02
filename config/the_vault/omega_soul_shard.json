@@ -150,6 +150,18 @@
                 {
                     "value": {
                         "item": {
+                            "ITEM": "the_vault:rang",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 700,
+                        "maxPrice": 1200
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
                             "ITEM": "the_vault:jewel_pouch",
                             "AMOUNT": 1
                         },
@@ -549,6 +561,18 @@
                 {
                     "value": {
                         "item": {
+                            "ITEM": "the_vault:rang",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1000,
+                        "maxPrice": 1600
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
                             "ITEM": "the_vault:artifact_fragment",
                             "AMOUNT": 1,
                             "NBT": "{}"
@@ -690,8 +714,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 4800,
-                        "maxPrice": 9600
+                        "minPrice": 8192,
+                        "maxPrice": 16384
                     },
                     "weight": 6
                 },
@@ -714,8 +738,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 1200,
-                        "maxPrice": 1800
+                        "minPrice": 8192,
+                        "maxPrice": 16384
                     },
                     "weight": 10
                 },
@@ -726,8 +750,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 14400,
-                        "maxPrice": 28800
+                        "minPrice": 7200,
+                        "maxPrice": 14400
                     },
                     "weight": 6
                 },
@@ -750,8 +774,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 6000,
-                        "maxPrice": 12000
+                        "minPrice": 8192,
+                        "maxPrice": 16384
                     },
                     "weight": 4
                 },
@@ -762,8 +786,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 64000,
-                        "maxPrice": 108000
+                        "minPrice": 56000,
+                        "maxPrice": 96000
                     },
                     "weight": 2
                 },
@@ -1033,6 +1057,18 @@
                 {
                     "value": {
                         "item": {
+                            "ITEM": "the_vault:rang",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1600,
+                        "maxPrice": 2800
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
                             "ITEM": "the_vault:plushie",
                             "AMOUNT": 1,
                             "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
@@ -1119,60 +1155,12 @@
                         "item": {
                             "ITEM": "the_vault:booster_pack",
                             "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:stat_pack\"}"
+                            "NBT": "{\"id\": \"the_vault:black_pack\"}"
                         },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
+                        "minPrice": 8000,
+                        "maxPrice": 12000
                     },
-                    "weight": 16
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:mix_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 16
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:resource_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 16
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:arcane_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 12
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:wild_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 12
+                    "weight": 6
                 },
                 {
                     "value": {
@@ -1192,6 +1180,18 @@
                             "ITEM": "the_vault:booster_pack",
                             "AMOUNT": 1,
                             "NBT": "{\"id\": \"the_vault:mega_stat_pack\"}"
+                        },
+                        "minPrice": 2000,
+                        "maxPrice": 2400
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:booster_pack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"id\": \"the_vault:mega_mix_pack\"}"
                         },
                         "minPrice": 2000,
                         "maxPrice": 2400
@@ -1306,8 +1306,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 5600,
-                        "maxPrice": 11200
+                        "minPrice": 8192,
+                        "maxPrice": 16384
                     },
                     "weight": 6
                 },
@@ -1330,8 +1330,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 1800,
-                        "maxPrice": 3600
+                        "minPrice": 8192,
+                        "maxPrice": 16384
                     },
                     "weight": 10
                 },
@@ -1342,8 +1342,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 14400,
-                        "maxPrice": 28800
+                        "minPrice": 7200,
+                        "maxPrice": 14400
                     },
                     "weight": 6
                 },
@@ -1366,8 +1366,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 6000,
-                        "maxPrice": 12000
+                        "minPrice": 8192,
+                        "maxPrice": 16384
                     },
                     "weight": 4
                 },
@@ -1378,8 +1378,8 @@
                             "AMOUNT": 1,
                             "NBT": "{}"
                         },
-                        "minPrice": 64000,
-                        "maxPrice": 108000
+                        "minPrice": 56000,
+                        "maxPrice": 96000
                     },
                     "weight": 4
                 },
@@ -1698,6 +1698,18 @@
                 {
                     "value": {
                         "item": {
+                            "ITEM": "the_vault:rang",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 1600,
+                        "maxPrice": 2800
+                    },
+                    "weight": 24
+                },
+                {
+                    "value": {
+                        "item": {
                             "ITEM": "the_vault:plushie",
                             "AMOUNT": 1,
                             "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
@@ -1772,60 +1784,12 @@
                         "item": {
                             "ITEM": "the_vault:booster_pack",
                             "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:stat_pack\"}"
+                            "NBT": "{\"id\": \"the_vault:black_pack\"}"
                         },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
+                        "minPrice": 8000,
+                        "maxPrice": 12000
                     },
-                    "weight": 16
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:mix_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 16
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:resource_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 16
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:arcane_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 12
-                },
-                {
-                    "value": {
-                        "item": {
-                            "ITEM": "the_vault:booster_pack",
-                            "AMOUNT": 1,
-                            "NBT": "{\"id\": \"the_vault:wild_pack\"}"
-                        },
-                        "minPrice": 2000,
-                        "maxPrice": 2400
-                    },
-                    "weight": 12
+                    "weight": 6000
                 },
                 {
                     "value": {

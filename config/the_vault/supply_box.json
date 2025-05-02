@@ -2,21 +2,12 @@
   "POOL": [
     {
       "value": {
-        "id": "minecraft:iron_ingot",
+        "id": "the_vault:gemstone",
         "nbt": "{}",
         "amountMin": 2,
-        "amountMax": 16
+        "amountMax": 8
       },
-      "weight": 72
-    },
-    {
-      "value": {
-        "id": "minecraft:gold_ingot",
-        "nbt": "{}",
-        "amountMin": 2,
-        "amountMax": 16
-      },
-      "weight": 72
+      "weight": 96
     },
     {
       "value": {
@@ -38,19 +29,19 @@
     },
     {
       "value": {
+        "id": "minecraft:netherite_ingot",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 8
+      },
+      "weight": 32
+    },
+    {
+      "value": {
         "id": "the_vault:carbon",
         "nbt": "{}",
         "amountMin": 1,
         "amountMax": 10
-      },
-      "weight": 128
-    },
-    {
-      "value": {
-        "id": "the_vault:magic_silk",
-        "nbt": "{}",
-        "amountMin": 1,
-        "amountMax": 12
       },
       "weight": 128
     },
@@ -119,12 +110,12 @@
     },
     {
       "value": {
-        "id": "the_vault:vault_essence",
+        "id": "the_vault:eternal_soul",
         "nbt": "{}",
-        "amountMin": 4,
-        "amountMax": 24
+        "amountMin": 1,
+        "amountMax": 6
       },
-      "weight": 72
+      "weight": 84
     },
     {
       "value": {
@@ -152,15 +143,6 @@
         "amountMax": 32
       },
       "weight": 64
-    },
-    {
-      "value": {
-        "id": "the_vault:wooden_chunk",
-        "nbt": "{}",
-        "amountMin": 16,
-        "amountMax": 48
-      },
-      "weight": 48
     },
     {
       "value": {

@@ -82,22 +82,6 @@
           },
           "weight": 3
         },
-        { "_name": "wuto_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 1,
-              "amountMax": 4
-            },
-            "sell": {
-              "id": "the_vault:gem_wutodie",
-              "amountMin": 1,
-              "amountMax": 2
-            },
-            "max_trades": 3
-          },
-          "weight": 3
-        },
         { "_name": "beni_4",
           "value": {
             "buy": {
@@ -3157,22 +3141,6 @@
           },
           "weight": 1
         },
-        { "_name": "perfect_wuto_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 5,
-              "amountMax": 14
-            },
-            "sell": {
-              "id": "the_vault:perfect_wutodie",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 3
-        },
         { "_name": "echogem_1",
           "value": {
             "buy": {
@@ -4038,22 +4006,6 @@
             "max_trades": 1
           },
           "weight": 1
-        },
-        { "_name": "perfect_wuto_3",
-          "value": {
-            "buy": {
-              "id": "the_vault:vault_silver",
-              "amountMin": 5,
-              "amountMax": 14
-            },
-            "sell": {
-              "id": "the_vault:perfect_wutodie",
-              "amountMin": 1,
-              "amountMax": 1
-            },
-            "max_trades": 1
-          },
-          "weight": 3
         },
         { "_name": "perfect_blackopal_3",
           "value": {

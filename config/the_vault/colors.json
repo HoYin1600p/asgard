@@ -43,6 +43,7 @@
       "thornsDamage": "#c55757"
     },
     "custom": {
+      "darkgray": "#424242",
       "gearResistance": "#FEDD00",
       "castType": "#1e1e1e",
       "poison": "#6fe95a",
@@ -94,7 +95,7 @@
       "living": "#62bb12",
       "electric": "#003a28",
       "slate": "#6A5ACD",
-      "qhighlight": "#FCF5C5",
+      "qhighlight": "#0353d7",
       "titleLine": "#08ffce",
       "idona": "#d80000",
       "wendarr": "#dea700",
@@ -116,7 +117,39 @@
       "enchanted": "#6a01c5",
       "cdr": "#00f5b2",
       "hardened": "#57585f",
-      "ballistic": "#254f77"
+      "ballistic": "#254f77",
+
+      "ornate": "#d72222",
+      "coins": "#da9214",
+      "picking": "#dbdbdb",
+      "axing": "#7f5d33",
+      "shovelling": "#c8cb8c",
+      "smelting": "#e16500",
+      "pulverzing": "#669e66",
+      "hydrovoid": "#00e5e8",
+      "mining_speed": "#47b8f5",
+      "durability": "#dccefb",
+      "copiously": "#f4467e",
+      "soulbound": "#9463fa",
+      "trap_disarm_chance": "#7f42fc",
+      "vanilla_immortality": "#cbf090",
+      "reach": "#82d4fc",
+      "hammering": "#25d1a3",
+      "quantity": "#e58812",
+      "rarity": "#e7fc00",
+
+      "chromatic_iron": "#bfbbdc",
+      "chromatic_steel": "#4b4a70",
+      "vaulterite": "#693033",
+      "black_chromatic": "#363240",
+      "echoing": "#200f33",
+      "prismatic": "#d3cc0b",
+
+      "attack_damage": "#c62626",
+      "ability_power": "#fc00c9",
+
+      "rang_pierce": "#",
+      "return_damage": "#"
 
     }
   }

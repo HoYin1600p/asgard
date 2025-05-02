@@ -564,6 +564,18 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
+    "pax": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Pax Jewel",
+      "item": {
+        "id": "the_vault:jewel",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:pax\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
     "baguette": {
       "type": "floating_item_reward",
       "textColor": -1213660,
@@ -576,6 +588,30 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
+    "iskallibur": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Iskallibur",
+      "item": {
+        "id": "the_vault:sword",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:iskallibur\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "ivy": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Rosethorn Ivy",
+      "item": {
+        "id": "the_vault:shield",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:ivy\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
     "chainlash": {
       "type": "floating_item_reward",
       "textColor": -1213660,
@@ -583,6 +619,18 @@
       "item": {
         "id": "the_vault:wand",
         "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:chainlash\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "pacifist_sandals": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Pacifist Sandals",
+      "item": {
+        "id": "the_vault:boots",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:pacifist_sandals\",\"the_vault:gear_roll_type\":\"Unique\"}",
         "count": 1
       },
       "color1": "0xFFED7B24",
@@ -719,10 +767,11 @@
       "type": "mob_spawn",
       "entity": {
         "id": "minecraft:pillager",
-        "Tags": ["no_champion"],
+        "Tags": ["no_champion", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ],
         "Modifiers": {
           "minecraft:generic.movement_speed": { "Value": -1.0, "Operation": 2 },
@@ -736,10 +785,13 @@
       "type": "mob_spawn",
       "entity": {
         "id": "minecraft:vindicator",
-        "Tags": ["no_champion"],
+        "Tags": [
+          "no_champion"
+        ],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -762,7 +814,8 @@
         "Tags": ["no_champion"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -775,7 +828,8 @@
         "Tags": ["no_champion"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -788,7 +842,8 @@
         "Tags": ["no_champion"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -810,7 +865,8 @@
         "Tags": ["no_champion"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -825,7 +881,8 @@
         "Tags": ["vault_champion","no_drops"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -840,7 +897,8 @@
         "Tags": ["vault_champion","no_drops"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -855,7 +913,8 @@
         "Tags": ["vault_champion","no_drops"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ],
         "Modifiers": {
           "minecraft:generic.movement_speed": { "Value": -1.0, "Operation": 2 },
@@ -875,7 +934,8 @@
         "Tags": ["vault_champion","no_drops"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -974,7 +1034,9 @@
       { "value": "cryonic_focus", "weight": 6 },
       { "value": "pyretic_focus", "weight": 6 },
       { "value": "echo_gem_big", "weight": 18 },
-      { "value": "manabloom", "weight": 4 }
+      { "value": "manabloom", "weight": 4 },
+      { "value": "iskallibur", "weight": 4 },
+      { "value": "ivy", "weight": 4 }
     ],
     "positive_lab": [
       { "value": "gilded_chest_big", "weight": 120 },
@@ -989,6 +1051,7 @@
       { "value": "crystalplate", "weight": 4 },
       { "value": "crashguards", "weight": 4 },
       { "value": "chainlash", "weight": 4 },
+      { "value": "pacifist_sandals", "weight": 4 },
       { "value": "kaleidoscope", "weight": 8 },
       { "value": "baguette", "weight": 20 }
     ]

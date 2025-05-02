@@ -165,9 +165,23 @@
               }
             },
             {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:magnet",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "ornate0"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
               "weight": 2,
               "item": {
-                "id": "the_vault:jewel_pouch",
+                "id": "the_vault:gilded_chest_scroll",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -178,7 +192,7 @@
             {
               "weight": 1,
               "item": {
-                "id": "the_vault:gilded_chest_scroll",
+                "id": "the_vault:trinket",
                 "count": {
                   "type": "uniform",
                   "min": 1,

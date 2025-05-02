@@ -2,6 +2,40 @@
   "MOD_RESEARCHES": [
     {
       "modIds": [
+        "laserbridges"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Laser Bridges",
+      "cost": 1,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
+        "entangled"
+      ],
+      "restrictions": {
+        "restricts": {
+          "HITTABILITY": false,
+          "BLOCK_INTERACTABILITY": true,
+          "USABILITY": true,
+          "CRAFTABILITY": true,
+          "ENTITY_INTERACTABILITY": false
+        }
+      },
+      "name": "Entangled",
+      "cost": 3,
+      "usesKnowledge": true
+    },
+    {
+      "modIds": [
         "torchmaster"
       ],
       "restrictions": {
@@ -817,7 +851,7 @@
             "USABILITY": true,
             "CRAFTABILITY": true
           }
-        }
+        }   
       },
       "blockRestrictions": {},
       "entityRestrictions": {},

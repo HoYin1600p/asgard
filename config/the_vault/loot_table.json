@@ -18,10 +18,12 @@
         "ballistic_bingo": "the_vault:base_crate_cursed_0",
         "ballistic_bingo_full": "the_vault:base_crate_cursed_0",
         "zealot": "the_vault:base_crate_cursed_0",
-        "offering_boss": "the_vault:base_crate_0"
+        "offering_boss": "the_vault:base_crate_0",
+        "rune_boss": "the_vault:base_crate_0"
       },
       "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
       "CHAMPION": "the_vault:champion_loot_lvl0",
+      "RUNES_LOOT": "the_vault:rune_loot_0",
       "TREASURE_GOBLIN": "the_vault:entities/lvl0/treasure_goblin",
       "ARTIFACT_CHANCE": 0.00
     },
@@ -43,10 +45,12 @@
         "ballistic_bingo": "the_vault:base_crate_cursed_0",
         "ballistic_bingo_full": "the_vault:base_crate_cursed_0",
         "zealot": "the_vault:base_crate_cursed_0",
-        "offering_boss": "the_vault:base_crate_0"
+        "offering_boss": "the_vault:base_crate_0",
+        "rune_boss": "the_vault:base_crate_0"
       },
       "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
       "CHAMPION": "the_vault:champion_loot_lvl0",
+      "RUNES_LOOT": "the_vault:rune_loot_0",
       "TREASURE_GOBLIN": "the_vault:entities/lvl0/treasure_goblin",
       "ARTIFACT_CHANCE": 0.0
     },
@@ -68,10 +72,12 @@
         "offering_boss": "the_vault:base_crate_cursed_20",
         "bingo_full": "the_vault:base_crate_20",
         "ballistic_bingo": "the_vault:base_crate_cursed_20",
-        "ballistic_bingo_full": "the_vault:base_crate_0"
+        "ballistic_bingo_full": "the_vault:base_crate_0",
+        "rune_boss": "the_vault:base_crate_0"
       },
       "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
       "CHAMPION": "the_vault:champion_loot_lvl20",
+      "RUNES_LOOT": "the_vault:rune_loot_0",
       "TREASURE_GOBLIN": "the_vault:entities/lvl0/treasure_goblin",
       "ARTIFACT_CHANCE": 0.05
     },
@@ -93,10 +99,12 @@
         "ballistic_bingo": "the_vault:base_crate_cursed_50",
         "ballistic_bingo_full": "the_vault:bingo_bonus_cursed",
         "zealot": "the_vault:zealot_crate_50",
-        "offering_boss": "the_vault:base_crate_0"
+        "offering_boss": "the_vault:base_crate_0",
+        "rune_boss": "the_vault:base_crate_0"
       },
       "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
       "CHAMPION": "the_vault:champion_loot_lvl50",
+      "RUNES_LOOT": "the_vault:rune_loot_50",
       "TREASURE_GOBLIN": "the_vault:entities/lvl0/treasure_goblin",
       "ARTIFACT_CHANCE": 0.2
     },
@@ -118,10 +126,12 @@
         "ballistic_bingo": "the_vault:base_crate_cursed_100",
         "ballistic_bingo_full": "the_vault:bingo_bonus_cursed",
         "zealot": "the_vault:zealot_crate_100",
-        "offering_boss": "the_vault:base_crate_0"
+        "offering_boss": "the_vault:base_crate_0",
+        "rune_boss": "the_vault:base_crate_0"
       },
       "GLADIATOR_CRATE": "the_vault:completion_crate_lvl0",
       "CHAMPION": "the_vault:champion_loot_lvl50",
+      "RUNES_LOOT": "the_vault:rune_loot_50",
       "TREASURE_GOBLIN": "the_vault:entities/lvl0/treasure_goblin",
       "ARTIFACT_CHANCE": 0.2
     }

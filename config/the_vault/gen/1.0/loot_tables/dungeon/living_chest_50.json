@@ -124,17 +124,6 @@
             }
           },
           {
-            "weight": 115,
-            "item": {
-              "id": "the_vault:regret_nugget",
-              "count": {
-                "type": "uniform",
-                "min": 1,
-                "max": 3
-                }
-            }
-          },
-          {
             "weight": 23,
             "item": {
               "id": "the_vault:burger_lettuce",
@@ -286,34 +275,9 @@
               }
             },
             {
-              "weight": 8,
+              "weight": 10,
               "item": {
-                "id": "the_vault:small_charm",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 2,
-              "item": {
-                "id": "the_vault:large_charm",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:card_deck",
-                "nbt": {
-                  "id": "ldungeon"
-                },
+                "id": "the_vault:vault_god_charm",
                 "count": {
                   "type": "uniform",
                   "min": 1,

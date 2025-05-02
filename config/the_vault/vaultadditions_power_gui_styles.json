@@ -1,3 +1,202 @@
 {
-
+  "styles": {
+    "BountyOfTheEarth": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/bounty_of_the_earth"
+    },
+    "NaturesBoon": {
+      "x": 0,
+      "y": 100,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/natures_boon"
+    },
+    "CelestialFortune": {
+      "x": 0,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/celestial_fortune"
+    },
+    "CelestialProvidence": {
+      "x": 0,
+      "y": 280,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/treasure_seeker"
+    },
+    "EssenceFlow": {
+      "x": 70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/essence_flow"
+    },
+    "EssenceFlow2": {
+      "x": 70,
+      "y": 100,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/essence_flow_2"
+    },
+    "GaiasWard": {
+      "x": 70,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/gaias_ward"
+    },
+    "GaiasWard2": {
+      "x": 70,
+      "y": 280,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/gaias_ward_2"
+    },
+    "SpiritMastery": {
+      "x": 140,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/spirit_mastery"
+    },
+    "SpiritMastery2": {
+      "x": 140,
+      "y": 100,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/spirit_mastery_2"
+    },
+    "StonesResolve": {
+      "x": 140,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/stones_resolve"
+    },
+    "RootedFortitute": {
+      "x": 140,
+      "y": 280,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/rooted_fortitute"
+    },
+    "WardensInsight": {
+      "x": 210,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/wardens_insight"
+    },
+    "SagesBlessing": {
+      "x": 210,
+      "y": 100,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/sages_blessing"
+    },
+    "GaiasGenerosity": {
+      "x": 210,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/gaias_generosity"
+    },
+    "GaiasGenerosity2": {
+      "x": 210,
+      "y": 280,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/gaias_generosity_2"
+    },
+    "TemporalHarmony": {
+      "x": 280,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/temporal_harmony"
+    },
+    "TemporalFlow": {
+      "x": 280,
+      "y": 100,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/temporal_flow"
+    },
+    "SpiritualShield": {
+      "x": 280,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/spiritual_shield"
+    },
+    "SpiritualShield2": {
+      "x": 280,
+      "y": 280,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/spiritual_shield_2"
+    },
+    "LifesPulse": {
+      "x": 350,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/lifes_pulse"
+    },
+    "LifewellResonance": {
+      "x": 350,
+      "y": 100,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/lifewell_resonance"
+    },
+    "EssenceCommunion": {
+      "x": 350,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/essence_communion"
+    },
+    "EssenceCommunion2": {
+      "x": 350,
+      "y": 280,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/essence_communion_2"
+    },
+    "SpiritsGrasp": {
+      "x": 420,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/spirits_grasp"
+    },
+    "SpiritsGrasp2": {
+      "x": 420,
+      "y": 100,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/spirits_grasp_2"
+    },
+    "EarthsRhythm": {
+      "x": 420,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/earths_rhythm"
+    },
+    "EarthsRhythm2": {
+      "x": 420,
+      "y": 280,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/earths_rhythm_2"
+    },
+    "VelarasEndurance": {
+      "x": 490,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/velaras_endurance"
+    },
+    "VelarasEndurance2": {
+      "x": 490,
+      "y": 100,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/velaras_endurance_2"
+    },
+    "Elvish": {
+      "x": 490,
+      "y": 180,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/elvish"
+    },
+    "Careless": {
+      "x": 490,
+      "y": 280,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/careless"
+    },
+    "ZephyrsGrace": {
+      "x": 245,
+      "y": -75,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/zephyrs"
+    }
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "CHANCE_OF_RAW_VAULT": 0.60,
+  "CHANCE_OF_NETHER_THEME_IN_NETHER": 0.75,
+  "CHANCE_OF_VOID_THEME_IN_END": 0.75,
+  "MODIFIER_LISTS": [
+    {
+      "value": [
+        {
+          "modifierId": "the_vault:power_stack",
+          "amount": 5
+        }
+      ],
+      "weight": 70.0
+    },
+    {
+      "value": [
+        {
+          "modifierId": "the_vault:power_stack",
+          "amount": 10
+        }
+      ],
+      "weight": 20.0
+    },
+    {
+      "value": [
+        {
+          "modifierId": "the_vault:increased_power_stack",
+          "amount": 10
+        }
+      ],
+      "weight": 5.0
+    }
+  ],
+  "NETHER_VAULT_THEMES": [
+    "the_vault:classic_vault_nether_crimson",
+    "the_vault:classic_vault_nether_warped",
+    "the_vault:classic_vault_nether_blackstone",
+    "the_vault:classic_vault_nether_soul"
+  ],
+  "VOID_VAULT_THEMES": [
+    "the_vault:classic_vault_void",
+    "the_vault:classic_vault_end_void",
+    "the_vault:classic_vault_factory_void"
+  ]
+}

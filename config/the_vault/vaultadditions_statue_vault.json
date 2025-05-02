@@ -1,140 +1,159 @@
 {
-  "LOOT": [
+  "DROPS": [
     {
       "value": {
-        "ITEM": "minecraft:stone",
-        "NBT": "{}"
+        "id": "minecraft:stone",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:granite",
-        "NBT": "{}"
+        "id": "minecraft:granite",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:diorite",
-        "NBT": "{}"
+        "id": "minecraft:diorite",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:dirt",
-        "NBT": "{}"
+        "id": "minecraft:dirt",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:grass_block",
-        "NBT": "{}"
+        "id": "minecraft:grass_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:gravel",
-        "NBT": "{}"
+        "id": "minecraft:gravel",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:sand",
-        "NBT": "{}"
+        "id": "minecraft:sand",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:cobblestone",
-        "NBT": "{}"
+        "id": "minecraft:cobblestone",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:oak_log",
-        "NBT": "{}"
+        "id": "minecraft:oak_log",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:oak_leaves",
-        "NBT": "{}"
-      },
-      "weight": 10
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:spruce_leaves",
-        "NBT": "{}"
+        "id": "minecraft:oak_leaves",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:birch_leaves",
-        "NBT": "{}"
+        "id": "minecraft:spruce_leaves",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:netherrack",
-        "NBT": "{}"
+        "id": "minecraft:birch_leaves",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:basalt",
-        "NBT": "{}"
+        "id": "minecraft:netherrack",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:mossy_cobblestone",
-        "NBT": "{}"
+        "id": "minecraft:basalt",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:clay",
-        "NBT": "{}"
+        "id": "minecraft:mossy_cobblestone",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:terracotta",
-        "NBT": "{}"
+        "id": "minecraft:clay",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:pumpkin",
-        "NBT": "{}"
+        "id": "minecraft:terracotta",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:melon",
-        "NBT": "{}"
+        "id": "minecraft:pumpkin",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:melon",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     }
   ],
   "INTERVAL": 500,
-  "MIN_ITEM_GENERATED": 128,
-  "MAX_ITEM_GENERATED": 384
+  "MIN_ITEM_GENERATED": 48,
+  "MAX_ITEM_GENERATED": 128
 }

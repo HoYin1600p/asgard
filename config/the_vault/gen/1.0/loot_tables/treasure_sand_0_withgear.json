@@ -45,17 +45,6 @@
             {
                 "weight": 8,
                 "item": {
-                "id": "the_vault:gem_wutodie",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
-                }
-            },
-            {
-                "weight": 8,
-                "item": {
                 "id": "the_vault:gem_painite",
                 "count": {
                   "type": "uniform",

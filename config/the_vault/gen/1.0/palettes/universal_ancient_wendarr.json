@@ -201,14 +201,14 @@
             "type": "weighted_target",
             "target": "minecraft:twisting_vines_plant",
             "output": {
-                "minecraft:cactus": 1
+                "architects_palette:gilded_sandstone_pillar": 1
             }
         },
         {
             "type": "weighted_target",
             "target": "minecraft:twisting_vines",
             "output": {
-                "minecraft:cactus": 1
+                "architects_palette:gilded_sandstone_pillar": 1
             }
         },
         {

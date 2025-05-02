@@ -363,7 +363,7 @@
     {
       "value": {
         "id": "the_vault:augment",
-        "nbt": "{theme:\"the_vault:classic_vault_ancient_idonis\"}",
+        "nbt": "{theme:\"the_vault:classic_vault_ancient_idona\"}",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -372,7 +372,7 @@
     {
       "value": {
         "id": "the_vault:augment",
-        "nbt": "{theme:\"the_vault:classic_vault_ancient_altenous\"}",
+        "nbt": "{theme:\"the_vault:classic_vault_ancient_tenos\"}",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -381,7 +381,7 @@
     {
       "value": {
         "id": "the_vault:augment",
-        "nbt": "{theme:\"the_vault:classic_vault_ancient_veldallum\"}",
+        "nbt": "{theme:\"the_vault:classic_vault_ancient_velara\"}",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -390,7 +390,43 @@
     {
       "value": {
         "id": "the_vault:augment",
-        "nbt": "{theme:\"the_vault:classic_vault_ancient_wendtoh\"}",
+        "nbt": "{theme:\"the_vault:classic_vault_ancient_wendarr\"}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:augment",
+        "nbt": "{theme:\"the_vault:classic_vault_aberrant_garden\"}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:augment",
+        "nbt": "{theme:\"the_vault:classic_vault_autumn_cherry_grove\"}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:augment",
+        "nbt": "{theme:\"the_vault:classic_vault_dreadlands_day\"}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:augment",
+        "nbt": "{theme:\"the_vault:classic_vault_dreadlands_night\"}",
         "amountMin": 1,
         "amountMax": 1
       },

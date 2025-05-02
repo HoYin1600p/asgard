@@ -34,6 +34,25 @@
         ]
       }
     ],
+    "rune_boss": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare+",
+            "weight": 4
+          },
+          {
+            "value": "Epic+",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
     "loot": [
       {
         "level": 0,
@@ -174,6 +193,63 @@
           {
             "value": "Omega",
             "weight": 1
+          }
+        ]
+      }
+    ],
+    "dungeon": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare+",
+            "weight": 20
+          },
+          {
+            "value": "Epic+",
+            "weight": 5
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "charms": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common+",
+            "weight": 100
+          },
+          {
+            "value": "Rare+",
+            "weight": 20
+          },
+          {
+            "value": "Epic+",
+            "weight": 5
+          }
+        ]
+      }
+    ],
+    "charms_dungeons": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare+",
+            "weight": 20
+          },
+          {
+            "value": "Epic+",
+            "weight": 5
+          },
+          {
+            "value": "Omega",
+            "weight": 2
           }
         ]
       }
@@ -405,18 +481,6 @@
           {
             "value": "Common",
             "weight": 35
-          },
-          {
-            "value": "Rare",
-            "weight": 4
-          },
-          {
-            "value": "Epic",
-            "weight": 2
-          },
-          {
-            "value": "Omega",
-            "weight": 1
           }
         ]
       }
@@ -617,16 +681,20 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
+            "value": "Common+",
+            "weight": 40
+          },
+          {
             "value": "Rare+",
-            "weight": 12
+            "weight": 40
           },
           {
             "value": "Epic+",
-            "weight": 6
+            "weight": 12
           },
           {
             "value": "Omega",
-            "weight": 2
+            "weight": 8
           }
         ]
       }

@@ -280,8 +280,16 @@
       "the_vault:vexation": {
         "properties": {
           "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"champion_vex\"}",
-          "attemptsPerChunk": 1,
+          "attemptsPerChunk": 4,
           "requireConditions": false
+          },
+          "display": {
+            "name": "Vexation",
+            "color": "#237da1",
+            "description": "Endless poltergeists await you.",
+            "descriptionFormatted": "Endless poltergeists await you.",
+            "icon": "the_vault:gui/modifiers/vexation"
+          }
         },
         "the_vault:ghost_city": {
           "properties": {
@@ -311,14 +319,21 @@
             "icon": "the_vault:gui/modifiers/vexation"
           }
         },
-        "display": {
-          "name": "Vexation",
-          "color": "#237da1",
-          "description": "Endless poltergeists await you.",
-          "descriptionFormatted": "Endless poltergeists await you.",
-          "icon": "the_vault:gui/modifiers/vexation"
-        }
+      "the_vault:bovine": {
+          "properties": {
+            "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"treasure_goblin\"}",
+            "attemptsPerChunk": 2,
+            "requireConditions": false
+          },
+          "display": {
+            "name": ":japanese_goblin: Bovine",
+            "color": "#237da1",
+            "description": "+2 Randomly spawning Treasure Goblins.",
+            "descriptionFormatted": "+2 Randomly Spawning Treasure Goblins.",
+            "icon": "the_vault:gui/modifiers/vexation"
+          }
       },
+
       "the_vault:coin_pile": {
         "properties": {
           "output": "the_vault:placeholder[type=coin_stacks]",
@@ -2324,7 +2339,8 @@
           "preventsArtifact": false,
           "experienceMultiplierOnDeath": 0.0,
           "experienceMultiplierOnSuccess": 0.5,
-          "isInstantRevival": false
+          "isInstantRevival": false,
+          "durabilityPenalty": 1.0
         },
         "display": {
           "name": ":afterlife: Afterlife",
@@ -2338,7 +2354,8 @@
           "preventsArtifact": false,
           "experienceMultiplierOnDeath": 0.0,
           "experienceMultiplierOnSuccess": 1.0,
-          "isInstantRevival": true
+          "isInstantRevival": true,
+          "durabilityPenalty": 1.0
         },
         "display": {
           "name": ":phoenix: Phoenix",
@@ -2352,7 +2369,8 @@
           "preventsArtifact": false,
           "experienceMultiplierOnDeath": 0.0,
           "experienceMultiplierOnSuccess": 1.0,
-          "isInstantRevival": false
+          "isInstantRevival": false,
+          "durabilityPenalty": 1.0
         },
         "display": {
           "name": ":beginners_grace: Beginner's Grace",
@@ -2366,12 +2384,13 @@
           "preventsArtifact": false,
           "experienceMultiplierOnDeath": 0.0,
           "experienceMultiplierOnSuccess": 1.0,
-          "isInstantRevival": false
+          "isInstantRevival": false,
+          "durabilityPenalty": 0.0
         },
         "display": {
           "name": ":beginners_grace: Casual Mode",
           "color": "#FF8900",
-          "description": "If killed in the vault you will keep your inventory but receive a durability penalty.",
+          "description": "If killed in the vault you will keep your inventory, there is also no durability penalty.",
           "icon": "the_vault:gui/modifiers/beginners_grace"
         }
       }
@@ -2543,6 +2562,19 @@
           "name": ":inert: Inert",
           "color": "#6DACB5",
           "description": "-10% Cooldown Reduction",
+          "descriptionFormatted": "%d%% Cooldown Reduction",
+          "icon": "the_vault:gui/modifiers/inert"
+        }
+      },
+      "the_vault:weakened_cdr": {
+        "properties": {
+          "stat": "cooldown_reduction",
+          "addend": -0.2
+        },
+        "display": {
+          "name": ":fast_forward: Weakened CDR",
+          "color": "#6DACB5",
+          "description": "-20% Cooldown Reduction",
           "descriptionFormatted": "%d%% Cooldown Reduction",
           "icon": "the_vault:gui/modifiers/inert"
         }
@@ -2895,6 +2927,19 @@
           "icon": "the_vault:gui/modifiers/plentiful"
         }
       },
+      "the_vault:no_ores": {
+        "properties": {
+          "type": "ORE",
+          "chance": -100.0
+        },
+        "display": {
+          "name": ":plentiful: No Ores",
+          "color": "#FF85FF",
+          "description": "-100% Vault Ores",
+          "descriptionFormatted": "+%d%% Vault Ores",
+          "icon": "the_vault:gui/modifiers/chaotic"
+        }
+      },
       "the_vault:soul_ores": {
         "properties": {
           "type": "ORE",
@@ -3028,6 +3073,22 @@
           "description": "No Jump",
           "descriptionFormatted": "No Jump",
           "icon": "the_vault:gui/modifiers/jupiter_gravity"
+        }
+      }
+    },
+    "the_vault:modifier_type/camera": {
+      "the_vault:backwards": {
+        "properties": {
+          "behindPlayer": true,
+          "xRot": 0,
+          "yRot": 0
+        },
+        "display": {
+          "name": "Backwards",
+          "color": "#7738C9",
+          "description": "See behind you!",
+          "descriptionFormatted": "See behind you!",
+          "icon": "the_vault:gui/modifiers/backwards"
         }
       }
     },
@@ -3750,6 +3811,25 @@
           "icon": "the_vault:gui/modifiers/bingo"
         }
       },
+      "the_vault:trial_chambers": {
+        "properties": {
+          "children": {
+            "the_vault:noloot_destroy": 1,
+            "the_vault:extra_reinforced": 1,
+            "the_vault:noxp": 1,
+            "the_vault:beginners_grace": 1,
+            "the_vault:no_ores": 1,
+            "the_vault:no_reward": 1,
+            "the_vault:no_souls": 1
+          }
+        },
+        "display": {
+          "name": "Trial Chambers",
+          "color": "#bbf333",
+          "description": "The Trial Chambers does not contain loot, you get no experience, and you take no durability damage!",
+          "icon": "the_vault:gui/modifiers/chaotic"
+        }
+      },
       "the_vault:rock_solid": {
         "properties": {
           "children": {
@@ -3929,6 +4009,19 @@
         }
       },
       "the_vault:curse": {
+        "properties": {
+          "children": {
+            "the_vault:companion_shortened": 1
+          }
+        },
+        "display": {
+          "name": "Cursed!",
+          "color": "#ad2b2b",
+          "description": "This Vault is Cursed, causing it to have less time",
+          "icon": "the_vault:gui/modifiers/curse_voidpools"
+        }
+      },
+      "the_vault:legacy_curses": {
         "properties": {
           "children": {
             "the_vault:collapsing": 1,
@@ -4906,6 +4999,30 @@
           "description": "No Mobs spawn in this vault",
           "descriptionFormatted": "No Mobs spawn in this vault",
           "icon": "the_vault:gui/modifiers/personalspace"
+        }
+      }
+    },
+    "the_vault:modifier_type/no_loot": {
+      "the_vault:noloot_destroy": {
+        "properties": {
+          "destroyChests": false
+        },
+        "display": {
+          "name": "No Loot",
+          "color": "#a996ca",
+          "description": "Chests and Champions have no loot in this vault.",
+          "icon": "the_vault:gui/modifiers/no_loot"
+        }
+      }
+    },
+    "the_vault:modifier_type/no_crate": {
+      "the_vault:no_reward": {
+        "properties": {},
+        "display": {
+          "name": "No Crate",
+          "color": "#a996ca",
+          "description": "You will not receive a crate on completion.",
+          "icon": "the_vault:gui/modifiers/no_crate"
         }
       }
     }

@@ -1,7 +1,7 @@
 {
   "values": {
     "starter": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "vhapi:deck/starter#inventory",
       "name": "Starter",
       "essence": {
         "min": 0,
@@ -19,7 +19,7 @@
       ]
     },
     "large": {
-      "model": "the_vault:deck/large#inventory",
+      "model": "vhapi:deck/large#inventory",
       "name": "Large Deck",
       "essence": {
         "min": 1,
@@ -37,7 +37,7 @@
       ]
     },
     "double": {
-      "model": "the_vault:deck/double#inventory",
+      "model": "vhapi:deck/double#inventory",
       "name": "Double Deck",
       "essence": {
         "min": 1,
@@ -55,7 +55,7 @@
       ]
     },
     "merchant": {
-      "model": "the_vault:deck/merchant#inventory",
+      "model": "vhapi:deck/merchant#inventory",
       "name": "Merchant's Deck",
       "essence": {
         "min": 2,
@@ -75,7 +75,7 @@
       ]
     },
     "expanded": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "vhapi:deck/expanded#inventory",
       "name": "Expanded Deck",
       "essence": {
         "min": 2,
@@ -94,7 +94,7 @@
       ]
     },
     "gdungeon": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "vhapi:deck/edge#inventory",
       "name": "The Edge Deck",
       "essence": {
         "min": 3,
@@ -113,7 +113,7 @@
       ]
     },
     "ldungeon": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "vhapi:deck/shroom#inventory",
       "name": "The Shroom Deck",
       "essence": {
         "min": 3,
@@ -132,7 +132,7 @@
       ]
     },
     "odungeon": {
-      "model": "the_vault:deck/starter_deck#inventory",
+      "model": "vhapi:deck/anvil#inventory",
       "name": "The Anvil Deck",
       "essence": {
         "min": 3,
@@ -206,7 +206,7 @@
       ]
     },
     "champion": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "vhapi:deck/champion#inventory",
       "name": "The Champion Deck",
       "essence": {
         "min": 2,
@@ -246,7 +246,7 @@
       ]
     },
     "runic": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "vhapi:deck/runic#inventory",
       "name": "The Runic Deck",
       "essence": {
         "min": 3,
@@ -267,7 +267,7 @@
       ]
     },
     "bishop": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "vhapi:deck/bishop#inventory",
       "name": "The Bishop Deck",
       "essence": {
         "min": 3,
@@ -287,7 +287,7 @@
       ]
     },
     "belt": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "vhapi:deck/belt#inventory",
       "name": "The Belt Deck",
       "essence": {
         "min": 3,
@@ -308,7 +308,7 @@
       ]
     },
     "scam": {
-      "model": "the_vault:deck/champion#inventory",
+      "model": "vhapi:deck/mystery#inventory",
       "name": "The ?",
       "essence": {
         "min": 5,
@@ -323,6 +323,94 @@
             "XXXOXXXXX",
             "XXXXXXXXX",
             "XXXXXXXXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "goblin": {
+      "model": "vhapi:deck/goblin#inventory",
+      "name": "The Goblin Deck",
+      "essence": {
+        "min": 6,
+        "max": 6
+      },
+      "layout": [
+        {
+          "value": [
+            "OOXOOOXOO",
+            "OOOOOOOOO",
+            "XOOOOOOOX",
+            "XOOOOOOOX",
+            "XXOOOOOXX",
+            "XXXOOOXXX"
+
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "dragon": {
+      "model": "vhapi:deck/dragon#inventory",
+      "name": "The Dragon Deck",
+      "essence": {
+        "min": 8,
+        "max": 8
+      },
+      "layout": [
+        {
+          "value": [
+            "OOXOOOXOO",
+            "OOOOOOOOO",
+            "XOOOOOOOX",
+            "XOOOOOOOX",
+            "XXOOOOOXX",
+            "XXXOOOXXX"
+
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "Millennium": {
+      "model": "vhapi:deck/millennium#inventory",
+      "name": "The Millennium Deck",
+      "essence": {
+        "min": 6,
+        "max": 6
+      },
+      "layout": [
+        {
+          "value": [
+            "OOXOOOXOO",
+            "OOOOOOOOO",
+            "XOOOOOOOX",
+            "XOOOOOOOX",
+            "XXOOOOOXX",
+            "XXXOOOXXX"
+
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "Vaulthalla": {
+      "model": "vhapi:deck/vaulthalla#inventory",
+      "name": "The Vaulthalla Deck",
+      "essence": {
+        "min": 6,
+        "max": 6
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOXXXOOO",
+            "OOOXXXOOO",
+            "OOOXXXOOO",
+            "OOOOXOOOO",
+            "XOOOOOOOX",
+            "XXOOOOOXX"
+
           ],
           "weight": 1.0
         }

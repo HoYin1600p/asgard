@@ -92,6 +92,14 @@
       "color": 3138042,
       "weight": 10
     },
+    "Heart Frag Change": {
+      "tags": [
+        "focusHitHearts"
+      ],
+      "display": "Heart Frag Chance",
+      "color": 2293541,
+      "weight": 10
+    },
     "Poison Cloud": {
       "tags": [
         "focusPoisonCloud"
@@ -224,7 +232,7 @@
       "tags": [
         "focusMagnetRange"
       ],
-      "display": "Range",
+      "display": "Pickup Range",
       "color": 16364415,
       "weight": 10
     },
@@ -232,7 +240,7 @@
       "tags": [
         "focusMagnetVelocity"
       ],
-      "display": "Velocity",
+      "display": "Pull Speed",
       "color": 14608287,
       "weight": 10
     },

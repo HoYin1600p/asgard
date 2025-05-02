@@ -18,7 +18,7 @@
     },
     {
       "item": "the_vault:crystal_seal_executioner",
-      "value": "Use in the Crystal Workbench to set the objective to 'Hunt The Guardians'"
+      "value": "Use in the Crystal Workbench to set the objective to 'Hunt The Runes'"
     },
     {
       "item": "the_vault:crystal_seal_sage",
@@ -27,6 +27,10 @@
     {
       "item": "the_vault:crystal_seal_prophet",
       "value": "Use in the Crystal Workbench to set the objective to 'Bingo'"
+    },
+    {
+      "item": "the_vault:crystal_seal_offering_boss",
+      "value": "Use in the Crystal Workbench to set the objective to 'Offering Boss'"
     },
     {
       "item": "the_vault:capstone_dungeon_hunter",
@@ -49,6 +53,10 @@
       "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding this god's favour"
     },
     {
+      "item": "the_vault:capstone_pylon_hunter",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Pylon Hunter' modifier"
+    },
+    {
       "item": "the_vault:crystal_seal_cake",
       "value": "Is it cake?\nPut this Vault Rock on a Vault Altar to create a Cake Crystal!"
     },
@@ -59,6 +67,10 @@
     {
       "item": "the_vault:crystal_seal_ordinator_run",
       "value": "Put this Vault Rock on a Vault Altar to create your Divine Paradox Crystal"
+    },
+    {
+      "item": "the_vault:crystal_seal_trial_chamber",
+      "value": "Put this Vault Rock on a Vault Altar to create your Trial Chamber Crystal"
     },
     {
       "item": "the_vault:paradoxical_gem",
@@ -230,7 +242,7 @@
     },
     {
       "item": "the_vault:gem_wutodie",
-      "value": "An uncommon vault gem previously known as Wutodie"
+      "value": "An uncommon legacy vault gem previously known as Wutodie"
     },
     {
       "item": "the_vault:gem_iskallium",
@@ -790,7 +802,7 @@
     },
     {
       "item": "the_vault:perfect_wutodie",
-      "value": "Uncommon perfect vault gem previously known as perfect Wutodie"
+      "value": "Uncommon perfect legacy vault gem previously known as perfect Wutodie"
     },
     {
       "item": "the_vault:extraordinary_alexandrite",
@@ -818,7 +830,7 @@
     },
     {
       "item": "the_vault:extraordinary_wutodie",
-      "value": "Uncommon extraordinary vault gem previously known as extraordinary Wutodie"
+      "value": "Uncommon extraordinary legacy vault gem previously known as extraordinary Wutodie"
     },
     {
       "item": "the_vault:vault_dust",
@@ -1054,7 +1066,7 @@
     },
     {
       "item": "the_vault:vault_jewel_cutting_station",
-      "value": "Allows Jewels to be cut to decrease their sizes"
+      "value": "Allows Jewels to be cut to decrease their sizes [Legacy]"
     },
     {
       "item": "vaultintegrations:altar_conduit",
@@ -1072,6 +1084,11 @@
       "item": "vaultintegrations:teleport_enhancement",
       "value": "Teleports items transported by the Altar Conduit"
     },
+    {
+      "item": "the_vault:regret_orb",
+      "value": "Regret points changed in Update 17, unlearning a skill now requires Vault Gold."
+    },
+
     {
       "item": "woldsvaults:crystal_seal_unhinged",
       "value": "Use in a Crystal Workbench to set the objective to 'Unhinged Scavenger Hunt'."

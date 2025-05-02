@@ -1,149 +1,170 @@
 {
-  "LOOT": [
+  "DROPS": [
     {
       "value": {
-        "ITEM": "minecraft:amethyst_block",
-        "NBT": "{}"
+        "id": "minecraft:amethyst_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:nether_gold_ore",
-        "NBT": "{}"
+        "id": "minecraft:nether_gold_ore",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:nether_quartz_ore",
-        "NBT": "{}"
+        "id": "minecraft:nether_quartz_ore",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:coal_block",
-        "NBT": "{}"
+        "id": "minecraft:coal_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:crimson_stem",
-        "NBT": "{}"
+        "id": "minecraft:crimson_stem",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:warped_stem",
-        "NBT": "{}"
+        "id": "minecraft:warped_stem",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:sponge",
-        "NBT": "{}"
+        "id": "minecraft:sponge",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:glass",
-        "NBT": "{}"
+        "id": "minecraft:glass",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:white_wool",
-        "NBT": "{}"
+        "id": "minecraft:white_wool",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:purpur_block",
-        "NBT": "{}"
+        "id": "minecraft:purpur_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:ice",
-        "NBT": "{}"
+        "id": "minecraft:ice",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:obsidian",
-        "NBT": "{}"
+        "id": "minecraft:obsidian",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:cobweb",
-        "NBT": "{}"
+        "id": "minecraft:cobweb",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:raw_copper_block",
-        "NBT": "{}"
+        "id": "minecraft:raw_copper_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:glowstone",
-        "NBT": "{}"
+        "id": "minecraft:glowstone",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:hay_block",
-        "NBT": "{}"
+        "id": "minecraft:hay_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:sea_lantern",
-        "NBT": "{}"
+        "id": "minecraft:sea_lantern",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:bone_block",
-        "NBT": "{}"
+        "id": "minecraft:bone_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:dead_tube_coral_block",
-        "NBT": "{}"
+        "id": "minecraft:dead_tube_coral_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:end_stone",
-        "NBT": "{}"
+        "id": "minecraft:magma_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:magma_block",
-        "NBT": "{}"
+        "id": "minecraft:chorus_flower",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     }

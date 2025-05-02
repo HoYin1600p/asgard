@@ -2620,6 +2620,21 @@
           "value": {
             "items": [
               {
+                "item": "minecraft:shulker_shell"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
                 "item": "minecraft:rabbit_foot"
               }
             ],
@@ -4725,6 +4740,21 @@
             "items": [
               {
                 "item": "minecraft:ender_pearl"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:shulker_shell"
               }
             ],
             "amount": {
@@ -7303,6 +7333,21 @@
             "items": [
               {
                 "item": "minecraft:ender_pearl"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:shulker_shell"
               }
             ],
             "amount": {
@@ -9956,6 +10001,21 @@
             "items": [
               {
                 "item": "minecraft:ender_pearl"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 4
+            },
+            "scale": 1.0
+          },
+          "weight": 4
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:shulker_shell"
               }
             ],
             "amount": {

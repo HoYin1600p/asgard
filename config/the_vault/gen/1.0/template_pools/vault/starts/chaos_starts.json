@@ -436,7 +436,7 @@
     "value": {
       "template": "the_vault:vault/starts/start1",
       "palettes": [
-		"the_vault:universal_idonis"
+		"the_vault:universal_ancient_idona"
       ]
     }
   },
@@ -445,7 +445,7 @@
     "value": {
       "template": "the_vault:vault/starts/start1",
       "palettes": [
-		"the_vault:universal_altenous"
+		"the_vault:universal_ancient_tenos"
       ]
     }
   },
@@ -454,7 +454,7 @@
     "value": {
       "template": "the_vault:vault/starts/start1",
       "palettes": [
-		"the_vault:universal_veldallum"
+		"the_vault:universal_ancient_velara"
       ]
     }
   },
@@ -463,7 +463,25 @@
     "value": {
       "template": "the_vault:vault/starts/start1",
       "palettes": [
-		"the_vault:universal_wendtoh"
+		"the_vault:universal_ancient_wendarr"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:universal_aberrant_garden"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/starts/start1",
+      "palettes": [
+		"the_vault:universal_autumn_cherry_grove"
       ]
     }
   }
