@@ -130,6 +130,9 @@ craftingTable.remove(<item:the_vault:mod_box>);
 craftingTable.remove(<item:entangled:block>);
 craftingTable.remove(<item:entangled:item>);
 
+//Coin Pouch
+craftingTable.remove(<item:vaultcoinpouch:coin_pouch>);
+
 //Wolds
 JEI.hideIngredient(<item:woldsvaults:enigma_egg>);
 JEI.hideIngredient(<item:woldsvaults:capstone_vendoors>);
@@ -217,9 +220,6 @@ JEI.addDescription(<item:morevaulttables:card_pack_opener_block>, ["This table w
 JEI.addDescription(<item:morevaulttables:jewel_sack_opener_block>, ["This table will allow you to open mass amounts of jewel pouches within its inventory"]);
 JEI.addDescription(<item:morevaulttables:doll_dismantling_block>, ["The Doll Juicer will intake a doll and spit out the items in a storage container below.  Requires RF to operate."]);
 
-JEI.addDescription(<item:vaultjp:jewel_purpuser>, ["The Jewel Purposer is a one in all jewel storage and tool building block. This block will help you build your tool and can serve as a vault recycler to scrap trash jewels."]);
-
-
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //Variable Definitions
 
@@ -234,18 +234,6 @@ var vault_gem = [
     "tubium"
 ];
 
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// Vault Coin Pouch
-
-craftingTable.remove(<item:vaultcoinpouch:coin_pouch>);
-
-//craftingTable.addShaped("coin_pouch", <item:vaultcoinpouch:coin_pouch>, [
-        //[<item:woldsvaults:chromatic_gold_nugget>, <item:minecraft:string>, <item:woldsvaults:chromatic_gold_nugget>],
-        //[<item:minecraft:yellow_wool>, <item:minecraft:ender_pearl>, <item:minecraft:yellow_wool>],
-        //[<item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>]
-    //]);
-
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 //Entangled
 
@@ -634,27 +622,3 @@ craftingTable.addShaped("golem_apple", <item:the_vault:golem_apple>, [
     [<item:the_vault:perfect_painite>, <item:the_vault:vault_apple>, <item:the_vault:perfect_painite>],
     [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
 ]);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
