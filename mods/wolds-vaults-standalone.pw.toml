@@ -1,13 +1,7 @@
 name = "Wold's Vaults Standalone"
-filename = "woldsvaultsstandalone-0.15.12.jar"
-side = "both"
+filename = "millennium-woldsvaultsstandalone-0.18.0.jar"
 
 [download]
+url = "https://github.com/xJrowezx/WoldsVaultsStandalone/releases/download/v.0.18.0/millennium-woldsvaultsstandalone-0.18.0.jar"
 hash-format = "sha256"
-hash = "fec24b16d536bd6b6e18ad06b009bc984dea602c6806302fbdbff5dc71be5519"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 6319118
-project-id = 1132404
+hash = "d0538b485ae602dc71a22200b24524cb6d39931f877db7b3e30411a5d99fc8ec"
