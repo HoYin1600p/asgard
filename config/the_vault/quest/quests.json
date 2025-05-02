@@ -3696,47 +3696,6 @@
     },
     {
       "type": "collection",
-      "id": "jewel_purposer",
-      "name": "Jewel Purposer",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "The Jewel Purposer is a new vault workstation that has 2 purposes.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\n1. Store your jewels.\n\n2. Apply those jewels to your tool based on weights that you choose on the left side of the UI.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nNote",
-            "color": "red"
-          },
-          {
-            "text": ": The Jewel Purposer will keep its inventory when broken.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nCraft A Jewel Purposer",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/purposer",
-      "targetId": "vaultjp:jewel_purpuser",
-      "targetProgress": 1.0,
-      "unlockedBy": "reach_level_20",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:vault_gold"
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
       "id": "unique_codex",
       "name": "Unique Gear",
       "descriptionData": {
