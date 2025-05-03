@@ -291,7 +291,7 @@
             "icon": "the_vault:gui/modifiers/vexation"
           }
         },
-        "the_vault:ghost_city": {
+      "the_vault:ghost_city": {
           "properties": {
             "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"all_ghosts\"}",
             "attemptsPerChunk": 2,
@@ -305,7 +305,7 @@
             "icon": "the_vault:gui/modifiers/vexation"
           }
         },
-        "the_vault:ghost_town": {
+      "the_vault:ghost_town": {
           "properties": {
             "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"all_ghosts\"}",
             "attemptsPerChunk": 1,
@@ -319,21 +319,6 @@
             "icon": "the_vault:gui/modifiers/vexation"
           }
         },
-      "the_vault:bovine": {
-          "properties": {
-            "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"treasure_goblin\"}",
-            "attemptsPerChunk": 2,
-            "requireConditions": false
-          },
-          "display": {
-            "name": ":japanese_goblin: Bovine",
-            "color": "#237da1",
-            "description": "+2 Randomly spawning Treasure Goblins.",
-            "descriptionFormatted": "+2 Randomly Spawning Treasure Goblins.",
-            "icon": "the_vault:gui/modifiers/vexation"
-          }
-      },
-
       "the_vault:coin_pile": {
         "properties": {
           "output": "the_vault:placeholder[type=coin_stacks]",
@@ -3586,6 +3571,20 @@
         }
       }
     },
+    "the_vault:modifier_type/chance_power_crystal": {
+      "the_vault:power": {
+        "properties": {
+          "chance": 0.25
+        },
+        "display": {
+          "name": "Power",
+          "color": "#FC00E3",
+          "description": "+25% Power Crystals",
+          "descriptionFormatted": "+%d%% Power Crystals",
+          "icon": "the_vault:gui/modifiers/power"
+        }
+      }
+    },
     "the_vault:modifier_type/grouped": {
       "the_vault:omega_bonus": {
         "properties": {
@@ -4181,6 +4180,24 @@
           "icon": "the_vault:gui/modifiers/difficult"
         }
       },
+      "the_vault:bovine": {
+        "properties": {
+          "children": {
+            "the_vault:soul_surge": 3,
+            "the_vault:chunky_mobs2": 1,
+            "the_vault:critical_mobs": 1,
+            "the_vault:ruthless_mobs": 2,
+            "the_vault:brutal_faster_mobs": 1,
+            "the_vault:wild": 6
+          }
+        },
+        "display": {
+          "name": ":cow2: Bovine",
+          "color": "#d89e01",
+          "description": "The Secret Cow Level",
+          "icon": "the_vault:gui/modifiers/bovine"
+        }
+      },
       "the_vault:cake_layer": {
         "properties": {
           "children": {
@@ -4260,100 +4277,71 @@
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_one": {
+      "the_vault:wooden_event": {
         "properties": {
           "children": {
-            "the_vault:cake_layer_itemrarity": 5,
-            "the_vault:cake_layer_soulshards": 5,
-            "the_vault:cake_coin_cascade": 5,
-            "the_vault:cake_ores": 5,
-            "the_vault:cake_cascade_gilded": 5,
-            "the_vault:cake_cascade_ornate": 5,
-            "the_vault:cake_cascade_living": 5,
-            "the_vault:cake_cascade_wooden": 5,
-            "the_vault:prismatic": 2,
-            "the_vault:wooden_chest": 2
+            "the_vault:cake_layer_itemrarity": 15,
+            "the_vault:wooden_chest": 5
 
           }
         },
         "display": {
-          "name": ":divine: Event Group One",
+          "name": "Wooden Event",
           "color": "#0353D7",
-          "description": "Increased Wooden Chests and Prismatic",
+          "description": "Increased Wooden Chests",
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_two": {
+      "the_vault:ornate_event": {
         "properties": {
           "children": {
-            "the_vault:cake_layer_itemrarity": 5,
-            "the_vault:cake_layer_soulshards": 5,
-            "the_vault:cake_coin_cascade": 5,
-            "the_vault:cake_ores": 5,
-            "the_vault:cake_cascade_gilded": 5,
-            "the_vault:cake_cascade_ornate": 5,
-            "the_vault:cake_cascade_living": 5,
-            "the_vault:cake_cascade_wooden": 5,
-            "the_vault:pristine": 2,
-            "the_vault:ornate": 2,
-            "the_vault:ornate_cascade": 2
+            "the_vault:cake_layer_itemrarity": 15,
+            "the_vault:ornate": 5,
+            "the_vault:ornate_cascade": 5
 
           }
         },
         "display": {
-          "name": ":divine: Event Group Two",
+          "name": "Ornate Event",
           "color": "#0353D7",
-          "description": "Ornate cascade and item rarity",
+          "description": "Ornate Cascade and item rarity",
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_three": {
+      "the_vault:coin_event": {
         "properties": {
           "children": {
-            "the_vault:cake_layer_itemrarity": 5,
-            "the_vault:cake_layer_soulshards": 5,
-            "the_vault:cake_coin_cascade": 5,
-            "the_vault:cake_ores": 5,
-            "the_vault:cake_cascade_gilded": 5,
-            "the_vault:cake_cascade_ornate": 5,
-            "the_vault:cake_cascade_living": 5,
-            "the_vault:cake_cascade_wooden": 5,
-            "the_vault:soul_surge": 2,
+            "the_vault:cake_coin_cascade": 45,
+            "the_vault:cake_layer_soulshards": 25,
             "the_vault:bronze_nuke": 2
           }
         },
         "display": {
-          "name": ":divine: Event Group Three",
+          "name": "Coin & Soul Shard Event",
           "color": "#0353D7",
           "description": "Coin explosion and Soul Shards",
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_four": {
+      "the_vault:living_event": {
         "properties": {
           "children": {
-            "the_vault:cake_layer_itemrarity": 5,
-            "the_vault:cake_layer_soulshards": 5,
-            "the_vault:cake_coin_cascade": 5,
-            "the_vault:cake_ores": 5,
-            "the_vault:cake_cascade_gilded": 5,
-            "the_vault:cake_cascade_ornate": 5,
+            "the_vault:cake_layer_itemrarity": 35,
             "the_vault:cake_cascade_living": 5,
-            "the_vault:cake_cascade_wooden": 5,
-            "the_vault:living_cascade": 2,
-            "the_vault:living": 2,
+            "the_vault:living_cascade": 5,
+            "the_vault:living": 5,
             "the_vault:goblin_quantity": 1
 
           }
         },
         "display": {
-          "name": ":divine: Event Group Four",
+          "name": "Living Event",
           "color": "#0353D7",
           "description": "Living Cascade and item quantity",
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_five": {
+      "the_vault:xp_event": {
         "properties": {
           "children": {
             "the_vault:cake_layer_itemrarity": 10,
@@ -4369,7 +4357,7 @@
           }
         },
         "display": {
-          "name": ":divine: Event Group Five",
+          "name": "XP & Cascade Event",
           "color": "#0353D7",
           "description": "Double XP, and Extra cascade layers",
           "icon": "the_vault:gui/modifiers/tree"
