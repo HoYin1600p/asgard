@@ -17,11 +17,11 @@
         "display": {
           "TAB_LIST": {
             "text": "Lord ",
-            "color": "#e4fcff"
+            "color": "#FFFFFF"
           },
           "CHAT": {
             "text": "Lord ",
-            "color": "#e4fcff"
+            "color": "#FFFFFF"
           }
         },
         "cost": 1
@@ -78,19 +78,6 @@
         },
         "cost": 1
       },
-      "grand": {
-        "display": {
-          "TAB_LIST": {
-            "text": "Grand ",
-            "color": "#aaaaaa"
-          },
-          "CHAT": {
-            "text": "Grand ",
-            "color": "#aaaaaa"
-          }
-        },
-        "cost": 1
-      },
       "commander": {
         "display": {
           "TAB_LIST": {
@@ -100,32 +87,6 @@
           "CHAT": {
             "text": "Commander ",
             "color": "#aaaaaa"
-          }
-        },
-        "cost": 1
-      },
-      "mega": {
-        "display": {
-          "TAB_LIST": {
-            "text": "Mega ",
-            "color": "#aaaaaa"
-          },
-          "CHAT": {
-            "text": "Mega ",
-            "color": "#aaaaaa"
-          }
-        },
-        "cost": 1
-      },
-      "slayer": {
-        "display": {
-          "TAB_LIST": {
-            "text": "Slayer ",
-            "color": "#f04848"
-          },
-          "CHAT": {
-            "text": "Slayer ",
-            "color": "#f04848"
           }
         },
         "cost": 1
@@ -151,19 +112,6 @@
           },
           "CHAT": {
             "text": "Epic ",
-            "color": "#AAAAAA"
-          }
-        },
-        "cost": 1
-      },
-      "shady": {
-        "display": {
-          "TAB_LIST": {
-            "text": "Shady ",
-            "color": "#AAAAAA"
-          },
-          "CHAT": {
-            "text": "Shady ",
             "color": "#AAAAAA"
           }
         },
@@ -246,6 +194,279 @@
           }
         },
         "cost": 1
+      },
+      "hokage": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Hokage ",
+            "color": "#FF0000"
+          },
+          "CHAT": {
+            "text": "Hokage ",
+            "color": "#FF0000"
+          }
+        },
+        "cost": 1
+      },
+      "afk": {
+        "display": {
+          "TAB_LIST": {
+            "text": "AFK ",
+            "color": "#efc510"
+          },
+          "CHAT": {
+            "text": "AFK ",
+            "color": "#efc510"
+          }
+        },
+        "cost": 1
+      },
+      "poor": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Poor ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Poor ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "wealthy": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Wealthy ",
+            "color": "#FFD700"
+          },
+          "CHAT": {
+            "text": "Wealthy ",
+            "color": "#FFD700"
+          }
+        },
+        "cost": 1
+      },
+      "lovely": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Lovely ",
+            "color": "#f08b0f"
+          },
+          "CHAT": {
+            "text": "Lovely ",
+            "color": "#f08b0f"
+          }
+        },
+        "cost": 1
+      },
+      "engineer": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Engineer ",
+            "color": "#16a3e9"
+          },
+          "CHAT": {
+            "text": "Engineer ",
+            "color": "#16a3e9"
+          }
+        },
+        "cost": 1
+      },
+      "greedy": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Greedy ",
+            "color": "#dcdf11"
+          },
+          "CHAT": {
+            "text": "Greedy ",
+            "color": "#dcdf11"
+          }
+        },
+        "cost": 1
+      },
+      "generous": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Generous ",
+            "color": "#e8f400"
+          },
+          "CHAT": {
+            "text": "Generous ",
+            "color": "#e8f400"
+          }
+        },
+        "cost": 1
+      },
+      "fragile": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Fragile ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Fragile ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "lucky": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Lucky ",
+            "color": "#fcf74b"
+          },
+          "CHAT": {
+            "text": "Lucky ",
+            "color": "#fcf74b"
+          }
+        },
+        "cost": 1
+      },
+      "unlucky": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Unlucky ",
+            "color": "#917676"
+          },
+          "CHAT": {
+            "text": "Unlucky ",
+            "color": "#917676"
+          }
+        },
+        "cost": 1
+      },
+      "tired": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Tired ",
+            "color": "#35B9CA"
+          },
+          "CHAT": {
+            "text": "Tired ",
+            "color": "#35B9CA"
+          }
+        },
+        "cost": 1
+      },
+      "hungry": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Hungry ",
+            "color": "#f1ce0e"
+          },
+          "CHAT": {
+            "text": "Hungry ",
+            "color": "#f1ce0e"
+          }
+        },
+        "cost": 1
+      },
+      "technician": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Technician ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Technician ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "cosmic_horror": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Cosmic Horror ",
+            "color": "#8B2FA3"
+          },
+          "CHAT": {
+            "text": "Cosmic Horror ",
+            "color": "#8B2FA3"
+          }
+        },
+        "cost": 1
+      },
+      "j\u014dnin": {
+        "display": {
+          "TAB_LIST": {
+            "text": "J\u014dnin ",
+            "color": "#1FAFF6"
+          },
+          "CHAT": {
+            "text": "J\u014dnin ",
+            "color": "#1FAFF6"
+          }
+        },
+        "cost": 1
+      },
+      "sensei": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Sensei ",
+            "color": "#CA33FF"
+          },
+          "CHAT": {
+            "text": "Sensei ",
+            "color": "#CA33FF"
+          }
+        },
+        "cost": 1
+      },
+      "ch\u016bnin": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Ch\u016bnin ",
+            "color": "#FED70C"
+          },
+          "CHAT": {
+            "text": "Ch\u016bnin ",
+            "color": "#FED70C"
+          }
+        },
+        "cost": 1
+      },
+      "genin": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Genin ",
+            "color": "#FFFFFF"
+          },
+          "CHAT": {
+            "text": "Genin ",
+            "color": "#FFFFFF"
+          }
+        },
+        "cost": 1
+      },
+      "baroness": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Baroness ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Baroness ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "meowgicial": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Meowgicial ",
+            "color": "#cd65fb"
+          },
+          "CHAT": {
+            "text": "Meowgicial ",
+            "color": "#cd65fb"
+          }
+        },
+        "cost": 1
       }
     },
     "SUFFIX": {
@@ -277,12 +498,12 @@
       "the_great": {
         "display": {
           "TAB_LIST": {
-            "text": " the Great",
-            "color": "#AAAAAA"
+            "text": " The Great",
+            "color": "#FF0000"
           },
           "CHAT": {
-            "text": " the Great",
-            "color": "#AAAAAA"
+            "text": " The Great",
+            "color": "#FF0000"
           }
         },
         "cost": 1
@@ -360,32 +581,6 @@
           },
           "CHAT": {
             "text": " the Wise",
-            "color": "#AAAAAA"
-          }
-        },
-        "cost": 1
-      },
-      "the_gray": {
-        "display": {
-          "TAB_LIST": {
-            "text": " the Gray",
-            "color": "#AAAAAA"
-          },
-          "CHAT": {
-            "text": " the Gray",
-            "color": "#AAAAAA"
-          }
-        },
-        "cost": 1
-      },
-      "the_terrible": {
-        "display": {
-          "TAB_LIST": {
-            "text": " the Terrible",
-            "color": "#AAAAAA"
-          },
-          "CHAT": {
-            "text": " the Terrible",
             "color": "#AAAAAA"
           }
         },
@@ -530,6 +725,331 @@
           "CHAT": {
             "text": " of the Ancients",
             "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_sixth": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Sixth",
+            "color": "#FF0000"
+          },
+          "CHAT": {
+            "text": " the Sixth",
+            "color": "#FF0000"
+          }
+        },
+        "cost": 1
+      },
+      "the_loot_goblin": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Loot Goblin",
+            "color": "#FFEA00"
+          },
+          "CHAT": {
+            "text": " the Loot Goblin",
+            "color": "#FFEA00"
+          }
+        },
+        "cost": 1
+      },
+      "is_afk": {
+        "display": {
+          "TAB_LIST": {
+            "text": " is AFK",
+            "color": "#efc510"
+          },
+          "CHAT": {
+            "text": " is AFK",
+            "color": "#efc510"
+          }
+        },
+        "cost": 1
+      },
+      "the_wealthy": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Wealthy",
+            "color": "#FFD700"
+          },
+          "CHAT": {
+            "text": " the Wealthy",
+            "color": "#FFD700"
+          }
+        },
+        "cost": 1
+      },
+      "the_scavenger": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Scavenger",
+            "color": "#838282"
+          },
+          "CHAT": {
+            "text": " the Scavenger",
+            "color": "#838282"
+          }
+        },
+        "cost": 1
+      },
+      "the_tech_genius": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Tech Genius",
+            "color": "#16a3e9"
+          },
+          "CHAT": {
+            "text": " the Tech Genius",
+            "color": "#16a3e9"
+          }
+        },
+        "cost": 1
+      },
+      "the_glass_cannon": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Glass Cannon",
+            "color": "#6cadd3"
+          },
+          "CHAT": {
+            "text": " the Glass Cannon",
+            "color": "#6cadd3"
+          }
+        },
+        "cost": 1
+      },
+      "the_gigasucker": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Gigasucker",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Gigasucker",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_builder": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Builder",
+            "color": "#a54a31"
+          },
+          "CHAT": {
+            "text": " the Builder",
+            "color": "#a54a31"
+          }
+        },
+        "cost": 1
+      },
+      "the_unfortunate": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Unfortunate",
+            "color": "#917676"
+          },
+          "CHAT": {
+            "text": " the Unfortunate",
+            "color": "#917676"
+          }
+        },
+        "cost": 1
+      },
+      "the_sleep_deprived": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Sleep Deprived",
+            "color": "#35B9CA"
+          },
+          "CHAT": {
+            "text": " the Sleep Deprived",
+            "color": "#35B9CA"
+          }
+        },
+        "cost": 1
+      },
+      "the_destroyer": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Destroyer",
+            "color": "#42060b"
+          },
+          "CHAT": {
+            "text": " the Destroyer",
+            "color": "#42060b"
+          }
+        },
+        "cost": 1
+      },
+      "the_legendary": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Legendary",
+            "color": "#f5bb0a"
+          },
+          "CHAT": {
+            "text": " the Legendary",
+            "color": "#f5bb0a"
+          }
+        },
+        "cost": 1
+      },
+      "the_void_incarnate": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Void Incarnate",
+            "color": "#8B2FA3"
+          },
+          "CHAT": {
+            "text": " the Void Incarnate",
+            "color": "#8B2FA3"
+          }
+        },
+        "cost": 1
+      },
+      "after_dark": {
+        "display": {
+          "TAB_LIST": {
+            "text": " after Dark",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " after Dark",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_cake_monster": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Cake Monster",
+            "color": "#FFB6C1"
+          },
+          "CHAT": {
+            "text": " the Cake Monster",
+            "color": "#FFB6C1"
+          }
+        },
+        "cost": 1
+      },
+      "the_ledditor": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Ledditor",
+            "color": "#CC5500"
+          },
+          "CHAT": {
+            "text": " the Ledditor",
+            "color": "#CC5500"
+          }
+        },
+        "cost": 1
+      },
+      "the_trinketer": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Trinketer",
+            "color": "#FFEA00"
+          },
+          "CHAT": {
+            "text": " the Trinketer",
+            "color": "#FFEA00"
+          }
+        },
+        "cost": 1
+      },
+      "the_dylan": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Dylan",
+            "color": "#AAFF00"
+          },
+          "CHAT": {
+            "text": " the Dylan",
+            "color": "#AAFF00"
+          }
+        },
+        "cost": 1
+      },
+      "the_dungeon_master": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Dungeon Master",
+            "color": "#5D3FD3"
+          },
+          "CHAT": {
+            "text": " the Dungeon Master",
+            "color": "#5D3FD3"
+          }
+        },
+        "cost": 1
+      },
+      "needs_coffee": {
+        "display": {
+          "TAB_LIST": {
+            "text": " needs Coffee",
+            "color": "#895050"
+          },
+          "CHAT": {
+            "text": " needs Coffee",
+            "color": "#895050"
+          }
+        },
+        "cost": 1
+      },
+      "the_tiny_demon": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Tiny Demon",
+            "color": "#FE810C"
+          },
+          "CHAT": {
+            "text": " the Tiny Demon",
+            "color": "#FE810C"
+          }
+        },
+        "cost": 1
+      },
+      "(9000ms)": {
+        "display": {
+          "TAB_LIST": {
+            "text": " (9000ms)",
+            "color": "#FF0000"
+          },
+          "CHAT": {
+            "text": " (9000ms)",
+            "color": "#FF0000"
+          }
+        },
+        "cost": 1
+      },
+      "is_streaming": {
+        "display": {
+          "TAB_LIST": {
+            "text": " is Streaming",
+            "color": "#6441a5"
+          },
+          "CHAT": {
+            "text": " is Streaming",
+            "color": "#6441a5"
+          }
+        },
+        "cost": 1
+      },
+      "the_broken": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Broken",
+            "color": "#54fbfb"
+          },
+          "CHAT": {
+            "text": " the Broken",
+            "color": "#54fbfb"
           }
         },
         "cost": 1

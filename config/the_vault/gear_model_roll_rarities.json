@@ -174,7 +174,6 @@
       "the_vault:gear/sword/iron_sai",
       "the_vault:gear/sword/flamberge",
       "the_vault:gear/sword/iron_dagger",
-      "the_vault:gear/sword/ancient_greatslab",
       "the_vault:gear/sword/uchigatana"
 
     ],
@@ -218,7 +217,6 @@
       "the_vault:gear/sword/gloom_katana",
       "the_vault:gear/sword/gloom_knife",
       "the_vault:gear/sword/icekatana",
-      "the_vault:gear/sword/crystal_frostblade",
       "the_vault:gear/sword/crimson_cleaver",
       "the_vault:gear/sword/red_queen",
       "the_vault:gear/sword/valhakyra"
@@ -393,6 +391,7 @@
       "the_vault:gear/shield/the_plank",
       "the_vault:gear/shield/cardboard",
       "the_vault:gear/shield/trash_lid",
+      "the_vault:gear/shield/small_scrap_shield",
 
       "the_vault:gear/shield/plank_shield",
       "the_vault:gear/shield/traveler_shield"
@@ -437,7 +436,6 @@
       "the_vault:gear/shield/winter_guard",
       "the_vault:gear/shield/banner",
 
-      "the_vault:gear/shield/orichalcum_shield",
       "the_vault:gear/shield/silver_shield"
 
     ],
@@ -449,8 +447,7 @@
       "the_vault:gear/shield/guardian_angel",
       "the_vault:gear/shield/crystal",
 
-      "the_vault:gear/shield/bumbo_cutout",
-      "the_vault:gear/shield/heat_shield"
+      "the_vault:gear/shield/bumbo_cutout"
     ],
     "UNIQUE": [
       "the_vault:gear/shield/bell",
@@ -467,7 +464,9 @@
       "the_vault:gear/shield/glass_flower",
       "the_vault:gear/shield/gladiator_buckler",
       "the_vault:gear/shield/dylans_protector",
-      "the_vault:gear/shield/relicshield"
+      "the_vault:gear/shield/relicshield",
+      "the_vault:gear/shield/orichalcum_shield",
+      "the_vault:gear/shield/heat_shield"
     ]
   },
   "WAND_MODEL_ROLLS": {
@@ -476,7 +475,7 @@
       "the_vault:gear/wand/mage",
       "the_vault:gear/wand/twig",
       "the_vault:gear/wand/flower",
-      "the_vault:gear/wand/chromatic_hook",
+      "the_vault:gear/wand/chromatic_crook"
     ],
     "COMMON": [
       "the_vault:gear/wand/archmage",
@@ -540,20 +539,18 @@
       "the_vault:gear/focus/grimoire",
       "the_vault:gear/focus/arcanecodex",
       "the_vault:gear/focus/mysticallexicon",
-      "the_vault:gear/focus/raw_print",
+      "the_vault:gear/focus/paw_print",
       "the_vault:gear/focus/rippedtome"
     ],
     "COMMON": [
-      "the_vault:gear/focus/blades_of_war",
-      "the_vault:gear/focus/crimson_codex",
-      "the_vault:gear/focus/crimson_grimoire",
-      "the_vault:gear/focus/majestica"
+
     ],
     "RARE": [
       "the_vault:gear/focus/fire_scroll",
       "the_vault:gear/focus/water_scroll",
       "the_vault:gear/focus/air_scroll",
       "the_vault:gear/focus/earth_scroll",
+      "the_vault:gear/focus/aura_scroll",
       "the_vault:gear/focus/inferno_orb",
       "the_vault:gear/focus/eternal_flame",
       "the_vault:gear/focus/runic_tome",
