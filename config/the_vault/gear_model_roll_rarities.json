@@ -169,6 +169,10 @@
       "the_vault:gear/sword/sword_1",
       "the_vault:gear/sword/sword_3",
       "the_vault:gear/sword/sword_2",
+      "the_vault:gear/sword/sword_4",
+      "the_vault:gear/sword/sword_5",
+      "the_vault:gear/sword/sword_6",
+      "the_vault:gear/sword/sword_7",
       "the_vault:gear/sword/scrapsword1",
       "the_vault:gear/sword/scrapsword2",
       "the_vault:gear/sword/iron_sai",
@@ -193,8 +197,6 @@
       "the_vault:gear/sword/"
     ],
     "RARE": [
-      "the_vault:gear/sword/sword_4",
-      "the_vault:gear/sword/sword_5",
       "the_vault:gear/sword/plate_piercer",
       "the_vault:gear/sword/swaxe",
       "the_vault:gear/sword/winged_blade",
@@ -206,7 +208,6 @@
       "the_vault:gear/sword/dragonsabre"
     ],
     "EPIC": [
-      "the_vault:gear/sword/sword_6",
       "the_vault:gear/sword/crystallised_blade",
       "the_vault:gear/sword/double_blade",
       "the_vault:gear/sword/moonshine",
@@ -222,7 +223,6 @@
       "the_vault:gear/sword/valhakyra"
     ],
     "OMEGA": [
-      "the_vault:gear/sword/sword_7",
       "the_vault:gear/sword/douwswords_swousky",
       "the_vault:gear/sword/kindled_blade",
       "the_vault:gear/sword/cutlass",
@@ -460,7 +460,6 @@
       "the_vault:gear/shield/shieldabrella",
 
       "the_vault:gear/shield/slab",
-      "the_vault:gear/shield/cardboard",
       "the_vault:gear/shield/glass_flower",
       "the_vault:gear/shield/gladiator_buckler",
       "the_vault:gear/shield/dylans_protector",
@@ -475,44 +474,46 @@
       "the_vault:gear/wand/mage",
       "the_vault:gear/wand/twig",
       "the_vault:gear/wand/flower",
-      "the_vault:gear/wand/chromatic_crook"
+      "the_vault:gear/wand/chromatic_crook",
+      "the_vault:gear/wand/archmage"
     ],
     "COMMON": [
-      "the_vault:gear/wand/archmage",
-      "the_vault:gear/wand/lightning",
-      "the_vault:gear/wand/frost",
       "the_vault:gear/wand/ender",
+      "the_vault:gear/wand/druid",
+
       "the_vault:gear/wand/nomad_stave",
       "the_vault:gear/wand/pharaoh_stave",
       "the_vault:gear/wand/celtic_stave",
       "the_vault:gear/wand/divine_stave",
-      "the_vault:gear/wand/goblin_stave"
+      "the_vault:gear/wand/necromancer_stave",
+      "the_vault:gear/wand/flower_stave",
+       "the_vault:gear/wand/frost_stave",
+      "the_vault:gear/wand/peeper_stave",
+      "the_vault:gear/wand/mongol_stave"
     ],
     "RARE": [
+      "the_vault:gear/wand/lightning",
+      "the_vault:gear/wand/frost",
       "the_vault:gear/wand/lunar",
-      "the_vault:gear/wand/druid",
-      "the_vault:gear/wand/ghostlights_curse"
-    ,
-      "the_vault:gear/wand/necromancer_stave",
-      "the_vault:gear/wand/frost_stave",
-      "the_vault:gear/wand/peeper_stave",
-      "the_vault:gear/wand/mongol_stave",
-      "the_vault:gear/wand/magic_wand",
-      "the_vault:gear/wand/ninja_staff"
-    ],
-    "EPIC": [
-
       "the_vault:gear/wand/gorgeous",
-      "the_vault:gear/wand/master",
-      "the_vault:gear/wand/moon_blight",
+      "the_vault:gear/wand/magic_wand",
+
+      "the_vault:gear/wand/goblin_stave",
       "the_vault:gear/wand/nymph_stave",
-      "the_vault:gear/wand/flower_stave",
       "the_vault:gear/wand/night_stave"
     ],
-    "OMEGA": [
-      "the_vault:gear/wand/elder_wand",
-      "the_vault:gear/wand/orb_of_chaos",
+    "EPIC": [
       "the_vault:gear/wand/starlight",
+      "the_vault:gear/wand/master",
+      "the_vault:gear/wand/ninja_staff",
+       "the_vault:gear/wand/ghostlights_curse"
+    ],
+    "OMEGA": [
+      "the_vault:gear/wand/moon_blight",
+      "the_vault:gear/wand/orb_of_chaos",
+      "the_vault:gear/wand/bookofshadows",
+
+      "the_vault:gear/wand/elder_wand",
       "the_vault:gear/wand/cat",
       "the_vault:gear/wand/mustard",
       "the_vault:gear/wand/leek"
@@ -524,7 +525,6 @@
       "the_vault:gear/wand/soul",
       "the_vault:gear/wand/infernos_reach",
       "the_vault:gear/wand/chaining_wand",
-      "the_vault:gear/wand/bookofshadows",
       "the_vault:gear/wand/luminous_wand",
       "the_vault:gear/wand/dylans_magic_stick",
       "the_vault:gear/wand/backscratcher",
@@ -543,34 +543,30 @@
       "the_vault:gear/focus/rippedtome"
     ],
     "COMMON": [
-
-    ],
-    "RARE": [
       "the_vault:gear/focus/fire_scroll",
       "the_vault:gear/focus/water_scroll",
       "the_vault:gear/focus/air_scroll",
       "the_vault:gear/focus/earth_scroll",
       "the_vault:gear/focus/aura_scroll",
-      "the_vault:gear/focus/inferno_orb",
-      "the_vault:gear/focus/eternal_flame",
-      "the_vault:gear/focus/runic_tome",
-      "the_vault:gear/focus/life_tree"
+      "the_vault:gear/focus/runic_tome"
     ],
-    "EPIC": [
+    "RARE": [
+      "the_vault:gear/focus/inferno_orb",
       "the_vault:gear/focus/jade_ring",
       "the_vault:gear/focus/lost_seashell",
       "the_vault:gear/focus/ocean_song",
-      "the_vault:gear/focus/radiant",
+      "the_vault:gear/focus/radiant"
+    ],
+    "EPIC": [
       "the_vault:gear/focus/skull",
-      "the_vault:gear/focus/madness_focus"
+      "the_vault:gear/focus/eternal_flame",
+      "the_vault:gear/focus/tomeofknowledge"
+
     ],
     "OMEGA": [
-      "the_vault:gear/focus/tomeofknowledge",
-      "the_vault:gear/focus/creeping_tales",
+      "the_vault:gear/focus/madness_focus",
       "the_vault:gear/focus/sky_atlas",
-      "the_vault:gear/focus/demonic_kat",
       "the_vault:gear/focus/tree_tome",
-      "the_vault:gear/focus/arcane_tome",
       "the_vault:gear/focus/velara_harp",
       "the_vault:gear/focus/demonic_kitty"
 

@@ -17,7 +17,8 @@
         "the_vault:swarmwalkers"
       ],
       "FEET": [
-        "the_vault:pacifist_sandals"
+        "the_vault:pacifist_sandals",
+        "the_vault:frostguards"
       ],
       "SWORD": [
         "the_vault:iskallibur",
@@ -31,7 +32,8 @@
         "the_vault:mineral_greatsword",
         "the_vault:grass_blade",
         "the_vault:aurora_scissors",
-        "the_vault:young_kitsune"
+        "the_vault:young_kitsune",
+        "the_vault:dragon_sword"
       ],
       "SHIELD": [
         "the_vault:grim",
@@ -91,7 +93,7 @@
             "color": "$text"
           },
           {
-            "text": "The Laboratory",
+            "text": "Laboratory Rooms",
             "color": "#7D520E"
           }
 
@@ -200,7 +202,7 @@
             "color": "$text"
           },
           {
-            "text": "The Laboratory",
+            "text": "Laboratory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -225,7 +227,7 @@
             "color": "$text"
           },
           {
-            "text": "Raid Vaults",
+            "text": "X-Mark Rooms",
             "color": "#7D520E"
           }
         ]
@@ -283,7 +285,7 @@
             "color": "$text"
           },
           {
-            "text": "Villages",
+            "text": "Village Rooms",
             "color": "#7D520E"
           }
         ]
@@ -309,7 +311,7 @@
             "color": "$text"
           },
           {
-            "text": "The Laboratory",
+            "text": "Laboratory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -368,12 +370,37 @@
             "color": "$text"
           },
           {
-            "text": "The Laboratory",
+            "text": "Laboratory Rooms",
             "color": "#7D520E"
           }
         ]
       },
       "uniqueId": "the_vault:pacifist_sandals"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Frostguards",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Frostguards offers a unique feature by leaving a trail of chill whereever you walk.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Factory Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:frostguards"
     },
 
     {
@@ -402,7 +429,7 @@
             "color": "$text"
           },
           {
-            "text": "X-Mark Room",
+            "text": "X-Mark Rooms",
             "color": "#7D520E"
           }
         ]
@@ -476,7 +503,7 @@
             "color": "$text"
           },
           {
-            "text": "Villages",
+            "text": "X-Mark Rooms",
             "color": "#7D520E"
           }
         ]
@@ -509,7 +536,7 @@
             "color": "$text"
           },
           {
-            "text": "Villages",
+            "text": "Village Rooms",
             "color": "#7D520E"
           }
         ]
@@ -530,11 +557,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\nFound on: ",
             "color": "$text"
           },
           {
-            "text": "Vendor Rooms",
+            "text": "Shopping Pedestals",
             "color": "#7D520E"
           }
         ]
@@ -559,7 +586,7 @@
             "color": "$text"
           },
           {
-            "text": "Vendor Rooms",
+            "text": "Shopping Pedestals",
             "color": "#7D520E"
           }
         ]
@@ -584,7 +611,7 @@
             "color": "$text"
           },
           {
-            "text": "Vendor Rooms",
+            "text": "Shopping Pedestals",
             "color": "#7D520E"
           }
         ]
@@ -609,7 +636,7 @@
             "color": "$text"
           },
           {
-            "text": "Vendor Rooms",
+            "text": "Shopping Pedestals",
             "color": "#7D520E"
           }
         ]
@@ -634,7 +661,7 @@
             "color": "$text"
           },
           {
-            "text": "Vendor Rooms",
+            "text": "Shopping Pedestals",
             "color": "#7D520E"
           }
         ]
@@ -659,7 +686,7 @@
             "color": "$text"
           },
           {
-            "text": "The Black Market",
+            "text": "X-Mark Rooms",
             "color": "#7D520E"
           }
         ]
@@ -684,12 +711,37 @@
             "color": "$text"
           },
           {
-            "text": "Vendor Rooms",
+            "text": "Village Rooms",
             "color": "#7D520E"
           }
         ]
       },
       "uniqueId": "the_vault:young_kitsune"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Dragon Sword",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A description goes here",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Dragon Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:dragon_sword"
     },
 
     {
@@ -710,7 +762,7 @@
             "color": "$text"
           },
           {
-            "text": "Bounties",
+            "text": "Raid Vaults",
             "color": "#7D520E"
           }
         ]
@@ -735,7 +787,7 @@
             "color": "$text"
           },
           {
-            "text": "The Black Market",
+            "text": "Village Rooms",
             "color": "#7D520E"
           }
         ]
@@ -760,7 +812,7 @@
             "color": "$text"
           },
           {
-            "text": "Crystal Caverns",
+            "text": "Crystal Caves",
             "color": "#7D520E"
           }
         ]
@@ -823,7 +875,7 @@
             "color": "$text"
           },
           {
-            "text": "X-Mark Room",
+            "text": "X-Mark Rooms",
             "color": "#7D520E"
           }
         ]
@@ -856,7 +908,7 @@
             "color": "$text"
           },
           {
-            "text": "The Laboratory",
+            "text": "Laboratory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -889,7 +941,7 @@
             "color": "$text"
           },
           {
-            "text": "Villages",
+            "text": "Village Rooms",
             "color": "#7D520E"
           }
         ]
@@ -964,7 +1016,7 @@
             "color": "$text"
           },
           {
-            "text": "The Laboratory",
+            "text": "Laboratory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -997,7 +1049,7 @@
             "color": "$text"
           },
           {
-            "text": "The Laboratory",
+            "text": "Laboratory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1022,7 +1074,7 @@
             "color": "$text"
           },
           {
-            "text": "Raid Room",
+            "text": "Dragon Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1094,7 +1146,7 @@
             "color": "$text"
           },
           {
-            "text": "The Laboratory",
+            "text": "Laboratory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1127,7 +1179,7 @@
             "color": "$text"
           },
           {
-            "text": "X-Mark Room",
+            "text": "X-Mark Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1160,7 +1212,7 @@
             "color": "$text"
           },
           {
-            "text": "The Factory",
+            "text": "Factory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1193,7 +1245,7 @@
             "color": "$text"
           },
           {
-            "text": "The Factory",
+            "text": "Factory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1219,7 +1271,7 @@
             "color": "$text"
           },
           {
-            "text": "Bounties",
+            "text": "Factory Rooms",
             "color": "#7D520E"
           }
         ]
@@ -1244,7 +1296,7 @@
             "color": "$text"
           },
           {
-            "text": "Treaure Pedestals",
+            "text": "Treasure Pedestals",
             "color": "#7D520E"
           }
         ]
@@ -1294,12 +1346,166 @@
             "color": "$text"
           },
           {
-            "text": "Bounties",
+            "text": "Factory Rooms",
             "color": "#7D520E"
           }
         ]
       },
       "uniqueId": "the_vault:ender_magnet"
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Ninja Baton",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "The weapon of the ancient vault ninjas that has some interesting properties when it encounters enemies.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Village Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:ninja_baton"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Bamboo Fightstick",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "An special stick of bamboo that has been augmented with some crazy modifications!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Laboratory Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:bamboo_fightstick"
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Mjolnir",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Yield this version of Thor's hammer since you are not worthy to yield the original.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDropped by: ",
+            "color": "$text"
+          },
+          {
+            "text": "Treasure Goblins",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:mjolnir"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Marlin",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Ever looked at a marlin and wanted to throw it? No? Well oh well, now you can.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Bounties",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:marlin"
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Safer Spaces",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "An enchanted plushie that has some protective properties.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Dungeon Pedestals",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:safer_spaces"
+    },
+
+    {
+      "title": {
+        "description": {
+          "text": "Tri-Rang",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "This vaultarang is a real believer that everything is better in 3's",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "X-Mark Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:trirang"
     }
 
   ]

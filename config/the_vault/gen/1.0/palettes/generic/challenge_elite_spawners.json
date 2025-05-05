@@ -6,15 +6,70 @@
           {
             "level": 0,
             "type": "bernoulli_weighted_target",
-            "probability": 0.0,
+            "probability": 0.00,
             "target": "minecraft:diamond_block",
             "success": {
-              "the_vault:elite_spawner{spawnGroupName:\"the_vault:elite_skeleton\"}": 10,
-              "the_vault:elite_spawner{spawnGroupName:\"the_vault:elite_zombie\"}": 10,
-              "the_vault:elite_spawner{spawnGroupName:\"the_vault:elite_husk\"}": 10,
-              "the_vault:elite_spawner{spawnGroupName:\"the_vault:elite_drowned\"}": 10,
-              "the_vault:elite_spawner{spawnGroupName:\"the_vault:elite_spider\"}": 10,
-              "the_vault:elite_spawner{spawnGroupName:\"the_vault:elite_troll\"}": 1
+              "the_vault:elite_spawner{spawnGroupName:\"the_vault:treasure_goblin\"}": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
+          },
+          {
+            "level": 50,
+            "type": "bernoulli_weighted_target",
+            "probability": 0.01,
+            "target": "minecraft:diamond_block",
+            "success": {
+              "the_vault:elite_spawner{spawnGroupName:\"the_vault:treasure_goblin\"}": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
+          },
+          {
+            "level": 65,
+            "type": "bernoulli_weighted_target",
+            "probability": 0.02,
+            "target": "minecraft:diamond_block",
+            "success": {
+              "the_vault:elite_spawner{spawnGroupName:\"the_vault:treasure_goblin\"}": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
+          },
+          {
+            "level":80,
+            "type": "bernoulli_weighted_target",
+            "probability": 0.03,
+            "target": "minecraft:diamond_block",
+            "success": {
+              "the_vault:elite_spawner{spawnGroupName:\"the_vault:treasure_goblin\"}": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
+          },
+          {
+            "level": 90,
+            "type": "bernoulli_weighted_target",
+            "probability": 0.04,
+            "target": "minecraft:diamond_block",
+            "success": {
+              "the_vault:elite_spawner{spawnGroupName:\"the_vault:treasure_goblin\"}": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
+          },
+          {
+            "level": 100,
+            "type": "bernoulli_weighted_target",
+            "probability": 0.05,
+            "target": "minecraft:diamond_block",
+            "success": {
+              "the_vault:elite_spawner{spawnGroupName:\"the_vault:treasure_goblin\"}": 1
             },
             "failure": {
               "minecraft:air": 1

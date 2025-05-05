@@ -403,6 +403,51 @@
       "display": "Reach",
       "color": 8706047,
       "weight": 5
+    },
+    "Channeling Chance": {
+      "tags": [
+        "focusChannelingChance"
+      ],
+      "display": "Channeling Chance",
+      "color": 12925893,
+      "weight": 5
+    },
+    "Wind Up Reduction": {
+      "tags": [
+        "focusWindUp"
+      ],
+      "display": "Wind Up Reduction",
+      "color": 12925717,
+      "weight": 5
+    },
+    "Returning Damage": {
+      "tags": [
+        "focusReturnDamage"
+      ],
+      "display": "Returning Damage",
+      "color": 6080644,
+      "weight": 5
+    },
+    "Piercing": {
+      "tags": [
+        "focusPiercing"
+      ],
+      "display": "Piercing",
+      "color": 16579716,
+      "weight": 5
+    },
+    "Reaving Damage": {
+      "tags": [
+        "focusReavingDamage"
+      ],
+      "display": "Bonus Reaving Damage",
+      "color": 12417954,
+      "weight": 5
     }
+
+
+
+
+
   }
 }

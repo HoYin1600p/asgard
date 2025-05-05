@@ -258,7 +258,27 @@
       "modifierTags": [],
       "weight": 1
     },
-
+    "the_vault:dragon_sword": {
+      "name": "Dragon Sword",
+      "model": "the_vault:gear/sword/dragonblade",
+      "modifierIdentifiers": {
+        "BASE_ATTRIBUTE": [
+          "the_vault:base_durability"
+        ],
+        "IMPLICIT": [
+          "the_vault:base_attack_damage",
+          "the_vault:base_attack_speed"
+        ],
+        "PREFIX": [
+          "the_vault:mod_execution_young_kitsune"
+        ],
+        "SUFFIX": [
+          "the_vault:mod_attack_speed_percent"
+        ]
+      },
+      "modifierTags": [],
+      "weight": 1
+    },
 
 
     "the_vault:leviathan": {
@@ -322,7 +342,8 @@
         ],
         "SUFFIX": [
           "the_vault:unique_porcupine_level",
-          "the_vault:unique_quill_level"
+          "the_vault:unique_quill_level",
+          "the_vault:thorns_scaling_damage_grass_sword"
         ]
       },
       "modifierTags": [],
@@ -818,8 +839,7 @@
       "model": "the_vault:gear/jewel/stella",
       "modifierIdentifiers": {
         "IMPLICIT": [
-          "the_vault:u_jewel_size_stella",
-          "the_vault:base_soulbound"
+          "the_vault:u_jewel_size_stella"
         ],
         "PREFIX": [
           "the_vault:u_immortality"
@@ -996,8 +1016,11 @@
           "the_vault:base_attack_speed_battlestaff"
         ],
         "PREFIX": [
+          "the_vault:u_chaining",
+          "the_vault:u_chaining_damage"
         ],
         "SUFFIX": [
+          "the_vault:u_relentless_strike_battlestaff"
         ]
       },
       "modifierTags": [],
@@ -1047,14 +1070,37 @@
         ],
         "SUFFIX": [
           "the_vault:mjolnir_scaling_ap",
-          "the_vault:mjolnir_stun",
+          "the_vault:mod_mjolnir_shocking",
           "the_vault:mjolnir_mob_effect"
         ]
       },
       "modifierTags": [],
       "weight": 1
     },
-
+    "the_vault:marlin": {
+      "name": "Marlin",
+      "model": "the_vault:gear/trident/marlin",
+      "modifierIdentifiers": {
+        "BASE_ATTRIBUTE": [
+          "the_vault:base_durability",
+          "the_vault:base_soulbound"
+        ],
+        "IMPLICIT": [
+          "the_vault:base_attack_damage",
+          "the_vault:base_attack_speed",
+          "the_vault:mod_marlin_loyalty"
+        ],
+        "PREFIX": [
+          "the_vault:mod_attack_damage",
+          "the_vault:mod_marlin_windup"
+        ],
+        "SUFFIX": [
+          "the_vault:mod_marlin_stun"
+        ]
+      },
+      "modifierTags": [],
+      "weight": 1
+    },
 
 
     "the_vault:safer_spaces": {
@@ -1117,7 +1163,7 @@
     "the_vault:inflated_justice": {
       "the_vault:inflated_justice": 1
     },
-    "the_vault:crystal_blade": {
+    "the_vault:crystal_double_blade": {
       "the_vault:crystal_double_blade": 1
     },
     "the_vault:honey_stick": {
@@ -1144,6 +1190,9 @@
     "the_vault:mineral_greatsword": {
       "the_vault:mineral_greatsword": 1
     },
+    "the_vault:dragon_sword": {
+      "the_vault:dragon_sword": 1
+    },
     "the_vault:sword": {
       "the_vault:iskallibur": 1,
       "the_vault:inflated_justice": 1,
@@ -1155,7 +1204,8 @@
       "the_vault:mineral_greatsword": 1,
       "the_vault:grass_blade": 1,
       "the_vault:aurora_scissors": 1,
-      "the_vault:young_kitsune": 1
+      "the_vault:young_kitsune": 1,
+      "the_vault:dragon_sword": 1
     },
 
     "the_vault:leviathan": {
@@ -1194,7 +1244,7 @@
     "the_vault:sweetheart": {
       "the_vault:sweetheart": 1
     },
-    "the_vault:crystal_plate": {
+    "the_vault:crystalplate": {
       "the_vault:crystalplate": 1
     },
     "the_vault:frozen_throne": {
@@ -1232,7 +1282,7 @@
     "the_vault:grim_shield": {
       "the_vault:grim": 1
     },
-    "the_vault:rosethorn_ivy": {
+    "the_vault:ivy": {
       "the_vault:ivy": 1
     },
     "the_vault:pestilence_wall": {
@@ -1257,10 +1307,14 @@
     "the_vault:chainlash": {
       "the_vault:chainlash": 1
     },
+    "the_vault:pistol": {
+      "the_vault:pistol": 1
+    },
     "the_vault:wand": {
       "the_vault:inferno_reach": 1,
       "the_vault:baguette": 1,
-      "the_vault:chainlash": 1
+      "the_vault:chainlash": 1,
+      "the_vault:pistol": 1
     },
 
     "the_vault:frozen_orb": {
@@ -1322,8 +1376,12 @@
     "the_vault:mjolnir": {
       "the_vault:mjolnir": 1
     },
+    "the_vault:marlin": {
+      "the_vault:marlin": 1
+    },
     "the_vault:trident": {
-      "the_vault:mjolnir": 1
+      "the_vault:mjolnir": 1,
+      "the_vault:marlin": 1
     },
 
     "the_vault:loot_sack": {
