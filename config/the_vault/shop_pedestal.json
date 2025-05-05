@@ -189,6 +189,66 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everfrost\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 48,
+            "MAX_COST": 70
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everflame\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 48,
+            "MAX_COST": 70
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:hexblade\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 48,
+            "MAX_COST": 70
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:grass_sword\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 48,
+            "MAX_COST": 70
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"woldsvaults:mineral_greatsword\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 48,
+            "MAX_COST": 70
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:capstone_pylon_hunter"
             },
             "CURRENCY": "the_vault:vault_gold",
