@@ -3166,7 +3166,7 @@ hash = "825f3ae5df1771bd8aeea8e9e5e1e5cdcdb2a1bd1aabbb784daf0a01dcd069be"
 
 [[files]]
 file = "config/the_vault/abilities_gui_styles.json"
-hash = "2c9626c5e5a65f0ecb377264869b166c9a3030979efe5d7d490f66351b7974ec"
+hash = "2add46186337de31ea44eb44c24da9904a5525288d934d74edd74fb48f47c825"
 
 [[files]]
 file = "config/the_vault/abilities_vein_miner_deny.json"
@@ -3490,7 +3490,7 @@ hash = "a070847cba8e5260252b8b3430c8ed165eb284f4f0c5622c326f6b0d098dfbb7"
 
 [[files]]
 file = "config/the_vault/gear/gear_tags.json"
-hash = "897f0b38b577e5c867843ee020e4206be3fa3058a8e4196f9f9e4839e12449b0"
+hash = "ede2fe7db1e96e42ef02d74a6ca90deca58b71b65fd8035af04681ae64a062fc"
 
 [[files]]
 file = "config/the_vault/gear_enchantment.json"
@@ -3498,11 +3498,11 @@ hash = "ca47a2eef288f105d79b8d1dbed7d10f693e64630b60e6a29a4f6b908e1fe19d"
 
 [[files]]
 file = "config/the_vault/gear_model_roll_rarities.json"
-hash = "28d1049c4d64365a76b81108b0ccb8f4603cd37fdd379c672e2f281914f36f4a"
+hash = "dc948eb8fa9a1b5784e8a9af99b5e4ef734ad35c3edb7e239225cc04bc5c1c0f"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/axe.json"
-hash = "be096a81f1c1e74a430c822471bbf40fdb64e0ec2776465e96d1bf0fee053870"
+hash = "6f1042946e4b4204b54ccedb14f2b0e3b499071ef489d48ec2d1eaad10a751fa"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/battlestaff.json"
@@ -3586,7 +3586,7 @@ hash = "13b98cccb13a12a213a10b0ea6ee4dd19afaac88b835637c137811099dfae49e"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/unique.json"
-hash = "e6f776bec7c261dfc04e88bd05dfaa55f07d6646d32c64d0c9960d5dd9da63c6"
+hash = "68aba5cd66d791ea929803cbdd2375473bea4374b04e83094b4353ed84704263"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/vault_charm.json"
@@ -4013,6 +4013,10 @@ file = "config/the_vault/gen/1.0/loot_tables/completion_scav_lvl50.json"
 hash = "5093b61ac99f32e84809df244fa0e513bff6cb5b7c9dbfc7b426bc487eab601c"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/crystal_guardian.json"
+hash = "b59cbe65eca54b7aa981c6b8d61b46c2728e15d76650131cf6e4c4d24ab364ba"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/cube_block_0.json"
 hash = "611ea26b14b215aa35b88a9e601ba4859721342b7f1dc1ee35cfcadeae0e63c4"
 
@@ -4021,8 +4025,12 @@ file = "config/the_vault/gen/1.0/loot_tables/digsite_sand_0.json"
 hash = "1f678c39eb5599d750bfdc1bc061ed15806df7b8ca16116c702ee9dfe2726f4a"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/dragon.json"
+hash = "595ac4685d5be6b37efc85f3b2c82e7523f22fcc541937033f5a81f0227cc2c6"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/dungeon/dungeon_pedestal_50.json"
-hash = "5d4256d228f6c43bc3b5615c9f4db58c5e884b4b8883d100ab00622e61ccdc89"
+hash = "f4f4941cd9a4614bc49e2f416232877fce6795fb9b14be9d9b78ac3119fd0ca8"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/dungeon/gilded.json"
@@ -4330,7 +4338,7 @@ hash = "4e42551c613ffc9334c986523a5a6bb4d788b5d2290ddf8a76e03c42fca74cc2"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_chest_stand_50.json"
-hash = "0a6d3bdc4d2b129f0bf4f9d7fda93dfd00db33818d5f25bd5a0d53f41ec0ea38"
+hash = "595ac4685d5be6b37efc85f3b2c82e7523f22fcc541937033f5a81f0227cc2c6"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_goblin.json"
@@ -4346,11 +4354,11 @@ hash = "607d96cc26ff5592953dbc7af0de07f0d50cef28f9bd1bf09a508b7b51a7e991"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/unique_crates/factory.json"
-hash = "e912c633bd8351c5aa1c26dc1e6ee887b1c45b317fcfcb9a65364b23efc27d90"
+hash = "9fff7cfbbbeb86c3cd9d5e93281dccadd66dad39f6a5aac7230162576243391b"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/unique_crates/village.json"
-hash = "18d70dfc9ecaf17598f40822b10406f5d1d6f5068e57d33411e061023175b530"
+hash = "fa8d93c5df04eec3688ef10bc3dcbd123c339a98d2dd19682de0c4b5af0cf9e3"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/vendor_pedestal_0.json"
@@ -4998,7 +5006,7 @@ hash = "7772d59d2f104819f93dfd80c6cffc4b4a5aa99a8bd70245b8f42f2175ded028"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/generic/challenge_elite_spawners.json"
-hash = "e35eb6737702ac1648d0f09ddf43e59eb0417e360a06ece04414068124abd6e5"
+hash = "0676e39075c1daa32e2edea6699f5d812c0145941b301cdc448e428ee20dcdb5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/generic/coin_stack_placeholder.json"
@@ -5006,7 +5014,7 @@ hash = "70eadd3b7d49350fa2f65101303549369073489f378673d220a5107645fc0143"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/generic/common_elite_spawners.json"
-hash = "34ceca8af008caf8ef00513a06a0dc4830b01e5745dc75f07f0a87887c54bc11"
+hash = "0676e39075c1daa32e2edea6699f5d812c0145941b301cdc448e428ee20dcdb5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/generic/dungeon_discoverable_placeholder.json"
@@ -16318,7 +16326,7 @@ hash = "998e8a9faaebcab0e2ff127569dc16fbc60e24cce07094c65837dd8c768aef2c"
 
 [[files]]
 file = "config/the_vault/gen/loot_tables.json"
-hash = "183e98cd5ecdc543beed36e8cf28cc00a947f6950cf11a74b7e44110cf25ea01"
+hash = "cca903205db8c657759e13b31a33ba3d759ebf46e2d96adad50fe8b1488a46af"
 
 [[files]]
 file = "config/the_vault/gen/palettes.json"
@@ -16546,7 +16554,7 @@ hash = "8fe2b15fa3ec3c71a9467a4587c3a6eb658d2b680e49f197605a2a18ac0ae1e8"
 
 [[files]]
 file = "config/the_vault/raid_actions.json"
-hash = "861591425d05ed544515e4c01e9eecea70a66e5e5c8d580b55b8c7aa0125d7ad"
+hash = "957d27a36898762da349c628ed963839d0406281f4aa509926c3267f07e2bc52"
 
 [[files]]
 file = "config/the_vault/recipes/catalyst_recipes.json"
@@ -16858,11 +16866,11 @@ hash = "5883bc6f18aabf12ff26792b8dc227ae3202f624ab5958d263d99ec06130b8f0"
 
 [[files]]
 file = "config/the_vault/unique_codex.json"
-hash = "bdf6995d1c43f3806f7737ca1492400f14323866f9e8983af107ccab513b65c2"
+hash = "76f4c4079814238ef9131bd5d18eee3614265d0991b726e7b67493d2858b6c67"
 
 [[files]]
 file = "config/the_vault/unique_gear.json"
-hash = "7dbbcc7498cab8b1cc10d92f22bc867e41ceb69ad94f3f1bc29f9d10bdd3a92a"
+hash = "6e6e8b59ef0c3526dad41c7227195cdd967f86f734c41a3a25e027aaf2961130"
 
 [[files]]
 file = "config/the_vault/unique_gear_nuke.json"
@@ -18177,6 +18185,98 @@ file = "kubejs/assets/the_vault/models/item/yellow_crayon_flower.json"
 hash = "06e4abd8f89c83eb76e59465b785c7f2373b24bcca8ecab12d78126cc2b1f2bc"
 
 [[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-battleCry.properties"
+hash = "133f0615f68bb9795cc49fac6cb484835d9a63f192c330110a38a1c5a2449eec"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-colossus.properties"
+hash = "c2f2cd326f212f001c3ade998fab968bed657f2901d646976b726ef318626b85"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-dash.properties"
+hash = "aa5fe92d3fc0b95ae3fe007358e752239c3db33942d543790a794c89e2422d9e"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-empower.properties"
+hash = "4290b33d998e870676bed24f267eb02ef42533c41e56a37edbf57b19c1595458"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-farmer.properties"
+hash = "f962eb0f2f68a3b3f81436e768cd8e0c0cac2fc29f61186f98d39ccc63ce6360"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-fireball.properties"
+hash = "0554cd1f1d4fe30a36da82509c253404434b4661c9d7d08d2586bef59fbcac15"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-ghostWalk.properties"
+hash = "f2821920e9b81af2a2542e275ed553494500d020b3567d4d5f3d989605f25910"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-heal.properties"
+hash = "d44182a8ac05d0765d3c46fd3b9d5f82f9afc95f5a29331f1cb24387efac49b8"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-hunter.properties"
+hash = "52cc8d512397d957d390b2ed4fd10a396768d366e860cfc60d9cb81e16db1c69"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-iceBolt.properties"
+hash = "722401d24facad4add9e5b066cd86aa58187b0f316c79e52cd796c0f7753af2b"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-javelin.properties"
+hash = "c103565c482a5ac0b207e1b46600ab01d7500975153affcb19021aaf775b8da1"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-megaJump.properties"
+hash = "8c8054617fdbd6c668e4af5c2520266640b6301bbc5e50c9f22679c1731d8cd9"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-nova.properties"
+hash = "9d6f246efb55df7057d8a99a531af59e15b75502665bc7ad7049ea2f61324017"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-rampage.properties"
+hash = "e4cb359a48f6ce8779197a52585ef2e2864ce7b3a575b0c642ccfad411500e7f"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-shell.properties"
+hash = "a286d49988d9987f34b4932df2e8e67a1276fe40454463746e074695e78ddcce"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-shieldBash.properties"
+hash = "22dc162d3d201d16f5700c688060f3b80310e1ee3ddb5c0e3b54e5f63cb5345e"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-shieldWall.properties"
+hash = "ed9b2dcf500589b6ef6586072116bc7b0a933781d50ca842734dc91d16fce251"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-smite.properties"
+hash = "9501c9a18c9879c38b5d5157a2be7ca7c5a554cdcd0467ff9266a5931a159e9d"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-stonefall.properties"
+hash = "7f26b4da36c9fe90ced2fc1eabb2c8a006a6e51265c8544a843d3d3d480397cd"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-stormarrow.properties"
+hash = "da84e6adf7d537d5a27a951951003bb01d2106cfe73ba21654cac1403bc354ac"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-taunt.properties"
+hash = "a1e8afb8d3047104476f3b033357c3ef524987ddc83a4c98a0383a20c47b366f"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-totem.properties"
+hash = "63ed31a0d2397927687901ad27c1ef449c3639103a9aa15f672db1fdb2ce6a42"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/flask/cf-veinMiner.properties"
+hash = "a61997e46a9d48845bd3dcb2628e3fe04ba3f82bd5bfd6da017596db5c2bc70f"
+
+[[files]]
 file = "kubejs/assets/the_vault/skills/zephyrs_grace.png"
 hash = "2d7e5c5c827d7c32d621b921e2d63a9805e89de24333365500fef2c6c72d4d45"
 
@@ -19087,6 +19187,94 @@ hash = "728ec4a90b013853b7fedf40d88814aef32297d2feabdcafb29fc15851784fc7"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/extraordinary_wutodie.png"
 hash = "30875c26d21029155c409803bc08f22ff2d9eaf5cdd54839a97c089597ea6e1b"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-battleCry.png"
+hash = "cfcc48475021f79d3f5d358eb6b95045064d2405d02a22a78661fffdcfdcaa2d"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-colossus.png"
+hash = "8178b0c274ee3751848724c3f4c4e839c7c87b742b2aacb8345d673242bce79b"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-dash.png"
+hash = "d1cb6fb186821a35954f2e9835ab194947daae4791d22c3c8d55e65306d95813"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-empower.png"
+hash = "37138b7825592b7095b14f91921b1327abe1d2761240eebdfac28e3db1d52057"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-farmer.png"
+hash = "d04ca186687f8bffa8c036bb765b8c442c9d1fdb30103195e8ffae97979fbbcb"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-fireball.png"
+hash = "2cc8bfffb22d2952343d9069260dae5d1b1bc1212ca7af18e9173a71a642c589"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-ghostWalk.png"
+hash = "ca58fc1821d9b4f9fd20184a6d94b67539eac37b8e449cba00562ef80548ab2f"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-heal.png"
+hash = "9e2eddc162de0aedf5b860496d7addb7c729bbfd8af00cc1a9ef3adee10f6ea3"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-hunter.png"
+hash = "09c50686e36d97eb51f84adac47e56fb4fc644b9eb5b309b70e07f97f31e2371"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-iceBolt.png"
+hash = "18747a3c099211af681af8b25fd30c9a05b41ef2796c3bd0defb9ba0537bdb64"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-javelin.png"
+hash = "0cecb76eb70fa79455213654b07ff0ae6c4fd999054398d3559892677daf46af"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-megaJump.png"
+hash = "f377dc5c78f64ca9ed760e852760e9d6bb8a9ae14a17624f76b8645f2df1eea6"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-nova.png"
+hash = "4aa618c2321956907b1b3ea60512c79736722710d23610ff3b9c83694f367169"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-rampage.png"
+hash = "df46f23c5bd1de3af00e44b788c445d58f61e942054b6aefb6aafba93d7224f7"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-shell.png"
+hash = "659da62abd1c542e08aac30d4af629a01f75bf1a9bb483544cc6482242d1f204"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-shieldBash.png"
+hash = "d1e85adcfa2fdd3a69f305b0dc95d624917d988db9d1fbad432c66701b7f7790"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-smite.png"
+hash = "3efbfa7a52534ce671fe8426835afc84e000223a404378bf1a6d451b65526baa"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-stonefall.png"
+hash = "630b8db43c45897e4ee06741028d2f576a46a4ab20273d824b7b8fedb5fd70f2"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-stormArrow.png"
+hash = "4015514fa48470098671336d895a75f9665557bab87fadfff52bfddef08dfd1c"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-taunt.png"
+hash = "2da44613dd710ea8c89949737b7bdcb6884b0797c1a6c23bddc8c4f8b3001602"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-totem.png"
+hash = "2f3585f45d9fe973709e5243cd7dec0704fe9b21854bf0ffd3fe49c13cf0cac4"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/flask/cf-veinMiner.png"
+hash = "44da20a9a3f3aedbbff7c29de2a22febbf44ff9b3d317df4de2f821daf146900"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/gear/sword/skallified_sword.png"
