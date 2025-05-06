@@ -14519,49 +14519,22 @@
         "the_vault:treasure_goblin": [
             {
                 "NAME": "minecraft:generic.max_health",
-                "MIN": 1600.0,
-                "MAX": 2800.0,
+                "MIN": 20000.0,
+                "MAX": 25000.0,
                 "OPERATOR": "set",
                 "ROLL_CHANCE": 1.0,
                 "SCALE_PER_LEVEL": 0.05,
                 "SCALE_MAX_LEVEL": -1,
                 "LEVELS": [
-                    {
-                        "MIN_LEVEL": 80,
-                        "MIN": 1700.6,
-                        "MAX": 3000.800000000000004,
-                        "OPERATOR": "set",
-                        "ROLL_CHANCE": 1.0,
-                        "SCALE_PER_LEVEL": 0.05,
-                        "SCALE_MAX_LEVEL": -1
-                    },
-                    {
-                        "MIN_LEVEL": 90,
-                        "MIN": 1900.2,
-                        "MAX": 3300.6,
-                        "OPERATOR": "set",
-                        "ROLL_CHANCE": 1.0,
-                        "SCALE_PER_LEVEL": 0.05,
-                        "SCALE_MAX_LEVEL": -1
-                    },
-                    {
-                        "MIN_LEVEL": 80,
-                        "MIN": 2100.12,
-                        "MAX": 3600.96000000000001,
-                        "OPERATOR": "set",
-                        "ROLL_CHANCE": 1.0,
-                        "SCALE_PER_LEVEL": 0.05,
-                        "SCALE_MAX_LEVEL": -1
-                    },
-                    {
-                        "MIN_LEVEL": 90,
-                        "MIN": 2300.04,
-                        "MAX": 4000.32,
-                        "OPERATOR": "set",
-                        "ROLL_CHANCE": 1.0,
-                        "SCALE_PER_LEVEL": 0.05,
-                        "SCALE_MAX_LEVEL": -1
-                    }
+                  {
+                    "MIN_LEVEL": 50,
+                    "MIN": 30000,
+                    "MAX": 35000,
+                    "OPERATOR": "set",
+                    "ROLL_CHANCE": 1.0,
+                    "SCALE_PER_LEVEL": 0.1,
+                    "SCALE_MAX_LEVEL": -1
+                  }
                 ]
             },
             {
