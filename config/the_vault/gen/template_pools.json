@@ -1356,6 +1356,11 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/dragon.json"
     },
     {
+      "id": "the_vault:vault/rooms/challenge/dragon82",
+      "name": "Custom Dragon",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/dragon82.json"
+    },
+    {
       "id": "the_vault:vault/rooms/challenge/factory",
       "name": "Factory",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/factory.json"
@@ -1819,6 +1824,11 @@
       "id": "the_vault:vault/decor/dragon/center_spawner1",
       "name": "Center Spawner 1",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/center_spawner1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/dragon/center_spawner82",
+      "name": "Center Spawner 82",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/center_spawner82.json"
     },
     {
       "id": "the_vault:vault/decor/dragon/corner_spawner1",
@@ -2479,6 +2489,16 @@
       "id": "the_vault:vault/decor/pixel/floor",
       "name": "Omega Pixel Floor",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/pixel/floor.json"
+    },
+    {
+      "id": "the_vault:vault/decor/cove/wall",
+      "name": "Cove Wall",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/cove/wall.json"
+    },
+    {
+      "id": "the_vault:vault/decor/cove/floor",
+      "name": "Cove Floor",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/cove/floor.json"
     },
     {
       "id": "the_vault:vault/decor/vendor/fort_house1",

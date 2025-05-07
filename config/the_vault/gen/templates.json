@@ -3912,6 +3912,14 @@
       }
     },
     {
+      "id": "the_vault:vault/decor/dragon/center_spawner82",
+      "name": "Custom Dragon Spawner",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/dragon/center_spawner82.nbt"
+      }
+    },
+    {
       "id": "the_vault:vault/decor/dragon/corner_spawner1",
       "name": "Corner Spawner 1",
       "1.0": {
@@ -4005,6 +4013,14 @@
       "1.0": {
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/dragon1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/dragon82",
+      "name": "Dragon 82",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/dragon82.nbt"
       }
     },
     {
@@ -4543,8 +4559,6 @@
         "path": "config/the_vault/gen/1.0/structures/vault/decor/painting/brush4.nbt"
       }
     },
-
-
     {
       "id": "the_vault:vault/decor/pixel/pixel_boots_hanging",
       "name": "Omega Pixel Boots 1",
@@ -4770,7 +4784,22 @@
         "path": "config/the_vault/gen/1.0/structures/vault/decor/pixel/pixel_platinum_floor.nbt"
       }
     },
-
+    {
+      "id": "the_vault:vault/decor/cove/krakenarm1",
+      "name": "Cove Kraken Arm 1",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/cove/krakenarm1.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/decor/cove/krakenarm4",
+      "name": "Cove Kraken Arm 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/decor/cove/krakenarm4.nbt"
+      }
+    },
 
     {
       "id": "the_vault:vault/decor/vendor/fort_house1",
