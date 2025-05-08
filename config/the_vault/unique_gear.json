@@ -1060,16 +1060,16 @@
           "the_vault:base_soulbound"
         ],
         "IMPLICIT": [
-          "the_vault:mjolnir_channeling_chance",
           "the_vault:mjolnir_channeling",
-          "the_vault:mjolnir_loyalty"
+          "the_vault:mjolnir_loyalty",
+          "the_vault:mjolnir_conduit"
         ],
         "PREFIX": [
+          "the_vault:mjolnir_channeling_chance",
           "the_vault:mjolnir_attack_damage",
           "the_vault:mjolnir_ability_power"
         ],
         "SUFFIX": [
-          "the_vault:mjolnir_scaling_ap",
           "the_vault:mod_mjolnir_shocking",
           "the_vault:mjolnir_mob_effect"
         ]
@@ -1324,7 +1324,7 @@
       "the_vault:frozen_orb": 1
     },
 
-    "the_vault:chonky_magnet": {
+    "the_vault:chonknet": {
       "the_vault:chonknet": 1
     },
     "the_vault:blood_magnet": {

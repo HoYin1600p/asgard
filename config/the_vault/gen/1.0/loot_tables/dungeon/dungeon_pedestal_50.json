@@ -359,7 +359,7 @@
               "item": {
                 "id": "the_vault:magnet",
                 "nbt": {
-                  "the_vault:gear_unique_pool": "woldsvaults:bloodfetcher",
+                  "the_vault:gear_unique_pool": "the_vault:blood_magnet",
                   "the_vault:gear_roll_type": "Unique"
                 },
                 "count": {
@@ -374,7 +374,7 @@
               "item": {
                 "id": "the_vault:plushie",
                 "nbt": {
-                  "the_vault:gear_unique_pool": "woldsvaults:safer_spaces",
+                  "the_vault:gear_unique_pool": "the_vault:safer_spaces",
                   "the_vault:gear_roll_type": "Unique"
                 },
                 "count": {

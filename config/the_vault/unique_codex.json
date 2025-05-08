@@ -8,7 +8,6 @@
       ],
       "CHEST": [
         "the_vault:castle",
-        "the_vault:sweetheart",
         "the_vault:crystalplate",
         "the_vault:frozen_throne"
       ],
@@ -208,31 +207,6 @@
         ]
       },
       "uniqueId": "the_vault:crystalplate"
-    },
-    {
-      "title": {
-        "description": {
-          "text": "The Sweetheart",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "Health health and health. Need Health, check out this Unique",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nFound in: ",
-            "color": "$text"
-          },
-          {
-            "text": "X-Mark Rooms",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:sweetheart"
     },
     {
       "title": {
