@@ -1487,16 +1487,25 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The Vaultarang is a new piece of vault gear that is very similar to a pickarang. ",
+            "text": "The Vaultarang is a ranged vault weapon similar to a pickarang.\n\nVaultarangs are used strictly for damage. They will not break blocks, but they can pickup items off the floor.Vaultarangs introduce 2 new modifiers.\n\n",
             "color": "$text"
           },
-
-
-
-
-
-
-
+          {
+            "text": "Piercing ",
+            "color": "$rang_pierce"
+          },
+          {
+            "text": "will allow the vaultarang to travel through an amount of entities dealing damage to each.\n",
+            "color": "$text"
+          },
+          {
+            "text": "Returning Damage ",
+            "color": "$return_damage"
+          },
+          {
+            "text": "will allow the vaultarang to deal damage to entities it passes through on it's way back to you",
+            "color": "$text"
+          },
           {
             "text": "\n\nObtain a Unidentified Vaultarang",
             "color": "$heal"
@@ -3683,6 +3692,47 @@
       },
       "icon": "the_vault:gui/quests/jewel_id",
       "targetId": "morevaulttables:jewel_sack_opener_block",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_20",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_gold"
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "jewel_purposer",
+      "name": "Jewel Purposer",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "The Jewel Purposer is a new vault workstation that has 2 purposes.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\n1. Store your jewels.\n\n2. Apply those jewels to your tool based on weights that you choose on the left side of the UI.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nNote",
+            "color": "red"
+          },
+          {
+            "text": ": The Jewel Purposer will keep its inventory when broken.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nCraft A Jewel Purposer",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/purposer",
+      "targetId": "vaultjp:jewel_purpuser",
       "targetProgress": 1.0,
       "unlockedBy": "reach_level_20",
       "reward": {
