@@ -1060,9 +1060,9 @@
           "the_vault:base_soulbound"
         ],
         "IMPLICIT": [
-          "the_vault:mjolnir_channeling",
           "the_vault:mjolnir_loyalty",
-          "the_vault:mjolnir_conduit"
+          "the_vault:mjolnir_channeling",
+          "the_vault:mjolnir_discharge"
         ],
         "PREFIX": [
           "the_vault:mjolnir_channeling_chance",
@@ -1070,8 +1070,7 @@
           "the_vault:mjolnir_ability_power"
         ],
         "SUFFIX": [
-          "the_vault:mod_mjolnir_shocking",
-          "the_vault:mjolnir_mob_effect"
+
         ]
       },
       "modifierTags": [],
