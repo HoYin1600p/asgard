@@ -936,6 +936,18 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:booster_pack",
+              "nbt": "{\"id\": \"the_vault:merchant_pack\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 36
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:loot_sack",
               "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
@@ -1813,7 +1825,7 @@
             "MIN_COST": 24,
             "MAX_COST": 36
           },
-          "weight": 8
+          "weight": 16
         },
         {
           "value": {
