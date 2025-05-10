@@ -558,7 +558,7 @@ hash = "1aa086ddd77d4f7e3db3a0d5c56c016e05c964b2080dc25bc973740759228f3d"
 
 [[files]]
 file = "config/bettervhblockmodels-common.toml"
-hash = "78c24aa8c7ad6c5cfe7ff02700ba1472ae54d36dc43526365887d5ebf1f38782"
+hash = "e17e37d7e8a505fbb74d58c75738f136154700e0644cecc9e1b6755ca8e29586"
 
 [[files]]
 file = "config/bettervillage_1.properties"
@@ -3150,7 +3150,7 @@ hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
 
 [[files]]
 file = "config/the_vault/abilities.json"
-hash = "1f3024931b287e0fe9cfcd4719fee9e206618429bedadeadebcd1d685b203815"
+hash = "3295c484906fa30fbb3ee1b09f6e0ca8f3b655fb9fa4b67d447ce7577f019c94"
 
 [[files]]
 file = "config/the_vault/abilities.json.backup"
@@ -3278,7 +3278,7 @@ hash = "4affe203c8b343a39c604397dc3e5c6317166b54c1bd50d9691c8da3eb86a515"
 
 [[files]]
 file = "config/the_vault/bounty/rewards.json"
-hash = "330fc0886e597fbd5bb6b5c407d4038fa3ebe4e412df9654e91c2facff6ac3b4"
+hash = "ce91f73f8632a92b5fa47182eaac6bf4d4f6bb5e5553898069e2d78e6b89e8da"
 
 [[files]]
 file = "config/the_vault/bounty/task/completion.json"
@@ -3306,7 +3306,7 @@ hash = "d65a0a8e1a8f02b2dd76a0f579fb8bc70cb3452e5498d328097e0f22e6bcceb4"
 
 [[files]]
 file = "config/the_vault/card/booster_packs.json"
-hash = "beafd8d7d894cd1598d4d5d8e08e9f7ced9d5165a456173d26566b13b8f62e12"
+hash = "7f25cef4b0488968a2e2e461290959ce791fd970bb68be7a2c5081fe0bdc4852"
 
 [[files]]
 file = "config/the_vault/card/conditions.json"
@@ -3318,7 +3318,7 @@ hash = "b169115dc65891457409a65a2c36cd28ce87a961410386ae41fe7a3d9098026c"
 
 [[files]]
 file = "config/the_vault/card/decks.json"
-hash = "1f5203b97881964a71902d188e796c4302f8c9e0c556434fb558d55ba4902615"
+hash = "43721d5eb9e3b40496747a83b747848c21c5b0de54f01880fa4f1f8c21939df8"
 
 [[files]]
 file = "config/the_vault/card/modifiers.json"
@@ -14802,19 +14802,19 @@ hash = "92965f2842674fa7b4c54b1449487c002e4dec9aca6b1235b048e6e52e820b76"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_blood.json"
-hash = "65ee67fafced0624c4aa9d710ed25eef3e17d78ce23cd7159f36c9e428d81de8"
+hash = "ee3bdb0b3a1f21698aa245222e6de608693a2da0596714124e384fff5788739c"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_dread.json"
-hash = "9767e3296a2f50403b424e0ba6094ceec1127594819355c78c1caa7bcb59b1ba"
+hash = "87f14002d27bddae4129bb571624066b51b67f63f07718cac0e92b521a59b7af"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_nether.json"
-hash = "ce0c21def35f16e47ee59ee5ade8c95e5e070be9c1e70e2eee2cc3e644990952"
+hash = "bd3d4d0321cf2d6712af460c84fd2140d095dd0d9db3dc2aa0115799fb0c37ca"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_void.json"
-hash = "5e5819d3f3ebc4f23c52b2b1bc32eb74961438d6cf9f57357db1230c0b7fad94"
+hash = "0c5433e8672ed5fa718ee07372e776249a50a907c20060f2214bbbca0325dde5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/paradox/idona/challenge/crystal_caves.json"
@@ -16606,7 +16606,7 @@ hash = "93ef569bbdf8dae1f3032d3145c4d08053627af1050055bb0aa239e72794a57d"
 
 [[files]]
 file = "config/the_vault/recipes/jewel_crafting_recipes.json"
-hash = "905162b443e983e47c3a2eddee6dda97a9478d13f60198bb745d98359e4ee62d"
+hash = "7d5fc8df1f749aae87517bf6b8ccb95d1f258046cf7b6a5eb22ca9bbd19e1d60"
 
 [[files]]
 file = "config/the_vault/recipes/jewel_recipes.json"
@@ -16774,7 +16774,7 @@ hash = "225bae42f4318642842cbbfd405f36adf572b260c66ed850065282e4052c9bb4"
 
 [[files]]
 file = "config/the_vault/shop_pedestal.json"
-hash = "ea9724b8f199e9dbd42028730de63e536106ea5e36c262761ee1e1e8dbce04b6"
+hash = "01e2ceebeabd724e9014f6e4c2da1564ccfd4aea0957cb31b1ff00ce439ce02e"
 
 [[files]]
 file = "config/the_vault/skill_altar.json"
@@ -18993,12 +18993,8 @@ file = "kubejs/assets/the_vault/textures/gui/researches/vault_salvager.png"
 hash = "15d5ed4474ec61b02009d726360b13d0a063bf6963c7b6a17b2e43aceb36125f"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/gui/skills/zephyrs.mcmeta"
-hash = "23d17ac6391420b39646ce7d60d18fee1ff7bbe30e6f24e428ddc2407c1d53f1"
-
-[[files]]
 file = "kubejs/assets/the_vault/textures/gui/skills/zephyrs.png"
-hash = "2d7e5c5c827d7c32d621b921e2d63a9805e89de24333365500fef2c6c72d4d45"
+hash = "230db3216f9e5603c6aa5299a25b0bdf594f58b82199d627a90cc386f1563a70"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/blue_crayon_flower.png"
