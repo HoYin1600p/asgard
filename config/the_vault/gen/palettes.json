@@ -901,6 +901,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/treasure_rooms/treasure_rooms.json"
     },
     {
+      "id": "the_vault:treasure_rooms/echo_rooms",
+      "name": "Echo Room",
+      "1.0": "config/the_vault/gen/1.0/palettes/treasure_rooms/echo_rooms.json"
+    },
+    {
       "id": "the_vault:vendor_rooms/vendor_rooms",
       "name": "Vendor Rooms",
       "1.0": "config/the_vault/gen/1.0/palettes/vendor_rooms/vendor_rooms.json"
@@ -909,6 +914,11 @@
       "id": "the_vault:treasure_rooms/treasure_chest",
       "name": "Treasure Chest",
       "1.0": "config/the_vault/gen/1.0/palettes/treasure_rooms/treasure_chest.json"
+    },
+    {
+      "id": "the_vault:treasure_rooms/echo_treasure_chest",
+      "name": "Echo Treasure Chest",
+      "1.0": "config/the_vault/gen/1.0/palettes/treasure_rooms/echo_treasure_chest.json"
     },
     {
       "id": "the_vault:x-mark/base",

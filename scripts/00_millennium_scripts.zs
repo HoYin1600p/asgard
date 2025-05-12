@@ -267,8 +267,23 @@ craftingTable.remove(<item:the_vault:memory_powder>);
 craftingTable.remove(<item:the_vault:memory_shard>);
 craftingTable.remove(<item:the_vault:memory_crystal>);
 craftingTable.remove(<item:the_vault:red_vault_essence>);
+craftingTable.remove(<item:the_vault:treasure_keyring>);
+craftingTable.remove(<item:vaultkeychain:keychain>);
 
 // recipe additions
+
+craftingTable.addShaped("treasure_keyring", <item:the_vault:treasure_keyring> , [
+        [<item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_piece>, <item:the_vault:chromatic_iron_nugget>],
+        [<item:the_vault:key_piece>, <item:the_vault:key_mould>, <item:the_vault:key_piece>],
+        [<item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_piece>, <item:the_vault:chromatic_iron_nugget>]
+    ]);
+
+craftingTable.addShaped("treasure_keyring_2", <item:vaultkeychain:keychain> , [
+        [<item:the_vault:key_piece>, <item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_piece>],
+        [<item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_mould>, <item:the_vault:chromatic_iron_nugget>],
+        [<item:the_vault:key_piece>, <item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_piece>]
+    ]);
+
 
 craftingTable.addShaped("memory_powder", <item:the_vault:memory_shard> , [
         [<item:the_vault:memory_powder>, <item:the_vault:memory_powder>, <item:the_vault:memory_powder>],
