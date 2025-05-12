@@ -4,7 +4,7 @@
       "type": "weighted_target",
       "target": "minecraft:chest",
       "output": {
-        "the_vault:treasure_chest{Generated:0b,LootTable:\"the_vault:treasure_chest_50\"}": 1
+        "the_vault:treasure_chest{Generated:0b,LootTable:\"the_vault:treasure_chest_lvl50\"}": 1
       }
     },
     {
