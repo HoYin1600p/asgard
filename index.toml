@@ -12178,7 +12178,7 @@ hash = "1b870bddd7591b49a8d99a35f44e901279d558f8bdc72bee03b8222e7b7f86f5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/vendor1.nbt"
-hash = "d8fdb37288ae1f60aa9635a069408f0c62c97e3d9a6542dfbf1cf5ea51409a2e"
+hash = "75be9a265cef7411d9a793e43218ed1980178b61e226bbcf9e33234e75d0917e"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/vendor2.nbt"
@@ -12189,8 +12189,8 @@ file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/vendor3.nbt"
 hash = "5b28d33b38c61cdcbe7f33437883ab92964e4785723a014fccdb18440c8d6e4e"
 
 [[files]]
-file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/vendor4.nbt"
-hash = "75be9a265cef7411d9a793e43218ed1980178b61e226bbcf9e33234e75d0917e"
+file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/vendor_millennium.nbt"
+hash = "d8fdb37288ae1f60aa9635a069408f0c62c97e3d9a6542dfbf1cf5ea51409a2e"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/raw/chromatic_cave1.nbt"
@@ -14802,7 +14802,7 @@ hash = "ae800035d5d5026221ec70435b3642f16062a61427cedad216433b87fc50d9fa"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/vendor.json"
-hash = "e1d427a9d0088cb4827530dd4959ebbf41236440eaef59ee70db1ec92e684f24"
+hash = "5af2a3d48ce44afce18b503bd7829f73b7342f4b07770ad48c18c711723e7bc9"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms.json"
@@ -16382,7 +16382,7 @@ hash = "dd9d00c449348891aa34cde718fe9a5a0f5c271f1d09bf15071841908605b171"
 
 [[files]]
 file = "config/the_vault/gen/templates.json"
-hash = "1e5fee2b83cf9664dbde358a2c5d892e1fdad4374f31195d40ed60d429b0545c"
+hash = "8a526fce831b95cd7a4601dd2b040ca3b244939db1855e3c8f2832e3e980423f"
 
 [[files]]
 file = "config/the_vault/gen/themes.json"
@@ -16786,7 +16786,7 @@ hash = "225bae42f4318642842cbbfd405f36adf572b260c66ed850065282e4052c9bb4"
 
 [[files]]
 file = "config/the_vault/shop_pedestal.json"
-hash = "01e2ceebeabd724e9014f6e4c2da1564ccfd4aea0957cb31b1ff00ce439ce02e"
+hash = "1c8d15ee5858e9b32639b25b8869c1479d6c3f5b475c76cee51c941412c983fe"
 
 [[files]]
 file = "config/the_vault/skill_altar.json"
