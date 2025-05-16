@@ -777,6 +777,14 @@
       "value": "When used in an anvil, this will restore a piece of gear to 100% durability, but it will consume one of the gear's repair slots."
     },
     {
+      "item": "vaultadditions:damage_core",
+      "value": "When used in an anvil, this will break a piece of gear or tool."
+    },
+    {
+      "item": "vaultadditions:fracture_core",
+      "value": "When used in an anvil, this will break a piece of gear or tool and consume all repair cores."
+    },
+    {
       "item": "the_vault:perfect_alexandrite",
       "value": "Uncommon perfect vault gem previously known as perfect Alexandrite"
     },

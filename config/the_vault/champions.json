@@ -54,6 +54,28 @@
     }
   ],
   "entityAttributeOverrides": {
+    "iceandfire:fire_dragon": [
+      {
+        "NAME": "minecraft:generic.max_health",
+        "VALUE": 1250.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "minecraft:generic.attack_damage",
+        "VALUE": 1.0,
+        "OPERATOR": "multiply"
+      },
+      {
+        "NAME": "the_vault:generic.crit_chance",
+        "VALUE": 0.01,
+        "OPERATOR": "set"
+      },
+      {
+        "NAME": "minecraft:generic.knockback_resistance",
+        "VALUE": 0.8,
+        "OPERATOR": "set"
+      }
+    ],
     "@the_vault:horde": [
       {
         "NAME": "minecraft:generic.max_health",

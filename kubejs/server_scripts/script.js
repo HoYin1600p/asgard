@@ -63,6 +63,17 @@ onEvent('recipes', event => {
             	item: "the_vault:overgrown_wooden_planks"
         	}
         })
+        event.custom({
+        	type: "functionalstorage:custom_compacting",
+        	higher_input: {
+            	count: 1,
+            	item: "minecraft:prismarine"
+        	},
+        	lower_input: {
+            	count: 4,
+            	item: "minecraft:prismarine_shard"
+        	}
+        })
     
     // Decompacting snow block into snowballs
     event.shapeless('4x minecraft:snowball', [

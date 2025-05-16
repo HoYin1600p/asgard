@@ -404,6 +404,23 @@
       "color": 8706047,
       "weight": 5
     },
+    "DurabilityReduction": {
+      "tags": [
+        "focusDurabilityReduction"
+      ],
+      "display": "Durability Damage Reduction",
+      "color": 6869901,
+      "weight": 5
+    },
+    "AbilityPowerPercent": {
+      "tags": [
+        "focusAbilityDamage"
+      ],
+      "display": "AP Percentage",
+      "color": 15425272,
+      "weight": 5
+    },
+
     "Channeling Chance": {
       "tags": [
         "focusChannelingChance"
@@ -425,7 +442,7 @@
         "focusReturnDamage"
       ],
       "display": "Returning Damage",
-      "color": 6080644,
+      "color": 8702044,
       "weight": 5
     },
     "Piercing": {
@@ -433,7 +450,7 @@
         "focusPiercing"
       ],
       "display": "Piercing",
-      "color": 16579716,
+      "color": 8715516,
       "weight": 5
     },
     "Reaving Damage": {

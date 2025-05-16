@@ -11,7 +11,54 @@
           "weight": 70,
           "pool": [
             {
-              "weight": 60,
+              "weight": 10,
+              "item": {
+                "id": "the_vault:vault_gold",
+                "count": {
+                  "type": "uniform",
+                  "min": 24,
+                  "max": 32
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:vault_platinum",
+                "count": {
+                  "type": "uniform",
+                  "min": 4,
+                  "max": 8
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "woldsvaults:wold_star_chunk",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:card_deck",
+                "nbt": {
+                  "id": "dragon"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 5,
               "item": {
                 "id": "the_vault:wand",
                 "nbt": {
@@ -26,7 +73,7 @@
               }
             },
             {
-              "weight": 60,
+              "weight": 5,
               "item": {
                 "id": "the_vault:sword",
                 "nbt": {
@@ -38,20 +85,6 @@
                   "min": 1,
                   "max": 1
                 }
-              }
-            },
-            {
-              "weight": 60,
-              "item": {
-                "id": "the_vault:card_deck",
-                "nbt": {
-                  "id": "dragon"
-                },
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                  }
               }
             }
           ]
