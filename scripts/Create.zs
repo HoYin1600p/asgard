@@ -253,6 +253,10 @@ craftingTable.addShapeless("create_limestone_shapeless", <item:create:limestone>
     <item:architects_palette:algal_blend>, <item:minecraft:birch_planks>, <item:minecraft:stone>,
 ]);
 
+craftingTable.addShapeless("bottle_2_nugget", <item:create:experience_nugget>, [
+    <item:minecraft:experience_bottle>,
+]);
+
 craftingTable.addShaped("create_schematicannon", <item:create:schematicannon>, [
     [<item:minecraft:air>, <item:the_vault:chromatic_iron_block>, <item:minecraft:air>], 
     [<item:the_vault:driftwood>, <item:the_vault:chromatic_iron_block>, <item:the_vault:driftwood>], 

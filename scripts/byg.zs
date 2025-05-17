@@ -105,3 +105,64 @@ craftingTable.addShaped("byg_frost_magma", <item:byg:frost_magma>*8 , [
     ]);
 
 craftingTable.addShapeless("byg_bulbis_wood_2_stem", <item:byg:bulbis_stem>*4, [<item:byg:bulbis_wood>, <item:byg:bulbis_wood>, <item:byg:bulbis_wood>]);
+
+// FLowers
+
+craftingTable.addShapeless("byg_delphinium", <item:byg:delphinium>,
+    [<item:minecraft:seagrass>, <item:minecraft:light_blue_dye>]);
+
+craftingTable.addShapeless("byg_winter_scilla", <item:byg:winter_scilla>,
+    [<item:minecraft:blue_orchid>, <item:minecraft:blue_dye>]);
+
+craftingTable.addShapeless("byg_winter_cyclamen", <item:byg:winter_cyclamen>,
+    [<item:minecraft:blue_orchid>, <item:minecraft:white_dye>]);
+
+craftingTable.addShapeless("byg_winter_rose", <item:byg:winter_rose>,
+    [<item:minecraft:poppy>, <item:minecraft:white_dye>]);
+
+craftingTable.addShapeless("byg_daffodil", <item:byg:daffodil>,
+    [<item:minecraft:dandelion>, <item:minecraft:pink_dye>, <item:minecraft:red_dye>]);
+
+craftingTable.addShapeless("byg_pink_daffodil", <item:byg:pink_daffodil>,
+    [<item:minecraft:dandelion>, <item:minecraft:pink_dye>]);
+
+craftingTable.addShapeless("byg_yellow_daffodil", <item:byg:yellow_daffodil>,
+    [<item:minecraft:dandelion>, <item:minecraft:pink_dye>, <item:minecraft:yellow_dye>]);
+
+craftingTable.addShapeless("byg_angelica", <item:byg:angelica>,
+    [<item:minecraft:blue_orchid>, <item:minecraft:pink_dye>]);
+
+craftingTable.addShapeless("byg_blue_sage", <item:byg:blue_sage>,
+    [<item:minecraft:lilac>, <item:minecraft:blue_dye>]);
+
+craftingTable.addShapeless("byg_cali_poppy", <item:byg:california_poppy>,
+    [<item:minecraft:poppy>, <item:minecraft:orange_dye>]);
+
+craftingTable.addShapeless("byg_protea", <item:byg:protea_flower>,
+    [<item:minecraft:oxeye_daisy>, <item:minecraft:red_dye>]);
+
+craftingTable.addShapeless("byg_silver_flower", <item:byg:silver_vase_flower>,
+    [<item:minecraft:azure_bluet>, <item:minecraft:light_gray_dye>]);
+
+craftingTable.addShapeless("byg_green_tulip", <item:byg:green_tulip>,
+    [<item:minecraft:red_tulip>, <item:minecraft:green_dye>]);
+
+craftingTable.addShapeless("byg_cyan_tulip", <item:byg:cyan_tulip>,
+    [<item:minecraft:red_tulip>, <item:minecraft:cyan_dye>]);
+
+craftingTable.addShapeless("byg_yellow_tulip", <item:byg:yellow_tulip>,
+    [<item:minecraft:red_tulip>, <item:minecraft:yellow_dye>]);
+
+craftingTable.addShapeless("byg_purple_tulip", <item:byg:purple_tulip>,
+    [<item:minecraft:red_tulip>, <item:minecraft:purple_dye>]);
+
+craftingTable.addShapeless("byg_magenta_tulip", <item:byg:magenta_tulip>,
+    [<item:minecraft:red_tulip>, <item:minecraft:magenta_dye>]);
+
+
+
+
+
+
+
+

@@ -219,8 +219,12 @@
       "type": "weighted_target",
       "target": "minecraft:fern",
       "output": {
-        "auxiliaryblocks:festive_cake": 1,
-        "minecraft:air": 3
+        "auxiliaryblocks:festive_cake": 600,
+        "minecraft:air": 1800,
+        "additionaltransmogs:blue_flower[discovered=false]": 1,
+        "additionaltransmogs:red_flower[discovered=false]": 1,
+        "additionaltransmogs:green_flower[discovered=false]": 1,
+        "additionaltransmogs:yellow_flower[discovered=false]": 1
       }
     },
     {

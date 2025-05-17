@@ -286,7 +286,14 @@
       "modelId": "the_vault:gear/rang/red_joker",
       "cost": 4
     },
-
+    {
+      "modelId": "the_vault:gear/shield/heat_shield",
+      "cost": 4
+    },
+    {
+      "modelId": "the_vault:gear/shield/orichalcum_shield",
+      "cost": 4
+    },
     {
       "stack": {
         "item": "the_vault:title_scroll",

@@ -194,8 +194,10 @@
             "type": "weighted_target",
             "target": "minecraft:tall_grass[half=lower]",
             "output": {
-                "minecraft:large_fern": 2,
-                "decocraft:blood_puddle": 1
+                "minecraft:large_fern": 1200,
+                "minecraft:dead_bush": 1200,
+                "additionaltransmogs:blood_bush[discovered=false]": 1
+
             }
         },
         {

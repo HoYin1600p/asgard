@@ -178,8 +178,10 @@
             "type": "weighted_target",
             "target": "minecraft:grass",
             "output": {
-                "minecraft:large_fern": 1,
-                "minecraft:air": 1
+                "minecraft:large_fern": 600,
+                "minecraft:dead_bush": 600,
+                "minecraft:air": 1200,
+                "additionaltransmogs:blooming_bush[discovered=false]": 1
             }
         },
         {

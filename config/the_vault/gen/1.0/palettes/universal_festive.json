@@ -243,16 +243,20 @@
       "type": "weighted_target",
       "target": "minecraft:fern",
       "output": {
-        "auxiliaryblocks:ornament_blue[face=down]": 1,
-        "auxiliaryblocks:ornament_cyan[face=down]": 1,
-        "auxiliaryblocks:ornament_green[face=down]": 1,
-        "auxiliaryblocks:ornament_light_blue[face=down]": 1,
-        "auxiliaryblocks:ornament_lime[face=down]": 1,
-        "auxiliaryblocks:ornament_orange[face=down]": 1,
-        "auxiliaryblocks:ornament_red[face=down]": 1,
-        "auxiliaryblocks:ornament_pink[face=down]": 1,
-        "auxiliaryblocks:ornament_magenta[face=down]": 1,
-        "auxiliaryblocks:ornament_purple[face=down]": 1
+        "auxiliaryblocks:ornament_blue[face=down]": 120,
+        "auxiliaryblocks:ornament_cyan[face=down]": 120,
+        "auxiliaryblocks:ornament_green[face=down]": 120,
+        "auxiliaryblocks:ornament_light_blue[face=down]": 120,
+        "auxiliaryblocks:ornament_lime[face=down]": 120,
+        "auxiliaryblocks:ornament_orange[face=down]": 120,
+        "auxiliaryblocks:ornament_red[face=down]": 120,
+        "auxiliaryblocks:ornament_pink[face=down]": 120,
+        "auxiliaryblocks:ornament_magenta[face=down]": 120,
+        "auxiliaryblocks:ornament_purple[face=down]": 120,
+        "additionaltransmogs:blue_flower[discovered=false]": 1,
+        "additionaltransmogs:red_flower[discovered=false]": 1,
+        "additionaltransmogs:green_flower[discovered=false]": 1,
+        "additionaltransmogs:yellow_flower[discovered=false]": 1
       }
     },
     {

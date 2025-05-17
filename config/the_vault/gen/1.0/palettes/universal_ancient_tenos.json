@@ -157,8 +157,9 @@
             "type": "weighted_target",
             "target": "minecraft:brown_wool",
             "output": {
-                "chipped:oak_leaves_1": 2,
-                "chipped:oak_leaves_4": 1
+                "chipped:oak_leaves_1": 1200,
+                "chipped:oak_leaves_4": 1200,
+                "additionaltransmogs:blue_leaves[discovered=false]": 1
             }
         },
         {

@@ -179,8 +179,9 @@
             "type": "weighted_target",
             "target": "minecraft:grass",
             "output": {
-                "minecraft:dead_bush": 1,
-                "minecraft:air": 1
+                "minecraft:dead_bush": 1200,
+                "additionaltransmogs:gilded_bush[discovered=false]": 1,
+                "minecraft:air": 1200
             }
         },
         {

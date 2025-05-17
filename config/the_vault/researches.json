@@ -153,7 +153,13 @@
       },
       "name": "Functional Storage",
       "cost": 2,
-      "usesKnowledge": true
+      "usesKnowledge": true,
+      "discoversModels": [
+        "the_vault:gear/armor/arcade/helmet",
+        "the_vault:gear/armor/arcade/chestplate",
+        "the_vault:gear/armor/arcade/leggings",
+        "the_vault:gear/armor/arcade/boots"
+      ]
     },
     {
       "modIds": [
