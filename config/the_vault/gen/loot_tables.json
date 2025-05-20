@@ -581,6 +581,11 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/village.json"
     },
     {
+      "id": "the_vault:cove_unique_crate",
+      "name": "Cove Unique Crate",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/cove.json"
+    },
+    {
       "id": "the_vault:gilded_dungeon_barrel",
       "name": "Gilded Dungeon Barrel",
       "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/gilded.json"
