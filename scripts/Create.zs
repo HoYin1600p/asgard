@@ -270,3 +270,6 @@ craftingTable.addShaped("create_schematic_table", <item:create:schematic_table>,
 ]);
 
 craftingTable.addShapeless("create_empty_schematic", <item:create:empty_schematic>, [<item:the_vault:magic_silk>, <tag:items:forge:dyes/light_blue>]);
+
+<recipetype:create:item_application>.addRecipe("enchanted_fire_in_world", [<item:vaultadditions:enchanted_fire>],
+<item:minecraft:soul_campfire>, <item:the_vault:soul_shard>);
