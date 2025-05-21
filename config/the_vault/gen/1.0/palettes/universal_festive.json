@@ -194,9 +194,13 @@
       "type": "weighted_target",
       "target": "minecraft:grass",
       "output": {
-        "auxiliaryblocks:gumdrop_red": 1,
-        "auxiliaryblocks:gumdrop_green": 1,
-        "auxiliaryblocks:gumdrop_purple": 1
+        "auxiliaryblocks:gumdrop_red": 800,
+        "auxiliaryblocks:gumdrop_green": 800,
+        "auxiliaryblocks:gumdrop_purple": 800,
+        "additionaltransmogs:blue_flower[discovered=false]": 1,
+        "additionaltransmogs:red_flower[discovered=false]": 1,
+        "additionaltransmogs:green_flower[discovered=false]": 1,
+        "additionaltransmogs:yellow_flower[discovered=false]": 1
       }
     },
     {

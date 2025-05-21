@@ -3526,7 +3526,7 @@ hash = "d147e63c1bae664818c46b1867d5fb361364c7d660048e781a953012a6c08504"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/focus.json"
-hash = "42639bfbdfe3d2b33d2191d4b611c723ce80d1171547078b97b3f1fe1028ff99"
+hash = "22d886d907157e52ebb7844e6825eb20f2e1702b96aee4433e329e27ab26e0a3"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/helmet.json"
@@ -6250,7 +6250,7 @@ hash = "5dd11649865f6a4428f01822729a0eebfbbc2b8f24eb02c6837160498e1160da"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/universal_ancient_tenos.json"
-hash = "8277c1ae1f2405aeecc9869c6d8a0fbf13508ed1de738fb02934d857de0950b1"
+hash = "9eb9802a622b556abce347c078750ba8df447019a4befa9e8ed57630997ff7c7"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/universal_ancient_velara.json"
@@ -6342,7 +6342,7 @@ hash = "ea008e28f5917e3cabfad7506c0b0b1057b50d431a32721b910f7481300b4f2e"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/universal_festive.json"
-hash = "24f185aa8d7de3176d00c8c58c2bfb5eb57d4ad9bf28a51213fc996cf45c5f4e"
+hash = "528d76028ab1052946b59cb4f73288d56496e196e99e3de986a57b92cf2a4535"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/universal_flesh.json"
@@ -6354,7 +6354,7 @@ hash = "daec77bd3b6252da0338d1645de9f56b42c2435f1c7646ff430ef8c67bfec12c"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/universal_gingerbread.json"
-hash = "88f15da0e9a80fcb982c7b4ce4c752e4c7e0d54e0ca48afacdb39b66fab53017"
+hash = "e86a0eeb2cd529570b405e99887596f6091c5d0a8dad25f04f284bced75659b4"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/universal_haunted.json"
@@ -16598,7 +16598,7 @@ hash = "dcf2d161601ba964a5524d2859c9473f9368b773d417faf7b55aa3ad0e9c30ca"
 
 [[files]]
 file = "config/the_vault/quest/quests.json"
-hash = "39b394ca9ab481fb46503269b8450d2ccb0505d4afc0760f169a6d58df8e9bd5"
+hash = "65be29d5597c664b6dd1ee32379d0a6c92c66dd2ab3def08f905475933c41544"
 
 [[files]]
 file = "config/the_vault/quest/sky_quests.json"
@@ -16610,7 +16610,7 @@ hash = "8fe2b15fa3ec3c71a9467a4587c3a6eb658d2b680e49f197605a2a18ac0ae1e8"
 
 [[files]]
 file = "config/the_vault/raid_actions.json"
-hash = "3382490ed1118b82aad857798ea7fd7597100d7084dcb48cb7a3fe3251b809dc"
+hash = "0597fb9169e2c930b106cd3fab4cbd99d7bfa46eef306db7c42a54cdefd65e30"
 
 [[files]]
 file = "config/the_vault/recipes/catalyst_recipes.json"
@@ -16794,7 +16794,7 @@ hash = "225bae42f4318642842cbbfd405f36adf572b260c66ed850065282e4052c9bb4"
 
 [[files]]
 file = "config/the_vault/shop_pedestal.json"
-hash = "1c8d15ee5858e9b32639b25b8869c1479d6c3f5b475c76cee51c941412c983fe"
+hash = "c04302947aaad80bddd3ea505d24998406f538596405c8a6bd9811d77112e29e"
 
 [[files]]
 file = "config/the_vault/skill_altar.json"
@@ -17302,7 +17302,7 @@ hash = "dfeafd011153374883e5201028d3ce770fc2d96237706fa89d9c1b478cd72d0b"
 
 [[files]]
 file = "config/vaultlootbeams.json"
-hash = "c73d34a484c4ea4ef6542e3cc28d819ec90f033042d3808af105cc8ecf325c1a"
+hash = "b21e8fed2a97c32eda647dc7d5dde39a8e70cc4ab0478788fb97ddacaa15e320"
 
 [[files]]
 file = "config/vaultmapper-client.toml"
@@ -18730,39 +18730,47 @@ hash = "8e17f5053b7d0196349ff08e4bb17ac6e0b481c04fcc6aaabdb959e7725e911e"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/treasure_doors/ashium.png"
-hash = "1d007ae401ef683f925e498b0be4714edfdf5afe8e70b376be4391c30bd6eb70"
+hash = "7383d17222478a4df7a25d9eab931dddb3a6c9d67bef5254d642e6dfb2e61dc7"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/treasure_doors/bomignite.png"
-hash = "1742b5fb8c3c8a8d4314b89a1e006da1502fcbd2f6f74b76b088a710c9c84727"
+hash = "bb9569d7bd6fe60d8c2273d13d9a53b649610162886fd76889f57c714ab2b6a2"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/block/treasure_doors/echo.png"
+hash = "4060f0df4d28d8a424628721dbfc0fc1ea6a8d7124954ba69329a1437f742906"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/treasure_doors/gorginite.png"
-hash = "8b6463be7ec2ceea11b94e66d9c8c07be88acdc7b70a40b7f074a5973c592d1e"
+hash = "92fec43742cedede5249677b9a8490f71cd10e35603995f21e86526f92f1ab9e"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/treasure_doors/iskallium.png"
-hash = "ad9166bbd3de1b0dae81efe719f71f8cdadfa0069a2d25fc1cb3e7433a5be97c"
+hash = "b18427a98bd072eb32aea29484130dc6e48bede61cdc4ee40e7ad0200e64abfa"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/treasure_doors/petzanite.png"
-hash = "996a44f293f5691584f488409a0a0d1b178bc96015c176156afc83794b41bc9f"
+hash = "1d04e57f7effb24af3800e90b2db3e51390d1d5d96dfc2144060bd31ef72012c"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/block/treasure_doors/puffium.png"
+hash = "5a228e52972d9825bdf35fe9451584d6d34d741cb804ed6613623376fb860ea7"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/treasure_doors/sparkletine.png"
-hash = "0649a26d92c87908a755bd109dd2fa61ce58cca46db8f7834491d9c5e022f06e"
+hash = "12a99200cb8a46b58c2dbf8b96396c5de026ec9d7996ebc826cf91ce3373e49b"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/treasure_doors/tubium.png"
-hash = "8db640ae797afae716fd1ed2beff629d6481fe9180d0089a950120be4e5cfed1"
+hash = "faf236f44f2bc5745708619bcaf29fa681182daa7b074d3a6d5081b4f8477bbd"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/treasure_doors/upaline.png"
-hash = "e034fbbc893bc9773a03c775b3fc61164f78d972c442e21674b7fc45845f6c73"
+hash = "0d27ef81bd2f4db0585b37649351525c98d7e01c2a50fd99b77e7be08a89807f"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/treasure_doors/xenium.png"
-hash = "8c0bfd7ff8e68933486ec848b1cc54fe473011bf6bbb120c46c582dfa4f504c9"
+hash = "e4823d37c7b8c3ff3c69875e14667a8ba4dc4f125670011a032e5bcd37853dad"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/vault_artifact_2.png"
@@ -21915,7 +21923,7 @@ metafile = true
 
 [[files]]
 file = "mods/wolds-vaults-standalone.pw.toml"
-hash = "72de342e7af631f656cd1f83e4ad2a69fa141f8f9974c60d10e0221fb7a817c8"
+hash = "fe447dc854f3bffd1fcd3d2559b48884c228e2e75abb31d86468d3ac6a9bbcab"
 metafile = true
 
 [[files]]
@@ -22293,7 +22301,7 @@ metafile = true
 
 [[files]]
 file = "scripts/00_millennium_scripts.zs"
-hash = "04b995e0b148d555569a78fdccc3becdf08ea6b38e21226a5efa033d57078a70"
+hash = "0c6ed4151f8e42122e2a63574058247664922a9f6b8d0d7fc639bf6c1c333e72"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"

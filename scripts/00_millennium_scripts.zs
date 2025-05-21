@@ -272,6 +272,12 @@ craftingTable.remove(<item:vaultkeychain:keychain>);
 
 // recipe additions
 
+craftingTable.addShaped("infinite_raid_rock", <item:the_vault:crystal_seal_raid_infinite>, [
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:minecraft:totem_of_undying>, <item:the_vault:black_chromatic_steel_ingot>],
+    [<item:minecraft:torch>, <item:the_vault:echo_pog>, <item:minecraft:torch>],
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:minecraft:torch>, <item:the_vault:black_chromatic_steel_ingot>]
+]);
+
 craftingTable.addShaped("treasure_keyring", <item:the_vault:treasure_keyring> , [
         [<item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_piece>, <item:the_vault:chromatic_iron_nugget>],
         [<item:the_vault:key_piece>, <item:the_vault:key_mould>, <item:the_vault:key_piece>],

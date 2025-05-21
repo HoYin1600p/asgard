@@ -880,19 +880,19 @@
       "descriptionData": {
         "description": [
           {
-            "text": "Unlike normal Vault Hunters, coin pouches exist. Coin pouches allow you to store mass amounts of coins. This coin pouch will automatically convert coins.",
+            "text": "Coin pouches allow you to store mass amounts of coins and will automatically convert coins between the different types.",
             "color": "$text"
           },
           {
-            "text": "\n\nThe coin pouch can be equipped in a curios slot and can also have ",
+            "text": "\n\nThe coin pouch can be equipped in a curios slot and comes with ",
             "color": "$text"
           },
           {
-            "text": "soulbound ",
+            "text": "Soulbound",
             "color": "$soulchance"
           },
           {
-            "text": "added if desired.",
+            "text": ".",
             "color": "$text"
           },
           {
@@ -1872,7 +1872,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "As you level up the vault will adapt and present you with new challenges.\n\nLv10 unlocks random Light the Brazier objectives.\n\nLv20 unlocks random Scavenger objectives.\n\nLv40 unlocks random Hunt the Guardians objectives.\n\nLv50 unlocks random Bingo objectives.\n\n",
+            "text": "As you level up the vault will adapt and present you with new challenges.\n\nLv10 unlocks random Light the Brazier objectives.\n\nLv20 unlocks random Scavenger objectives.\n\nLv40 unlocks random Rune Boss objectives.\n\nLv50 unlocks random Bingo objectives.\n\n",
             "color": "$text"
           },
           {
@@ -5285,7 +5285,7 @@
             "color": "$brutal_boss"
           },
           {
-            "text": "objective to a crystal.\n\nSimilar to ",
+            "text": "objective to a crystal.\n\nSimilar to the legacy",
             "color": "$text"
           },
           {
@@ -5293,7 +5293,7 @@
             "color": "$hunt_the_guardian"
           },
           {
-            "text": ", the goal of this objective is to find obelisks and defeat the boss elites that spawn from them.\n\nThese elites will have harsh effects and for every elite you defeat a new modifier will be added to the vault.",
+            "text": " objective, the goal of this objective is to find obelisks and defeat the boss elites that spawn from them.\n\nThese elites will have harsh effects and for every elite you defeat a new modifier will be added to the vault.",
             "color": "$text"
           },
           {
