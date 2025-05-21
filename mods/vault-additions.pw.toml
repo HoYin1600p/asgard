@@ -1,13 +1,7 @@
 name = "Vault Additions"
 filename = "vaultadditions-1.15.0.jar"
-side = "both"
 
 [download]
+url = "https://github.com/JustAHuman-xD/vaultadditions/releases/download/v1.15.0/vaultadditions-1.15.0.jar"
 hash-format = "sha256"
-hash = "5e642f02c26ad8a2d9211bb9ccc2babec2b3d37a7eb14bd7d1166895f3e6d81f"
-mode = "metadata:curseforge"
-
-[update]
-[update.curseforge]
-file-id = 6326116
-project-id = 1166562
+hash = "38435f50fcbe98a5277b266909bcf8c6657063668033cdf327b9f56d1af6db4d"
