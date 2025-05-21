@@ -143,7 +143,7 @@ onEvent('item.registry', event => {
 onEvent('item.registry', event => {
 	event.create('the_vault:ghost_apple')
 	.maxStackSize(8)
-	.tooltip('Gives you Immortality for 30 Seconds but also removes 30 seconds from your vault timer')
+	.tooltip('Gives you Immortality for 30 Seconds but also removes 30 seconds from your vault timer. It also has a 30 second cooldown')
 	.food(food => {
 		food
     		.hunger(0)
@@ -153,10 +153,13 @@ onEvent('item.registry', event => {
       		.alwaysEdible(true)
       		.fastToEat(false)
       		.eaten(ctx => {
+      		    ctx.player.addItemCooldown("the_vault:ghost_apple", 600);
         		ctx.player.tell('§5You Feel Invincible')
         	})
 	})
 })
+
+
 
 onEvent('item.registry', event => {
 	event.create('the_vault:golem_apple')

@@ -4353,6 +4353,10 @@ file = "config/the_vault/gen/1.0/loot_tables/treasure_sand_0_withgear.json"
 hash = "607d96cc26ff5592953dbc7af0de07f0d50cef28f9bd1bf09a508b7b51a7e991"
 
 [[files]]
+file = "config/the_vault/gen/1.0/loot_tables/unique_crates/cove.json"
+hash = "111303d3ee3eea0a1b42f2e934f33bfec11e8a0155b9c0a5b1b09102163e8ab9"
+
+[[files]]
 file = "config/the_vault/gen/1.0/loot_tables/unique_crates/factory.json"
 hash = "4c6b6802d2e4f874c67af2fa71ecb222e6f5bd866a5539346e003800a8ee3685"
 
@@ -4738,7 +4742,7 @@ hash = "2cf9704f132e5fad5fae4347c68da10510d2b34ee08a614098c00a4823df61b9"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/cove/base.json"
-hash = "e344afa44098ae911f25cabaebc2c86bf13148ccf12893ab99e1a8aea985816e"
+hash = "41da62d11fdfcf0aa89aafbdc14b4d35a5386fc451588d4b88ac7f036d2cf033"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/crystal_caves/base.json"
@@ -12110,7 +12114,11 @@ hash = "fb8271fd54c9551609074581b161a7e60ef19a0000737f938abf6c5f5190e0f4"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/cove1.nbt"
-hash = "29a5009f4c83fd404edda32fb1ea960f1c2d3c4b42d34074f1a8525660051bee"
+hash = "83eb9fac74e0a311de863b8ab71b582ad35a1c0e9079ba1540c2670691450034"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/cove2.nbt"
+hash = "1cf41d2d72724d4fd6cd5188a1348056c5bfe6f9700f33a944c47c54ab538354"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/cozy1.nbt"
@@ -12146,11 +12154,11 @@ hash = "01173fecde5ca75196a5a62623c579c82cdb788a47b836a0835eb42fd8fa916c"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/mush_room1.nbt"
-hash = "a2a6f4a0d8bf089f73da2a6caf7705f0ddb487dfcee45f88bad0c9c3df09a7a0"
+hash = "79b79ba867ee9c4a8e83d709ba419e8f1a2c8db745abd28494d2bcb1d89dcd59"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/mush_room2.nbt"
-hash = "79b79ba867ee9c4a8e83d709ba419e8f1a2c8db745abd28494d2bcb1d89dcd59"
+hash = "b026a11c655f2c0f77f0366302ed1f8f2b6c3eecb03a65e3d7135a04fbe36e25"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/omega_digsite1.nbt"
@@ -13870,7 +13878,7 @@ hash = "e75e05dfac2ab3ad5e1a8c791bdfcb96767d9e1a1f2d3e4efe2980027bfd78be"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/challenge_rooms.json"
-hash = "1473175e591b138f6babe289102061de404a54f3f986657e0e98970eb830c3c9"
+hash = "62ea67e506cfc01a13741dbf0318795576b99955a9d2060176463926202b1a93"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/deep_mesa_common_rooms.json"
@@ -14738,7 +14746,7 @@ hash = "b41678434864c717f5f69dea93258869712d952d185bc40bae56620f04561867"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/cove.json"
-hash = "05e212895eadd49cf962fadd824764c085d79364921fba0d26ceea7e01e15250"
+hash = "4996b7b1b99774b5026bb8612a3fee5d779011349559c1bb94c1c51ea88022ac"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/cube.json"
@@ -14786,7 +14794,7 @@ hash = "188f556d28f665c4047d55fef9167454eae257e401f48ee0d4cf79c87c465874"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/mush_room.json"
-hash = "9a2fec42ca640f41c658ffeda0d9d595ebfa8ff41ae733521a44ef9123cdf96e"
+hash = "bb91bbd3f4c09aeff367620b4fb9239392eb8e31f7179c93ad917eedb16928c0"
 
 [[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/painting.json"
@@ -16370,7 +16378,7 @@ hash = "998e8a9faaebcab0e2ff127569dc16fbc60e24cce07094c65837dd8c768aef2c"
 
 [[files]]
 file = "config/the_vault/gen/loot_tables.json"
-hash = "cca903205db8c657759e13b31a33ba3d759ebf46e2d96adad50fe8b1488a46af"
+hash = "5fdbf5f65b9f85c09ce5ede782d3ac60fddb33219d265ab8ae9e0ebe86b38339"
 
 [[files]]
 file = "config/the_vault/gen/palettes.json"
@@ -16382,7 +16390,7 @@ hash = "dd9d00c449348891aa34cde718fe9a5a0f5c271f1d09bf15071841908605b171"
 
 [[files]]
 file = "config/the_vault/gen/templates.json"
-hash = "8a526fce831b95cd7a4601dd2b040ca3b244939db1855e3c8f2832e3e980423f"
+hash = "4c8bdd3a6d2a518c3e4e540e30496f7efc1a1cdc75701a98910510f19d7d8cad"
 
 [[files]]
 file = "config/the_vault/gen/themes.json"
@@ -16866,7 +16874,7 @@ hash = "0ff91556602b68d3b308d0d8023218da4a856897dee1c42053f0be86d30e79f8"
 
 [[files]]
 file = "config/the_vault/tooltip.json"
-hash = "dd8a149f89ba7675137c3b2469f4fc49830c5b7042bc43121c4ade19021f07af"
+hash = "c227f79d748cc1bd7d86aeb125725d53a2028a1297b658478e8878f211677acc"
 
 [[files]]
 file = "config/the_vault/tooltip_config.json"
@@ -17121,6 +17129,10 @@ file = "config/the_vault/vaultadditions_power_gui_styles.json"
 hash = "4af229ae328d101c988f1e1859054c3e217e79613c5ae9bead74eecbc34df14e"
 
 [[files]]
+file = "config/the_vault/vaultadditions_raid_plaque_tiers.json"
+hash = "3e617b5154642a0ab9508769af795b63e814ea781ad50c8ff0371e9384cb4593"
+
+[[files]]
 file = "config/the_vault/vaultadditions_statue_arena.json"
 hash = "74895322cc2755f63ee87b3e594efdbff765ac1797ea71d8e76582ed528ebae2"
 
@@ -17143,6 +17155,10 @@ hash = "d645246e6f98f147479afb79592fbc961acde0779116915cfa9f1139149f58d9"
 [[files]]
 file = "config/the_vault/vaultadditions_statues.json"
 hash = "0a1528f7eef9a0990099c780367e8574d5d78cbaaf1884b093161619aa555c09"
+
+[[files]]
+file = "config/the_vault/vaultadditions_transmog_effects.json"
+hash = "23880b0cbc3c09c169ad9605f50831a42fc50492534bdb0223e87c85f7a10c1e"
 
 [[files]]
 file = "config/the_vault/vaultar_box.json"
@@ -18786,7 +18802,7 @@ hash = "803f5c34189d7eb0ba4d24ae8e631cc14c91612b52b591e5252df753f21b9628"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/block/vendor_door/top.png"
-hash = "2a779b04f62f9a99ba7c4024ff6f8d395ae8f81b961224a96a12cb1cb8684fc2"
+hash = "11d4e362f22db57813b6f15477004d969b12490322f8739d871a377d896c5fe3"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/entity/bed/velvet.png"
@@ -20410,7 +20426,7 @@ hash = "4a0f0a326f879d9f5186678727cbb05539bd82bb150985f5a70c5d50eeb135ec"
 
 [[files]]
 file = "kubejs/startup_scripts/vault_consumables.js"
-hash = "d8a3eb7cc443f57ff25359a5141bf25b6636d3954870cd5c89f8f7422efec4f3"
+hash = "fb1b5e30d15b9067f172da7dde7218c1119cc7ba10d0f47d023150dba9c69411"
 
 [[files]]
 file = "kubejs/startup_scripts/wirts_leg.js"
@@ -20436,7 +20452,7 @@ metafile = true
 
 [[files]]
 file = "mods/additionaltransmogs-1.18.3.jar"
-hash = "5217352b8e19d4b75c1d3aaff99b0198351246685895c16ac3ae9948d8f363e0"
+hash = "25436d3f0b1944882e35d55b01b8f8cdd91c1c386ed6333919493715a123b47e"
 
 [[files]]
 file = "mods/ae2-things-forge.pw.toml"
@@ -21899,7 +21915,7 @@ metafile = true
 
 [[files]]
 file = "mods/wolds-vaults-standalone.pw.toml"
-hash = "0272ed26339f9750392770fd162950ea816c4fb739e9ce16c1773691ffe878cf"
+hash = "72de342e7af631f656cd1f83e4ad2a69fa141f8f9974c60d10e0221fb7a817c8"
 metafile = true
 
 [[files]]
