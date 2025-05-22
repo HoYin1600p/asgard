@@ -1053,6 +1053,19 @@
           }
         },
         "cost": 1
+      },
+      "the_developer": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Developer",
+            "color": "#61f60c"
+          },
+          "CHAT": {
+            "text": " the Developer",
+            "color": "#61f60c"
+          }
+        },
+        "cost": 1
       }
     }
   }

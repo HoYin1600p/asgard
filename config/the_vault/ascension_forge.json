@@ -381,13 +381,6 @@
     {
       "stack": {
         "item": "the_vault:title_scroll",
-        "nbt": "{Affix:\"PREFIX\",TitleId:\"grand\", display:{Name:\u0027{\"text\":\"Prefix Title: \", \"extra\":[{\"text\":\"Grand\",\"color\":\"#AAAAAA\"}]}\u0027}}"
-      },
-      "cost": 2
-    },
-    {
-      "stack": {
-        "item": "the_vault:title_scroll",
         "nbt": "{Affix:\"PREFIX\",TitleId:\"commander\", display:{Name:\u0027{\"text\":\"Prefix Title: \", \"extra\":[{\"text\":\"Commander\",\"color\":\"#AAAAAA\"}]}\u0027}}"
       },
       "cost": 2
@@ -395,21 +388,7 @@
     {
       "stack": {
         "item": "the_vault:title_scroll",
-        "nbt": "{Affix:\"PREFIX\",TitleId:\"mega\", display:{Name:\u0027{\"text\":\"Prefix Title: \", \"extra\":[{\"text\":\"Mega\",\"color\":\"#AAAAAA\"}]}\u0027}}"
-      },
-      "cost": 2
-    },
-    {
-      "stack": {
-        "item": "the_vault:title_scroll",
         "nbt": "{Affix:\"PREFIX\",TitleId:\"humble\", display:{Name:\u0027{\"text\":\"Prefix Title: \", \"extra\":[{\"text\":\"Humble\",\"color\":\"#AAAAAA\"}]}\u0027}}"
-      },
-      "cost": 2
-    },
-    {
-      "stack": {
-        "item": "the_vault:title_scroll",
-        "nbt": "{Affix:\"PREFIX\",TitleId:\"slayer\", display:{Name:\u0027{\"text\":\"Prefix Title: \", \"extra\":[{\"text\":\"Slayer\",\"color\":\"#f04848\"}]}\u0027}}"
       },
       "cost": 2
     },
@@ -466,20 +445,6 @@
       "stack": {
         "item": "the_vault:title_scroll",
         "nbt": "{Affix:\"SUFFIX\",TitleId:\"the_wise\", display:{Name:\u0027{\"text\":\"Suffix Title: \", \"extra\":[{\"text\":\"The Wise\",\"color\":\"#AAAAAA\"}]}\u0027}}"
-      },
-      "cost": 2
-    },
-    {
-      "stack": {
-        "item": "the_vault:title_scroll",
-        "nbt": "{Affix:\"SUFFIX\",TitleId:\"the_gray\", display:{Name:\u0027{\"text\":\"Suffix Title: \", \"extra\":[{\"text\":\"The Gray\",\"color\":\"#AAAAAA\"}]}\u0027}}"
-      },
-      "cost": 2
-    },
-    {
-      "stack": {
-        "item": "the_vault:title_scroll",
-        "nbt": "{Affix:\"SUFFIX\",TitleId:\"the_terrible\", display:{Name:\u0027{\"text\":\"Suffix Title: \", \"extra\":[{\"text\":\"The Terrible\",\"color\":\"#AAAAAA\"}]}\u0027}}"
       },
       "cost": 2
     },
@@ -885,14 +850,14 @@
     {
       "stack": {
         "item": "the_vault:title_scroll",
-        "nbt": "{Affix:\"SUFFIX\",TitleId:\"the_ultimate_flexer\", display:{Name:\u0027{\"text\":\"Suffix Title: \", \"extra\":[{\"text\":\" the Ultimate Flexer\",\"color\":\"#ffe564\"}]}\u0027}}"
+        "nbt": "{Affix:\"SUFFIX\",TitleId:\"the_broken\", display:{Name:\u0027{\"text\":\"Suffix Title: \", \"extra\":[{\"text\":\" the Broken\",\"color\":\"#54fbfb\"}]}\u0027}}"
       },
       "cost": 2
     },
     {
       "stack": {
         "item": "the_vault:title_scroll",
-        "nbt": "{Affix:\"SUFFIX\",TitleId:\"the_broken\", display:{Name:\u0027{\"text\":\"Suffix Title: \", \"extra\":[{\"text\":\" the Broken\",\"color\":\"#54fbfb\"}]}\u0027}}"
+        "nbt": "{Affix:\"SUFFIX\",TitleId:\"the_developer\", display:{Name:\u0027{\"text\":\"Suffix Title: \", \"extra\":[{\"text\":\" the Developer\",\"color\":\"#61f60c\"}]}\u0027}}"
       },
       "cost": 2
     }
