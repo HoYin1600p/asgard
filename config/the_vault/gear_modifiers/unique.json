@@ -2285,6 +2285,92 @@
           }
         ]
       },
+      { "attribute": "the_vault:attack_damage",
+        "group": "BaseAttackDamage",
+        "identifier": "the_vault:base_attack_damage_mace",
+        "tiers": [
+           {
+            "minLevel": 0,
+            "maxLevel": 19,
+            "weight": 10,
+            "value": {
+              "min": 30.0,
+              "max": 40.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 20,
+            "maxLevel": 49,
+            "weight": 10,
+            "value": {
+              "min": 41.0,
+              "max": 50.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 35,
+            "maxLevel": 64,
+            "weight": 10,
+            "value": {
+              "min": 51.0,
+              "max": 60.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -79,
+            "weight": 10,
+            "value": {
+              "min": 61.0,
+              "max": 70.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -89,
+            "weight": 10,
+            "value": {
+              "min": 71.0,
+              "max": 79.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 80,
+            "maxLevel": 99,
+            "weight": 10,
+            "value": {
+              "min": 80.0,
+              "max": 85.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 90,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 86.0,
+              "max": 92.0,
+              "step": 0.5
+            }
+          },
+          {
+            "minLevel": 100,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 93.0,
+              "max": 100.0,
+              "step": 0.5
+            }
+          }
+        ]
+      },
 
       {
         "attribute": "the_vault:trident_channeling",

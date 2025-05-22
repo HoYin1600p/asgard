@@ -22,8 +22,6 @@
       "SWORD": [
         "the_vault:iskallibur",
         "the_vault:inflated_justice",
-        "the_vault:crystal_double_blade",
-        "the_vault:honey_stick",
         "the_vault:honey_stick",
         "the_vault:everfrost",
         "the_vault:everflame",
@@ -31,8 +29,7 @@
         "the_vault:mineral_greatsword",
         "the_vault:grass_blade",
         "the_vault:aurora_scissors",
-        "the_vault:young_kitsune",
-        "the_vault:dragon_sword"
+        "the_vault:young_kitsune"
       ],
       "SHIELD": [
         "the_vault:grim",
@@ -454,39 +451,6 @@
     {
       "title": {
         "description": {
-          "text": "Crystal Blade",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "Keep the mobs away from you with ease by ",
-            "color": "$text"
-          },
-          {
-            "text": "shocking",
-            "color": "$shocking"
-          },
-          {
-            "text": " them with most strikes.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nFound in: ",
-            "color": "$text"
-          },
-          {
-            "text": "X-Mark Rooms",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:crystal_double_blade"
-    },
-    {
-      "title": {
-        "description": {
           "text": "Honey Stick",
           "color": "#7D520E"
         }
@@ -691,31 +655,6 @@
         ]
       },
       "uniqueId": "the_vault:young_kitsune"
-    },
-    {
-      "title": {
-        "description": {
-          "text": "Dragon Sword",
-          "color": "#7D520E"
-        }
-      },
-      "description": {
-        "description": [
-          {
-            "text": "A description goes here",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nFound in: ",
-            "color": "$text"
-          },
-          {
-            "text": "Dragon Rooms",
-            "color": "#7D520E"
-          }
-        ]
-      },
-      "uniqueId": "the_vault:dragon_sword"
     },
 
     {
@@ -1044,11 +983,11 @@
             "color": "$text"
           },
           {
-            "text": "\n\nFound in: ",
+            "text": "\n\nDropped by: ",
             "color": "$text"
           },
           {
-            "text": "Dragon Rooms",
+            "text": "Dragons",
             "color": "#7D520E"
           }
         ]
@@ -1422,7 +1361,7 @@
             "color": "$text"
           },
           {
-            "text": "Bounties",
+            "text": "Coves",
             "color": "#7D520E"
           }
         ]
