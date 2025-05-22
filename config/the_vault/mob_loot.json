@@ -17,6 +17,15 @@
           "probability": 1.0
         }
       ]
+    },
+   "the_vault:the_vault:crystal_bruiser_guardian": {
+      "lootTables": [
+        {
+          "minLevel": 0,
+          "lootTable": "the_vault:crystal_guardian",
+          "probability": 1.0
+        }
+      ]
     }
   },
   "overworldLoot": {

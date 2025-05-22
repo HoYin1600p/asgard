@@ -4414,7 +4414,7 @@ hash = "ca757486c5b84a19845871d8762134700c249262d50cb874847a5d98a233f1b4"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/arcade/base.json"
-hash = "6623317d34de502099076103049f9b295d7663747196972026fca919ee68917d"
+hash = "c935165ee577ce8ccf9f5a4d78ce1d2d49e2ce238c4521c3d5f144ec0d421390"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/arcade/blue.json"
@@ -15713,6 +15713,10 @@ file = "config/the_vault/gen/1.0/template_pools/vault/treasure_doors/echo_room.j
 hash = "734367163f288486179aac017fab591c3f552306e2e0f0d3aadaaf1186ba8f1a"
 
 [[files]]
+file = "config/the_vault/gen/1.0/template_pools/vault/treasure_rooms/echo_treasure_room.json"
+hash = "838176b1e3a38d9dd04c42bcfe5328cbc50029b9129cb330cd55dbaae03f839e"
+
+[[files]]
 file = "config/the_vault/gen/1.0/template_pools/vault/treasure_rooms/treasure_rooms.json"
 hash = "5653baf581d0b5b73c0695b00ded138db3c395b98b3b97e09d12ba296ef0fbb1"
 
@@ -16474,7 +16478,7 @@ hash = "0b62f8fef705fde960907f2b82ad25a803b1303ac349565a0db6efce2010a567"
 
 [[files]]
 file = "config/the_vault/loot_info.json"
-hash = "5cb9816fba3962560d73f7d02bfdd7414c039cb77c82261ff593d0b0344b4767"
+hash = "5251b8440dba8e83a2e75ba4e79f74e5c600ff89cd0ca371a408e78ee479643b"
 
 [[files]]
 file = "config/the_vault/loot_table.json"
@@ -16494,7 +16498,7 @@ hash = "507b5fb3a45827f47ab12660e0dd88a1734541e871db52bceed36565cff64e13"
 
 [[files]]
 file = "config/the_vault/mob_loot.json"
-hash = "550ea30dce08671e49ae14074ae70821308e9f8cb307f20180dbf3a71bfb1768"
+hash = "06b4999c7565b43332e8fcb3525b3a9561c0273d2031e78c0f4190048a73efa6"
 
 [[files]]
 file = "config/the_vault/mod_box.json"
@@ -18818,7 +18822,7 @@ hash = "c60d50d777405eb20d6fc7dc7feeb83b019f68e76587ea1f763f482a5649969a"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/gui/abilities/bladefrenzy.png"
-hash = "cb4c360ff0c6af462829430ecc2895c63967c737f7455f181d641ba165291cf1"
+hash = "78e713b73ae9142ca6449ebfb8874403fc2809049102f3e380127f3fe848672d"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/gui/abilities/fortify.png"
@@ -19038,7 +19042,7 @@ hash = "d47cb7b5d54427caa6f659527e6d806878a56f7bb9777d83844875244c4ae608"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/card/icon/bladefrenzy.png"
-hash = "cb4c360ff0c6af462829430ecc2895c63967c737f7455f181d641ba165291cf1"
+hash = "78e713b73ae9142ca6449ebfb8874403fc2809049102f3e380127f3fe848672d"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/card/icon/colossus.png"
