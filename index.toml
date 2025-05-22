@@ -4742,7 +4742,7 @@ hash = "2cf9704f132e5fad5fae4347c68da10510d2b34ee08a614098c00a4823df61b9"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/cove/base.json"
-hash = "41da62d11fdfcf0aa89aafbdc14b4d35a5386fc451588d4b88ac7f036d2cf033"
+hash = "5dfc136822ed6f2ccd50af20c487ad27ecd8b198fb3c314065228ef140075f6f"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/crystal_caves/base.json"
@@ -11825,10 +11825,6 @@ file = "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/zombie_small.nbt
 hash = "f8f1df80e7198180c4791296c4a452c3f5dd38d3426087a6b44d533b34122993"
 
 [[files]]
-file = "config/the_vault/gen/1.0/structures/vault/echo_treasure_rooms/treasure1.nbt"
-hash = "024d49c1e71133add931e09956b4bc437ca02d7e25ad9b046834a44eb4cc7305"
-
-[[files]]
 file = "config/the_vault/gen/1.0/structures/vault/objectives/objective1.nbt"
 hash = "b4dae218664075d309a65de23503615fa111e0c33a38291ae0b4aed2b972eee7"
 
@@ -11882,7 +11878,7 @@ hash = "946518b7851ec950ea863b4e4c8c9edade1bdcaf25b960288f0a49c624844618"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/dragon82.nbt"
-hash = "909669986b2e4d5c36e64bb58ad86bc41ad91598883f380dd87ab9c8d4120b1c"
+hash = "3dafa3fecff2a3b47a3220daa978d06f82c22adc7c47861aae2135595500da59"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/challenge/factory1.nbt"
@@ -12235,6 +12231,10 @@ hash = "bfe832652558f1884d8065fea24f688ab1aef2a228686e9f2ed78c7113b2ea2a"
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/starts/herald.nbt"
 hash = "2c075f1c460cb47d72a959c428829294a0c37ee03620c523fe1fc4c5b9bfeed1"
+
+[[files]]
+file = "config/the_vault/gen/1.0/structures/vault/starts/millennium_start.nbt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/starts/personal_vault_start1.nbt"

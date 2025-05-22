@@ -5,6 +5,14 @@
       "target": "minecraft:gold_block",
       "output": {
         "the_vault:fools_gold": 25,
+        "minecraft:air": 975
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:netherite_block",
+      "output": {
+        "the_vault:fools_gold": 25,
         "minecraft:water": 975
       }
     },
@@ -123,6 +131,14 @@
     {
       "type": "weighted_target",
       "target": "minecraft:black_concrete",
+      "output": {
+        "the_vault:unique_crate{LootTable:\"the_vault:cove_unique_crate\"}": 1,
+        "minecraft:air": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_glazed_terracotta",
       "output": {
         "the_vault:unique_crate{LootTable:\"the_vault:cove_unique_crate\"}": 1,
         "minecraft:water": 9
