@@ -1,0 +1,127 @@
+[
+  {
+    "weight": 2,
+    "value": {
+      "template": "the_vault:empty",
+      "palettes": []
+    }
+  },
+  {
+    "weight": 1,
+    "pool": [
+
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_boots_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_leggings_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_chest_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_helmet_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 0,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_sword_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_totem_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_cata_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_omega_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_mod_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_mystery_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_bronze_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_silver_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_gold_hanging",
+          "palettes": [
+          ]
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/pixel/pixel_platinum_hanging",
+          "palettes": [
+          ]
+        }
+      }
+    ]
+  }
+]

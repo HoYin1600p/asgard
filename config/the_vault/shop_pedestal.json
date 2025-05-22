@@ -161,6 +161,18 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:rang",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 12,
+            "MAX_COST": 16
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:knowledge_star"
             },
             "CURRENCY": "the_vault:vault_gold",
@@ -177,11 +189,71 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everfrost\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everflame\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:hexblade\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:grass_blade\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:mineral_greatsword\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:capstone_pylon_hunter"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 80,
-            "MAX_COST": 160
+            "MIN_COST": 64,
+            "MAX_COST": 128
           },
           "weight": 12
         },
@@ -202,8 +274,8 @@
               "item": "woldsvaults:capstone_frenzy"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 12,
-            "MAX_COST": 18
+            "MIN_COST": 64,
+            "MAX_COST": 128
           },
           "weight": 10
         },
@@ -213,8 +285,8 @@
               "item": "woldsvaults:capstone_prosperous"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 80,
-            "MAX_COST": 160
+            "MIN_COST": 64,
+            "MAX_COST": 128
           },
           "weight": 7
         },
@@ -398,6 +470,18 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:rang",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 16,
+            "MAX_COST": 24
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:inscription",
               "nbt": "{pool:\"the_vault:bounty\"}"
             },
@@ -451,6 +535,28 @@
             "MAX_COST": 64
           },
           "weight": 20
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:jade_apple"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 48,
+            "MAX_COST": 96
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:ghost_apple"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 96,
+            "MAX_COST": 192
+          },
+          "weight": 10
         },
         {
           "value": {
@@ -614,6 +720,66 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everfrost\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everflame\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:hexblade\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:grass_blade\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:mineral_greatsword\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "woldsvaults:etched_vault_layout",
               "nbt": "{\"layout\": \"polygon\", tunnel: 1, value: 6}"
             },
@@ -770,6 +936,18 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:booster_pack",
+              "nbt": "{\"id\": \"the_vault:merchant_pack\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 36
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:loot_sack",
               "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
             },
@@ -809,8 +987,8 @@
               "item": "the_vault:capstone_pylon_hunter"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 80,
-            "MAX_COST": 160
+            "MIN_COST": 64,
+            "MAX_COST": 128
           },
           "weight": 12
         },
@@ -831,8 +1009,8 @@
               "item": "woldsvaults:capstone_frenzy"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 12,
-            "MAX_COST": 18
+            "MIN_COST": 64,
+            "MAX_COST": 128
           },
           "weight": 10
         },
@@ -842,8 +1020,8 @@
               "item": "woldsvaults:capstone_prosperous"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 80,
-            "MAX_COST": 160
+            "MIN_COST": 64,
+            "MAX_COST": 128
           },
           "weight": 7
         },
@@ -1049,6 +1227,18 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:rang",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 32
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:inscription",
               "nbt": "{pool:\"the_vault:bounty\"}"
             },
@@ -1102,6 +1292,28 @@
             "MAX_COST": 64
           },
           "weight": 20
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:jade_apple"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 48,
+            "MAX_COST": 96
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:ghost_apple"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 96,
+            "MAX_COST": 192
+          },
+          "weight": 10
         },
         {
           "value": {
@@ -1354,6 +1566,90 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:card_deck",
+              "nbt": "{id:\"Millennium\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 64,
+            "MAX_COST": 128
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:card_deck",
+              "nbt": "{id:\"Vaulthalla\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 64,
+            "MAX_COST": 128
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everfrost\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everflame\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:hexblade\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 10
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:grass_blade\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:sword",
+              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:mineral_greatsword\",\"the_vault:gear_roll_type\":\"Unique\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 128,
+            "MAX_COST": 256
+          },
+          "weight": 5
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "woldsvaults:etched_vault_layout",
               "nbt": "{\"layout\": \"polygon\", tunnel: 1, value: 9}"
             },
@@ -1522,6 +1818,18 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:booster_pack",
+              "nbt": "{\"id\": \"the_vault:merchant_pack\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 36
+          },
+          "weight": 16
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:card_deck",
               "nbt": "{id:\"merchant\"}"
             },
@@ -1537,8 +1845,8 @@
               "item": "the_vault:capstone_pylon_hunter"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 80,
-            "MAX_COST": 160
+            "MIN_COST": 64,
+            "MAX_COST": 128
           },
           "weight": 12
         },
@@ -1559,8 +1867,8 @@
               "item": "woldsvaults:capstone_frenzy"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 12,
-            "MAX_COST": 18
+            "MIN_COST": 64,
+            "MAX_COST": 128
           },
           "weight": 10
         },
@@ -1570,8 +1878,8 @@
               "item": "woldsvaults:capstone_prosperous"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 80,
-            "MAX_COST": 160
+            "MIN_COST": 64,
+            "MAX_COST": 128
           },
           "weight": 7
         },
@@ -1616,6 +1924,30 @@
             "CURRENCY": "the_vault:vault_gold",
             "MIN_COST": 24,
             "MAX_COST": 48
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:plushie",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 32
+          },
+          "weight": 40
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:loot_sack",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 32
           },
           "weight": 40
         },
@@ -1775,6 +2107,42 @@
         {
           "value": {
             "OFFER": {
+              "item": "the_vault:battlestaff",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 32
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:trident",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 32
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:rang",
+              "nbt": "{\"the_vault:gear_roll_type_pool\":\"shop_pedestal\",\"the_vault:is_loot\":\"true\"}"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 24,
+            "MAX_COST": 32
+          },
+          "weight": 65
+        },
+        {
+          "value": {
+            "OFFER": {
               "item": "the_vault:inscription",
               "nbt": "{pool:\"the_vault:bounty\"}"
             },
@@ -1828,6 +2196,28 @@
             "MAX_COST": 64
           },
           "weight": 20
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:jade_apple"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 48,
+            "MAX_COST": 96
+          },
+          "weight": 20
+        },
+        {
+          "value": {
+            "OFFER": {
+              "item": "the_vault:ghost_apple"
+            },
+            "CURRENCY": "the_vault:vault_gold",
+            "MIN_COST": 96,
+            "MAX_COST": 192
+          },
+          "weight": 10
         },
         {
           "value": {

@@ -1,0 +1,33 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:chest",
+      "output": {
+        "the_vault:treasure_chest{Generated:0b,LootTable:\"the_vault:treasure_chest_lvl50\"}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:blue_wool",
+      "output": {
+        "the_vault:ore_echo[type=vault_stone,generated=true]": 4,
+        "auxiliaryblocks:black_crystal": 48,
+        "auxiliaryblocks:indigo_crystal": 48
+      }
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "minecraft:yellow_wool",
+          "output": {
+            "the_vault:treasure_pedestal{Generated:0b,LootTable:\"the_vault:treasure_chest_stand_lvl50\"}": 1
+          }
+        }
+      ]
+    }
+  ]
+}

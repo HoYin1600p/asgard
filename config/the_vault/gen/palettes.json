@@ -176,6 +176,46 @@
       "1.0": "config/the_vault/gen/1.0/palettes/universal_blood_ash.json"
     },
     {
+      "id": "the_vault:universal_dreadlands_day",
+      "name": "Universal Dreadlands Day",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_dreadlands_day.json"
+    },
+    {
+      "id": "the_vault:universal_dreadlands_night",
+      "name": "Universal Dreadlands Night",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_dreadlands_night.json"
+    },
+    {
+      "id": "the_vault:universal_ancient_idona",
+      "name": "Universal Ancient Idona",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_ancient_idona.json"
+    },
+    {
+      "id": "the_vault:universal_ancient_tenos",
+      "name": "Universal Ancient Tenos",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_ancient_tenos.json"
+    },
+    {
+      "id": "the_vault:universal_ancient_velara",
+      "name": "Universal Ancient Velara",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_ancient_velara.json"
+    },
+    {
+      "id": "the_vault:universal_ancient_wendarr",
+      "name": "Universal Ancient Wendarr",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_ancient_wendarr.json"
+    },
+    {
+      "id": "the_vault:universal_autumn_cherry_grove",
+      "name": "Universal Autumn Cherry Grove",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_autumn_cherry_grove.json"
+    },
+    {
+      "id": "the_vault:universal_aberrant_garden",
+      "name": "Universal Aberrant Garden",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_aberrant_garden.json"
+    },
+    {
       "id": "the_vault:universal_aurora_cave",
       "name": "Universal Aurora Cave",
       "1.0": "config/the_vault/gen/1.0/palettes/universal_aurora_cave.json"
@@ -254,6 +294,11 @@
       "id": "the_vault:generic/coin_stack_placeholder",
       "name": "Coin Stack Placeholder",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/coin_stack_placeholder.json"
+    },
+    {
+      "id": "the_vault:generic/oasis_coin_stack_placeholder",
+      "name": "Oasis Coin Stack Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/oasis_coin_stack_placeholder.json"
     },
     {
       "id": "the_vault:raw/coin_stack_placeholder",
@@ -476,6 +521,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/base_void.json"
     },
     {
+      "id": "the_vault:crystal_caves/base_dread",
+      "name": "Dread Crystal Caves Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/base_dread.json"
+    },
+    {
       "id": "the_vault:crystal_caves/blue",
       "name": "Crystal Caves Blue",
       "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/blue.json"
@@ -494,6 +544,11 @@
       "id": "the_vault:crystal_caves/blue_void",
       "name": "Void Crystal Caves Blue",
       "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/blue_void.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/blue_dread",
+      "name": "Dread Crystal Caves Blue",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/blue_dread.json"
     },
     {
       "id": "the_vault:crystal_caves/violet",
@@ -516,6 +571,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/violet_void.json"
     },
     {
+      "id": "the_vault:crystal_caves/violet_dread",
+      "name": "Dread Crystal Caves Violet",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/violet_dread.json"
+    },
+    {
       "id": "the_vault:crystal_caves/green",
       "name": "Crystal Caves Green",
       "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/green.json"
@@ -534,6 +594,11 @@
       "id": "the_vault:crystal_caves/green_void",
       "name": "Void Crystal Caves Green",
       "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/green_void.json"
+    },
+    {
+      "id": "the_vault:crystal_caves/green_dread",
+      "name": "Dread Crystal Caves Green",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/green_dread.json"
     },
     {
       "id": "the_vault:village/spawner_settings",
@@ -619,6 +684,11 @@
       "id": "the_vault:dragon/center_spawner",
       "name": "Center Spawner",
       "1.0": "config/the_vault/gen/1.0/palettes/dragon/center_spawner.json"
+    },
+    {
+      "id": "the_vault:dragon/center_spawner82",
+      "name": "Custom Spawner",
+      "1.0": "config/the_vault/gen/1.0/palettes/dragon/center_spawner82.json"
     },
     {
       "id": "the_vault:dragon/corner_spawner",
@@ -806,6 +876,16 @@
       "1.0": "config/the_vault/gen/1.0/palettes/chaos/painting/base.json"
     },
     {
+      "id": "the_vault:pixel/base",
+      "name": "Omega Pixel Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/pixel/base.json"
+    },
+    {
+      "id": "the_vault:chaos/pixel/base",
+      "name": "Chaos Omega Pixel Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/chaos/pixel/base.json"
+    },
+    {
       "id": "the_vault:generic/treasure_door_placeholder",
       "name": "Treasure Door Placeholder",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/treasure_door_placeholder.json"
@@ -821,6 +901,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/treasure_rooms/treasure_rooms.json"
     },
     {
+      "id": "the_vault:treasure_rooms/echo_rooms",
+      "name": "Echo Room",
+      "1.0": "config/the_vault/gen/1.0/palettes/treasure_rooms/echo_rooms.json"
+    },
+    {
       "id": "the_vault:vendor_rooms/vendor_rooms",
       "name": "Vendor Rooms",
       "1.0": "config/the_vault/gen/1.0/palettes/vendor_rooms/vendor_rooms.json"
@@ -829,6 +914,11 @@
       "id": "the_vault:treasure_rooms/treasure_chest",
       "name": "Treasure Chest",
       "1.0": "config/the_vault/gen/1.0/palettes/treasure_rooms/treasure_chest.json"
+    },
+    {
+      "id": "the_vault:treasure_rooms/echo_treasure_chest",
+      "name": "Echo Treasure Chest",
+      "1.0": "config/the_vault/gen/1.0/palettes/treasure_rooms/echo_treasure_chest.json"
     },
     {
       "id": "the_vault:x-mark/base",
@@ -881,6 +971,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/mine/base_void.json"
     },
     {
+      "id": "the_vault:mine/base_dread",
+      "name": "Dread Mine Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/mine/base_dread.json"
+    },
+    {
       "id": "the_vault:painting/lime",
       "name": "Lime",
       "1.0": "config/the_vault/gen/1.0/palettes/painting/lime.json"
@@ -909,6 +1004,41 @@
       "id": "the_vault:painting/yellow",
       "name": "Yellow",
       "1.0": "config/the_vault/gen/1.0/palettes/painting/yellow.json"
+    },
+    {
+      "id": "the_vault:pixel/wooden",
+      "name": "Pixel Wooden",
+      "1.0": "config/the_vault/gen/1.0/palettes/pixel/wooden.json"
+    },
+    {
+      "id": "the_vault:pixel/living",
+      "name": "Pixel Living",
+      "1.0": "config/the_vault/gen/1.0/palettes/pixel/living.json"
+    },
+    {
+      "id": "the_vault:pixel/gilded",
+      "name": "Pixel Gilded",
+      "1.0": "config/the_vault/gen/1.0/palettes/pixel/gilded.json"
+    },
+    {
+      "id": "the_vault:pixel/ornate",
+      "name": "Pixel Ornate",
+      "1.0": "config/the_vault/gen/1.0/palettes/pixel/ornate.json"
+    },
+    {
+      "id": "the_vault:pixel/treasure",
+      "name": "Pixel Treasure",
+      "1.0": "config/the_vault/gen/1.0/palettes/pixel/treasure.json"
+    },
+    {
+      "id": "the_vault:pixel/enigma",
+      "name": "Pixel Enigma",
+      "1.0": "config/the_vault/gen/1.0/palettes/pixel/enigma.json"
+    },
+    {
+      "id": "the_vault:pixel/altar",
+      "name": "Pixel Altar",
+      "1.0": "config/the_vault/gen/1.0/palettes/pixel/altar.json"
     },
     {
       "id": "the_vault:blacksmith/base",
@@ -941,6 +1071,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/ore_placeholder_void.json"
     },
     {
+      "id": "the_vault:crystal_caves/ore_placeholder_dread",
+      "name": "Dread CC Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/crystal_caves/ore_placeholder_dread.json"
+    },
+    {
       "id": "the_vault:mine/ore_placeholder",
       "name": "Ore Placeholder",
       "1.0": "config/the_vault/gen/1.0/palettes/mine/ore_placeholder.json"
@@ -961,6 +1096,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_void.json"
     },
     {
+      "id": "the_vault:mine/ore_placeholder_dread",
+      "name": "Dread Mine Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_dread.json"
+    },
+    {
       "id": "the_vault:mine/ore_placeholder_micro",
       "name": "Ore Placeholder Microstructures",
       "1.0": "config/the_vault/gen/1.0/palettes/mine/ore_placeholder_micro.json"
@@ -979,6 +1119,11 @@
       "id": "the_vault:factory/crate_spawner",
       "name": "Crate Spawner",
       "1.0": "config/the_vault/gen/1.0/palettes/factory/crate_spawner.json"
+    },
+    {
+      "id": "the_vault:factory/unique_crate",
+      "name": "Factory Unique Crate",
+      "1.0": "config/the_vault/gen/1.0/palettes/factory/unique_crate.json"
     },
     {
       "id": "the_vault:village/silverfish_ambush_spawner_settings",
@@ -1096,6 +1241,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_blood_moon.json"
     },
     {
+      "id": "the_vault:generic/ore_placeholder_dread",
+      "name": "Ore Placeholder Dread",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_dread.json"
+    },
+    {
       "id": "the_vault:raw/farm/base",
       "name": "Base",
       "1.0": "config/the_vault/gen/1.0/palettes/raw/farm/base.json"
@@ -1201,6 +1351,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_alternate_blood_moon.json"
     },
     {
+      "id": "the_vault:generic/ore_placeholder_alternate_dread",
+      "name": "Ore Placeholder Alternate Dread",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_alternate_dread.json"
+    },
+    {
       "id": "the_vault:generic/air_to_cave_air",
       "name": "Air to Cave Air",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/air_to_cave_air.json"
@@ -1239,6 +1394,16 @@
       "id": "the_vault:raw/diamond_ore_placeholder",
       "name": "Diamond Ore Placeholder",
       "1.0": "config/the_vault/gen/1.0/palettes/raw/diamond_ore_placeholder.json"
+    },
+    {
+      "id": "the_vault:raw/chromatic_caves/base_emerald",
+      "name": "Emerald Caves Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/chromatic_caves/base_emerald.json"
+    },
+    {
+      "id": "the_vault:raw/emerald_ore_placeholder",
+      "name": "Emerald Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/raw/emerald_ore_placeholder.json"
     },
     {
       "id": "the_vault:raw/shulker_spawner",
@@ -2441,6 +2606,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/blood_mobs.json"
     },
     {
+      "id": "the_vault:generic/spawners/dread_mobs",
+      "name": "Dread Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/dread_mobs.json"
+    },
+    {
       "id": "the_vault:village/villager_spawner",
       "name": "Villager Spawner",
       "1.0": "config/the_vault/gen/1.0/palettes/village/villager_spawner.json"
@@ -2509,6 +2679,26 @@
       "id": "the_vault:generic/spawners/plastic_mobs",
       "name": "Plastic Mobs",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/plastic_mobs.json"
+    },
+    {
+      "id": "the_vault:global/remove_placeholders",
+      "name": "Remove Placeholders",
+      "1.0": "config/the_vault/gen/1.0/palettes/global/remove_placeholders.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_snowfell",
+      "name": "Snowfell Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_snowfell.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_deepcrag",
+      "name": "Deepcrag Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_deepcrag.json"
+    },
+    {
+      "id": "the_vault:generic/ore_placeholder_sandsworn",
+      "name": "Sandsworn Ore Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_sandsworn.json"
     }
   ]
 }

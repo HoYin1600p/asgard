@@ -2,6 +2,10 @@
     "tile_processors": [
         {
             "type": "reference",
+            "id": "the_vault:generic/ore_placeholder_snowfell"
+        },
+        {
+            "type": "reference",
             "id": "the_vault:generic/treasure_door_placeholder"
         },
         {
@@ -40,7 +44,8 @@
             "type": "weighted_target",
             "target": "minecraft:dirt",
             "output": {
-                "minecraft:ice": 1
+                "auxiliaryblocks:white_crystal": 1,
+                "auxiliaryblocks:blue_crystal": 1
             }
         },
         {
@@ -48,8 +53,8 @@
             "target": "minecraft:coarse_dirt",
             "output": {
                 "quark:permafrost": 1,
-                "architects_palette:polished_packed_ice": 1,
-                "architects_palette:chiseled_packed_ice": 1
+                "create:asurine": 1,
+                "byg:subzero_crystal_block": 1
             }
         },
         {

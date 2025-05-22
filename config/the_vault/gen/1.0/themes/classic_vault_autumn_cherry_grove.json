@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/autumn_cherry_grove_starts",
+  "rooms": "the_vault:vault/rooms/autumn_cherry_grove_rooms",
+  "tunnels": "the_vault:vault/tunnels/autumn_cherry_grove_tunnels",
+  "ambient_light": 0.125,
+  "fog_color": 16754366,
+  "grass_color": 16752440,
+  "foliage_color": 16748617,
+  "water_color": 16742949,
+  "water_fog_color": 16753764,
+  "particle": "supplementaries:sugar",
+  "particle_probability": 0.0005
+}

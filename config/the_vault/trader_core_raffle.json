@@ -298,18 +298,6 @@
     },
 	  {
       "buy": {
-        "id": "the_vault:vault_diamond",
-        "amount": 8
-      },
-      "sell": {
-        "id": "the_vault:key_wutodie",
-        "amount": 1
-      },
-	  "max_trades": 1,
-	  "times_traded": 0
-    },
-	  {
-      "buy": {
         "id": "the_vault:vault_platinum",
         "amount": 64
       },

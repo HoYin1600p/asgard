@@ -61,6 +61,38 @@
             }
           }
         ]
+      },
+      { "attribute": "the_vault:living",
+        "group": "BaseLiving",
+        "identifier": "the_vault:base_living",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 2,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:living",
+        "group": "BaseLiving",
+        "identifier": "the_vault:base_no_living",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 98,
+            "value": {
+              "flag": false
+            }
+          }
+        ]
       }
     ],
     "IMPLICIT": [
@@ -732,7 +764,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": 45,
+            "maxLevel": 20,
             "weight": 100,
             "value": {
               "min": 0.01,
@@ -742,7 +774,7 @@
           },
           {
             "minLevel": 21,
-            "maxLevel": 71,
+            "maxLevel": 41,
             "weight": 100,
             "value": {
               "min": 0.06,
@@ -751,8 +783,8 @@
             }
           },
           {
-            "minLevel": 46,
-            "maxLevel": -1,
+            "minLevel": 42,
+            "maxLevel": 61,
             "weight": 100,
             "value": {
               "min": 0.11,
@@ -761,8 +793,8 @@
             }
           },
           {
-            "minLevel": 72,
-            "maxLevel": -1,
+            "minLevel": 62,
+            "maxLevel": 92,
             "weight": 100,
             "value": {
               "min": 0.16,
@@ -871,6 +903,85 @@
           }
           
           
+        ]
+      },
+      { "attribute": "the_vault:durability_wear_reduction_cap",
+        "group": "ModDuraReductionCap",
+        "identifier": "the_vault:mod_durability_reduction_cap",
+        "tags": [
+          "focusDurabilityReductionCap"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 24,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 25,
+            "maxLevel": 49,
+            "weight": 100,
+            "value": {
+              "min": 0.11,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": 74,
+            "weight": 100,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 75,
+            "maxLevel": 89,
+            "weight": 100,
+            "value": {
+              "min": 0.31,
+              "max": 0.4,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 90,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.41,
+              "max": 0.5,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.5,
+              "max": 0.65,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 102,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.66,
+              "max": 0.75,
+              "step": 0.01
+            }
+          }
         ]
       },
       { "attribute": "the_vault:trap_disarming",
@@ -1348,9 +1459,7 @@
             }
           }
         ]
-      },     
-
-
+      },
       { "attribute": "the_vault:copiously",
         "group": "ModCopiously",
         "identifier": "the_vault:crafted_copiously",
@@ -1572,7 +1681,6 @@
           }
         ]
       },
-      
       { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
@@ -1613,8 +1721,7 @@
           }
         ]
       },
-      
-      { 
+      {
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_stonefallcold",

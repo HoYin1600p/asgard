@@ -22,18 +22,21 @@
               }
             },
             {
-              "weight": 120,
+              "weight": 60,
               "item": {
-                "id": "the_vault:perfect_black_opal",
+                "id": "the_vault:booster_pack",
+                "nbt": {
+                  "id": "the_vault:dungeon_pack"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,
-                  "max": 2
+                  "max": 1
                 }
               }
             },
             {
-              "weight": 40,
+              "weight": 50,
               "item": {
                 "id": "woldsvaults:gem_box",
                 "count": {
@@ -44,7 +47,7 @@
               }
             },
             {
-              "weight": 40,
+              "weight": 30,
               "item": {
                 "id": "woldsvaults:augment_box",
                 "count": {
@@ -55,7 +58,7 @@
               }
             },
             {
-              "weight": 10,
+              "weight": 5,
               "item": {
                 "id": "woldsvaults:omega_box",
                 "count": {
@@ -66,7 +69,7 @@
               }
             },
             {
-              "weight": 10,
+              "weight": 30,
               "item": {
                 "id": "woldsvaults:inscription_box",
                 "count": {
@@ -77,7 +80,7 @@
               }
             },
             {
-              "weight": 20,
+              "weight": 30,
               "item": {
                 "id": "woldsvaults:catalyst_box",
                 "count": {
@@ -88,7 +91,7 @@
               }
             },
             {
-              "weight": 40,
+              "weight": 50,
               "item": {
                 "id": "woldsvaults:supply_box",
                 "count": {
@@ -99,20 +102,9 @@
               }
             },
             {
-              "weight": 40,
+              "weight": 60,
               "item": {
                 "id": "the_vault:mod_box",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 20,
-              "item": {
-                "id": "woldsvaults:repair_augmenter",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -143,6 +135,17 @@
               }
             },
             {
+              "weight": 16,
+              "item": {
+                "id": "woldsvaults:capstone_all_seeing_eye",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
               "weight": 10,
               "item": {
                 "id": "woldsvaults:capstone_frenzy",
@@ -154,7 +157,7 @@
               }
             },
             {
-              "weight": 8,
+              "weight": 16,
               "item": {
                 "id": "woldsvaults:capstone_enchanted",
                 "count": {
@@ -165,9 +168,20 @@
               }
             },
             {
-              "weight": 16,
+              "weight": 8,
               "item": {
                 "id": "the_vault:capstone_vendoor_hunter",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:capstone_pylon_hunter",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -189,7 +203,7 @@
             {
               "weight": 40,
               "item": {
-                "id": "the_vault:gem_pog",
+                "id": "woldsvaults:pog_prism",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -264,9 +278,9 @@
               }
             },
             {
-              "weight": 80,
+              "weight": 40,
               "item": {
-                "id": "the_vault:chaotic_focus",
+                "id": "the_vault:resilient_focus",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -275,29 +289,7 @@
               }
             },
             {
-              "weight": 60,
-              "item": {
-                "id": "the_vault:waxing_focus",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 60,
-              "item": {
-                "id": "the_vault:waning_focus",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 5,
+              "weight": 10,
               "item": {
                 "id": "woldsvaults:general_decor_scroll",
                 "count": {
@@ -308,9 +300,83 @@
               }
             },
             {
-              "weight": 16,
+              "weight": 60,
               "item": {
-                "id": "the_vault:capstone_pylon_hunter",
+                "id": "the_vault:power_bar",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 60,
+              "item": {
+                "id": "the_vault:candy_bar",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:jade_apple",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 5,
+              "item": {
+                "id": "the_vault:ghost_apple",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:trinket",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:magnet",
+                "nbt": {
+                  "the_vault:gear_unique_pool": "the_vault:blood_magnet",
+                  "the_vault:gear_roll_type": "Unique"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:plushie",
+                "nbt": {
+                  "the_vault:gear_unique_pool": "the_vault:safer_spaces",
+                  "the_vault:gear_roll_type": "Unique"
+                },
                 "count": {
                   "type": "uniform",
                   "min": 1,

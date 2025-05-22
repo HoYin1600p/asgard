@@ -131,6 +131,38 @@
             }
           }
         ]
+      },
+      { "attribute": "the_vault:living",
+        "group": "BaseLiving",
+        "identifier": "the_vault:base_living",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 2,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:living",
+        "group": "BaseLiving",
+        "identifier": "the_vault:base_no_living",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 98,
+            "value": {
+              "flag": false
+            }
+          }
+        ]
       }
     ],
     "IMPLICIT": [
@@ -140,7 +172,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": 13,
+            "maxLevel": 19,
             "weight": 100,
             "value": {
               "min": 3,
@@ -150,7 +182,7 @@
           },
           {
             "minLevel": 14,
-            "maxLevel": 26,
+            "maxLevel": 39,
             "weight": 100,
             "value": {
               "min": 6,
@@ -160,7 +192,7 @@
           },
           {
             "minLevel": 27,
-            "maxLevel": 39,
+            "maxLevel": 51,
             "weight": 100,
             "value": {
               "min": 8,
@@ -170,7 +202,7 @@
           },
           {
             "minLevel": 40,
-            "maxLevel": 51,
+            "maxLevel": 64,
             "weight": 100,
             "value": {
               "min": 11,
@@ -180,7 +212,7 @@
           },
           {
             "minLevel": 52,
-            "maxLevel": 64,
+            "maxLevel": 73,
             "weight": 100,
             "value": {
               "min": 14,
@@ -190,7 +222,7 @@
           },
           {
             "minLevel": 65,
-            "maxLevel": -1,
+            "maxLevel": 85,
             "weight": 100,
             "value": {
               "min": 17,
@@ -200,7 +232,7 @@
           },
           {
             "minLevel": 74,
-            "maxLevel": -1,
+            "maxLevel": 96,
             "weight": 100,
             "value": {
               "min": 21,
@@ -314,7 +346,7 @@
           },
           {
             "minLevel": 34,
-            "maxLevel": 79,
+            "maxLevel": 70,
             "weight": 100,
             "value": {
               "min": 17.0,
@@ -324,7 +356,7 @@
           },
           {
             "minLevel": 47,
-            "maxLevel": -1,
+            "maxLevel": 79,
             "weight": 100,
             "value": {
               "min": 21.0,
@@ -334,7 +366,7 @@
           },
           {
             "minLevel": 62,
-            "maxLevel": -1,
+            "maxLevel": 85,
             "weight": 100,
             "value": {
               "min": 25.0,
@@ -344,7 +376,7 @@
           },
           {
             "minLevel": 71,
-            "maxLevel": -1,
+            "maxLevel": 95,
             "weight": 100,
             "value": {
               "min": 29.0,
@@ -392,7 +424,7 @@
       "tiers": [
         {
           "minLevel": 20,
-          "maxLevel": 94,
+          "maxLevel": 69,
           "weight": 100,
           "value": {
             "min": 20,
@@ -402,7 +434,7 @@
         },
         {
           "minLevel": 40,
-          "maxLevel": 92,
+          "maxLevel": 94,
           "weight": 100,
           "value": {
             "min": 31,
@@ -5434,8 +5466,7 @@
           }
         ]
       },
-      
-      { 
+      {
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_manashield",
@@ -5450,6 +5481,40 @@
             "weight": 20,
             "value": {
               "abilityKey": "Mana_Shield_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlDefensive",
+        "identifier": "the_vault:corrupted_added_ability_level_legacy_mana_shield",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Legacy_Mana_Shield_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlDefensive",
+        "identifier": "the_vault:corrupted_added_ability_level_shield_wall",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 30,
+            "value": {
+              "abilityKey": "Shield_Wall_Base",
               "levelChange": 1
             }
           }
@@ -5475,8 +5540,7 @@
           }
         ]
       },
-      
-      { 
+      {
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_stonefallcold",
@@ -5696,6 +5760,66 @@
           }
         ]
       },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlUtility",
+        "identifier": "the_vault:corrupted_added_ability_level_levitate",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerMegaJump"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Levitate",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlDefensive",
+        "identifier": "the_vault:corrupted_added_ability_level_colossus",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerColossus"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Colossus",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModLvlUtility",
+        "identifier": "the_vault:corrupted_added_ability_level_sneakygetaway",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerColossus"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "abilityKey": "Sneaky_Getaway",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
       { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
@@ -5777,7 +5901,7 @@
       },
       { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
-        "identifier": "the_vault:corrupted_added_ability_level_veinminerdura",
+        "identifier": "the_vault:corrupted_added_ability_level_veinminerchain",
         "tags": [
           "focusAbilityPower",
           "focusAbilityPowerVeinMiner"
@@ -5788,7 +5912,7 @@
             "maxLevel": -1,
             "weight": 60,
             "value": {
-              "abilityKey": "Vein_Miner_Durability",
+              "abilityKey": "Vein_Miner_Chain",
               "levelChange": 1
             }
           }
@@ -6205,6 +6329,26 @@
           }
         ]
       },
+      {
+        "attribute": "the_vault:added_ability_level",
+        "group": "ModAPLvl",
+        "identifier": "the_vault:corrupted_added_ability_level_bladefrenzy",
+        "tags": [
+          "focusAbilityPower",
+          "focusAbilityPowerJavelin"
+        ],
+        "tiers": [
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Blade_Frenzy_Base",
+              "levelChange": 1
+            }
+          }
+        ]
+      },
       { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
@@ -6422,7 +6566,6 @@
           }
         ]
       }
-
     ]
   }
 }

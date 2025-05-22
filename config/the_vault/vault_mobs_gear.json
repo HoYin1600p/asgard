@@ -3783,6 +3783,640 @@
           "OFFHAND": []
         }
       }
+    ],
+    "iceandfire:dread_knight": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_chestplate",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 1
+            }
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_leggings",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 1
+            }
+          ],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "iceandfire:dread_knight_sword",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 3
+            }
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 20,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_chestplate",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_leggings",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 1
+            }
+          ],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "iceandfire:dread_knight_sword",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 3
+            }
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 50,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_chestplate",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 1
+            }
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_leggings",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 9
+            }
+          ],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "iceandfire:dread_knight_sword",
+                "NBT": ""
+              },
+              "weight": 0
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 90,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_chestplate",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_leggings",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
+          ],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "iceandfire:dread_knight_sword",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 32
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 32
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 100,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_chestplate",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "iceandfire:armor_black_leggings",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 4
+            }
+          ],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "iceandfire:dread_knight_sword",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 5
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "iceandfire:dread_thrall": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_helmet",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 2
+            }
+          ],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_chesplate",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_leggings",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "FEET": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_boots",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 2
+            }
+          ],
+          "MAINHAND": [],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 15,
+        "slots": {
+          "HEAD": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_helmet",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 2
+            }
+          ],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_chesplate",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_leggings",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "FEET": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_boots",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 2
+            }
+          ],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "iceandfire:dread_sword",
+                "NBT": ""
+              },
+              "weight": 1
+            }
+          ],
+          "OFFHAND": []
+        }
+      },
+      {
+        "minLevel": 50,
+        "slots": {
+          "HEAD": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_helmet",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 1
+            }
+          ],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_chesplate",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_leggings",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 0
+            }
+          ],
+          "FEET": [
+            {
+              "value": {
+                "ITEM": "minecraft:chainmail_boots",
+                "NBT": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 1
+            }
+          ],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "iceandfire:dread_sword",
+                "NBT": ""
+              },
+              "weight": 1
+            }
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "iceandfire:dread_lich": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "iceandfire:lich_staff",
+                "NBT": ""
+              },
+              "weight": 1
+            }
+          ],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "iceandfire:dread_horse": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 8
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:iron_horse_armor",
+                "NBT": ""
+              },
+              "weight": 4
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:gold_horse_armor",
+                "NBT": ""
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:diamond_horse_armor",
+                "NBT": ""
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": "byg:pendorite_horse_armor",
+                "NBT": ""
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": "byg:ametrine_horse_armor",
+                "NBT": ""
+              },
+              "weight": 1
+            }
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [],
+          "OFFHAND": []
+        }
+      }
     ]
   }
 }

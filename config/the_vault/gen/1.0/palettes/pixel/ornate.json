@@ -1,0 +1,17 @@
+{
+    "tile_processors": [
+      {
+        "type": "reference",
+        "id": "the_vault:pixel/base"
+      },
+      {
+        "type": "weighted_target",
+        "target": "auxiliaryblocks:concrete",
+        "output": {
+            "minecraft:red_concrete": 1
+        }
+      }
+    ],
+    "entity_processors": [],
+    "decorators": []
+  }

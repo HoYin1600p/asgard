@@ -48,42 +48,6 @@
           "descriptionFormatted": "Lowers the artifact chance of this vault by 10%",
           "icon": "the_vault:gui/modifiers/described/plunder_artifact"
         }
-      },
-      "the_vault:purified": {
-        "properties": {
-          "chance": 0.0
-        },
-        "display": {
-          "name": "Purified",
-          "color": "#EBFF8D",
-          "description": "This Crystal had a Curse removed using a Mote of Purity.",
-          "descriptionFormatted": "A random curse was removed.",
-          "icon": "the_vault:gui/modifiers/described/purified"
-        }
-      },
-      "the_vault:sanctified": {
-        "properties": {
-          "chance": 0.0
-        },
-        "display": {
-          "name": "Sanctified",
-          "color": "#EBFF8D",
-          "description": "This Crystal had all curses removed using a Mote of Sanctity.",
-          "descriptionFormatted": "All curses were removed.",
-          "icon": "the_vault:gui/modifiers/described/sanctified"
-        }
-      },
-      "the_vault:clarified": {
-        "properties": {
-          "chance": 0.0
-        },
-        "display": {
-          "name": "Clarified",
-          "color": "#EBFF8D",
-          "description": "This Crystal had all curses revealed using a Mote of Clarity.",
-          "descriptionFormatted": "Has no effect.",
-          "icon": "the_vault:gui/modifiers/described/clarified"
-        }
       }
     },
     "the_vault:modifier_type/chance_catalyst": {
@@ -103,7 +67,7 @@
     "the_vault:modifier_type/chance_chest_trap": {
       "the_vault:looters_dream": {
         "properties": {
-          "chance": 0.0
+          "chance": -50.0
         },
         "display": {
           "name": "Looter's Dream",
@@ -198,18 +162,6 @@
           "description": "+5% Soul Shard Drop Rate",
           "descriptionFormatted": "+%d%% Soul Shards",
           "icon": "the_vault:gui/modifiers/described/soul_shards"
-        }
-      },
-      "the_vault:exorcising": {
-        "properties": {
-          "chance": 0.4
-        },
-        "display": {
-          "name": "Exorcising",
-          "color": "#6410A1",
-          "description": "+40% Soul Shard Drop Rate",
-          "descriptionFormatted": "+%d%% Soul Shards",
-          "icon": "the_vault:gui/modifiers/described/exorcising"
         }
       },
       "the_vault:soul_fest": {
@@ -350,23 +302,9 @@
         "display": {
           "name": "Wild",
           "color": "#E83F24",
-          "description": "Mobs spawns Wildly inside the vault",
-          "descriptionFormatted": "+1 Set of Wildly Spawned Mobs",
+          "description": "Dwellers spawns anywhere inside the vault",
+          "descriptionFormatted": "+1 Set of dweller spawned mobs",
           "icon": "the_vault:gui/modifiers/described/wild"
-        }
-      },
-      "the_vault:spooky": {
-        "properties": {
-          "output": "the_vault:wild_spawner",
-          "attemptsPerChunk": 16,
-          "requireConditions": true
-        },
-        "display": {
-          "name": "Spooky",
-          "color": "#b3b3cc",
-          "description": "Ghosts spawn wildly inside this vault",
-          "descriptionFormatted": "+1 Set of Wildly Spawned Wraiths",
-          "icon": "the_vault:gui/modifiers/described/spooky"
         }
       },
       "the_vault:collapsing": {
@@ -443,7 +381,7 @@
     "the_vault:modifier_type/crate_item_quantity": {
       "the_vault:crake_quantity": {
         "properties": {
-          "percentage": 0.4
+          "percentage": 1.0
         },
         "display": {
           "name": "Crake Quantity",
@@ -620,24 +558,12 @@
           "icon": "the_vault:gui/modifiers/described/soul_item"
         }
       },
-      "the_vault:pilfered": {
-        "properties": {
-          "percentage": -0.1
-        },
-        "display": {
-          "name": "Pilfered",
-          "color": "#a54726",
-          "description": "Item quantity reduced by 10%",
-          "descriptionFormatted": "Item quantity reduced by %d%%",
-          "icon": "the_vault:gui/modifiers/described/pilfered"
-        }
-      },
       "the_vault:lost_quantity": {
         "properties": {
           "percentage": -0.5
         },
         "display": {
-          "name": "Baren",
+          "name": "Barren",
           "color": "#a54726",
           "description": "Chests in this vault are only half filled",
           "descriptionFormatted": "Chests in this vault are only half filled",
@@ -754,42 +680,6 @@
           "icon": "the_vault:gui/modifiers/described/soul_rarity"
         }
       },
-      "the_vault:archaic": {
-        "properties": {
-          "percentage": -0.1
-        },
-        "display": {
-          "name": "Archaic",
-          "color": "#f3ff70",
-          "description": "-10% Item Rarity",
-          "descriptionFormatted": "-%d%% Item Rarity",
-          "icon": "the_vault:gui/modifiers/described/archaic"
-        }
-      },
-      "the_vault:mediocre": {
-        "properties": {
-          "percentage": -0.25
-        },
-        "display": {
-          "name": "Mediocre",
-          "color": "#896760",
-          "description": "-25% Item Rarity",
-          "descriptionFormatted": "-%d%% Item Rarity",
-          "icon": "the_vault:gui/modifiers/described/mediocre"
-        }
-      },
-      "the_vault:low_item_rarity": {
-        "properties": {
-          "percentage": 0.05
-        },
-        "display": {
-          "name": "Vintage",
-          "color": "#bc8f8f",
-          "description": "+5% Item Rarity",
-          "descriptionFormatted": "+%d%% Item Rarity",
-          "icon": "the_vault:gui/modifiers/described/low_item_rarity"
-        }
-      },
       "the_vault:item_rarity": {
         "properties": {
           "percentage": 0.1
@@ -879,20 +769,6 @@
       }
     },
     "the_vault:modifier_type/mob_attribute": {
-      "the_vault:critical_mobs": {
-        "properties": {
-          "type": "crit_chance_additive",
-          "amount": 0.15,
-          "attributeStackingStrategy": "STACK"
-        },
-        "display": {
-          "name": "Critical",
-          "color": "#dc693c",
-          "description": "+15% Mob Critical Strike Chance",
-          "descriptionFormatted": "+15% Mob Critical Strike Chance",
-          "icon": "the_vault:gui/modifiers/described/critical_mobs"
-        }
-      },
       "the_vault:crit_mobs": {
         "properties": {
           "type": "crit_chance_additive",
@@ -975,6 +851,20 @@
           "description": "+10% Mob Damage",
           "descriptionFormatted": "+%d%% Mob Damage",
           "icon": "the_vault:gui/modifiers/described/furious_mobs"
+        }
+      },
+      "the_vault:weak_mobs_damage": {
+        "properties": {
+          "type": "attack_damage_additive_percentile",
+          "amount": -0.75,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Weak Mobs",
+          "color": "#da6d5a",
+          "description": "-75% Mob Damage",
+          "descriptionFormatted": "+%d%% Mob Damage",
+          "icon": "the_vault:gui/modifiers/described/weak_mobs_damage"
         }
       },
       "the_vault:ruthless_mobs": {
@@ -1121,21 +1011,6 @@
           "description": "+10% increased chance mobs Wither on hit",
           "descriptionFormatted": "+%d%% increased chance mobs Wither on hit",
           "icon": "the_vault:gui/modifiers/described/wither"
-        }
-      },
-      "the_vault:haunting": {
-        "properties": {
-          "effect": "the_vault:time_acceleration",
-          "effectAmplifier": 1,
-          "effectDurationTicks": 20,
-          "onHitApplyChance": 0.05
-        },
-        "display": {
-          "name": "Haunting",
-          "color": "#5A5851",
-          "description": "+5% increased chance mobs will void a small bit of time on hit",
-          "descriptionFormatted": "+%d%% increased chance mobs will void a small bit of time on hit",
-          "icon": "the_vault:gui/modifiers/described/haunting"
         }
       },
       "the_vault:voiding": {
@@ -1426,18 +1301,6 @@
           "description": "+20% Durability Damage",
           "descriptionFormatted": "+%d%% Durability Damage",
           "icon": "the_vault:gui/modifiers/described/frail"
-        }
-      },
-      "the_vault:corrosive": {
-        "properties": {
-          "durabilityDamageTakenMultiplier": 2.0
-        },
-        "display": {
-          "name": "Corrosive",
-          "color": "#7B7E7F",
-          "description": "+100% Durability Damage",
-          "descriptionFormatted": "+%d%% Durability Damage",
-          "icon": "the_vault:gui/modifiers/described/corrosive"
         }
       },
       "the_vault:reinforced": {
@@ -1877,6 +1740,19 @@
           "icon": "the_vault:gui/modifiers/described/clumsy"
         }
       },
+      "the_vault:knockback": {
+        "properties": {
+          "stat": "knockback_resistance",
+          "addend": 1.0
+        },
+        "display": {
+          "name": "Knockback Res",
+          "color": "#CB866D",
+          "description": "+100% Knockback Resistance",
+          "descriptionFormatted": "%d%% Knockback Resistance",
+          "icon": "the_vault:gui/modifiers/described/knockback"
+        }
+      },
       "the_vault:trapped": {
         "properties": {
           "stat": "trap_disarm_chance",
@@ -1903,6 +1779,19 @@
           "icon": "the_vault:gui/modifiers/described/inert"
         }
       },
+      "the_vault:cooldown_reduction": {
+        "properties": {
+          "stat": "cooldown_reduction",
+          "addend": 0.8
+        },
+        "display": {
+          "name": "CDR",
+          "color": "#6DACB5",
+          "description": "+80% Cooldown Reduction",
+          "descriptionFormatted": "%d%% Cooldown Reduction",
+          "icon": "the_vault:gui/modifiers/described/cooldown_reduction"
+        }
+      },
       "the_vault:wendarr_cdr": {
         "properties": {
           "stat": "cooldown_reduction",
@@ -1914,19 +1803,6 @@
           "description": "+50% Cooldown Reduction",
           "descriptionFormatted": "%d%% Cooldown Reduction",
           "icon": "the_vault:gui/modifiers/described/wendarr_cdr"
-        }
-      },
-      "the_vault:nullifying": {
-        "properties": {
-          "stat": "cooldown_reduction",
-          "addend": -0.5
-        },
-        "display": {
-          "name": "Nullified",
-          "color": "#6DACB5",
-          "description": "-50% Cooldown Reduction",
-          "descriptionFormatted": "%d%% Cooldown Reduction",
-          "icon": "the_vault:gui/modifiers/described/nullifying"
         }
       },
       "the_vault:vulnerable": {
@@ -1942,19 +1818,6 @@
           "icon": "the_vault:gui/modifiers/described/vulnerable"
         }
       },
-      "the_vault:piercing": {
-        "properties": {
-          "stat": "resistance",
-          "addend": -0.5
-        },
-        "display": {
-          "name": "Piercing",
-          "color": "#CA9A5B",
-          "description": "-50% Resistance",
-          "descriptionFormatted": "%d%% Resistance",
-          "icon": "the_vault:gui/modifiers/described/piercing"
-        }
-      },
       "the_vault:copiously": {
         "properties": {
           "stat": "copiously",
@@ -1966,19 +1829,6 @@
           "description": "+5% Copiously",
           "descriptionFormatted": "%d%% Copiously",
           "icon": "the_vault:gui/modifiers/described/copiously"
-        }
-      },
-      "the_vault:leeching": {
-        "properties": {
-          "stat": "leech",
-          "addend": 0.05
-        },
-        "display": {
-          "name": "Blood Sucking",
-          "color": "#FF5555",
-          "description": "+5% Leech",
-          "descriptionFormatted": "+%d%% Leech",
-          "icon": "the_vault:gui/modifiers/described/leeching"
         }
       },
       "the_vault:idona_favour_3": {
@@ -2378,30 +2228,6 @@
           "description": "Unknown Negative Modifier",
           "icon": "the_vault:gui/modifiers/described/random_negative"
         }
-      },
-      "the_vault:random_positive": {
-        "properties": {
-          "pool": "the_vault:random_positive",
-          "level": 0
-        },
-        "display": {
-          "name": "Random Positive",
-          "color": "#00FF00",
-          "description": "Unknown Positive Modifier",
-          "icon": "the_vault:gui/modifiers/described/random_positive"
-        }
-      },
-      "the_vault:random_harsh_negative": {
-        "properties": {
-          "pool": "the_vault:random_harsh_negative",
-          "level": 0
-        },
-        "display": {
-          "name": "Random Harsh Negative",
-          "color": "#fe3333",
-          "description": "Unknown Negative Modifier",
-          "icon": "the_vault:gui/modifiers/described/random_harsh_negative"
-        }
       }
     },
     "the_vault:modifier_type/decorator_cascade": {
@@ -2665,20 +2491,6 @@
           "icon": "the_vault:gui/modifiers/described/bingo"
         }
       },
-      "the_vault:bingos": {
-        "properties": {
-          "children": {
-            "the_vault:bingo": 1,
-            "the_vault:crate_tier": 1
-          }
-        },
-        "display": {
-          "name": "Bingo!",
-          "color": "#bbf333",
-          "description": "Every subsequent BINGO Increases Item Quantity & Rarity by 10%, and boosts soul chance by 25%, and boosts your crate tier by 1!",
-          "icon": "the_vault:gui/modifiers/described/bingos"
-        }
-      },
       "the_vault:loot_goblin": {
         "properties": {
           "children": {
@@ -2845,69 +2657,6 @@
           "color": "#ad2b2b",
           "description": "This vault is cursed, mobs freeze you when attacking, it has less time, and wild mobs will appear",
           "icon": "the_vault:gui/modifiers/described/curse_wrecked"
-        }
-      },
-      "the_vault:all_seeing_eye": {
-        "properties": {
-          "children": {
-            "the_vault:dungeon_doors": 1,
-            "the_vault:treasure_doors": 1,
-            "the_vault:coin_hunter": 1,
-            "the_vault:wooden_hunter": 1,
-            "the_vault:gilded_hunter": 1,
-            "the_vault:ornate_hunter": 1,
-            "the_vault:living_hunter": 1,
-            "the_vault:altar_hunter": 1
-          }
-        },
-        "display": {
-          "name": "All Seeing Eye",
-          "color": "#ad2b2b",
-          "description": "Grants all hunter modifiers.",
-          "icon": "the_vault:gui/modifiers/described/all_seeing_eye"
-        }
-      },
-      "the_vault:unfair_mobs": {
-        "properties": {
-          "children": {
-            "the_vault:infuriated_mobs": 2,
-            "the_vault:slowed": 1
-          }
-        },
-        "display": {
-          "name": "Unfair Mobs",
-          "color": "#da6d5a",
-          "description": "+10% Mob Speed, +1 Slowness",
-          "icon": "the_vault:gui/modifiers/described/unfair_mobs"
-        }
-      },
-      "the_vault:chemical_bath": {
-        "properties": {
-          "children": {
-            "the_vault:freezing": 2,
-            "the_vault:poisoning": 2,
-            "the_vault:wither": 2
-          }
-        },
-        "display": {
-          "name": "Chemical Bath",
-          "color": "#da6d5a",
-          "description": "+2 Freezing, Poisoning, and Withering Mobs",
-          "icon": "the_vault:gui/modifiers/described/chemical_bath"
-        }
-      },
-      "the_vault:harder_mobs": {
-        "properties": {
-          "children": {
-            "the_vault:ruthless_mobs": 1,
-            "the_vault:critical_mobs": 1
-          }
-        },
-        "display": {
-          "name": "Focused Mobs",
-          "color": "#da6d5a",
-          "description": "+15% Mob Crit Chance and +20% Mob Damage",
-          "icon": "the_vault:gui/modifiers/described/harder_mobs"
         }
       },
       "the_vault:stronger_mobs": {
@@ -3088,17 +2837,6 @@
           "icon": "the_vault:gui/modifiers/described/objective_difficulty"
         }
       },
-      "the_vault:impossible_difficulty": {
-        "properties": {
-          "increase": 1.0
-        },
-        "display": {
-          "name": "Impossible",
-          "color": "#8f3b3b",
-          "description": "Increases objective difficulty by 100%",
-          "icon": "the_vault:gui/modifiers/described/impossible_difficulty"
-        }
-      },
       "the_vault:soul_objective": {
         "properties": {
           "increase": 0.02
@@ -3129,6 +2867,23 @@
           "icon": "the_vault:gui/modifiers/described/treasure_doors"
         }
       },
+      "the_vault:pylon_hunter": {
+        "properties": {
+          "entries": [
+            {
+              "filter": "the_vault:pylon",
+              "radius": 64.0,
+              "color": 10551265
+            }
+          ]
+        },
+        "display": {
+          "name": "Pylon Hunter",
+          "color": "#FFEA00",
+          "description": "Highlights Pylons in this vault",
+          "icon": "the_vault:gui/modifiers/described/pylon_hunter"
+        }
+      },
       "the_vault:dungeon_doors": {
         "properties": {
           "entries": [
@@ -3146,106 +2901,21 @@
           "icon": "the_vault:gui/modifiers/described/dungeon_doors"
         }
       },
-      "the_vault:living_hunter": {
+      "the_vault:vendoor_doors": {
         "properties": {
           "entries": [
             {
-              "filter": "the_vault:living_chest",
+              "filter": "the_vault:vendor_door[open=false]",
               "radius": 64.0,
-              "color": 65280
+              "color": 16472397
             }
           ]
         },
         "display": {
-          "name": "Living Hunter",
-          "color": "#00FF00",
-          "description": "Highlights Living Chests in this vault",
-          "icon": "the_vault:gui/modifiers/described/living_hunter"
-        }
-      },
-      "the_vault:coin_hunter": {
-        "properties": {
-          "entries": [
-            {
-              "filter": "the_vault:coin_pile",
-              "radius": 64.0,
-              "color": 16750592
-            }
-          ]
-        },
-        "display": {
-          "name": "Coin Hunter",
-          "color": "#FF9800",
-          "description": "Highlights Coin Piles in this vault",
-          "icon": "the_vault:gui/modifiers/described/coin_hunter"
-        }
-      },
-      "the_vault:ornate_hunter": {
-        "properties": {
-          "entries": [
-            {
-              "filter": "the_vault:ornate_chest",
-              "radius": 64.0,
-              "color": 16721408
-            }
-          ]
-        },
-        "display": {
-          "name": "Ornate Hunter",
-          "color": "#FF2600",
-          "description": "Highlights Ornate Chests in this vault",
-          "icon": "the_vault:gui/modifiers/described/ornate_hunter"
-        }
-      },
-      "the_vault:gilded_hunter": {
-        "properties": {
-          "entries": [
-            {
-              "filter": "the_vault:gilded_chest",
-              "radius": 64.0,
-              "color": 16776960
-            }
-          ]
-        },
-        "display": {
-          "name": "Gilded Hunter",
-          "color": "#FFFF00",
-          "description": "Highlights Gilded Chests in this vault",
-          "icon": "the_vault:gui/modifiers/described/gilded_hunter"
-        }
-      },
-      "the_vault:wooden_hunter": {
-        "properties": {
-          "entries": [
-            {
-              "filter": "the_vault:wooden_chest",
-              "radius": 64.0,
-              "color": 16738560
-            }
-          ]
-        },
-        "display": {
-          "name": "Wooden Hunter",
-          "color": "#FF6900",
-          "description": "Highlights Wooden Chests in this vault",
-          "icon": "the_vault:gui/modifiers/described/wooden_hunter"
-        }
-      },
-      "the_vault:altar_hunter": {
-        "properties": {
-          "entries": [
-            {
-              "filter": "the_vault:god_altar",
-              "radius": 64.0,
-              "color": 5817009
-            }
-          ]
-        },
-        "display": {
-          "name": "Altar Hunter",
-          "color": "#58C2B1",
-          "description": "Highlights God Altars in this vault",
-          "icon": "the_vault:gui/modifiers/described/altar_hunter"
+          "name": "Vendoor Hunter",
+          "color": "#685086",
+          "description": "Highlights Dungeon Doors in this vault",
+          "icon": "the_vault:gui/modifiers/described/vendoor_doors"
         }
       }
     },

@@ -123,19 +123,19 @@
     "the_vault:completion_crate_elixir": {
       "display": "Elixir Completion Crate",
       "lootTableKeys": {
-        "the_vault:base_crate_0": {"level": 0},
-        "the_vault:base_crate_20": {"level": 20},
-        "the_vault:base_crate_50": {"level": 50},
-        "the_vault:base_crate_100": {"level": 100}
+        "the_vault:base_crate_1_0": {"level": 0},
+        "the_vault:base_crate_1_20": {"level": 20},
+        "the_vault:base_crate_1_50": {"level": 50},
+        "the_vault:base_crate_1_100": {"level": 100}
       }
     },
     "the_vault:completion_crate_enchanted_elixir": {
       "display": "Enchanted Elixir Completion Crate",
       "lootTableKeys": {
-        "the_vault:base_crate_cursed_0": {"level": 0},
-        "the_vault:base_crate_cursed_20": {"level": 20},
-        "the_vault:base_crate_cursed_50": {"level": 50},
-        "the_vault:base_crate_cursed_100": {"level": 100}
+        "the_vault:base_crate_cursed_1_0": {"level": 0},
+        "the_vault:base_crate_cursed_1_20": {"level": 20},
+        "the_vault:base_crate_cursed_1_50": {"level": 50},
+        "the_vault:base_crate_cursed_1_100": {"level": 100}
       }
     },
     "the_vault:completion_crate_kill": {
@@ -143,15 +143,15 @@
       "lootTableKeys": {
         "the_vault:base_crate_0": {"level": 0},
         "the_vault:base_crate_20": {"level": 20},
-        "the_vault:base_crate_50": {"level": 50},
-        "the_vault:base_crate_100": {"level": 100}
+        "the_vault:base_crate_2_50": {"level": 50},
+        "the_vault:base_crate_2_100": {"level": 100}
       }
     },
     "the_vault:completion_crate_brutal_bosses": {
       "display": "Brutal Bosses Completion Crate",
       "lootTableKeys": {
         "the_vault:base_crate_cursed_0": {"level": 0},
-        "the_vault:base_crate_cursed_20": {"level": 20},
+        "the_vault:base_crate_cursed_2_20": {"level": 20},
         "the_vault:base_crate_cursed_2_50": {"level": 50},
         "the_vault:base_crate_cursed_2_100": {"level": 100}
       }
@@ -199,17 +199,17 @@
     "the_vault:completion_crate_mono": {
       "display": "Brazier Completion Crate",
       "lootTableKeys": {
-        "the_vault:base_crate_0": {"level": 0},
-        "the_vault:base_crate_20": {"level": 20},
-        "the_vault:base_crate_50": {"level": 50},
-        "the_vault:base_crate_100": {"level": 100}
+        "the_vault:brazier_crate_0": {"level": 0},
+        "the_vault:brazier_crate_20": {"level": 20},
+        "the_vault:brazier_crate_50": {"level": 50},
+        "the_vault:brazier_crate_100": {"level": 100}
       }
     },
     "the_vault:completion_crate_haunted_braziers": {
       "display": "Haunted Braziers Completion Crate",
       "lootTableKeys": {
         "the_vault:base_crate_cursed_0": {"level": 0},
-        "the_vault:base_crate_cursed_20": {"level": 20},
+        "the_vault:haunted_braziers_crate_20": {"level": 20},
         "the_vault:haunted_braziers_crate_50": {"level": 50},
         "the_vault:haunted_braziers_crate_100": {"level": 100}
       }
@@ -227,7 +227,7 @@
       "display": "Unhinged Scavenger Completion Crate",
       "lootTableKeys": {
         "the_vault:base_crate_cursed_0": {"level": 0},
-        "the_vault:base_crate_cursed_20": {"level": 20},
+        "the_vault:base_crate_cursed_3_20": {"level": 20},
         "the_vault:base_crate_cursed_3_50": {"level": 50},
         "the_vault:base_crate_cursed_3_100": {"level": 100}
       }

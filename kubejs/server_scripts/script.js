@@ -26,7 +26,10 @@ onEvent('recipes', event => {
 		event.shapeless('1x kubejs:purple_unobtanium_block', '4x kubejs:purple_unobtanium')
 		event.shapeless('1x kubejs:black_unobtanium_block', '4x kubejs:black_unobtanium')
 		event.shapeless('1x kubejs:rainbow_unobtanium_block', '4x kubejs:rainbow_unobtanium')
-		// Functional Storage
+        event.shapeless('1x minecraft:magma_block', '4x minecraft:magma_cream');
+  	    event.shapeless('1x byg:packed_black_ice', '9x byg:black_ice');
+    	event.shapeless('1x minecraft:amethyst_block', '4x minecraft:amethyst_shard');
+		// Functional Storage    
     	event.custom({
         	type: "functionalstorage:custom_compacting",
         	higher_input: {
@@ -60,13 +63,24 @@ onEvent('recipes', event => {
             	item: "the_vault:overgrown_wooden_planks"
         	}
         })
-
+        event.custom({
+        	type: "functionalstorage:custom_compacting",
+        	higher_input: {
+            	count: 1,
+            	item: "minecraft:prismarine"
+        	},
+        	lower_input: {
+            	count: 4,
+            	item: "minecraft:prismarine_shard"
+        	}
+        })
+    
     // Decompacting snow block into snowballs
     event.shapeless('4x minecraft:snowball', [
         'minecraft:snow_block'
     ]);
-
-
+    	 
+    	
 
        	// Decompression
 		event.shapeless('5x kubejs:white_unobtanium', '1x kubejs:white_unobtanium_block')
@@ -86,6 +100,10 @@ onEvent('recipes', event => {
 		event.shapeless('5x kubejs:purple_unobtanium', '1x kubejs:purple_unobtanium_block')
 		event.shapeless('5x kubejs:black_unobtanium', '1x kubejs:black_unobtanium_block')
 		event.shapeless('5x kubejs:rainbow_unobtanium', '1x kubejs:rainbow_unobtanium_block')
+        event.shapeless('4x minecraft:magma_cream', '1x minecraft:magma_block');
+    	event.shapeless('9x byg:black_ice', '1x byg:packed_black_ice');
+    	event.shapeless('4x minecraft:amethyst_shard', '1x minecraft:amethyst_block');
+    
 
 		// Dye
 		event.shapeless('8x kubejs:white_unobtanium_block', ['8x architects_palette:unobtanium_block', 'minecraft:white_dye'])

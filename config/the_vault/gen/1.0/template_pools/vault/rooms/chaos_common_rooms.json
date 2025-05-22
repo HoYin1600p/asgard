@@ -73,10 +73,6 @@
   },
   {
     "weight": 1,
-    "reference": "the_vault:vault/rooms/chaos/gingerbread_common_rooms"
-  },
-  {
-    "weight": 1,
     "reference": "the_vault:vault/rooms/chaos/haunted_common_rooms"
   },
   {
@@ -182,5 +178,37 @@
   {
     "weight": 1,
     "reference": "the_vault:vault/rooms/chaos/season_winter_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/dreadlands_day_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/dreadlands_night_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/ancient_idona_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/ancient_tenos_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/ancient_velara_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/ancient_wendarr_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/aberrant_garden_common_rooms"
+  },
+  {
+    "weight": 1,
+    "reference": "the_vault:vault/rooms/autumn_cherry_grove_common_rooms"
   }
 ]

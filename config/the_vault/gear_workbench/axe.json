@@ -144,6 +144,74 @@
           }
         ]
       },
+      { "workbenchCraftIdentifier": "the_vault:crafted_attack_damage_t8",
+        "modifierIdentifier": "the_vault:crafted_attack_damage",
+        "modifierTier": 8,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      { "workbenchCraftIdentifier": "the_vault:crafted_attack_damage_t9",
+        "modifierIdentifier": "the_vault:crafted_attack_damage",
+        "modifierTier": 9,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      { "workbenchCraftIdentifier": "the_vault:crafted_attack_damage_t10",
+        "modifierIdentifier": "the_vault:crafted_attack_damage",
+        "modifierTier": 10,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      { "workbenchCraftIdentifier": "the_vault:crafted_attack_damage_t11",
+        "modifierIdentifier": "the_vault:crafted_attack_damage",
+        "modifierTier": 11,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 64,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
 
       { "workbenchCraftIdentifier": "the_vault:crafted_on_hit_chain_t0",
         "modifierIdentifier": "the_vault:crafted_on_hit_chain",
@@ -334,6 +402,7 @@
           }
         ]
       },
+
       { "workbenchCraftIdentifier": "the_vault:crafted_damage_dungeon_t0",
         "modifierIdentifier": "the_vault:crafted_damage_dungeon",
         "modifierTier": 0,
@@ -402,6 +471,7 @@
           }
         ]
       },
+
       { "workbenchCraftIdentifier": "the_vault:crafted_damage_assassin_t0",
         "modifierIdentifier": "the_vault:crafted_damage_assassin",
         "modifierTier": 0,
@@ -470,6 +540,7 @@
           }
         ]
       },
+
       { "workbenchCraftIdentifier": "the_vault:crafted_damage_horde_t0",
         "modifierIdentifier": "the_vault:crafted_damage_horde",
         "modifierTier": 0,
@@ -538,6 +609,7 @@
           }
         ]
       },
+
       { "workbenchCraftIdentifier": "the_vault:crafted_damage_tank_t0",
         "modifierIdentifier": "the_vault:crafted_damage_tank",
         "modifierTier": 0,
@@ -606,6 +678,7 @@
           }
         ]
       },
+
       { "workbenchCraftIdentifier": "the_vault:crafted_damage_dweller_t0",
         "modifierIdentifier": "the_vault:crafted_damage_dweller",
         "modifierTier": 0,
@@ -660,6 +733,97 @@
       { "workbenchCraftIdentifier": "the_vault:crafted_damage_dweller_t3",
         "modifierIdentifier": "the_vault:crafted_damage_dweller",
         "modifierTier": 3,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 32,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 32,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_on_hit_hearts_t0",
+        "modifierIdentifier": "the_vault:crafted_on_hit_hearts",
+        "modifierTier": 0,
+        "unlockCategory": "LEVEL",
+        "craftingCost": [
+          {
+            "AMOUNT": 4,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 4,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_on_hit_hearts_t1",
+        "modifierIdentifier": "the_vault:crafted_on_hit_hearts",
+        "modifierTier": 1,
+        "unlockCategory": "LEVEL",
+        "craftingCost": [
+          {
+            "AMOUNT": 8,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 8,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_on_hit_hearts_t2",
+        "modifierIdentifier": "the_vault:crafted_on_hit_hearts",
+        "modifierTier": 2,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 16,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 16,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_on_hit_hearts_t3",
+        "modifierIdentifier": "the_vault:crafted_on_hit_hearts",
+        "modifierTier": 3,
+        "unlockCategory": "VAULT_DISCOVERY",
+        "craftingCost": [
+          {
+            "AMOUNT": 24,
+            "ITEM": "the_vault:amplifying_focus",
+            "NBT": "{}"
+          },
+          {
+            "AMOUNT": 24,
+            "ITEM": "the_vault:vault_gold",
+            "NBT": "{}"
+          }
+        ]
+      },
+      {
+        "workbenchCraftIdentifier": "the_vault:crafted_on_hit_hearts_t4",
+        "modifierIdentifier": "the_vault:crafted_on_hit_hearts",
+        "modifierTier": 4,
         "unlockCategory": "VAULT_DISCOVERY",
         "craftingCost": [
           {

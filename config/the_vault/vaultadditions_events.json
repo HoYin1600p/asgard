@@ -5,7 +5,7 @@
         "eventId": "vaultadditions:event_re_enable_border_expansion",
         "eventStartMessage": [
           {
-            "text": "The Event {eventId}",
+            "text": "Border Expansion",
             "color": "yellow"
           },
           {
@@ -16,7 +16,7 @@
         ],
         "eventEndMessage": [
           {
-            "text": "The event {eventId} has ended.",
+            "text": "Border Expansion has ended.",
             "color": "yellow",
             "bold": true
           },
@@ -37,13 +37,13 @@
         ],
         "eventDisplayMessage": [
           {
-            "text": "This is an example display message for the Event Block!",
+            "text": "Submit Power Crystals to expand the Border",
             "color": "light_purple"
           }
         ],
         "eventEnabledMessage": [
           {
-            "text": "The Event is now enabled!\n",
+            "text": "The Event is now Live!\n",
             "color": "light_purple"
           },
           {
@@ -51,8 +51,130 @@
             "color": "red"
           }
         ],
-        "eventDuration": 2000,
+        "eventDuration": 72000,
         "crystalSubmission": false
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "eventId": "vaultadditions:event_add_portal_modifiers",
+        "eventStartMessage": [
+          {
+            "text": "The Wooden Event",
+            "color": "yellow"
+          },
+          {
+            "text": "is now active",
+            "color": "green",
+            "bold": true
+          }
+        ],
+        "eventEndMessage": [
+          {
+            "text": "The Wooden Event has ended.",
+            "color": "yellow",
+            "bold": true
+          },
+          {
+            "text": " {submittedCrystals} / {requiredCrystals} Crystals were submitted",
+            "color": "gold"
+          }
+        ],
+        "eventLoginMessage": [
+          {
+            "text": "You logged in with an active event!\n",
+            "color": "green"
+          },
+          {
+            "text": "Time Remaining: {eventDurationDays}d, {eventDurationHours}h, {eventDurationMinutes}m, {eventDurationSeconds}s",
+            "color": "red"
+          }
+        ],
+        "eventDisplayMessage": [
+          {
+            "text": "Extra Wooden Chests + Rarity!",
+            "color": "light_purple"
+          }
+        ],
+        "eventEnabledMessage": [
+          {
+            "text": "The Wooden Event is now Live!\n",
+            "color": "light_purple"
+          },
+          {
+            "text": "{submittedCrystals} / {requiredCrystals} were submitted and the goal was reached!",
+            "color": "red"
+          }
+        ],
+        "eventDuration": 108000,
+        "crystalSubmission": true,
+        "minCrystalsSubmitted": 1500,
+        "maxCrystalsSubmitted": 3500,
+        "additionalModifiers": {
+          "the_vault:wooden_event": 1
+        }
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "eventId": "vaultadditions:event_add_portal_modifiers",
+        "eventStartMessage": [
+          {
+            "text": "The Ornate Event",
+            "color": "yellow"
+          },
+          {
+            "text": " is now active",
+            "color": "green",
+            "bold": true
+          }
+        ],
+        "eventEndMessage": [
+          {
+            "text": "The Ornate Event has ended.",
+            "color": "yellow",
+            "bold": true
+          },
+          {
+            "text": " {submittedCrystals} / {requiredCrystals} Crystals were submitted",
+            "color": "gold"
+          }
+        ],
+        "eventLoginMessage": [
+          {
+            "text": "You logged in with an active event!\n",
+            "color": "green"
+          },
+          {
+            "text": "Time Remaining: {eventDurationDays}d, {eventDurationHours}h, {eventDurationMinutes}m, {eventDurationSeconds}s",
+            "color": "red"
+          }
+        ],
+        "eventDisplayMessage": [
+          {
+            "text": "Extra Ornate Chests + Rarity!",
+            "color": "light_purple"
+          }
+        ],
+        "eventEnabledMessage": [
+          {
+            "text": "The Ornate Event is now Live!\n",
+            "color": "light_purple"
+          },
+          {
+            "text": "{submittedCrystals} / {requiredCrystals} were submitted and the goal was reached!",
+            "color": "red"
+          }
+        ],
+        "eventDuration": 108000,
+        "crystalSubmission": true,
+        "minCrystalsSubmitted": 1500,
+        "maxCrystalsSubmitted": 3500,
+        "additionalModifiers": {
+          "the_vault:ornate_event": 1
+        }
       },
       "weight": 2
     },
@@ -61,7 +183,7 @@
         "eventId": "vaultadditions:event_add_portal_modifiers",
         "eventStartMessage": [
           {
-            "text": "The Event {eventId}",
+            "text": "The Coin Event",
             "color": "yellow"
           },
           {
@@ -72,7 +194,7 @@
         ],
         "eventEndMessage": [
           {
-            "text": "The event {eventId} has ended.",
+            "text": "The Coin Event has ended.",
             "color": "yellow",
             "bold": true
           },
@@ -93,13 +215,13 @@
         ],
         "eventDisplayMessage": [
           {
-            "text": "This is an example display message for the Event Block!",
+            "text": "Coin Explosion + Soul Shards!",
             "color": "light_purple"
           }
         ],
         "eventEnabledMessage": [
           {
-            "text": "The Event is now enabled!\n",
+            "text": "The Coin Event is now Live!\n",
             "color": "light_purple"
           },
           {
@@ -107,16 +229,198 @@
             "color": "red"
           }
         ],
-        "eventDuration": 2000,
+        "eventDuration": 108000,
         "crystalSubmission": true,
-        "minCrystalsSubmitted": 50,
-        "maxCrystalsSubmitted": 250,
+        "minCrystalsSubmitted": 2500,
+        "maxCrystalsSubmitted": 4500,
         "additionalModifiers": {
-          "the_vault:item_rarity": 3,
-          "the_vault:energizing": 3
+          "the_vault:coin_event": 1
+        }
+      },
+      "weight": 4
+    },
+    {
+      "value": {
+        "eventId": "vaultadditions:event_add_portal_modifiers",
+        "eventStartMessage": [
+          {
+            "text": "The Living Event",
+            "color": "yellow"
+          },
+          {
+            "text": "is now active",
+            "color": "green",
+            "bold": true
+          }
+        ],
+        "eventEndMessage": [
+          {
+            "text": "The Living Event has ended.",
+            "color": "yellow",
+            "bold": true
+          },
+          {
+            "text": " {submittedCrystals} / {requiredCrystals} Crystals were submitted",
+            "color": "gold"
+          }
+        ],
+        "eventLoginMessage": [
+          {
+            "text": "You logged in with an active event!\n",
+            "color": "green"
+          },
+          {
+            "text": "Time Remaining: {eventDurationDays}d, {eventDurationHours}h, {eventDurationMinutes}m, {eventDurationSeconds}s",
+            "color": "red"
+          }
+        ],
+        "eventDisplayMessage": [
+          {
+            "text": "Extra Living Chests, 2x Quantity + Rarity!",
+            "color": "light_purple"
+          }
+        ],
+        "eventEnabledMessage": [
+          {
+            "text": "The Living Event is now Live!\n",
+            "color": "light_purple"
+          },
+          {
+            "text": "{submittedCrystals} / {requiredCrystals} were submitted and the goal was reached!",
+            "color": "red"
+          }
+        ],
+        "eventDuration": 108000,
+        "crystalSubmission": true,
+        "minCrystalsSubmitted": 1500,
+        "maxCrystalsSubmitted": 3500,
+        "additionalModifiers": {
+          "the_vault:living_event": 1
         }
       },
       "weight": 3
+    },
+    {
+      "value": {
+        "eventId": "vaultadditions:event_add_portal_modifiers",
+        "eventStartMessage": [
+          {
+            "text": "The XP & Cascade Event",
+            "color": "yellow"
+          },
+          {
+            "text": "is now active",
+            "color": "green",
+            "bold": true
+          }
+        ],
+        "eventEndMessage": [
+          {
+            "text": "The XP & Cascade Event has ended.",
+            "color": "yellow",
+            "bold": true
+          },
+          {
+            "text": " {submittedCrystals} / {requiredCrystals} Crystals were submitted",
+            "color": "gold"
+          }
+        ],
+        "eventLoginMessage": [
+          {
+            "text": "You logged in with an active event!\n",
+            "color": "green"
+          },
+          {
+            "text": "Time Remaining: {eventDurationDays}d, {eventDurationHours}h, {eventDurationMinutes}m, {eventDurationSeconds}s",
+            "color": "red"
+          }
+        ],
+        "eventDisplayMessage": [
+          {
+            "text": "Extra XP & Cascades!",
+            "color": "light_purple"
+          }
+        ],
+        "eventEnabledMessage": [
+          {
+            "text": "The XP & Cascade Event is now Live!\n",
+            "color": "light_purple"
+          },
+          {
+            "text": "{submittedCrystals} / {requiredCrystals} were submitted and the goal was reached!",
+            "color": "red"
+          }
+        ],
+        "eventDuration": 108000,
+        "crystalSubmission": true,
+        "minCrystalsSubmitted": 1500,
+        "maxCrystalsSubmitted": 3500,
+        "additionalModifiers": {
+          "the_vault:xp_event": 1
+        }
+      },
+      "weight": 6
+    },
+    {
+      "value": {
+        "eventId": "vaultadditions:event_add_portal_modifiers",
+        "eventStartMessage": [
+          {
+            "text": "Power Event",
+            "color": "yellow"
+          },
+          {
+            "text": "is now active",
+            "color": "green",
+            "bold": true
+          }
+        ],
+        "eventEndMessage": [
+          {
+            "text": "Power Event has ended.",
+            "color": "yellow",
+            "bold": true
+          },
+          {
+            "text": " {submittedCrystals} / {requiredCrystals} Crystals were submitted",
+            "color": "gold"
+          }
+        ],
+        "eventLoginMessage": [
+          {
+            "text": "You logged in with an active event!\n",
+            "color": "green"
+          },
+          {
+            "text": "Time Remaining: {eventDurationDays}d, {eventDurationHours}h, {eventDurationMinutes}m, {eventDurationSeconds}s",
+            "color": "red"
+          }
+        ],
+        "eventDisplayMessage": [
+          {
+            "text": "Extra XP & Cascades!",
+            "color": "light_purple"
+          }
+        ],
+        "eventEnabledMessage": [
+          {
+            "text": "The Power Event is now Live!\n",
+            "color": "light_purple"
+          },
+          {
+            "text": "{submittedCrystals} / {requiredCrystals} were submitted and the goal was reached!",
+            "color": "red"
+          }
+        ],
+        "eventDuration": 108000,
+        "crystalSubmission": true,
+        "minCrystalsSubmitted": 3500,
+        "maxCrystalsSubmitted": 7500,
+        "additionalModifiers": {
+          "the_vault:power": 1
+        }
+      },
+      "weight": 6
     },
     {
       "value": {
@@ -177,7 +481,7 @@
         },
         "chance": 0.5
       },
-      "weight": 300
+      "weight": 0
     }
   ]
 }

@@ -54,6 +54,7 @@ var f_mat = {
 
 JEI.hideIngredient(<item:functionalstorage:creative_vending_upgrade>);
 JEI.hideIngredient(<item:functionalstorage:controller_extension>);
+JEI.hideIngredient(<item:functionalstorage:armory_cabinet>);
 
 // remove recipes
 
@@ -159,6 +160,8 @@ craftingTable.addShaped("drawer_controller", <item:functionalstorage:storage_con
         [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:extraordinary_larimar>, <item:the_vault:black_chromatic_steel_ingot>]
     ]);
 
+
+
 // tools
 craftingTable.addShaped("drawer_linking_tool", <item:functionalstorage:linking_tool>, [
         [<item:the_vault:magic_silk>, <item:the_vault:magic_silk>, <item:woldsvaults:chromatic_gold_ingot>],
@@ -262,8 +265,8 @@ craftingTable.addShaped("ender_drawer", <item:functionalstorage:ender_drawer>, [
 
 
 // armory cabinet
-craftingTable.addShaped("armory_cabinet", <item:functionalstorage:armory_cabinet>, [
-        [<item:the_vault:polished_vault_stone>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:polished_vault_stone>],
-        [<tag:items:functionalstorage:drawer>,  <item:the_vault:chromatic_steel_block>, <tag:items:functionalstorage:drawer>],
-        [<item:the_vault:polished_vault_stone>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:polished_vault_stone>]
-    ]);
+//craftingTable.addShaped("armory_cabinet", <item:functionalstorage:armory_cabinet>, [
+//        [<item:the_vault:polished_vault_stone>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:polished_vault_stone>],
+//        [<tag:items:functionalstorage:drawer>,  <item:the_vault:chromatic_steel_block>, <tag:items:functionalstorage:drawer>],
+//        [<item:the_vault:polished_vault_stone>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:polished_vault_stone>]
+//    ]);

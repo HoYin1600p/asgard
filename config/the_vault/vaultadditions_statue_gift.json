@@ -1,161 +1,183 @@
 {
-  "LOOT": [
+  "DROPS": [
     {
       "value": {
-        "ITEM": "minecraft:deepslate",
-        "NBT": "{}"
+        "id": "minecraft:deepslate",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:tuff",
-        "NBT": "{}"
+        "id": "minecraft:tuff",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:crimson_nylium",
-        "NBT": "{}"
+        "id": "minecraft:crimson_nylium",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:warped_nylium",
-        "NBT": "{}"
+        "id": "minecraft:warped_nylium",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:coal_ore",
-        "NBT": "{}"
+        "id": "minecraft:coal_ore",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:iron_ore",
-        "NBT": "{}"
+        "id": "minecraft:iron_ore",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:copper_ore",
-        "NBT": "{}"
+        "id": "minecraft:copper_ore",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:lapis_ore",
-        "NBT": "{}"
+        "id": "minecraft:lapis_ore",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:jungle_log",
-        "NBT": "{}"
+        "id": "minecraft:jungle_log",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:acacia_log",
-        "NBT": "{}"
+        "id": "minecraft:acacia_log",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:dark_oak_log",
-        "NBT": "{}"
+        "id": "minecraft:dark_oak_log",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:spruce_log",
-        "NBT": "{}"
+        "id": "minecraft:spruce_log",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:jungle_leaves",
-        "NBT": "{}"
+        "id": "minecraft:jungle_leaves",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:flowering_azalea_leaves",
-        "NBT": "{}"
+        "id": "minecraft:flowering_azalea_leaves",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:sea_pickle",
-        "NBT": "{}"
+        "id": "minecraft:sea_pickle",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:dead_bush",
-        "NBT": "{}"
+        "id": "minecraft:dead_bush",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:mycelium",
-        "NBT": "{}"
+        "id": "minecraft:mycelium",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:mossy_stone_bricks",
-        "NBT": "{}"
+        "id": "minecraft:mossy_stone_bricks",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:snow_block",
-        "NBT": "{}"
+        "id": "minecraft:snow_block",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:soul_sand",
-        "NBT": "{}"
+        "id": "minecraft:soul_sand",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:white_concrete",
-        "NBT": "{}"
+        "id": "minecraft:white_concrete",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:chorus_flower",
-        "NBT": "{}"
+        "id": "minecraft:end_stone",
+        "amountMin": 1,
+        "amountMax": 1
       },
       "weight": 1
     }
   ],
   "INTERVAL": 400,
-  "MIN_ITEM_GENERATED": 192,
-  "MAX_ITEM_GENERATED": 384
+  "MIN_ITEM_GENERATED": 64,
+  "MAX_ITEM_GENERATED": 192
 }

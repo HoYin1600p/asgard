@@ -1,13 +1,13 @@
 name = "Coin Pouch - Vault Hunters Addon"
-filename = "vaultcoinpouch-1.6.2.jar"
+filename = "vaultcoinpouch-1.7.0+U18.jar"
 side = "both"
 
 [download]
 hash-format = "sha256"
-hash = "6c635146c28292ea9c001dc3bb962aae772b7b4767621d2db01bb76c76e9002b"
+hash = "00399840a02a64c00fd2f4bcdb4bb63312798b3109aaa98de631076a9bbee085"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6107151
+file-id = 6506098
 project-id = 958369

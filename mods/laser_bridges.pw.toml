@@ -1,0 +1,13 @@
+name = "Entangled"
+filename = "laserbridges-1.18.2-3-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "8cfd673b1317a5e0a14b5dc5e70be17bb2466eeebc41a6e6fd1ee143594cb8b3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5508374
+project-id = 776337

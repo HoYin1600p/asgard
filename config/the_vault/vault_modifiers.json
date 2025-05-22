@@ -280,10 +280,18 @@
       "the_vault:vexation": {
         "properties": {
           "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"champion_vex\"}",
-          "attemptsPerChunk": 1,
+          "attemptsPerChunk": 4,
           "requireConditions": false
+          },
+          "display": {
+            "name": "Vexation",
+            "color": "#237da1",
+            "description": "Endless poltergeists await you.",
+            "descriptionFormatted": "Endless poltergeists await you.",
+            "icon": "the_vault:gui/modifiers/vexation"
+          }
         },
-        "the_vault:ghost_city": {
+      "the_vault:ghost_city": {
           "properties": {
             "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"all_ghosts\"}",
             "attemptsPerChunk": 2,
@@ -297,7 +305,7 @@
             "icon": "the_vault:gui/modifiers/vexation"
           }
         },
-        "the_vault:ghost_town": {
+      "the_vault:ghost_town": {
           "properties": {
             "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"all_ghosts\"}",
             "attemptsPerChunk": 1,
@@ -311,14 +319,6 @@
             "icon": "the_vault:gui/modifiers/vexation"
           }
         },
-        "display": {
-          "name": "Vexation",
-          "color": "#237da1",
-          "description": "Endless poltergeists await you.",
-          "descriptionFormatted": "Endless poltergeists await you.",
-          "icon": "the_vault:gui/modifiers/vexation"
-        }
-      },
       "the_vault:coin_pile": {
         "properties": {
           "output": "the_vault:placeholder[type=coin_stacks]",
@@ -2324,7 +2324,8 @@
           "preventsArtifact": false,
           "experienceMultiplierOnDeath": 0.0,
           "experienceMultiplierOnSuccess": 0.5,
-          "isInstantRevival": false
+          "isInstantRevival": false,
+          "durabilityPenalty": 1.0
         },
         "display": {
           "name": ":afterlife: Afterlife",
@@ -2338,7 +2339,8 @@
           "preventsArtifact": false,
           "experienceMultiplierOnDeath": 0.0,
           "experienceMultiplierOnSuccess": 1.0,
-          "isInstantRevival": true
+          "isInstantRevival": true,
+          "durabilityPenalty": 1.0
         },
         "display": {
           "name": ":phoenix: Phoenix",
@@ -2352,7 +2354,8 @@
           "preventsArtifact": false,
           "experienceMultiplierOnDeath": 0.0,
           "experienceMultiplierOnSuccess": 1.0,
-          "isInstantRevival": false
+          "isInstantRevival": false,
+          "durabilityPenalty": 1.0
         },
         "display": {
           "name": ":beginners_grace: Beginner's Grace",
@@ -2366,12 +2369,13 @@
           "preventsArtifact": false,
           "experienceMultiplierOnDeath": 0.0,
           "experienceMultiplierOnSuccess": 1.0,
-          "isInstantRevival": false
+          "isInstantRevival": false,
+          "durabilityPenalty": 0.0
         },
         "display": {
           "name": ":beginners_grace: Casual Mode",
           "color": "#FF8900",
-          "description": "If killed in the vault you will keep your inventory but receive a durability penalty.",
+          "description": "If killed in the vault you will keep your inventory, there is also no durability penalty.",
           "icon": "the_vault:gui/modifiers/beginners_grace"
         }
       }
@@ -2543,6 +2547,19 @@
           "name": ":inert: Inert",
           "color": "#6DACB5",
           "description": "-10% Cooldown Reduction",
+          "descriptionFormatted": "%d%% Cooldown Reduction",
+          "icon": "the_vault:gui/modifiers/inert"
+        }
+      },
+      "the_vault:weakened_cdr": {
+        "properties": {
+          "stat": "cooldown_reduction",
+          "addend": -0.2
+        },
+        "display": {
+          "name": ":fast_forward: Weakened CDR",
+          "color": "#6DACB5",
+          "description": "-20% Cooldown Reduction",
           "descriptionFormatted": "%d%% Cooldown Reduction",
           "icon": "the_vault:gui/modifiers/inert"
         }
@@ -2895,6 +2912,19 @@
           "icon": "the_vault:gui/modifiers/plentiful"
         }
       },
+      "the_vault:no_ores": {
+        "properties": {
+          "type": "ORE",
+          "chance": -100.0
+        },
+        "display": {
+          "name": ":plentiful: No Ores",
+          "color": "#FF85FF",
+          "description": "-100% Vault Ores",
+          "descriptionFormatted": "+%d%% Vault Ores",
+          "icon": "the_vault:gui/modifiers/chaotic"
+        }
+      },
       "the_vault:soul_ores": {
         "properties": {
           "type": "ORE",
@@ -3028,6 +3058,22 @@
           "description": "No Jump",
           "descriptionFormatted": "No Jump",
           "icon": "the_vault:gui/modifiers/jupiter_gravity"
+        }
+      }
+    },
+    "the_vault:modifier_type/camera": {
+      "the_vault:backwards": {
+        "properties": {
+          "behindPlayer": true,
+          "xRot": 0,
+          "yRot": 0
+        },
+        "display": {
+          "name": "Backwards",
+          "color": "#7738C9",
+          "description": "See behind you!",
+          "descriptionFormatted": "See behind you!",
+          "icon": "the_vault:gui/modifiers/backwards"
         }
       }
     },
@@ -3525,6 +3571,20 @@
         }
       }
     },
+    "the_vault:modifier_type/chance_power_crystal": {
+      "the_vault:power": {
+        "properties": {
+          "chance": 0.25
+        },
+        "display": {
+          "name": "Power",
+          "color": "#FC00E3",
+          "description": "+25% Power Crystals",
+          "descriptionFormatted": "+%d%% Power Crystals",
+          "icon": "the_vault:gui/modifiers/power"
+        }
+      }
+    },
     "the_vault:modifier_type/grouped": {
       "the_vault:omega_bonus": {
         "properties": {
@@ -3750,6 +3810,25 @@
           "icon": "the_vault:gui/modifiers/bingo"
         }
       },
+      "the_vault:trial_chambers": {
+        "properties": {
+          "children": {
+            "the_vault:noloot_destroy": 1,
+            "the_vault:extra_reinforced": 1,
+            "the_vault:noxp": 1,
+            "the_vault:beginners_grace": 1,
+            "the_vault:no_ores": 1,
+            "the_vault:no_reward": 1,
+            "the_vault:no_souls": 1
+          }
+        },
+        "display": {
+          "name": "Trial Chambers",
+          "color": "#bbf333",
+          "description": "The Trial Chambers does not contain loot, you get no experience, and you take no durability damage!",
+          "icon": "the_vault:gui/modifiers/chaotic"
+        }
+      },
       "the_vault:rock_solid": {
         "properties": {
           "children": {
@@ -3931,6 +4010,19 @@
       "the_vault:curse": {
         "properties": {
           "children": {
+            "the_vault:companion_shortened": 1
+          }
+        },
+        "display": {
+          "name": "Cursed!",
+          "color": "#ad2b2b",
+          "description": "This Vault is Cursed, causing it to have less time",
+          "icon": "the_vault:gui/modifiers/curse_voidpools"
+        }
+      },
+      "the_vault:legacy_curses": {
+        "properties": {
+          "children": {
             "the_vault:collapsing": 1,
             "the_vault:explosive": 1,
             "the_vault:void_pools": 1,
@@ -4088,6 +4180,24 @@
           "icon": "the_vault:gui/modifiers/difficult"
         }
       },
+      "the_vault:bovine": {
+        "properties": {
+          "children": {
+            "the_vault:soul_surge": 3,
+            "the_vault:chunky_mobs2": 1,
+            "the_vault:critical_mobs": 1,
+            "the_vault:ruthless_mobs": 2,
+            "the_vault:brutal_faster_mobs": 1,
+            "the_vault:wild": 6
+          }
+        },
+        "display": {
+          "name": ":cow2: Bovine",
+          "color": "#d89e01",
+          "description": "The Secret Cow Level",
+          "icon": "the_vault:gui/modifiers/bovine"
+        }
+      },
       "the_vault:cake_layer": {
         "properties": {
           "children": {
@@ -4167,100 +4277,71 @@
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_one": {
+      "the_vault:wooden_event": {
         "properties": {
           "children": {
-            "the_vault:cake_layer_itemrarity": 5,
-            "the_vault:cake_layer_soulshards": 5,
-            "the_vault:cake_coin_cascade": 5,
-            "the_vault:cake_ores": 5,
-            "the_vault:cake_cascade_gilded": 5,
-            "the_vault:cake_cascade_ornate": 5,
-            "the_vault:cake_cascade_living": 5,
-            "the_vault:cake_cascade_wooden": 5,
-            "the_vault:prismatic": 2,
-            "the_vault:wooden_chest": 2
+            "the_vault:cake_layer_itemrarity": 15,
+            "the_vault:wooden_chest": 5
 
           }
         },
         "display": {
-          "name": ":divine: Event Group One",
+          "name": "Wooden Event",
           "color": "#0353D7",
-          "description": "Increased Wooden Chests and Prismatic",
+          "description": "Increased Wooden Chests",
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_two": {
+      "the_vault:ornate_event": {
         "properties": {
           "children": {
-            "the_vault:cake_layer_itemrarity": 5,
-            "the_vault:cake_layer_soulshards": 5,
-            "the_vault:cake_coin_cascade": 5,
-            "the_vault:cake_ores": 5,
-            "the_vault:cake_cascade_gilded": 5,
-            "the_vault:cake_cascade_ornate": 5,
-            "the_vault:cake_cascade_living": 5,
-            "the_vault:cake_cascade_wooden": 5,
-            "the_vault:pristine": 2,
-            "the_vault:ornate": 2,
-            "the_vault:ornate_cascade": 2
+            "the_vault:cake_layer_itemrarity": 15,
+            "the_vault:ornate": 5,
+            "the_vault:ornate_cascade": 5
 
           }
         },
         "display": {
-          "name": ":divine: Event Group Two",
+          "name": "Ornate Event",
           "color": "#0353D7",
-          "description": "Ornate cascade and item rarity",
+          "description": "Ornate Cascade and item rarity",
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_three": {
+      "the_vault:coin_event": {
         "properties": {
           "children": {
-            "the_vault:cake_layer_itemrarity": 5,
-            "the_vault:cake_layer_soulshards": 5,
-            "the_vault:cake_coin_cascade": 5,
-            "the_vault:cake_ores": 5,
-            "the_vault:cake_cascade_gilded": 5,
-            "the_vault:cake_cascade_ornate": 5,
-            "the_vault:cake_cascade_living": 5,
-            "the_vault:cake_cascade_wooden": 5,
-            "the_vault:soul_surge": 2,
+            "the_vault:cake_coin_cascade": 45,
+            "the_vault:cake_layer_soulshards": 25,
             "the_vault:bronze_nuke": 2
           }
         },
         "display": {
-          "name": ":divine: Event Group Three",
+          "name": "Coin & Soul Shard Event",
           "color": "#0353D7",
           "description": "Coin explosion and Soul Shards",
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_four": {
+      "the_vault:living_event": {
         "properties": {
           "children": {
-            "the_vault:cake_layer_itemrarity": 5,
-            "the_vault:cake_layer_soulshards": 5,
-            "the_vault:cake_coin_cascade": 5,
-            "the_vault:cake_ores": 5,
-            "the_vault:cake_cascade_gilded": 5,
-            "the_vault:cake_cascade_ornate": 5,
+            "the_vault:cake_layer_itemrarity": 35,
             "the_vault:cake_cascade_living": 5,
-            "the_vault:cake_cascade_wooden": 5,
-            "the_vault:living_cascade": 2,
-            "the_vault:living": 2,
+            "the_vault:living_cascade": 5,
+            "the_vault:living": 5,
             "the_vault:goblin_quantity": 1
 
           }
         },
         "display": {
-          "name": ":divine: Event Group Four",
+          "name": "Living Event",
           "color": "#0353D7",
           "description": "Living Cascade and item quantity",
           "icon": "the_vault:gui/modifiers/tree"
         }
       },
-      "the_vault:event_group_five": {
+      "the_vault:xp_event": {
         "properties": {
           "children": {
             "the_vault:cake_layer_itemrarity": 10,
@@ -4276,7 +4357,7 @@
           }
         },
         "display": {
-          "name": ":divine: Event Group Five",
+          "name": "XP & Cascade Event",
           "color": "#0353D7",
           "description": "Double XP, and Extra cascade layers",
           "icon": "the_vault:gui/modifiers/tree"
@@ -4906,6 +4987,30 @@
           "description": "No Mobs spawn in this vault",
           "descriptionFormatted": "No Mobs spawn in this vault",
           "icon": "the_vault:gui/modifiers/personalspace"
+        }
+      }
+    },
+    "the_vault:modifier_type/no_loot": {
+      "the_vault:noloot_destroy": {
+        "properties": {
+          "destroyChests": false
+        },
+        "display": {
+          "name": "No Loot",
+          "color": "#a996ca",
+          "description": "Chests and Champions have no loot in this vault.",
+          "icon": "the_vault:gui/modifiers/no_loot"
+        }
+      }
+    },
+    "the_vault:modifier_type/no_crate": {
+      "the_vault:no_reward": {
+        "properties": {},
+        "display": {
+          "name": "No Crate",
+          "color": "#a996ca",
+          "description": "You will not receive a crate on completion.",
+          "icon": "the_vault:gui/modifiers/no_crate"
         }
       }
     }

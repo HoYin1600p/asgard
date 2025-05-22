@@ -1,13 +1,13 @@
 name = "Just Enough VH"
-filename = "TheVaultJEI-1.0-beta.jar"
+filename = "just_enough_vh-1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha256"
-hash = "d122b39bbe9781ae41de4c84b8471014a312db57bc047f8817b0494d1a3826d5"
+hash = "61ccc12f4fe2e6e4db3ec05ae629ed7f9ebdb73f5429b375dba32f884f54a768"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6039852
+file-id = 6461391
 project-id = 1035310

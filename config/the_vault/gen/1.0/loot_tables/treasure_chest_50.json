@@ -191,6 +191,20 @@
                   "max": 1
                 }
               }
+            },
+            {
+              "weight": 80,
+              "item": {
+                "id": "the_vault:rang",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "gear_treasure"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
             }
           ]
         }
@@ -219,12 +233,12 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 2,
-        "max": 5
+        "min": 5,
+        "max": 10
       },
       "pool": [
         {
-          "weight": 8,
+          "weight": 1,
           "item": {
             "id": "the_vault:vault_catalyst_infused",
             "nbt": "{\"pool\":\"the_vault:treasure_bonus\"}",
@@ -245,7 +259,7 @@
       },
       "pool": [
         {
-          "weight": 1,
+          "weight": 4,
           "item": {
             "id": "vaultadditions:loot_statue_vault",
             "count": {
@@ -256,9 +270,31 @@
           }
         },
         {
-          "weight": 1,
+          "weight": 3,
           "item": {
             "id": "vaultadditions:loot_statue_gift",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "weight": 2,
+          "item": {
+            "id": "vaultadditions:loot_statue_gift_mega",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "item": {
+            "id": "vaultadditions:loot_statue_arena",
             "count": {
               "type": "uniform",
               "min": 1,
@@ -460,17 +496,6 @@
         {
           "weight": 16,
           "item": {
-            "id": "woldsvaults:poltergeist_plum",
-            "count": {
-              "type": "uniform",
-              "min": 1,
-              "max": 2
-            }
-          }
-        },
-        {
-          "weight": 16,
-          "item": {
             "id": "woldsvaults:wisdom_fruit",
             "count": {
               "type": "uniform",
@@ -502,7 +527,7 @@
           }
         },
         {
-          "weight": 8,
+          "weight": 4,
           "item": {
             "id": "the_vault:star_fruit",
             "count": {
@@ -566,7 +591,7 @@
           }
         },
         {
-          "weight": 16,
+          "weight": 8,
           "item": {
             "id": "the_vault:empowered_chaotic_focus",
             "count": {
@@ -577,7 +602,7 @@
           }
         },
         {
-          "weight": 8,
+          "weight": 12,
           "item": {
             "id": "the_vault:opportunistic_focus",
             "count": {
@@ -610,7 +635,7 @@
           }
         },
         {
-          "weight": 8,
+          "weight": 12,
           "item": {
             "id": "the_vault:vorpal_focus",
             "count": {
@@ -631,7 +656,7 @@
       },
       "pool": [
         {
-          "weight": 16,
+          "weight": 14,
           "item": {
             "id": "the_vault:vault_catalyst_chaos",
             "count": {
@@ -642,7 +667,7 @@
           }
         },
         {
-          "weight": 16,
+          "weight": 14,
           "item": {
             "id": "the_vault:crystal_seal_cake",
             "count": {
@@ -675,7 +700,7 @@
           }
         },
         {
-          "weight": 2,
+          "weight": 1,
           "item": {
             "id": "the_vault:mystic_pear",
             "count": {
@@ -711,6 +736,28 @@
           "weight": 2,
           "item": {
             "id": "woldsvaults:wold_star_chunk",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "weight": 2,
+          "item": {
+            "id": "the_vault:jade_apple",
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+            }
+          }
+        },
+        {
+          "weight": 2,
+          "item": {
+            "id": "the_vault:ghost_apple",
             "count": {
               "type": "uniform",
               "min": 1,

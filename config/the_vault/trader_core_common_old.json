@@ -64,22 +64,6 @@
       },
       "weight": 3
     },
-    { "_name": "wuto_3",
-      "value": {
-        "buy": {
-          "id": "the_vault:vault_gold",
-          "amountMin": 1,
-          "amountMax": 2
-        },
-        "sell": {
-          "id": "the_vault:gem_wutodie",
-          "amountMin": 1,
-          "amountMax": 2
-        },
-        "max_trades": 3
-      },
-      "weight": 3
-    },
     { "_name": "beni_4",
       "value": {
         "buy": {

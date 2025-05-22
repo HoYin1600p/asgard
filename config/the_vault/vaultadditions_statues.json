@@ -2,78 +2,61 @@
   "LOOT": [
     {
       "value": {
-        "ITEM": "minecraft:nether_brick",
-        "NBT": "{}"
+        "ITEM": "minecraft:nether_brick"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:ice",
-        "NBT": "{}"
+        "ITEM": "minecraft:ice"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:stone",
-        "NBT": "{}"
+        "ITEM": "minecraft:stone"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:granite",
-        "NBT": "{}"
+        "ITEM": "minecraft:granite"
       },
       "weight": 2
     },
     {
       "value": {
-        "ITEM": "minecraft:diorite",
-        "NBT": "{}"
+        "ITEM": "minecraft:diorite"
       },
       "weight": 2
     },
     {
       "value": {
-        "ITEM": "minecraft:andesite",
-        "NBT": "{}"
+        "ITEM": "minecraft:andesite"
       },
       "weight": 2
     },
     {
       "value": {
-        "ITEM": "minecraft:cobblestone",
-        "NBT": "{}"
+        "ITEM": "minecraft:cobblestone"
       },
       "weight": 3
     },
     {
       "value": {
-        "ITEM": "minecraft:cobbled_deepslate",
-        "NBT": "{}"
+        "ITEM": "minecraft:cobbled_deepslate"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:cobweb",
-        "NBT": "{}"
+        "ITEM": "minecraft:cobweb"
       },
       "weight": 1
     },
     {
       "value": {
-        "ITEM": "minecraft:netherrack",
-        "NBT": "{}"
-      },
-      "weight": 10
-    },
-    {
-      "value": {
-        "ITEM": "the_vault:unknown_item",
-        "NBT": "{Enchantments:[{id:\"minecraft:depth_strider\",lvl:10s}],display:{Name:'{\"color\":\"red\",\"text\":\"Fancy Example NBT item\"}'}}"
+        "ITEM": "minecraft:netherrack"
       },
       "weight": 10
     }

@@ -1,0 +1,54 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=wooden_chest]",
+      "output": {
+        "the_vault:placeholder[type=wooden_chest]": 20,
+        "minecraft:air": 80
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:oak_chest",
+      "output": {
+        "decocraft:monitor_3_black": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:birch_chest",
+      "output": {
+        "decocraft:laptop_black": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:spruce_chest",
+      "output": {
+        "decocraft:laptop_silver": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:acacia_chest",
+      "output": {
+        "decocraft:wooden_office_chair_blw": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:gray_concrete",
+      "output": {
+        "auxiliaryblocks:lab_dark_gray": 3,
+        "auxiliaryblocks:lab_dark_metallic": 1
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/room_base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

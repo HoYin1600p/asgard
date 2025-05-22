@@ -3237,7 +3237,7 @@
       ],
       "maxTier": 1
     },
-    "ice_blast": {
+    "glacial_blast": {
       "type": "gear",
       "name": {
         "text": "Glacial Blast Card"
@@ -3257,6 +3257,153 @@
       ],
       "maxTier": 1
     },
+
+    "blade_frenzy": {
+      "type": "gear",
+      "name": {
+        "text": "Blade Frenzy Card"
+      },
+      "model": "the_vault:card/icon/bladefrenzy#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Blade_Frenzy_Base",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
+    "shield_wall": {
+      "type": "gear",
+      "name": {
+        "text": "Shield Wall Card"
+      },
+      "model": "the_vault:card/icon/shield_wall#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Shield_Wall_Base",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
+    "legacy_mana_shield": {
+      "type": "gear",
+      "name": {
+        "text": "Mana Shield [Legacy] Card"
+      },
+      "model": "the_vault:card/icon/mana_shield#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Legacy_Mana_Shield_Base",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
+    "colossus": {
+      "type": "gear",
+      "name": {
+        "text": "Colossus Card"
+      },
+      "model": "the_vault:card/icon/colossus#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Colossus_Base",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "sneaky_getaway": {
+      "type": "gear",
+      "name": {
+        "text": "Sneaky Getaway Card"
+      },
+      "model": "the_vault:card/icon/sneaky_getaway#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Sneaky_Getaway",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
+    "levitate": {
+      "type": "gear",
+      "name": {
+        "text": "Levitate Card"
+      },
+      "model": "the_vault:card/icon/levitate#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Levitate",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+    "chain_miner": {
+      "type": "gear",
+      "name": {
+        "text": "Chain Miner Card"
+      },
+      "model": "the_vault:card/icon/vein_miner_chain#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Vein_Miner_Chain",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
+
 
     "temporal_charm": {
       "type": "gear",
@@ -5518,6 +5665,55 @@
       "highlightColor": "0x00FF00",
       "maxTier": 1
     },
+    "resource_vault_apple": {
+      "type": "task_loot",
+      "name": {
+        "text": " Card"
+      },
+      "model": "the_vault:vault_apple#inventory",
+      "groups": [
+        "Resource"
+      ],
+      "loot": [
+        {
+          "weight": 1,
+          "item": {
+            "id": "the_vault:vault_apple"
+          }
+        }
+      ],
+      "task": "@easy",
+      "count": [
+        {
+          "tier": 1,
+          "roll": {
+            "type": "uniform",
+            "min": 1,
+            "max": 1
+          }
+        }
+      ],
+      "tooltip": [
+        {
+          "text": "+",
+          "color": "gold"
+        },
+        {
+          "text": "${count}",
+          "color": "#FFFFFF"
+        },
+        {
+          "text":  " Vault Apple ",
+          "color": "yellow"
+        },
+        {
+          "text": "${task}"
+        }
+      ],
+      "highlightColor": "0x00FF00",
+      "maxTier": 1
+    },
+
 
     "resource_focus_cryonic": {
       "type": "task_loot",
@@ -5750,7 +5946,7 @@
           "color": "#FFFFFF"
         },
         {
-          "text":  " Burger Chili Ingot ",
+          "text":  " Burger Chili ",
           "color": "yellow"
         },
         {
@@ -6429,7 +6625,35 @@
         "weight": 1.0
       },
       {
-        "value": "ice_blast",
+        "value": "glacial_blast",
+        "weight": 1.0
+      },
+      {
+        "value": "blade_frenzy",
+        "weight": 1.0
+      },
+      {
+        "value": "legacy_mana_shield",
+        "weight": 1.0
+      },
+      {
+        "value": "shield_wall",
+        "weight": 1.0
+      },
+      {
+        "value": "colossus",
+        "weight": 1.0
+      },
+      {
+        "value": "sneaky_getaway",
+        "weight": 1.0
+      },
+      {
+        "value": "levitate",
+        "weight": 1.0
+      },
+      {
+        "value": "chain_miner",
         "weight": 1.0
       }
     ],
@@ -6482,7 +6706,7 @@
       },
       {
         "value": "resource_gem_wutodie",
-        "weight": 45.0
+        "weight": 0.0
       },
       {
         "value": "resource_gem_echo",
@@ -6642,7 +6866,7 @@
       },
       {
         "value": "resource_faceted_focus",
-        "weight": 8.0
+        "weight": 0.0
       },
       {
         "value": "resource_chili",
@@ -6655,6 +6879,10 @@
       {
         "value": "resource_mega_gift_statue",
         "weight": 2.0
+      },
+      {
+        "value": "resource_vault_apple",
+        "weight": 32.0
       }
     ],
     "scaling": [

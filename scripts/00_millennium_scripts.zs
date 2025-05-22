@@ -53,7 +53,6 @@ JEI.hideIngredient(<item:the_vault:drill_arrow_part>);
 JEI.hideIngredient(<item:the_vault:drill_arrow>);
 JEI.hideIngredient(<item:the_vault:card>);
 JEI.hideIngredient(<item:the_vault:title_scroll>);
-JEI.hideIngredient(<item:the_vault:vault_apple>);
 JEI.hideIngredient(<item:the_vault:hearty_apple>);
 JEI.hideIngredient(<item:the_vault:magnetite>);
 JEI.hideIngredient(<item:the_vault:magnetite_ingot>);
@@ -79,8 +78,6 @@ JEI.hideIngredient(<item:the_vault:blue_puzzle_concrete>);
 JEI.hideIngredient(<item:the_vault:pink_puzzle_concrete>);
 JEI.hideIngredient(<item:the_vault:green_puzzle_concrete>);
 JEI.hideIngredient(<item:the_vault:crystal_budding>);
-JEI.hideIngredient(<item:the_vault:offering>);
-JEI.hideIngredient(<item:the_vault:offering_pillar>);
 JEI.hideIngredient(<item:the_vault:t0_miner_zombie_egg>);
 JEI.hideIngredient(<item:the_vault:t1_miner_zombie_egg>);
 JEI.hideIngredient(<item:the_vault:t2_miner_zombie_egg>);
@@ -127,6 +124,14 @@ craftingTable.remove(<item:the_vault:gem_sparkletine>);
 craftingTable.remove(<item:the_vault:gem_xenium>);
 craftingTable.remove(<item:the_vault:gem_upaline>);
 craftingTable.remove(<item:the_vault:gem_bomignite>);
+craftingTable.remove(<item:the_vault:mod_box>);
+
+// Entangled
+craftingTable.remove(<item:entangled:block>);
+craftingTable.remove(<item:entangled:item>);
+
+//Coin Pouch
+craftingTable.remove(<item:vaultcoinpouch:coin_pouch>);
 
 //Wolds
 JEI.hideIngredient(<item:woldsvaults:enigma_egg>);
@@ -156,8 +161,10 @@ JEI.addDescription(<item:the_vault:vault_doll>, ["Dolls cannot be placed in the 
 JEI.addDescription(<item:the_vault:loot_statue>, ["These Vault Statues from Season 2 of Vault Hunters have re-awoken and will produce an infinite amount of a resource at a very slow pace.  Acceleration chips may be right clicked on the statue to help give it a boost."]);
 JEI.addDescription(<item:the_vault:trident>, ["Vault Tridents are similar to normal tridents but instead of enchanting to obtain Loyalty, Riptide, or channeling, they will roll as implicits with Loyalty and Riptide being mutually exclusive.  For more detailed info on Vault Tridents check out the quest entry."]);
 JEI.addDescription(<item:the_vault:battlestaff>, ["The Vault Battlestaff is a weapon that will have higher base attack speed, but deal slightly less damage than a vault sword.  For more detailed info on the vault battlestaff, check out the quest entry."]);
+JEI.addDescription(<item:the_vault:rang>, ["Vaultarangs are a ranged vault weapon. These rangs differ from the traditional 'Pickarang' as they do not break blocks and only do damage."]);
 JEI.addDescription(<item:the_vault:plushie>, ["Vault Plushies are an offhand vault gear piece that will have immunity implicits while also of offering a ton of other gear modifier combinations within it's prefixes and suffixes."]);
 JEI.addDescription(<item:the_vault:loot_sack>, ["Vault Sacks are an offhand vault gear piece that are focused around looting and less about offensive or defensive attributes."]);
+
 
 JEI.addDescription(<item:woldsvaults:crystal_seal_unhinged>, ["Combine with a crystal to add the Unhinged Scavenger Hunt objective to a crystal.  For more info about this objective, check out the quest entry."]);
 JEI.addDescription(<item:woldsvaults:crystal_seal_spirits>, ["Combine with a crystal to add the Light the Haunted Braziers objective to a crystal.  For more info about this objective, check out the quest entry."]);
@@ -213,9 +220,6 @@ JEI.addDescription(<item:morevaulttables:card_pack_opener_block>, ["This table w
 JEI.addDescription(<item:morevaulttables:jewel_sack_opener_block>, ["This table will allow you to open mass amounts of jewel pouches within its inventory"]);
 JEI.addDescription(<item:morevaulttables:doll_dismantling_block>, ["The Doll Juicer will intake a doll and spit out the items in a storage container below.  Requires RF to operate."]);
 
-JEI.addDescription(<item:vaultjp:jewel_purpuser>, ["The Jewel Purposer is a one in all jewel storage and tool building block. This block will help you build your tool and can serve as a vault recycler to scrap trash jewels."]);
-
-
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //Variable Definitions
 
@@ -230,18 +234,24 @@ var vault_gem = [
     "tubium"
 ];
 
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// Vault Coin Pouch
 
-craftingTable.remove(<item:vaultcoinpouch:coin_pouch>);
+//Entangled
 
-craftingTable.addShaped("coin_pouch", <item:vaultcoinpouch:coin_pouch>, [
-        [<item:woldsvaults:chromatic_gold_nugget>, <item:minecraft:string>, <item:woldsvaults:chromatic_gold_nugget>],
-        [<item:minecraft:yellow_wool>, <item:minecraft:ender_pearl>, <item:minecraft:yellow_wool>],
-        [<item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>, <item:minecraft:yellow_wool>]
+craftingTable.addShaped("entangled_block", <item:entangled:block>, [
+        [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:polished_vault_stone>, <item:the_vault:black_chromatic_steel_ingot>],
+        [<item:the_vault:polished_vault_stone>, <item:the_vault:echo_pog>, <item:the_vault:polished_vault_stone>],
+        [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:polished_vault_stone>, <item:the_vault:black_chromatic_steel_ingot>]
+    ]);
+
+craftingTable.addShaped("entangled_item", <item:entangled:item>, [
+        [<item:minecraft:air>, <item:the_vault:driftwood>, <item:minecraft:air>],
+        [<item:minecraft:air>, <item:the_vault:gem_echo>, <item:the_vault:driftwood>],
+        [<item:the_vault:driftwood>, <item:minecraft:air>, <item:minecraft:air>]
     ]);
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 //Vault hunters
 
 // recipe removal
@@ -257,8 +267,29 @@ craftingTable.remove(<item:the_vault:memory_powder>);
 craftingTable.remove(<item:the_vault:memory_shard>);
 craftingTable.remove(<item:the_vault:memory_crystal>);
 craftingTable.remove(<item:the_vault:red_vault_essence>);
+craftingTable.remove(<item:the_vault:treasure_keyring>);
+craftingTable.remove(<item:vaultkeychain:keychain>);
 
 // recipe additions
+
+craftingTable.addShaped("infinite_raid_rock", <item:the_vault:crystal_seal_raid_infinite>, [
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:minecraft:totem_of_undying>, <item:the_vault:black_chromatic_steel_ingot>],
+    [<item:minecraft:torch>, <item:the_vault:echo_pog>, <item:minecraft:torch>],
+    [<item:the_vault:black_chromatic_steel_ingot>, <item:minecraft:torch>, <item:the_vault:black_chromatic_steel_ingot>]
+]);
+
+craftingTable.addShaped("treasure_keyring", <item:the_vault:treasure_keyring> , [
+        [<item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_piece>, <item:the_vault:chromatic_iron_nugget>],
+        [<item:the_vault:key_piece>, <item:the_vault:key_mould>, <item:the_vault:key_piece>],
+        [<item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_piece>, <item:the_vault:chromatic_iron_nugget>]
+    ]);
+
+craftingTable.addShaped("treasure_keyring_2", <item:vaultkeychain:keychain> , [
+        [<item:the_vault:key_piece>, <item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_piece>],
+        [<item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_mould>, <item:the_vault:chromatic_iron_nugget>],
+        [<item:the_vault:key_piece>, <item:the_vault:chromatic_iron_nugget>, <item:the_vault:key_piece>]
+    ]);
+
 
 craftingTable.addShaped("memory_powder", <item:the_vault:memory_shard> , [
         [<item:the_vault:memory_powder>, <item:the_vault:memory_powder>, <item:the_vault:memory_powder>],
@@ -339,6 +370,11 @@ craftingTable.addShaped("vault_doll3", <item:the_vault:vault_doll>, [
     [<item:the_vault:memory_shard>, <item:the_vault:extraordinary_benitoite>, <item:the_vault:memory_shard>]
 ]);
 
+craftingTable.addShaped("mod_box", <item:the_vault:mod_box>, [
+    [<item:the_vault:vault_diamond>, <item:the_vault:knowledge_star_shard>, <item:the_vault:vault_diamond>],
+    [<item:the_vault:knowledge_star_shard>, <item:the_vault:extraordinary_benitoite>, <item:the_vault:knowledge_star_shard>],
+    [<item:the_vault:vault_diamond>, <item:the_vault:knowledge_star_shard>, <item:the_vault:vault_diamond>]
+]);
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -356,8 +392,39 @@ craftingTable.remove(<item:woldsvaults:black_chromatic_steel_angel_ring>);
 craftingTable.remove(<item:woldsvaults:prismatic_angel_ring>);
 craftingTable.remove(<item:woldsvaults:chromatic_gold_ingot>);
 
+craftingTable.remove(<item:woldsvaults:pog_prism>);
+craftingTable.remove(<item:woldsvaults:extraordinary_pog_prism>);
+craftingTable.remove(<item:woldsvaults:lodestone>);
+craftingTable.remove(<item:woldsvaults:crystal_seal_spirits>);
+
 
 //added recipe
+
+//prisms
+craftingTable.addShaped("wolds_pog_prism", <item:woldsvaults:pog_prism>, [
+        [<item:the_vault:perfect_larimar>, <item:the_vault:perfect_black_opal>, <item:the_vault:perfect_benitoite>],
+        [<item:the_vault:gem_pog>, <item:the_vault:gem_echo>, <item:the_vault:gem_pog>],
+        [<item:the_vault:perfect_painite>, <item:the_vault:perfect_black_opal>, <item:the_vault:perfect_alexandrite>]
+    ]);
+
+craftingTable.addShaped("wolds_extraordinary_pog_prism", <item:woldsvaults:extraordinary_pog_prism>, [
+        [<item:the_vault:extraordinary_larimar>, <item:the_vault:extraordinary_black_opal>, <item:the_vault:extraordinary_benitoite>],
+        [<item:woldsvaults:pog_prism>, <item:the_vault:extraordinary_echo_gem>, <item:woldsvaults:pog_prism>],
+        [<item:the_vault:extraordinary_painite>, <item:the_vault:extraordinary_black_opal>, <item:the_vault:extraordinary_alexandrite>]
+    ]);
+
+craftingTable.addShaped("wolds_deco_loadstone", <item:woldsvaults:lodestone>, [
+        [<item:minecraft:amethyst_block>, <item:the_vault:gem_alexandrite>, <item:minecraft:amethyst_block>],
+        [<item:the_vault:gem_alexandrite>, <item:woldsvaults:general_decor_scroll>, <item:the_vault:gem_alexandrite>],
+        [<item:minecraft:amethyst_block>, <item:the_vault:gem_alexandrite>, <item:minecraft:amethyst_block>]
+    ]);
+
+craftingTable.addShaped("wold_crystal_seal_spirit", <item:woldsvaults:crystal_seal_spirits>, [
+        [<item:minecraft:soul_sand>, <item:minecraft:soul_campfire>, <item:minecraft:soul_sand>],
+        [<item:minecraft:soul_sand>, <item:the_vault:crystal_seal_scout>, <item:minecraft:soul_sand>],
+        [<item:minecraft:soul_sand>, <item:the_vault:extraordinary_alexandrite>, <item:minecraft:soul_sand>]
+    ]);
+
 
 // chromatic gold ingot
 craftingTable.addShaped("chromatic_gold_ingot", <item:woldsvaults:chromatic_gold_ingot> *9, [
@@ -539,4 +606,40 @@ craftingTable.addShapeless("gem_transmogrification_petzanite", <item:the_vault:g
         <item:woldsvaults:gem_reagent_petzanite>, <item:the_vault:gem_petzanite>
     ]);
 
+// vault consumables
 
+craftingTable.addShaped("vault_apple", <item:the_vault:vault_apple>, [
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:minecraft:apple>, <item:woldsvaults:compressed_vault_essence>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("power_apple", <item:the_vault:power_apple>, [
+    [<item:the_vault:power_bar>, <item:the_vault:red_vault_essence>, <item:the_vault:power_bar>],
+    [<item:the_vault:gem_black_opal>, <item:the_vault:vault_apple>, <item:the_vault:gem_black_opal>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("sweet_apple", <item:the_vault:sweet_apple>, [
+    [<item:the_vault:candy_bar>, <item:the_vault:red_vault_essence>, <item:the_vault:candy_bar>],
+    [<item:the_vault:gem_black_opal>, <item:the_vault:vault_apple>, <item:the_vault:gem_black_opal>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("cobalt_apple", <item:the_vault:cobalt_apple>, [
+    [<item:minecraft:magma_cream>, <item:the_vault:red_vault_essence>, <item:minecraft:magma_cream>],
+    [<item:the_vault:perfect_benitoite>, <item:the_vault:vault_apple>, <item:the_vault:perfect_benitoite>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("pixie_apple", <item:the_vault:pixie_apple>, [
+    [<item:minecraft:phantom_membrane>, <item:the_vault:red_vault_essence>, <item:minecraft:phantom_membrane>],
+    [<item:the_vault:perfect_alexandrite>, <item:the_vault:vault_apple>, <item:the_vault:perfect_alexandrite>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);
+
+craftingTable.addShaped("golem_apple", <item:the_vault:golem_apple>, [
+    [<item:the_vault:vault_alloy>, <item:the_vault:red_vault_essence>, <item:the_vault:vault_alloy>],
+    [<item:the_vault:perfect_painite>, <item:the_vault:vault_apple>, <item:the_vault:perfect_painite>],
+    [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
+]);

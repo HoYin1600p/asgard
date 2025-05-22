@@ -29,8 +29,8 @@
     },
     "the_vault:centipede_feet": {
       "weight": 10,
-      "name": "Slimey",
-      "effectText": "Allows wall climbing and grants you immunity to Kinetic Damage",
+      "name": "Sticky",
+      "effectText": "Jump towards walls to latch on to them, letting you climb them!",
       "color": 65280,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
@@ -357,6 +357,55 @@
       "weight": 10,
       "name": "Wings",
       "effectText": "Gives the player elytra",
+      "color": 65280,
+      "minCraftedUses": 20,
+      "maxCraftedUses": 20,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "curiosSlot": "green_trinket"
+      }
+    },
+    "the_vault:healing_salve": {
+      "weight": 10,
+      "name": "Healing Salve",
+      "effectText": "Extra 50% healing efficiency",
+      "color": 16534066,
+      "minCraftedUses": 20,
+      "maxCraftedUses": 20,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "key": "the_vault:healing_effectiveness",
+        "value": 1.5,
+        "curiosSlot": "red_trinket"
+      }
+    },
+    "the_vault:shadow_cloak": {
+      "weight": 10,
+      "name": "Shadow Cloak",
+      "effectText": "Become invisible to mobs while not making noises, if a noise is made the cloak will deactivate for 20 seconds. Champions, Elites, Guardians, Illagers and Bosses do not respect your cloak!",
+      "color": 3304444,
+      "minCraftedUses": 20,
+      "maxCraftedUses": 20,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "disableLength": 400,
+        "dontShadowMobs": [
+          "@the_vault:guardians",
+          "@the_vault:elite",
+          "@the_vault:champion",
+          "@the_vault:illagers",
+          "@the_vault:bosses"
+        ],
+        "curiosSlot": "blue_trinket"
+      }
+    },
+    "the_vault:slimey": {
+      "weight": 10,
+      "name": "Slimey",
+      "effectText": "Negate all fall damage and bounce when you hit the floor",
       "color": 65280,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,

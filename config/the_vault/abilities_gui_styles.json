@@ -1,8 +1,20 @@
 {
   "styles": {
+    "Colossus": {
+      "x": 540,
+      "y": 12,
+      "specializationStyles": {
+        "Colossus_Base": {
+          "icon": "the_vault:gui/abilities/colossus"
+        },
+        "Sneaky_Getaway": {
+          "icon": "the_vault:gui/abilities/sneaky_getaway"
+        }
+      }
+    },
     "Stonefall": {
       "x": 380,
-      "y": 72,
+      "y": 96,
       "specializationStyles": {
         "Stonefall_Base": {
           "icon": "the_vault:gui/abilities/stonefall"
@@ -21,6 +33,9 @@
       "specializationStyles": {
         "Hunter_Base": {
           "icon": "the_vault:gui/abilities/hunter"
+        },
+        "Javelin_Sight": {
+          "icon": "the_vault:gui/abilities/hunter_wooden"
         }
       }
     },
@@ -60,10 +75,12 @@
         },
         "Mega_Jump_Break_Down": {
           "icon": "the_vault:gui/abilities/mega_jump_break_down"
+        },
+        "Levitate": {
+          "icon": "the_vault:gui/abilities/levitate"
         }
       }
     },
-
     "Nova": {
       "x": 300,
       "y": 112,
@@ -79,15 +96,40 @@
         }
       }
     },
-       
-    "Mana_Shield": {
+    "Legacy_Mana_Shield": {
       "x": 420,
       "y": -100,
       "specializationStyles": {
-        "Mana_Shield_Base": {
+        "Legacy_Mana_Shield_Base": {
           "icon": "the_vault:gui/abilities/mana_shield"
         }
-        
+      }
+    },
+    "Blade_Frenzy": {
+      "x": 460,
+      "y": -100,
+      "specializationStyles": {
+        "Blade_Frenzy_Base": {
+          "icon": "the_vault:gui/abilities/bladefrenzy"
+        }
+      }
+    },
+    "Shield_Wall": {
+      "x": 460,
+      "y": -50,
+      "specializationStyles": {
+        "Shield_Wall_Base": {
+          "icon": "the_vault:gui/abilities/shield_wall"
+        }
+      }
+    },
+    "Mana_Shield": {
+      "x": 420,
+      "y": -50,
+      "specializationStyles": {
+        "Mana_Shield_Base": {
+          "icon": "the_vault:gui/abilities/fortify"
+        }
       }
     },
     "Implode": {
@@ -113,8 +155,6 @@
         
       }
     },
-    
-    
     "Heal": {
       "x": 340,
       "y": 12,
@@ -137,11 +177,11 @@
         "Vein_Miner_Base": {
           "icon": "the_vault:gui/abilities/vein_miner"
         },
-        "Vein_Miner_Durability": {
-          "icon": "the_vault:gui/abilities/vein_miner_durability"
-        },
         "Vein_Miner_Void": {
           "icon": "the_vault:gui/abilities/vein_miner_void"
+        },
+        "Vein_Miner_Chain": {
+          "icon": "the_vault:gui/abilities/vein_miner_chain"
         }
       }
     },
@@ -238,9 +278,6 @@
         },
         "Javelin_Scatter": {
           "icon": "the_vault:gui/abilities/javelin_scatter"
-        },
-        "Javelin_Sight": {
-          "icon": "the_vault:gui/abilities/javelin_sight"
         }
       }
     },

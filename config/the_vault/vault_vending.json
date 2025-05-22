@@ -544,18 +544,6 @@
 	{
       "buy": {
         "id": "the_vault:vault_gold",
-        "amount": 4
-      },
-      "sell": {
-        "id": "the_vault:gem_wutodie",
-        "amount": 1
-      },
-	  "max_trades": 1,
-	  "times_traded": 0
-    },
-	{
-      "buy": {
-        "id": "the_vault:vault_gold",
         "amount": 8
       },
       "sell": {

@@ -101,6 +101,21 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_chest_stand_50.json"
     },
     {
+      "id": "the_vault:treasure_goblin",
+      "name": "Treasure Goblin",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/treasure_goblin.json"
+    },
+    {
+      "id": "the_vault:crystal_guardian",
+      "name": "Crystal Guardian",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/crystal_guardian.json"
+    },
+    {
+      "id": "the_vault:dragon",
+      "name": "Beeg Dragon",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dragon.json"
+    },
+    {
       "id": "the_vault:dungeon_pedestal_lvl50",
       "name": "Dungeon Stand Lvl50",
       "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/dungeon_pedestal_50.json"
@@ -546,6 +561,51 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/bronze_table.json"
     },
     {
+      "id": "the_vault:rune_loot_0",
+      "name": "Rune Loot 0",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/rune_loot_lvl0.json"
+    },
+    {
+      "id": "the_vault:rune_loot_50",
+      "name": "Rune Loot 50",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/rune_loot_lvl50.json"
+    },
+    {
+      "id": "the_vault:factory_unique_crate",
+      "name": "Factory Unique Crate",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/factory.json"
+    },
+    {
+      "id": "the_vault:village_unique_crate",
+      "name": "Village Unique Crate",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/village.json"
+    },
+    {
+      "id": "the_vault:cove_unique_crate",
+      "name": "Cove Unique Crate",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/unique_crates/cove.json"
+    },
+    {
+      "id": "the_vault:gilded_dungeon_barrel",
+      "name": "Gilded Dungeon Barrel",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/gilded.json"
+    },
+    {
+      "id": "the_vault:ornate_dungeon_barrel",
+      "name": "Ornate Dungeon Barrel",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/ornate.json"
+    },
+    {
+      "id": "the_vault:living_dungeon_barrel",
+      "name": "Living Dungeon Barrel",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/living.json"
+    },
+    {
+      "id": "the_vault:living_dungeon_barrel_lvl40",
+      "name": "Living Dungeon Barrel lvl40",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/living_40.json"
+    },
+    {
       "id": "the_vault:dungeon/living_chest_lvl0",
       "name": "Dungeon Living Chest lvl0",
       "1.0": "config/the_vault/gen/1.0/loot_tables/dungeon/living_chest_0.json"
@@ -770,6 +830,7 @@
       "name": "Hellish Sand",
       "1.0": "config/the_vault/gen/1.0/loot_tables/hellish_sand.json"
     },
+
     {
       "id": "the_vault:testing_table1",
       "name": "Jawns Testing Table1",

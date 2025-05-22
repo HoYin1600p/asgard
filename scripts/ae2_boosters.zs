@@ -9,6 +9,7 @@ import mods.jei.JEI;
 //recipe removal
 craftingTable.remove(<item:aeinfinitybooster:infinity_card>);
 craftingTable.remove(<item:aeinfinitybooster:dimension_card>);
+JEI.hideIngredient(<item:aeinfinitybooster:dimension_card>);
 
 craftingTable.remove(<item:ae2wtlib:infinity_booster_card>);
 JEI.hideIngredient(<item:ae2wtlib:infinity_booster_card>);
@@ -33,26 +34,26 @@ craftingTable.addShaped("ae2_infinity_booster", <item:aeinfinitybooster:infinity
 ]);
 
 // dimensional booster custom recipe
-craftingTable.addShaped("ae2_dimensional_booster", <item:aeinfinitybooster:dimension_card>, [
-    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:echo_pog>, <item:the_vault:black_chromatic_steel_block>],
-    [<item:aeinfinitybooster:infinity_card>, <item:the_vault:extraordinary_larimar>, <item:aeinfinitybooster:infinity_card>],
-    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:echo_pog>, <item:the_vault:black_chromatic_steel_block>]
-]);
+//craftingTable.addShaped("ae2_dimensional_booster", <item:aeinfinitybooster:dimension_card>, [
+//    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:echo_pog>, <item:the_vault:black_chromatic_steel_block>],
+//    [<item:aeinfinitybooster:infinity_card>, <item:the_vault:extraordinary_larimar>, <item:aeinfinitybooster:infinity_card>],
+//    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:echo_pog>, <item:the_vault:black_chromatic_steel_block>]
+//]);
 
 
 // infinity booster card recipe
-craftingTable.addShaped("ae2wt_infinity_booster", <item:ae2wtlib:infinity_booster_card>, [
-    [<item:woldsvaults:extraordinary_pog_prism>, <item:the_vault:omega_pog>, <item:woldsvaults:extraordinary_pog_prism>],
-    [<item:the_vault:omega_pog>, <item:ae2:wireless_receiver>, <item:the_vault:omega_pog>],
-    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:black_chromatic_steel_block>, <item:the_vault:black_chromatic_steel_block>]
-]);
+//craftingTable.addShaped("ae2wt_infinity_booster", <item:ae2wtlib:infinity_booster_card>, [
+//    [<item:woldsvaults:extraordinary_pog_prism>, <item:the_vault:omega_pog>, <item:woldsvaults:extraordinary_pog_prism>],
+//    [<item:the_vault:omega_pog>, <item:ae2:wireless_receiver>, <item:the_vault:omega_pog>],
+//    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:black_chromatic_steel_block>, <item:the_vault:black_chromatic_steel_block>]
+//]);
 
 // magnet card recipe
-craftingTable.addShaped("ae2wt_magnet_card", <item:ae2wtlib:magnet_card>, [
-    [<item:woldsvaults:extraordinary_pog_prism>, <item:ae2wtlib:infinity_booster_card>, <item:woldsvaults:extraordinary_pog_prism>],
-    [<item:ae2wtlib:infinity_booster_card>, <item:woldsvaults:wold_star>, <item:ae2wtlib:infinity_booster_card>],
-    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:black_chromatic_steel_block>, <item:the_vault:black_chromatic_steel_block>]
-]);
+//craftingTable.addShaped("ae2wt_magnet_card", <item:ae2wtlib:magnet_card>, [
+//    [<item:woldsvaults:extraordinary_pog_prism>, <item:ae2wtlib:infinity_booster_card>, <item:woldsvaults:extraordinary_pog_prism>],
+//    [<item:ae2wtlib:infinity_booster_card>, <item:woldsvaults:wold_star>, <item:ae2wtlib:infinity_booster_card>],
+//    [<item:the_vault:black_chromatic_steel_block>, <item:the_vault:black_chromatic_steel_block>, <item:the_vault:black_chromatic_steel_block>]
+//]);
 
 // universal terminal
 craftingTable.addShaped("ae2wt_universal_terminal", <item:ae2wtlib:wireless_universal_terminal>, [

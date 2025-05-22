@@ -129,16 +129,16 @@
                 }
               },
               {
-                "weight": 2,
-                "item": {
-                  "id": "woldsvaults:supply_box",
-                  "count": {
-                    "type": "uniform",
-                    "min": 1,
-                    "max": 1
-                  }
+              "weight": 2,
+              "item": {
+                "id": "woldsvaults:supply_box",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
                 }
               }
+            }
           ]
           },
           { "weight": 2,
@@ -166,34 +166,9 @@
                 }
               },
               {
-                "weight": 21,
-                "item": {
-                  "id": "the_vault:fundamental_focus",
-                  "count": {
-                    "type": "uniform",
-                    "min": 1,
-                    "max": 1
-                    }
-                }
-              },
-              {
-                "weight": 2,
-                "item": {
-                  "id": "the_vault:card_deck",
-                  "nbt": {
-                    "id": "odungeon"
-                  },
-                  "count": {
-                    "type": "uniform",
-                    "min": 1,
-                    "max": 1
-                  }
-                }
-              },
-              {
                 "weight": 4,
                 "item": {
-                  "id": "the_vault:trinket",
+                  "id": "the_vault:fundamental_focus",
                   "count": {
                     "type": "uniform",
                     "min": 1,
@@ -210,6 +185,48 @@
                     "min": 1,
                     "max": 1
                     }
+                }
+              },
+              {
+              "weight": 36,
+              "item": {
+                "id": "the_vault:trident",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "ornate0"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+                }
+              },
+              {
+              "weight": 36,
+              "item": {
+                "id": "the_vault:battlestaff",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "ornate0"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+                }
+              },
+              {
+              "weight": 36,
+              "item": {
+                "id": "the_vault:rang",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "ornate0"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
                 }
               },
               {
@@ -269,7 +286,7 @@
                 }
               },
               {
-                "weight": 24,
+                "weight": 26,
                 "item": {
                   "id": "the_vault:sword",
                   "nbt": {
@@ -328,20 +345,6 @@
                 "weight": 24,
                 "item": {
                   "id": "the_vault:focus",
-                  "nbt": {
-                    "the_vault:gear_roll_type_pool": "ornate0"
-                  },
-                  "count": {
-                    "type": "uniform",
-                    "min": 1,
-                    "max": 1
-                    }
-                }
-              },
-              {
-                "weight": 24,
-                "item": {
-                  "id": "the_vault:magnet",
                   "nbt": {
                     "the_vault:gear_roll_type_pool": "ornate0"
                   },

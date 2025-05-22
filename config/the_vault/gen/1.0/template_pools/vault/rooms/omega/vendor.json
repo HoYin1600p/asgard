@@ -6,4 +6,11 @@
       "palettes": [ "the_vault:vendor/base" ]
     }
   }
+  ,{
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/rooms/omega/vendor_millennium",
+      "palettes": [ "the_vault:vendor/base" ]
+    }
+  }
 ]

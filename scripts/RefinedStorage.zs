@@ -32,7 +32,7 @@ var dye = {
 
 craftingTable.addShaped("rs_basic_processor", <item:refinedstorage:basic_processor>, [
     [<item:minecraft:air>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:air>],
-    [<item:minecraft:air>, <item:refinedstorage:silicon>, <item:minecraft:air>],
+    [<item:minecraft:air>, <tag:items:forge:silicon>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:air>]
 ]);
 
@@ -69,7 +69,7 @@ craftingTable.addShaped("rs_storage_housing", <item:refinedstorage:storage_housi
 craftingTable.addShaped("rs_1k_storage_part", <item:refinedstorage:1k_storage_part>, [
     [<item:the_vault:vault_essence>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:vault_essence>],
     [<item:the_vault:chromatic_iron_ingot>, <item:minecraft:redstone>, <item:the_vault:chromatic_iron_ingot>],
-    [<item:refinedstorage:silicon>, <item:the_vault:gem_larimar>, <item:refinedstorage:silicon>]
+    [<tag:items:forge:silicon>, <item:the_vault:gem_larimar>, <tag:items:forge:silicon>]
 ]);
 
 craftingTable.addShapeless("rs_1k_storage_disk_shapeless", <item:refinedstorage:1k_storage_disk>, [

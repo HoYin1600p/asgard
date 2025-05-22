@@ -420,13 +420,14 @@
       "color1": "0xFFff8400",
       "color2": "0xFFffcc00"
     },
+
     "castle_chestplate": {
       "type": "floating_item_reward",
       "textColor": -1213660,
       "name": "The Castle Chestplate",
       "item": {
         "id": "the_vault:chestplate",
-        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:castle_chestplate\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:castle\",\"the_vault:gear_roll_type\":\"Unique\"}",
         "count": 1
       },
       "color1": "0xFFED7B24",
@@ -564,6 +565,18 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
+    "pax": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Pax Jewel",
+      "item": {
+        "id": "the_vault:jewel",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:pax\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
     "baguette": {
       "type": "floating_item_reward",
       "textColor": -1213660,
@@ -576,6 +589,30 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
+    "iskallibur": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Iskallibur",
+      "item": {
+        "id": "the_vault:sword",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:iskallibur\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "ivy": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Rosethorn Ivy",
+      "item": {
+        "id": "the_vault:shield",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:ivy\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
     "chainlash": {
       "type": "floating_item_reward",
       "textColor": -1213660,
@@ -583,6 +620,18 @@
       "item": {
         "id": "the_vault:wand",
         "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:chainlash\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "pacifist_sandals": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Pacifist Sandals",
+      "item": {
+        "id": "the_vault:boots",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:pacifist_sandals\",\"the_vault:gear_roll_type\":\"Unique\"}",
         "count": 1
       },
       "color1": "0xFFED7B24",
@@ -612,6 +661,67 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
+    "leviathan": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Leviathan",
+      "item": {
+        "id": "the_vault:axe",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "bamboo_fightstick": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Bamboo Fightstick",
+      "item": {
+        "id": "the_vault:battlestaff",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:bamboo_fightstick\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "trirang": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Trirang",
+      "item": {
+        "id": "the_vault:rang",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:trirang\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "crystal_double_blade": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Crystal Double Blade",
+      "item": {
+        "id": "the_vault:sword",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:crystal_double_blade\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "aurora_scissors": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Aurora Scissors",
+      "item": {
+        "id": "the_vault:sword",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:aurora_scissors\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+
     "raid_rock": {
       "type": "floating_item_reward",
       "textColor": "0xFFffb400",
@@ -719,10 +829,11 @@
       "type": "mob_spawn",
       "entity": {
         "id": "minecraft:pillager",
-        "Tags": ["no_champion"],
+        "Tags": ["no_champion", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ],
         "Modifiers": {
           "minecraft:generic.movement_speed": { "Value": -1.0, "Operation": 2 },
@@ -736,10 +847,13 @@
       "type": "mob_spawn",
       "entity": {
         "id": "minecraft:vindicator",
-        "Tags": ["no_champion"],
+        "Tags": [
+          "no_champion"
+        ],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -762,7 +876,8 @@
         "Tags": ["no_champion"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -775,7 +890,8 @@
         "Tags": ["no_champion"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -788,7 +904,8 @@
         "Tags": ["no_champion"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -810,7 +927,8 @@
         "Tags": ["no_champion"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -825,7 +943,8 @@
         "Tags": ["vault_champion","no_drops"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -840,7 +959,8 @@
         "Tags": ["vault_champion","no_drops"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -855,7 +975,8 @@
         "Tags": ["vault_champion","no_drops"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ],
         "Modifiers": {
           "minecraft:generic.movement_speed": { "Value": -1.0, "Operation": 2 },
@@ -875,7 +996,8 @@
         "Tags": ["vault_champion","no_drops"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
-          "#the_vault:modifier_type/mob_attribute"
+          "#the_vault:modifier_type/mob_attribute",
+          "#the_vault:modifier_type/entity_effect"
         ]
       },
       "count": 1,
@@ -930,7 +1052,8 @@
       { "value": "swarmwalkers", "weight": 2 },
       { "value": "stormcrown", "weight": 2 },
       { "value": "inflated_justice", "weight": 2 },
-      { "value": "raid_rock_infinite", "weight": 40 }
+      { "value": "leviathan", "weight": 2 },
+      { "value": "raid_rock", "weight": 40 }
     ],
     "positive_base": [
       { "value": "gilded_chest", "weight": 120 },
@@ -974,7 +1097,12 @@
       { "value": "cryonic_focus", "weight": 6 },
       { "value": "pyretic_focus", "weight": 6 },
       { "value": "echo_gem_big", "weight": 18 },
-      { "value": "manabloom", "weight": 4 }
+      { "value": "manabloom", "weight": 4 },
+      { "value": "iskallibur", "weight": 4 },
+      { "value": "ivy", "weight": 4 },
+      { "value": "trirang", "weight": 4 },
+      { "value": "crystal_double_blade", "weight": 0 },
+      { "value": "aurora_scissors", "weight": 4 }
     ],
     "positive_lab": [
       { "value": "gilded_chest_big", "weight": 120 },
@@ -989,8 +1117,10 @@
       { "value": "crystalplate", "weight": 4 },
       { "value": "crashguards", "weight": 4 },
       { "value": "chainlash", "weight": 4 },
+      { "value": "pacifist_sandals", "weight": 4 },
       { "value": "kaleidoscope", "weight": 8 },
-      { "value": "baguette", "weight": 20 }
+      { "value": "baguette", "weight": 12 },
+      { "value": "bamboo_fightstick", "weight": 4 }
     ]
   }
 }

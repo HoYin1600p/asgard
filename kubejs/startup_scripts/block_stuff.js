@@ -19,6 +19,13 @@ onEvent('block.registry', event => {
     event.create('the_vault:gilded_block_1').displayName('1x Compressed Gilded Block').tagBlock('minecraft:mineable/pickaxe')
     event.create('the_vault:mossy_bone_block_1').displayName('1x Compressed Mossy Bone Block').tagBlock('minecraft:mineable/pickaxe')
 
+    //iceandfire
+    event.create('iceandfire:dreadstone_bricks').displayName('Dreadstone Bricks').tagBlock('minecraft:mineable/pickaxe').material("stone").hardness(1.5).resistance(6.0)
+    event.create('iceandfire:dreadstone_bricks_mossy').displayName('Mossy Dreadstone Bricks').tagBlock('minecraft:mineable/pickaxe').material("stone").hardness(1.5).resistance(6.0)
+    event.create('iceandfire:dreadstone_bricks_cracked').displayName('Cracked Dreadstone Bricks').tagBlock('minecraft:mineable/pickaxe').material("stone").hardness(1.5).resistance(6.0)
+    event.create('iceandfire:dreadstone_tile').displayName('Dreadstone Tile').tagBlock('minecraft:mineable/pickaxe').material("stone").hardness(1.5).resistance(6.0)
+
+
     //Gem Blocks
     //event.create('the_vault:block_gem_larimar').displayName('Block of Larimar Gem').tagBlock('forge:storage_blocks/larimar').tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:beacon_base_blocks')
     //event.create('the_vault:block_gem_benitoite').displayName('Block of Benitoite Gem').tagBlock('forge:storage_blocks/benitoite').tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:beacon_base_blocks')

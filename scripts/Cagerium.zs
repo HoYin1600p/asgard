@@ -1,5 +1,5 @@
 /* scripts made by Douwsky
-for Vaulthunters */
+for Iskall85's Vaulthunters */
 
 // adding recipes
 
@@ -39,7 +39,7 @@ craftingTable.addShaped("cagerium_plate", <item:cagerium:plate>, [
 ]);
 
 craftingTable.addShaped("cagerium_ominous_skull", <item:cagerium:ominous_skull>, [
-    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:wutodic_mass>, <item:the_vault:chromatic_iron_ingot>],
+    [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:vault_diamond>, <item:the_vault:chromatic_iron_ingot>],
     [<item:the_vault:black_chromatic_steel_ingot>, <item:minecraft:wither_skeleton_skull>, <item:the_vault:black_chromatic_steel_ingot>],
     [<item:the_vault:chromatic_iron_ingot>, <item:the_vault:extraordinary_larimar>, <item:the_vault:chromatic_iron_ingot>]
 ]);
@@ -51,9 +51,9 @@ craftingTable.addShaped("cagerium_wood_binding_plate", <item:cagerium:binding_wo
 ]);
 
 craftingTable.addShaped("cagerium_binding_gemstone", <item:cagerium:binding_gemstone>, [
-    [<item:the_vault:wutodic_mass>, <item:the_vault:extraordinary_larimar>, <item:the_vault:wutodic_mass>],
+    [<item:the_vault:vault_diamond>, <item:the_vault:extraordinary_larimar>, <item:the_vault:vault_diamond>],
     [<item:the_vault:extraordinary_larimar>, <item:the_vault:echo_pog>, <item:the_vault:extraordinary_larimar>],
-    [<item:the_vault:wutodic_mass>, <item:the_vault:extraordinary_larimar>, <item:the_vault:wutodic_mass>]
+    [<item:the_vault:vault_diamond>, <item:the_vault:extraordinary_larimar>, <item:the_vault:vault_diamond>]
 ]);
 
 craftingTable.addShaped("cagerium_burning_upgrade", <item:cagerium:burning_upgrade>, [

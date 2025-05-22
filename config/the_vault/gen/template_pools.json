@@ -156,6 +156,46 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_winter_rooms.json"
     },
     {
+      "id": "the_vault:vault/rooms/dreadlands_day_rooms",
+      "name": "Dreadlands Day Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/dreadlands_day_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/dreadlands_night_rooms",
+      "name": "Dreadlands Night Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/dreadlands_night_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ancient_idona_rooms",
+      "name": "Ancient Idona Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ancient_idona_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ancient_tenos_rooms",
+      "name": "Ancient Tenos Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ancient_tenos_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ancient_velara_rooms",
+      "name": "Ancient Velara Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ancient_velara_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ancient_wendarr_rooms",
+      "name": "Ancient Wendarr Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ancient_wendarr_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/autumn_cherry_grove_rooms",
+      "name": "Autumn Cherry Grove Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/autumn_cherry_grove_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/aberrant_garden_rooms",
+      "name": "Aberrant Garden Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/aberrant_garden_rooms.json"
+    },
+    {
       "id": "the_vault:vault/rooms/aurora_cave_rooms",
       "name": "Aurora Cave Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/aurora_cave_rooms.json"
@@ -351,6 +391,46 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/season_winter_starts.json"
     },
     {
+      "id": "the_vault:vault/starts/dreadlands_day_starts",
+      "name": "Dreadlands Day Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/dreadlands_day_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/dreadlands_night_starts",
+      "name": "Dreadlands Night Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/dreadlands_night_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/ancient_idona_starts",
+      "name": "Ancient Idona Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/ancient_idona_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/ancient_tenos_starts",
+      "name": "Ancient Tenos Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/ancient_tenos_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/ancient_velara_starts",
+      "name": "Ancient Velara Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/ancient_velara_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/ancient_wendarr_starts",
+      "name": "Ancient Wendarr Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/ancient_wendarr_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/autumn_cherry_grove_starts",
+      "name": "Autumn Cherry Grove Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/autumn_cherry_grove_starts.json"
+    },
+    {
+      "id": "the_vault:vault/starts/aberrant_garden_starts",
+      "name": "Aberrant Garden Starts",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/aberrant_garden_starts.json"
+    },
+    {
       "id": "the_vault:vault/starts/aurora_cave_starts",
       "name": "Aurora Cave Starts",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/starts/aurora_cave_starts.json"
@@ -524,6 +604,46 @@
       "id": "the_vault:vault/tunnels/season_winter_tunnels",
       "name": "Winter Tunnels",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/season_winter_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/dreadlands_day_tunnels",
+      "name": "Dreadlands Day Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/dreadlands_day_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/dreadlands_night_tunnels",
+      "name": "Dreadlands Night Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/dreadlands_night_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/ancient_idona_tunnels",
+      "name": "Ancient Idona Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/ancient_idona_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/ancient_tenos_tunnels",
+      "name": "Ancient Tenos Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/ancient_tenos_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/ancient_velara_tunnels",
+      "name": "Ancient Velara Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/ancient_velara_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/ancient_wendarr_tunnels",
+      "name": "Ancient Wendarr Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/ancient_wendarr_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/autumn_cherry_grove_tunnels",
+      "name": "Autumn Cherry Grove Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/autumn_cherry_grove_tunnels.json"
+    },
+    {
+      "id": "the_vault:vault/tunnels/aberrant_garden_tunnels",
+      "name": "Aberrant Garden Tunnels",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/tunnels/aberrant_garden_tunnels.json"
     },
     {
       "id": "the_vault:vault/tunnels/aurora_cave_tunnels",
@@ -1196,6 +1316,11 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge_rooms_void.json"
     },
     {
+      "id": "the_vault:vault/rooms/challenge_rooms_dread",
+      "name": "Dread Challenge Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge_rooms_dread.json"
+    },
+    {
       "id": "the_vault:vault/rooms/challenge/crystal_caves",
       "name": "Crystal Caves",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/crystal_caves.json"
@@ -1216,6 +1341,11 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/crystal_caves_void.json"
     },
     {
+      "id": "the_vault:vault/rooms/challenge/crystal_caves_dread",
+      "name": "Dread Crystal Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/crystal_caves_dread.json"
+    },
+    {
       "id": "the_vault:vault/rooms/challenge/digsite",
       "name": "Dig Site",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/digsite.json"
@@ -1226,13 +1356,18 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/dragon.json"
     },
     {
+      "id": "the_vault:vault/rooms/challenge/dragon82",
+      "name": "Custom Dragon",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/dragon82.json"
+    },
+    {
       "id": "the_vault:vault/rooms/challenge/factory",
       "name": "Factory",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/factory.json"
     },
     {
       "id": "the_vault:vault/rooms/challenge/raid/rooms",
-      "name": "Raid",
+      "name": "Raid Room",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/challenge/raid/rooms.json"
     },
     {
@@ -1691,6 +1826,11 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/center_spawner1.json"
     },
     {
+      "id": "the_vault:vault/decor/dragon/center_spawner82",
+      "name": "Center Spawner 82",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/center_spawner82.json"
+    },
+    {
       "id": "the_vault:vault/decor/dragon/corner_spawner1",
       "name": "Corner Spawner 1",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/dragon/corner_spawner1.json"
@@ -1846,6 +1986,11 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/painting.json"
     },
     {
+      "id": "the_vault:vault/rooms/omega/pixel",
+      "name": "Pixel",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/pixel.json"
+    },
+    {
       "id": "the_vault:vault/rooms/omega/mine",
       "name": "Mine",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/mine.json"
@@ -1864,6 +2009,11 @@
       "id": "the_vault:vault/rooms/omega/mine_void",
       "name": "Void Mine",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/mine_void.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/omega/mine_dread",
+      "name": "Dread Mine",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega/mine_dread.json"
     },
     {
       "id": "the_vault:vault/rooms/omega/blacksmith",
@@ -1890,7 +2040,11 @@
       "name": "Void Omega Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_void.json"
     },
-
+    {
+      "id": "the_vault:vault/rooms/omega_rooms_dread",
+      "name": "Dread Omega Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/omega_rooms_dread.json"
+    },
     {
       "id": "the_vault:vault/rooms/nonparadox/wendarr/omega/cube",
       "name": "Wendarr Cube",
@@ -2327,9 +2481,44 @@
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/painting/hanging1.json"
     },
     {
+      "id": "the_vault:vault/decor/pixel/hanging",
+      "name": "Omega Pixel Hanging",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/pixel/hanging.json"
+    },
+    {
+      "id": "the_vault:vault/decor/pixel/floor",
+      "name": "Omega Pixel Floor",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/pixel/floor.json"
+    },
+    {
+      "id": "the_vault:vault/decor/cove/wall",
+      "name": "Cove Wall",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/cove/wall.json"
+    },
+    {
+      "id": "the_vault:vault/decor/cove/floor",
+      "name": "Cove Floor",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/cove/floor.json"
+    },
+    {
       "id": "the_vault:vault/decor/vendor/fort_house1",
       "name": "Omega Vendor Fort House 1",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/vendor/fort_house1.json"
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_stalls",
+      "name": "Omega Millennium Sewer Stalls",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/vendor/sewer_stalls.json"
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/teacup",
+      "name": "Omega Millennium Tea Cup",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/vendor/teacup.json"
+    },
+    {
+      "id": "the_vault:vault/decor/vendor/sewer_shops",
+      "name": "Omega Millennium Sewer shops",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/decor/vendor/sewer_shops.json"
     },
     {
       "id": "the_vault:vault/rooms/chaos/omega/vendor",
@@ -2370,6 +2559,11 @@
       "id": "the_vault:vault/vendor_rooms/vendor_rooms",
       "name": "Vendor Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/vendor_rooms/vendor_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/treasure_doors/echo_room",
+      "name": "Treasure Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/treasure_doors/echo_room.json"
     },
     {
       "id": "the_vault:arena/arena",
@@ -2495,6 +2689,46 @@
       "id": "the_vault:vault/rooms/season_winter_common_rooms",
       "name": "Winter Common Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/season_winter_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/dreadlands_day_common_rooms",
+      "name": "Dreadlands Day Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/dreadlands_day_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/dreadlands_night_common_rooms",
+      "name": "Dreadlands Night Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/dreadlands_night_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ancient_idona_common_rooms",
+      "name": "Ancient Idona Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ancient_idona_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ancient_tenos_common_rooms",
+      "name": "Ancient Tenos Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ancient_tenos_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ancient_velara_common_rooms",
+      "name": "Ancient Velara Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ancient_velara_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/ancient_wendarr_common_rooms",
+      "name": "Ancient Wendarr Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/ancient_wendarr_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/autumn_cherry_grove_common_rooms",
+      "name": "Autumn Cherry Grove Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/autumn_cherry_grove_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/aberrant_garden_common_rooms",
+      "name": "Aberrant Garden Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/aberrant_garden_common_rooms.json"
     },
     {
       "id": "the_vault:vault/rooms/aurora_cave_common_rooms",
@@ -2686,7 +2920,7 @@
     },
     {
       "id": "the_vault:vault/rooms/raw/farm",
-      "name": "Raw Farm",
+      "name": "The Farm",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/farm.json"
     },
     {
@@ -3238,6 +3472,11 @@
       "id": "the_vault:vault/rooms/raw/diamond_caves",
       "name": "Raw Diamond Caves",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/diamond_caves.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/raw/emerald_caves",
+      "name": "Emerald Caves",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/raw/emerald_caves.json"
     },
     {
       "id": "the_vault:vault/decor/raw/end/island_structure",
@@ -4012,6 +4251,41 @@
       "id": "the_vault:vault/rooms/chaos/flesh_common_rooms",
       "name": "Chaos Flesh Common Rooms",
       "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/flesh_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/dreadlands_day_common_rooms",
+      "name": "Chaos Dreadlands Day Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/dreadlands_day_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/dreadlands_night_common_rooms",
+      "name": "Chaos Dreadlands Night Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/dreadlands_night_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/ancient_idona_common_rooms",
+      "name": "Chaos Ancient Idona Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/ancient_idona_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/ancient_tenos_common_rooms",
+      "name": "Chaos Ancient Tenos Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/ancient_tenos_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/ancient_velara_common_rooms",
+      "name": "Chaos Ancient Velara Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/ancient_velara_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/ancient_wendarr_common_rooms",
+      "name": "Chaos Ancient Wendarr Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/ancient_wendarr_common_rooms.json"
+    },
+    {
+      "id": "the_vault:vault/rooms/chaos/aberrant_garden_common_rooms",
+      "name": "Chaos Aberrant Garden Common Rooms",
+      "1.0": "config/the_vault/gen/1.0/template_pools/vault/rooms/chaos/aberrant_garden_common_rooms.json"
     },
     {
       "id": "the_vault:vault/rooms/chaos/aurora_cave_common_rooms",

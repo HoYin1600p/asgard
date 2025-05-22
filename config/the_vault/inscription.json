@@ -875,6 +875,50 @@
               }
             },
             "weight": 16
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/raid/rooms",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 3,
+                "max": 7
+              },
+              "model": {
+                "type": "uniform",
+                "min": 19,
+                "max": 19
+              }
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/laboratory",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 3,
+                "max": 7
+              },
+              "model": {
+                "type": "uniform",
+                "min": 20,
+                "max": 20
+              }
+            },
+            "weight": 8
           }
         ]
       }
@@ -1108,6 +1152,28 @@
             "value": {
               "entries": [
                 {
+                  "pool": "the_vault:vault/rooms/raw/chromatic_caves",
+                  "count": 1,
+                  "color": 3118792
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 16,
+                "max": 16
+              }
+            },
+            "weight": 18
+          },
+          {
+            "value": {
+              "entries": [
+                {
                   "pool": "the_vault:vault/rooms/challenge/factory",
                   "count": 1,
                   "color": 15769088
@@ -1169,6 +1235,50 @@
               }
             },
             "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/raid/rooms",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 19,
+                "max": 19
+              }
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/laboratory",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 5,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 20,
+                "max": 20
+              }
+            },
+            "weight": 8
           }
         ]
       }
@@ -1755,6 +1865,50 @@
               }
             },
             "weight": 12
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/raid/rooms",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 19,
+                "max": 19
+              }
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/laboratory",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 20,
+                "max": 20
+              }
+            },
+            "weight": 8
           }
         ]
       }
@@ -2541,6 +2695,151 @@
           }
         ]
       }
+    ],
+    "the_vault:chromatic_caves": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/raw/chromatic_caves",
+                  "count": 1,
+                  "color": 3118792
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 16,
+                "max": 16
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:the_farm": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/raw/farm",
+                  "count": 1,
+                  "color": 3118792
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 17,
+                "max": 17
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:emerald_caves": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/raw/emerald_caves",
+                  "count": 1,
+                  "color": 3118792
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 18,
+                "max": 18
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:raid_room": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/raid/rooms",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 19,
+                "max": 19
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
+    ],
+    "the_vault:the_lab": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "entries": [
+                {
+                  "pool": "the_vault:vault/rooms/challenge/laboratory",
+                  "count": 1,
+                  "color": 15769088
+                }
+              ],
+              "size": {
+                "type": "uniform",
+                "min": 10,
+                "max": 10
+              },
+              "model": {
+                "type": "uniform",
+                "min": 20,
+                "max": 20
+              }
+            },
+            "weight": 16
+          }
+        ]
+      }
     ]
   },
   "poolToModel": {
@@ -2558,7 +2857,12 @@
     "the_vault:vault/rooms/omega/vendor": 12,
     "the_vault:vault/rooms/challenge/village": 13,
     "the_vault:vault/rooms/challenge/wildwest": 14,
-    "the_vault:vault/rooms/challenge/x-mark": 15
+    "the_vault:vault/rooms/challenge/x-mark": 15,
+    "the_vault:vault/rooms/raw/chromatic_caves": 16,
+    "the_vault:vault/rooms/raw/farm": 17,
+    "the_vault:vault/rooms/raw/emerald_caves": 18,
+    "the_vault:vault/rooms/challenge/raid/rooms": 19,
+    "the_vault:vault/rooms/challenge/laboratory": 20
   },
   "ringWeights": [ 50, 40, 7, 3 ]
 }

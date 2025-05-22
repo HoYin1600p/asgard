@@ -6,12 +6,12 @@
       "levels": [
         {
           "level": 0,
-          "probability": 1.0,
+          "probability": 0.5,
           "success": {
             "the_vault:shop_pedestal": 1
           },
           "failure": {
-            "minecraft:air": 1
+            "supplementaries:pedestal": 1
           }
         }
       ]
