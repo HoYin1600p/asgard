@@ -14058,7 +14058,7 @@
       {
         "type": "specialized",
         "id": "Legacy_Mana_Shield",
-        "name": "Mana Shield",
+        "name": "Legacy Mana Shield",
         "maxLearnableTier": 8,
         "specializations": [
           {
@@ -14161,154 +14161,6 @@
       },
       {
         "type": "specialized",
-        "id": "Mana_Shield",
-        "name": "Fortify",
-        "maxLearnableTier": 8,
-        "specializations": [
-          {
-            "type": "tiered",
-            "id": "Mana_Shield_Base",
-            "name": "Fortify",
-            "maxLearnableTier": 8,
-            "tiers": [
-              {
-                "type": "mana_shield",
-                "durationTicks": 500,
-                "healthPoints": 6,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 30.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_1"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 600,
-                "healthPoints": 8,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 35.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_2"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 700,
-                "healthPoints": 10,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 40.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_3"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 800,
-                "healthPoints": 12,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 45.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_4"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 900,
-                "healthPoints": 14,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 50.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_5"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 1000,
-                "healthPoints": 16,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 55.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_6"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 1100,
-                "healthPoints": 18,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 60.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_7"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 1200,
-                "healthPoints": 20,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 65.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_8"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 1300,
-                "healthPoints": 22,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 70.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_9"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 1400,
-                "healthPoints": 24,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 75.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_10"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 1500,
-                "healthPoints": 26,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 80.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_11"
-              },
-              {
-                "type": "mana_shield",
-                "durationTicks": 1600,
-                "healthPoints": 28,
-                "learnPointCost": 1,
-                "regretPointCost": 1,
-                "cooldownTicks": 600,
-                "manaCost": 85.0,
-                "unlockLevel": 0,
-                "id": "mana_shield_12"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "specialized",
         "id": "Shield_Wall",
         "name": "Shield Wall",
         "maxLearnableTier": 5,
@@ -14321,7 +14173,7 @@
             "tiers": [
               {
                 "type": "shield_wall",
-                "id": "shield_wall_1",
+                "id": "shield_wall_base_1",
                 "durationTicks": 20,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
@@ -14331,7 +14183,7 @@
               },
               {
                 "type": "shield_wall",
-                "id": "shield_wall_2",
+                "id": "shield_wall_base_2",
                 "durationTicks": 40,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
@@ -14341,7 +14193,7 @@
               },
               {
                 "type": "shield_wall",
-                "id": "shield_wall_3",
+                "id": "shield_wall_base_3",
                 "durationTicks": 60,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
@@ -14351,7 +14203,7 @@
               },
               {
                 "type": "shield_wall",
-                "id": "shield_wall_4",
+                "id": "shield_wall_base_4",
                 "durationTicks": 80,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
@@ -14361,7 +14213,7 @@
               },
               {
                 "type": "shield_wall",
-                "id": "shield_wall_5",
+                "id": "shield_wall_base_5",
                 "durationTicks": 100,
                 "learnPointCost": 1,
                 "regretPointCost": 1,
@@ -14483,7 +14335,6 @@
               }
             ]
           }
-
         ]
       }
     ]

@@ -1117,47 +1117,34 @@
       ]
     },
 
-    "Shield_Wall": {
+    "Shield_Wall_Base": {
       "description": [
           {
-            "text": "Grants your shield 100% block chance for a duration of time",
+            "text": "While having a Vault Shield equipped, gain 100% block chance for a ",
             "color": "$text"
           },
           {
-            "text": "Thorns Damage",
-            "color": "$thornsDamage"
+            "text": "duration ",
+            "color": "$duration"
           },
           {
-            "text": " in front of you in a ",
+            "text": "of time.",
             "color": "$text"
           },
           {
-            "text": "line",
-            "color": "$radius"
-          },
-          {
-            "text": ".",
-            "color": "$text"
-          },
-          {
-            "text": "\n\n",
-            "color": "$text"
-          },
-          {
-            "text": "\u25d0 Cast Ability",
-            "color": "$castType"
-          }
+          "text": "\n\n\u2734 Cast Ability ",
+          "color": "$castType"
+        }
       ],
       "current": [
+        "duration",
         "manaCost",
-        "cooldown",
-        "thornsDamage"
-
+        "cooldown"
       ],
       "next": [
+        "duration",
         "manaCost",
-        "cooldown",
-        "thornsDamage"
+        "cooldown"
       ]
     },
 
