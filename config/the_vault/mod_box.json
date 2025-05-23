@@ -1,0 +1,139 @@
+{
+  "POOL": {
+    "None": [
+      {
+        "value": {
+          "id": "the_vault:knowledge_star_shard",
+          "amountMin": 1,
+          "amountMax": 4
+        },
+        "weight": 1
+      }
+    ],
+    "Drawers": [
+      {"value": {"id": "framedcompactdrawers:framed_compact_drawer", "amountMin": 1, "amountMax": 1}, "weight": 50},
+      {"value": {"id": "framedcompactdrawers:framed_drawer_controller", "amountMin": 1, "amountMax": 1}, "weight": 25},
+      {"value": {"id": "storagedrawers:iron_storage_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 75},
+      {"value": {"id": "storagedrawers:gold_storage_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 70},
+      {"value": {"id": "storagedrawers:diamond_storage_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 65},
+      {"value": {"id": "storagedrawers:obsidian_storage_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 60},
+      {"value": {"id": "storagedrawers:emerald_storage_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "storagedrawers:upgrade_template", "amountMin": 4, "amountMax": 4}, "weight": 100},
+      {"value": {"id": "storagedrawers:void_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 80}
+    ],
+    "Functional Storage": [
+      {"value": {"id": "functionalstorage:framed_1", "amountMin": 1, "amountMax": 1}, "weight": 30},
+      {"value": {"id": "functionalstorage:framed_2", "amountMin": 1, "amountMax": 1}, "weight": 30},
+      {"value": {"id": "functionalstorage:framed_4", "amountMin": 1, "amountMax": 1}, "weight": 30},
+      {"value": {"id": "functionalstorage:storage_controller", "amountMin": 1, "amountMax": 1}, "weight": 1},
+      {"value": {"id": "functionalstorage:compacting_drawer", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "functionalstorage:copper_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 35},
+      {"value": {"id": "functionalstorage:gold_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 15},
+      {"value": {"id": "functionalstorage:diamond_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "functionalstorage:netherite_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "functionalstorage:void_upgrade", "amountMin": 1, "amountMax": 1}, "weight": 8},
+      {"value": {"id": "functionalstorage:ender_drawer", "amountMin": 1, "amountMax": 1}, "weight": 8}
+    ],
+    "Applied Energistics": [
+      {"value": {"id": "ae2:fluix_smart_dense_cable", "amountMin": 4, "amountMax": 4}, "weight": 100},
+      {"value": {"id": "ae2things:disk_drive_1k", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "ae2things:disk_drive_4k", "amountMin": 1, "amountMax": 1}, "weight": 75},
+      {"value": {"id": "ae2things:disk_drive_16k", "amountMin": 1, "amountMax": 1}, "weight": 70},
+      {"value": {"id": "ae2things:disk_drive_64k", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "ae2:terminal", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "ae2:crafting_terminal", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "ae2:drive", "amountMin": 1, "amountMax": 1}, "weight": 50},
+      {"value": {"id": "ae2:speed_card", "amountMin": 2, "amountMax": 2}, "weight": 75},
+      {"value": {"id": "ae2:storage_bus", "amountMin": 1, "amountMax": 1}, "weight": 65},
+      {"value": {"id": "ae2things:advanced_inscriber", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "ae2things:crystal_growth", "amountMin": 1, "amountMax": 1}, "weight": 5}
+    ],
+    "Powah": [
+      {"value": {"id": "powah:furnator_starter", "amountMin": 1, "amountMax": 1}, "weight": 120},
+      {"value": {"id": "powah:furnator_hardened", "amountMin": 1, "amountMax": 1}, "weight": 70},
+      {"value": {"id": "powah:furnator_blazing", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "powah:furnator_spirited", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "powah:solar_panel_starter", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "powah:solar_panel_hardened", "amountMin": 1, "amountMax": 1}, "weight": 70},
+      {"value": {"id": "powah:solar_panel_blazing", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "powah:thermo_generator_basic", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "powah:thermo_generator_hardened", "amountMin": 1, "amountMax": 1}, "weight": 70},
+      {"value": {"id": "powah:thermo_generator_blazing", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "powah:thermo_generator_niotic", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "powah:energizing_rod_blazing", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "powah:energizing_rod_niotic", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "powah:energy_cell_blazing", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "powah:energy_cell_spirited", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "powah:ender_cell_hardened", "amountMin": 1, "amountMax": 1}, "weight": 40}
+    ],
+    "Thermal Dynamos": [
+      {"value": {"id": "thermal:dynamo_stirling", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "thermal:dynamo_compression", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "thermal:dynamo_magmatic", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "thermal:dynamo_lapidary", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "thermal:dynamo_numismatic", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "thermal:dynamo_disenchantment", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "thermal:dynamo_gourmand", "amountMin": 1, "amountMax": 1}, "weight": 100}
+    ],
+    "Thermal Expansion": [
+      {"value": {"id": "thermal:device_nullifier", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "thermal:device_water_gen", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "thermal:device_fisher", "amountMin": 1, "amountMax": 1}, "weight": 60},
+      {"value": {"id": "thermal:device_composter", "amountMin": 1, "amountMax": 1}, "weight": 60},
+      {"value": {"id": "thermal:machine_chiller", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "thermal:device_collector", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "thermal:device_rock_gen", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "thermal:machine_sawmill", "amountMin": 1, "amountMax": 1}, "weight": 40}
+    ],
+    "Mekanism Generators": [
+      {"value": {"id": "mekanismgenerators:solar_generator", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "mekanismgenerators:bio_generator", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "mekanismgenerators:advanced_solar_generator", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "mekanismgenerators:heat_generator", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "mekanismgenerators:gas_burning_generator", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "mekanismgenerators:wind_generator", "amountMin": 1, "amountMax": 1}, "weight": 5}
+    ],
+    "Create": [
+      {"value": {"id": "create:gearbox", "amountMin": 1, "amountMax": 1}, "weight": 120},
+      {"value": {"id": "create:depot", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "create:mechanical_bearing", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "create:water_wheel", "amountMin": 1, "amountMax": 1}, "weight": 60},
+      {"value": {"id": "create:large_water_wheel", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "create:blaze_burner", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "create:mechanical_arm", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "create:cart_assembler", "amountMin": 1, "amountMax": 1}, "weight": 5}
+    ],
+    "Mekanism": [
+      {"value": {"id": "mekanism:upgrade_speed", "amountMin": 4, "amountMax": 4}, "weight": 120},
+      {"value": {"id": "mekanism:upgrade_energy", "amountMin": 4, "amountMax": 4}, "weight": 120},
+      {"value": {"id": "mekanism:basic_tier_installer", "amountMin": 1, "amountMax": 1}, "weight": 75},
+      {"value": {"id": "mekanism:advanced_tier_installer", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "mekanism:elite_tier_installer", "amountMin": 1, "amountMax": 1}, "weight": 10},
+      {"value": {"id": "mekanism:basic_energy_cube", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "mekanism:advanced_energy_cube", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "mekanism:elite_energy_cube", "amountMin": 1, "amountMax": 1}, "weight": 5}
+    ],
+    "Botania": [
+      {"value": {"id": "botania:blacker_lotus", "amountMin": 1, "amountMax": 1}, "weight": 140},
+      {"value": {"id": "botania:gourmaryllis", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "botania:rosa_arcana", "amountMin": 1, "amountMax": 1}, "weight": 80},
+      {"value": {"id": "botania:overgrowth_seed", "amountMin": 1, "amountMax": 1}, "weight": 70},
+      {"value": {"id": "botania:munchdew", "amountMin": 1, "amountMax": 1}, "weight": 60},
+      {"value": {"id": "botania:entropinnyum", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "botania:kekimurus", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "botania:agricarnation", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "botania:marimorphosis", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "botania:bellethorn", "amountMin": 1, "amountMax": 1}, "weight": 30},
+      {"value": {"id": "botania:exoflame", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "botania:orechid", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "botania:loonium", "amountMin": 1, "amountMax": 1}, "weight": 5}
+    ],
+    "Easy Blocks": [
+      {"value": {"id": "easy_villagers:trader", "amountMin": 1, "amountMax": 1}, "weight": 100},
+      {"value": {"id": "easy_villagers:farmer", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "easy_villagers:auto_trader", "amountMin": 1, "amountMax": 1}, "weight": 2},
+      {"value": {"id": "easy_villagers:iron_farm", "amountMin": 1, "amountMax": 1}, "weight": 5},
+      {"value": {"id": "easy_piglins:barterer", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ]
+  }
+}

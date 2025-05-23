@@ -1,0 +1,122 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "GILDED_CHEST",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl0\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 20,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl20\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 50,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl50\"}": 19,
+            "the_vault:gilded_strongbox{LootTable:\"the_vault:gilded_strongbox_lvl50\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 80,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl50\"}": 11,
+            "the_vault:gilded_strongbox{LootTable:\"the_vault:gilded_strongbox_lvl50\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 100,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest{LootTable:\"the_vault:gilded_chest_lvl50\"}": 7,
+            "the_vault:gilded_strongbox{LootTable:\"the_vault:gilded_strongbox_lvl50\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "placeholder",
+      "target": "GILDED_CHEST_WATERLOGGED",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest[waterlogged=true]{LootTable:\"the_vault:gilded_chest_lvl0\"}": 1
+          },
+          "failure": {
+            "minecraft:water": 1
+          }
+        },
+        {
+          "level": 20,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest[waterlogged=true]{LootTable:\"the_vault:gilded_chest_lvl20\"}": 1
+          },
+          "failure": {
+            "minecraft:water": 1
+          }
+        },
+        {
+          "level": 50,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest[waterlogged=true]{LootTable:\"the_vault:gilded_chest_lvl50\"}": 19,
+            "the_vault:gilded_strongbox[waterlogged=true]{LootTable:\"the_vault:gilded_strongbox_lvl50\"}": 1
+          },
+          "failure": {
+            "minecraft:water": 1
+          }
+        },
+        {
+          "level": 80,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest[waterlogged=true]{LootTable:\"the_vault:gilded_chest_lvl50\"}": 11,
+            "the_vault:gilded_strongbox[waterlogged=true]{LootTable:\"the_vault:gilded_strongbox_lvl50\"}": 1
+          },
+          "failure": {
+            "minecraft:water": 1
+          }
+        },
+        {
+          "level": 100,
+          "probability": 1.0,
+          "success": {
+            "the_vault:gilded_chest[waterlogged=true]{LootTable:\"the_vault:gilded_chest_lvl50\"}": 7,
+            "the_vault:gilded_strongbox[waterlogged=true]{LootTable:\"the_vault:gilded_strongbox_lvl50\"}": 1
+          },
+          "failure": {
+            "minecraft:water": 1
+          }
+        }
+      ]
+    }
+  ]
+}

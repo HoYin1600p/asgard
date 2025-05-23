@@ -1,0 +1,1048 @@
+{
+  "loot": {
+    "minecraft:cobblestone": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:gravel"
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:gravel": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:sand"
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:bricks": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:brick",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:nether_bricks": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:nether_brick",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:nether_wart_block": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:nether_wart",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "the_vault:vault_stone": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "the_vault:vault_rock",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:sandstone": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:sand",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:red_sandstone": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:red_sand",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:prismarine": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:prismarine_shard",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:prismarine_bricks": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:prismarine_shard",
+              "count": {
+                "type": "constant",
+                "count": 4
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:polished_granite": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:granite",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:polished_diorite": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:diorite",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:polished_andesite": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:andesite",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:quartz_block": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:quartz",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:dripstone_block": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:pointed_dripstone",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:cobblestone_1": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_1",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:cobblestone_2": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_2",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:cobblestone_3": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_3",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:cobblestone_4": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_4",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:cobblestone_5": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_5",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:cobblestone_6": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_6",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:cobblestone_7": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_7",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:cobblestone_8": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_8",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:cobblestone_9": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:gravel_9",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:gravel_1": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:sand_1",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:gravel_2": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:sand_2",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:gravel_3": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:sand_3",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:gravel_4": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:sand_4",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:gravel_5": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:sand_5",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:gravel_6": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:sand_6",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:gravel_7": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:sand_7",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:gravel_8": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:sand_8",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "compressium:gravel_9": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "compressium:sand_9",
+              "count": {
+                "type": "constant",
+                "count": 1
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:smooth_basalt": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:basalt"
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:polished_basalt": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:basalt"
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:ancient_debris": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 1
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:netherite_scrap",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:amethyst_block": [
+      {
+        "roll": {
+          "type": "constant",
+          "count": 2
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "minecraft:amethyst_shard",
+              "count": {
+                "type": "constant",
+                "count": 2
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:white_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:orange_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:magenta_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:light_blue_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:yellow_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:lime_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:pink_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:gray_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:light_gray_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:cyan_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:purple_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:blue_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:brown_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:green_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:red_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "minecraft:black_wool": [
+      {
+        "roll": {
+          "count": 1,
+          "type": "constant"
+        },
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "string",
+              "count": {
+                "count": 2,
+                "type": "constant"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

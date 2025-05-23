@@ -1,0 +1,376 @@
+{
+  "bossDefinitions": {
+    "artifact_boss": {
+      "name": "artifact_boss",
+      "stages": [
+        
+        { "stageName": "generic",
+        "stageType": "melee",
+        "attributes": {
+          "Speed": 0.27,
+          "AttackDamage": 28,
+          "Health": 14000,
+          "MeleeAttacks": [
+            {
+              "Multiplier": 1.5,
+              "Weight": 1.0,
+              "Name": "hammersmash"
+            },
+            {
+              "Multiplier": 1.0,
+              "Weight": 2.0,
+              "Name": "uppercut"
+            },
+            {
+              "Multiplier": 0.9,
+              "Weight": 4.0,
+              "Name": "groundslam"
+            }
+          ],
+          "RageAttacks": [
+            {
+              "Multiplier": 0.9,
+              "Weight": 2.0,
+              "Name": "aoeclose"
+            }
+          ]
+        }
+        },
+        { "stageName": "wendarr",
+          "stageType": "spark",
+          "attributes": {
+            "Radius": 40,
+            "Health": 30000,
+            "SparkLifespan": 600,
+            "DamagePerSpark": 24.0,
+            "SparkSpawnInterval": 0,
+            "StunTimePerSpark": 20,
+            "MaxSparkCount": 12,
+            "MinSparkCount": 12
+          }
+        },
+        { "stageName": "generic2",
+        "stageType": "melee",
+        "attributes": {
+          "Speed": 0.27,
+          "AttackDamage": 32,
+          "Health": 15000,
+          "MeleeAttacks": [
+            {
+              "Multiplier": 1.5,
+              "Weight": 1.0,
+              "Name": "hammersmash"
+            },
+            {
+              "Multiplier": 1.0,
+              "Weight": 2.0,
+              "Name": "uppercut"
+            },
+            {
+              "Multiplier": 0.9,
+              "Weight": 4.0,
+              "Name": "groundslam"
+            }
+          ],
+          "RageAttacks": [
+            {
+              "Multiplier": 0.9,
+              "Weight": 2.0,
+              "Name": "aoeclose"
+            }
+          ]
+        }
+        },
+        { "stageName": "velara",
+          "stageType": "summoning",
+          "attributes": {
+            "EntityTypes": [
+              {
+                "EntityType": "the_vault:t3_zombie",
+                "Weight": 5.0
+              },
+              {
+                "EntityType": "the_vault:t3_husk",
+                "Weight": 5.0
+              },
+              {
+                "EntityType": "the_vault:t3_piglin",
+                "Weight": 8.0
+              },
+              {
+                "EntityType": "the_vault:t3_skeleton",
+                "Weight": 5.0
+              },
+              {
+                "EntityType": "the_vault:t3_drowned",
+                "Weight": 5.0
+              },
+              {
+                "EntityType": "the_vault:t3_stray",
+                "Weight": 5.0
+              },
+              {
+                "EntityType": "the_vault:deep_dark_horror",
+                "Weight": 5.0
+              },
+              {
+                "EntityType": "the_vault:t2_zombie",
+                "Weight": 8.0
+              },
+              {
+                "EntityType": "the_vault:t2_husk",
+                "Weight": 8.0
+              },
+              {
+                "EntityType": "the_vault:vault_fighter_2",
+                "Weight": 10.0
+              },
+              {
+                "EntityType": "the_vault:vault_fighter_3",
+                "Weight": 10.0
+              },
+              {
+                "EntityType": "the_vault:vault_fighter_4",
+                "Weight": 10.0
+              },
+              {
+                "EntityType": "the_vault:miner_zombie_t5",
+                "Weight": 10.0
+              },
+              {
+                "EntityType": "the_vault:mummy_t2",
+                "Weight": 10.0
+              },
+              {
+                "EntityType": "the_vault:mushroom_t5",
+                "Weight": 10.0
+              },
+              {
+                "EntityType": "the_vault:overgrown_zombie_t5",
+                "Weight": 10.0
+              },
+              {
+                "EntityType": "the_vault:skeleton_pirate_t5",
+                "Weight": 10.0
+              },
+              {
+                "EntityType": "the_vault:winterwalker_t5",
+                "Weight": 10.0
+              },
+              {
+                "EntityType": "the_vault:dungeon_black_widow_spider",
+                "Weight": 6.0
+              },
+              {
+                "EntityType": "the_vault:dungeon_piglin_brute",
+                "Weight": 4.0
+              },
+              {
+                "EntityType": "the_vault:dungeon_vindicator",
+                "Weight": 4.0
+              },
+              {
+                "EntityType": "the_vault:dungeon_pillager",
+                "Weight": 4.0
+              },
+              {
+                "EntityType": "the_vault:dungeon_witch",
+                "Weight": 4.0
+              },
+              {
+                "EntityType": "the_vault:mushroom_t4",
+                "Weight": 10.0
+              }
+            ],
+            "Radius": 34,
+            "SpawnDelay": 220,
+            "MinGroupCount": 28,
+            "MaxGroupCount": 28,
+            "MaxMobCount": 16,
+            "MinMobCount": 14,
+            "maxMobsAliveBeforeNextSpawn": 32
+          }
+        },
+        { "stageName": "generic3",
+        "stageType": "melee",
+        "attributes": {
+          "Speed": 0.27,
+          "AttackDamage": 36,
+          "Health": 16000,
+          "MeleeAttacks": [
+            {
+              "Multiplier": 1.5,
+              "Weight": 1.0,
+              "Name": "hammersmash"
+            },
+            {
+              "Multiplier": 1.0,
+              "Weight": 2.0,
+              "Name": "uppercut"
+            },
+            {
+              "Multiplier": 0.9,
+              "Weight": 4.0,
+              "Name": "groundslam"
+            }
+          ],
+          "RageAttacks": [
+            {
+              "Multiplier": 0.9,
+              "Weight": 2.0,
+              "Name": "aoeclose"
+            }
+          ]
+        }
+        },
+        { "stageName": "tenos",
+          "stageType": "catalyst",
+          "attributes": {
+            "CatalystWaves": [
+              {
+                "MinCatalysts": 3,
+                "MaxCatalysts": 3
+              },
+              {
+                "MinCatalysts": 4,
+                "MaxCatalysts": 4
+              },
+              {
+                "MinCatalysts": 7,
+                "MaxCatalysts": 7
+              },
+              {
+                "MinCatalysts": 11,
+                "MaxCatalysts": 11
+              }
+            ],
+            "ChestChance": 0.2,
+            "ProjectileDamage": 20.0,
+            "ExplosionDamageMultiplier": 1.5,
+            "FangsDamage": 32.0,
+            "FangsChance": 0.8,
+            "Effects": [
+              {
+                "Effect": "minecraft:instant_damage",
+                "Duration": 1,
+                "Amplifier": 1,
+                "Weight": 8.0
+              },
+              {
+                "Effect": "minecraft:mining_fatigue",
+                "Duration": 200,
+                "Amplifier": 2,
+                "Weight": 8.0
+              },
+              {
+                "Effect": "minecraft:slow_falling",
+                "Duration": 400,
+                "Amplifier": 2,
+                "Weight": 10.0
+              },
+              {
+                "Effect": "minecraft:slowness",
+                "Duration": 200,
+                "Amplifier": 3,
+                "Weight": 10.0
+              },
+              {
+                "Effect": "minecraft:blindness",
+                "Duration": 40,
+                "Amplifier": 1,
+                "Weight": 6.0
+              }
+            ],
+            "ChestLootTables": {
+              "ORNATE": "the_vault:boss_ornate",
+              "LIVING": "the_vault:boss_living",
+              "WOODEN": "the_vault:boss_wooden",
+              "GILDED": "the_vault:boss_gilded"
+            }
+          }
+        },
+        { "stageName": "generic4",
+        "stageType": "melee",
+        "attributes": {
+          "Speed": 0.27,
+          "AttackDamage": 40,
+          "Health": 24000,
+          "MeleeAttacks": [
+            {
+              "Multiplier": 1.5,
+              "Weight": 1.0,
+              "Name": "hammersmash"
+            },
+            {
+              "Multiplier": 1.0,
+              "Weight": 2.0,
+              "Name": "uppercut"
+            },
+            {
+              "Multiplier": 0.9,
+              "Weight": 4.0,
+              "Name": "groundslam"
+            }
+          ],
+          "RageAttacks": [
+              {
+                "Multiplier": 0.9,
+                "Weight": 2.0,
+                "Name": "aoeclose"
+              }
+          ]
+        }
+        },
+        { "stageName": "idona",
+          "stageType": "berserk",
+          "attributes": {
+            "Speed": 0.3,
+            "AttackDamage": 60,
+            "MaxSpeedMultiplier": 2.8,
+            "BloodOrbSpawnCooldown": 100,
+            "MaxBloodOrbs": 12,
+            "Health": 50000,
+            "MeleeAttacks": [
+              {
+                "Multiplier": 2.0,
+                "Weight": 1.0,
+                "Name": "hammersmash"
+              },
+              {
+                "Multiplier": 0.8,
+                "Weight": 2.0,
+                "Name": "uppercut"
+              },
+              {
+                "Multiplier": 0.9,
+                "Weight": 2.0,
+                "Name": "groundslam"
+              }
+            ],
+            "RageAttacks": [
+              {
+                "Multiplier": 1.0,
+                "Weight": 1.0,
+                "Name": "throw"
+              },
+              {
+                "Multiplier": 1.1,
+                "Weight": 2.0,
+                "Name": "aoeclose"
+              }
+            ],
+            "MaxBaseDamageMultiplier": 3.3
+          }
+        }
+      
+        
+        
+        
+        
+        
+       
+        
+      ]
+    }
+  }
+}

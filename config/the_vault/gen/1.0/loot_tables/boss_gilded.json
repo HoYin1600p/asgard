@@ -1,0 +1,139 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 10,
+        "max": 12
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:gilded_sconce",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "the_vault:gilded_ingot",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+                "weight": 8,
+                "item": {
+                "id": "the_vault:topaz_shard",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+                }
+            }
+          ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:gilded_sconce",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "the_vault:gilded_ingot",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+                "weight": 8,
+                "item": {
+                "id": "the_vault:topaz_shard",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+                }
+            }
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:gilded_sconce",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "item": {
+              "id": "the_vault:gilded_ingot",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+                "weight": 8,
+                "item": {
+                "id": "the_vault:topaz_shard",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+                }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:gilded_catalyst_inhibitor",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "ORNATE_CHEST",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.8,
+          "success": {
+            "the_vault:hardened_chest{LootTable:\"the_vault:hardened_chest_lvl0\"}": 100,
+            "the_vault:enigma_chest{LootTable:\"the_vault:enigma_chest_lvl0\"}": 1,
+            "the_vault:flesh_chest{LootTable:\"the_vault:flesh_chest_lvl0\"}": 12
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 20,
+          "probability": 0.8,
+          "success": {
+            "the_vault:hardened_chest{LootTable:\"the_vault:hardened_chest_lvl20\"}": 100,
+            "the_vault:enigma_chest{LootTable:\"the_vault:enigma_chest_lvl20\"}": 1,
+            "the_vault:flesh_chest{LootTable:\"the_vault:flesh_chest_lvl0\"}": 12
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 50,
+          "probability": 0.8,
+          "success": {
+            "the_vault:hardened_chest{LootTable:\"the_vault:hardened_chest_lvl50\"}": 100,
+            "the_vault:enigma_chest{LootTable:\"the_vault:enigma_chest_lvl50\"}": 1,
+            "the_vault:flesh_chest{LootTable:\"the_vault:flesh_chest_lvl50\"}": 12
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 100,
+          "probability": 0.8,
+          "success": {
+            "the_vault:hardened_chest{LootTable:\"the_vault:hardened_chest_lvl100\"}": 100,
+            "the_vault:enigma_chest{LootTable:\"the_vault:enigma_chest_lvl50\"}": 1,
+            "the_vault:flesh_chest{LootTable:\"the_vault:flesh_chest_lvl50\"}": 12
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "placeholder",
+      "target": "ORNATE_CHEST_WATERLOGGED",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.8,
+          "success": {
+            "the_vault:hardened_chest[waterlogged=true]{LootTable:\"the_vault:hardened_chest_lvl0\"}": 100,
+            "the_vault:enigma_chest[waterlogged=true]{LootTable:\"the_vault:enigma_chest_lvl0\"}": 1,
+            "the_vault:flesh_chest[waterlogged=true]{LootTable:\"the_vault:flesh_chest_lvl0\"}": 12
+          },
+          "failure": {
+            "minecraft:water": 1
+          }
+        },
+        {
+          "level": 20,
+          "probability": 0.8,
+          "success": {
+            "the_vault:hardened_chest{LootTable:\"the_vault:hardened_chest_lvl20\"}": 100,
+            "the_vault:enigma_chest{LootTable:\"the_vault:enigma_chest_lvl20\"}": 1,
+            "the_vault:flesh_chest{LootTable:\"the_vault:flesh_chest_lvl0\"}": 12
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 50,
+          "probability": 0.8,
+          "success": {
+            "the_vault:hardened_chest{LootTable:\"the_vault:hardened_chest_lvl50\"}": 100,
+            "the_vault:enigma_chest{LootTable:\"the_vault:enigma_chest_lvl50\"}": 1,
+            "the_vault:flesh_chest{LootTable:\"the_vault:flesh_chest_lvl50\"}": 12
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 100,
+          "probability": 0.8,
+          "success": {
+            "the_vault:hardened_chest{LootTable:\"the_vault:hardened_chest_lvl100\"}": 100,
+            "the_vault:enigma_chest{LootTable:\"the_vault:enigma_chest_lvl50\"}": 1,
+            "the_vault:flesh_chest{LootTable:\"the_vault:flesh_chest_lvl50\"}": 12
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

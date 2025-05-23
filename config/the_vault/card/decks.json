@@ -1,0 +1,420 @@
+{
+  "values": {
+    "starter": {
+      "model": "vhapi:deck/starter#inventory",
+      "name": "Starter",
+      "essence": {
+        "min": 0,
+        "max": 0
+      },
+      "layout": [
+        {
+          "value": [
+            "OOO",
+            "OOO",
+            "OOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "large": {
+      "model": "vhapi:deck/large#inventory",
+      "name": "Large Deck",
+      "essence": {
+        "min": 1,
+        "max": 1
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOO",
+            "OOXOO",
+            "OOOOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "double": {
+      "model": "vhapi:deck/double#inventory",
+      "name": "Double Deck",
+      "essence": {
+        "min": 1,
+        "max": 1
+      },
+      "layout": [
+        {
+          "value": [
+            "OOXXXOO",
+            "OOXOXOO",
+            "OOXXXOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "merchant": {
+      "model": "vhapi:deck/merchant#inventory",
+      "name": "Merchant's Deck",
+      "essence": {
+        "min": 2,
+        "max": 2
+      },
+      "layout": [
+        {
+          "value": [
+            "XXOOXX",
+            "XOOOOX",
+            "OOOOOO",
+            "XOOOOX",
+            "XXOOXX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "expanded": {
+      "model": "vhapi:deck/expanded#inventory",
+      "name": "Expanded Deck",
+      "essence": {
+        "min": 2,
+        "max": 2
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOO",
+            "OOOO",
+            "OOOO",
+            "OOOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "gdungeon": {
+      "model": "vhapi:deck/edge#inventory",
+      "name": "The Edge Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "XOXOXOX",
+            "OOOOOOO",
+            "OOOOOOO",
+            "XOXOXOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "ldungeon": {
+      "model": "vhapi:deck/shroom#inventory",
+      "name": "The Shroom Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOO",
+            "OOOOOOO",
+            "XXOOOXX",
+            "XXOOOXX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "odungeon": {
+      "model": "vhapi:deck/anvil#inventory",
+      "name": "The Anvil Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOO",
+            "XOOOOOX",
+            "XXOOOXX",
+            "XOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "treasure": {
+      "model": "the_vault:deck/treasure#inventory",
+      "name": "The Treasure Deck",
+      "essence": {
+        "min": 4,
+        "max": 4
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOO",
+            "OOOOOOO",
+            "OOOOOOO",
+            "OOXXXOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "black": {
+      "model": "the_vault:deck/black#inventory",
+      "name": "The Black Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OXOOOOOXO",
+            "OXOOOOOXO",
+            "OXOOOOOXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "lost": {
+      "model": "the_vault:deck/lost#inventory",
+      "name": "The Lost Deck",
+      "essence": {
+        "min": 4,
+        "max": 4
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOXOO",
+            "OOOOOOXXO",
+            "OOXOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "champion": {
+      "model": "vhapi:deck/champion#inventory",
+      "name": "The Champion Deck",
+      "essence": {
+        "min": 2,
+        "max": 2
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOO",
+            "OOOO",
+            "OOOO",
+            "OOOO",
+            "XOOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "extended": {
+      "model": "the_vault:deck/champion#inventory",
+      "name": "The Champion Deck",
+      "essence": {
+        "min": 2,
+        "max": 2
+      },
+      "layout": [
+        {
+          "value": [
+            "X",
+            "X",
+            "X",
+            "XOOO",
+            "XOOX"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "runic": {
+      "model": "vhapi:deck/runic#inventory",
+      "name": "The Runic Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOXOXOOO",
+            "XXOXOXOXX",
+            "XXOXOXOXX",
+            "XXOXOXOXX",
+            "XXOXOXOXX",
+            "OXOXOXOXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "bishop": {
+      "model": "vhapi:deck/bishop#inventory",
+      "name": "The Bishop Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OXOXOXOXO",
+            "XOXOXOXOX",
+            "OXOXOXOXO",
+            "XOXOXOXOX",
+            "OXOXOXOXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "belt": {
+      "model": "vhapi:deck/belt#inventory",
+      "name": "The Belt Deck",
+      "essence": {
+        "min": 3,
+        "max": 3
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOOOOOOO",
+            "OXXXXXXXO",
+            "OXXXXXXXO",
+            "OXXXXXXXO",
+            "OXXXXXXXO",
+            "OOOOOOOOO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "scam": {
+      "model": "vhapi:deck/mystery#inventory",
+      "name": "The ?",
+      "essence": {
+        "min": 5,
+        "max": 5
+      },
+      "layout": [
+        {
+          "value": [
+            "OXXXXXXXX",
+            "XXXXXXXXX",
+            "XXXXXXXXX",
+            "XXXOXXXXX",
+            "XXXXXXXXX",
+            "XXXXXXXXO"
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "goblin": {
+      "model": "vhapi:deck/goblin#inventory",
+      "name": "The Goblin Deck",
+      "essence": {
+        "min": 6,
+        "max": 6
+      },
+      "layout": [
+        {
+          "value": [
+            "OOXOOOXOO",
+            "OOOOOOOOO",
+            "XOOOOOOOX",
+            "XOOOOOOOX",
+            "XXOOOOOXX",
+            "XXXOOOXXX"
+
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "dragon": {
+      "model": "vhapi:deck/dragon#inventory",
+      "name": "The Dragon Deck",
+      "essence": {
+        "min": 8,
+        "max": 8
+      },
+      "layout": [
+        {
+          "value": [
+            "XOOOOOOOX",
+            "OOOOOOOOO",
+            "OOOOOOOOO",
+            "OOOOOOOOO",
+            "XOOOOOOOX",
+            "XXOOOOOXX"
+
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "Millennium": {
+      "model": "vhapi:deck/millennium#inventory",
+      "name": "The Millennium Deck",
+      "essence": {
+        "min": 6,
+        "max": 6
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOXXXOOO",
+            "OOOOXOOOO",
+            "OOOOOOOOO",
+            "OOXOOOXOO",
+            "OOXXXXXOO",
+            "OOXXXXXOO"
+
+          ],
+          "weight": 1.0
+        }
+      ]
+    },
+    "Vaulthalla": {
+      "model": "vhapi:deck/vaulthalla#inventory",
+      "name": "The Vaulthalla Deck",
+      "essence": {
+        "min": 6,
+        "max": 6
+      },
+      "layout": [
+        {
+          "value": [
+            "OOOXXXOOO",
+            "OOOXXXOOO",
+            "OOOXXXOOO",
+            "OOOOXOOOO",
+            "XOOOOOOOX",
+            "XXOOOOOXX"
+
+          ],
+          "weight": 1.0
+        }
+      ]
+    }
+  }
+}

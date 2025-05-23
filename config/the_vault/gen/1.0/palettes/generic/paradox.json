@@ -1,0 +1,70 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "TREASURE_DOOR",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.0,
+          "success": {
+            "the_vault:error_block": 1
+          },
+          "failure": {
+            "minecraft:stone": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:vendor_door",
+      "output": {
+        "minecraft:stone": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:treasure_door",
+      "output": {
+        "minecraft:stone": 1
+      }
+    },
+    {
+      "type": "placeholder",
+      "target": "DUNGEON_DOOR",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.0,
+          "success": {
+            "minecraft:stone": 1
+          },
+          "failure": {
+            "minecraft:stone": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:dungeon_door",
+      "output": {
+        "minecraft:stone": 1
+      }
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "the_vault:god_altar",
+          "output": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

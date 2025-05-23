@@ -1,0 +1,20 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:chaos/chaos_chest_randomize"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/treasure"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawner_base"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:chaos/chaos_antique_tags"
+        }
+    ]
+}

@@ -1,0 +1,202 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 1,
+        "max": 1
+      },
+      "pool": [
+        {
+          
+          "weight": 240,
+          "pool": [
+            {
+              "weight": 25,
+              "item": {
+              "id": "the_vault:vault_bronze",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 6
+                }
+              }
+            },
+            {
+              "weight": 25,
+              "item": {
+              "id": "minecraft:air",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {"weight": 120,
+          "pool": [
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:vault_bronze",
+              "count": {
+                "type": "uniform",
+                "min": 2,
+                "max": 6
+                }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "minecraft:air",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+              "id": "the_vault:mod_box",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            }
+          ]
+        },
+        {"weight": 20,
+        "pool": [
+            {
+              "weight": 29,
+              "item": {
+              "id": "minecraft:air",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+            "weight": 8,
+            "item": {
+              "id": "the_vault:vault_catalyst_infused",
+              "nbt": "{\"pool\":\"the_vault:treasure_bonus\"}",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:waxing_focus",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:waning_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+           },
+           {
+            "weight": 1,
+            "item": {
+              "id": "the_vault:empowered_chaotic_focus",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          }
+           
+          ]
+        },
+        {
+          "weight": 1,
+          "pool": [
+            {
+              "weight": 10,
+              "item": {
+              "id": "minecraft:air",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:lost_bounty",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:empowered_chaotic_focus",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:card_deck",
+                "nbt": {
+                  "id": "treasure"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:treasure_chest_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+             }
+          ]
+        }
+      ]
+    }
+  ]
+}

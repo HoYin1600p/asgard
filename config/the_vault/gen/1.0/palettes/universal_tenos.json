@@ -1,0 +1,652 @@
+{
+  "tile_processors": [
+    {
+      "type": "reference",
+      "id": "the_vault:generic/paradox"
+  },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/treasure_door_placeholder"
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:stone",
+      "output": {
+        "the_vault:tenos_gem_block": 1,
+        "architects_palette:warped_boards": 1,
+        "the_vault:tenos_dark_smooth_brick": 2,
+        "minecraft:cyan_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone",
+      "output": {
+        "the_vault:tenos_light_smooth_brick": 1,
+        "the_vault:tenos_brick_chiseled": 1,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:gray_concrete",
+      "output": {
+        "auxiliaryblocks:cyan_gelatin": 1,
+        "auxiliaryblocks:blue_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass_block",
+      "output": {
+        "minecraft:warped_planks": 1,
+        "architects_palette:warped_boards": 1,
+		"quark:blue_nether_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dirt",
+      "output": {
+        "architects_palette:warped_boards": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:coarse_dirt",
+      "output": {
+        "botania:stripped_dreamwood": 1,
+        "everycomp:q/botania/vertical_dreamwood_planks": 1,
+        "everycomp:ap/botania/dreamwood_boards": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_slab",
+      "output": {
+        "minecraft:warped_slab": 1,
+        "quark:blue_nether_bricks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_slab",
+      "output": {
+        "architects_palette:warped_board_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_slab",
+      "output": {
+        "botania:stripped_dreamwood_slab": 1,
+        "botania:dreamwood_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:purple_wool",
+      "output": {
+        "everycomp:q/botania/dreamwood_bookshelf": 2,
+        "the_vault:tenos_bookshelf": 1,
+        "the_vault:tenos_bookshelf_empty": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:water",
+      "output": {
+        "minecraft:water": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:birch_log",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:birch_fence",
+      "output": {
+        "minecraft:ice": 1,
+        "minecraft:packed_ice": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:warped_fence",
+      "output": {
+        "create:cut_calcite_wall": 1,
+        "twigs:calcite_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:warped_wart_block",
+      "output": {
+        "quark:warped_bookshelf": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:shroomlight",
+      "output": {
+        "twigs:warped_shroomlamp": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:twisted_fence",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cave_vines_plant",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cave_vines",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spore_blossom",
+      "output": {
+        "minecraft:air": 2,
+        "supplementaries:brass_lantern[hanging=true]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:brown_wool",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:pink_wool",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass",
+      "output": {
+        "supplementaries:book_pile[books=1]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1,
+        "supplementaries:book_pile[books=2]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1,
+        "supplementaries:book_pile[books=3]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:2b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1,
+        "supplementaries:book_pile[books=4]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:2b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:3b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=lower]",
+      "output": {
+        "everycomp:tw/the_vault/chromatic_table": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=upper]",
+      "output": {
+        "supplementaries:book_pile[books=1]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1,
+        "supplementaries:book_pile[books=2]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1,
+        "supplementaries:book_pile[books=3]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:2b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1,
+        "supplementaries:book_pile[books=4]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:2b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:3b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:twisting_vines_plant",
+      "output": {
+        "supplementaries:book_pile[books=4]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:2b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:3b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:twisting_vines",
+      "output": {
+        "supplementaries:book_pile[books=1]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1,
+        "supplementaries:book_pile[books=2]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1,
+        "supplementaries:book_pile[books=3]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:2b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1,
+        "supplementaries:book_pile[books=4]{Items:[{Slot:0b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:1b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:2b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}},{Slot:3b,id:\"minecraft:enchanted_book\",Count:1b,tag:{StoredEnchantments:[{lvl:1s,id:\"minecraft:protection\"}]}}]}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:fern",
+      "output": {
+        "minecraft:air": 16,
+        "botania:cyan_shiny_flower": 8,
+        "everycomp:tw/the_vault/chromatic_table": 4,
+        "minecraft:lectern[has_book=true,facing=south]{Book:{id:\"minecraft:writable_book\",Count:1b}}": 1,
+        "minecraft:lectern[has_book=true,facing=north]{Book:{id:\"minecraft:writable_book\",Count:1b}}": 1,
+        "minecraft:lectern[has_book=true,facing=east]{Book:{id:\"minecraft:writable_book\",Count:1b}}": 1,
+        "minecraft:lectern[has_book=true,facing=west]{Book:{id:\"minecraft:writable_book\",Count:1b}}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lime_wool",
+      "output": {
+        "minecraft:yellow_candle[lit=true,candles=1]": 1,
+        "minecraft:yellow_candle[lit=true,candles=2]": 1,
+        "minecraft:yellow_candle[lit=true,candles=3]": 1,
+        "minecraft:yellow_candle[lit=true,candles=4]": 1,
+        "minecraft:air": 25
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cyan_wool",
+      "output": {
+        "minecraft:yellow_candle[lit=true,candles=1]": 1,
+        "minecraft:yellow_candle[lit=true,candles=2]": 1,
+        "minecraft:yellow_candle[lit=true,candles=3]": 1,
+        "minecraft:yellow_candle[lit=true,candles=4]": 1,
+        "minecraft:air": 40
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_log",
+      "output": {
+        "the_vault:tenos_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_wood",
+      "output": {
+        "the_vault:tenos_log": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_leaves",
+      "output": {
+        "quark:yellow_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_planks",
+      "output": {
+        "the_vault:tenos_planks": 1,
+        "everycomp:ap/the_vault/tenos_boards": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_fence",
+      "output": {
+        "botania:dreamwood_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_slab",
+      "output": {
+        "minecraft:prismarine_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_trapdoor",
+      "output": {
+        "everycomp:mct/the_vault/tenos_classic_trapdoor": 1,
+        "everycomp:mct/the_vault/tenos_barn_trapdoor": 1,
+        "everycomp:mct/the_vault/tenos_four_panel_trapdoor": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_stairs",
+      "output": {
+        "minecraft:prismarine_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_fence_gate",
+      "output": {
+          "botania:dreamwood_fence_gate": 1
+      }
+  },
+  {
+      "type": "weighted_target",
+      "target": "minecraft:oak_door",
+      "output": {
+          "everycomp:mcd/the_vault/tenos_mystic_door": 1
+      }
+  },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_bricks",
+      "output": {
+                "quark:calcite_bricks": 3,
+                "quark:diorite_bricks": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:stone_brick_stairs",
+            "output": {
+                "quark:calcite_bricks_stairs": 3,
+                "quark:diorite_bricks_stairs": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "create:andesite_pillar",
+            "output": {
+                "create:calcite_pillar": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:chiseled_stone_bricks",
+            "output": {
+                "architects_palette:chiseled_calcite": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:stone_brick_slab",
+            "output": {
+                "quark:calcite_bricks_slab": 3,
+                "quark:diorite_bricks_slab": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "quark:stone_brick_vertical_slab",
+            "output": {
+                "quark:calcite_bricks_vertical_slab": 3,
+                "quark:diorite_bricks_vertical_slab": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "quark:stone_vertical_slab",
+            "output": {
+                "quark:calcite_vertical_slab": 1,
+                "quark:polished_calcite_vertical_slab": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:stone_brick_wall",
+            "output": {
+                "quark:calcite_bricks_wall": 1,
+                "quark:diorite_bricks_wall": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:cobblestone_wall",
+            "output": {
+                "quark:calcite_wall": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:cobblestone_stairs",
+            "output": {
+                "quark:calcite_stairs": 1,
+                "quark:polished_calcite_stairs": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:mossy_stone_bricks",
+            "output": {
+                "botania:mossy_livingrock_bricks": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:mossy_cobblestone",
+            "output": {
+                "ecologics:ice_bricks": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:green_concrete",
+            "output": {
+                "minecraft:packed_ice": 1,
+                "minecraft:ice": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:magma_block",
+            "output": {
+                "minecraft:magma_block": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:lava",
+            "output": {
+                "minecraft:lava": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:moss_carpet",
+            "output": {
+                "minecraft:air": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "decorative_blocks:brazier",
+            "output": {
+                "decorative_blocks:brazier": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:campfire",
+            "output": {
+                "minecraft:campfire": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:lantern",
+            "output": {
+                "minecraft:lantern": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "supplementaries:wall_lantern{Lantern:{Name:\"minecraft:lantern\"}}",
+            "output": {
+                "supplementaries:wall_lantern{Lantern:{Name:\"minecraft:lantern\",Properties:{waterlogged:\"false\", hanging:\"false\"}}}": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:soul_lantern",
+            "output": {
+                "minecraft:lantern": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "minecraft:glass",
+            "output": {
+                "minecraft:light[level=15]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cyan_stained_glass",
+      "output": {
+        "auxiliaryblocks:blue_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:light_blue_stained_glass",
+      "output": {
+        "auxiliaryblocks:cyan_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:bookshelf",
+      "output": {
+        "the_vault:tenos_bookshelf": 3,
+        "the_vault:tenos_bookshelf_empty": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "ecologics:azalea_log",
+      "output": {
+        "architects_palette:wardstone_pillar": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "ecologics:azalea_fence",
+      "output": {
+        "cfm:blue_picket_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_crimsite_wall",
+      "output": {
+        "architects_palette:wardstone_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:azalea_log",
+      "output": {
+        "create:asurine_pillar": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:azalea_planks",
+      "output": {
+        "supplementaries:lapis_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:azalea_planks_stairs",
+      "output": {
+        "supplementaries:lapis_bricks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_veridium_wall",
+      "output": {
+        "supplementaries:lapis_bricks_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sand",
+      "output": {
+          "minecraft:light_blue_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:potted_oak_sapling",
+      "output": {
+          "minecraft:potted_blue_orchid": 1
+        }
+    },
+    {
+        "type": "weighted_target",
+        "target": "quark:oak_hedge",
+        "output": {
+            "minecraft:air": 1
+        }
+    },
+    {
+      "type": "weighted_target",
+      "target": "decorative_blocks:oak_support",
+      "output": {
+        "everycomp:db/the_vault/tenos_support": 1
+      }
+    },
+    {
+        "type": "weighted_target",
+        "target": "minecraft:end_stone_bricks",
+        "output": {
+            "the_vault:tenos_brick_chiseled": 3,
+            "the_vault:tenos_brick": 1
+        }
+    },
+    {
+        "type": "weighted_target",
+        "target": "minecraft:end_stone_brick_stairs",
+        "output": {
+            "the_vault:tenos_brick_chiseled": 3,
+            "the_vault:tenos_brick": 1
+        }
+    },
+    {
+        "type": "weighted_target",
+        "target": "minecraft:end_stone_brick_slab",
+        "output": {
+            "the_vault:tenos_brick_chiseled": 3,
+            "the_vault:tenos_brick": 1
+        }
+    },
+    {
+        "type": "weighted_target",
+        "target": "minecraft:end_stone",
+        "output": {
+            "the_vault:tenos_light_smooth_brick": 1
+        }
+    },
+    {
+        "type": "weighted_target",
+        "target": "the_vault:god_altar",
+        "output": {
+          "minecraft:air": 1
+        }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/room_base"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/spawners/ice_mobs"
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:generic/ice_elite_spawners"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

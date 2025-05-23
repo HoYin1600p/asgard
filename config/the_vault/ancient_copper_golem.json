@@ -1,0 +1,10 @@
+{
+  "degradeTime": 2400,
+  "finalDegradeTime": 4800,
+  "LOOT_TABLES": {
+    "Exposed": "the_vault:ancient_copper_golem_exposed",
+    "Weathered": "the_vault:ancient_copper_golem_weathered",
+    "Copper": "the_vault:ancient_copper_golem",
+    "Oxidized": "the_vault:ancient_copper_golem_oxidized"
+  }
+}

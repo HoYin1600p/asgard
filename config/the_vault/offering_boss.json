@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    {
+      "type": "chest",
+      "target": "the_vault:wooden_chest",
+      "probability": 0.5,
+      "icon": "the_vault:gui/scav/wooden_chest",
+      "entries": {
+        "the_vault:offering": {
+          "weight": 8.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        }
+      }
+    },
+    {
+      "type": "coin_stacks",
+      "probability": 0.5,
+      "icon": "the_vault:gui/scav/coin_stacks",
+      "entries": {
+        "the_vault:offering": {
+          "weight": 8.0,
+          "multiplier": 1.0,
+          "color": 16777215
+        }
+      }
+    },
+    {
+      "type": "mob",
+      "probability": 0.5,
+      "icon": "the_vault:gui/scav/mob",
+      "color": 16777215,
+      "entries": {
+        "the_vault:offering": {
+          "multiplier": 1.0,
+          "mobs": [
+            "minecraft:zombie",
+            "minecraft:creeper",
+            "minecraft:spider"
+          ]
+        }
+      }
+    }
+  ]
+}

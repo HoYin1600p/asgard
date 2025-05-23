@@ -1,0 +1,37 @@
+{
+  "expPerLevel": 150,
+  "foodExpRanges": {
+    "the_vault:plain_burger": {
+      "min": 200,
+      "max": 200
+    },
+    "the_vault:cheese_burger": {
+      "min": 400,
+      "max": 400
+    },
+    "the_vault:double_cheese_burger": {
+      "min": 500,
+      "max": 500
+    },
+    "the_vault:deluxe_cheese_burger": {
+      "min": 800,
+      "max": 800
+    },
+    "the_vault:crispy_deluxe_cheese_burger": {
+      "min": 1600,
+      "max": 1600
+    },
+    "the_vault:salty_deluxe_cheese_burger": {
+      "min": 2400,
+      "max": 2400
+    },
+    "the_vault:cheese_burger_feast": {
+      "min": 5000,
+      "max": 5000
+    },
+    "the_vault:spicy_hearty_burger": {
+      "min": 20000,
+      "max": 20000
+    }
+  }
+}

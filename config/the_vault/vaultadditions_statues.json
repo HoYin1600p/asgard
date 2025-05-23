@@ -1,0 +1,67 @@
+{
+  "LOOT": [
+    {
+      "value": {
+        "ITEM": "minecraft:nether_brick"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ice"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:stone"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:granite"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:diorite"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:andesite"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:cobblestone"
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:cobbled_deepslate"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:cobweb"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack"
+      },
+      "weight": 10
+    }
+  ],
+  "INTERVAL": 500,
+  "MIN_ITEM_GENERATED": 100,
+  "MAX_ITEM_GENERATED": 200
+}

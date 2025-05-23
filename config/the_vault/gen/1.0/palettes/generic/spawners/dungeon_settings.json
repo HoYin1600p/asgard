@@ -1,0 +1,105 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/generic_settings"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { PlayerRadius: 8 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 20, Attempts: 2 } } } }": 3,
+                        "ispawner:spawner{ Manager:{ UsesLeft:2, Settings: { SpawnDelay: 30, Attempts: 1 } } } }": 3
+                        
+                    }
+                },
+                {
+                    "level": 20,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager:{ UsesLeft:2, Settings: { SpawnDelay: 40, Attempts: 2 } } } }": 3,
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 30, Attempts: 4 } } } }": 3
+                        
+                    }
+                },
+                {
+                    "level": 50,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 40, Attempts: 5 } } } }": 3,
+                        "ispawner:spawner{ Manager:{ UsesLeft:2, Settings: { SpawnDelay: 30, Attempts: 2 } } } }": 3
+                        
+                    }
+                },
+                {
+                    "level": 90,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager:{ UsesLeft:2, Settings: { SpawnDelay: 40, Attempts: 3 } } } }": 3,
+                        "ispawner:spawner{ Manager:{ UsesLeft:3, Settings: { SpawnDelay: 30, Attempts: 2 } } } }": 3
+                        
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner[powered=true]",
+                    "output": {
+                        "ispawner:spawner{ group:champion }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner{ group:champion }",
+                    "output": {
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 40, Attempts: 1 } } } }": 3
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner{ group:champion }",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { PlayerRadius: 7 } } }": 1
+                    }
+                }
+            ]
+        }
+    ]
+}

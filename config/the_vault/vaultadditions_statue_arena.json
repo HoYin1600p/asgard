@@ -1,0 +1,63 @@
+{
+  "DROPS": [
+    {
+      "value": {
+        "id": "minecraft:diamond_ore",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ancient_debris",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:raw_iron_block",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:gilded_blackstone",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:raw_gold_block",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:crying_obsidian",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:redstone_block",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    }
+  ],
+  "INTERVAL": 2500,
+  "MIN_ITEM_GENERATED": 32,
+  "MAX_ITEM_GENERATED": 64
+}

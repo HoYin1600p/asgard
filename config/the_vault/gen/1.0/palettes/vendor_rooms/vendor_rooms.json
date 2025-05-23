@@ -1,0 +1,79 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "VENDOR_PEDESTAL",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 1.0,
+          "success": {
+            "the_vault:shop_pedestal": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:chest",
+      "output": {
+        "minecraft:conduit": 1,
+        "minecraft:air": 10
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:acacia_planks",
+      "output": {
+        "the_vault:altar_chest_placeable": 1,
+        "minecraft:air": 10
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:ornate_chest",
+      "output": {
+        "decocraft:vintage_cash_register": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:living_chest",
+      "output": {
+        "everycomp:cfm/the_vault/tenos_kitchen_counter": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:living_strongbox",
+      "output": {
+        "minecraft:stonecutter": 1,
+        "minecraft:air": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gilded_chest",
+      "output": {
+        "everycomp:cfm/the_vault/stripped_tenos_kitchen_sink_light": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gilded_strongbox",
+      "output": {
+        "cookingforblockheads:oven": 1
+      }
+    },
+    {
+        "type": "template_stack_tile",
+        "target": "@the_vault:vault_lootables",
+        "stack": [
+            "STRUCTURE_VENDOR_ROOM"
+        ]
+    }
+  ]
+}

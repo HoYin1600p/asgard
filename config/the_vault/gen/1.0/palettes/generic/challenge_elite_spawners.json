@@ -1,0 +1,21 @@
+{
+    "tile_processors": [
+      {
+        "type": "leveled",
+        "levels": [
+          {
+            "level": 0,
+            "type": "bernoulli_weighted_target",
+            "probability": 0.00,
+            "target": "minecraft:diamond_block",
+            "success": {
+              "the_vault:elite_spawner{spawnGroupName:\"the_vault:treasure_goblin\"}": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
+          }
+        ]
+      }
+    ]
+}

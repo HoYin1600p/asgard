@@ -1,0 +1,112 @@
+{
+  "deathEffects": [
+    {
+      "filter": [
+        "the_vault:blood_slime"
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "config": {
+            "tooltipDisplayName": "",
+            "potion": "the_vault:",
+            "additionalEffects": [
+              {
+                "effect": "the_vault:bleed",
+                "duration": 120,
+                "amplifier": 0
+              }
+            ],
+            "duration": 80,
+            "radius": 2.0,
+            "color": 10821661,
+            "affectsOwner": true,
+            "triggerChance": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "filter": [
+        "minecraft:slime"
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "config": {
+            "tooltipDisplayName": "",
+            "potion": "the_vault:",
+            "additionalEffects": [
+              {
+                "effect": "minecraft:poison",
+                "duration": 60,
+                "amplifier": 0
+              }
+            ],
+            "duration": 80,
+            "radius": 2.0,
+            "color": -16711936,
+            "affectsOwner": true,
+            "triggerChance": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "filter": [
+        "the_vault:winter_wolf"
+      ],
+      "levels": [
+        {
+          "level": 0,
+          "config": {
+            "tooltipDisplayName": "",
+            "potion": "the_vault:",
+            "additionalEffects": [
+              {
+                "effect": "minecraft:slowness",
+                "duration": 60,
+                "amplifier": 1
+              }
+            ],
+            "duration": 80,
+            "radius": 2.0,
+            "color": 5746431,
+            "affectsOwner": true,
+            "triggerChance": 0.5
+          }
+        }
+      ]
+    }
+  ],
+  "throwEffects": [
+    {
+      "filter": [
+        "minecraft:witch"
+      ],
+      "levels": [
+        {  
+          "level": 0,
+          "effects": [
+            {
+              "effect": "the_vault:bleed",
+              "amplifier": 1,
+              "duration": 600
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "shiverEffect": {
+    "range": 2,
+    "effectDuration": 10,
+    "effectAmplifier": 3
+  },
+  "swampZombieEffect": {
+    "range": 2,
+    "effectDuration": 60,
+    "effectAmplifier": 2
+  }
+}

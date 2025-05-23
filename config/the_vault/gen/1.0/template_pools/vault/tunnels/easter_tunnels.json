@@ -1,0 +1,32 @@
+[
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/raid1",
+      "palettes": [
+        "the_vault:raid/easter",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/raid2",
+      "palettes": [
+        "the_vault:raid/easter",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/tunnels/raid3",
+      "palettes": [
+        "the_vault:raid/easter",
+        "the_vault:generic/air_to_cave_air"
+      ]
+    }
+  }
+]

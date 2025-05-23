@@ -1,0 +1,283 @@
+{
+  "defaultRoll": "Scrappy+",
+  "rolls": {
+    "Scrappy": {
+      "pool": [
+        {
+          "value": "SCRAPPY",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "Common": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "Rare": {
+      "pool": [
+        {
+          "value": "RARE",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "Epic": {
+      "pool": [
+        {
+          "value": "EPIC",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "Omega": {
+      "pool": [
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 7012096
+    },
+    "Unique": {
+      "pool": [
+        {
+          "value": "UNIQUE",
+          "weight": 1
+        }
+      ],
+      "color": -1213660
+    },
+    "Scrappy+": {
+      "pool": [
+        {
+          "value": "SCRAPPY",
+          "weight": 80
+        },
+        {
+          "value": "COMMON",
+          "weight": 10
+        },
+        {
+          "value": "RARE",
+          "weight": 6
+        },
+        {
+          "value": "EPIC",
+          "weight": 3
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 12369084
+    },
+    "Common+": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 90
+        },
+        {
+          "value": "RARE",
+          "weight": 6
+        },
+        {
+          "value": "EPIC",
+          "weight": 3
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 5353215
+    },
+    "Rare+": {
+      "pool": [
+        {
+          "value": "RARE",
+          "weight": 96
+        },
+        {
+          "value": "EPIC",
+          "weight": 3
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16771072
+    },
+    "Epic+": {
+      "pool": [
+        {
+          "value": "EPIC",
+          "weight": 99
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16711935
+    },
+    "Beginner": {
+      "pool": [
+        {
+          "value": "SCRAPPY",
+          "weight": 80
+        },
+        {
+          "value": "COMMON",
+          "weight": 10
+        },
+        {
+          "value": "RARE",
+          "weight": 6
+        }
+      ],
+      "color": 16773068
+    },
+    "Novice": {
+      "pool": [
+        {
+          "value": "SCRAPPY",
+          "weight": 40
+        },
+        {
+          "value": "COMMON",
+          "weight": 40
+        },
+        {
+          "value": "RARE",
+          "weight": 12
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        }
+      ],
+      "color": 16769960
+    },
+    "Maker": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 40
+        },
+        {
+          "value": "RARE",
+          "weight": 16
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        }
+      ],
+      "color": 16767367
+    },
+    "Apprentice": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 32
+        },
+        {
+          "value": "RARE",
+          "weight": 16
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16762703
+    },
+    "Smith": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 24
+        },
+        {
+          "value": "RARE",
+          "weight": 16
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16760628
+    },
+    "Artisan": {
+      "pool": [
+        {
+          "value": "RARE",
+          "weight": 20
+        },
+        {
+          "value": "EPIC",
+          "weight": 4
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16758297
+    },
+    "Master Artisan": {
+      "pool": [
+        {
+          "value": "EPIC",
+          "weight": 8
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 16754688
+    },
+    "Gladiator": {
+      "pool": [
+        {
+          "value": "COMMON",
+          "weight": 15
+        },
+        {
+          "value": "RARE",
+          "weight": 6
+        },
+        {
+          "value": "EPIC",
+          "weight": 3
+        },
+        {
+          "value": "OMEGA",
+          "weight": 1
+        }
+      ],
+      "color": 5353215
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_wall",
+      "output": {
+        "architects_palette:wardstone_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone",
+      "output": {
+        "the_vault:tenos_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:andesite",
+      "output": {
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:gravel",
+      "output": {
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dirt",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:coarse_dirt",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:rocky_dirt",
+      "output": {
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_slab",
+      "output": {
+        "architects_palette:wardstone_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_slab",
+      "output": {
+        "architects_palette:wardstone_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_log",
+      "output": {
+        "architects_palette:wardstone_pillar": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_log",
+      "output": {
+        "architects_palette:chiseled_wardstone": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_log",
+      "output": {
+        "architects_palette:chiseled_wardstone": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_planks",
+      "output": {
+        "the_vault:tenos_brick": 2,
+        "the_vault:tenos_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stripped_spruce_log",
+      "output": {
+        "architects_palette:wardstone_pillar": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_fence_gate",
+      "output": {
+        "minecraft:warped_fence_gate": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_fence",
+      "output": {
+        "minecraft:warped_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_fence",
+      "output": {
+        "minecraft:warped_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_stairs",
+      "output": {
+        "architects_palette:wardstone_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_stairs",
+      "output": {
+        "architects_palette:wardstone_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_stairs",
+      "output": {
+        "architects_palette:wardstone_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_trapdoor",
+      "output": {
+        "minecraft:warped_trapdoor": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwtrpdoors:spruce_barred_trapdoor",
+      "output": {
+        "minecraft:warped_trapdoor": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:cyan_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "supplementaries:wall_lantern{Lantern:{Name:\"minecraft:lantern\"}}",
+      "output": {
+        "additionallanterns:cyan_blackstone_lantern": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

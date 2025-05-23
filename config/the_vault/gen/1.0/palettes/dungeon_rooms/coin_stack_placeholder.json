@@ -1,0 +1,69 @@
+{
+  "tile_processors": [
+    {
+        "type": "leveled",
+        "levels": [
+            {
+                "level": 0,
+                "type": "weighted_target",
+                "target": "the_vault:placeholder",
+                "output": {
+                    "the_vault:placeholder{ Hidden: 1b }": 1
+                }
+            }
+        ]
+    },
+    {
+      "type": "placeholder",
+      "target": "WOODEN_CHEST",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.6,
+          "success": {
+            "the_vault:wooden_barrel{LootTable:\"the_vault:wooden_chest_lvl0\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 20,
+          "probability": 0.6,
+          "success": {
+            "the_vault:wooden_barrel{LootTable:\"the_vault:wooden_chest_lvl20\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 30,
+          "probability": 0.6,
+          "success": {
+            "the_vault:wooden_barrel{LootTable:\"the_vault:wooden_chest_lvl30\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "placeholder",
+      "target": "COIN_STACKS",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 1.0,
+          "success": {
+            "minecraft:air": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

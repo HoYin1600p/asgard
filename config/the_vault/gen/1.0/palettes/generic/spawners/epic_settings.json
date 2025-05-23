@@ -1,0 +1,126 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/generic_settings"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 4 } } }": 1
+                    }
+                },
+                {
+                    "level": 65,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 5 } } }": 1
+                    }
+                },
+                {
+                    "level": 90,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 6 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { PlayerRadius: 12 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 40, Attempts: 2 } } } }": 1,
+                        "ispawner:spawner{ Manager:{ UsesLeft:1, Settings: { SpawnDelay: 50, Attempts: 3 } } } }": 1
+                    }
+                },
+                {
+                    "level": 5,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager:{ UsesLeft:3, Settings: { SpawnDelay: 40 } } } }": 1,
+                        "ispawner:spawner{ Manager:{ UsesLeft:4, Settings: { SpawnDelay: 50 } } } }": 4,
+                        "ispawner:spawner{ Manager:{ UsesLeft:5, Settings: { SpawnDelay: 50 } } } }": 1,
+                        "ispawner:spawner": 20
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ rarity:epic }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ group:tank }": 0,
+                        "ispawner:spawner{ group:assassin }": 0,
+                        "ispawner:spawner{ group:horde }": 2,
+                        "ispawner:spawner{ group:standard }": 6
+                    }
+                },
+                {
+                    "level": 20,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ group:tank }": 1,
+                        "ispawner:spawner{ group:assassin }": 1,
+                        "ispawner:spawner{ group:horde }": 5,
+                        "ispawner:spawner{ group:standard }": 7
+                    }
+                },
+                {
+                    "level": 35,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ group:tank }": 2,
+                        "ispawner:spawner{ group:assassin }": 3,
+                        "ispawner:spawner{ group:horde }": 8,
+                        "ispawner:spawner{ group:standard }": 7
+                    }
+                }
+            ]
+        }
+    ]
+}

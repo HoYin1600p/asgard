@@ -1,0 +1,23 @@
+{
+  "randomObjective": true,
+  "randomObjectiveList": [
+    "elixir",
+    "scavenger",
+    "monolith",
+    "bingo",
+    "brutal_bosses"
+  ],
+  "copyFastestTime": true,
+  "shouldTimerKill": false,
+  "setObjective": "monolith",
+  "defaultTime": {
+    "elixir": 30000,
+    "scavenger": 30000,
+    "bingo": 30000,
+    "monolith": 12000,
+    "brutal_bosses": 12000
+  },
+  "globalDefaultTime": 30000,
+  "broadcastRecords": true,
+  "notifyPersonalBest": true
+}

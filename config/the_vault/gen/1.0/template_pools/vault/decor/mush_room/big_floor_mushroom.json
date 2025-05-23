@@ -1,0 +1,42 @@
+[
+  {
+    "weight": 0,
+    "value": {
+      "template": "the_vault:empty",
+      "palettes": []
+    }
+  },
+  {
+    "weight": 1,
+    "pool": [
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/mush_room/big_floor_mushroom1",
+          "palettes": []
+        }
+      },
+      {
+        "weight": 3,
+        "value": {
+          "template": "the_vault:vault/decor/mush_room/big_floor_mushroom2",
+          "palettes": []
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/mush_room/big_floor_mushroom3",
+          "palettes": []
+        }
+      },
+      {
+        "weight": 1,
+        "value": {
+          "template": "the_vault:vault/decor/mush_room/big_floor_mushroom4",
+          "palettes": []
+        }
+      }
+    ]
+  }
+]

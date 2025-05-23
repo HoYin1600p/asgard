@@ -1,0 +1,54 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_dark_gray",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_dark_metallic",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:plating_block",
+      "output": {
+        "minecraft:red_nether_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:plating_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:plating_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:plating_wall",
+      "output": {
+        "minecraft:red_nether_brick_wall": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

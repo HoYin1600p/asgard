@@ -1,0 +1,172 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 10,
+        "max": 12
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+                "weight": 16,
+                "item": {
+                "id": "the_vault:living_rock",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+                }
+            },
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:mossy_bone",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:overgrown_wooden_chunk",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:rotten_meat",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+                "weight": 16,
+                "item": {
+                "id": "the_vault:living_rock",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+                }
+            },
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:mossy_bone",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:overgrown_wooden_chunk",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:rotten_meat",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+                "weight": 16,
+                "item": {
+                "id": "the_vault:living_rock",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+                }
+            },
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:mossy_bone",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:overgrown_wooden_chunk",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:rotten_meat",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:living_catalyst_inhibitor",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

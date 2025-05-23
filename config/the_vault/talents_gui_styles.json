@@ -1,0 +1,263 @@
+{
+  "styles": {
+    "Speed": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/speed"
+    },
+    "Haste": {
+      "x": 70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/haste"
+    },
+    "Strength": {
+      "x": 140,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/strength"
+    },
+    "Intelligence": {
+      "x": 210,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/intelligence"
+    },
+    "Stoneskin": {
+      "x": 210,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/stone_skin"
+    },
+    "Last_Stand": {
+      "x": 0,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/last_stand"
+    },
+    "Berserking": {
+      "x": 70,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/berserking"
+    },
+    "Methodical": {
+      "x": 0,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/methodical"
+    },
+    "Depleted": {
+      "x": 70,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/depleted"
+    },
+    "Prudent": {
+      "x": 140,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/potion_amount"
+    },
+    "Sorcery": {
+      "x": 140,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/sorcery"
+    },
+    "Witchery": {
+      "x": 210,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/witchery"
+    },
+    "Nucleus": {
+      "x": 280,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/nucleus"
+    },
+    "Daze": {
+      "x": 350,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/dazed"
+    },
+    "Blizzard": {
+      "x": 280,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/blizzard"
+    },
+    "Frostbite": {
+      "x": 350,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/frostbite"
+    },
+    "Blight": {
+      "x": 280,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/blight"
+    },
+    "Toxic_Reaction": {
+      "x": 350,
+      "y": 100,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/toxic_reaction"
+    },
+    "Lucky_Hit": {
+      "x": 140,
+      "y": 270
+    },
+    "Fatal_Strike": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/fatal_strike_damage"
+    },
+    "Mana_Steal": {
+      "x": 70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/mana_steal"
+    },
+    "Life_Steal": {
+      "x": 0,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/life_steal"
+    },
+    "Cleave": {
+      "x": 70,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/cleave"
+    },
+    "Masteries": {
+      "x": 0,
+      "y": 270
+    },
+    "Horde_Mastery": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/horde_mastery"
+    },
+    "Champion_Mastery": {
+      "x": 70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/champion_mastery"
+    },
+    "Assassin_Mastery": {
+      "x": 0,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/assassin_mastery"
+    },
+    "Dungeon_Mastery": {
+      "x": 70,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/dungeon_mastery"
+    },
+    "Javelin": {
+      "x": 280,
+      "y": 270
+    },
+    "Javelin_Throw_Power": {
+      "x": 0,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/javelin_throw_power"
+    },
+    "Javelin_Damage": {
+      "x": 70,
+      "y": 0,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/javelin_damage"
+    },
+    "Javelin_Conduct": {
+      "x": 0,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/javelin_conduct"
+    },
+    "Javelin_Frugal": {
+      "x": 70,
+      "y": 50,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/javelin_ethereal"
+    },
+    "Prime_Amplification": {
+      "x": 0,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/prime_amplification"
+    },
+    "Arcana": {
+      "x": 0,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/arcana"
+    },
+    "Blazing": {
+      "x": 70,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/blazing"
+    },
+    "Lucky_Momentum": {
+      "x": 140,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/luck_momentum"
+    },
+    "Frenzy": {
+      "x": 210,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/frenzy"
+    },
+    "Hunters_Instinct": {
+      "x": 70,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/hunters_instinct"
+    },
+    "Purist": {
+      "x": 140,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/purist"
+    },
+    "Discipline": {
+      "x": 210,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/discipline"
+    },
+    "Bountiful_Harvest": {
+      "x": 280,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/bountiful_harvest"
+    },
+    "Treasure_Seeker": {
+      "x": 350,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/treasure_seeker"
+    },
+    "Bloodthirst": {
+      "x": 210,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/bloodthirst"
+    }
+
+  }
+}

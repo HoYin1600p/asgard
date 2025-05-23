@@ -1,0 +1,320 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass_block",
+      "output": {
+        "minecraft:yellow_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_concrete",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_terracotta",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:moss_block",
+      "output": {
+        "the_vault:wendarr_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:moss_carpet",
+      "output": {
+        "minecraft:yellow_carpet": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "ecologics:moss_layer",
+      "output": {
+        "minecraft:yellow_carpet": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lime_terracotta",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_concrete_powder",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dark_oak_leaves",
+      "output": {
+        "ecologics:walnut_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_leaves",
+      "output": {
+        "ecologics:walnut_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:andesite",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1,
+        "the_vault:wendarr_dark_smooth_brick": 3,
+        "the_vault:wendarr_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:gravel",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1,
+        "the_vault:wendarr_dark_smooth_brick": 3,
+        "the_vault:wendarr_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_slab",
+      "output": {
+        "create:cut_ochrum_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_stairs",
+      "output": {
+        "create:cut_ochrum_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone",
+      "output": {
+        "create:small_ochrum_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_slab",
+      "output": {
+        "create:small_ochrum_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_stairs",
+      "output": {
+        "create:small_ochrum_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_wall",
+      "output": {
+        "create:small_ochrum_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:andesite",
+      "output": {
+        "create:small_ochrum_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:andesite_slab",
+      "output": {
+        "create:small_ochrum_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:andesite_stairs",
+      "output": {
+        "create:small_ochrum_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:andesite_wall",
+      "output": {
+        "create:small_ochrum_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_bricks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_brick_slab",
+      "output": {
+        "create:cut_ochrum_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_brick_stairs",
+      "output": {
+        "create:cut_ochrum_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_brick_wall",
+      "output": {
+        "create:cut_ochrum_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:mossy_stone_bricks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_stone_bricks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:chiseled_stone_bricks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:mossy_cobblestone",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:mossy_cobblestone_slab",
+      "output": {
+        "create:small_ochrum_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:mossy_cobblestone_stairs",
+      "output": {
+        "create:small_ochrum_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:mossy_cobblestone_wall",
+      "output": {
+        "create:cut_ochrum_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:mossy_stone",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:heavy_mossy_stone_bricks",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:heavy_cracked_stone_bricks",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:coal_ore",
+      "output": {
+        "create:small_ochrum_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "minecraft:soul_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:campfire",
+      "output": {
+        "minecraft:soul_campfire": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass",
+      "output": {
+        "minecraft:dead_bush": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=lower]",
+      "output": {
+        "minecraft:cactus": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=upper]",
+      "output": {
+        "minecraft:cactus": 1,
+        "ecologics:prickly_pear": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

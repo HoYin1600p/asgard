@@ -1,0 +1,14 @@
+{
+  "COMMENTS": [
+    "Blocks added to DENY will not break with the Drill or Dig ability",
+    "Entries in DENY are formatted like minecraft:dirt"
+  ],
+  "DENY": [
+    "the_vault:pink_puzzle_concrete",
+    "the_vault:blue_puzzle_concrete",
+    "the_vault:green_puzzle_concrete",
+    "the_vault:yellow_puzzle_concrete",
+    "minecraft:redstone_wire",
+    "minecraft:redstone_block"
+  ]
+}

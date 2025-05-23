@@ -1,0 +1,229 @@
+{
+  "catalystRecipes": [
+    {
+      "id": "the_vault:catalyst_wooden_cascade",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:1,modifiers:[\"the_vault:wooden_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_wooden_cascade\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:catalyst_gilded_cascade",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:2,modifiers:[\"the_vault:gilded_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_gilded_cascade\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:catalyst_ornate_cascade",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:4,modifiers:[\"the_vault:ornate_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_ornate_cascade\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:catalyst_living_cascade",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:3,modifiers:[\"the_vault:living_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_living_cascade\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:catalyst_extended",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:6,modifiers:[\"the_vault:extended\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_extended\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:catalyst_accustomed",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:7,modifiers:[\"the_vault:xp_gain\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_accustomed\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:catalyst_coin_cascade",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:5,modifiers:[\"the_vault:coin_cascade\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_coin_cascade\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:catalyst_plentiful",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:8,modifiers:[\"the_vault:plentiful\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_plentiful\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:catalyst_soul",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:9,modifiers:[\"the_vault:soul_boost\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_soul\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    }
+  ]
+}

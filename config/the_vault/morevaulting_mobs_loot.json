@@ -1,0 +1,56 @@
+{
+  "vaultLoot": {
+    "the_vault:your_mob_here": {
+      "lootTables": [
+        {
+          "minLevel": 0,
+          "lootTable": "the_vault:champion_loot_lvl0",
+          "probability": 1.0
+        },
+        {
+          "minLevel": 50,
+          "lootTable": "the_vault:champion_loot_lvl50",
+          "probability": 1.0
+        },
+        {
+          "minLevel": 100,
+          "lootTable": "the_vault:champion_loot_lvl50",
+          "probability": 1.0
+        }
+      ]
+    }
+  },
+  "overworldLoot": {
+    "minecraft:your_mob_here": {
+      "lootTables": [
+        {
+          "minLevel": 0,
+          "lootTable": "the_vault:champion_loot_lvl0",
+          "probability": 0.5
+        }
+      ]
+    }
+  },
+  "vaultTags": {
+    "custom_mob": {
+      "lootTables": [
+        {
+          "minLevel": 0,
+          "lootTable": "the_vault:champion_loot_lvl0",
+          "probability": 0.2
+        }
+      ]
+    }
+  },
+  "overworldTags": {
+    "custom_mob": {
+      "lootTables": [
+        {
+          "minLevel": 0,
+          "lootTable": "the_vault:champion_loot_lvl0",
+          "probability": 0.1
+        }
+      ]
+    }
+  }
+}

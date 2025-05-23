@@ -1,0 +1,74 @@
+{
+    "tile_processors": [
+      {
+        "type": "reference",
+        "id": "the_vault:pixel/base"
+      },
+      {
+        "type": "weighted_target",
+        "target": "auxiliaryblocks:concrete",
+        "output": {
+            "auxiliaryblocks:lab_dark_gray": 1,
+            "minecraft:gray_concrete": 3
+        }
+      },
+      {
+        "type": "weighted_target",
+        "target": "minecraft:acacia_planks",
+        "output": {
+            "davebuildingmod:cyan_screen": 1
+        }
+      },
+      {
+        "type": "weighted_target",
+        "target": "minecraft:oak_planks",
+        "output": {
+            "minecraft:cyan_concrete": 1
+        }
+      },
+      {
+        "type": "weighted_target",
+        "target": "minecraft:birch_planks",
+        "output": {
+            "davebuildingmod:cyan_screen": 1
+        }
+      },
+      {
+        "type": "weighted_target",
+        "target": "minecraft:spruce_planks",
+        "output": {
+            "minecraft:red_concrete": 10,
+            "minecraft:lime_concrete": 10,
+            "minecraft:blue_concrete": 10,
+            "minecraft:red_wool": 2,
+            "minecraft:lime_wool": 2,
+            "minecraft:blue_wool": 2
+        }
+      },
+      {
+        "type": "weighted_target",
+        "target": "minecraft:white_stained_glass",
+        "output": {
+            "minecraft:light_blue_stained_glass": 1
+        }
+      },
+      {
+        "type": "weighted_target",
+        "target": "minecraft:dark_oak_planks",
+        "output": {
+            "minecraft:yellow_concrete": 69,
+            "minecraft:yellow_concrete_powder": 19,
+            "minecraft:yellow_wool": 12
+        }
+      },
+      {
+        "type": "weighted_target",
+        "target": "minecraft:cobblestone_slab",
+        "output": {
+            "minecraft:quartz_slab": 1
+        }
+      }
+    ],
+    "entity_processors": [],
+    "decorators": []
+  }

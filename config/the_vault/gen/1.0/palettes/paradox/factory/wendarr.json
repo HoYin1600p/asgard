@@ -1,0 +1,40 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:orange_plastic",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 4,
+        "the_vault:wendarr_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:yellow_terracotta",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete_powder",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 2,
+        "the_vault:wendarr_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "simplylight:illuminant_block_on",
+      "output": {
+        "simplylight:illuminant_orange_block_on": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

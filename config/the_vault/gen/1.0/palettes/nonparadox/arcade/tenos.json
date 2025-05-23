@@ -1,0 +1,46 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "chipped:purple_concrete_2",
+      "output": {
+        "the_vault:tenos_brick_chiseled": 9,
+        "the_vault:tenos_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "chipped:purple_concrete_16",
+      "output": {
+        "the_vault:tenos_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "immersivepetroleum:asphalt",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "davebuildingmod:purple_steel_slab",
+      "output": {
+        "davebuildingmod:blue_steel_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:purple_concrete",
+      "output": {
+        "minecraft:blue_concrete": 1
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/gate_placeholder"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

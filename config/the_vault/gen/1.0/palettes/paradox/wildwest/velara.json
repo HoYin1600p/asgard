@@ -1,0 +1,133 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sand",
+      "output": {
+        "minecraft:lime_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:dirty_sand",
+      "output": {
+        "minecraft:lime_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone",
+      "output": {
+        "minecraft:lime_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone",
+      "output": {
+        "minecraft:lime_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:cobbled_sandstone",
+      "output": {
+        "minecraft:lime_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cut_sandstone_slab",
+      "output": {
+        "quark:azalea_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone_slab",
+      "output": {
+        "quark:azalea_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone_stairs",
+      "output": {
+        "quark:azalea_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone_wall",
+      "output": {
+        "the_vault:velara_leaves": 2,
+        "the_vault:velara_bush": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone_slab",
+      "output": {
+        "quark:azalea_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone_stairs",
+      "output": {
+        "quark:azalea_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:birch_pressure_plate",
+      "output": {
+        "quark:azalea_pressure_plate": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_dripstone_bricks",
+      "output": {
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:yellow_pastel",
+      "output": {
+        "the_vault:velara_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:smooth_yellow_pastel",
+      "output": {
+        "the_vault:velara_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:orange_pastel",
+      "output": {
+        "the_vault:velara_dark_smooth_brick": 9,
+        "the_vault:velara_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:smooth_orange_pastel",
+      "output": {
+        "the_vault:velara_dark_smooth_brick": 9,
+        "the_vault:velara_gem_block": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

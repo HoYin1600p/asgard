@@ -1,0 +1,328 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "minecraft:sea_pickle",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:apple",
+        "nbt": "{}",
+        "amountMin": 10,
+        "amountMax": 20
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:spore_blossom",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:blaze_rod",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ender_pearl",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:honeycomb",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:seagrass",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:sunflower",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:nether_wart",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ice",
+        "nbt": "{}",
+        "amountMin": 16,
+        "amountMax": 32
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:purpur_block",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:mycelium",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:end_stone",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:podzol",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ghast_tear",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 3
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:magma_cream",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:nautilus_shell",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 3
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:turtle_egg",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 4
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:wither_skeleton_skull",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 5
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:chorus_fruit",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:name_tag",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 4
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:prismarine_shard",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:prismarine_crystals",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:chorus_flower",
+        "nbt": "{}",
+        "amountMin": 16,
+        "amountMax": 24
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:dead_brain_coral",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:brain_coral",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:totem_of_undying",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:saddle",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 3
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:cobweb",
+        "nbt": "{}",
+        "amountMin": 8,
+        "amountMax": 16
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:crying_obsidian",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:music_disc_cat",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:trident",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:heart_of_the_sea",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 3
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:nether_star",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:sponge",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:wither_rose",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 8
+      },
+      "weight": 1
+    }
+  ]
+}

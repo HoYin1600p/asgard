@@ -1,0 +1,354 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 3,
+        "max": 3
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+                "weight": 20,
+                "item": {
+                "id": "the_vault:soot",
+                "count": {
+                  "type": "uniform",
+                  "min": 2,
+                  "max": 8
+                  }
+                }
+            },
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:ornate_chain",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+                }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+              "id": "the_vault:driftwood",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 4
+                }
+              }
+            }
+          
+          ]
+        },
+        { "weight": 20,
+        "pool": [
+          {
+            "weight": 18,
+            "item": {
+            "id": "the_vault:carbon_nugget",
+            "count": {
+              "type": "uniform",
+              "min": 4,
+              "max": 16
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+            "id": "the_vault:sword",
+            "nbt": {
+              "the_vault:gear_roll_type_pool": "brazier"
+            },
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+            "id": "the_vault:axe",
+            "nbt": {
+              "the_vault:gear_roll_type_pool": "brazier"
+            },
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+            "id": "the_vault:wand",
+            "nbt": {
+              "the_vault:gear_roll_type_pool": "brazier"
+            },
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+            "id": "the_vault:shield",
+            "nbt": {
+              "the_vault:gear_roll_type_pool": "brazier"
+            },
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+            "id": "the_vault:focus",
+            "nbt": {
+              "the_vault:gear_roll_type_pool": "brazier"
+            },
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+            "id": "the_vault:helmet",
+            "nbt": {
+              "the_vault:gear_roll_type_pool": "brazier"
+            },
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+            "id": "the_vault:chestplate",
+            "nbt": {
+              "the_vault:gear_roll_type_pool": "brazier"
+            },
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+            "id": "the_vault:leggings",
+            "nbt": {
+              "the_vault:gear_roll_type_pool": "brazier"
+            },
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+            "id": "the_vault:boots",
+            "nbt": {
+              "the_vault:gear_roll_type_pool": "brazier"
+            },
+            "count": {
+              "type": "uniform",
+              "min": 1,
+              "max": 1
+              }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:gem_iskallium",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:gem_gorginite",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:gem_sparkletine",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:gem_ashium",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:gem_bomignite",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:gem_tubium",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:gem_upaline",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:gem_petzanite",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          },
+          {
+            "weight": 2,
+            "item": {
+              "id": "the_vault:gem_xenium",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          }
+        ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:gem_echo",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:black_chromatic_steel_ingot",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 20,
+              "item": {
+                "id": "the_vault:bitter_lemon",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 20,
+              "item": {
+                "id": "the_vault:vault_platinum",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:artifact_fragment",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

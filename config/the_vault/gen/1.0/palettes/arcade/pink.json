@@ -1,0 +1,59 @@
+{
+  "tile_processors": [
+    {
+      "type": "reference",
+      "id": "the_vault:arcade/base"
+    },
+    {
+      "type": "weighted_target",
+      "target": "chipped:purple_concrete_2",
+      "output": {
+        "chipped:pink_concrete_2": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "chipped:purple_concrete_16",
+      "output": {
+        "chipped:pink_concrete_16": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "davebuildingmod:purple_steel_slab",
+      "output": {
+        "davebuildingmod:pink_steel_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:purple_concrete",
+      "output": {
+        "minecraft:pink_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "davebuildingmod:purple_steel_stairs",
+      "output": {
+        "davebuildingmod:pink_steel_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "chipped:purple_glazed_terracotta_10",
+      "output": {
+        "chipped:pink_glazed_terracotta_10": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "cookingforblockheads:purple_kitchen_floor",
+      "output": {
+        "cookingforblockheads:pink_kitchen_floor": 1
+      }
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

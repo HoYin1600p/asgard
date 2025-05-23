@@ -1,0 +1,163 @@
+{
+    "tile_processors": [
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:dwellers}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_fighter": 15
+                            },
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "level": 20,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:dwellers}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_fighter": 15,
+                                "the_vault:vault_fighter_1": 15
+                            },
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "level": 40,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:dwellers}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_fighter_1": 15,
+                                "the_vault:vault_fighter_2": 15
+                            },
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "level": 60,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:dwellers}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_fighter_2": 15,
+                                "the_vault:vault_fighter_3": 15
+                            },
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "level": 80,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:dwellers}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_fighter_3": 15,
+                                "the_vault:vault_fighter_4": 15
+                            },
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "level": 100,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:dwellers}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_fighter_4": 15
+                            },
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:tank}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_red_gummy_soldier": 1
+                            },
+                            "weight": 1
+                        }
+                    ]
+                },
+                {
+                    "level": 65,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:tank}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_red_gummy_soldier": 10,
+                                "the_vault:t3_piglin": 1
+                            },
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:assassin}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_blue_gummy_soldier": 1
+                            },
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "spawner",
+                    "target": "ispawner:spawner{group:horde}",
+                    "output": [
+                        {
+                            "elements": {
+                                "the_vault:vault_yellow_gummy_soldier": 12
+                            },
+                            "weight": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/group_settings"
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/challenge_mobs"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/spawners/generic_settings"
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 280 } } }": 1
+                    }
+                },
+                {
+                    "level": 10,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 260 } } }": 1
+                    }
+                },
+                {
+                    "level": 30,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 240 } } }": 1
+                    }
+                },
+                {
+                    "level": 40,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 220 } } }": 1
+                    }
+                },
+                {
+                    "level": 50,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 180 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { CapRestrictions: [{Limit: 18, SpawnGroup: 0}, {Limit: 0, SpawnGroup: 7}, {Limit: 0, SpawnGroup: 5}, {Limit: 0, SpawnGroup: 4}, {Limit: 0, SpawnGroup: 3}, {Limit: 0, SpawnGroup: 1}, {Limit: 0, SpawnGroup: 6}, {Limit: 0, SpawnGroup: 2}] } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 4 } } }": 1
+                    }
+                },
+                {
+                    "level": 25,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 5 } } }": 1
+                    }
+                },
+                {
+                    "level": 65,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 6 } } }": 1
+                    }
+                },
+                {
+                    "level": 90,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { Attempts: 7 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { CheckRadius: 16 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "leveled",
+            "levels": [
+                {
+                    "level": 0,
+                    "type": "weighted_target",
+                    "target": "ispawner:spawner",
+                    "output": {
+                        "ispawner:spawner{ Manager: { Settings: { PlayerRadius: 10 } } }": 1
+                    }
+                }
+            ]
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:generic/hidden_placeholder"
+        }
+    ]
+}
