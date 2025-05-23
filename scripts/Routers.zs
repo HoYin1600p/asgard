@@ -109,6 +109,12 @@ craftingTable.addShaped("modularrouters_energy_upgrade", <item:modularrouters:en
     [<item:minecraft:quartz>, <item:woldsvaults:chromatic_gold_ingot>, <item:minecraft:quartz>]
 ]);
 
+craftingTable.addShaped("modularrouters_muffler_upgrade", <item:modularrouters:muffler_upgrade> *4, [
+    [<item:minecraft:air>, <tag:items:minecraft:wool>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:modularrouters:blank_upgrade>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:the_vault:vault_diamond>, <item:minecraft:air>]
+]);
+
 craftingTable.addShaped("modularrouters_camo_upgrade", <item:modularrouters:camouflage_upgrade>, [
     [<item:minecraft:air>, <tag:items:forge:dyes>, <item:minecraft:air>],
     [<item:minecraft:air>, <item:modularrouters:blank_upgrade>, <item:minecraft:air>],

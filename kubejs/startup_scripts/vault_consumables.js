@@ -143,7 +143,7 @@ onEvent('item.registry', event => {
 onEvent('item.registry', event => {
 	event.create('the_vault:ghost_apple')
 	.maxStackSize(8)
-	.tooltip('Gives you Immortality for 30 Seconds but also removes 30 seconds from your vault timer. It also has a 30 second cooldown')
+	.tooltip('Gives you Immortality for 30 Seconds but also removes 30 seconds from your vault timer. Has a 30 second cooldown')
 	.food(food => {
 		food
     		.hunger(0)
