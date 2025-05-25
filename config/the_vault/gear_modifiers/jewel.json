@@ -12,7 +12,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": -1,
+            "maxLevel": 39,
             "weight": 100,
             "value": {
               "min": 3.0,
@@ -22,7 +22,7 @@
           },
           {
             "minLevel": 40,
-            "maxLevel": -1,
+            "maxLevel": 70,
             "weight": 100,
             "value": {
               "min": 6.1,
@@ -31,7 +31,7 @@
             }
           },
           {
-            "minLevel": 65,
+            "minLevel": 71,
             "maxLevel": -1,
             "weight": 100,
             "value": {
@@ -68,7 +68,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": 56,
+            "maxLevel": 39,
             "weight": 100,
             "value": {
               "min": 300,
@@ -77,8 +77,8 @@
             }
           },
           {
-            "minLevel": 42,
-            "maxLevel": -1,
+            "minLevel": 40,
+            "maxLevel": 55,
             "weight": 100,
             "value": {
               "min": 501,
@@ -87,8 +87,8 @@
             }
           },
           {
-            "minLevel": 57,
-            "maxLevel": -1,
+            "minLevel": 56,
+            "maxLevel": 73,
             "weight": 100,
             "value": {
               "min": 601,
@@ -133,8 +133,8 @@
         "identifier": "the_vault:copiously",
         "tiers": [
           {
-            "minLevel": 21,
-            "maxLevel": 92,
+            "minLevel": 10,
+            "maxLevel": 24,
             "weight": 100,
             "value": {
               "min": 0.01,
@@ -143,8 +143,8 @@
             }
           },
           {
-            "minLevel": 46,
-            "maxLevel": -1,
+            "minLevel": 25,
+            "maxLevel": 70,
             "weight": 100,
             "value": {
               "min": 0.021,
@@ -153,8 +153,8 @@
             }
           },
           {
-            "minLevel": 72,
-            "maxLevel": -1,
+            "minLevel": 71,
+            "maxLevel": 95,
             "weight": 100,
             "value": {
               "min": 0.031,
@@ -163,7 +163,7 @@
             }
           },
           {
-            "minLevel": 93,
+            "minLevel": 96,
             "maxLevel": -1,
             "weight": 100,
             "value": {
@@ -323,6 +323,25 @@
           }
         ]
       },
+
+      { "attribute": "the_vault:breaching",
+        "group": "ModTrapDisarm",
+        "identifier": "the_vault:breaching",
+        "tags": [
+          "noLegendary"
+        ],
+        "tiers": [
+          {
+            "minLevel": 90,
+            "maxLevel": -1,
+            "weight": 20,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+
       { "attribute": "the_vault:trap_disarming",
         "group": "ModTrapDisarm",
         "identifier": "the_vault:trap_disarming",
@@ -451,7 +470,7 @@
         "tiers": [
           {
             "minLevel": 15,
-            "maxLevel": 78,
+            "maxLevel": 59,
             "weight": 100,
             "value": {
               "min": 0.1,
@@ -460,8 +479,8 @@
             }
           },
           {
-            "minLevel": 43,
-            "maxLevel": -1,
+            "minLevel": 60,
+            "maxLevel": 79,
             "weight": 100,
             "value": {
               "min": 0.21,
@@ -470,7 +489,7 @@
             }
           },
           {
-            "minLevel": 79,
+            "minLevel": 80,
             "maxLevel": -1,
             "weight": 100,
             "value": {
@@ -504,9 +523,6 @@
       { "attribute": "the_vault:hammer_size",
         "group": "ModReach",
         "identifier": "the_vault:hammer_size",
-        "tags": [
-          "noLegendary"
-        ],
         "tiers": [
           {
             "minLevel": 0,
@@ -540,7 +556,7 @@
           },
           {
             "minLevel": 70,
-            "maxLevel": 76,
+            "maxLevel": 75,
             "weight": 18,
             "value": {
               "min": 1,
@@ -551,10 +567,20 @@
           {
             "minLevel": 76,
             "maxLevel": -1,
-            "weight": 20,
+            "weight": 25,
             "value": {
               "min": 1,
               "max": 1,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 101,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 2,
+              "max": 2,
               "step": 1
             }
           }
