@@ -32,7 +32,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:gilded",
+            "filter": "@the_vault:all_gilded",
             "counter": {
               "type": "target",
               "target": {
@@ -53,7 +53,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:ornate",
+            "filter": "@the_vault:all_ornate",
             "counter": {
               "type": "target",
               "target": {
@@ -74,7 +74,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:living",
+            "filter": "@the_vault:all_living",
             "counter": {
               "type": "target",
               "target": {
@@ -192,7 +192,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:gilded",
+            "filter": "@the_vault:all_gilded",
             "counter": {
               "type": "sliding_timed_target",
               "target": {
@@ -242,7 +242,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:ornate",
+            "filter": "@the_vault:all_ornate",
             "counter": {
               "type": "sliding_timed_target",
               "target": {
@@ -267,7 +267,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:living",
+            "filter": "@the_vault:all_living",
             "counter": {
               "type": "sliding_timed_target",
               "target": {
@@ -809,7 +809,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -835,7 +835,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:gilded",
+                "filter": "@the_vault:all_gilded",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -861,7 +861,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:living",
+                "filter": "@the_vault:all_living",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -887,7 +887,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:living",
+                "filter": "@the_vault:all_living",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -913,7 +913,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:gilded",
+                "filter": "@the_vault:all_gilded",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -939,7 +939,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -1190,7 +1190,7 @@
                     "children": [
                       {
                         "type": "loot_chest",
-                        "filter": "@the_vault:ornate",
+                        "filter": "@the_vault:all_ornate",
                         "counter": {
                           "type": "sliding_timed_target",
                           "window": {
@@ -1269,7 +1269,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:gilded",
+                    "filter": "@the_vault:all_gilded",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -1348,7 +1348,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:living",
+                "filter": "@the_vault:all_living",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -1425,7 +1425,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -1502,7 +1502,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:gilded",
+                "filter": "@the_vault:all_gilded",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -1555,7 +1555,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:gilded",
+            "filter": "@the_vault:all_gilded",
             "counter": {
               "type": "sliding_timed_target",
               "window": {
@@ -1579,7 +1579,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -1603,7 +1603,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:living",
+                    "filter": "@the_vault:all_living",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -1763,7 +1763,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:gilded",
+                    "filter": "@the_vault:all_gilded",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -1839,7 +1839,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:ornate",
+                    "filter": "@the_vault:all_ornate",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -1915,7 +1915,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:living",
+                    "filter": "@the_vault:all_living",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -1968,7 +1968,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:living",
+                    "filter": "@the_vault:all_living",
                     "counter": {
                       "type": "target",
                       "target": {
@@ -2017,7 +2017,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:gilded",
+                    "filter": "@the_vault:all_gilded",
                     "counter": {
                       "type": "target",
                       "target": {
@@ -2066,7 +2066,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:ornate",
+                    "filter": "@the_vault:all_ornate",
                     "counter": {
                       "type": "target",
                       "target": {
@@ -2292,7 +2292,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:gilded",
+            "filter": "@the_vault:all_gilded",
             "counter": {
               "type": "target",
               "target": {
@@ -2313,7 +2313,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:ornate",
+            "filter": "@the_vault:all_ornate",
             "counter": {
               "type": "target",
               "target": {
@@ -2334,7 +2334,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:living",
+            "filter": "@the_vault:all_living",
             "counter": {
               "type": "target",
               "target": {
@@ -2452,7 +2452,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:gilded",
+            "filter": "@the_vault:all_gilded",
             "counter": {
               "type": "sliding_timed_target",
               "target": {
@@ -2502,7 +2502,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:ornate",
+            "filter": "@the_vault:all_ornate",
             "counter": {
               "type": "sliding_timed_target",
               "target": {
@@ -2527,7 +2527,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:living",
+            "filter": "@the_vault:all_living",
             "counter": {
               "type": "sliding_timed_target",
               "target": {
@@ -3069,7 +3069,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -3095,7 +3095,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:gilded",
+                "filter": "@the_vault:all_gilded",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -3121,7 +3121,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:living",
+                "filter": "@the_vault:all_living",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -3147,7 +3147,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:living",
+                "filter": "@the_vault:all_living",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -3173,7 +3173,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:gilded",
+                "filter": "@the_vault:all_gilded",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -3199,7 +3199,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -3450,7 +3450,7 @@
                     "children": [
                       {
                         "type": "loot_chest",
-                        "filter": "@the_vault:ornate",
+                        "filter": "@the_vault:all_ornate",
                         "counter": {
                           "type": "sliding_timed_target",
                           "window": {
@@ -3529,7 +3529,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:gilded",
+                    "filter": "@the_vault:all_gilded",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -3608,7 +3608,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:living",
+                "filter": "@the_vault:all_living",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -3685,7 +3685,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -3762,7 +3762,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:gilded",
+                "filter": "@the_vault:all_gilded",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -3815,7 +3815,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:gilded",
+            "filter": "@the_vault:all_gilded",
             "counter": {
               "type": "sliding_timed_target",
               "window": {
@@ -3839,7 +3839,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -3863,7 +3863,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:living",
+                    "filter": "@the_vault:all_living",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -4023,7 +4023,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:gilded",
+                    "filter": "@the_vault:all_gilded",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -4099,7 +4099,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:ornate",
+                    "filter": "@the_vault:all_ornate",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -4175,7 +4175,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:living",
+                    "filter": "@the_vault:all_living",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -4228,7 +4228,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:living",
+                    "filter": "@the_vault:all_living",
                     "counter": {
                       "type": "target",
                       "target": {
@@ -4277,7 +4277,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:gilded",
+                    "filter": "@the_vault:all_gilded",
                     "counter": {
                       "type": "target",
                       "target": {
@@ -4326,7 +4326,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:ornate",
+                    "filter": "@the_vault:all_ornate",
                     "counter": {
                       "type": "target",
                       "target": {
@@ -4552,7 +4552,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:gilded",
+            "filter": "@the_vault:all_gilded",
             "counter": {
               "type": "target",
               "target": {
@@ -4573,7 +4573,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:ornate",
+            "filter": "@the_vault:all_ornate",
             "counter": {
               "type": "target",
               "target": {
@@ -4594,7 +4594,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:living",
+            "filter": "@the_vault:all_living",
             "counter": {
               "type": "target",
               "target": {
@@ -4712,7 +4712,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:gilded",
+            "filter": "@the_vault:all_gilded",
             "counter": {
               "type": "sliding_timed_target",
               "target": {
@@ -4762,7 +4762,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:ornate",
+            "filter": "@the_vault:all_ornate",
             "counter": {
               "type": "sliding_timed_target",
               "target": {
@@ -4787,7 +4787,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:living",
+            "filter": "@the_vault:all_living",
             "counter": {
               "type": "sliding_timed_target",
               "target": {
@@ -5329,7 +5329,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -5355,7 +5355,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:gilded",
+                "filter": "@the_vault:all_gilded",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -5381,7 +5381,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:living",
+                "filter": "@the_vault:all_living",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -5407,7 +5407,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:living",
+                "filter": "@the_vault:all_living",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -5433,7 +5433,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:gilded",
+                "filter": "@the_vault:all_gilded",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -5459,7 +5459,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "target",
                   "target": {
@@ -5710,7 +5710,7 @@
                     "children": [
                       {
                         "type": "loot_chest",
-                        "filter": "@the_vault:ornate",
+                        "filter": "@the_vault:all_ornate",
                         "counter": {
                           "type": "sliding_timed_target",
                           "window": {
@@ -5789,7 +5789,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:gilded",
+                    "filter": "@the_vault:all_gilded",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -5868,7 +5868,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:living",
+                "filter": "@the_vault:all_living",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -5945,7 +5945,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -6022,7 +6022,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:gilded",
+                "filter": "@the_vault:all_gilded",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -6075,7 +6075,7 @@
           },
           {
             "type": "loot_chest",
-            "filter": "@the_vault:gilded",
+            "filter": "@the_vault:all_gilded",
             "counter": {
               "type": "sliding_timed_target",
               "window": {
@@ -6099,7 +6099,7 @@
             "children": [
               {
                 "type": "loot_chest",
-                "filter": "@the_vault:ornate",
+                "filter": "@the_vault:all_ornate",
                 "counter": {
                   "type": "sliding_timed_target",
                   "window": {
@@ -6123,7 +6123,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:living",
+                    "filter": "@the_vault:all_living",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -6283,7 +6283,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:gilded",
+                    "filter": "@the_vault:all_gilded",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -6359,7 +6359,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:ornate",
+                    "filter": "@the_vault:all_ornate",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -6435,7 +6435,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:living",
+                    "filter": "@the_vault:all_living",
                     "counter": {
                       "type": "sliding_timed_target",
                       "window": {
@@ -6488,7 +6488,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:living",
+                    "filter": "@the_vault:all_living",
                     "counter": {
                       "type": "target",
                       "target": {
@@ -6537,7 +6537,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:gilded",
+                    "filter": "@the_vault:all_gilded",
                     "counter": {
                       "type": "target",
                       "target": {
@@ -6586,7 +6586,7 @@
                 "children": [
                   {
                     "type": "loot_chest",
-                    "filter": "@the_vault:ornate",
+                    "filter": "@the_vault:all_ornate",
                     "counter": {
                       "type": "target",
                       "target": {
