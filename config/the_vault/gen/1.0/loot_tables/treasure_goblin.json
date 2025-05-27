@@ -8,15 +8,15 @@
       },
       "pool": [
         {
-          "weight": 20,
+          "weight": 40,
           "pool": [
-           {
+            {
               "weight": 1,
               "item": {
                 "id": "the_vault:sword",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -31,7 +31,7 @@
                 "id": "the_vault:axe",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -46,7 +46,7 @@
                 "id": "the_vault:helmet",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -61,7 +61,7 @@
                 "id": "the_vault:chestplate",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -76,7 +76,7 @@
                 "id": "the_vault:leggings",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -91,7 +91,7 @@
                 "id": "the_vault:boots",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -106,7 +106,7 @@
                 "id": "the_vault:shield",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -121,7 +121,7 @@
                 "id": "the_vault:wand",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -136,7 +136,7 @@
                 "id": "the_vault:focus",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -151,7 +151,7 @@
                 "id": "the_vault:magnet",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -166,7 +166,7 @@
                 "id": "the_vault:battlestaff",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -181,7 +181,7 @@
                 "id": "the_vault:trident",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -196,7 +196,7 @@
                 "id": "the_vault:plushie",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -211,7 +211,7 @@
                 "id": "the_vault:loot_sack",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -226,7 +226,7 @@
                 "id": "the_vault:rang",
                 "nbt": {
                   "the_vault:is_legendary": "true",
-                  "the_vault:gear_roll_type_pool": "strong_omega"
+                  "the_vault:gear_roll_type_pool": "treasure_goblin"
                 },
                 "count": {
                   "type": "uniform",
@@ -238,16 +238,16 @@
           ]
         },
         {
-          "weight": 45,
+          "weight": 60,
           "pool": [
             {
-              "weight": 5,
+              "weight": 3,
               "item": {
                 "id": "the_vault:trinket",
                 "count": {
                   "type": "uniform",
-                  "min": 3,
-                  "max": 5
+                  "min": 2,
+                  "max": 4
                 }
               }
             },
@@ -263,29 +263,7 @@
               }
             },
             {
-              "weight": 2,
-              "item": {
-                "id": "the_vault:extraordinary_echo_gem",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 2,
-              "item": {
-                "id": "the_vault:echo_pog",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 1,
+              "weight": 3,
               "item": {
                 "id": "the_vault:ghost_apple",
                 "count": {
@@ -294,14 +272,9 @@
                   "max": 2
                 }
               }
-            }
-          ]
-        },
-        {
-          "weight": 35,
-          "pool": [
+            },
             {
-              "weight": 2,
+              "weight": 3,
               "item": {
                 "id": "the_vault:booster_pack",
                 "nbt": {
@@ -315,7 +288,7 @@
               }
             },
             {
-              "weight": 1,
+              "weight": 2,
               "item": {
                 "id": "woldsvaults:omega_box",
                 "count": {
@@ -326,18 +299,7 @@
               }
             },
             {
-              "weight": 1,
-              "item": {
-                "id": "woldsvaults:extraordinary_pog_prism",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 1,
+              "weight": 2,
               "item": {
                 "id": "woldsvaults:wold_star_chunk",
                 "count": {
@@ -380,6 +342,32 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:trident",
+                "nbt": {
+                  "the_vault:gear_unique_pool": "the_vault:mjolnir",
+                  "the_vault:gear_roll_type": "Unique"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:extraordinary_echo_gem",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
                 }
               }
             }
