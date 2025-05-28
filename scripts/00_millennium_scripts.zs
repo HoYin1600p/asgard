@@ -392,11 +392,12 @@ craftingTable.remove(<item:woldsvaults:black_chromatic_steel_angel_ring>);
 craftingTable.remove(<item:woldsvaults:prismatic_angel_ring>);
 craftingTable.remove(<item:woldsvaults:chromatic_gold_ingot>);
 
-craftingTable.remove(<item:woldsvaults:pog_prism>);
-craftingTable.remove(<item:woldsvaults:extraordinary_pog_prism>);
 craftingTable.remove(<item:woldsvaults:lodestone>);
 craftingTable.remove(<item:woldsvaults:crystal_seal_spirits>);
-
+//craftingTable.remove(<item:woldsvaults:idona_dagger);
+//craftingTable.remove(<item:woldsvaults:velara_apple);
+//craftingTable.remove(<item:woldsvaults:tome_of_tenos);
+//craftingTable.remove(<item:woldsvaults:wendarr_gem);
 
 //added recipe
 
@@ -412,6 +413,31 @@ craftingTable.addShaped("wolds_extraordinary_pog_prism", <item:woldsvaults:extra
         [<item:woldsvaults:pog_prism>, <item:the_vault:extraordinary_echo_gem>, <item:woldsvaults:pog_prism>],
         [<item:the_vault:extraordinary_painite>, <item:the_vault:extraordinary_black_opal>, <item:the_vault:extraordinary_alexandrite>]
     ]);
+
+// Zealot Rocks
+craftingTable.addShaped("tome_of_tenos", <item:woldsvaults:tome_of_tenos>, [
+        [<item:the_vault:memory_powder>, <item:the_vault:vault_rock>, <item:the_vault:memory_powder>],
+        [<item:minecraft:lapis_lazuli>, <item:minecraft:book>, <item:minecraft:lapis_lazuli>],
+        [<item:the_vault:memory_powder>, <item:the_vault:chromatic_iron_block>, <item:the_vault:memory_powder>]
+    ]);
+craftingTable.addShaped("idona_dagger", <item:woldsvaults:idona_dagger>, [
+        [<item:the_vault:memory_powder>, <item:the_vault:vault_rock>, <item:the_vault:memory_powder>],
+        [<item:the_vault:eternal_soul>, <item:minecraft:iron_sword>, <item:the_vault:eternal_soul>],
+        [<item:the_vault:memory_powder>, <item:the_vault:chromatic_iron_block>, <item:the_vault:memory_powder>]
+    ]);
+
+craftingTable.addShaped("velara_apple", <item:woldsvaults:velara_apple>, [
+        [<item:the_vault:memory_powder>, <item:the_vault:vault_rock>, <item:the_vault:memory_powder>],
+        [<item:minecraft:emerald_block>, <item:minecraft:apple>, <item:minecraft:emerald_block>],
+        [<item:the_vault:memory_powder>, <item:the_vault:chromatic_iron_block>, <item:the_vault:memory_powder>]
+    ]);
+
+craftingTable.addShaped("wendarr_gem", <item:woldsvaults:wendarr_gem>, [
+        [<item:the_vault:memory_powder>, <item:the_vault:vault_rock>, <item:the_vault:memory_powder>],
+        [<item:the_vault:vault_essence>, <item:minecraft:clock>, <item:the_vault:vault_essence>],
+        [<item:the_vault:memory_powder>, <item:the_vault:chromatic_iron_block>, <item:the_vault:memory_powder>]
+    ]);
+
 
 craftingTable.addShaped("wolds_deco_loadstone", <item:woldsvaults:lodestone>, [
         [<item:minecraft:amethyst_block>, <item:the_vault:gem_alexandrite>, <item:minecraft:amethyst_block>],
