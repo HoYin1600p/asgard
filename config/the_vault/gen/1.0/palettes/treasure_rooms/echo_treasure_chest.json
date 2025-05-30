@@ -11,9 +11,9 @@
       "type": "weighted_target",
       "target": "minecraft:blue_wool",
       "output": {
-        "the_vault:ore_echo[type=vault_stone,generated=true]": 4,
-        "auxiliaryblocks:black_crystal": 48,
-        "auxiliaryblocks:indigo_crystal": 48
+        "the_vault:ore_echo[type=vault_stone,generated=true]": 40,
+        "auxiliaryblocks:black_crystal": 25,
+        "auxiliaryblocks:indigo_crystal": 35
       }
     },
     {
