@@ -1637,6 +1637,36 @@
       }
     },
     {
+      "type": "forge_gear",
+      "id": "gear_forge",
+      "name": "Magnets",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Magnets suck up loot within a radius of the player! They synergise exceptionally with Affinities/Breaking chests within the vault and can speed up your looting significantly. Magnets also have modifiers that can be applied to enhance their strengths.\n\nTo equip a Magnet, press the Curios button that is next to your helmet slot within your inventory and place the magnet in the Belt slot!",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nForge a Magnet in the Vault Forge",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/magnet",
+      "targetId": "the_vault:magnet",
+      "targetProgress": 1.0,
+      "unlockedBy": "level_five",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vault_alloy",
+            "amount": 9
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
       "type": "collection",
       "id": "artisan_table",
       "name": "Artisan Station Modifying",
@@ -1673,15 +1703,8 @@
       "descriptionData": {
         "description": [
           {
-            "text": "There are many foci that you will obtain throughout your play-through and they will be introduced accordingly, but to start there are 4 important focuses to note.",
+            "text": "There are many focuses that you will obtain throughout your play-through and they will be introduced accordingly, but to start there are 5 important focuses to note.",
             "color": "$text"
-          },
-          {
-            "text": "foci ",
-            "color": "$highlight"
-          },
-          {
-            "text": "that are important are the following."
           },
           {
             "text": "\n\nWild Focus",
@@ -1713,6 +1736,14 @@
           },
           {
             "text": ": This focus will ensure you get a specific modifier while re-rolling all prefixes and suffixes.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAdaptive Focus",
+            "color": "gold"
+          },
+          {
+            "text": ": This focus will upgrade the level of old gear to your current level and adjust modifiers accordingly.\nThis focus can only be obtained by smelting omega gear 25% of the time.",
             "color": "$text"
           },
           {
@@ -3692,47 +3723,6 @@
       },
       "icon": "the_vault:gui/quests/jewel_id",
       "targetId": "morevaulttables:jewel_sack_opener_block",
-      "targetProgress": 1.0,
-      "unlockedBy": "reach_level_20",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:vault_gold"
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
-      "id": "jewel_purposer",
-      "name": "Jewel Purposer",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "The Jewel Purposer is a new vault workstation that has 2 purposes.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\n1. Store your jewels.\n\n2. Apply those jewels to your tool based on weights that you choose on the left side of the UI.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nNote",
-            "color": "red"
-          },
-          {
-            "text": ": The Jewel Purposer will keep its inventory when broken.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nCraft A Jewel Purposer",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/purposer",
-      "targetId": "vaultjp:jewel_purpuser",
       "targetProgress": 1.0,
       "unlockedBy": "reach_level_20",
       "reward": {
