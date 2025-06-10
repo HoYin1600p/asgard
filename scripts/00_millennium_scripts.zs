@@ -515,9 +515,9 @@ craftingTable.addShaped("prismatic_ring", <item:woldsvaults:prismatic_angel_ring
 
 // repair augment
 craftingTable.addShaped("repair_augment", <item:woldsvaults:repair_augmenter>, [
-        [<item:the_vault:resilient_focus>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:resilient_focus>],
-        [<item:the_vault:black_chromatic_steel_ingot>, <item:woldsvaults:pog_prism>, <item:the_vault:black_chromatic_steel_ingot>],
-        [<item:the_vault:resilient_focus>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:resilient_focus>]
+        [<item:woldsvaults:wold_star_chunk>, <item:the_vault:echoing_ingot>, <item:woldsvaults:wold_star_chunk>],
+        [<item:the_vault:echoing_ingot>, <item:the_vault:resilient_focus>, <item:the_vault:echoing_ingot>],
+        [<item:woldsvaults:wold_star_chunk>, <item:the_vault:echoing_ingot>, <item:woldsvaults:wold_star_chunk>]
     ]);
 
 // resonating reinforcement
