@@ -272,6 +272,8 @@ craftingTable.remove(<item:vaultkeychain:keychain>);
 
 // recipe additions
 
+craftingTable.addShapeless("spicy_hearty_burger_2", <item:the_vault:spicy_hearty_burger>, [<item:the_vault:cheese_burger_feast>, <item:the_vault:burger_chili>]);
+
 craftingTable.addShaped("infinite_raid_rock", <item:the_vault:crystal_seal_raid_infinite>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:minecraft:totem_of_undying>, <item:the_vault:black_chromatic_steel_ingot>],
     [<item:minecraft:torch>, <item:the_vault:echo_pog>, <item:minecraft:torch>],
@@ -669,3 +671,84 @@ craftingTable.addShaped("golem_apple", <item:the_vault:golem_apple>, [
     [<item:the_vault:perfect_painite>, <item:the_vault:vault_apple>, <item:the_vault:perfect_painite>],
     [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
 ]);
+
+
+// velvet beds
+
+val velvet = [
+    "red",
+    "orange",
+    "yellow",
+    "lime",
+    "green",
+    "light_blue",
+    "cyan",
+    "blue",
+    "magenta",
+    "purple",
+    "pink",
+    "white",
+    "gray",
+    "light_gray",
+    "brown",
+    "black"
+];
+
+for bed in velvet {
+    // velvet bed tagging
+     <tag:items:the_vault:velvet_bed>.add(<item:vaultadditions:colored_velvet_bed_${bed}>);
+}
+
+for color in velvet {
+    craftingTable.addShapeless("velvet_bed_recolor_" + color, <item:vaultadditions:colored_velvet_bed_${color}>, [
+        <tag:items:the_vault:velvet_bed>,
+        <item:minecraft:${color}_dye>
+    ]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
