@@ -1,0 +1,39 @@
+{
+  "chance": 1.0,
+  "startModifiers": {
+    "the_vault:shortened": 15,
+    "the_vault:rotten": 1
+  },
+  "fruits": {
+    "the_vault:grapes": {
+      "weight": 0.1721
+    },
+    "the_vault:star_fruit": {
+      "weight": 0.0085
+    },
+    "the_vault:mystic_pear": {
+      "weight": 8.0E-4
+    },
+    "the_vault:bitter_lemon": {
+      "weight": 0.0767
+    },
+    "the_vault:sweet_kiwi": {
+      "weight": 0.6888
+    },
+    "the_vault:mango": {
+      "weight": 0.034
+    },
+    "the_vault:sour_orange": {
+      "weight": 0.0191
+    }
+  },
+  "fruitScaling": {
+    "32": [
+      "the_vault:star_fruit",
+      "the_vault:mango"
+    ],
+    "30": [
+      "the_vault:star_fruit"
+    ]
+  }
+}

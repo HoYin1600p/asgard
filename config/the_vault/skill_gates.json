@@ -204,7 +204,9 @@
           { "type": "constant", "id": "Mob Spawners" },
           { "type": "constant", "id": "Potions" },
           { "type": "constant", "id": "Mixtures" },
-          { "type": "constant", "id": "Brews" }
+          { "type": "constant", "id": "Brews" },
+          { "type": "constant", "id": "Map Markers" },
+          { "type": "constant", "id": "Vault Map" }
         ],
         "ignoreArrow": true,
         "lockedBy": []
@@ -242,6 +244,97 @@
       "Toxic_Reaction": {
         "lockedBy": [{ "type": "constant", "id": "Blight" }],
         "dependsOn": []
+      },
+
+      "NaturesBoon": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "BountyOfTheEarth" }
+        ]
+      },
+      "CelestialProvidence": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "CelestialFortune" }
+        ]
+      },
+      "EssenceFlow2": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "EssenceFlow" }
+        ]
+      },
+      "GaiasWard2": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "GaiasWard" }
+        ]
+      },
+      "SpiritMastery2": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "SpiritMastery" }
+        ]
+      },
+      "RootedFortitute": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "StonesResolve" }
+        ]
+      },
+      "SagesBlessing": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "WardensInsight" }
+        ]
+      },
+      "GaiasGenerosity2": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "GaiasGenerosity" }
+        ]
+      },
+      "TemporalFlow": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "TemporalHarmony" }
+        ]
+      },
+      "SpiritualShield2": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "SpiritualShield" }
+        ]
+      },
+      "LifewellResonance": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "LifesPulse" }
+        ]
+      },
+      "EssenceCommunion2": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "EssenceCommunion" }
+        ]
+      },
+      "SpiritsGrasp2": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "SpiritsGrasp" }
+        ]
+      },
+      "EarthsRhythm2": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "EarthsRhythm" }
+        ]
+      },
+      "VelarasEndurance2": {
+        "lockedBy": [],
+        "dependsOn": [
+          { "type": "constant", "id": "VelarasEndurance" }
+        ]
       }
     }
   }

@@ -19,5 +19,14 @@
       "template": "the_vault:vault/rooms/challenge/village3",
       "palettes": ["the_vault:village/base"]
     }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/rooms/challenge/village_fort",
+      "palettes": [
+        "the_vault:village/base"
+      ]
+    }
   }
 ]

@@ -4,338 +4,6 @@
     "skills": [
       {
         "type": "specialized",
-        "id": "Colossus",
-        "name": "Colossus",
-        "maxLearnableTier": 2,
-        "specializations": [
-          {
-            "type": "tiered",
-            "id": "Colossus_Base",
-            "name": "Colossus",
-            "maxLearnableTier": 2,
-            "tiers": [
-              {
-                "type": "colossus",
-                "durationTicks": 300,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.4,
-                "additionalResistance": 0.2,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 400,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.6,
-                "additionalResistance": 0.3,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 440,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.6,
-                "additionalResistance": 0.32,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 460,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.6,
-                "additionalResistance": 0.34,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 480,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.6,
-                "additionalResistance": 0.36,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 500,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.6,
-                "additionalResistance": 0.38,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 520,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.62,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 540,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.64,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 560,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.66,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 580,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.68,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 600,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 2000,
-                "size": 1.7,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 620,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1940,
-                "size": 1.7,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 640,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1900,
-                "size": 1.7,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 660,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1860,
-                "size": 1.7,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 680,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1820,
-                "size": 1.7,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "colossus",
-                "durationTicks": 700,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1780,
-                "size": 1.7,
-                "additionalResistance": 0.4,
-                "unlockLevel": 0
-              }
-            ]
-          },
-          {
-            "type": "tiered",
-            "id": "Sneaky_Getaway",
-            "name": "Sneaky Getaway",
-            "maxLearnableTier": 2,
-            "tiers": [
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 60,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.5,
-                "speedPercentAdded": 0.4,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 120,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.6,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 140,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.62,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 160,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.64,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 180,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.66,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 200,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.68,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 220,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.7,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 240,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.72,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 260,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.74,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 280,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.76,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 300,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.78,
-                "unlockLevel": 0
-              },
-              {
-                "type": "sneaky_getaway",
-                "durationTicks": 320,
-                "manaCost": 25.0,
-                "learnPointCost": 2,
-                "regretPointCost": 1,
-                "cooldownTicks": 1000,
-                "size": 0.4,
-                "speedPercentAdded": 0.8,
-                "unlockLevel": 0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "specialized",
         "id": "Heal",
         "name": "Heal",
         "maxLearnableLevel": 8,
@@ -14331,6 +13999,338 @@
                 "regretPointCost": 1,
                 "cooldownTicks": 850,
                 "manaCost": 50.0,
+                "unlockLevel": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "specialized",
+        "id": "Colossus",
+        "name": "Colossus",
+        "maxLearnableTier": 2,
+        "specializations": [
+          {
+            "type": "tiered",
+            "id": "Colossus_Base",
+            "name": "Colossus",
+            "maxLearnableTier": 2,
+            "tiers": [
+              {
+                "type": "colossus",
+                "durationTicks": 300,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.4,
+                "additionalResistance": 0.2,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 400,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.6,
+                "additionalResistance": 0.3,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 440,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.6,
+                "additionalResistance": 0.32,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 460,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.6,
+                "additionalResistance": 0.34,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 480,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.6,
+                "additionalResistance": 0.36,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 500,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.6,
+                "additionalResistance": 0.38,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 520,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.62,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 540,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.64,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 560,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.66,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 580,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.68,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 600,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 2000,
+                "size": 1.7,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 620,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1940,
+                "size": 1.7,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 640,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1900,
+                "size": 1.7,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 660,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1860,
+                "size": 1.7,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 680,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1820,
+                "size": 1.7,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "colossus",
+                "durationTicks": 700,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1780,
+                "size": 1.7,
+                "additionalResistance": 0.4,
+                "unlockLevel": 0
+              }
+            ]
+          },
+          {
+            "type": "tiered",
+            "id": "Sneaky_Getaway",
+            "name": "Sneaky Getaway",
+            "maxLearnableTier": 2,
+            "tiers": [
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 60,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.5,
+                "speedPercentAdded": 0.4,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 120,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.6,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 140,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.62,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 160,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.64,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 180,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.66,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 200,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.68,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 220,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.7,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 240,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.72,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 260,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.74,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 280,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.76,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 300,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.78,
+                "unlockLevel": 0
+              },
+              {
+                "type": "sneaky_getaway",
+                "durationTicks": 320,
+                "manaCost": 25.0,
+                "learnPointCost": 2,
+                "regretPointCost": 1,
+                "cooldownTicks": 1000,
+                "size": 0.4,
+                "speedPercentAdded": 0.8,
                 "unlockLevel": 0
               }
             ]

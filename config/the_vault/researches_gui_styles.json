@@ -68,14 +68,14 @@
       "icon": "the_vault:gui/researches/big_backpacks"
     },
     "Soul Harvester": {
-      "x": 200,
-      "y": 200,
+      "x": 225,
+      "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/soul_harvester"
     },
     "Vault Salvager": {
-      "x": 300,
-      "y": 200,
+      "x": 275,
+      "y": 160,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/vault_salvager"
     },
@@ -122,8 +122,8 @@
       "icon": "the_vault:gui/researches/waystones"
     },
     "Torch Master": {
-      "x": 250,
-      "y": 120,
+      "x": 300,
+      "y": 200,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/torch_master"
     },
@@ -135,19 +135,31 @@
     },
     "Elevators": {
       "x": 200,
-      "y": 160,
+      "y": 200,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/elevators"
     },
     "Vault Compass": {
-      "x": 250,
-      "y": 160,
+      "x": 390,
+      "y": 280,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/vault_compass"
     },
+    "Map Markers": {
+      "x": 440,
+      "y": 280,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/markers"
+    },
+    "Vault Map": {
+      "x": 490,
+      "y": 280,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/vault_map"
+    },
     "Altar Automation": {
-      "x": 300,
-      "y": 160,
+      "x": 250,
+      "y": 120,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/conduit"
     },

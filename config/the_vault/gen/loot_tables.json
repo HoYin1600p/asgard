@@ -561,6 +561,16 @@
       "1.0": "config/the_vault/gen/1.0/loot_tables/bronze_table.json"
     },
     {
+      "id": "the_vault:brazier_crate_50",
+      "name": "Bronze table",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/brazier_crate_50.json"
+    },
+    {
+      "id": "the_vault:base_crate_3_50",
+      "name": "Completion Crate Level 50+",
+      "1.0": "config/the_vault/gen/1.0/loot_tables/base_crate_3_50.json"
+    },
+    {
       "id": "the_vault:rune_loot_0",
       "name": "Rune Loot 0",
       "1.0": "config/the_vault/gen/1.0/loot_tables/rune_loot_lvl0.json"
