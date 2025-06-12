@@ -18157,6 +18157,18 @@ file = "kubejs/assets/the_vault/models/item/card/icon/mana_shield.json"
 hash = "efceea76a11e6b46615fa9f8ac38df20556591d87f1fd4cfc78b4cf08b453f7d"
 
 [[files]]
+file = "kubejs/assets/the_vault/models/item/card/icon/porcupine.json"
+hash = "93cb84c6d054db94333f5f9183d9fd5783ed79c0cd7544eccd099921b2a9c42f"
+
+[[files]]
+file = "kubejs/assets/the_vault/models/item/card/icon/quill.json"
+hash = "55ede6c0c45a94726daa8153acaeabcf32789f39e38b9c7480870376e621a0b2"
+
+[[files]]
+file = "kubejs/assets/the_vault/models/item/card/icon/shell.json"
+hash = "4e4aa6362d68a32253a79e89ed4b5f614795a3c82975674a66c338fb2df0a171"
+
+[[files]]
 file = "kubejs/assets/the_vault/models/item/card/icon/shield_wall.json"
 hash = "8a1bf5b66410de63b7ca4123c2148860ff28ca740a71618e45952b2274edefe9"
 
@@ -18167,6 +18179,10 @@ hash = "d726f918c71797b4c0ca922354bab3e7743e8bfdc2431b907cc0053c66523c3c"
 [[files]]
 file = "kubejs/assets/the_vault/models/item/card/icon/vein_miner_chain.json"
 hash = "8012985e7f3f39132386f958d92138a4fdb1206df774c75b31f538a415a49908"
+
+[[files]]
+file = "kubejs/assets/the_vault/models/item/choice_flask/colossus.json"
+hash = "0593a5e31671732e9ac3eec0a84be53b75147234790c340448a7287436126bed"
 
 [[files]]
 file = "kubejs/assets/the_vault/models/item/green_crayon_flower.json"
@@ -18989,6 +19005,18 @@ file = "kubejs/assets/the_vault/textures/item/card/icon/mana_shield.png"
 hash = "27d9e3bb24613a9e3bd5ba84f4eba4accee2f84bf31893751c3e4a047f6b3758"
 
 [[files]]
+file = "kubejs/assets/the_vault/textures/item/card/icon/porcupine.png"
+hash = "5a5fb8e056c2b7a70fc2a914d68dde0d4d8c97a471dd50b8e1755b9c2461480a"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/card/icon/quill.png"
+hash = "7e222fec523c1bc1c479e8886b0e7bb9026d3e2e186144d5ca2fd11315369258"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/card/icon/shell.png"
+hash = "69aa9d3a90ae12f85daa6faada97e68553c1ed866ab14ea962234760a2a2cba1"
+
+[[files]]
 file = "kubejs/assets/the_vault/textures/item/card/icon/shield_wall.png"
 hash = "1764327da0c3be7aa762d331290aa193481de333b26b5fd6a042a260662af55d"
 
@@ -19063,6 +19091,10 @@ hash = "410e46b49485df1386afbc09c650ba1e23de7894bbe19ba333bea280d7c505f7"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/charm/unidentified_small.png"
 hash = "fa564b2efda9e982e661bf33d910fbc36ba8a550752e9c644c48a5a42c8a9c9b"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/choice_flask/colossus.png"
+hash = "ba6fc87732ec754fb77d0d47fe17abe08f51ec5740476a48d67ea59c44c2eb2e"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/chunk_ashium.png"
@@ -19355,6 +19387,10 @@ hash = "fe81114b4dc44e219315719034a1f88eba754452ab06cadf254ee2e74edda42b"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/green_crayon_flower.png"
 hash = "43dc3687a91a60dfa87bd79d40fcee35c00b31b42ebc4d29412822884b5ec3ff"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/inscription/99.png"
+hash = "392a9ed396959ad2bfb97711e72734769e4150aeb5e581585611d4cf2ee5f7c1"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/jade_apple.png"
@@ -21490,11 +21526,6 @@ hash = "aea9292b39e557325e4e40c48e30a80997aec9c5e6b48b58ff971122b62dc766"
 metafile = true
 
 [[files]]
-file = "mods/raw-vault-qol-vault-hunters-3-addon.pw.toml"
-hash = "e4df29846a7ea8c2562ec7147e099980e39f867d273c2f4a9d112ac548ecbc16"
-metafile = true
-
-[[files]]
 file = "mods/reauth.pw.toml"
 hash = "1b4a5a988c9ea86d3e7abfc2db38b394cde1806522a2e72a96dc5f809779a2a5"
 metafile = true
@@ -21811,11 +21842,6 @@ metafile = true
 [[files]]
 file = "mods/vault-integrations.pw.toml"
 hash = "01084aa56adcee92f2d7c3156e0cdfb2356e12aaf841cccada1d0ec2980f4fed"
-metafile = true
-
-[[files]]
-file = "mods/vaultfaster.pw.toml"
-hash = "b1186637e1c6fe3f43cf62fc0f919f4f834b160f7ccc5116eaf2e81e7594a475"
 metafile = true
 
 [[files]]
@@ -22233,7 +22259,7 @@ metafile = true
 
 [[files]]
 file = "scripts/00_millennium_scripts.zs"
-hash = "265e0579023231465a92c981d4aee1fb2c6d1973592a57bae976b63d020fb9d9"
+hash = "0d592a11a683166962bbc390c63d7a1f3e91a09f8ac71355ac31ca15db09e7c0"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
