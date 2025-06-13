@@ -11810,7 +11810,7 @@ hash = "4217cfaa8612bd8949672fc0018de575251bc14434ebe656959195dd6a35a877"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/spider_small.nbt"
-hash = "dcc59799b1ae2ac16f7a46b5035ad0bbe39a4478378a366c4420ba4a230b72f6"
+hash = "81d0839f2313d16a90156a1a15e3ed6002fcb85afc815f4ed019648847150a22"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/dungeon_rooms/witch_large.nbt"
@@ -12142,7 +12142,7 @@ hash = "4d813a55ce0bf2bd82d0c332942a07ff463c66517893095410c26a2a5c8375c7"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/blacksmith1.nbt"
-hash = "90c05766c92e83170ac80e4fb2d885a50121bf77a718a7794c241ec2dda25a84"
+hash = "e91278429380f398872dfd5ebf2c073f15a3c69854ee1d94918a57e0fe44c131"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/cove1.nbt"
@@ -12194,7 +12194,7 @@ hash = "79b79ba867ee9c4a8e83d709ba419e8f1a2c8db745abd28494d2bcb1d89dcd59"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/mush_room2.nbt"
-hash = "61b56fb05971069be1425ad7b40635c193ecb7ac9585b7ced5abe362614d9351"
+hash = "47f82d23797dd0c270c374599afeb954f7dec0f6c0ad88261f39225e25c7d229"
 
 [[files]]
 file = "config/the_vault/gen/1.0/structures/vault/rooms/omega/omega_digsite1.nbt"
@@ -16862,7 +16862,7 @@ hash = "65f029ef43ce06f117208f69b7dd97b483e68911532fc07c026cdd8bf4b044d7"
 
 [[files]]
 file = "config/the_vault/unique_gear.json"
-hash = "dc726424c074caf70100a17d33ef786531ab94b14c50d204973af100bcb067fc"
+hash = "20f8886fba253665a5b4ceef5c0c5f83611d7bcbba034edeb4a2719b7e11a594"
 
 [[files]]
 file = "config/the_vault/unique_gear_nuke.json"
@@ -18093,48 +18093,12 @@ file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
-file = "kubejs/assets/the_vault/blockstates/blue_crayon_flower.json"
-hash = "b27d2925a556f68a36bbc98a59ea5079054d0c38da804b3758d765fbb22cb44d"
-
-[[files]]
-file = "kubejs/assets/the_vault/blockstates/green_crayon_flower.json"
-hash = "1f7979ceb65d992499edb7a8827c918c607ae030e2e6ad9b78038f917fd266e0"
-
-[[files]]
-file = "kubejs/assets/the_vault/blockstates/red_crayon_flower.json"
-hash = "60440ae9cf4b75a4ad8237f5a2263a09623a179c2ab3dcb84c6616246cae11e6"
-
-[[files]]
-file = "kubejs/assets/the_vault/blockstates/yellow_crayon_flower.json"
-hash = "7a8f312ed9cf5d8c7a771d1fda6b5a4f3aca276fae2db109758a2a362621c6a2"
-
-[[files]]
 file = "kubejs/assets/the_vault/lang/en_us.json"
 hash = "942d8d2dbaa13e6662000becfcaa56e9488dc9cad523116f82ce117aecc9b304"
 
 [[files]]
-file = "kubejs/assets/the_vault/models/block/blue_crayon_flower.json"
-hash = "7aeb3453525670d72693480fc79a6b07e21908e83162ababbf2809369eefb9b5"
-
-[[files]]
-file = "kubejs/assets/the_vault/models/block/green_crayon_flower.json"
-hash = "0c7fb4b45f3c1ef8b5c3e658fd8541da2ac96853428145dec3f0698d579ac48f"
-
-[[files]]
-file = "kubejs/assets/the_vault/models/block/red_crayon_flower.json"
-hash = "edec74ff549cbe8b3b813f3b3d89cfc2ada4955ccbc7bad02a0b99e1cbd17854"
-
-[[files]]
 file = "kubejs/assets/the_vault/models/block/vendor_door/top.json"
 hash = "a0a8822805e356fa87a2a654fdca297807be3f898219a9abe3abb141818cbddf"
-
-[[files]]
-file = "kubejs/assets/the_vault/models/block/yellow_crayon_flower.json"
-hash = "a6b200fd236a63c4f16cd4c5b922db2a3aca92c941a0967b17419210e540dcf9"
-
-[[files]]
-file = "kubejs/assets/the_vault/models/item/blue_crayon_flower.json"
-hash = "05c12ef0264b9099c865e7786585b10115cf5b1eff8cccc9bd0dd08bd701e231"
 
 [[files]]
 file = "kubejs/assets/the_vault/models/item/card/icon/bladefrenzy.json"
@@ -18181,112 +18145,32 @@ file = "kubejs/assets/the_vault/models/item/card/icon/vein_miner_chain.json"
 hash = "8012985e7f3f39132386f958d92138a4fdb1206df774c75b31f538a415a49908"
 
 [[files]]
-file = "kubejs/assets/the_vault/models/item/choice_flask/colossus.json"
-hash = "0593a5e31671732e9ac3eec0a84be53b75147234790c340448a7287436126bed"
+file = "kubejs/assets/the_vault/optifine/cit/ff/ff-channeling.properties"
+hash = "97be22b4fcc02f053074d7dc9803ee21a3201239b91daed5e89c8e16fa0943ce"
 
 [[files]]
-file = "kubejs/assets/the_vault/models/item/green_crayon_flower.json"
-hash = "6d3aab618b9d1481abcb1ad6decd81cad73a8ff6bb8fbb76025a256336f4adc0"
+file = "kubejs/assets/the_vault/optifine/cit/ff/ff-duraReduce.properties"
+hash = "8d9405f9aa0a54a88ff688c7ad47a33529ae25ddbff558a36e7201fe2f3eef1c"
 
 [[files]]
-file = "kubejs/assets/the_vault/models/item/red_crayon_flower.json"
-hash = "2506a78ccb2a78c8b10f99082db6cad7977778af3f5a285fd0d9a3708a5e9bfc"
+file = "kubejs/assets/the_vault/optifine/cit/ff/ff-piercing.properties"
+hash = "6d884e9f8cec2986fe5027b63a920617da64f0f58db2f14c101a44186240fcfb"
 
 [[files]]
-file = "kubejs/assets/the_vault/models/item/yellow_crayon_flower.json"
-hash = "06e4abd8f89c83eb76e59465b785c7f2373b24bcca8ecab12d78126cc2b1f2bc"
+file = "kubejs/assets/the_vault/optifine/cit/ff/ff-reaving.properties"
+hash = "e5ed03938c147371fc4f79b9126259cbbc55e7b7900427f0ed0d2a3cb418e57c"
 
 [[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-battleCry.properties"
-hash = "133f0615f68bb9795cc49fac6cb484835d9a63f192c330110a38a1c5a2449eec"
+file = "kubejs/assets/the_vault/optifine/cit/ff/ff-returnDamage.properties"
+hash = "a7e84db475c69f525c45005605cdaa690300ef0ccd10234777656d0fa7ee8700"
+
+[[files]]
+file = "kubejs/assets/the_vault/optifine/cit/ff/ff-windup.properties"
+hash = "9de0969245aa8215a0d826951eb33c4cc3e6de7f773333ab86c927b3fb30c8e0"
 
 [[files]]
 file = "kubejs/assets/the_vault/optifine/cit/flask/cf-colossus.properties"
-hash = "c2f2cd326f212f001c3ade998fab968bed657f2901d646976b726ef318626b85"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-dash.properties"
-hash = "aa5fe92d3fc0b95ae3fe007358e752239c3db33942d543790a794c89e2422d9e"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-empower.properties"
-hash = "4290b33d998e870676bed24f267eb02ef42533c41e56a37edbf57b19c1595458"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-farmer.properties"
-hash = "f962eb0f2f68a3b3f81436e768cd8e0c0cac2fc29f61186f98d39ccc63ce6360"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-fireball.properties"
-hash = "0554cd1f1d4fe30a36da82509c253404434b4661c9d7d08d2586bef59fbcac15"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-ghostWalk.properties"
-hash = "f2821920e9b81af2a2542e275ed553494500d020b3567d4d5f3d989605f25910"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-heal.properties"
-hash = "d44182a8ac05d0765d3c46fd3b9d5f82f9afc95f5a29331f1cb24387efac49b8"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-hunter.properties"
-hash = "52cc8d512397d957d390b2ed4fd10a396768d366e860cfc60d9cb81e16db1c69"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-iceBolt.properties"
-hash = "722401d24facad4add9e5b066cd86aa58187b0f316c79e52cd796c0f7753af2b"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-javelin.properties"
-hash = "c103565c482a5ac0b207e1b46600ab01d7500975153affcb19021aaf775b8da1"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-megaJump.properties"
-hash = "8c8054617fdbd6c668e4af5c2520266640b6301bbc5e50c9f22679c1731d8cd9"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-nova.properties"
-hash = "9d6f246efb55df7057d8a99a531af59e15b75502665bc7ad7049ea2f61324017"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-rampage.properties"
-hash = "e4cb359a48f6ce8779197a52585ef2e2864ce7b3a575b0c642ccfad411500e7f"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-shell.properties"
-hash = "a286d49988d9987f34b4932df2e8e67a1276fe40454463746e074695e78ddcce"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-shieldBash.properties"
-hash = "22dc162d3d201d16f5700c688060f3b80310e1ee3ddb5c0e3b54e5f63cb5345e"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-shieldWall.properties"
-hash = "ed9b2dcf500589b6ef6586072116bc7b0a933781d50ca842734dc91d16fce251"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-smite.properties"
-hash = "9501c9a18c9879c38b5d5157a2be7ca7c5a554cdcd0467ff9266a5931a159e9d"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-stonefall.properties"
-hash = "7f26b4da36c9fe90ced2fc1eabb2c8a006a6e51265c8544a843d3d3d480397cd"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-stormarrow.properties"
-hash = "da84e6adf7d537d5a27a951951003bb01d2106cfe73ba21654cac1403bc354ac"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-taunt.properties"
-hash = "a1e8afb8d3047104476f3b033357c3ef524987ddc83a4c98a0383a20c47b366f"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-totem.properties"
-hash = "63ed31a0d2397927687901ad27c1ef449c3639103a9aa15f672db1fdb2ce6a42"
-
-[[files]]
-file = "kubejs/assets/the_vault/optifine/cit/flask/cf-veinMiner.properties"
-hash = "a61997e46a9d48845bd3dcb2628e3fe04ba3f82bd5bfd6da017596db5c2bc70f"
+hash = "960a3b35061c6028b7aeeda9dd5b81601ae2e3dcbda7599304c48234f8fecd00"
 
 [[files]]
 file = "kubejs/assets/the_vault/skills/zephyrs_grace.png"
@@ -18789,14 +18673,6 @@ file = "kubejs/assets/the_vault/textures/gui/mob_groups/dread.png"
 hash = "b5a6a9c7bdc38e55f58650687a29a6470fceba126246cf63d38c712980ed88bb"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/gui/modifiers/bovine.png"
-hash = "7a54acad13cd91a917c7396d7afd3384bf294edb21b70c25920dea6f48a9e0bf"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/gui/modifiers/power.png"
-hash = "9ecb835971c5b41d10a3452079f7152226aeec4c51f1649f7c2b877ae732eea9"
-
-[[files]]
 file = "kubejs/assets/the_vault/textures/gui/modifiers/tree.png"
 hash = "c456b715c61a0a02a01b52db18e6061df9278fc075bf4cd1ef9abe97b0b3dedf"
 
@@ -18977,10 +18853,6 @@ file = "kubejs/assets/the_vault/textures/gui/skills/zephyrs.png"
 hash = "230db3216f9e5603c6aa5299a25b0bdf594f58b82199d627a90cc386f1563a70"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/blue_crayon_flower.png"
-hash = "fd6ae5675218eb90b03342f96a51caec386a3998a1d7b199bea4235f936e99db"
-
-[[files]]
 file = "kubejs/assets/the_vault/textures/item/candy_bar.png"
 hash = "d47cb7b5d54427caa6f659527e6d806878a56f7bb9777d83844875244c4ae608"
 
@@ -19093,7 +18965,7 @@ file = "kubejs/assets/the_vault/textures/item/charm/unidentified_small.png"
 hash = "fa564b2efda9e982e661bf33d910fbc36ba8a550752e9c644c48a5a42c8a9c9b"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/choice_flask/colossus.png"
+file = "kubejs/assets/the_vault/textures/item/choice_flask/cf-colossus.png"
 hash = "ba6fc87732ec754fb77d0d47fe17abe08f51ec5740476a48d67ea59c44c2eb2e"
 
 [[files]]
@@ -19217,92 +19089,28 @@ file = "kubejs/assets/the_vault/textures/item/extraordinary_wutodie.png"
 hash = "30875c26d21029155c409803bc08f22ff2d9eaf5cdd54839a97c089597ea6e1b"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-battleCry.png"
-hash = "cfcc48475021f79d3f5d358eb6b95045064d2405d02a22a78661fffdcfdcaa2d"
+file = "kubejs/assets/the_vault/textures/item/ff/channeling.png"
+hash = "a6c6f83ee1b3e89d22f2278ac5de596bd8c172b2b434aa8c818c84d9a1b74a9d"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-colossus.png"
-hash = "8178b0c274ee3751848724c3f4c4e839c7c87b742b2aacb8345d673242bce79b"
+file = "kubejs/assets/the_vault/textures/item/ff/duraReduce.png"
+hash = "71a8a3fe780f767412d10741f6f433f04ebe2989347e9438d69166698ed58594"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-dash.png"
-hash = "d1cb6fb186821a35954f2e9835ab194947daae4791d22c3c8d55e65306d95813"
+file = "kubejs/assets/the_vault/textures/item/ff/piercing.png"
+hash = "f114fc162fea1b8330a497c74e08d26e91805f4098002c85b6fc416a1f326526"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-empower.png"
-hash = "37138b7825592b7095b14f91921b1327abe1d2761240eebdfac28e3db1d52057"
+file = "kubejs/assets/the_vault/textures/item/ff/reaving.png"
+hash = "f917ebd88c6d8fc057f1b7fe2a632d556b057a1119bb91567967f3fc50b5ad1a"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-farmer.png"
-hash = "d04ca186687f8bffa8c036bb765b8c442c9d1fdb30103195e8ffae97979fbbcb"
+file = "kubejs/assets/the_vault/textures/item/ff/returnDamage.png"
+hash = "f0912a43991066334c4504bae0f7167559aea68e397060b7ed81c8a52853f93a"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-fireball.png"
-hash = "2cc8bfffb22d2952343d9069260dae5d1b1bc1212ca7af18e9173a71a642c589"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-ghostWalk.png"
-hash = "ca58fc1821d9b4f9fd20184a6d94b67539eac37b8e449cba00562ef80548ab2f"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-heal.png"
-hash = "9e2eddc162de0aedf5b860496d7addb7c729bbfd8af00cc1a9ef3adee10f6ea3"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-hunter.png"
-hash = "09c50686e36d97eb51f84adac47e56fb4fc644b9eb5b309b70e07f97f31e2371"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-iceBolt.png"
-hash = "18747a3c099211af681af8b25fd30c9a05b41ef2796c3bd0defb9ba0537bdb64"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-javelin.png"
-hash = "0cecb76eb70fa79455213654b07ff0ae6c4fd999054398d3559892677daf46af"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-megaJump.png"
-hash = "f377dc5c78f64ca9ed760e852760e9d6bb8a9ae14a17624f76b8645f2df1eea6"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-nova.png"
-hash = "4aa618c2321956907b1b3ea60512c79736722710d23610ff3b9c83694f367169"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-rampage.png"
-hash = "df46f23c5bd1de3af00e44b788c445d58f61e942054b6aefb6aafba93d7224f7"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-shell.png"
-hash = "659da62abd1c542e08aac30d4af629a01f75bf1a9bb483544cc6482242d1f204"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-shieldBash.png"
-hash = "d1e85adcfa2fdd3a69f305b0dc95d624917d988db9d1fbad432c66701b7f7790"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-smite.png"
-hash = "3efbfa7a52534ce671fe8426835afc84e000223a404378bf1a6d451b65526baa"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-stonefall.png"
-hash = "630b8db43c45897e4ee06741028d2f576a46a4ab20273d824b7b8fedb5fd70f2"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-stormArrow.png"
-hash = "4015514fa48470098671336d895a75f9665557bab87fadfff52bfddef08dfd1c"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-taunt.png"
-hash = "2da44613dd710ea8c89949737b7bdcb6884b0797c1a6c23bddc8c4f8b3001602"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-totem.png"
-hash = "2f3585f45d9fe973709e5243cd7dec0704fe9b21854bf0ffd3fe49c13cf0cac4"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/flask/cf-veinMiner.png"
-hash = "44da20a9a3f3aedbbff7c29de2a22febbf44ff9b3d317df4de2f821daf146900"
+file = "kubejs/assets/the_vault/textures/item/ff/windup.png"
+hash = "ece0ac97af8e7bd7cbbf2017b31ec34dfac36f400a563bf169cd9b6e54baa14f"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/gear/sword/skallified_sword.png"
@@ -19385,10 +19193,6 @@ file = "kubejs/assets/the_vault/textures/item/golem_apple.png"
 hash = "fe81114b4dc44e219315719034a1f88eba754452ab06cadf254ee2e74edda42b"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/green_crayon_flower.png"
-hash = "43dc3687a91a60dfa87bd79d40fcee35c00b31b42ebc4d29412822884b5ec3ff"
-
-[[files]]
 file = "kubejs/assets/the_vault/textures/item/inscription/99.png"
 hash = "392a9ed396959ad2bfb97711e72734769e4150aeb5e581585611d4cf2ee5f7c1"
 
@@ -19415,6 +19219,14 @@ hash = "4041048a3e1780707e405c14e141f458d96ea97ee1d2f36a91bff66d8b85a7c7"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/key_petzanite.png"
 hash = "3104c2fc4346aeeefc65f2cc4bbf2d8cdace8e8d0c7b1ecd163219eafeecfcab"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/key_puffium.png"
+hash = "d6500a106aa84b104deee0f222fe72200962cca7d85f67ebf5f570004e14d076"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/key_puffium.png.mcmeta"
+hash = "16f4b3804286fa9791a15a737fb7b51627500a897874ab974c22e186c322e9e3"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/key_sparkletine.png"
@@ -19481,10 +19293,6 @@ file = "kubejs/assets/the_vault/textures/item/power_bar.png"
 hash = "578f734224cbf9606163acc085eb42b91eb102934e0cab2a48b9d8cb318c365d"
 
 [[files]]
-file = "kubejs/assets/the_vault/textures/item/red_crayon_flower.png"
-hash = "2296cf09894901d8aa336617bbfc29614c9e3f8b58f63fca47da8fb58cf17f2a"
-
-[[files]]
 file = "kubejs/assets/the_vault/textures/item/sweet_apple.png"
 hash = "3f4edd7f0e368a6f41b0941649018f5496a9fc1cb5cfa277789603dc6ae648f1"
 
@@ -19503,14 +19311,6 @@ hash = "639c2515163c7453c570c5aa6f87bb7c451b1d8ef265a5f01af6cd7d09a9cec2"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/wirts_leg.png"
 hash = "ef6d40f4238e6dfebc119d4b822a9f06d502ce181aaaff0bbd646e54b45af2ac"
-
-[[files]]
-file = "kubejs/assets/the_vault/textures/item/yellow_crayon_flower.png"
-hash = "e3569a059b3fe4ee6d10e1c04410c07884963ce0358fa76cf1e33e249d4a91fd"
-
-[[files]]
-file = "kubejs/assets/vaultadditions/sounds/abilities/tiger/activate_manashield.ogg"
-hash = "6150577aa9d929cdbcf8a37210e0f60a06cd2e8cb3494ada4a864341aac4310a"
 
 [[files]]
 file = "kubejs/assets/vaultkeychain/lang/en_us.json"
@@ -19565,68 +19365,16 @@ file = "kubejs/assets/vhapi/models/item/booster_pack/treasure_pack_ripped.json"
 hash = "264e0098bc9146a446ded4bf47af49f87665673ec0917618705ce9fcd1a3ade0"
 
 [[files]]
-file = "kubejs/assets/vhapi/models/item/deck/anvil.json"
-hash = "750a5a2f166b9f31ea21bbbba746981cc4b21d3d5c4d49f00232c9cad17b4699"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/belt.json"
-hash = "cb987c4f3b913aa8fbd0e021004812decaac78c748753a0a7eb6a7c6127ed3b6"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/bishop.json"
-hash = "cc8e2c492727ceacba9fe40343d78fc7fbcb5fcdcfc33f112a2f4ca248c55314"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/champion.json"
-hash = "671a4a0735e92ed0da1a560d18214514a10185652ca1c145b56e364902a6df1c"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/double.json"
-hash = "bc06c14212de5dbf346a2f8ec954b88c9168e18121e4df5b466b1a1a4cbd3737"
-
-[[files]]
 file = "kubejs/assets/vhapi/models/item/deck/dragon.json"
 hash = "a21fa26282f816faf7da3dd16dfc3de3dd84b0dbcf225631258eb00389319e56"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/edge.json"
-hash = "93c33a5822871d238712d1ffdac54ba6081f25df550d46f9a5adf13dd74f7da4"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/expanded.json"
-hash = "3ccb02343f8e2c3ebc0e72dd6f4de46c5b55347c2a71615977fa40cefaeb5b70"
 
 [[files]]
 file = "kubejs/assets/vhapi/models/item/deck/goblin.json"
 hash = "0f357d60957ac942a033f909feb1f2d768171246343b24b79f4c2bf83ed6d647"
 
 [[files]]
-file = "kubejs/assets/vhapi/models/item/deck/large.json"
-hash = "f5547a5dae9ff301cc887f4ea439fffcf59dd780fefebb87dc3e8d2b59b9cd6d"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/merchant.json"
-hash = "17ae518d351921ffd32a733ae3ed6da98cb72c80135e1d73645f84b7d86f314f"
-
-[[files]]
 file = "kubejs/assets/vhapi/models/item/deck/millennium.json"
 hash = "1d8b3ad23e79d60db36d7275b455db505de55509abd3f44b360da2f88d0002f2"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/mystery.json"
-hash = "a0424cd2b72000846b89ef7103ef48664be26c8ff0e1a828ed329b84a40c831b"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/runic.json"
-hash = "7e8381755ba7a71facf06ed8eaf096a70808be3a8f59cef14ada1077b7d36d81"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/shroom.json"
-hash = "468e3a4519c38605856f58708568e3d1d671b7d2a586f537dc8a124614d3f029"
-
-[[files]]
-file = "kubejs/assets/vhapi/models/item/deck/starter.json"
-hash = "1d24279eda1de5bbe406583a3acaac7f0a22edaa212d5024a01a373aa96dd651"
 
 [[files]]
 file = "kubejs/assets/vhapi/models/item/deck/vaulthalla.json"
@@ -19705,68 +19453,16 @@ file = "kubejs/assets/vhapi/textures/item/booster_pack/treasure_pack_ripped.png"
 hash = "b04306ba28a8cf6d4efcb8f9071209d3f11764f66cb2f22ebe597cb57ce3704e"
 
 [[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/anvil.png"
-hash = "b51df5b310a7c6a235eb1ba429e62df9032cc635f110568369c0133be0a14aa6"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/belt.png"
-hash = "361db1502b4ef1f6f41a085f049bb6b38211e6ae480f77ec16149904ec1f0a15"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/bishop.png"
-hash = "bfdf30b89ce34a43b1a26a4bd909b5d5bdf4372460005f4749ebd4a43f941d74"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/champion.png"
-hash = "21e6ab9d9584ef6782413fee4489397e319c5eabc4d3e8601acd07836b8fa2a0"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/double.png"
-hash = "8cbf03eab83d220243b1b3cf815c3409e367b6ab22c66a4ff688e0def2dbf6a5"
-
-[[files]]
 file = "kubejs/assets/vhapi/textures/item/deck/dragon.png"
 hash = "713a41a00f99c80bcb2d5a20e1ca9ca800c277cc8b31ab4d0a477d82d81a4126"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/edge.png"
-hash = "49ccb615d6183c12ba5ad6545b8c0f045cebbd13b04687da18a8b3c6aabaac52"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/expanded.png"
-hash = "28924d0ef3b67ba4a9d2ba079aa73efb86fc4effdd463eafb704c4261c4db6ac"
 
 [[files]]
 file = "kubejs/assets/vhapi/textures/item/deck/goblin.png"
 hash = "6194856e733554876b26fc1b920eab7ec0b809bd72f77921726a867f0ab50b4d"
 
 [[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/large.png"
-hash = "5eb8df4747b3deba0a44c626039024b39064b64ef64fef283355d6c835cc4f25"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/merchant.png"
-hash = "9598a1fc8cc7d2bee731637481bdf900029db242e965891b0e37318ec17ea820"
-
-[[files]]
 file = "kubejs/assets/vhapi/textures/item/deck/millennium.png"
 hash = "6a16780038746b856d4c11b69e7a1039da4ab49984f7ad33b9b89a664ab9a879"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/mystery.png"
-hash = "b79e39bd549272ac5d68781d5d494cafa7664853ce090639eedebac85dca3fe3"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/runic.png"
-hash = "1c184664002f299c9a6165eae1310032e3625779a154a99a33340deb4aeb904f"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/shroom.png"
-hash = "c28f91f93de184e5736877ca45aae439110f64be7fe175b33347c56ca563712e"
-
-[[files]]
-file = "kubejs/assets/vhapi/textures/item/deck/starter.png"
-hash = "83c5e260dad9a07ea7fb05d4847e13fd2d27ee8745d083068d0b73011915a29d"
 
 [[files]]
 file = "kubejs/assets/vhapi/textures/item/deck/vaulthalla.png"
@@ -19783,10 +19479,6 @@ hash = "cce7bd586d1392b2513ea55077226a7caa61c5760ca413b558a2ae80fa288f40"
 [[files]]
 file = "kubejs/assets/woldsvaults/textures/item/gem_reagent_iskallium.png.mcmeta"
 hash = "3c4ffbacfb1e25cda6b1daa4464fdd7d5597b48f2ce4589b1538fbd2e896a701"
-
-[[files]]
-file = "kubejs/assets/woldsvaults/textures/item/gem_reagent_petzanite.png"
-hash = "41f0d7c86c0ba73be48105d85a8facc5a44a005ed577b34de788a4779b76e3da"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -20375,6 +20067,14 @@ hash = "88214dbb8c3ff5fdf4442a8fa2a9ba36e4b8dc63115084582712aa0e03370362"
 [[files]]
 file = "kubejs/exported/tags/worldgen/trunk_placer_type.txt"
 hash = "88214dbb8c3ff5fdf4442a8fa2a9ba36e4b8dc63115084582712aa0e03370362"
+
+[[files]]
+file = "kubejs/server_scripts/botanypots_byg_recipes.js"
+hash = "85d8983f8948b0f17711342bef3d8a7e33926de7e328d2595b6c61d3f3586fc6"
+
+[[files]]
+file = "kubejs/server_scripts/botanypotstiers_byg_all_recipes.js"
+hash = "a6e68209dbc8dce5a43758467c60b8b25413fcce4586d3051220349ddf347b08"
 
 [[files]]
 file = "kubejs/server_scripts/remove_chorus_tp.js"
@@ -22254,7 +21954,7 @@ metafile = true
 
 [[files]]
 file = "scripts/00_millennium_scripts.zs"
-hash = "0d592a11a683166962bbc390c63d7a1f3e91a09f8ac71355ac31ca15db09e7c0"
+hash = "79f426b6cfd73eb898984cafee714a1728c1b282d790bee5df2508c1514e7dce"
 
 [[files]]
 file = "scripts/00_remove_recipes.zs"
