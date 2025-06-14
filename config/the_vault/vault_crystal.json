@@ -2046,23 +2046,6 @@
         }
       }
     ],
-    "the_vault:crystal_seal_offering_boss": [
-      {
-        "level": 0,
-        "input": [
-          "the_vault:vault_crystal"
-        ],
-        "objective": {
-          "objective_probability": 1.0,
-          "type": "offering_boss"
-        },
-        "layout": {
-          "tunnel_span": 1,
-          "radius": 5,
-          "type": "circle"
-        }
-      }
-    ],
     "the_vault:crystal_seal_ordinator_build": [
       {
         "level": 40,
