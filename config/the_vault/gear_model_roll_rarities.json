@@ -1,4 +1,5 @@
 {
+  "weightedRollChance": 2,
   "ARMOR_MODEL_ROLLS": {
     "SCRAPPY": [
       "the_vault:gear/armor/rusty_knight",
@@ -68,8 +69,8 @@
 
     ],
     "OMEGA": [
-      "the_vault:gear/armor/angel",
       "the_vault:gear/armor/flamingo",
+      "the_vault:gear/armor/angel",
       "the_vault:gear/armor/bone_dragon",
       "the_vault:gear/armor/devil",
       "the_vault:gear/armor/leprechaun",
@@ -107,9 +108,9 @@
       "the_vault:gear/armor/zombie",
       "the_vault:gear/armor/hell_cow",
       "the_vault:gear/armor/stress_flower",
+      "the_vault:gear/armor/skallibomba",
       "the_vault:gear/armor/jardoon_cheese",
       "the_vault:gear/armor/bumbo",
-      "the_vault:gear/armor/skallibomba",
       "the_vault:gear/armor/crayon_blue",
       "the_vault:gear/armor/crayon_green",
       "the_vault:gear/armor/crayon_red",
@@ -121,6 +122,7 @@
       "the_vault:gear/armor/armour_wendarr",
       "the_vault:gear/armor/penguin",
       "the_vault:gear/armor/sweetheart",
+      "the_vault:gear/armor/darkcheesewarrior",
       "the_vault:gear/armor/jester",
       "the_vault:gear/armor/scout",
       "the_vault:gear/armor/bee_knight",
@@ -146,6 +148,7 @@
       "the_vault:gear/armor/developerset",
       "the_vault:gear/armor/companion10",
       "the_vault:gear/armor/iskall_ibe",
+      "the_vault:gear/armor/frost_guard",
 
       "the_vault:gear/armor/raijin",
       "the_vault:gear/armor/quetzal",
@@ -371,7 +374,6 @@
       "the_vault:gear/axe/dweller_axe",
       "the_vault:gear/axe/dylans_cleaver",
       "the_vault:gear/axe/developer_ducky",
-      "the_vault:gear/axe/developer_ducky",
 
       "the_vault:gear/axe/leviathan",
       "the_vault:gear/axe/zombie_horse",
@@ -462,6 +464,7 @@
       "the_vault:gear/shield/shieldabrella",
 
       "the_vault:gear/shield/slab",
+      "the_vault:gear/shield/greed_cardboard",
       "the_vault:gear/shield/glass_flower",
       "the_vault:gear/shield/gladiator_buckler",
       "the_vault:gear/shield/dylans_protector",
@@ -582,6 +585,35 @@
       "the_vault:gear/focus/void_cage",
       "the_vault:gear/focus/whale_bell",
       "the_vault:gear/focus/javamug"
+    ]
+  },
+  "MAGNETS_MODEL_ROLLS": {
+    "SCRAPPY": [
+        "the_vault:gear/magnets/chipped_magent"
+    ],
+    "COMMON": [
+        "the_vault:magnets/magnet_1",
+        "the_vault:gear/magnets/curved_magnet"
+    ],
+    "RARE": [
+        "the_vault:gear/magnets/rubber_duck",
+        "the_vault:gear/magnets/electromagnet",
+        "the_vault:gear/magnets/magnet_mossy_bone",
+        "the_vault:gear/magnets/flamingo",
+        "the_vault:gear/magnets/magnet_chromatic_iron",
+        "the_vault:gear/magnets/echo",
+        "the_vault:gear/magnets/magnet_chromatic_steel"
+    ],
+    "EPIC": [
+        "the_vault:gear/magnets/magnet_black_chromatic_steel",
+        "the_vault:gear/magnets/magnet_reverse",
+        "the_vault:gear/magnets/fridge_magnet",
+        "the_vault:gear/magnets/magnet_blue_sculk"
+    ],
+    "OMEGA": [
+        "the_vault:gear/magnets/magnet_tiny",
+        "the_vault:gear/magnets/goopy",
+        "the_vault:gear/magnets/magnet_blue_tiny"
     ]
   }
 }

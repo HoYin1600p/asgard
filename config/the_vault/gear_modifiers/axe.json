@@ -126,6 +126,63 @@
             }
           }
         ]
+      },
+      {
+        "attribute": "the_vault:double_hit_chance",
+        "group": "BaseDoubleHitChance",
+        "identifier": "the_vault:base_double_hit_chance",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.2,
+              "max": 0.4,
+              "step": 0.05
+            }
+          },
+          {
+            "minLevel": 25,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.41,
+              "max": 0.5,
+              "step": 0.05
+            }
+          },
+          {
+            "minLevel": 40,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.51,
+              "max": 0.6,
+              "step": 0.05
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.6,
+              "max": 0.7,
+              "step": 0.05
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.7,
+              "max": 0.8,
+              "step": 0.05
+            }
+          }
+        ]
       }
     ],
     "IMPLICIT": [
@@ -5029,5 +5086,6 @@
       }
 
     ]
+
   }
 }

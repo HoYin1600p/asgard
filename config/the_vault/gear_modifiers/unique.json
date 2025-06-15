@@ -133,7 +133,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": -1,
+            "maxLevel": 59,
             "weight": 10,
             "value": {
               "min": 400,
@@ -158,6 +158,16 @@
             "value": {
               "min": 1601,
               "max": 2400,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 80,
+            "maxLevel": -1,
+            "weight": 1000,
+            "value": {
+              "min": 2401,
+              "max": 4000,
               "step": 1
             }
           }
@@ -208,6 +218,23 @@
             }
           }
         ]
+      },
+      {
+        "attribute": "the_vault:living",
+        "group": "BaseLiving",
+        "identifier": "the_vault:u_living",
+        "tags": [
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 1,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
       }
     ],
     "IMPLICIT": [
@@ -217,7 +244,7 @@
 
         "tiers": [
           {
-            "minLevel": 20,
+            "minLevel": 0,
             "maxLevel": 64,
             "weight": 100,
             "value": {
@@ -583,7 +610,7 @@
       ],
       "tiers": [
         {
-          "minLevel": 20,
+          "minLevel": 0,
           "maxLevel": 94,
           "weight": 100,
           "value": {
@@ -911,8 +938,8 @@
             "maxLevel": -1,
             "weight": 500,
             "value": {
-              "min": 10,
-              "max": 10,
+              "min": 5,
+              "max": 5,
               "step": 1
             }
           }
@@ -2822,7 +2849,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAbility",
         "identifier": "the_vault:u_coldsnap",
@@ -3268,7 +3295,7 @@
         "tiers": [
           {
             "minLevel": 0,
-            "maxLevel": -1,
+            "maxLevel": 59,
             "weight": 5,
             "value": {
               "min": 0.2,
@@ -3279,7 +3306,7 @@
           },
           {
             "minLevel": 60,
-            "maxLevel": -1,
+            "maxLevel": 79,
             "weight": 5,
             "value": {
               "min": 0.41,
@@ -3434,12 +3461,21 @@
             }
           },
           {
-            "minLevel": 65,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
               "abilityKey": "Fireball_Base",
               "levelChange": 2
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 60,
+            "value": {
+              "abilityKey": "Fireball_Base",
+              "levelChange": 3
             }
           }
         ]
@@ -3802,11 +3838,31 @@
       ],
       "tiers": [
         {
+          "minLevel": 0,
+          "maxLevel": -1,
+          "weight": 600,
+          "value": {
+            "min": 0.2,
+            "max": 0.3,
+            "step": 0.01
+          }
+        },
+        {
+          "minLevel": 50,
+          "maxLevel": -1,
+          "weight": 600,
+          "value": {
+            "min": 0.31,
+            "max": 0.6,
+            "step": 0.01
+          }
+        },
+        {
           "minLevel": 90,
           "maxLevel": -1,
           "weight": 600,
           "value": {
-            "min": 0.5,
+            "min": 0.61,
             "max": 1.0,
             "step": 0.01
           }
@@ -3821,11 +3877,51 @@
         ],
         "tiers": [
           {
-            "minLevel": 90,
+            "minLevel": 0,
+            "maxLevel": 37,
+            "weight": 600,
+            "value": {
+              "min": 1,
+              "max": 2,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 16,
+            "maxLevel": 61,
+            "weight": 600,
+            "value": {
+              "min": 3,
+              "max": 4,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 38,
+            "maxLevel": 87,
+            "weight": 600,
+            "value": {
+              "min": 5,
+              "max": 6,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 62,
             "maxLevel": -1,
             "weight": 600,
             "value": {
-              "min": 8,
+              "min": 7,
+              "max": 8,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 88,
+            "maxLevel": -1,
+            "weight": 600,
+            "value": {
+              "min": 9,
               "max": 10,
               "step": 1
             }
@@ -6070,8 +6166,8 @@
               "abilityKey": "Empower_Slowness_Aura",
               "textColor": 14076214,
               "highlightColor": 6082075,
-              "min": 1,
-              "max": 3,
+              "min": 2,
+              "max": 6,
               "step": 1
             }
           }

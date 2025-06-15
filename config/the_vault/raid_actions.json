@@ -420,7 +420,6 @@
       "color1": "0xFFff8400",
       "color2": "0xFFffcc00"
     },
-
     "castle_chestplate": {
       "type": "floating_item_reward",
       "textColor": -1213660,
@@ -847,9 +846,7 @@
       "type": "mob_spawn",
       "entity": {
         "id": "minecraft:vindicator",
-        "Tags": [
-          "no_champion"
-        ],
+        "Tags": ["no_champion", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
@@ -873,7 +870,7 @@
       "name": "Healer",
       "entity": {
         "id": "the_vault:healer",
-        "Tags": ["no_champion"],
+        "Tags": ["no_champion", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
@@ -887,7 +884,7 @@
       "type": "mob_spawn",
       "entity": {
         "id": "minecraft:vex",
-        "Tags": ["no_champion"],
+        "Tags": ["no_champion", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
@@ -901,7 +898,7 @@
       "type": "mob_spawn",
       "entity": {
         "id": "minecraft:evoker",
-        "Tags": ["no_champion"],
+        "Tags": ["no_champion", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
@@ -916,6 +913,7 @@
       "entity": {
         "id": "minecraft:zombie"
       },
+      "Tags": ["ethereal_immune"],
       "count": 1,
       "spawner": "ground"
     },
@@ -924,7 +922,7 @@
       "name": "Ravager",
       "entity": {
         "id": "minecraft:ravager",
-        "Tags": ["no_champion"],
+        "Tags": ["no_champion", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
@@ -940,7 +938,7 @@
       "textColor": "0xFFff7575",
       "entity": {
         "id": "minecraft:vindicator",
-        "Tags": ["vault_champion","no_drops"],
+        "Tags": ["vault_champion","no_drops", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
@@ -956,7 +954,7 @@
       "textColor": "0xFFff7575",
       "entity": {
         "id": "minecraft:vex",
-        "Tags": ["vault_champion","no_drops"],
+        "Tags": ["vault_champion","no_drops", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
@@ -972,7 +970,7 @@
       "textColor": "0xFFff7575",
       "entity": {
         "id": "minecraft:pillager",
-        "Tags": ["vault_champion","no_drops"],
+        "Tags": ["vault_champion","no_drops", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",
@@ -993,7 +991,7 @@
       "textColor": "0xFFff7575",
       "entity": {
         "id": "minecraft:ravager",
-        "Tags": ["vault_champion","no_drops"],
+        "Tags": ["vault_champion","no_drops", "ethereal_immune"],
         "modifierImmunity": [
           "#the_vault:modifier_type/mob_frenzy",
           "#the_vault:modifier_type/mob_attribute",

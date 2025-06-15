@@ -76,14 +76,17 @@
       {"value": {"id": "thermal:dynamo_gourmand", "amountMin": 1, "amountMax": 1}, "weight": 100}
     ],
     "Thermal Expansion": [
-      {"value": {"id": "thermal:device_nullifier", "amountMin": 1, "amountMax": 1}, "weight": 100},
-      {"value": {"id": "thermal:device_water_gen", "amountMin": 1, "amountMax": 1}, "weight": 80},
-      {"value": {"id": "thermal:device_fisher", "amountMin": 1, "amountMax": 1}, "weight": 60},
-      {"value": {"id": "thermal:device_composter", "amountMin": 1, "amountMax": 1}, "weight": 60},
+      {"value": {"id": "thermal:device_nullifier", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "thermal:device_water_gen", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "thermal:device_fisher", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "thermal:device_composter", "amountMin": 1, "amountMax": 1}, "weight": 40},
       {"value": {"id": "thermal:machine_chiller", "amountMin": 1, "amountMax": 1}, "weight": 40},
-      {"value": {"id": "thermal:device_collector", "amountMin": 1, "amountMax": 1}, "weight": 20},
-      {"value": {"id": "thermal:device_rock_gen", "amountMin": 1, "amountMax": 1}, "weight": 5},
-      {"value": {"id": "thermal:machine_sawmill", "amountMin": 1, "amountMax": 1}, "weight": 40}
+      {"value": {"id": "thermal:device_collector", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "thermal:device_rock_gen", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "thermal:machine_sawmill", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "thermal:upgrade_augment_1", "amountMin": 1, "amountMax": 1}, "weight": 40},
+      {"value": {"id": "thermal:upgrade_augment_2", "amountMin": 1, "amountMax": 1}, "weight": 20},
+      {"value": {"id": "thermal:upgrade_augment_3", "amountMin": 1, "amountMax": 1}, "weight": 10}
     ],
     "Mekanism Generators": [
       {"value": {"id": "mekanismgenerators:solar_generator", "amountMin": 1, "amountMax": 1}, "weight": 80},
@@ -134,6 +137,23 @@
       {"value": {"id": "easy_villagers:auto_trader", "amountMin": 1, "amountMax": 1}, "weight": 2},
       {"value": {"id": "easy_villagers:iron_farm", "amountMin": 1, "amountMax": 1}, "weight": 5},
       {"value": {"id": "easy_piglins:barterer", "amountMin": 1, "amountMax": 1}, "weight": 1}
+    ],
+    "Iron Furnaces": [
+      {"value": {"id": "ironfurnaces:iron_furnace", "amountMin": 1, "amountMax": 1}, "weight": 400},
+      {"value": {"id": "ironfurnaces:gold_furnace", "amountMin": 1, "amountMax": 1}, "weight": 200},
+      {"value": {"id": "ironfurnaces:diamond_furnace", "amountMin": 1, "amountMax": 1}, "weight": 60},
+      {"value": {"id": "ironfurnaces:emerald_furnace", "amountMin": 1, "amountMax": 1}, "weight": 60},
+      {"value": {"id": "ironfurnaces:obsidian_furnace", "amountMin": 1, "amountMax": 1}, "weight": 60},
+      {"value": {"id": "ironfurnaces:netherite_furnace", "amountMin": 1, "amountMax": 1}, "weight": 30},
+      {"value": {"id": "ironfurnaces:million_furnace", "amountMin": 1, "amountMax": 1}, "weight": 5}
+
+    ],
+    "Modular Routers": [
+      {"value": {"id": "modularrouters:speed_upgrade", "amountMin": 9, "amountMax": 9}, "weight": 100},
+      {"value": {"id": "modularrouters:stack_upgrade", "amountMin": 6, "amountMax": 6}, "weight": 100},
+      {"value": {"id": "modularrouters:blank_module", "amountMin": 1, "amountMax": 1}, "weight": 200},
+      {"value": {"id": "modularrouters:modular_router", "amountMin": 1, "amountMax": 1}, "weight": 50}
+
     ]
   }
 }

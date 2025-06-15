@@ -353,7 +353,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -424,7 +424,7 @@
             "weight": 60,
             "value": {
               "abilityKey": "Totem_Mob_Damage",
-              "levelChange": 1
+              "levelChange": 2
             }
           }
         ]
@@ -2580,7 +2580,7 @@
       },
 
       { "attribute": "the_vault:lucky_hit_chance",
-        "group": "ModOnHitAddition",
+        "group": "ModOnHit",
         "identifier": "the_vault:crafted_lucky_hit_chance",
         "tags": [
           "focusLuckyHitChance"
@@ -2683,7 +2683,7 @@
     ],
     "ABILITY_ENHANCEMENT": [],
     "CORRUPTED_IMPLICIT": [
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
         "identifier": "the_vault:corrupted_added_ability_level_totem",
@@ -2703,7 +2703,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
         "identifier": "the_vault:corrupted_added_ability_level_totemwrath",
@@ -2723,7 +2723,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
         "identifier": "the_vault:corrupted_added_ability_level_totemmana",
@@ -2743,7 +2743,8 @@
           }
         ]
       },
-      {
+      
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_manashield",
@@ -2817,7 +2818,8 @@
           }
         ]
       },
-      {
+      
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_stonefallcold",
@@ -2837,7 +2839,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_heal",
@@ -2857,7 +2859,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_healgroup",
@@ -2877,7 +2879,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_healcleanse",
@@ -2897,7 +2899,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_dash",
@@ -2917,7 +2919,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_dashbullet",
@@ -2937,7 +2939,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_dashwarp",
@@ -2957,7 +2959,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_ghostwalk",
@@ -2977,7 +2979,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_ghostwalkspirit",
@@ -2997,7 +2999,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_megajump",
@@ -3017,7 +3019,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_megajumpdig",
@@ -3097,7 +3099,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
         "identifier": "the_vault:corrupted_added_ability_level_empower",
@@ -3107,7 +3109,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3117,7 +3119,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_empowericearmor",
@@ -3127,7 +3129,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3137,7 +3139,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_hunter",
@@ -3147,7 +3149,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 10,
             "value": {
@@ -3157,8 +3159,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_veinminer",
         "tags": [
@@ -3167,7 +3168,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3177,8 +3178,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_veinminerchain",
         "tags": [
@@ -3187,7 +3187,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3197,7 +3197,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_veinminervoid",
@@ -3207,7 +3207,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3217,8 +3217,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_frostnova",
         "tags": [
@@ -3227,7 +3226,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3237,7 +3236,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
         "identifier": "the_vault:corrupted_added_ability_level_rampage",
@@ -3247,7 +3246,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 30,
             "value": {
@@ -3257,7 +3256,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
         "identifier": "the_vault:corrupted_added_ability_level_rampageleech",
@@ -3267,7 +3266,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 30,
             "value": {
@@ -3277,7 +3276,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_manashieldretribution",
@@ -3287,7 +3286,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3297,7 +3296,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_taunt",
@@ -3307,7 +3306,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3317,7 +3316,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_tauntrepel",
@@ -3327,7 +3326,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3337,7 +3336,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_javelin",
@@ -3347,7 +3346,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 30,
             "value": {
@@ -3357,7 +3356,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_javelinpiercing",
@@ -3367,7 +3366,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 30,
             "value": {
@@ -3377,7 +3376,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlUtility",
         "identifier": "the_vault:corrupted_added_ability_level_javelinscatter",
@@ -3387,7 +3386,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 30,
             "value": {
@@ -3397,7 +3396,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_shell",
@@ -3407,7 +3406,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3417,7 +3416,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_shellporcupine",
@@ -3427,7 +3426,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3437,7 +3436,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_shellquill",
@@ -3447,7 +3446,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3457,8 +3456,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
         "identifier": "the_vault:corrupted_added_ability_level_battlecry",
         "tags": [
@@ -3467,7 +3465,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3477,8 +3475,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlBuff",
         "identifier": "the_vault:corrupted_added_ability_level_battlecry_lucky",
         "tags": [
@@ -3487,7 +3484,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3497,8 +3494,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_icebolt",
         "tags": [
@@ -3507,7 +3503,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3517,8 +3513,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_glacial_blast",
         "tags": [
@@ -3527,7 +3522,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3537,8 +3532,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_entropic_bind",
         "tags": [
@@ -3547,7 +3541,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3557,8 +3551,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_blizzard",
         "tags": [
@@ -3567,7 +3560,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 30,
             "value": {
@@ -3577,8 +3570,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_nova",
         "tags": [
@@ -3587,7 +3579,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3597,8 +3589,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_poisonnova",
         "tags": [
@@ -3607,7 +3598,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3647,7 +3638,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3657,7 +3648,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_smite",
@@ -3667,7 +3658,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3677,7 +3668,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_smitearchon",
@@ -3687,7 +3678,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3697,7 +3688,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_stonefallsnow",
@@ -3707,7 +3698,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 30,
             "value": {
@@ -3717,7 +3708,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_tauntcharm",
@@ -3727,7 +3718,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3737,7 +3728,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_javelinsight",
@@ -3747,7 +3738,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 30,
             "value": {
@@ -3757,7 +3748,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_fireball",
@@ -3767,7 +3758,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3777,7 +3768,7 @@
           }
         ]
       },
-      {
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_fireballvolley",
@@ -3787,7 +3778,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3797,8 +3788,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_fireballshot",
         "tags": [
@@ -3807,7 +3797,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3817,8 +3807,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_battlecry_spectral",
         "tags": [
@@ -3827,7 +3816,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 60,
             "value": {
@@ -3837,8 +3826,7 @@
           }
         ]
       },
-      {
-        "attribute": "the_vault:added_ability_level",
+      { "attribute": "the_vault:added_ability_level",
         "group": "ModAPLvl",
         "identifier": "the_vault:corrupted_added_ability_level_stormarrow",
         "tags": [
@@ -3847,7 +3835,7 @@
         ],
         "tiers": [
           {
-            "minLevel": 25,
+            "minLevel": 0,
             "maxLevel": -1,
             "weight": 30,
             "value": {
@@ -3857,6 +3845,7 @@
           }
         ]
       }
+
     ]
   }
 }

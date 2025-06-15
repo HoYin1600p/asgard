@@ -1681,6 +1681,7 @@
           }
         ]
       },
+      
       { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
@@ -1721,7 +1722,8 @@
           }
         ]
       },
-      {
+      
+      { 
         "attribute": "the_vault:added_ability_level",
         "group": "ModLvlDefensive",
         "identifier": "the_vault:corrupted_added_ability_level_stonefallcold",

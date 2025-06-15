@@ -1,8 +1,8 @@
 {
   "values": {
     "starter": {
-      "model": "vhapi:deck/starter#inventory",
-      "name": "Starter",
+      "model": "the_vault:deck/starter_deck#inventory",
+      "name": "Starter Deck",
       "essence": {
         "min": 0,
         "max": 0
@@ -19,7 +19,7 @@
       ]
     },
     "large": {
-      "model": "vhapi:deck/large#inventory",
+      "model": "the_vault:deck/large#inventory",
       "name": "Large Deck",
       "essence": {
         "min": 1,
@@ -37,7 +37,7 @@
       ]
     },
     "double": {
-      "model": "vhapi:deck/double#inventory",
+      "model": "the_vault:deck/double#inventory",
       "name": "Double Deck",
       "essence": {
         "min": 1,
@@ -55,7 +55,7 @@
       ]
     },
     "merchant": {
-      "model": "vhapi:deck/merchant#inventory",
+      "model": "the_vault:deck/merchant#inventory",
       "name": "Merchant's Deck",
       "essence": {
         "min": 2,
@@ -75,7 +75,7 @@
       ]
     },
     "expanded": {
-      "model": "vhapi:deck/expanded#inventory",
+      "model": "the_vault:deck/expanded#inventory",
       "name": "Expanded Deck",
       "essence": {
         "min": 2,
@@ -94,7 +94,7 @@
       ]
     },
     "gdungeon": {
-      "model": "vhapi:deck/edge#inventory",
+      "model": "the_vault:deck/edge#inventory",
       "name": "The Edge Deck",
       "essence": {
         "min": 3,
@@ -113,7 +113,7 @@
       ]
     },
     "ldungeon": {
-      "model": "vhapi:deck/shroom#inventory",
+      "model": "the_vault:deck/mushroom#inventory",
       "name": "The Shroom Deck",
       "essence": {
         "min": 3,
@@ -132,7 +132,7 @@
       ]
     },
     "odungeon": {
-      "model": "vhapi:deck/anvil#inventory",
+      "model": "the_vault:deck/anvil#inventory",
       "name": "The Anvil Deck",
       "essence": {
         "min": 3,
@@ -206,7 +206,7 @@
       ]
     },
     "champion": {
-      "model": "vhapi:deck/champion#inventory",
+      "model": "the_vault:deck/champion#inventory",
       "name": "The Champion Deck",
       "essence": {
         "min": 2,
@@ -226,8 +226,8 @@
       ]
     },
     "extended": {
-      "model": "the_vault:deck/champion#inventory",
-      "name": "The Champion Deck",
+      "model": "the_vault:deck/starter_deck#inventory",
+      "name": "The Troll Deck",
       "essence": {
         "min": 2,
         "max": 2
@@ -246,7 +246,7 @@
       ]
     },
     "runic": {
-      "model": "vhapi:deck/runic#inventory",
+      "model": "the_vault:deck/runic#inventory",
       "name": "The Runic Deck",
       "essence": {
         "min": 3,
@@ -267,7 +267,7 @@
       ]
     },
     "bishop": {
-      "model": "vhapi:deck/bishop#inventory",
+      "model": "the_vault:deck/bishop#inventory",
       "name": "The Bishop Deck",
       "essence": {
         "min": 3,
@@ -287,7 +287,7 @@
       ]
     },
     "belt": {
-      "model": "vhapi:deck/belt#inventory",
+      "model": "the_vault:deck/belt#inventory",
       "name": "The Belt Deck",
       "essence": {
         "min": 3,
@@ -308,7 +308,7 @@
       ]
     },
     "scam": {
-      "model": "vhapi:deck/mystery#inventory",
+      "model": "the_vault:deck/mystery#inventory",
       "name": "The ?",
       "essence": {
         "min": 5,

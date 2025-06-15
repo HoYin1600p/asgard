@@ -858,7 +858,7 @@
             "USABILITY": true,
             "CRAFTABILITY": true
           }
-        }   
+        }
       },
       "blockRestrictions": {},
       "entityRestrictions": {},
@@ -969,6 +969,39 @@
     },
     {
       "itemRestrictions": {
+        "the_vault:map_marker": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true,
+            "BLOCK_INTERACTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Map Markers",
+      "cost": 3,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "the_vault:vault_map": {
+          "restricts": {
+            "HITTABILITY": true,
+            "USABILITY": true,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Vault Map",
+      "cost": 4,
+      "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
         "vaultintegrations:altar_conduit": {
           "restricts": {
             "HITTABILITY": true,
@@ -1071,7 +1104,7 @@
             "CRAFTABILITY": true
             }
         }
-          
+
       },
       "blockRestrictions": {},
       "entityRestrictions": {},

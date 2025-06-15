@@ -272,6 +272,15 @@ craftingTable.remove(<item:vaultkeychain:keychain>);
 
 // recipe additions
 
+craftingTable.addShapeless("spicy_hearty_burger_2", <item:the_vault:spicy_hearty_burger>, [<item:the_vault:cheese_burger_feast>, <item:the_vault:burger_chili>]);
+
+craftingTable.addShaped("colossus_respec_flask", <item:the_vault:respec_flask>.withTag({Ability: "Colossus"}), [
+    [<item:the_vault:vault_essence>, <item:minecraft:red_mushroom>, <item:the_vault:vault_essence>],
+    [<item:the_vault:vault_essence>, <item:minecraft:glass_bottle>, <item:the_vault:vault_essence>],
+    [<item:the_vault:vault_essence>, <item:the_vault:perfect_benitoite>, <item:the_vault:vault_essence>]
+]);
+
+
 craftingTable.addShaped("infinite_raid_rock", <item:the_vault:crystal_seal_raid_infinite>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:minecraft:totem_of_undying>, <item:the_vault:black_chromatic_steel_ingot>],
     [<item:minecraft:torch>, <item:the_vault:echo_pog>, <item:minecraft:torch>],
@@ -515,9 +524,9 @@ craftingTable.addShaped("prismatic_ring", <item:woldsvaults:prismatic_angel_ring
 
 // repair augment
 craftingTable.addShaped("repair_augment", <item:woldsvaults:repair_augmenter>, [
-        [<item:the_vault:resilient_focus>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:resilient_focus>],
-        [<item:the_vault:black_chromatic_steel_ingot>, <item:woldsvaults:pog_prism>, <item:the_vault:black_chromatic_steel_ingot>],
-        [<item:the_vault:resilient_focus>, <item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:resilient_focus>]
+        [<item:woldsvaults:wold_star_chunk>, <item:the_vault:echoing_ingot>, <item:woldsvaults:wold_star_chunk>],
+        [<item:the_vault:echoing_ingot>, <item:the_vault:resilient_focus>, <item:the_vault:echoing_ingot>],
+        [<item:woldsvaults:wold_star_chunk>, <item:the_vault:echoing_ingot>, <item:woldsvaults:wold_star_chunk>]
     ]);
 
 // resonating reinforcement
@@ -669,3 +678,84 @@ craftingTable.addShaped("golem_apple", <item:the_vault:golem_apple>, [
     [<item:the_vault:perfect_painite>, <item:the_vault:vault_apple>, <item:the_vault:perfect_painite>],
     [<item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>, <item:woldsvaults:compressed_vault_essence>]
 ]);
+
+
+// velvet beds
+
+val velvet = [
+    "red",
+    "orange",
+    "yellow",
+    "lime",
+    "green",
+    "light_blue",
+    "cyan",
+    "blue",
+    "magenta",
+    "purple",
+    "pink",
+    "white",
+    "gray",
+    "light_gray",
+    "brown",
+    "black"
+];
+
+for bed in velvet {
+    // velvet bed tagging
+     <tag:items:the_vault:velvet_bed>.add(<item:vaultadditions:colored_velvet_bed_${bed}>);
+}
+
+for color in velvet {
+    craftingTable.addShapeless("velvet_bed_recolor_" + color, <item:vaultadditions:colored_velvet_bed_${color}>, [
+        <tag:items:the_vault:velvet_bed>,
+        <item:minecraft:${color}_dye>
+    ]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -57,6 +57,10 @@
       "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Pylon Hunter' modifier"
     },
     {
+      "item": "the_vault:capstone_vendoor_hunter",
+      "value": "Use in the Crystal Workbench as a capstone, making the crystal unmodifiable and adding the 'Vendoor Hunter' modifier"
+    },
+    {
       "item": "the_vault:crystal_seal_cake",
       "value": "Is it cake?\nPut this Vault Rock on a Vault Altar to create a Cake Crystal!"
     },
@@ -347,6 +351,10 @@
     {
       "item": "the_vault:key_petzanite",
       "value": "Opens a Jawwnnite Treasure Door inside the vaults"
+    },
+    {
+      "item": "the_vault:key_echo",
+      "value": "Opens an Echo Treasure Door inside the vaults"
     },
     {
       "item": "the_vault:relic_booster_pack",
@@ -1284,19 +1292,19 @@
 
     {
       "item": "additionaltransmogs:blue_flower",
-      "value": "A blue flower whose color seems to resemble a crayon."
+      "value": "A frosty blue bloom, found in icy wintery cheer."
     },
     {
       "item": "additionaltransmogs:red_flower",
-      "value": "A red flower whose color seems to resemble a crayon."
+      "value": "A rosy red blossom, in cozy gingerbread nooks."
     },
     {
       "item": "additionaltransmogs:green_flower",
-      "value": "A green flower whose color seems to resemble a crayon."
+      "value": "A festive bud grown near minty leaves and holiday wreaths."
     },
     {
       "item": "additionaltransmogs:yellow_flower",
-      "value": "A yellow flower whose color seems to resemble a crayon."
+      "value": "A sunny petal glistening in golden holiday treats."
     },
     {
       "item": "additionaltransmogs:blue_leaves",
@@ -1313,7 +1321,10 @@
     {
       "item": "additionaltransmogs:blooming_bush",
       "value": "A blooming bush that stands out in an ancient forest."
+    },
+    {
+      "item": "powah:photoelectric_pane",
+      "value": "Right click on a natural spawned enderman"
     }
-
   ]
 }

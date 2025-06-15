@@ -1450,7 +1450,8 @@
           "value": [
             {
               "modifier": "@arcane",
-              "probability": 1.0
+              "probability": 1.0,
+              "condition": "@default"
             }
           ],
           "weight": 20
@@ -1498,7 +1499,8 @@
               "groups": [
                 "Foil"
               ],
-              "probability": 1.0
+              "probability": 1.0,
+              "condition": "@default"
             }
           ],
           "weight": 5

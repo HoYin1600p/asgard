@@ -8,10 +8,10 @@
           "type": "weighted_target",
           "target": "ispawner:spawner",
           "output": {
-            "ispawner:spawner{ group:horde }": 50,
-            "ispawner:spawner{ group:assassin }": 3,
+            "ispawner:spawner{ group:horde }": 40,
+            "ispawner:spawner{ group:assassin }": 30,
             "ispawner:spawner{ group:tank }": 12,
-            "ispawner:spawner{ group:dwellers }": 5
+            "ispawner:spawner{ group:dwellers }": 18
           }
         }
       ]

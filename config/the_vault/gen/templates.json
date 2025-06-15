@@ -1832,6 +1832,14 @@
       }
     },
     {
+      "id": "the_vault:vault/rooms/challenge/village_fort",
+      "name": "Village Fort",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/village_fort.nbt"
+      }
+    },
+    {
       "id": "the_vault:vault/rooms/challenge/wildwest1",
       "name": "Wild West 1",
       "1.0": {
@@ -9799,6 +9807,14 @@
       }
     },
     {
+      "id": "the_vault:vault/rooms/omega/library2",
+      "name": "Omega Library 2",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/omega/library2.nbt"
+      }
+    },
+    {
       "id": "the_vault:vault/decor/raw/chromatic_caves/spawner_tree1",
       "name": "Diamond Caves Spawner Tree 1",
       "1.0": {
@@ -10852,6 +10868,22 @@
       "1.0": {
         "type": "structure",
         "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/laboratory2.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/laboratory3",
+      "name": "Laboratory Room 3",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/laboratory3.nbt"
+      }
+    },
+    {
+      "id": "the_vault:vault/rooms/challenge/laboratory4",
+      "name": "Laboratory Room 4",
+      "1.0": {
+        "type": "structure",
+        "path": "config/the_vault/gen/1.0/structures/vault/rooms/challenge/laboratory4.nbt"
       }
     },
     {

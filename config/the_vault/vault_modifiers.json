@@ -212,6 +212,7 @@
           "icon": "the_vault:gui/modifiers/soul_shard_increase_yellow"
         }
       },
+
       "the_vault:haunted": {
         "properties": {
           "chance": 0.5
@@ -272,6 +273,18 @@
           "color": "#FF5555",
           "description": "+1% Soul Shard Drop Rate",
           "descriptionFormatted": "+%d%% Soul Shards",
+          "icon": "the_vault:gui/modifiers/god_token_idona"
+        }
+      },
+      "the_vault:no_souls": {
+        "properties": {
+          "chance": -10000.0
+        },
+        "display": {
+          "name": "No Souls",
+          "color": "#FF5555",
+          "description": "No Soul Shards Dropped",
+          "descriptionFormatted": "No Soul Shards Dropped",
           "icon": "the_vault:gui/modifiers/god_token_idona"
         }
       }
@@ -1988,6 +2001,18 @@
           "icon": "the_vault:gui/modifiers/reinforced"
         }
       },
+      "the_vault:extra_reinforced": {
+        "properties": {
+          "durabilityDamageTakenMultiplier": 0.0
+        },
+        "display": {
+          "name": "Extra Reinforced",
+          "color": "#9550FF",
+          "description": "-100% Durability Damage",
+          "descriptionFormatted": "-%d%% Durability Damage",
+          "icon": "the_vault:gui/modifiers/reinforced"
+        }
+      },
       "the_vault:plated": {
         "properties": {
           "durabilityDamageTakenMultiplier": 0.6
@@ -2000,15 +2025,15 @@
           "icon": "the_vault:gui/modifiers/plated"
         }
       },
-      "the_vault:extra_reinforced": {
+      "the_vault:no_durability_damage": {
         "properties": {
           "durabilityDamageTakenMultiplier": 0.0
         },
         "display": {
-          "name": ":reinforced: Extra Reinforced",
+          "name": "No Durability Damage",
           "color": "#9550FF",
-          "description": "-100% Durability Damage",
-          "descriptionFormatted": "-%d%% Durability Damage",
+          "description": "Players take no durability damage in this vault",
+          "descriptionFormatted": "Players take no durability damage in this vault",
           "icon": "the_vault:gui/modifiers/reinforced"
         }
       }
@@ -3149,6 +3174,18 @@
           "descriptionFormatted": "+%d%% Vault Experience",
           "icon": "the_vault:gui/modifiers/experienced"
         }
+      },
+      "the_vault:ignore_modifier_extended": {
+        "properties": {
+          "addend": -0.5
+        },
+        "display": {
+          "name": "Wendarr's Challenge",
+          "color": "#d89e01",
+          "description": "Extended will not work in this vault",
+          "descriptionFormatted": "Extended will not work in this vault",
+          "icon": "the_vault:gui/modifiers/god_token_wendarr"
+        }
       }
     },
     "the_vault:modifier_type/inline_pool": {
@@ -3302,6 +3339,7 @@
           "icon": "the_vault:gui/modifiers/gilded"
         }
       },
+
       "the_vault:soul_cascade_ornate": {
         "properties": {
           "filter": "the_vault:ornate_chest",
@@ -3572,7 +3610,7 @@
       }
     },
     "the_vault:modifier_type/chance_power_crystal": {
-      "the_vault:power": {
+     "the_vault:power": {
         "properties": {
           "chance": 0.25
         },
@@ -3819,7 +3857,8 @@
             "the_vault:beginners_grace": 1,
             "the_vault:no_ores": 1,
             "the_vault:no_reward": 1,
-            "the_vault:no_souls": 1
+            "the_vault:no_souls": 1,
+            "the_vault:no_durability_damage": 1
           }
         },
         "display": {
@@ -3869,6 +3908,22 @@
           "name": ":door: Door Hunter",
           "color": "#bbf333",
           "description": "Reveals all doors inside the vault!",
+          "icon": "the_vault:gui/modifiers/door_hunter"
+        }
+      },
+      "the_vault:objective_hunter": {
+        "properties": {
+          "children": {
+            "the_vault:scavenger_altar": 1,
+            "the_vault:lodestone": 1,
+            "the_vault:monolith": 1,
+            "the_vault:grid_gateway": 1
+          }
+        },
+        "display": {
+          "name": "Objective Hunter",
+          "color": "#bbf333",
+          "description": "Reveals all objective blocks inside the vault!",
           "icon": "the_vault:gui/modifiers/door_hunter"
         }
       },
