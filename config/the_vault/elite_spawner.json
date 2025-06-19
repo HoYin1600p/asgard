@@ -184,7 +184,7 @@
         }
       ]
     },
-	"the_vault:elite_gingerbread": {
+    "the_vault:elite_gingerbread": {
       "elite": {
         "entityName": "auxiliaryblocks:gingerbread_man_giant"
       },
@@ -208,6 +208,22 @@
     "the_vault:treasure_goblin": {
       "elite": {
         "entityName": "the_vault:treasure_goblin"
+      },
+      "min": 0,
+      "max": 0,
+      "minions": [
+        {
+          "value": {
+            "entityName": "rottencreatures:swampy"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "the_vault:fire_dragon": {
+      "elite": {
+        "entityName": "iceandfire:fire_dragon",
+        "entityNbt": "{TamedDragon:0b,Hunger:100,Gender:0b,Variant:0,Age:0,AgeTicks:2174231,AgingDisabled:1b,Sitting:0b,Sleeping:0b,ModelDead:0b,CanUpdate:1b,FireBreathing:1b,Tags:[\"vault_champion\"],CustomName:\"{\\\"text\\\":\\\"Dragon Room Boss\\\"}\"}"
       },
       "min": 0,
       "max": 0,
