@@ -149,6 +149,8 @@ JEI.hideIngredient(<item:woldsvaults:blue_blaze_spawn_egg>);
 JEI.hideIngredient(<item:woldsvaults:research_token>);
 craftingTable.remove(<item:woldsvaults:gem_reagent_petzanite>);
 
+craftingTable.remove(<item:woldsvaults:crystal_seal_titan>);
+JEI.hideIngredient(<item:woldsvaults:crystal_seal_titan>);
 
 //Vault Additions
 //JEI.hideIngredient(<item:vaultadditions:power_orb>);
@@ -270,6 +272,7 @@ craftingTable.remove(<item:the_vault:red_vault_essence>);
 craftingTable.remove(<item:the_vault:treasure_keyring>);
 craftingTable.remove(<item:vaultkeychain:keychain>);
 
+
 // recipe additions
 
 craftingTable.addShapeless("spicy_hearty_burger_2", <item:the_vault:spicy_hearty_burger>, [<item:the_vault:cheese_burger_feast>, <item:the_vault:burger_chili>]);
@@ -375,7 +378,7 @@ craftingTable.addShaped("vault_doll2", <item:the_vault:vault_doll>, [
 
 craftingTable.addShaped("vault_doll3", <item:the_vault:vault_doll>, [
     [<item:the_vault:memory_shard>, <item:the_vault:vault_essence>, <item:the_vault:memory_shard>],
-    [<item:the_vault:regret_orb>, <item:the_vault:vault_doll>, <item:the_vault:regret_orb>],
+    [<item:the_vault:knowledge_star>, <item:the_vault:vault_doll>, <item:the_vault:knowledge_star>],
     [<item:the_vault:memory_shard>, <item:the_vault:extraordinary_benitoite>, <item:the_vault:memory_shard>]
 ]);
 
