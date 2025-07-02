@@ -11,7 +11,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_attack_damage"
@@ -36,7 +37,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_attack_damage",
@@ -61,7 +63,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_ap"
@@ -86,7 +89,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_attack_speed_percent"
@@ -112,7 +116,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_attack_damage",
@@ -137,7 +142,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_attack_damage",
@@ -162,7 +168,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_hexing_chance",
@@ -187,7 +194,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed_greatsword"
+          "the_vault:base_attack_speed_greatsword",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_attack_damage_mineral_greatsword"
@@ -211,7 +219,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:base_thorns_damage_flat_sword",
@@ -235,7 +244,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_ap",
@@ -260,7 +270,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_execution_young_kitsune"
@@ -283,7 +294,8 @@
         ],
         "IMPLICIT": [
           "the_vault:base_attack_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed",
+          "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
           "the_vault:mod_execution_young_kitsune"
@@ -308,7 +320,8 @@
         ],
         "IMPLICIT": [
           "the_vault:u_leviathan_attack_damage",
-          "the_vault:u_leviathan_attack_speed"
+          "the_vault:u_leviathan_attack_speed",
+          "the_vault:base_double_hit_chance"
         ],
         "PREFIX": [
           "the_vault:u_leviathan_reaving_damage"
@@ -329,7 +342,8 @@
         ],
         "IMPLICIT": [
           "the_vault:u_leviathan_attack_damage",
-          "the_vault:base_attack_speed_axe"
+          "the_vault:base_attack_speed_axe",
+          "the_vault:base_double_hit_chance"
         ],
         "PREFIX": [
           "the_vault:u_movement_horse",
@@ -354,7 +368,8 @@
         "IMPLICIT": [
           "the_vault:base_attack_damage_mace",
           "the_vault:u_thorns_damage",
-          "the_vault:base_attack_speed"
+          "the_vault:base_attack_speed_axe",
+          "the_vault:base_double_hit_chance"
         ],
         "PREFIX": [
           "the_vault:u_thorns_damage",
