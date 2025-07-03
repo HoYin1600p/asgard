@@ -19,7 +19,9 @@
         ],
         "the_vault:gui/map/lab": [
             "the_vault:vault/rooms/challenge/laboratory1",
-            "the_vault:vault/rooms/challenge/laboratory2"
+            "the_vault:vault/rooms/challenge/laboratory2",
+            "the_vault:vault/rooms/challenge/laboratory3",
+            "the_vault:vault/rooms/challenge/laboratory4"
         ],
         "the_vault:gui/map/xmark": [
             "the_vault:vault/rooms/challenge/x-mark1"
@@ -28,7 +30,8 @@
             "the_vault:vault/rooms/challenge/village1",
             "the_vault:vault/rooms/challenge/village2",
             "the_vault:vault/rooms/challenge/village3",
-            "the_vault:vault/rooms/challenge/village4"
+            "the_vault:vault/rooms/challenge/village4",
+            "the_vault:vault/rooms/challenge/village_fort"
         ],
         "the_vault:gui/map/chromatic_caves": [
             "the_vault:vault/rooms/raw/chromatic_cave1"
