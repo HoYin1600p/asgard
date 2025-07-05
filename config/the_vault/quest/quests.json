@@ -902,7 +902,7 @@
         ]
       },
       "icon": "the_vault:gui/quests/coin_pouch",
-      "targetId": "vaultcoinpouch:coin_pouch",
+      "targetId": "the_vault:coin_pouch",
       "targetProgress": 1.0,
       "unlockedBy": "welcome_quest",
       "reward": {
@@ -953,7 +953,7 @@
       }
     },
     {
-      "type": "forge_gear",
+      "type": "collection",
       "id": "craft_tool",
       "name": "Tool Station",
       "descriptionData": {
@@ -1035,8 +1035,8 @@
       }
     },
     {
-      "type": "forge_gear",
-      "id": "craft_tool",
+      "type": "collection",
+      "id": "jewel_pouch",
       "name": "Jewels",
       "descriptionData": {
         "description": [
@@ -1224,9 +1224,9 @@
         ]
       },
       "icon": "the_vault:gui/quests/tool",
-      "targetId": "the_vault:tool/pick/chromatic_iron_ingot",
+      "targetId": "the_vault:jewel_pouch",
       "targetProgress": 1.0,
-      "unlockedBy": "tool_station",
+      "unlockedBy": "craft_tool",
       "reward": {
         "items": [
           {
@@ -1284,7 +1284,7 @@
       "icon": "the_vault:gui/quests/apply_jewel",
       "targetId": "the_vault:vault_jewel_application_station",
       "targetProgress": 1.0,
-      "unlockedBy": "craft_tool",
+      "unlockedBy": "jewel_pouch",
       "reward": {
         "items": [
           {
