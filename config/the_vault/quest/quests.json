@@ -937,7 +937,7 @@
       "icon": "the_vault:gui/quests/bounty",
       "targetId": "the_vault:any",
       "targetProgress": 1.0,
-      "unlockedBy": "complete_bounty",
+      "unlockedBy": "welcome_quest",
       "reward": {
         "items": [
           {
