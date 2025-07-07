@@ -5,7 +5,7 @@
       "target": "the_vault:placeholder[type=gilded_chest]",
       "output": {
         "the_vault:placeholder[type=gilded_chest]": 15,
-        "quark:dark_oak_bookshelf": 85
+        "minecraft:air": 85
       }
     },
     {
@@ -13,7 +13,7 @@
       "target": "minecraft:gray_glazed_terracotta",
       "output": {
         "the_vault:placeholder[type=gilded_chest]": 15,
-        "minecraft:air": 85
+        "quark:dark_oak_bookshelf": 85
       }
     },
     {
