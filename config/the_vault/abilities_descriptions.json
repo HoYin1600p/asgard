@@ -2896,22 +2896,21 @@
       ],
       "current": [
 
-        "ability_power",
+        "abilityRange",
+        "radius",
         "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown",
-        "durabilityWearReduction",
-        "radius"
+        "durabilityWearReduction"
       ],
       "next": [
 
-
-        "ability_power",
+        "abilityRange",
+        "redius",
         "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown",
-        "durabilityWearReduction",
-        "radius"
+        "durabilityWearReduction"
       ]
     },
     "Shell_Base": {
