@@ -2874,12 +2874,16 @@
           "color": "$name"
         },
         {
-          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for a random percentage of your ",
+          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for a percentage of your ",
           "color": "$text"
         },
         {
           "text": "ability power",
           "color": "$ability_power"
+        },
+        {
+          "text": " and will additionally add Durability Damage Reduction (as it was in U15) ",
+          "color": "$text"
         },
         {
           "text": ". ",
@@ -2892,17 +2896,22 @@
       ],
       "current": [
 
-        "abilityRange",
+        "ability_power",
         "additionalManaPerBolt",
         "manaCostPerSecond",
-        "cooldown"
+        "cooldown",
+        "durabilityWearReduction",
+        "radius"
       ],
       "next": [
 
-        "abilityRange",
+
+        "ability_power",
         "additionalManaPerBolt",
         "manaCostPerSecond",
-        "cooldown"
+        "cooldown",
+        "durabilityWearReduction",
+        "radius"
       ]
     },
     "Shell_Base": {
