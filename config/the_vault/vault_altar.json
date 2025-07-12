@@ -175,6 +175,7 @@
               "type": "cake",
               "objective_probability": 1.0
             },
+
             "Layout": {
               "type": "spiral",
               "tunnel_span": 1,
@@ -184,10 +185,6 @@
             "Modifiers": {
               "type": "default",
               "RandomModifiers": 0
-            },
-            "Theme": {
-              "type": "value",
-              "id": "the_vault:classic_vault_chaos_cake"
             },
             "Properties": {
               "type": "capacity",
