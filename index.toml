@@ -421,6 +421,10 @@ file = "config/alexsmobs/warped_toad_spawns.json"
 hash = "a79f61400c2eeaf5f29ccc384638df588374cc794838c6e4529a61e2cc31412c"
 
 [[files]]
+file = "config/animal_pen_config.json"
+hash = "9437b9741bba6e1c45c65950cef8c96fbe77ecd2427e1b19748862d144b8a916"
+
+[[files]]
 file = "config/appleskin-client.toml"
 hash = "64116c4db44e0076765eb7ea10dad812b885cf7301dea61d85c9a4c04b845395"
 
@@ -4594,11 +4598,11 @@ hash = "aa3065cef0ea870bf8e170034b3683a4d0f301d1006c2fe4f40c08ce379acfb1"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/chaos/universal_chaos_dreadlands_day.json"
-hash = "defff91184658a1bf3d84008075ae9fbc9f4367a1f2aad376dbb6557f7032313"
+hash = "cd7220bbe271596425207ee360d3412bb7e7a044d0164ab2d10a2f7b513f6ceb"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/chaos/universal_chaos_dreadlands_night.json"
-hash = "516f68f1fd870a6eb552b1cd4340a65ba7f97b91339b95f2c04d929e9f485869"
+hash = "28c2c8087740968a54ae5f5b7df54f1b4f86489834281cf09ee825d5e0be2eb1"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/chaos/universal_chaos_easter_egg.json"
@@ -6338,11 +6342,11 @@ hash = "51c1df819a106ecf05e76e9a0e60278192fab5cb7875714a78b9f38929f59bf6"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/universal_dreadlands_day.json"
-hash = "aace009c99dd5b9ab650c75e2c91fd9c068c2ad25ee62cb93a93ac3ce40fe9fa"
+hash = "2122423a8c4d782046213fe85bf17c8d4a10e113baf3b4dee800d13044e62055"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/universal_dreadlands_night.json"
-hash = "0a19ecfd1ddaf236034a534323658fb003e3cb9ce8275076e67fa047b3a77a1f"
+hash = "38568aaff09a9d8c1c009a4ead514b2fb11ea615d3b03a07e7c61edbfcba88b5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/palettes/universal_easter_egg.json"
@@ -17841,6 +17845,14 @@ file = "kubejs/assets/curios/textures/slot/wireless_terminal.png"
 hash = "59cf2e60907d0926344a2e94de11ecd07e7d96253e7971364214c2a9b9a3a651"
 
 [[files]]
+file = "kubejs/assets/iceandfire/textures/block/dread_wood_log.png"
+hash = "694981a1259cc64630e53e6032b5f9c64fc6743966af6055f103d771287e0355"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/block/dread_wood_planks.png"
+hash = "01045c5abe7b809a75290be9c8cc43f6193fa578cef1750f6ce6caeb64cbba37"
+
+[[files]]
 file = "kubejs/assets/iceandfire/textures/block/dreadstone_bricks.png"
 hash = "e757957e5fd2af43bee527fd88ea49034c8d7740f82bcb41353e268db40cf665"
 
@@ -17851,6 +17863,10 @@ hash = "02237fc90cc8c7d1a7111c347a71716b99f0cc0d98e95ae568668f409d908aed"
 [[files]]
 file = "kubejs/assets/iceandfire/textures/block/dreadstone_bricks_mossy.png"
 hash = "7d7128a337424e927fc3c737aa381e44a0187a3279c3e84e2dcf97b9cbbf41e3"
+
+[[files]]
+file = "kubejs/assets/iceandfire/textures/block/dreadstone_face.png"
+hash = "7c35ccbd29e24167a629defa39dc132a46d09ee7b12a30638e27b95262ef97f0"
 
 [[files]]
 file = "kubejs/assets/iceandfire/textures/block/dreadstone_tile.png"
@@ -20094,7 +20110,7 @@ hash = "51caac5ee0cafdbafc0c4fdd291154c31b35a182d9b2eda4e53186c93446591d"
 
 [[files]]
 file = "kubejs/startup_scripts/block_stuff.js"
-hash = "3a1df115094a955c18f08e583b76de04c8659c4c493eda1cc441e7f21e6a915d"
+hash = "ecae6bb8e2b85097c0264152d2687d4b9ab539320280ffade4f7c472873e1f12"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"

@@ -24,7 +24,9 @@ onEvent('block.registry', event => {
     event.create('iceandfire:dreadstone_bricks_mossy').displayName('Mossy Dreadstone Bricks').tagBlock('minecraft:mineable/pickaxe').material("stone").hardness(1.5).resistance(6.0)
     event.create('iceandfire:dreadstone_bricks_cracked').displayName('Cracked Dreadstone Bricks').tagBlock('minecraft:mineable/pickaxe').material("stone").hardness(1.5).resistance(6.0)
     event.create('iceandfire:dreadstone_tile').displayName('Dreadstone Tile').tagBlock('minecraft:mineable/pickaxe').material("stone").hardness(1.5).resistance(6.0)
-
+    event.create('iceandfire:dreadstone_face').displayName('Dreadstone Chiseled Skull').tagBlock('minecraft:mineable/pickaxe').material("stone").hardness(1.5).resistance(6.0)
+    event.create('iceandfire:dread_wood_log').displayName('Dreadwood Wood').tagBlock('minecraft:mineable/axe').material("wood").hardness(2.0).resistance(2.0)
+    event.create('iceandfire:dread_wood_planks').displayName('Dreadwood Planks').tagBlock('minecraft:mineable/axe').material("wood").hardness(2.0).resistance(3.0)
 
     //Gem Blocks
     //event.create('the_vault:block_gem_larimar').displayName('Block of Larimar Gem').tagBlock('forge:storage_blocks/larimar').tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:beacon_base_blocks')

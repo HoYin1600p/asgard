@@ -37,8 +37,8 @@
       "output": {
         "architects_palette:wardstone_bricks": 1,
         "architects_palette:twisting_blackstone_bricks": 3,
-        "iceandfire:dread_stone_bricks_mossy": 2,
-        "iceandfire:dread_stone_bricks": 5
+        "iceandfire:dreadstone_bricks_mossy": 2,
+        "iceandfire:dreadstone_bricks": 5
       }
     },
     {
@@ -46,7 +46,7 @@
       "target": "minecraft:dirt",
       "output": {
         "architects_palette:wardstone_bricks": 6,
-        "iceandfire:dread_stone_bricks_cracked": 4
+        "iceandfire:dreadstone_bricks_cracked": 4
 
       }
     },
@@ -250,14 +250,14 @@
       "type": "weighted_target",
       "target": "minecraft:oak_log",
       "output": {
-        "iceandfire:dreadwood_log": 1
+        "iceandfire:dread_wood_log": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "minecraft:oak_wood",
       "output": {
-        "iceandfire:dreadwood_log": 1
+        "iceandfire:dread_wood_log": 1
       }
     },
     {
@@ -272,7 +272,7 @@
       "type": "weighted_target",
       "target": "minecraft:oak_planks",
       "output": {
-        "iceandfire:dreadwood_planks": 1,
+        "iceandfire:dread_wood_planks": 1,
         "byg:ebony_planks": 1
       }
     },
@@ -345,7 +345,7 @@
       "type": "weighted_target",
       "target": "minecraft:chiseled_stone_bricks",
       "output": {
-        "iceandfire:dread_stone_face": 1
+        "iceandfire:dreadstone_face": 1
       }
     },
     {
@@ -499,7 +499,7 @@
       "type": "weighted_target",
       "target": "ecologics:azalea_log",
       "output": {
-        "iceandfire:dreadwood_log": 1
+        "iceandfire:dread_wood_log": 1
       }
     },
     {
@@ -520,14 +520,14 @@
       "type": "weighted_target",
       "target": "quark:azalea_log",
       "output": {
-        "iceandfire:dreadwood_log": 1
+        "iceandfire:dread_wood_log": 1
       }
     },
     {
       "type": "weighted_target",
       "target": "quark:azalea_planks",
       "output": {
-        "iceandfire:dreadwood_planks": 1,
+        "iceandfire:dread_wood_planks": 1,
         "byg:ebony_planks": 1
 
       }
@@ -619,20 +619,20 @@
       "id": "the_vault:generic/ice_elite_spawners"
     },
     {
-        "type": "template_stack_tile",
-        "target": "@the_vault:vault_lootables",
-        "stack": [
-            "THEME_DREADLANDS_NIGHT",
-            "THEME_CATEGORY_DREADLANDS"
-        ]
+      "type": "template_stack_tile",
+      "target": "@the_vault:vault_lootables",
+      "stack": [
+        "THEME_DREADLANDS_NIGHT",
+        "THEME_CATEGORY_DREADLANDS"
+      ]
     },
     {
-        "type": "template_stack_spawner",
-        "target": "ispawner:spawner",
-        "stack": [
-            "THEME_DREADLANDS_NIGHT",
-            "THEME_CATEGORY_DREADLANDS"
-        ]
+      "type": "template_stack_spawner",
+      "target": "ispawner:spawner",
+      "stack": [
+        "THEME_DREADLANDS_NIGHT",
+        "THEME_CATEGORY_DREADLANDS"
+      ]
     }
   ],
   "entity_processors": [],
