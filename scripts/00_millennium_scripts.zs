@@ -131,7 +131,7 @@ craftingTable.remove(<item:entangled:block>);
 craftingTable.remove(<item:entangled:item>);
 
 //Coin Pouch
-craftingTable.remove(<item:vaultcoinpouch:coin_pouch>);
+//craftingTable.remove(<item:vaultcoinpouch:coin_pouch>);
 
 //Wolds
 JEI.hideIngredient(<item:woldsvaults:enigma_egg>);
@@ -271,6 +271,7 @@ craftingTable.remove(<item:the_vault:memory_crystal>);
 craftingTable.remove(<item:the_vault:red_vault_essence>);
 craftingTable.remove(<item:the_vault:treasure_keyring>);
 craftingTable.remove(<item:vaultkeychain:keychain>);
+craftingTable.remove(<item:the_vault:map_marker>);
 
 
 // recipe additions
@@ -388,6 +389,63 @@ craftingTable.addShaped("mod_box", <item:the_vault:mod_box>, [
     [<item:the_vault:vault_diamond>, <item:the_vault:knowledge_star_shard>, <item:the_vault:vault_diamond>]
 ]);
 
+// Custom Map Markers
+
+val mapMarkers = [
+    <item:the_vault:map_marker>.withTag({display: {color: 16711680 as int}}), //red
+    <item:the_vault:map_marker>.withTag({display: {color: 16738335 as int}}), //orange
+    <item:the_vault:map_marker>.withTag({display: {color: 16776960 as int}}), //yellow
+    <item:the_vault:map_marker>.withTag({display: {color: 12582656 as int}}), //lime
+    <item:the_vault:map_marker>.withTag({display: {color: 65280 as int}}), //green
+    <item:the_vault:map_marker>.withTag({display: {color: 10141901 as int}}), //light blue
+    <item:the_vault:map_marker>.withTag({display: {color: 65535 as int}}), //cyan
+    <item:the_vault:map_marker>.withTag({display: {color: 255 as int}}), //blue
+    <item:the_vault:map_marker>.withTag({display: {color: 16711935 as int}}), //magenta
+    <item:the_vault:map_marker>.withTag({display: {color: 10494192 as int}}), //purple
+    <item:the_vault:map_marker>.withTag({display: {color: 16738740 as int}}), //pink
+    <item:the_vault:map_marker>.withTag({display: {color: 13882323 as int}}), //light gray
+    <item:the_vault:map_marker>.withTag({display: {color: 8421504 as int}}), //gray
+    <item:the_vault:map_marker>.withTag({display: {color: 9127187 as int}}), //brown
+    <item:the_vault:map_marker>.withTag({display: {color: 0 as int}}), //black
+    <item:the_vault:map_marker>.withTag({display: {color: 16777215 as int}}) //white
+];
+
+for marker in mapMarkers {
+    // map marker tagging
+    <tag:items:the_vault:map_marker>.add(marker);
+}
+
+val markerColors = {
+    "red": 16711680,
+    "orange": 16738335,
+    "yellow": 16776960,
+    "lime": 12582656,
+    "green": 65280,
+    "light_blue": 10141901,
+    "cyan": 65535,
+    "blue": 255,
+    "purple": 10494192,
+    "magenta": 16711935,
+    "pink": 16738740,
+    "light_gray": 13882323,
+    "gray": 8421504,
+    "brown": 9127187,
+    "black": 0
+};
+
+for color, color_id in markerColors {
+craftingTable.addShaped(color + "_map_marker", <item:the_vault:map_marker>.withTag({display: {color: color_id as int}}) *8, [
+        [<tag:items:the_vault:map_marker>, <tag:items:the_vault:map_marker>, <tag:items:the_vault:map_marker>],
+        [<tag:items:the_vault:map_marker>, <item:minecraft:${color}_dye>, <tag:items:the_vault:map_marker>],
+        [<tag:items:the_vault:map_marker>, <tag:items:the_vault:map_marker>, <tag:items:the_vault:map_marker>]
+    ]);
+}
+
+craftingTable.addShaped("custom_map_marker", <item:the_vault:map_marker> *8, [
+    [<item:the_vault:vault_essence>, <item:the_vault:vault_essence>, <item:the_vault:vault_essence>],
+    [<item:the_vault:vault_essence>, <item:the_vault:magic_silk_block>, <item:the_vault:vault_essence>],
+    [<item:the_vault:vault_essence>, <item:the_vault:vault_essence>, <item:the_vault:vault_essence>]
+]);
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // wolds port
@@ -715,50 +773,3 @@ for color in velvet {
         <item:minecraft:${color}_dye>
     ]);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
