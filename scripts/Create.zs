@@ -57,10 +57,8 @@ for Vaulthunters */
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:the_vault:chromatic_iron_ingot>))
                                                       .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(50)));
 
-craftingTable.addShaped("create_andesite_alloy", <item:create:andesite_alloy> *2, [
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
-    [<item:minecraft:andesite>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:andesite>],
-    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+craftingTable.addShapeless("create_andesite_alloy", <item:create:andesite_alloy> *2, [
+    <item:minecraft:andesite>, <item:the_vault:chromatic_iron_ingot>, <item:minecraft:andesite>
 ]);
 
 craftingTable.addShaped("create_shaft", <item:create:shaft> *5, [
@@ -271,5 +269,29 @@ craftingTable.addShaped("create_schematic_table", <item:create:schematic_table>,
 
 craftingTable.addShapeless("create_empty_schematic", <item:create:empty_schematic>, [<item:the_vault:magic_silk>, <tag:items:forge:dyes/light_blue>]);
 
-<recipetype:create:item_application>.addRecipe("enchanted_fire_in_world", [<item:vaultadditions:enchanted_fire>],
-<item:minecraft:soul_campfire>, <item:the_vault:soul_shard>);
+craftingTable.addShapeless("create_andesite_alloy_unpack", <item:create:andesite_alloy> *9, [
+    <item:create:andesite_alloy_block>
+]);
+
+var clusters = {
+  "cluster_bomignite": "bomignite",
+  "cluster_tubium": "tubium",
+  "cluster_ashium": "ashium",
+  "cluster_upaline": "upaline",
+  "cluster_xenium": "xenium",
+  "cluster_gorginite": "gorginite",
+  "cluster_petzanite": "petzanite",
+  "cluster_iskallium": "iskallium",
+  "cluster_sparkletine": "sparkletine"
+};
+
+for clusterId, clusterName in clusters {
+    <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("seq_" + clusterName + "_key")
+                                                      .transitionTo(<item:create:incomplete_track>)
+                                                      .require(<item:the_vault:cluster_${clusterName}>)
+                                                      .loops(0)
+                                                      .addOutput(<item:the_vault:key_${clusterName}> * 1, 32)
+                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:the_vault:blank_key>))
+                                                      .addStep<mods.createtweaker.PressingRecipe>((rb) => rb.duration(500)));
+
+}
