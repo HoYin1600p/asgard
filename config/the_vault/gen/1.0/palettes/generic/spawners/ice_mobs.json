@@ -8,10 +8,10 @@
           "type": "weighted_target",
           "target": "ispawner:spawner",
           "output": {
-            "ispawner:spawner{ group:horde }": 40,
-            "ispawner:spawner{ group:assassin }": 30,
-            "ispawner:spawner{ group:tank }": 12,
-            "ispawner:spawner{ group:dwellers }": 18
+            "ispawner:spawner{ group:horde }": 59,
+            "ispawner:spawner{ group:assassin }": 28,
+            "ispawner:spawner{ group:tank }": 8,
+            "ispawner:spawner{ group:dwellers }": 5
           }
         }
       ]
@@ -145,7 +145,8 @@
           "output": [
             {
               "elements": {
-                "minecraft:stray": 6
+                "minecraft:stray": 6,
+                "the_vault:winter_wolf": 6
               },
               "weight": 1
             }
@@ -159,7 +160,8 @@
             {
               "elements": {
                 "minecraft:stray": 10,
-                "the_vault:t1_stray": 4
+                "the_vault:t1_stray": 4,
+                "the_vault:winter_wolf": 14
               },
               "weight": 1
             }
@@ -173,7 +175,8 @@
             {
               "elements": {
                 "minecraft:stray": 6,
-                "the_vault:t1_stray": 6
+                "the_vault:t1_stray": 6,
+                "the_vault:winter_wolf": 12
               },
               "weight": 1
             }
@@ -187,7 +190,8 @@
             {
               "elements": {
                 "minecraft:stray": 1,
-                "the_vault:t1_stray": 8
+                "the_vault:t1_stray": 8,
+                "the_vault:winter_wolf": 9
               },
               "weight": 1
             }
@@ -201,7 +205,8 @@
             {
               "elements": {
                 "the_vault:t1_stray": 9,
-                "the_vault:t2_stray": 4
+                "the_vault:t2_stray": 4,
+                "the_vault:winter_wolf": 13
               },
               "weight": 1
             }
@@ -215,7 +220,8 @@
             {
               "elements": {
                 "the_vault:t1_stray": 6,
-                "the_vault:t2_stray": 6
+                "the_vault:t2_stray": 6,
+                "the_vault:winter_wolf": 12
               },
               "weight": 1
             }
@@ -229,7 +235,8 @@
             {
               "elements": {
                 "the_vault:t3_stray": 1,
-                "the_vault:t2_stray": 10
+                "the_vault:t2_stray": 10,
+                "the_vault:winter_wolf": 11
               },
               "weight": 1
             }
@@ -243,7 +250,8 @@
             {
               "elements": {
                 "the_vault:t3_stray": 1,
-                "the_vault:t2_stray": 9
+                "the_vault:t2_stray": 9,
+                "the_vault:winter_wolf": 10
               },
               "weight": 1
             }
@@ -257,7 +265,8 @@
             {
               "elements": {
                 "the_vault:t3_stray": 1,
-                "the_vault:t2_stray": 8
+                "the_vault:t2_stray": 8,
+                "the_vault:winter_wolf": 9
               },
               "weight": 1
             }
@@ -271,7 +280,8 @@
             {
               "elements": {
                 "the_vault:t3_stray": 2,
-                "the_vault:t2_stray": 7
+                "the_vault:t2_stray": 7,
+                "the_vault:winter_wolf": 9
               },
               "weight": 1
             }
@@ -285,7 +295,8 @@
             {
               "elements": {
                 "the_vault:t3_stray": 6,
-                "the_vault:t2_stray": 12
+                "the_vault:t2_stray": 12,
+                "the_vault:winter_wolf": 18
               },
               "weight": 1
             }
