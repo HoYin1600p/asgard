@@ -732,7 +732,7 @@ craftingTable.remove(<item:mininggadgets:mininggadget>);
 craftingTable.remove(<item:mininggadgets:mininggadget_simple>);
 craftingTable.remove(<item:mininggadgets:mininggadget_fancy>);
 craftingTable.remove(<item:mininggadgets:modificationtable>);
-craftingTable.remove(<item:mininggadgets:upgrade_empty>); 
+craftingTable.remove(<item:mininggadgets:upgrade_empty>);
 craftingTable.remove(<item:mininggadgets:upgrade_efficiency_1>);
 craftingTable.remove(<item:mininggadgets:upgrade_efficiency_2>);
 craftingTable.remove(<item:mininggadgets:upgrade_efficiency_3>);
@@ -763,23 +763,25 @@ craftingTable.remove(<item:rftoolsbase:crafting_card>);
 craftingTable.remove(<item:rftoolsbase:machine_frame>);
 craftingTable.remove(<item:rftoolsbase:tablet>);
 
+/*
 // Simple Storage
-//craftingTable.remove(<item:storagenetwork:inventory_remote>);
-//craftingTable.remove(<item:storagenetwork:builder_remote>);
-//craftingTable.remove(<item:storagenetwork:crafting_remote>);
-//craftingTable.remove(<item:storagenetwork:inventory>);
-//craftingTable.remove(<item:storagenetwork:request>);
-//craftingTable.remove(<item:storagenetwork:master>);
-//craftingTable.remove(<item:storagenetwork:kabel>);
-//craftingTable.remove(<item:storagenetwork:storage_kabel>);
-//craftingTable.remove(<item:storagenetwork:filter_kabel>);
-//craftingTable.remove(<item:storagenetwork:speed_upgrade>);
-//craftingTable.remove(<item:storagenetwork:stack_upgrade>);
-//craftingTable.remove(<item:storagenetwork:collector_remote>);
-//craftingTable.remove(<item:storagenetwork:picker_remote>);
-//craftingTable.remove(<item:storagenetwork:export_kabel>);
-//craftingTable.remove(<item:storagenetwork:import_filter_kabel>);
-//craftingTable.remove(<item:storagenetwork:import_kabel>);
+craftingTable.remove(<item:storagenetwork:inventory_remote>);
+craftingTable.remove(<item:storagenetwork:builder_remote>);
+craftingTable.remove(<item:storagenetwork:crafting_remote>);
+craftingTable.remove(<item:storagenetwork:inventory>);
+craftingTable.remove(<item:storagenetwork:request>);
+craftingTable.remove(<item:storagenetwork:master>);
+craftingTable.remove(<item:storagenetwork:kabel>);
+craftingTable.remove(<item:storagenetwork:storage_kabel>);
+craftingTable.remove(<item:storagenetwork:filter_kabel>);
+craftingTable.remove(<item:storagenetwork:speed_upgrade>);
+craftingTable.remove(<item:storagenetwork:stack_upgrade>);
+craftingTable.remove(<item:storagenetwork:collector_remote>);
+craftingTable.remove(<item:storagenetwork:picker_remote>);
+craftingTable.remove(<item:storagenetwork:export_kabel>);
+craftingTable.remove(<item:storagenetwork:import_filter_kabel>);
+craftingTable.remove(<item:storagenetwork:import_kabel>);
+*/
 
 // Xnet
 for cable in cables {
@@ -910,7 +912,6 @@ craftingTable.remove(<item:sophisticatedbackpacks:auto_smelting_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:blasting_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:iron_backpack>);
-craftingTable.remove(<item:sophisticatedbackpacks:copper_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:gold_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:diamond_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:netherite_backpack>);
@@ -933,8 +934,6 @@ craftingTable.remove(<item:sophisticatedbackpacks:restock_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_restock_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:deposit_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_deposit_upgrade>);
-craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_starter_tier>);
-craftingTable.remove(<item:sophisticatedbackpacks:anvil_upgrade>);
 
 // Waystones
 craftingTable.remove(<item:waystones:waystone>);
@@ -1022,7 +1021,7 @@ craftingTable.remove(<item:entangled:block>);
 craftingTable.remove(<item:entangled:item>);
 
 
-// craftingTable.remove();   
+// craftingTable.remove();
 
 // removing items from JEI
 
@@ -1053,9 +1052,6 @@ JEI.hideIngredient(<item:sophisticatedbackpacks:tank_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:advanced_pump_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:auto_smelting_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:blasting_upgrade>);
-JEI.hideIngredient(<item:sophisticatedbackpacks:copper_backpack>);
-JEI.hideIngredient(<item:sophisticatedbackpacks:stack_upgrade_starter_tier>);
-JEI.hideIngredient(<item:sophisticatedbackpacks:anvil_upgrade>);
 // Refined
 //JEI.hideIngredient(<item:refinedstorage:raw_basic_processor>);
 //JEI.hideIngredient(<item:refinedstorage:processor_binding>);
@@ -1344,7 +1340,7 @@ JEI.hideIngredient(<item:the_vault:mystic_pear>);
 JEI.hideIngredient(<item:the_vault:rokkit_launcha>);
 JEI.hideIngredient(<item:the_vault:wild_spawner>);
 JEI.hideIngredient(<item:the_vault:pandoras_box>);
-// JEI.hideIngredient(<item:the_vault:etching>);
+JEI.hideIngredient(<item:the_vault:etching>);
 // JEI.hideIngredient(<item:the_vault:etching_fragment>);
 JEI.hideIngredient(<item:the_vault:monolith>);
 JEI.hideIngredient(<item:the_vault:unknown_item>);
@@ -1361,7 +1357,7 @@ JEI.hideIngredient(<item:the_vault:mvp_crown>);
 JEI.hideIngredient(<item:the_vault:ore_vault_rock>);
 JEI.hideIngredient(<item:the_vault:vault_glass>);
 JEI.hideIngredient(<item:the_vault:loot_statue>);
-JEI.hideIngredient(<item:the_vault:shop_pedestal>);
+//JEI.hideIngredient(<item:the_vault:shop_pedestal>);
 JEI.hideIngredient(<item:the_vault:trophy_statue>);
 JEI.hideIngredient(<item:the_vault:hourglass>);
 JEI.hideIngredient(<item:the_vault:scavenger_treasure>);
@@ -1453,7 +1449,6 @@ JEI.hideIngredient(<item:the_vault:archetype_star_essence>);
 JEI.hideIngredient(<item:the_vault:archetype_star_shard>);
 JEI.hideIngredient(<item:the_vault:cluster_netherite>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_raid>);
-JEI.hideIngredient(<item:the_vault:crystal_seal_architect>);
 JEI.hideIngredient(<item:the_vault:infused_eternal_soul>);
 JEI.hideIngredient(<item:the_vault:hardened_wutodic_mass>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_elixir>);
