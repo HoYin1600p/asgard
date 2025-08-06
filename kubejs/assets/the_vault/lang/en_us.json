@@ -9,6 +9,11 @@
 	"item.the_vault.red_vault_essence": "Red Vault Essence",
 	"item.the_vault.mystery_box": "Mystery Box",
 
+	"jei.the_vault.wooden_barrel_loot": "Wooden Barrel Loot",
+	"jei.the_vault.living_barrel_loot": "Living Barrel Loot",
+	"jei.the_vault.gilded_barrel_loot": "Gilded Barrel Loot",
+	"jei.the_vault.ornate_barrel_loot": "Ornate Barrel Loot",
+	"jei.the_vault.completion_crate_brutal_bosses_loot": "Brutal Bosses Completion Crate",
 
 	"item.the_vault.vault_essence": "Vault Essence - Flex Tape",
 	"block.the_vault.velvet_bed": "Linahun's Bed",
@@ -22,6 +27,10 @@
 	"block.the_vault.ore_iskallium_stone": "Shrimpium Ore - Stone",
 	"block.the_vault.ore_iskallium_white": "Vault Calcite",
 	"block.the_vault.ore_iskallium_vault_stone": "Shrimpium Ore - Vault Stone",
+	"block.the_vault.block_gem_iskallium": "Shrimpium Block",
+	"block.the_vault.block_gem_iskallium_stairs": "Shrimpium Stairs",
+	"block.the_vault.block_gem_iskallium_slab": "Shrimpium Slab",
+	"block.the_vault.block_gem_iskallium_wall": "Shrimpium Wall",
 
 	"item.the_vault.gem_gorginite": "Linathyst Gem",
 	"item.the_vault.cluster_gorginite": "Linathyst Cluster",
@@ -32,6 +41,10 @@
 	"block.the_vault.ore_gorginite_stone": "Linathyst Ore - Stone",
 	"block.the_vault.ore_gorginite_white": "Vault Calcite",
 	"block.the_vault.ore_gorginite_vault_stone": "Linathyst Ore - Vault Stone",
+	"block.the_vault.block_gem_gorginite": "Linathyst Block",
+	"block.the_vault.block_gem_gorginite_stairs": "Linathyst Stairs",
+	"block.the_vault.block_gem_gorginite_slab": "Linathyst Slab",
+	"block.the_vault.block_gem_gorginite_wall": "Linathyst Wall",
 
 	"item.the_vault.gem_sparkletine": "Zeeabar Gem",
 	"item.the_vault.cluster_sparkletine": "Zeeabar Cluster",
@@ -42,6 +55,10 @@
 	"block.the_vault.ore_sparkletine_stone": "Zeeabar Ore - Stone",
 	"block.the_vault.ore_sparkletine_white": "Vault Calcite",
 	"block.the_vault.ore_sparkletine_vault_stone": "Zeeabar Ore - Vault Stone",
+	"block.the_vault.block_gem_sparkletine": "Zeeabar Block",
+	"block.the_vault.block_gem_sparkletine_stairs": "Zeeabar Stairs",
+	"block.the_vault.block_gem_sparkletine_slab": "Zeeabar Slab",
+	"block.the_vault.block_gem_sparkletine_wall": "Zeeabar Wall",
 
 	"item.the_vault.gem_bomignite": "K-Terium Gem",
 	"item.the_vault.cluster_bomignite": "K-Terium Cluster",
@@ -52,6 +69,10 @@
 	"block.the_vault.ore_bomignite_stone": "K-Terium Ore - Stone",
 	"block.the_vault.ore_bomignite_white": "Vault Calcite",
 	"block.the_vault.ore_bomignite_vault_stone": "K-Terium Ore - Vault Stone",
+	"block.the_vault.block_gem_bomignite": "K-Terium Block",
+	"block.the_vault.block_gem_bomignite_stairs": "K-Terium Stairs",
+	"block.the_vault.block_gem_bomignite_slab": "K-Terium Slab",
+	"block.the_vault.block_gem_bomignite_wall": "K-Terium Wall",
 
 	"item.the_vault.gem_tubium": "Tazanite Gem",
 	"item.the_vault.cluster_tubium": "Tazanite Cluster",
@@ -62,6 +83,10 @@
 	"block.the_vault.ore_tubium_stone": "Tazanite Ore - Stone",
 	"block.the_vault.ore_tubium_white": "Vault Calcite",
 	"block.the_vault.ore_tubium_vault_stone": "Tazanite Ore - Vault Stone",
+	"block.the_vault.block_gem_tubium": "Tazanite Block",
+	"block.the_vault.block_gem_tubium_stairs": "Tazanite Stairs",
+	"block.the_vault.block_gem_tubium_slab": "Tazanite Slab",
+	"block.the_vault.block_gem_tubium_wall": "Tazanite Wall",
 
 	"item.the_vault.gem_petzanite": "Jawwnnite Gem",
 	"item.the_vault.cluster_petzanite": "Jawwnnite Cluster",
@@ -72,6 +97,10 @@
 	"block.the_vault.ore_petzanite_stone": "Jawwnnite Ore - Stone",
 	"block.the_vault.ore_petzanite_white": "Vault Calcite",
 	"block.the_vault.ore_petzanite_vault_stone": "Jawwnnite Ore - Vault Stone",
+	"block.the_vault.block_gem_petzanite": "Jawwnnite Block",
+	"block.the_vault.block_gem_petzanite_stairs": "Jawwnnite Stairs",
+	"block.the_vault.block_gem_petzanite_slab": "Jawwnnite Slab",
+	"block.the_vault.block_gem_petzanite_wall": "Jawwnnite Wall",
 
 	"item.the_vault.gem_xenium": "Holladium Gem",
 	"item.the_vault.cluster_xenium": "Holladium Cluster",
@@ -82,6 +111,10 @@
 	"block.the_vault.ore_xenium_stone": "Holladium Ore - Stone",
 	"block.the_vault.ore_xenium_white": "Vault Calcite",
 	"block.the_vault.ore_xenium_vault_stone": "Holladium Ore - Vault Stone",
+	"block.the_vault.block_gem_xenium": "Holladium Block",
+	"block.the_vault.block_gem_xenium_stairs": "Holladium Stairs",
+	"block.the_vault.block_gem_xenium_slab": "Holladium Slab",
+	"block.the_vault.block_gem_xenium_wall": "Holladium Wall",
 
 	"item.the_vault.gem_ashium": "Gigatonium Gem",
 	"item.the_vault.cluster_ashium": "Gigatonium Cluster",
@@ -92,6 +125,10 @@
 	"block.the_vault.ore_ashium_stone": "Gigatonium Ore - Stone",
 	"block.the_vault.ore_ashium_white": "Vault Calcite",
 	"block.the_vault.ore_ashium_vault_stone": "Gigatonium Ore - Vault Stone",
+	"block.the_vault.block_gem_ashium": "Gigatonium Block",
+	"block.the_vault.block_gem_ashium_stairs": "Gigatonium Stairs",
+	"block.the_vault.block_gem_ashium_slab": "Gigatonium Slab",
+	"block.the_vault.block_gem_ashium_wall": "Gigatonium Wall",
 
 	"item.the_vault.gem_upaline": "Spikium Gem",
 	"item.the_vault.cluster_upaline": "Spikium Cluster",
@@ -102,6 +139,11 @@
 	"block.the_vault.ore_upaline_stone": "Spikium Ore - Stone",
 	"block.the_vault.ore_upaline_white": "Vault Calcite",
 	"block.the_vault.ore_upaline_vault_stone": "Spikium Ore - Vault Stone",
+	"block.the_vault.block_gem_upaline": "Spikium Block",
+	"block.the_vault.block_gem_upaline_stairs": "Spikium Stairs",
+	"block.the_vault.block_gem_upaline_slab": "Spikium Slab",
+	"block.the_vault.block_gem_upaline_wall": "Spikium Wall",
+
 
 	"item.the_vault.gem_larimar": "Verimar Gem",
 	"item.the_vault.perfect_larimar": "Perfect Verimar",
@@ -110,6 +152,10 @@
 	"block.the_vault.ore_larimar_stone": "Verimar Ore - Stone",
 	"block.the_vault.ore_larimar_white": "Vault Calcite",
 	"block.the_vault.ore_larimar_vault_stone": "Verimar Ore - Vault Stone",
+	"block.the_vault.block_gem_larimar": "Verimar Block",
+	"block.the_vault.block_gem_larimar_stairs": "Verimar Stairs",
+	"block.the_vault.block_gem_larimar_slab": "Verimar Slab",
+	"block.the_vault.block_gem_larimar_wall": "Verimar Wall",
 
 	"item.the_vault.gem_benitoite": "Hydratium Gem",
 	"item.the_vault.perfect_benitoite": "Perfect Hydratium",
@@ -118,6 +164,10 @@
 	"block.the_vault.ore_benitoite_stone": "Hydratium Ore - Stone",
 	"block.the_vault.ore_benitoite_white": "Vault Calcite",
 	"block.the_vault.ore_benitoite_vault_stone": "Hydratium Ore - Vault Stone",
+	"block.the_vault.block_gem_benitoite": "Hydratium Block",
+	"block.the_vault.block_gem_benitoite_stairs": "Hydratium Stairs",
+	"block.the_vault.block_gem_benitoite_slab": "Hydratium Slab",
+	"block.the_vault.block_gem_benitoite_wall": "Hydratium Wall",
 
 	"item.the_vault.gem_painite": "Hellfire Gem",
 	"item.the_vault.perfect_painite": "Perfect Hellfire",
@@ -126,6 +176,10 @@
 	"block.the_vault.ore_painite_stone": "Hellfire Ore - Stone",
 	"block.the_vault.ore_painite_white": "Vault Calcite",
 	"block.the_vault.ore_painite_vault_stone": "Hellfire Ore - Vault Stone",
+	"block.the_vault.block_gem_painite": "Hellfire Block",
+	"block.the_vault.block_gem_painite_stairs": "Hellfire Stairs",
+	"block.the_vault.block_gem_painite_slab": "Hellfire Slab",
+	"block.the_vault.block_gem_painite_wall": "Hellfire Wall",
 
 	"item.the_vault.gem_alexandrite": "Lunaphire Gem",
 	"item.the_vault.perfect_alexandrite": "Perfect Lunaphire",
@@ -134,6 +188,10 @@
 	"block.the_vault.ore_alexandrite_stone": "Lunaphire Ore - Stone",
 	"block.the_vault.ore_alexandrite_white": "Vault Calcite",
 	"block.the_vault.ore_alexandrite_vault_stone": "Lunaphire Ore - Vault Stone",
+	"block.the_vault.block_gem_alexandrite": "Lunaphire Block",
+	"block.the_vault.block_gem_alexandrite_stairs": "Lunaphire Stairs",
+	"block.the_vault.block_gem_alexandrite_slab": "Lunaphire Slab",
+	"block.the_vault.block_gem_alexandrite_wall": "Lunaphire Wall",
 
 	"item.the_vault.gem_wutodie": "Gothartica Gem",
 	"item.the_vault.perfect_wutodie": "Perfect Gothartica",
@@ -147,6 +205,10 @@
 	"block.the_vault.ore_wutodie_stone": "Gothartica Ore - Stone",
 	"block.the_vault.ore_wutodie_white": "Vault Calcite",
 	"block.the_vault.ore_wutodie_vault_stone": "Gothartica Ore - Vault Stone",
+	"block.the_vault.block_gem_wutodie": "Gothartica Block",
+	"block.the_vault.block_gem_wutodie_stairs": "Gothartica Stairs",
+	"block.the_vault.block_gem_wutodie_slab": "Gothartica Slab",
+	"block.the_vault.block_gem_wutodie_wall": "Gothartica Wall",
 
 
 	"item.the_vault.gem_black_opal": "Kronkium Gem",
@@ -155,6 +217,9 @@
 	"block.the_vault.ore_black_opal": "Kronkium Ore",
 	"block.the_vault.ore_black_opal_stone": "Kronkium Ore - Stone",
 	"block.the_vault.ore_black_opal_white": "Vault Calcite",
-	"block.the_vault.ore_black_opal_vault_stone": "Kronkium Ore - Vault Stone"
-
+	"block.the_vault.ore_black_opal_vault_stone": "Kronkium Ore - Vault Stone",
+	"block.the_vault.block_gem_black_opal": "Kronkium Block",
+	"block.the_vault.block_gem_black_opal_stairs": "Kronkium Stairs",
+	"block.the_vault.block_gem_black_opal_slab": "Kronkium Slab",
+	"block.the_vault.block_gem_black_opal_wall": "Kronkium Wall"
 }
