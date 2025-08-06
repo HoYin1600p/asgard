@@ -1,38 +1,38 @@
 {
-  "tile_processors": [
-    {
-      "type": "leveled",
-      "levels": [
-        {
-          "level": 0,
-          "type": "bernoulli_weighted_target",
-          "probability": 1.00,
-          "target": "chipped:netherite_block_9",
-          "success": {
-            "the_vault:elite_spawner{spawnGroupName:\"the_vault:fire_dragon\"}": 1
-          },
-          "failure": {
-            "minecraft:air": 1
+    "tile_processors": [
+      {
+        "type": "leveled",
+        "levels": [
+          {
+            "level": 0,
+            "type": "bernoulli_weighted_target",
+            "probability": 1.00,
+            "target": "chipped:netherite_block_9",
+            "success": {
+              "the_vault:elite_spawner{spawnGroupName:\"the_vault:fire_dragon\"}": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
           }
-        }
-      ]
-    },
-    {
-      "type": "leveled",
-      "levels": [
-        {
-          "level": 0,
-          "type": "bernoulli_weighted_target",
-          "probability": 0.00,
-          "target": "minecraft:diamond_block",
-          "success": {
-            "the_vault:elite_spawner{spawnGroupName:\"the_vault:treasure_goblin\"}": 1
-          },
-          "failure": {
-            "minecraft:air": 1
+        ]
+      },
+      {
+        "type": "leveled",
+        "levels": [
+          {
+            "level": 0,
+            "type": "bernoulli_weighted_target",
+            "probability": 0.00,
+            "target": "minecraft:diamond_block",
+            "success": {
+              "the_vault:elite_spawner{spawnGroupName:\"the_vault:treasure_goblin\"}": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
           }
-        }
-      ]
-    }
-  ]
+        ]
+      }
+    ]
 }

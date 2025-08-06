@@ -1,6 +1,6 @@
 [
   {
-    "weight": 2,
+    "weight": 1,
     "value": {
       "template": "the_vault:empty",
       "palettes": []
@@ -9,115 +9,62 @@
   {
     "weight": 1,
     "pool": [
-
       {
         "weight": 1,
         "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_boots_hanging",
+          "template": "the_vault:vault/decor/pixel/bounty_pearl",
           "palettes": [
           ]
         }
-      },
+      }
+    ]
+  },
+  {
+    "weight": 1,
+    "pool": [
       {
         "weight": 1,
         "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_leggings_hanging",
+          "template": "the_vault:vault/decor/pixel/magic_silk",
           "palettes": [
           ]
         }
-      },
+      }
+    ]
+  },
+  {
+    "weight": 1,
+    "pool": [
       {
         "weight": 1,
         "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_chest_hanging",
+          "template": "the_vault:vault/decor/pixel/shulker_shell",
           "palettes": [
           ]
         }
-      },
+      }
+    ]
+  },
+  {
+    "weight": 1,
+    "pool": [
       {
         "weight": 1,
         "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_helmet_hanging",
+          "template": "the_vault:vault/decor/pixel/essence",
           "palettes": [
           ]
         }
-      },
-      {
-        "weight": 0,
-        "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_sword_hanging",
-          "palettes": [
-          ]
-        }
-      },
+      }
+    ]
+  },
+  {
+    "weight": 1,
+    "pool": [
       {
         "weight": 1,
         "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_totem_hanging",
-          "palettes": [
-          ]
-        }
-      },
-      {
-        "weight": 1,
-        "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_cata_hanging",
-          "palettes": [
-          ]
-        }
-      },
-      {
-        "weight": 1,
-        "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_omega_hanging",
-          "palettes": [
-          ]
-        }
-      },
-      {
-        "weight": 1,
-        "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_mod_hanging",
-          "palettes": [
-          ]
-        }
-      },
-      {
-        "weight": 1,
-        "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_mystery_hanging",
-          "palettes": [
-          ]
-        }
-      },
-      {
-        "weight": 1,
-        "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_bronze_hanging",
-          "palettes": [
-          ]
-        }
-      },
-      {
-        "weight": 1,
-        "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_silver_hanging",
-          "palettes": [
-          ]
-        }
-      },
-      {
-        "weight": 1,
-        "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_gold_hanging",
-          "palettes": [
-          ]
-        }
-      },
-      {
-        "weight": 1,
-        "value": {
-          "template": "the_vault:vault/decor/pixel/pixel_platinum_hanging",
+          "template": "the_vault:vault/decor/pixel/sweets",
           "palettes": [
           ]
         }
