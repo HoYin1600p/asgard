@@ -428,6 +428,8 @@ craftingTable.remove(<item:botania:hourglass>);
 craftingTable.remove(<item:botania:mana_pylon>);
 craftingTable.remove(<item:botania:lens_magnet>);
 
+//Chunky
+craftingTable.remove(<item:chunkymcchunkface:chunk_loader>);
 
 //Drawers
 for logId, logName in logs {
@@ -761,25 +763,23 @@ craftingTable.remove(<item:rftoolsbase:crafting_card>);
 craftingTable.remove(<item:rftoolsbase:machine_frame>);
 craftingTable.remove(<item:rftoolsbase:tablet>);
 
-/*
 // Simple Storage
-craftingTable.remove(<item:storagenetwork:inventory_remote>);
-craftingTable.remove(<item:storagenetwork:builder_remote>);
-craftingTable.remove(<item:storagenetwork:crafting_remote>);
-craftingTable.remove(<item:storagenetwork:inventory>);
-craftingTable.remove(<item:storagenetwork:request>);
-craftingTable.remove(<item:storagenetwork:master>);
-craftingTable.remove(<item:storagenetwork:kabel>);
-craftingTable.remove(<item:storagenetwork:storage_kabel>);
-craftingTable.remove(<item:storagenetwork:filter_kabel>);
-craftingTable.remove(<item:storagenetwork:speed_upgrade>);
-craftingTable.remove(<item:storagenetwork:stack_upgrade>);
-craftingTable.remove(<item:storagenetwork:collector_remote>);
-craftingTable.remove(<item:storagenetwork:picker_remote>);
-craftingTable.remove(<item:storagenetwork:export_kabel>);
-craftingTable.remove(<item:storagenetwork:import_filter_kabel>);
-craftingTable.remove(<item:storagenetwork:import_kabel>);
-*/
+//craftingTable.remove(<item:storagenetwork:inventory_remote>);
+//craftingTable.remove(<item:storagenetwork:builder_remote>);
+//craftingTable.remove(<item:storagenetwork:crafting_remote>);
+//craftingTable.remove(<item:storagenetwork:inventory>);
+//craftingTable.remove(<item:storagenetwork:request>);
+//craftingTable.remove(<item:storagenetwork:master>);
+//craftingTable.remove(<item:storagenetwork:kabel>);
+//craftingTable.remove(<item:storagenetwork:storage_kabel>);
+//craftingTable.remove(<item:storagenetwork:filter_kabel>);
+//craftingTable.remove(<item:storagenetwork:speed_upgrade>);
+//craftingTable.remove(<item:storagenetwork:stack_upgrade>);
+//craftingTable.remove(<item:storagenetwork:collector_remote>);
+//craftingTable.remove(<item:storagenetwork:picker_remote>);
+//craftingTable.remove(<item:storagenetwork:export_kabel>);
+//craftingTable.remove(<item:storagenetwork:import_filter_kabel>);
+//craftingTable.remove(<item:storagenetwork:import_kabel>);
 
 // Xnet
 for cable in cables {
@@ -910,6 +910,7 @@ craftingTable.remove(<item:sophisticatedbackpacks:auto_smelting_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:blasting_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:iron_backpack>);
+craftingTable.remove(<item:sophisticatedbackpacks:copper_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:gold_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:diamond_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:netherite_backpack>);
@@ -932,6 +933,8 @@ craftingTable.remove(<item:sophisticatedbackpacks:restock_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_restock_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:deposit_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_deposit_upgrade>);
+craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_starter_tier>);
+craftingTable.remove(<item:sophisticatedbackpacks:anvil_upgrade>);
 
 // Waystones
 craftingTable.remove(<item:waystones:waystone>);
@@ -1014,6 +1017,10 @@ craftingTable.remove(<item:powah:solar_panel_basic>);
 <recipetype:powah:energizing>.remove(<item:powah:charged_snowball>);
 <recipetype:powah:energizing>.remove(<item:powah:dry_ice>);
 
+// Entangled
+craftingTable.remove(<item:entangled:block>);
+craftingTable.remove(<item:entangled:item>);
+
 
 // craftingTable.remove();   
 
@@ -1046,6 +1053,9 @@ JEI.hideIngredient(<item:sophisticatedbackpacks:tank_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:advanced_pump_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:auto_smelting_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:blasting_upgrade>);
+JEI.hideIngredient(<item:sophisticatedbackpacks:copper_backpack>);
+JEI.hideIngredient(<item:sophisticatedbackpacks:stack_upgrade_starter_tier>);
+JEI.hideIngredient(<item:sophisticatedbackpacks:anvil_upgrade>);
 // Refined
 //JEI.hideIngredient(<item:refinedstorage:raw_basic_processor>);
 //JEI.hideIngredient(<item:refinedstorage:processor_binding>);
@@ -1334,7 +1344,7 @@ JEI.hideIngredient(<item:the_vault:mystic_pear>);
 JEI.hideIngredient(<item:the_vault:rokkit_launcha>);
 JEI.hideIngredient(<item:the_vault:wild_spawner>);
 JEI.hideIngredient(<item:the_vault:pandoras_box>);
-JEI.hideIngredient(<item:the_vault:etching>);
+// JEI.hideIngredient(<item:the_vault:etching>);
 // JEI.hideIngredient(<item:the_vault:etching_fragment>);
 JEI.hideIngredient(<item:the_vault:monolith>);
 JEI.hideIngredient(<item:the_vault:unknown_item>);
@@ -1351,7 +1361,7 @@ JEI.hideIngredient(<item:the_vault:mvp_crown>);
 JEI.hideIngredient(<item:the_vault:ore_vault_rock>);
 JEI.hideIngredient(<item:the_vault:vault_glass>);
 JEI.hideIngredient(<item:the_vault:loot_statue>);
-//JEI.hideIngredient(<item:the_vault:shop_pedestal>);
+JEI.hideIngredient(<item:the_vault:shop_pedestal>);
 JEI.hideIngredient(<item:the_vault:trophy_statue>);
 JEI.hideIngredient(<item:the_vault:hourglass>);
 JEI.hideIngredient(<item:the_vault:scavenger_treasure>);
@@ -1443,6 +1453,7 @@ JEI.hideIngredient(<item:the_vault:archetype_star_essence>);
 JEI.hideIngredient(<item:the_vault:archetype_star_shard>);
 JEI.hideIngredient(<item:the_vault:cluster_netherite>);
 JEI.hideIngredient(<item:the_vault:crystal_seal_raid>);
+JEI.hideIngredient(<item:the_vault:crystal_seal_architect>);
 JEI.hideIngredient(<item:the_vault:infused_eternal_soul>);
 JEI.hideIngredient(<item:the_vault:hardened_wutodic_mass>);
 JEI.hideIngredient(<item:the_vault:sublime_vault_elixir>);
@@ -1528,6 +1539,18 @@ JEI.hideIngredient(<item:the_vault:t2_cave_skeleton_egg>);
 JEI.hideIngredient(<item:the_vault:t3_cave_skeleton_egg>);
 JEI.hideIngredient(<item:the_vault:t4_cave_skeleton_egg>);
 JEI.hideIngredient(<item:the_vault:t5_cave_skeleton_egg>);
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "Defensive" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "ResDmg" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "Mana" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "Looting" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "Offensive" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "OnHit" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "Sweeping" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "DamageIllagers" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "DamageSpiders" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "DamageUndead" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "DamageNether" as string}));
+JEI.hideIngredient(<item:the_vault:faceted_focus>.withTag({modTag: "Block" as string}));
 //JEI.addIngredient(<item:the_vault:bottle>.withTag({charges:6 as int,recharge:"time" as string,type:"brew" as string,vaultGearData:"[L;7069878597367160218L,-6692775768183260158L,1514722424829610009L,3527585455153845571L,2753168875257675788L,2987536090647L,565248L,8830586978304L]"}));
 //JEI.hideIngredient(<item:the_vault:boss_rune>);
 // Augments
