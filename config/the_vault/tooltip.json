@@ -65,6 +65,14 @@
       "value": "Is it cake?\nPut this Vault Rock on a Vault Altar to create a Cake Crystal!"
     },
     {
+      "item": "the_vault:crystal_seal_herald",
+      "value": "Put this Vault Rock on a Vault Altar to create a Herald Crystal!"
+    },
+    {
+      "item": "the_vault:crystal_seal_raid_infinite",
+      "value": "Put this Vault Rock on a Vault Altar to create an Infinite Raid Crystal!"
+    },
+    {
       "item": "the_vault:crystal_seal_ordinator_build",
       "value": "Put this Vault Rock on a Vault Altar to create your Divine Architecture Crystal"
     },
@@ -885,6 +893,18 @@
       "value": "Use in a Crystal Workbench to modify/upgrade a Vault Crystal"
     },
     {
+      "item": "the_vault:companion_relic",
+      "value": "Use in a Companion Home to add a modifier to your companion."
+    },
+    {
+      "item": "the_vault:companion_egg",
+      "value": "Place in a Companion Incubator to hatch a companion!"
+    },
+    {
+      "item": "the_vault:companion_particle_trail",
+      "value": "Place in a Companion Home to give your companion a trail!"
+    },
+    {
       "item": "the_vault:vault_catalyst_chaos",
       "value": "Put this Vault Rock on a Vault Altar to create a Chaos Crystal, adding 30 completely random modifiers to the vault."
     },
@@ -1227,7 +1247,7 @@
     },
     {
       "item": "woldsvaults:wold_star",
-      "value": "Legendary crafting ingredient used in creative tier recipes."
+      "value": "Legendary crafting ingredient."
     },
     {
       "item": "woldsvaults:pog_prism",

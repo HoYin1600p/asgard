@@ -9,7 +9,7 @@
                 { "text": "Perk: ", "color": "gray" },
                 { "text": "More ", "color": "white" },
                 { "text": "ores", "color": "$name" },
-                
+
                 { "text": " and ", "color": "white" },
                 { "text": "Chromatic Caves", "color": "$name" },
                 { "text": " generate\n", "color": "white" },
@@ -46,6 +46,19 @@
                 { "text": " 2", "color": "white" },
                 { "text": " | ", "color": "gray" },
                 { "text": "\u2694 \uD83C\uDFF9", "color": "gray" },
+                { "text": "\n", "color": "gray" },
+
+                { "text": " Vault Wraiths ", "color": "white" },
+                { "text": "\uD83D\uDDE1", "color": "$orange" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 3", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265D", "color": "$speed" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694", "color": "gray" },
                 { "text": "\n", "color": "gray" },
 
                 { "text": "Tanks", "color": "gray" },
@@ -293,7 +306,7 @@
                 { "text": "\u2694 \uD83C\uDFF9 \u2744", "color": "gray" },
                 { "text": "\n", "color": "gray" },
 
-                { "text": " Wolf ", "color": "white" },
+                { "text": " Snow Wolf ", "color": "white" },
                 { "text": "\uD83D\uDDE1", "color": "$orange" },
                 { "text": " 2", "color": "white" },
                 { "text": " | ", "color": "gray" },
@@ -893,6 +906,89 @@
             }
         ]
         },
+        "RawVault": {
+        "displayName": "Raw Vault",
+        "colour": 13948116,
+        "description": [
+            {
+            "description": [
+                { "text": "Perk: ", "color": "gray" },
+                { "text": "Vault Altar Ingredients", "color": "white" },
+                { "text": " and ", "color": "white" },
+                { "text": "\nChromatic Caves", "color": "$name" },
+                { "text": " can be found\n", "color": "white" },
+
+                { "text": "Hordes", "color": "gray" },
+                { "text": " | ", "color": "$darkgray" },
+                { "text": "\u2591", "color": "gray" },
+                { "text": "\u2591\u2591\u2591\n", "color": "$darkgray" },
+                { "text": " Deeprot Miners ", "color": "white" },
+                { "text": "\uD83D\uDDE1", "color": "$orange" },
+                { "text": " 1", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 3", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265D", "color": "$speed" },
+                { "text": " 1", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694", "color": "gray" },
+                { "text": "\n", "color": "gray" },
+
+                { "text": "Assassins", "color": "gray" },
+                { "text": " | ", "color": "$darkgray" },
+                { "text": "\u2591\u2591\u2591", "color": "gray" },
+                { "text": "\u2591\n", "color": "$darkgray" },
+                { "text": " Orebound ", "color": "white" },
+                { "text": "\uD83D\uDDE1", "color": "$orange" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265D", "color": "$speed" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694 \uD83C\uDFF9", "color": "gray" },
+                { "text": "\n", "color": "gray" },
+
+                { "text": " Vault Wraiths ", "color": "white" },
+                { "text": "\uD83D\uDDE1", "color": "$orange" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 3", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265D", "color": "$speed" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694", "color": "gray" },
+                { "text": "\n", "color": "gray" },
+
+                { "text": "Tanks", "color": "gray" },
+                { "text": " | ", "color": "$darkgray" },
+                { "text": "\u2591\u2591", "color": "gray" },
+                { "text": "\u2591\u2591\n", "color": "$darkgray" },
+                { "text": " Belcher ", "color": "white" },
+                { "text": "\uD83D\uDDE1", "color": "$orange" },
+                { "text": " 2", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2764", "color": "red" },
+                { "text": " 4", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u265D", "color": "$speed" },
+                { "text": " 1", "color": "white" },
+                { "text": " | ", "color": "gray" },
+                { "text": "\u2694 \u271A", "color": "gray" },
+
+                { "text": "\nDwellers", "color": "gray" },
+                { "text": " | ", "color": "$darkgray" },
+                { "text": "\u2591\u2591", "color": "gray" },
+                { "text": "\u2591\u2591", "color": "$darkgray" }
+            ]
+            }
+        ]
+        },
         "Dread": {
         "displayName": "Dread",
         "colour": 5534602,
@@ -900,7 +996,7 @@
             {
             "description": [
                 { "text": "Perk: ", "color": "gray" },
-                { "text": "?????", "color": "white" },
+                { "text": "All ores can spawn equally", "color": "white" },
                 { "text": "\n", "color": "white" },
 
                 { "text": "Hordes", "color": "gray" },
@@ -1101,18 +1197,34 @@
             "the_vault:classic_vault_mesa",
             "the_vault:classic_vault_deep_mesa"
         ],
+        "RawVault":[
+            "the_vault:raw_vault_cave",
+            "the_vault:raw_vault_cave_lvl10",
+            "the_vault:raw_vault_cave_lvl20",
+            "the_vault:raw_vault_cave_lvl30",
+            "the_vault:raw_vault_cave_granite",
+            "the_vault:raw_vault_cave_granite_lvl10",
+            "the_vault:raw_vault_cave_granite_lvl20",
+            "the_vault:raw_vault_cave_granite_lvl30",
+            "the_vault:raw_vault_cave_diorite",
+            "the_vault:raw_vault_cave_diorite_lvl10",
+            "the_vault:raw_vault_cave_diorite_lvl20",
+            "the_vault:raw_vault_cave_diorite_lvl30",
+            "the_vault:raw_vault_cave_andersite",
+            "the_vault:raw_vault_cave_andersite_lvl10",
+            "the_vault:raw_vault_cave_andersite_lvl20",
+            "the_vault:raw_vault_cave_andersite_lvl30"
+        ],
         "Dread": [
             "the_vault:classic_vault_dreadlands_day",
             "the_vault:classic_vault_dreadlands_night"
         ],
-
         "Ancient": [
             "the_vault:classic_vault_ancient_idona",
             "the_vault:classic_vault_ancient_tenos",
             "the_vault:classic_vault_ancient_velara",
             "the_vault:classic_vault_ancient_wendarr"
         ],
-
         "Deity": [
             "the_vault:classic_vault_idona_normal",
             "the_vault:classic_vault_tenos_normal",

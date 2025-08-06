@@ -20,16 +20,19 @@
     "GOOD": {
       "modifiers": [
         "the_vault:coin_cascade",
+        "the_vault:coin_pile",
         "the_vault:gilded_cascade",
+        "the_vault:gilded",
         "the_vault:living_cascade",
+        "the_vault:living",
         "the_vault:ornate_cascade",
+        "the_vault:ornate",
         "the_vault:wooden_cascade",
         "the_vault:plentiful",
         "the_vault:extended",
         "the_vault:xp_gain",
-        "the_vault:hoard",
-        "the_vault:treasure",
-        "the_vault:soul_boost"
+        "the_vault:soul_boost",
+        "the_vault:phoenix"
       ]
     },
     "CURSE": {

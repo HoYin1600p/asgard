@@ -78,6 +78,19 @@
         },
         "cost": 1
       },
+      "grand": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Grand ",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "Grand ",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
       "commander": {
         "display": {
           "TAB_LIST": {
@@ -87,6 +100,32 @@
           "CHAT": {
             "text": "Commander ",
             "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "mega": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Mega ",
+            "color": "#aaaaaa"
+          },
+          "CHAT": {
+            "text": "Mega ",
+            "color": "#aaaaaa"
+          }
+        },
+        "cost": 1
+      },
+      "slayer": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Slayer ",
+            "color": "#f04848"
+          },
+          "CHAT": {
+            "text": "Slayer ",
+            "color": "#f04848"
           }
         },
         "cost": 1
@@ -112,6 +151,19 @@
           },
           "CHAT": {
             "text": "Epic ",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "shady": {
+        "display": {
+          "TAB_LIST": {
+            "text": "Shady ",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": "Shady ",
             "color": "#AAAAAA"
           }
         },
@@ -581,6 +633,32 @@
           },
           "CHAT": {
             "text": " the Wise",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_gray": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Gray",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Gray",
+            "color": "#AAAAAA"
+          }
+        },
+        "cost": 1
+      },
+      "the_terrible": {
+        "display": {
+          "TAB_LIST": {
+            "text": " the Terrible",
+            "color": "#AAAAAA"
+          },
+          "CHAT": {
+            "text": " the Terrible",
             "color": "#AAAAAA"
           }
         },

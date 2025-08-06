@@ -466,6 +466,80 @@
             ]
           }
         ]
+      },
+      {
+        "level": 20,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:shortened",
+                "weight": 40
+              },
+              {
+                "value": "the_vault:dummy",
+                "weight": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "level": 50,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:shortened",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:mana_leak",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:voiding",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:brazier_wild",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:ethereal",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:wounded",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:phantasmal_mobs",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:fleet_footed_mobs",
+                "weight": 5
+              },
+              {
+                "value": "the_vault:crab_walk",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:confused",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:antiheal",
+                "weight": 5
+              }
+            ]
+          }
+        ]
       }
     ],
     "the_vault:brazier": [
@@ -827,6 +901,10 @@
                 "weight": 190
               },
               {
+                "value": "the_vault:opulent_ores",
+                "weight": 7
+              },
+              {
                 "value": "the_vault:more_experience",
                 "weight": 190
               },
@@ -839,14 +917,38 @@
                 "weight": 7
               },
               {
-                "value": "the_vault:opulent_ores",
+                "value": "the_vault:bronze_nuke",
+                "weight": 7
+              },
+
+              {
+                "value": "the_vault:swift",
+                "weight": 190
+              },
+              {
+                "value": "the_vault:wendarr_speed",
                 "weight": 7
               },
               {
-                "value": "the_vault:bronze_nuke",
+                "value": "the_vault:renewing",
+                "weight": 190
+              },
+              {
+                "value": "the_vault:wendarr_regen",
+                "weight": 7
+              },
+              {
+                "value": "the_vault:idona_dmg",
+                "weight": 14
+              },
+              {
+                "value": "the_vault:nurture",
+                "weight": 190
+              },
+              {
+                "value": "the_vault:vital",
                 "weight": 7
               }
-              
             ]
           },
           {
@@ -952,6 +1054,35 @@
               },
               {
                 "value": "the_vault:bronze_nuke",
+                "weight": 7
+              },
+
+              {
+                "value": "the_vault:swift",
+                "weight": 19000000
+              },
+              {
+                "value": "the_vault:wendarr_speed",
+                "weight": 7
+              },
+              {
+                "value": "the_vault:renewing",
+                "weight": 190
+              },
+              {
+                "value": "the_vault:wendarr_regen",
+                "weight": 7
+              },
+              {
+                "value": "the_vault:idona_dmg",
+                "weight": 14
+              },
+              {
+                "value": "the_vault:nurture",
+                "weight": 190
+              },
+              {
+                "value": "the_vault:vital",
                 "weight": 7
               }
               
@@ -1064,6 +1195,35 @@
               },
               {
                 "value": "the_vault:bronze_nuke",
+                "weight": 7
+              },
+
+              {
+                "value": "the_vault:swift",
+                "weight": 190
+              },
+              {
+                "value": "the_vault:wendarr_speed",
+                "weight": 7
+              },
+              {
+                "value": "the_vault:renewing",
+                "weight": 190
+              },
+              {
+                "value": "the_vault:wendarr_regen",
+                "weight": 7
+              },
+              {
+                "value": "the_vault:idona_dmg",
+                "weight": 14
+              },
+              {
+                "value": "the_vault:nurture",
+                "weight": 190
+              },
+              {
+                "value": "the_vault:vital",
                 "weight": 7
               }
               
@@ -2018,6 +2178,287 @@
               {
                 "value": "the_vault:mob_increase",
                 "weight": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "the_vault:companion_positive": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:coin_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:wooden_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:ornate_cascade",
+                "weight": 6
+              },
+              {
+                "value": "the_vault:gilded_cascade",
+                "weight": 6
+              },
+              {
+                "value": "the_vault:living_cascade",
+                "weight": 6
+              },
+              {
+                "value": "the_vault:plentiful",
+                "weight": 6
+              },
+              {
+                "value": "the_vault:extended",
+                "weight": 4
+              },
+              {
+                "value": "the_vault:ornate",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:gilded",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:living",
+                "weight": 2
+              },
+              {
+                "value": "the_vault:phoenix",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "the_vault:companion_temporal": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:overpower",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:champion_domain",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:loot_goblin",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:door_hunter",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:ultimate_regeneration",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:kill_nuke",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:lunar",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:kill_hunter",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:kill_totem",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:bronze_nuke",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:glued_mobs",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:rock_solid",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:pylon_hunter",
+                "weight": 1
+              },
+              {
+                "value": "the_vault:soul_fest",
+                "weight": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "the_vault:companion_modifiers": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:coin_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:gilded_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:living_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:ornate_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:wooden_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:coin_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:gilded",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:living",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:ornate",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:wooden",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:plentiful",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:extended",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:phoenix",
+                "weight": 10
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "the_vault:personal_vault_catalyst": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:coin_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:gilded_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:living_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:ornate_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:wooden_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:plentiful",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:extended",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:xp_gain",
+                "weight": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "the_vault:personal_vault_inscription": [
+      {
+        "level": 0,
+        "entries": [
+          {
+            "min": 1,
+            "max": 1,
+            "pool": [
+              {
+                "value": "the_vault:coin_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:gilded_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:living_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:ornate_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:wooden_cascade",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:plentiful",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:extended",
+                "weight": 10
+              },
+              {
+                "value": "the_vault:xp_gain",
+                "weight": 4
               }
             ]
           }

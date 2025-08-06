@@ -155,21 +155,6 @@
         ]
       }
     ],
-    "treasure_goblin": [
-      {
-        "level": 0,
-        "rollTypeOutcomes": [
-          {
-            "value": "Epic+",
-            "weight": 1
-          },
-          {
-            "value": "Omega",
-            "weight": 1
-          }
-        ]
-      }
-    ],
     "blackmarket_omega": [
       {
         "level": 0,
@@ -182,6 +167,17 @@
             "value": "Epic+",
             "weight": 4
           },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "blackmarket_omega_only": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
           {
             "value": "Omega",
             "weight": 1
@@ -854,6 +850,21 @@
           {
             "value": "Epic+",
             "weight": 5
+          }
+        ]
+      }
+    ],
+    "treasure_goblin": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Epic+",
+            "weight": 1
+          },
+          {
+            "value": "Omega",
+            "weight": 1
           }
         ]
       }

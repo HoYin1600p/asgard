@@ -19,7 +19,7 @@
       "icon": "the_vault:gui/skills/blacksmithing"
     },
     "Angel": {
-      "x": 210,
+      "x": 175,
       "y": 70,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/angel"
@@ -89,6 +89,12 @@
       "y": 120,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/fortuitous_finesse"
+    },
+    "Companion_Loyalty": {
+      "x": 250,
+      "y": 70,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/companion_sleepy"
     }
   }
 }

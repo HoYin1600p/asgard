@@ -32,7 +32,7 @@
             "the_vault:vault/rooms/challenge/village2",
             "the_vault:vault/rooms/challenge/village3",
             "the_vault:vault/rooms/challenge/village4",
-            "the_vault:vault/rooms/challenge/village_fort"
+            "the_vault:vault/rooms/challenge/villagefort"
         ],
         "the_vault:gui/map/chromatic_caves": [
             "the_vault:vault/rooms/raw/chromatic_cave1"
@@ -45,12 +45,7 @@
             "the_vault:vault/rooms/raw/diamond_cave1"
         ],
         "the_vault:gui/map/farm": [
-            "the_vault:vault/decor/raw/farm/farm1",
-            "the_vault:vault/decor/raw/farm/farm2",
-            "the_vault:vault/decor/raw/farm/farm3",
-            "the_vault:vault/decor/raw/farm/farm4",
-            "the_vault:vault/decor/raw/farm/farm5",
-            "the_vault:vault/decor/raw/farm/farm6"
+            "the_vault:vault/rooms/raw/farm1"
         ],
         "the_vault:gui/map/cove": [
             "the_vault:vault/rooms/omega/cove1",
@@ -82,6 +77,15 @@
         "the_vault:gui/map/mushroom": [
             "the_vault:vault/rooms/omega/mush_room1",
             "the_vault:vault/rooms/omega/mush_room2"
+        ],
+        "the_vault:gui/map/wooden": [
+            "the_vault:vault/rooms/omega/pixel1"
+        ],
+        "the_vault:gui/map/nether_raw": [
+            "the_vault:vault/rooms/raw/nether1"
+        ],
+        "the_vault:gui/map/end_raw": [
+            "the_vault:vault/rooms/raw/end1"
         ]
     }
 }
