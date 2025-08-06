@@ -31,32 +31,32 @@
       "weight": 10,
       "name": "Sticky",
       "effectText": "Jump towards walls to latch on to them, letting you climb them!",
-      "color": 65280,
+      "color": 3304444,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "green_trinket"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:chromatic_feather": {
       "weight": 10,
       "name": "Prismatic Feather",
       "effectText": "Grants triple jump",
-      "color": 65280,
+      "color": 3304444,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "green_trinket"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:chromatic_powder": {
       "weight": 10,
       "name": "Chromatic Powder",
-      "effectText": "Reduces vault gear damage with 50%",
+      "effectText": "Reduces vault gear durability damage with 50%",
       "color": 16534066,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
@@ -150,13 +150,13 @@
       "weight": 10,
       "name": "Elvish Air",
       "effectText": "Removes any and all fall damage",
-      "color": 65280,
+      "color": 3304444,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "green_trinket"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:giants_heart": {
@@ -206,12 +206,11 @@
         "curiosSlot": "blue_trinket"
       }
     },
-
     "the_vault:high_heels": {
       "weight": 10,
       "name": "The Frog",
       "effectText": "Grants the ability to walk up full blocks",
-      "color": 65280,
+      "color": 3304444,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
       "minUses": 20,
@@ -224,13 +223,13 @@
           "amount": 1.0,
           "operation": 0
         },
-        "curiosSlot": "green_trinket"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:idonas_blade": {
       "weight": 10,
       "name": "Idona's Pendant",
-      "effectText": "Increases your Soul Chance by 200% of your total Soul Chance",
+      "effectText": "Increases your Soul Quantity by 200% of your total Soul Quantity",
       "color": 16534066,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
@@ -245,7 +244,7 @@
     "the_vault:lucky_goose": {
       "weight": 10,
       "name": "Picture of a Lucky Goose",
-      "effectText": "+50% Item Rarity",
+      "effectText": "+100% Item Rarity",
       "color": 16534066,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
@@ -253,7 +252,7 @@
       "maxUses": 30,
       "config": {
         "key": "the_vault:item_rarity",
-        "value": 0.5,
+        "value": 1,
         "curiosSlot": "red_trinket"
       }
     },
@@ -296,7 +295,7 @@
     "the_vault:tenos_charm": {
       "weight": 10,
       "name": "Tenos' Necklace",
-      "effectText": "+25% Item Quantity",
+      "effectText": "+100% Item Quantity",
       "color": 16534066,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
@@ -304,7 +303,7 @@
       "maxUses": 30,
       "config": {
         "key": "the_vault:item_quantity",
-        "value": 0.25,
+        "value": 1,
         "curiosSlot": "red_trinket"
       }
     },
@@ -357,13 +356,13 @@
       "weight": 10,
       "name": "Wings",
       "effectText": "Gives the player elytra",
-      "color": 65280,
+      "color": 3304444,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "green_trinket"
+        "curiosSlot": "blue_trinket"
       }
     },
     "the_vault:healing_salve": {
@@ -377,7 +376,7 @@
       "maxUses": 30,
       "config": {
         "key": "the_vault:healing_effectiveness",
-        "value": 1.5,
+        "value": 0.5,
         "curiosSlot": "red_trinket"
       }
     },
@@ -395,7 +394,7 @@
         "dontShadowMobs": [
           "@the_vault:guardians",
           "@the_vault:elite",
-          "@the_vault:champion",
+          "@the_vault:mob_type/champion",
           "@the_vault:illagers",
           "@the_vault:bosses"
         ],
@@ -406,13 +405,43 @@
       "weight": 10,
       "name": "Slimey",
       "effectText": "Negate all fall damage and bounce when you hit the floor",
-      "color": 65280,
+      "color": 3304444,
       "minCraftedUses": 20,
       "maxCraftedUses": 20,
       "minUses": 20,
       "maxUses": 30,
       "config": {
-        "curiosSlot": "green_trinket"
+        "curiosSlot": "blue_trinket"
+      }
+    },
+    "the_vault:aether": {
+      "weight": 10,
+      "name": "Aether Spark",
+      "effectText": "Provide a boost while jumping, allowing temporary flight",
+      "color": 3304444,
+      "minCraftedUses": 20,
+      "maxCraftedUses": 20,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "durationTicks": 14,
+        "aetherStrength": -1.0,
+        "curiosSlot": "blue_trinket"
+      }
+    },
+    "the_vault:the_dice": {
+      "weight": 10,
+      "name": "The Dice",
+      "effectText": "All damage is multiplied by 1% to 300% each time it is dealt.",
+      "color": 3304444,
+      "minCraftedUses": 20,
+      "maxCraftedUses": 20,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "minimumMultiplier": 0.01,
+        "maximumMultiplier": 3.0,
+        "curiosSlot": "blue_trinket"
       }
     }
   }

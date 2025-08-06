@@ -366,7 +366,7 @@
           "the_vault:u_living"
         ],
         "IMPLICIT": [
-          "the_vault:base_attack_damage_mace",
+          "the_vault:base_attack_damage",
           "the_vault:u_thorns_damage",
           "the_vault:base_attack_speed_axe",
           "the_vault:base_double_hit_chance"
@@ -379,6 +379,29 @@
           "the_vault:unique_porcupine_level",
           "the_vault:unique_quill_level",
           "the_vault:thorns_scaling_damage_grass_sword"
+        ]
+      },
+      "modifierTags": [],
+      "weight": 1
+    },
+    "the_vault:butchers_cleaver": {
+      "name": "Butcher's Cleaver",
+      "model": "the_vault:gear/axe/butchers_bone_cleaver",
+      "modifierIdentifiers": {
+        "BASE_ATTRIBUTE": [
+          "the_vault:base_durability",
+          "the_vault:base_soulbound",
+          "the_vault:u_living"
+        ],
+        "IMPLICIT": [
+          "the_vault:base_attack_damage",
+          "the_vault:base_attack_speed_axe",
+          "the_vault:base_double_hit_chance",
+          "the_vault:mod_hemorrhaging"
+        ],
+        "PREFIX": [
+        ],
+        "SUFFIX": [
         ]
       },
       "modifierTags": [],
@@ -558,6 +581,33 @@
         ],
         "SUFFIX": [
           "the_vault:u_frost_nova_on_damage"
+        ]
+      },
+      "modifierTags": [],
+      "weight": 1
+    },
+    "the_vault:annmari": {
+      "name": "Ann-Mari",
+      "model": "the_vault:gear/armor/phoenix_chestplate/chestplate",
+      "modifierIdentifiers": {
+        "BASE_ATTRIBUTE": [
+          "the_vault:base_durability",
+          "the_vault:u_living"
+        ],
+        "IMPLICIT": [
+          "the_vault:base_armor",
+          "the_vault:u_base_crit_hit",
+          "the_vault:base_ap"
+        ],
+        "PREFIX": [
+          "the_vault:u_mod_armor",
+          "the_vault:mod_health",
+          "the_vault:mod_added_ability_level_groupheal"
+        ],
+        "SUFFIX": [
+          "the_vault:heal_cooldown",
+          "the_vault:u_phoenix"
+
         ]
       },
       "modifierTags": [],
@@ -750,7 +800,7 @@
           "the_vault:u_living"
         ],
         "IMPLICIT": [
-          "the_vault:u_base_block"
+            "the_vault:u_base_block"
         ],
         "PREFIX": [
           "the_vault:u_knockback_resistance"
@@ -962,6 +1012,26 @@
       "modifierTags": [],
       "weight": 1
     },
+    "the_vault:piggybank": {
+      "name": "Piggybank",
+      "model": "the_vault:gear/jewel/piggybank",
+      "modifierIdentifiers": {
+        "IMPLICIT": [
+          "the_vault:u_jewel_size_piggy"
+        ],
+        "PREFIX": [
+          "the_vault:u_coin_affinity",
+          "the_vault:piggy_mining",
+          "the_vault:piggy_reach",
+          "the_vault:piggy_dura"
+        ],
+        "SUFFIX": [
+          "the_vault:piggy_effect"
+        ]
+      },
+      "modifierTags": [],
+      "weight": 1
+    },
 
 
 
@@ -1129,7 +1199,7 @@
         ],
         "PREFIX": [
           "the_vault:mjolnir_channeling_chance",
-          "the_vault:mjolnir_attack_damage",
+          "the_vault:base_attack_damage",
           "the_vault:mjolnir_ability_power"
         ],
         "SUFFIX": [
@@ -1200,7 +1270,7 @@
         ],
         "IMPLICIT": [
           "the_vault:rang_standard_attack_speed",
-          "the_vault:rang_standard_attack_damage",
+          "the_vault:base_attack_damage",
           "the_vault:rang_standard_range",
           "the_vault:rang_standard_velocity"
         ],
@@ -1283,10 +1353,14 @@
     "the_vault:crystal_mace": {
       "the_vault:crystal_mace": 1
     },
+    "the_vault:butchers_cleaver": {
+      "the_vault:butchers_cleaver": 1
+    },
     "the_vault:axe": {
       "the_vault:leviathan": 1,
       "the_vault:zombie_horse_axe": 1,
-      "the_vault:crystal_mace": 1
+      "the_vault:crystal_mace": 1,
+      "the_vault:butchers_cleaver": 1
     },
 
      "the_vault:jester": {
@@ -1316,11 +1390,15 @@
     "the_vault:frozen_throne": {
       "the_vault:frozen_throne": 1
     },
+    "the_vault:annmari": {
+      "the_vault:annmari": 1
+    },
     "the_vault:chestplate": {
       "the_vault:castle": 1,
       "the_vault:stormcrown": 1,
       "the_vault:crystalplate": 1,
-      "the_vault:frozen_throne": 1
+      "the_vault:frozen_throne": 1,
+      "the_vault:annmari": 1
     },
 
     "the_vault:crashguards": {
@@ -1421,11 +1499,15 @@
     "the_vault:eternal_stella": {
       "the_vault:eternal_stella": 1
     },
+    "the_vault:piggybank": {
+      "the_vault:piggybank": 1
+    },
     "the_vault:jewel": {
       "the_vault:kaleidoscope": 1,
       "the_vault:manabloom": 1,
       "the_vault:pax": 1,
-      "the_vault:eternal_stella": 1
+      "the_vault:eternal_stella": 1,
+      "the_vault:piggybank": 1
     },
 
     "the_vault:bamboo_fightstick": {

@@ -450,11 +450,11 @@
           },
           {
             "value": "the_vault:classic_vault_dreadlands_day",
-            "weight": 0
+            "weight": 5
           },
           {
             "value": "the_vault:classic_vault_dreadlands_night",
-            "weight": 0
+            "weight": 5
           },
           {
             "value": "the_vault:classic_vault_aberrant_garden",
@@ -631,11 +631,11 @@
           },
           {
             "value": "the_vault:classic_vault_dreadlands_day",
-            "weight": 0
+            "weight": 5
           },
           {
             "value": "the_vault:classic_vault_dreadlands_night",
-            "weight": 0
+            "weight": 5
           },
           {
             "value": "the_vault:classic_vault_aberrant_garden",
@@ -660,6 +660,17 @@
           {
             "value": "the_vault:classic_vault_ancient_wendarr",
             "weight": 10
+          }
+        ]
+      }
+    ],
+    "the_vault:base_greed": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": "the_vault:classic_vault_beach",
+            "weight": 1
           }
         ]
       }
@@ -1357,8 +1368,8 @@
               "objective_probability": 1.0,
               "target": {
                 "type": "uniform",
-                "min": 3,
-                "max": 3
+                "min": 13,
+                "max": 13
               }
             },
             "weight": 4
@@ -1571,7 +1582,7 @@
               "target": {
                 "type": "uniform",
                 "min": 4,
-                "max": 4
+                "max": 6
               }
             },
             "weight": 4
@@ -1625,8 +1636,8 @@
               "objective_probability": 1.0,
               "target": {
                 "type": "uniform",
-                "min": 5,
-                "max": 5
+                "min": 6,
+                "max": 10
               }
             },
             "weight": 4
@@ -1644,6 +1655,135 @@
               "objective_probability": 1.0
             },
             "weight": 2
+          }
+        ]
+      },
+      {
+        "level": 100,
+        "pool": [
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 4,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 6,
+                "max": 8
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 0.75
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 12,
+                "max": 16
+              }
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 0.3
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "the_vault:royale": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 0
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 0.75
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 0.3
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0
+            },
+            "weight": 4
+          }
+        ]
+      }
+    ],
+    "the_vault:pvp": [
+      {
+        "level": 0,
+        "pool": [
+
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 0.75
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 0.3
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0
+            },
+            "weight": 4
           }
         ]
       }
@@ -1780,6 +1920,30 @@
         }
       }
     ],
+    "the_vault:crystal_seal_vault_royale": [
+      {
+        "level": 0,
+        "exhausted": true,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "royale",
+          "objective_probability": 1.0,
+          "start_crate_loot_table": "the_vault:royale_start_crate"
+        },
+        "modifiers": {
+          "type": "default",
+          "list": [
+            {
+              "modifier": "the_vault:royale",
+              "count": 1
+            }
+          ],
+          "random_modifiers": false
+        }
+      }
+    ],
     "the_vault:crystal_seal_scout": [
       {
         "level": 0,
@@ -1827,6 +1991,21 @@
         }
       },
       {
+        "level": 70,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "monolith",
+          "objective_probability": 1.0,
+          "target": {
+            "type": "uniform",
+            "min": 4,
+            "max": 6
+          }
+        }
+      },
+      {
         "level": 90,
         "input": [
           "the_vault:vault_crystal"
@@ -1836,8 +2015,23 @@
           "objective_probability": 1.0,
           "target": {
             "type": "uniform",
-            "min": 5,
-            "max": 5
+            "min": 6,
+            "max": 10
+          }
+        }
+      },
+      {
+        "level": 100,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "monolith",
+          "objective_probability": 1.0,
+          "target": {
+            "type": "uniform",
+            "min": 12,
+            "max": 16
           }
         }
       }
@@ -2046,57 +2240,20 @@
         }
       }
     ],
-    "the_vault:crystal_seal_ordinator_build": [
+    "the_vault:crystal_seal_offering_boss": [
       {
-        "level": 40,
-        "exhausted": true,
+        "level": 0,
         "input": [
           "the_vault:vault_crystal"
         ],
         "objective": {
-          "type": "paradox",
-          "goal": "BUILD"
+          "objective_probability": 1.0,
+          "type": "offering_boss"
         },
         "layout": {
-          "type": "paradox"
-        },
-        "modifiers": {
-          "type": "paradox",
-          "random_modifiers": false
-        },
-        "time": {
-          "type": "value",
-          "roll": {
-            "type": "constant",
-            "count": 108000
-          }
-        }
-      }
-    ],
-    "the_vault:crystal_seal_ordinator_run": [
-      {
-        "level": 40,
-        "exhausted": true,
-        "input": [
-          "the_vault:vault_crystal"
-        ],
-        "objective": {
-          "type": "paradox",
-          "goal": "RUN"
-        },
-        "layout": {
-          "type": "paradox"
-        },
-        "modifiers": {
-          "type": "paradox",
-          "random_modifiers": false
-        },
-        "time": {
-          "type": "value",
-          "roll": {
-            "type": "constant",
-            "count": 12000
-          }
+          "tunnel_span": 1,
+          "radius": 5,
+          "type": "circle"
         }
       }
     ]

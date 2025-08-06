@@ -224,6 +224,56 @@
           "NBT": "{}"
         }
       ]
+    },
+    {
+      "id": "the_vault:catalyst_quantity",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:96,modifiers:[\"the_vault:item_quantity\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_quantity\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:catalyst_rarity",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:vault_catalyst_infused",
+        "NBT": "{model:98,modifiers:[\"the_vault:item_rarity\",\"the_vault:challenge_stack\"],pool:\"the_vault:craft_rarity\",size:10}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:vault_catalyst_fragment",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_benitoite",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:dreamstone",
+          "NBT": "{}"
+        }
+      ]
     }
   ]
 }

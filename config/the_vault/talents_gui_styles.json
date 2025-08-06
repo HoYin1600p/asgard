@@ -110,7 +110,13 @@
     },
     "Lucky_Hit": {
       "x": 140,
-      "y": 270
+      "y": 325
+    },
+    "Loot_Goblin": {
+      "x": 280,
+      "y": 225,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/horde_mastery"
     },
     "Fatal_Strike": {
       "x": 0,
@@ -138,7 +144,7 @@
     },
     "Masteries": {
       "x": 0,
-      "y": 270
+      "y": 325
     },
     "Horde_Mastery": {
       "x": 0,
@@ -166,7 +172,7 @@
     },
     "Javelin": {
       "x": 280,
-      "y": 270
+      "y": 325
     },
     "Javelin_Throw_Power": {
       "x": 0,
@@ -194,25 +200,25 @@
     },
     "Prime_Amplification": {
       "x": 0,
-      "y": 150,
+      "y": 200,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/prime_amplification"
     },
     "Arcana": {
       "x": 0,
-      "y": 200,
+      "y": 150,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/arcana"
     },
     "Blazing": {
       "x": 70,
-      "y": 200,
+      "y": 150,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/blazing"
     },
     "Lucky_Momentum": {
       "x": 140,
-      "y": 200,
+      "y": 150,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/luck_momentum"
     },
@@ -224,13 +230,13 @@
     },
     "Hunters_Instinct": {
       "x": 70,
-      "y": 150,
+      "y": 200,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/hunters_instinct"
     },
     "Purist": {
       "x": 140,
-      "y": 150,
+      "y": 200,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/purist"
     },
@@ -240,23 +246,42 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/discipline"
     },
-    "Bountiful_Harvest": {
+    "Lightning_Damage": {
+      "x": 350,
+      "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/lightning_damage"
+    },
+    "Lightning_Stun": {
       "x": 280,
       "y": 150,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/lightning_stunned"
+    },
+    "Bountiful_Harvest": {
+      "x": 0,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/bountiful_harvest"
     },
     "Treasure_Seeker": {
-      "x": 350,
-      "y": 150,
+      "x": 70,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/treasure_seeker"
     },
+   
     "Bloodthirst": {
       "x": 210,
       "y": 150,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/bloodthirst"
+    },
+    "Farmer_Twerker": {
+      "x": 210,
+      "y": 200,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/skills/farmer"
     }
 
   }

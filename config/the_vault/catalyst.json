@@ -198,6 +198,72 @@
         ]
       }
     ],
+    "the_vault:craft_quantity": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "size": {
+                "min": 10,
+                "max": 10,
+                "type": "uniform"
+              },
+              "modifiers": [
+                "the_vault:item_quantity",
+                "the_vault:challenge_stack"
+              ],
+              "model": 96
+            },
+            "weight": 9.0
+          }
+        ]
+      }
+    ],
+    "the_vault:craft_rarity": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "size": {
+                "min": 10,
+                "max": 10,
+                "type": "uniform"
+              },
+              "modifiers": [
+                "the_vault:item_rarity",
+                "the_vault:challenge_stack"
+              ],
+              "model": 98
+            },
+            "weight": 9.0
+          }
+        ]
+      }
+    ],
+    "the_vault:craft_power": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "size": {
+                "min": 20,
+                "max": 20,
+                "type": "uniform"
+              },
+              "modifiers": [
+                "the_vault:power",
+                "the_vault:challenge_stack"
+              ],
+              "model": 95
+            },
+            "weight": 9.0
+          }
+        ]
+      }
+    ],
     "the_vault:treasure_bonus": [
       {
         "level": 0,
@@ -347,6 +413,36 @@
               "model": 14,
               "modifiers": [
                 "the_vault:phoenix",
+                "the_vault:challenge_stack"
+              ]
+            },
+            "weight": 9.0
+          },
+          {
+            "value": {
+              "size": {
+                "min": 3,
+                "max": 5,
+                "type": "uniform"
+              },
+              "model": 97,
+              "modifiers": [
+                "the_vault:item_quantity2",
+                "the_vault:challenge_stack"
+              ]
+            },
+            "weight": 9.0
+          },
+          {
+            "value": {
+              "size": {
+                "min": 3,
+                "max": 5,
+                "type": "uniform"
+              },
+              "model": 99,
+              "modifiers": [
+                "the_vault:luckier_chests",
                 "the_vault:challenge_stack"
               ]
             },
@@ -568,6 +664,66 @@
               ]
             },
             "weight": 14.0
+          },
+          {
+            "value": {
+              "size": {
+                "min": 5,
+                "max": 10,
+                "type": "uniform"
+              },
+              "model": 96,
+              "modifiers": [
+                "the_vault:item_quantity",
+                "the_vault:challenge_stack"
+              ]
+            },
+            "weight": 25.0
+          },
+          {
+            "value": {
+              "size": {
+                "min": 5,
+                "max": 10,
+                "type": "uniform"
+              },
+              "model": 97,
+              "modifiers": [
+                "the_vault:item_quantity2",
+                "the_vault:challenge_stack"
+              ]
+            },
+            "weight": 3.0
+          },
+          {
+            "value": {
+              "size": {
+                "min": 5,
+                "max": 10,
+                "type": "uniform"
+              },
+              "model": 98,
+              "modifiers": [
+                "the_vault:item_rarity",
+                "the_vault:challenge_stack"
+              ]
+            },
+            "weight": 25.0
+          },
+          {
+            "value": {
+              "size": {
+                "min": 5,
+                "max": 10,
+                "type": "uniform"
+              },
+              "model": 99,
+              "modifiers": [
+                "the_vault:luckier_chests",
+                "the_vault:challenge_stack"
+              ]
+            },
+            "weight": 3.0
           }
         ]
       }

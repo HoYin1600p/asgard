@@ -6,7 +6,8 @@
   "rescuedBonusMin": 0.3,
   "rescuedBonusMax": 0.9,
   "levelCosts": [
-    { "minLevel": 0,
+    {
+      "minLevel": 0,
       "item": "the_vault:vault_gold",
       "count": 0.0,
       "gearRarityCost": {
@@ -30,7 +31,7 @@
         [
           {
             "item": "sophisticatedbackpacks:iron_backpack"
-          }, 
+          },
           1
         ],
         [
@@ -104,11 +105,18 @@
             "item": "the_vault:key_xenium"
           },
           5
+        ],
+        [
+          {
+            "item": "the_vault:vault_map"
+          },
+          5
         ]
       ],
       "trinketCost": 10
     },
-    { "minLevel": 20,
+    {
+      "minLevel": 20,
       "item": "the_vault:vault_gold",
       "count": 0.05,
       "gearRarityCost": {
@@ -132,7 +140,7 @@
         [
           {
             "item": "sophisticatedbackpacks:iron_backpack"
-          }, 
+          },
           1
         ],
         [
@@ -206,11 +214,18 @@
             "item": "the_vault:key_xenium"
           },
           6
+        ],
+        [
+          {
+            "item": "the_vault:vault_map"
+          },
+          10
         ]
       ],
       "trinketCost": 10
     },
-    { "minLevel": 40,
+    {
+      "minLevel": 40,
       "item": "the_vault:vault_gold",
       "count": 0.1,
       "gearRarityCost": {
@@ -234,7 +249,7 @@
         [
           {
             "item": "sophisticatedbackpacks:iron_backpack"
-          }, 
+          },
           1
         ],
         [
@@ -308,11 +323,18 @@
             "item": "the_vault:key_xenium"
           },
           7
+        ],
+        [
+          {
+            "item": "the_vault:vault_map"
+          },
+          12
         ]
       ],
       "trinketCost": 12
     },
-    { "minLevel": 50,
+    {
+      "minLevel": 50,
       "item": "the_vault:vault_gold",
       "count": 0.2,
       "gearRarityCost": {
@@ -336,13 +358,13 @@
         [
           {
             "item": "the_vault:treasure_keyring"
-          }, 
+          },
           4
         ],
         [
           {
             "item": "sophisticatedbackpacks:iron_backpack"
-          }, 
+          },
           1
         ],
         [
@@ -422,11 +444,18 @@
             "item": "the_vault:card_deck"
           },
           8
+        ],
+        [
+          {
+            "item": "the_vault:vault_map"
+          },
+          14
         ]
       ],
       "trinketCost": 14
     },
-    { "minLevel": 65,
+    {
+      "minLevel": 65,
       "item": "the_vault:vault_gold",
       "count": 0.2,
       "gearRarityCost": {
@@ -450,13 +479,13 @@
         [
           {
             "item": "the_vault:treasure_keyring"
-          }, 
+          },
           6
         ],
         [
           {
             "item": "sophisticatedbackpacks:iron_backpack"
-          }, 
+          },
           1
         ],
         [
@@ -530,6 +559,18 @@
             "item": "the_vault:key_xenium"
           },
           8
+        ],
+        [
+          {
+            "item": "the_vault:card_deck"
+          },
+          8
+        ],
+        [
+          {
+            "item": "the_vault:vault_map"
+          },
+          14
         ]
       ],
       "trinketCost": 14

@@ -14585,24 +14585,6 @@
                 "SCALE_MAX_LEVEL": -1
             },
             {
-                "NAME": "the_vault:generic.thorns_chance",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_damage",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
                 "NAME": "the_vault:generic.crit_chance",
                 "MIN": 0.0,
                 "MAX": 0.0,
@@ -14747,24 +14729,6 @@
                 "SCALE_MAX_LEVEL": 20
             },
             {
-                "NAME": "the_vault:generic.thorns_chance",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_damage",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
                 "NAME": "the_vault:generic.crit_chance",
                 "MIN": 0.0,
                 "MAX": 0.0,
@@ -14876,24 +14840,6 @@
                 "NAME": "forge:swim_speed",
                 "MIN": 5.0,
                 "MAX": 5.0,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_chance",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_damage",
-                "MIN": 0.2,
-                "MAX": 0.2,
                 "OPERATOR": "set",
                 "ROLL_CHANCE": 1.0,
                 "SCALE_PER_LEVEL": 0.0,
@@ -15026,24 +14972,6 @@
                 "SCALE_MAX_LEVEL": 20
             },
             {
-                "NAME": "the_vault:generic.thorns_chance",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_damage",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
                 "NAME": "the_vault:generic.crit_chance",
                 "MIN": 0.0,
                 "MAX": 0.0,
@@ -15155,24 +15083,6 @@
                 "NAME": "forge:swim_speed",
                 "MIN": 5.0,
                 "MAX": 5.0,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_chance",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_damage",
-                "MIN": 0.2,
-                "MAX": 0.2,
                 "OPERATOR": "set",
                 "ROLL_CHANCE": 1.0,
                 "SCALE_PER_LEVEL": 0.0,
@@ -15305,24 +15215,6 @@
                 "SCALE_MAX_LEVEL": 20
             },
             {
-                "NAME": "the_vault:generic.thorns_chance",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_damage",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
                 "NAME": "the_vault:generic.crit_chance",
                 "MIN": 0.0,
                 "MAX": 0.0,
@@ -15434,15 +15326,6 @@
                 "NAME": "forge:swim_speed",
                 "MIN": 5.0,
                 "MAX": 5.0,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_chance",
-                "MIN": 0.2,
-                "MAX": 0.2,
                 "OPERATOR": "set",
                 "ROLL_CHANCE": 1.0,
                 "SCALE_PER_LEVEL": 0.0,
@@ -15582,24 +15465,6 @@
                 "ROLL_CHANCE": 1.0,
                 "SCALE_PER_LEVEL": 0.0,
                 "SCALE_MAX_LEVEL": 20
-            },
-            {
-                "NAME": "the_vault:generic.thorns_chance",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
-            },
-            {
-                "NAME": "the_vault:generic.thorns_damage",
-                "MIN": 0.2,
-                "MAX": 0.2,
-                "OPERATOR": "set",
-                "ROLL_CHANCE": 1.0,
-                "SCALE_PER_LEVEL": 0.0,
-                "SCALE_MAX_LEVEL": -1
             },
             {
                 "NAME": "the_vault:generic.crit_chance",

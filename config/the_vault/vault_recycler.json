@@ -2,10 +2,10 @@
   "processingTickTime": 20,
   "additionalOutputRarityChances": {
     "SCRAPPY": 0.0,
-    "COMMON": 0.25,
-    "RARE": 0.5,
-    "EPIC": 0.75,
-    "OMEGA": 1.0
+    "COMMON": 0.0,
+    "RARE": 0.2,
+    "EPIC": 0.4,
+    "OMEGA": 0.6
   },
   "gearRecyclingOutput": {
     "mainOutput": {
@@ -17,15 +17,6 @@
       "maxCount": 8
     },
     "extraOutput1": {
-      "conditionalOutputs": {},
-      "chance": 0.2,
-      "stack": {
-        "item": "minecraft:netherite_scrap"
-      },
-      "minCount": 1,
-      "maxCount": 1
-    },
-    "extraOutput2": {
       "conditionalOutputs": [
         [
           {
@@ -33,7 +24,7 @@
             "isCrafted": false
           },
           {
-            "chance": 0.25,
+            "chance": 0.2,
             "stack": {
               "item": "the_vault:adaptive_focus"
             },
@@ -42,7 +33,15 @@
           }
         ]
       ],
-      "chance": 0.25,
+      "chance": 0.2,
+      "stack": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "minCount": 1,
+      "maxCount": 1
+    },
+    "extraOutput2": {
+      "chance": 0.0,
       "stack": {
         "item": "the_vault:faceted_focus"
       },

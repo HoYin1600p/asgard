@@ -415,6 +415,26 @@
           "weight": 1.0
         }
       ]
+    },
+    "Brazier": {
+      "model": "vhapi:deck/brazier#inventory",
+      "name": "The Brazier Deck",
+      "essence": {
+        "min": 6,
+        "max": 6
+      },
+      "layout": [
+        {
+          "value": [
+            "XXOOOXXX",
+            "XOOOOOXX",
+            "XOOOOOXX",
+            "OOOOOOOX",
+            "OOOOOOOX"
+          ],
+          "weight": 1.0
+        }
+      ]
     }
   }
 }
