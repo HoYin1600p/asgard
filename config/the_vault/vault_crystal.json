@@ -1763,7 +1763,6 @@
       {
         "level": 0,
         "pool": [
-
           {
             "value": {
               "type": "scavenger",
@@ -2087,10 +2086,6 @@
           "half_length": 99,
           "rotation": "CLOCKWISE_90"
         },
-        "theme": {
-          "type": "value",
-          "id": "the_vault:classic_vault_chaos_cake"
-        },
         "modifiers": {
           "type": "default",
           "random_modifiers": false
@@ -2112,10 +2107,6 @@
           "half_length": 99,
           "rotation": "CLOCKWISE_90"
         },
-        "theme": {
-          "type": "value",
-          "id": "the_vault:classic_vault_chaos_cake"
-        },
         "modifiers": {
           "type": "default",
           "random_modifiers": false
@@ -2136,10 +2127,6 @@
           "tunnel_span": 1,
           "half_length": 99,
           "rotation": "CLOCKWISE_90"
-        },
-        "theme": {
-          "type": "value",
-          "id": "the_vault:classic_vault_chaos_cake"
         },
         "modifiers": {
           "type": "default",
@@ -2240,24 +2227,78 @@
         }
       }
     ],
-    "the_vault:crystal_seal_offering_boss": [
+    "the_vault:crystal_seal_ordinator_build": [
       {
-        "level": 0,
+        "level": 40,
+        "exhausted": true,
         "input": [
           "the_vault:vault_crystal"
         ],
         "objective": {
-          "objective_probability": 1.0,
-          "type": "offering_boss"
+          "type": "paradox",
+          "goal": "BUILD"
         },
         "layout": {
-          "tunnel_span": 1,
-          "radius": 5,
-          "type": "circle"
+          "type": "paradox"
+        },
+        "modifiers": {
+          "type": "paradox",
+          "random_modifiers": false
+        },
+        "time": {
+          "type": "value",
+          "roll": {
+            "type": "constant",
+            "count": 108000
+          }
         }
       }
-    ]
-  },
+    ],
+    "the_vault:crystal_seal_ordinator_run": [
+      {
+        "level": 40,
+        "exhausted": true,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "paradox",
+          "goal": "RUN"
+        },
+        "layout": {
+          "type": "paradox"
+        },
+        "modifiers": {
+          "type": "paradox",
+          "random_modifiers": false
+        },
+        "time": {
+          "type": "value",
+          "roll": {
+            "type": "constant",
+            "count": 12000
+          }
+        }
+      }
+    ],
+  "the_vault:crystal_seal_offering_boss": [
+    {
+      "level": 0,
+      "input": [
+        "the_vault:vault_crystal"
+      ],
+      "objective": {
+        "objective_probability": 1.0,
+        "type": "offering_boss"
+      },
+      "layout": {
+        "tunnel_span": 1,
+        "radius": 5,
+        "type": "circle"
+      }
+    }
+  ]
+},
   "PROPERTIES": {
     "the_vault:default": [
       {
