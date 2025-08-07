@@ -51,7 +51,8 @@
         "the_vault:kaleidoscope",
         "the_vault:manabloom",
         "the_vault:pax",
-        "the_vault:eternal_stella"
+        "the_vault:eternal_stella",
+        "the_vault:piggybank"
       ]
     }
   },
@@ -754,6 +755,31 @@
       },
       "uniqueId": "the_vault:crystal_mace"
     },
+    {
+      "title": {
+        "description": {
+          "text": "The Butcher's Cleaver",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A blood-stained blade with the ability to drain life through a stacking bleed effect.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDropped by: ",
+            "color": "$text"
+          },
+          {
+            "text": "Butcher Guardians",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:butchers_cleaver"
+    },
 
     {
       "title": {
@@ -1053,6 +1079,7 @@
       },
       "uniqueId": "the_vault:frozen_orb"
     },
+
     {
       "title": {
         "description": {
@@ -1184,6 +1211,31 @@
         ]
       },
       "uniqueId": "the_vault:eternal_stella"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "The Piggybank",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A jewel with a lust for coins. This jewel gives a chance to double the coins obtained when mining coins.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Coves",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:piggybank"
     },
 
     {
