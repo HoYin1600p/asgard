@@ -2212,8 +2212,8 @@
         "tiers": [
           {
             "type": "power_air_mobility",
-            "playerBaseSpeed": 0.2,
-            "playerBaseAirMovement": 0.05,
+            "playerBaseSpeed": 0.3,
+            "playerBaseAirMovement": 0.075,
             "learnPointCost": 100000,
             "regretPointCost": 0,
             "unlockLevel": 0

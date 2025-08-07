@@ -20573,17 +20573,17 @@
             "maxLearnableTier": 8,
             "tiers": [
               {
-  "type": "fireball_volley",
-  "manaCost": 25.0,
-  "learnPointCost": 1,
-  "regretPointCost": 1,
-  "cooldownTicks": 400,
-  "unlockLevel": 0,
-  "percentAbilityPowerDealt": 1.4,
-  "radius": 4.5,
-  "duration": 2,
-  "id": "fireball_volley_1"
-},
+                "type": "fireball_volley",
+                "manaCost": 25.0,
+                "learnPointCost": 1,
+                "regretPointCost": 1,
+                "cooldownTicks": 400,
+                "unlockLevel": 0,
+                "percentAbilityPowerDealt": 1.4,
+                "radius": 4.5,
+                "duration": 2,
+                "id": "fireball_volley_1"
+              },
               {
                 "type": "fireball_volley",
                 "manaCost": 28.0,
