@@ -311,6 +311,14 @@
         "the_vault:living_strongbox_lvl50": {"level": 50},
         "the_vault:living_strongbox_lvl70": {"level": 70}
       }
+    },
+    "the_vault:champions": {
+      "display": "Champions",
+      "lootTableKeys": {
+        "the_vault:champion_loot_lvl0": {"level": 0},
+        "the_vault:champion_loot_lvl20": {"level": 20},
+        "the_vault:champion_loot_lvl50": {"level": 50}
+      }
     }
   }
 }

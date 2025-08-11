@@ -212,6 +212,42 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/prestige/masterful",
       "inactiveIcon": "the_vault:gui/prestige/masterful_inactive"
+    },
+
+    "CryonicPower": {
+      "x": 30,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/prestige/cryonic_focus",
+      "inactiveIcon": "the_vault:gui/prestige/cryonic_focus_inactive"
+    },
+    "LegendaryGearPower": {
+      "x": 60,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/prestige/fortuitous_finesse",
+      "inactiveIcon": "the_vault:gui/prestige/fortuitous_finesse_inactive"
+    },
+    "CooldownCapPower": {
+      "x": 90,
+      "y": 180,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/prestige/cooldown_reduction",
+      "inactiveIcon": "the_vault:gui/prestige/cooldown_reduction_inactive"
+    },
+    "ToolCapacityPower": {
+      "x": 45,
+      "y": 210,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/prestige/tool_capacity",
+      "inactiveIcon": "the_vault:gui/prestige/tool_capacity_inactive"
+    },
+    "CardEfficiencyPower": {
+      "x": 75,
+      "y": 210,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/prestige/card_deck",
+      "inactiveIcon": "the_vault:gui/prestige/card_deck_inactive"
     }
   }
 }

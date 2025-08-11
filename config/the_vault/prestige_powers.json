@@ -546,6 +546,133 @@
 						"tierLock": 5
 					}
 				]
+			},
+
+			{
+				"type": "tiered",
+				"id": "CryonicPower",
+				"name": "Frozen Intelligence",
+				"tiers": [
+					{
+						"type": "cryonic_focus_legendary_power",
+						"learnPointCost": 25,
+						"learnKnowledgeCost": 1200,
+						"regretPointCost": 1,
+						"unlockLevel": 100,
+						"id": "cryonic_focus_legendary_power_1",
+						"tier": 7,
+						"tierLock": 10
+					}
+				]
+			},
+			{
+				"type": "tiered",
+				"id": "LegendaryGearPower",
+				"name": "Legendary Knowledge",
+				"tiers": [
+					{
+						"type": "legendary_gear_chance_power",
+						"extraLegendaryChance": 0.03,
+						"learnPointCost": 25,
+						"learnKnowledgeCost": 1200,
+						"regretPointCost": 1,
+						"unlockLevel": 100,
+						"id": "legendary_gear_chance_power_1",
+						"tier": 7,
+						"tierLock": 10
+					}
+				]
+			},
+			{
+				"type": "tiered",
+				"id": "CooldownCapPower",
+				"name": "Increased Cooldown Reduction",
+				"tiers": [
+					{
+						"type": "cooldown_reduction_cap_power",
+						"extraLegendaryChance": 0.1,
+						"learnPointCost": 25,
+						"learnKnowledgeCost": 1200,
+						"regretPointCost": 1,
+						"unlockLevel": 100,
+						"id": "cooldown_reduction_cap_power_1",
+						"tier": 7,
+						"tierLock": 10
+					}
+				]
+			},
+
+			{
+				"type": "tiered",
+				"id": "ToolCapacityPower",
+				"name": "Increased Tool Capacity",
+				"tiers": [
+					{
+						"type": "tool_capacity_power",
+						"learnPointCost": 25,
+						"learnKnowledgeCost": 2400,
+						"regretPointCost": 1,
+						"unlockLevel": 100,
+						"id": "tool_capacity_power_1",
+						"tier": 8,
+						"tierLock": 25
+					}
+				]
+			},
+			{
+				"type": "tiered",
+				"id": "CardEfficiencyPower",
+				"name": "Card Efficiency",
+				"tiers": [
+					{
+						"type": "card_efficiency_power",
+						"learnPointCost": 25,
+						"learnKnowledgeCost": 2400,
+						"regretPointCost": 1,
+						"unlockLevel": 100,
+						"id": "card_efficiency_power_1",
+						"tier": 8,
+						"tierLock": 25
+					}
+				]
+			},
+
+
+
+			{
+				"type": "tiered",
+				"id": "BreachingPower",
+				"name": "Permanent Breaching",
+				"tiers": [
+					{
+						"type": "breaching_power",
+						"learnPointCost": 25,
+						"learnKnowledgeCost": 2400,
+						"regretPointCost": 1,
+						"unlockLevel": 100,
+						"id": "breaching_power_1",
+						"tier": 8,
+						"tierLock": 25
+					}
+				]
+			},
+			{
+				"type": "tiered",
+				"id": "CraftedLegendaryPrestigePower",
+				"name": "Crafted Legendaries",
+				"tiers": [
+					{
+						"type": "crafted_legendary_power",
+						"extraLegendaryChance": 0.05,
+						"learnPointCost": 25,
+						"learnKnowledgeCost": 2400,
+						"regretPointCost": 1,
+						"unlockLevel": 100,
+						"id": "crafted_legendary_power_1",
+						"tier": 8,
+						"tierLock": 25
+					}
+				]
 			}
 		]
 	}
