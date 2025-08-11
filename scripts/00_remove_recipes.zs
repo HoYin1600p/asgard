@@ -1293,6 +1293,10 @@ JEI.hideIngredient(<item:thermal:chiller_ingot_cast>);
 //JEI.hideIngredient(<item:storagenetwork:import_kabel>);
 
 // Vault
+
+craftingTable.remove(<item:the_vault:crystal_seal_vault_royale_pvp>);
+craftingTable.remove(<item:the_vault:crystal_seal_pvp>);
+
 var gems = {
   "gorgeous_gemstone": "gorgeous",
   "ashium_gemstone": "ashium",
