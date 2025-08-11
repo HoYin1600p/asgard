@@ -18070,7 +18070,7 @@ hash = "a1e2b159a36444019f29f5b55c3ba48c511dd3a3a23a027162c180ab7f64eae6"
 
 [[files]]
 file = "defaultconfigs/curios-server.toml"
-hash = "531985e190482f3eb21d5a5792c61c53669317be38b94bc4acc6321164b31091"
+hash = "464873280d5e8b88b0bdaf2cfbaba4af010bf92aba0e90c96d849b0c4b5604f3"
 
 [[files]]
 file = "defaultconfigs/fluxnetworks-server.toml"
@@ -18099,6 +18099,10 @@ hash = "e9989e2cac715f484224c3e8c5c007046f5dc7ca80bdd88dec288f0627850190"
 [[files]]
 file = "kubejs/assets/botanypotstiers/lang/en_us.json"
 hash = "e8d3579273d8775dc8f812c5d26c1bbdb8352709165f1d0c197b44951ccfbc50"
+
+[[files]]
+file = "kubejs/assets/curios/textures/slot/companion_curio.png"
+hash = "623c5eb0dff34cdc1f72c22d97aef13873650d204f748ea17277f4467f01a772"
 
 [[files]]
 file = "kubejs/assets/curios/textures/slot/shard_pouch.png"
@@ -18374,7 +18378,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/assets/the_vault/lang/en_us.json"
-hash = "8d5c3604997ddf7b9c24db994e27892ee06157c394719e916e958d39b20060ec"
+hash = "79d726027c150c733e074542c3ef80fb84672890039123f685accc3cf9951471"
 
 [[files]]
 file = "kubejs/assets/the_vault/models/block/vendor_door/top.json"
@@ -21941,8 +21945,8 @@ hash = "19f2d695ae9532a167c0fba65c94cbf2e8810310144689847584030e40b9113b"
 metafile = true
 
 [[files]]
-file = "mods/unobtainium-1.18.0-millennium-all.jar"
-hash = "5c69eb33feffa752d14403eb54ea0790d0a6780a92cf9b0839d00821970d781c"
+file = "mods/unobtainium-1.18.0-millennium.jar"
+hash = "e85a95322eadfba89b976772d674cb890df8fa32c0c846629918ad774514367a"
 
 [[files]]
 file = "mods/vault-additions.pw.toml"
@@ -22026,7 +22030,7 @@ metafile = true
 
 [[files]]
 file = "mods/wolds-vaults-standalone.pw.toml"
-hash = "0523bf905c43eff6b183cab872fc2f8a00cb67173c5fab4f8a97791bd4dfc82a"
+hash = "ddea4aa6cdd5d2a3225053d25481ccffbbad9f40117794fe4fd6d79965178605"
 metafile = true
 
 [[files]]

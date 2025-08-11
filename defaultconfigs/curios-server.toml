@@ -48,20 +48,12 @@
 	icon = "curios:item/empty_cosmetic_slot"
 
 [[curiosSettings]]
-	identifier = "green_trinket"
-	priority = 10
+	identifier = "companion"
+	priority = 12
 	size = 1
 	visible = true
 	cosmetic = false
-	icon = "curios:item/empty_cosmetic_slot"
-
-[[curiosSettings]]
-	identifier = "antique"
-	priority = 10
-	size = 1
-	visible = true
-	cosmetic = false
-	icon = "curios:item/empty_cosmetic_slot"
+	icon = "curios:slot/companion_curio"
 
 [[curiosSettings]]
 	identifier = "charm"
