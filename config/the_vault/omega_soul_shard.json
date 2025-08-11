@@ -1443,7 +1443,6 @@
                     },
                     "weight": 2
                 },
-
                 {
                     "value": {
                         "item": {
@@ -2027,6 +2026,66 @@
                 {
                     "value": {
                         "item": {
+                            "ITEM": "the_vault:battlestaff",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega_only\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 4000,
+                        "maxPrice": 8000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:trident",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega_only\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 4000,
+                        "maxPrice": 8000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:loot_sack",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega_only\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 4000,
+                        "maxPrice": 8000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:plushie",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega_only\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 4000,
+                        "maxPrice": 8000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:rang",
+                            "AMOUNT": 1,
+                            "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega_only\",\"the_vault:is_loot\":\"true\"}"
+                        },
+                        "minPrice": 4000,
+                        "maxPrice": 8000
+                    },
+                    "weight": 3
+                },
+                {
+                    "value": {
+                        "item": {
                             "ITEM": "the_vault:vault_god_charm",
                             "AMOUNT": 1,
                             "NBT": "{\"the_vault:gear_roll_type_pool\":\"blackmarket_omega\",\"the_vault:is_loot\":\"true\"}"
@@ -2131,6 +2190,54 @@
                         "maxPrice": 12000
                     },
                     "weight": 5
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:capstone_frenzy",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 8192,
+                        "maxPrice": 16384
+                    },
+                    "weight": 5
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:capstone_prosperous",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 7200,
+                        "maxPrice": 14400
+                    },
+                    "weight": 5
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:capstone_enchanted",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 6000,
+                        "maxPrice": 12000
+                    },
+                    "weight": 10
+                },
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "woldsvaults:capstone_all_seeing_eye",
+                            "AMOUNT": 1,
+                            "NBT": "{}"
+                        },
+                        "minPrice": 8192,
+                        "maxPrice": 16384
+                    },
+                    "weight": 10
                 },
                 {
                     "value": {

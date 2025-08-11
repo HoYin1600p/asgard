@@ -16638,7 +16638,7 @@ hash = "50173efde617df3df0a1b03c4842d59d00489f6cfbf1c0f0a639849249ddd1f7"
 
 [[files]]
 file = "config/the_vault/gen/room_level_lock.json"
-hash = "2237780bddc5ca0ac1428d8a664860aee7d29fa78e11c216cfe7ff78f6fb2b46"
+hash = "b35ba7db5ad61751c1f0bd9804371b5d27ceeced77d0adc9fd4d8907843e2a37"
 
 [[files]]
 file = "config/the_vault/gen/template_pools.json"
@@ -16826,7 +16826,7 @@ hash = "f8d24523e856b0d968e263517a74a7086565d0edf74c91892f14e05a0fa7d9ec"
 
 [[files]]
 file = "config/the_vault/omega_soul_shard.json"
-hash = "f6416318b6003b53c59fe4c17d58c9837c5e07e2e2a0b2c73cc6d9396bc11db3"
+hash = "8b52fffbcae52ef975e9063a13ea6856714b30a19eb0a6374eb881ce5735eae2"
 
 [[files]]
 file = "config/the_vault/overlevel_enchant.json"
@@ -20557,6 +20557,14 @@ file = "mods/CardDeckOptimization-1.2.0+u19.jar"
 hash = "83a996b41f99bbea5aba58e12116cba132cd3ddfb0e27613d1c44be5cf892343"
 
 [[files]]
+file = "mods/HunterOutlines-1.0.1-u19.jar"
+hash = "15f099934704c437c8a38717b4bf25ec3fcea70c2a061c17d5c9ba931f00975b"
+
+[[files]]
+file = "mods/VHClientOptimize-1.0.0-u19.jar"
+hash = "c27791e285c2f6be0b2bc89d7cd2dc0826bfecaeed662d166685064d0349a6b3"
+
+[[files]]
 file = "mods/additional-lanterns.pw.toml"
 hash = "01ff81e06d84df908461eade3be7870ed509a227cf9993b1786b094b3597e87d"
 metafile = true
@@ -21183,11 +21191,6 @@ metafile = true
 [[files]]
 file = "mods/geckolib.pw.toml"
 hash = "0bb842f4eb46a40dd6af7f3d9c934f7de769144e33feb3033aa2cefec6af998d"
-metafile = true
-
-[[files]]
-file = "mods/hunteroutlines.pw.toml"
-hash = "22782d8e931d6fde56f5ced8e7b34d0b3ed20a0f637dc553ae48d20f0511daf3"
 metafile = true
 
 [[files]]
@@ -22005,11 +22008,6 @@ metafile = true
 [[files]]
 file = "mods/vhat-can-i-roll-vault-hunters-3-addon.pw.toml"
 hash = "0a04f81a98789700fd108acb015786c811273222eb486685e82231a13b3bb813"
-metafile = true
-
-[[files]]
-file = "mods/vhclientoptimize.pw.toml"
-hash = "fe9b8587358307bdec321ae6f1fd81f05b5501e69f2b807c9233eb2c4cdea4c1"
 metafile = true
 
 [[files]]
