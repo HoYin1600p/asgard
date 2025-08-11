@@ -3334,7 +3334,7 @@ hash = "a1fe898dc394524b831d625ecd0c9d6b92fcfed69fd255707de8e49f2a7c48c3"
 
 [[files]]
 file = "config/the_vault/catalyst.json"
-hash = "d0a4f96774845a5f21df5dea0c2aa7dec990ce210d09ce021b7d53709424d66a"
+hash = "6aff959be48544aac32965ab760cf635736373370c6549ec9fb33406eb5588ad"
 
 [[files]]
 file = "config/the_vault/catalyst_box.json"
@@ -3918,11 +3918,15 @@ hash = "6158447f83d474999c1e67b534f034dc6ce857ee56de278aea8686081a8cdab0"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/brazier_lvl50.json"
-hash = "81ee2afc43e9f04706e9f7610c657d53c8cd7b88a334592012a7988d0e28261a"
+hash = "d5cc6f4efb5dd170d9e6b4d0932d542eeae379915109d005897ac69685ce3557"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/bronze_table.json"
 hash = "483349526bc012722cfaba511929e262461c41e39d1841d3e5fd864c78789aca"
+
+[[files]]
+file = "config/the_vault/gen/1.0/loot_tables/butcher_guardian.json"
+hash = "13d1b2211b1dc7f8cede1fafa6769f734366913983e1478af7bd3e0bed36d04f"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/cake_crate.json"
@@ -4402,7 +4406,7 @@ hash = "595ac4685d5be6b37efc85f3b2c82e7523f22fcc541937033f5a81f0227cc2c6"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_goblin.json"
-hash = "491882a1cfdb1b354f2f46202ba836a237e2c5777fe1fa3dc3d6772eaabf5883"
+hash = "661f05b8c2e5aab9f0c48a71a1dbd3f802b17250cea0685c6e07f46abc8faa3e"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/treasure_sand_0.json"
@@ -4414,7 +4418,7 @@ hash = "607d96cc26ff5592953dbc7af0de07f0d50cef28f9bd1bf09a508b7b51a7e991"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/unique_crates/cove.json"
-hash = "111303d3ee3eea0a1b42f2e934f33bfec11e8a0155b9c0a5b1b09102163e8ab9"
+hash = "f20a3c9b45b7b254be5b616a93c0d6404bea3f26a3e112497186b513e717d5b5"
 
 [[files]]
 file = "config/the_vault/gen/1.0/loot_tables/unique_crates/factory.json"
@@ -16626,7 +16630,7 @@ hash = "998e8a9faaebcab0e2ff127569dc16fbc60e24cce07094c65837dd8c768aef2c"
 
 [[files]]
 file = "config/the_vault/gen/loot_tables.json"
-hash = "7e6b30566c63035f99fdcbcb93ce7b6f44abed3b1ab77cc95a0ec6e008077ca6"
+hash = "7030960a89cce7f13ff1c612c8c852fb562ef4a41a72a51bdd60ff56a3427ee7"
 
 [[files]]
 file = "config/the_vault/gen/palettes.json"
@@ -16754,7 +16758,7 @@ hash = "cac19b595b40aa7793865a5d302f43b3de6d9623934d65fb775f1fbfbe69b638"
 
 [[files]]
 file = "config/the_vault/mob_loot.json"
-hash = "516abe4a410a9115b9e4ab2c83aaf8af27294e5c366e5048a4ab942e9ce705a6"
+hash = "469b42faf39981e18524424626d298e674851ee869401f66b0790414c7b10a36"
 
 [[files]]
 file = "config/the_vault/mod_box.json"
@@ -17006,7 +17010,7 @@ hash = "eab2d88a8e0075e60044e8bfefc9e796fcf1bd848e9dfab2199ea87aa4aba9eb"
 
 [[files]]
 file = "config/the_vault/spirit.json"
-hash = "932727f15d7e9da3977a67c05e6c6e18a1ed9df4f42643aae26fcc7faf7e9ba1"
+hash = "b11795d0520dd80f7a44fb0e3d4c9d2762f6c1924ac77706510a932158f805a8"
 
 [[files]]
 file = "config/the_vault/statue_loot.json"
@@ -17178,7 +17182,7 @@ hash = "c98a703fe6ffe7ccb4ff523d3ddad7b4397fb08bc4b89bf23d9456b3a35f237c"
 
 [[files]]
 file = "config/the_vault/vault_crystal.json"
-hash = "b0fad5560dbfb23dcb9a4e91fd5a639f7d67e1a048b4f5e47a8b21d097d3fcf9"
+hash = "b6c6ccf165279d90bea11bf1e43df8cb2b859cfc4fc5f9dda95df3b2be653f5b"
 
 [[files]]
 file = "config/the_vault/vault_crystal_catalyst_modifiers.json"
@@ -17250,7 +17254,7 @@ hash = "e914f9ac8549ba3f41f8b2ff9da9c49427e2510bed9c26f47f94db70fe807fda"
 
 [[files]]
 file = "config/the_vault/vault_modifiers.json"
-hash = "8eb08bb6cd71bc47f81c7e215c822795f727f030273729d8285089cdf631a9b4"
+hash = "c0d7e168900441e5e12cc300538948820bc1bf21592090710285106c367d1163"
 
 [[files]]
 file = "config/the_vault/vault_ore.json"
@@ -17318,7 +17322,7 @@ hash = "86a4b58c700c55db69add1ba1d263bf3c935fa451e62e558abbb44e0859566fe"
 
 [[files]]
 file = "config/the_vault/vaultadditions_power_gui_styles.json"
-hash = "dd5e1201be6ef70147f8307ed20f52e9f24040326146a64061e2470367502e93"
+hash = "6e312d60af0b3b249b2c9e68aa8a1e9d21e1ff0f1f429ad1559db7aa64435d4f"
 
 [[files]]
 file = "config/the_vault/vaultadditions_raid_plaque_tiers.json"

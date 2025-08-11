@@ -26,6 +26,15 @@
           "probability": 1.0
         }
       ]
+    },
+    "the_vault:butcher_bruiser_guardian": {
+      "lootTables": [
+        {
+          "minLevel": 0,
+          "lootTable": "the_vault:butcher_guardian",
+          "probability": 1.0
+        }
+      ]
     }
   },
   "overworldLoot": {
