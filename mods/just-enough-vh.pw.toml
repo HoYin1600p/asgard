@@ -1,13 +1,13 @@
 name = "Just Enough VH"
-filename = "JustEnoughVH-1.3.jar"
+filename = "JustEnoughVH-1.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha256"
-hash = "f2b0a818f743db6e4f8d9ee63b0791455b4325f97e16e86b7675bb45f56f5e21"
+hash = "fc0ee521871968f06bb6a2076ead8162ca7e4a3b78f2e941ac3d4cb3576a1615"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6853389
+file-id = 6879953
 project-id = 1035310
