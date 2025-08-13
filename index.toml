@@ -20573,6 +20573,10 @@ file = "mods/VHClientOptimize-1.0.2-u19.jar"
 hash = "2b198eb20e074c440d4420d069c904f29a6eb81588af2e38446f4ff155a89dcf"
 
 [[files]]
+file = "mods/VaultLootBeams-1.18.2-1.0.0.jar"
+hash = "d74adb25a974d6cae763fc6b2b46890e57d9d711a99d1eca24fec908c60d9f3b"
+
+[[files]]
 file = "mods/additional-lanterns.pw.toml"
 hash = "01ff81e06d84df908461eade3be7870ed509a227cf9993b1786b094b3597e87d"
 metafile = true
@@ -20738,7 +20742,7 @@ metafile = true
 
 [[files]]
 file = "mods/black-market-tweaks.pw.toml"
-hash = "8a42f41cbd7b9fdb75b5e988ccf6396f2501eac73b43635e5a97378e75cea254"
+hash = "df833e29eeda9a3758917d10bf879654e5d98175621b960a0b05e36b2fe93da7"
 metafile = true
 
 [[files]]
@@ -21996,11 +22000,6 @@ metafile = true
 [[files]]
 file = "mods/vaulthuntersmorevaulttables.pw.toml"
 hash = "5aa700ef9e27b235be8b3021cea3ad1e84f1705dfaf8a799333d949a89ecd2c5"
-metafile = true
-
-[[files]]
-file = "mods/vaultlootbeams.pw.toml"
-hash = "f97c2a13556531c6e730e320eb7577689bf660f65ef5eb3ab541acba55d85e7f"
 metafile = true
 
 [[files]]
