@@ -22004,10 +22004,6 @@ hash = "e00619e38b97b6cbee63a68025308cbf77dd34e39461d13586906a8ee9016298"
 metafile = true
 
 [[files]]
-file = "mods/vh-client-optimize.toml"
-hash = "88b3eaf7101f5496385746d542f4351e0c46b9b4d6cb60fa7fb45d93b6e40285"
-
-[[files]]
 file = "mods/vh-scaling-bingo-seals.pw.toml"
 hash = "a49a3d9a0c1db6144a02fc50123022a845b242a48394ae54e626edabb5534720"
 metafile = true
@@ -22015,6 +22011,11 @@ metafile = true
 [[files]]
 file = "mods/vhat-can-i-roll-vault-hunters-3-addon.pw.toml"
 hash = "0a04f81a98789700fd108acb015786c811273222eb486685e82231a13b3bb813"
+metafile = true
+
+[[files]]
+file = "mods/vhclientoptimize.pw.toml"
+hash = "88b3eaf7101f5496385746d542f4351e0c46b9b4d6cb60fa7fb45d93b6e40285"
 metafile = true
 
 [[files]]
