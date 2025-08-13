@@ -3426,7 +3426,7 @@ hash = "01821f07d5107b467241c71747c97045b16b6aca93e14d2602aa8ba27ac74481"
 
 [[files]]
 file = "config/the_vault/entity_groups.json"
-hash = "2e5572770a2b0f844577d0fe1505dde32443afb037d20a4578f5e302930a8daf"
+hash = "da23731acc897688438aba1a558d3397e48100b14cd4babd59a89264bcc9aefb"
 
 [[files]]
 file = "config/the_vault/entity_hitbox_offsets.json"
@@ -20569,10 +20569,6 @@ file = "mods/HunterOutlines-1.0.1-u19.jar"
 hash = "15f099934704c437c8a38717b4bf25ec3fcea70c2a061c17d5c9ba931f00975b"
 
 [[files]]
-file = "mods/VHClientOptimize-1.0.2-u19.jar"
-hash = "2b198eb20e074c440d4420d069c904f29a6eb81588af2e38446f4ff155a89dcf"
-
-[[files]]
 file = "mods/VaultLootBeams-1.18.2-1.0.0.jar"
 hash = "d74adb25a974d6cae763fc6b2b46890e57d9d711a99d1eca24fec908c60d9f3b"
 
@@ -22006,6 +22002,10 @@ metafile = true
 file = "mods/vaultmapper.pw.toml"
 hash = "e00619e38b97b6cbee63a68025308cbf77dd34e39461d13586906a8ee9016298"
 metafile = true
+
+[[files]]
+file = "mods/vh-client-optimize.toml"
+hash = "88b3eaf7101f5496385746d542f4351e0c46b9b4d6cb60fa7fb45d93b6e40285"
 
 [[files]]
 file = "mods/vh-scaling-bingo-seals.pw.toml"
