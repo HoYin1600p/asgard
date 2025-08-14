@@ -54,17 +54,6 @@
               }
             },
             {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:companion_egg",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
               "weight": 8,
               "item": {
                 "id": "the_vault:soul_vortex",
@@ -133,6 +122,17 @@
                 "nbt": {
                   "id": "vaulthalla"
                 },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:companion_egg",
                 "count": {
                   "type": "uniform",
                   "min": 1,

@@ -494,7 +494,7 @@
             "max": 1,
             "pool": [
               {
-                "value": "the_vault:shortened",
+                "value": "the_vault:brazier_shortened",
                 "weight": 5
               },
               {
@@ -502,7 +502,7 @@
                 "weight": 5
               },
               {
-                "value": "the_vault:voiding",
+                "value": "the_vault:brazier_voiding",
                 "weight": 5
               },
               {
@@ -510,7 +510,7 @@
                 "weight": 5
               },
               {
-                "value": "the_vault:ethereal",
+                "value": "the_vault:brazier_ethereal",
                 "weight": 5
               },
               {
@@ -535,7 +535,7 @@
               },
               {
                 "value": "the_vault:antiheal",
-                "weight": 5
+                "weight": 0
               }
             ]
           }

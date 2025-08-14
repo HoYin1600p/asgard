@@ -1619,6 +1619,21 @@
           "descriptionFormatted": "+%d%% increased chance mobs will void time on hit",
           "icon": "the_vault:gui/modifiers/hex_wither"
         }
+      },
+      "the_vault:brazier_voiding": {
+        "properties": {
+          "effect": "the_vault:time_acceleration",
+          "effectAmplifier": 5,
+          "effectDurationTicks": 40,
+          "onHitApplyChance": 0.25
+        },
+        "display": {
+          "name": "Voiding",
+          "color": "#5A5851",
+          "description": "+25% increased chance mobs will void time on hit",
+          "descriptionFormatted": "+%d%% increased chance mobs will void time on hit",
+          "icon": "the_vault:gui/modifiers/hex_wither"
+        }
       }
     },
     "the_vault:modifier_type/mob_frenzy": {
@@ -3106,6 +3121,18 @@
           "name": "Shortened",
           "color": "#2F86AE",
           "description": "-2.5 minute Vault Time",
+          "descriptionFormatted": "-%d minutes Vault Time",
+          "icon": "the_vault:gui/modifiers/rush"
+        }
+      },
+      "the_vault:brazier_shortened": {
+        "properties": {
+          "timeAddedTicks": -2400
+        },
+        "display": {
+          "name": "Shortened",
+          "color": "#2F86AE",
+          "description": "-2 minute Vault Time",
           "descriptionFormatted": "-%d minutes Vault Time",
           "icon": "the_vault:gui/modifiers/rush"
         }
@@ -4684,13 +4711,13 @@
       "the_vault:brazier_wild": {
         "properties": {
           "children": {
-            "the_vault:wild": 3
+            "the_vault:wild": 5
           }
         },
         "display": {
           "name": "Wild Brazier",
           "color": "#FF5555",
-          "description": "+3 Wild Mobs",
+          "description": "+5 Wild Mobs",
           "icon": "the_vault:gui/modifiers/crowded"
         }
       }
@@ -4777,6 +4804,20 @@
           "name": "Curse Ethereal",
           "color": "#a996ca",
           "description": "Mobs in this vault can spawn in as ethereal, being immune to any damage.",
+          "icon": "the_vault:gui/modifiers/haunted"
+        }
+      },
+      "the_vault:brazier_ethereal": {
+        "properties": {
+          "filter": "",
+          "effect": "the_vault:immortality",
+          "amplifier": 0,
+          "chance": 0.169
+        },
+        "display": {
+          "name": "Curse Ethereal",
+          "color": "#a996ca",
+          "description": "Mobs in this vault have a 16.9% chance to be invulnerable.",
           "icon": "the_vault:gui/modifiers/haunted"
         }
       },

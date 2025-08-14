@@ -1475,7 +1475,7 @@
                 "max": 4
               }
             },
-            "weight": 4
+            "weight": 0
           },
           {
             "value": {
@@ -1530,7 +1530,7 @@
                 "max": 4
               }
             },
-            "weight": 4
+            "weight": 0
           },
           {
             "value": {
@@ -1585,7 +1585,7 @@
                 "max": 6
               }
             },
-            "weight": 4
+            "weight": 0
           },
           {
             "value": {
@@ -1640,7 +1640,7 @@
                 "max": 10
               }
             },
-            "weight": 4
+            "weight": 0
           },
           {
             "value": {
@@ -1695,7 +1695,7 @@
                 "max": 16
               }
             },
-            "weight": 4
+            "weight": 0
           },
           {
             "value": {
@@ -1987,6 +1987,16 @@
             "min": 4,
             "max": 4
           }
+        },
+        "modifiers": {
+          "type": "default",
+          "list": [
+            {
+              "modifier": "the_vault:rotten",
+              "count": 1
+            }
+          ],
+          "random_modifiers": true
         }
       },
       {
@@ -2002,6 +2012,16 @@
             "min": 4,
             "max": 6
           }
+        },
+        "modifiers": {
+          "type": "default",
+          "list": [
+            {
+              "modifier": "the_vault:rotten",
+              "count": 1
+            }
+          ],
+          "random_modifiers": true
         }
       },
       {
@@ -2017,6 +2037,16 @@
             "min": 6,
             "max": 10
           }
+        },
+        "modifiers": {
+          "type": "default",
+          "list": [
+            {
+              "modifier": "the_vault:rotten",
+              "count": 1
+            }
+          ],
+          "random_modifiers": true
         }
       },
       {
@@ -2032,6 +2062,16 @@
             "min": 12,
             "max": 16
           }
+        },
+        "modifiers": {
+          "type": "default",
+          "list": [
+            {
+              "modifier": "the_vault:rotten",
+              "count": 1
+            }
+          ],
+          "random_modifiers": true
         }
       }
     ],
