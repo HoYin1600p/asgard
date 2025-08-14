@@ -1625,12 +1625,12 @@
           "effect": "the_vault:time_acceleration",
           "effectAmplifier": 5,
           "effectDurationTicks": 40,
-          "onHitApplyChance": 0.25
+          "onHitApplyChance": 0.15
         },
         "display": {
           "name": "Voiding",
           "color": "#5A5851",
-          "description": "+25% increased chance mobs will void time on hit",
+          "description": "+10% increased chance mobs will void time on hit",
           "descriptionFormatted": "+%d%% increased chance mobs will void time on hit",
           "icon": "the_vault:gui/modifiers/hex_wither"
         }
@@ -4812,12 +4812,12 @@
           "filter": "",
           "effect": "the_vault:immortality",
           "amplifier": 0,
-          "chance": 0.169
+          "chance": 0.5
         },
         "display": {
-          "name": "Curse Ethereal",
+          "name": "Ethereal",
           "color": "#a996ca",
-          "description": "Mobs in this vault have a 16.9% chance to be invulnerable.",
+          "description": "Mobs in this vault have a 10.0% chance to be invulnerable.",
           "icon": "the_vault:gui/modifiers/haunted"
         }
       },
