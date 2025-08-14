@@ -30,7 +30,7 @@
       },
       {
         "type": "chest",
-        "target": "@the_vault:gilded",
+        "target": "@the_vault:all_gilded",
         "probability": 0.5,
         "icon": "the_vault:textures/gui/scavenger/gilded_chest.png",
         "entries": {
@@ -58,7 +58,7 @@
       },
       {
         "type": "chest",
-        "target": "@the_vault:ornate",
+        "target": "@the_vault:all_ornate",
         "probability": 0.5,
         "icon": "the_vault:textures/gui/scavenger/ornate_chest.png",
         "entries": {
@@ -86,7 +86,7 @@
       },
       {
         "type": "chest",
-       "target": "@the_vault:living",
+       "target": "@the_vault:all_living",
         "probability": 0.5,
         "icon": "the_vault:textures/gui/scavenger/living_chest.png",
         "entries": {
