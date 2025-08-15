@@ -3,42 +3,19 @@
     {
       "roll": {
         "type": "uniform",
-        "min": 1,
+        "min": 3,
         "max": 3
       },
       "pool": [
-        {
-          "weight": 70,
+        { "weight": 70,
           "pool": [
             {
               "weight": 20,
               "item": {
-                "id": "the_vault:gem_black_opal",
+                "id": "the_vault:soot",
                 "count": {
                   "type": "uniform",
                   "min": 2,
-                  "max": 6
-                }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:gem_pog",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 24,
-              "item": {
-                "id": "the_vault:eternal_soul",
-                "count": {
-                  "type": "uniform",
-                  "min": 4,
                   "max": 8
                 }
               }
@@ -46,25 +23,47 @@
             {
               "weight": 8,
               "item": {
-                "id": "the_vault:vault_gold",
+                "id": "the_vault:ornate_chain",
                 "count": {
                   "type": "uniform",
-                  "min": 6,
-                  "max": 18
+                  "min": 1,
+                  "max": 4
+                }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:driftwood",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 4
                 }
               }
             }
+
           ]
         },
-        {
-          "weight": 20,
+        { "weight": 20,
           "pool": [
+            {
+              "weight": 18,
+              "item": {
+                "id": "the_vault:carbon_nugget",
+                "count": {
+                  "type": "uniform",
+                  "min": 4,
+                  "max": 16
+                }
+              }
+            },
             {
               "weight": 2,
               "item": {
                 "id": "the_vault:sword",
                 "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                  "the_vault:gear_roll_type_pool": "brazier"
                 },
                 "count": {
                   "type": "uniform",
@@ -78,7 +77,7 @@
               "item": {
                 "id": "the_vault:axe",
                 "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                  "the_vault:gear_roll_type_pool": "brazier"
                 },
                 "count": {
                   "type": "uniform",
@@ -92,7 +91,7 @@
               "item": {
                 "id": "the_vault:wand",
                 "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                  "the_vault:gear_roll_type_pool": "brazier"
                 },
                 "count": {
                   "type": "uniform",
@@ -106,7 +105,7 @@
               "item": {
                 "id": "the_vault:shield",
                 "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                  "the_vault:gear_roll_type_pool": "brazier"
                 },
                 "count": {
                   "type": "uniform",
@@ -120,7 +119,7 @@
               "item": {
                 "id": "the_vault:focus",
                 "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                  "the_vault:gear_roll_type_pool": "brazier"
                 },
                 "count": {
                   "type": "uniform",
@@ -134,7 +133,7 @@
               "item": {
                 "id": "the_vault:helmet",
                 "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                  "the_vault:gear_roll_type_pool": "brazier"
                 },
                 "count": {
                   "type": "uniform",
@@ -148,7 +147,7 @@
               "item": {
                 "id": "the_vault:chestplate",
                 "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                  "the_vault:gear_roll_type_pool": "brazier"
                 },
                 "count": {
                   "type": "uniform",
@@ -162,7 +161,7 @@
               "item": {
                 "id": "the_vault:leggings",
                 "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                  "the_vault:gear_roll_type_pool": "brazier"
                 },
                 "count": {
                   "type": "uniform",
@@ -176,7 +175,7 @@
               "item": {
                 "id": "the_vault:boots",
                 "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
+                  "the_vault:gear_roll_type_pool": "brazier"
                 },
                 "count": {
                   "type": "uniform",
@@ -188,10 +187,7 @@
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:trident",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
-                },
+                "id": "the_vault:gem_iskallium",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -202,10 +198,7 @@
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:battlestaff",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
-                },
+                "id": "the_vault:gem_gorginite",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -216,10 +209,7 @@
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:plushie",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
-                },
+                "id": "the_vault:gem_sparkletine",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -230,10 +220,62 @@
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:loot_sack",
-                "nbt": {
-                  "the_vault:gear_roll_type_pool": "gear_completion_crate_scav"
-                },
+                "id": "the_vault:gem_ashium",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:gem_bomignite",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:gem_tubium",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:gem_upaline",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:gem_petzanite",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:gem_xenium",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -243,24 +285,12 @@
             }
           ]
         },
-        {
-          "weight": 8,
+        { "weight": 8,
           "pool": [
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:black_chromatic_steel_ingot",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            },
-            {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:gem_pog",
+                "id": "the_vault:gem_echo",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -269,7 +299,18 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 10,
+              "item": {
+                "id": "the_vault:bitter_lemon",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 10,
               "item": {
                 "id": "the_vault:vault_platinum",
                 "count": {
@@ -281,35 +322,12 @@
             }
           ]
         },
-        {
-          "weight": 2,
+        { "weight": 2,
           "pool": [
-            {
-              "weight": 12,
-              "item": {
-                "id": "woldsvaults:poltergeist_plum",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
             {
               "weight": 20,
               "item": {
                 "id": "the_vault:bitter_lemon",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 2
-                }
-              }
-            },
-            {
-              "weight": 4,
-              "item": {
-                "id": "the_vault:sour_orange",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -320,7 +338,7 @@
             {
               "weight": 2,
               "item": {
-                "id": "the_vault:trinket_scrap",
+                "id": "the_vault:artifact_fragment",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -340,45 +358,9 @@
               }
             },
             {
-              "weight": 2,
-              "item": {
-                "id": "the_vault:knowledge_star",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
-              "weight": 20,
-              "item": {
-                "id": "the_vault:vault_platinum",
-                "count": {
-                  "type": "uniform",
-                  "min": 2,
-                  "max": 5
-                }
-              }
-            },
-            {
-              "weight": 2,
-              "item": {
-                "id": "the_vault:artifact_fragment",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
               "weight": 1,
               "item": {
-                "id": "the_vault:card_deck",
-                "nbt": {
-                  "id": "Brazier"
-                },
+                "id": "the_vault:unidentified_treasure_key",
                 "count": {
                   "type": "uniform",
                   "min": 1,
@@ -387,9 +369,20 @@
               }
             },
             {
-              "weight": 2,
+              "weight": 4,
               "item": {
-                "id": "the_vault:soul_vortex",
+                "id": "the_vault:lost_bounty",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:trinket_scrap",
                 "count": {
                   "type": "uniform",
                   "min": 1,
