@@ -3474,6 +3474,24 @@
           }
         ]
       },
+      { "attribute": "the_vault:ability_cooldown_percent",
+        "group": "ModEnhancement",
+        "identifier": "the_vault:heal_cooldown",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 5,
+            "value": {
+              "min": -0.75,
+              "max": -0.25,
+              "step": 0.01,
+              "abilityKey": "Heal_Group"
+            }
+          }
+        ]
+      },
       { "attribute": "the_vault:ability_power_percent",
         "group": "ModAP",
         "identifier": "the_vault:mod_ability_increase",
@@ -4091,6 +4109,23 @@
             "value": {
               "effectKey": "minecraft:jump_boost",
               "amplifier": 20
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:phoenix",
+        "group": "ModPhoenix",
+        "identifier": "the_vault:u_phoenix",
+        "tags": [],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 1,
+              "max": 3,
+              "step": 1
             }
           }
         ]
