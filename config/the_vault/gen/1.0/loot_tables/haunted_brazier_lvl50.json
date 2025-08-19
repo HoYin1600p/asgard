@@ -54,17 +54,6 @@
               }
             },
             {
-              "weight": 1,
-              "item": {
-                "id": "the_vault:companion_egg",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 1
-                }
-              }
-            },
-            {
               "weight": 8,
               "item": {
                 "id": "the_vault:soul_vortex",
@@ -115,9 +104,20 @@
             {
               "weight": 1,
               "item": {
+                "id": "the_vault:companion_egg",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
                 "id": "the_vault:card_deck",
                 "nbt": {
-                  "id": "millennium"
+                  "id": "Millennium"
                 },
                 "count": {
                   "type": "uniform",
@@ -131,7 +131,7 @@
               "item": {
                 "id": "the_vault:card_deck",
                 "nbt": {
-                  "id": "vaulthalla"
+                  "id": "Vaulthalla"
                 },
                 "count": {
                   "type": "uniform",
@@ -141,7 +141,7 @@
               }
             },
             {
-              "weight": 8,
+              "weight": 12,
               "item": {
                 "id": "woldsvaults:omega_box",
                 "count": {
@@ -175,7 +175,7 @@
             }
           ]
         },
-        { "weight": 10,
+        { "weight": 14,
           "pool": [
             {
               "weight": 10,
@@ -237,7 +237,7 @@
             }
           ]
         },
-        { "weight": 5,
+        { "weight": 1,
           "pool": [
             {
               "weight": 500,

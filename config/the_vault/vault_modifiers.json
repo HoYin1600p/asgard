@@ -1630,7 +1630,7 @@
         "display": {
           "name": "Voiding",
           "color": "#5A5851",
-          "description": "+10% increased chance mobs will void time on hit",
+          "description": "+15% increased chance mobs will void time on hit",
           "descriptionFormatted": "+%d%% increased chance mobs will void time on hit",
           "icon": "the_vault:gui/modifiers/hex_wither"
         }
@@ -4812,12 +4812,12 @@
           "filter": "",
           "effect": "the_vault:immortality",
           "amplifier": 0,
-          "chance": 0.5
+          "chance": 0.05
         },
         "display": {
           "name": "Ethereal",
           "color": "#a996ca",
-          "description": "Mobs in this vault have a 10.0% chance to be invulnerable.",
+          "description": "Mobs in this vault have a chance to be invulnerable.",
           "icon": "the_vault:gui/modifiers/haunted"
         }
       },
