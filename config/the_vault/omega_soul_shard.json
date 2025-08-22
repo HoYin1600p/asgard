@@ -1109,8 +1109,8 @@
                             "AMOUNT": 1,
                             "NBT": "{\"pool\":\"the_vault:black_market_omega\"}"
                         },
-                        "minPrice": 1200,
-                        "maxPrice": 2400
+                        "minPrice": 6144,
+                        "maxPrice": 12288
                     },
                     "weight": 48
                 },
@@ -1749,8 +1749,8 @@
                             "AMOUNT": 1,
                             "NBT": "{\"pool\":\"the_vault:black_market_omega\"}"
                         },
-                        "minPrice": 1200,
-                        "maxPrice": 2400
+                        "minPrice": 6144,
+                        "maxPrice": 12288
                     },
                     "weight": 48
                 },
@@ -1843,6 +1843,18 @@
         {
             "minLevel": 101,
             "shardTrades": [
+                {
+                    "value": {
+                        "item": {
+                            "ITEM": "the_vault:vault_catalyst_infused",
+                            "AMOUNT": 1,
+                            "NBT": "{\"pool\":\"the_vault:black_market_omega\"}"
+                        },
+                        "minPrice": 6144,
+                        "maxPrice": 12288
+                    },
+                    "weight": 48
+                },
                 {
                     "value": {
                         "item": {
@@ -2093,7 +2105,7 @@
                         "minPrice": 6000,
                         "maxPrice": 10000
                     },
-                    "weight": 20
+                    "weight": 6
                 },
                 {
                     "value": {
