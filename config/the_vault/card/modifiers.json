@@ -2431,7 +2431,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Dash_Warp",
+          "abilityKey": "Dash_Base",
           "levelChange": 1
         }
       ],
@@ -2471,7 +2471,7 @@
       "pool": [
         {
           "tier": 1,
-          "abilityKey": "Dash_Base",
+          "abilityKey": "Dash_Warp",
           "levelChange": 1
         }
       ],
@@ -6881,7 +6881,7 @@
         "weight": 1.0
       },
       {
-        "value": "ice_blast",
+        "value": "glacial_blast",
         "weight": 1.0
       },
       {
