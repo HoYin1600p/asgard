@@ -20982,6 +20982,11 @@ hash = "0ec96e9c9df987b3078d8f3e5a637bffbe8d5762daf60009ab6e9186896336c7"
 metafile = true
 
 [[files]]
+file = "mods/custom-companions.pw.toml"
+hash = "ad9c64c98a5536c6c9429573fe26cc7faf7fe436f73de119111eaf68cc653d9b"
+metafile = true
+
+[[files]]
 file = "mods/cyclops-core.pw.toml"
 hash = "ffc673664485456a1d17138e041cff7c89c10ff90802221fb574336d9afc3a8b"
 metafile = true
@@ -21996,6 +22001,11 @@ metafile = true
 [[files]]
 file = "mods/vaultmapper.pw.toml"
 hash = "e00619e38b97b6cbee63a68025308cbf77dd34e39461d13586906a8ee9016298"
+metafile = true
+
+[[files]]
+file = "mods/vh-companion-workstation.pw.toml"
+hash = "d4804aa1cc4f3f9a5c59024caa096126d2d3c9aeca25e0fb158e834f65e61e4e"
 metafile = true
 
 [[files]]
