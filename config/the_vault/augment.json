@@ -221,10 +221,10 @@
       "the_vault:augment{theme:\"the_vault:classic_vault_void\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_day\"}": 0,
       "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_night\"}": 0,
-      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_idona\"}": 5,
-      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_tenos\"}": 5,
-      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_velara\"}": 5,
-      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_wendarr\"}": 5
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_idona\"}": 0,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_tenos\"}": 0,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_velara\"}": 0,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_wendarr\"}": 0
     },
     "the_vault:classic_vault_chaos_cake": {
       "the_vault:augment{theme:\"the_vault:classic_vault_aurora_cave\"}": 5,
@@ -268,10 +268,10 @@
       "the_vault:augment{theme:\"the_vault:classic_vault_void\"}": 5,
       "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_day\"}": 0,
       "the_vault:augment{theme:\"the_vault:classic_vault_dreadlands_night\"}": 0,
-      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_idona\"}": 5,
-      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_tenos\"}": 5,
-      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_velara\"}": 5,
-      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_wendarr\"}": 5
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_idona\"}": 0,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_tenos\"}": 0,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_velara\"}": 0,
+      "the_vault:augment{theme:\"the_vault:classic_vault_ancient_wendarr\"}": 0
 
     },
     "the_vault:classic_vault_season_spring": {
@@ -319,7 +319,7 @@
     "the_vault:classic_vault_idona_normal": {
       "minecraft:air": 1
     },
-   "the_vault:classic_vault_ancient_idona": {
+    "the_vault:classic_vault_ancient_idona": {
       "the_vault:augment{theme:\"the_vault:classic_vault_ancient_idona\"}": 5
     },
     "the_vault:classic_vault_ancient_tenos": {
