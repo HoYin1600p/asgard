@@ -74,6 +74,7 @@
     "the_vault:capstone_treasure_hunter": "2048",
     "the_vault:capstone_pylon_hunter": "1024",
     "the_vault:capstone_vendoor_hunter": "1024",
+    "the_vault:god_token": 128,
     "the_vault:crystal_seal_empty": 256,
     "the_vault:mod_box": 256,
     "the_vault:chromatic_steel_ingot": 48,
@@ -274,6 +275,9 @@
     "the_vault:velvet_block_1": 36,
     "the_vault:mossy_bone_block_1": 36,
     "the_vault:default": 0,
+    "the_vault:modifier_scroll": 512,
+    "the_vault:companion_particle_trail": 32,
+
 
     "woldsvaults:gem_box": 384,
     "woldsvaults:supply_box": 128,
@@ -289,6 +293,10 @@
     "woldsvaults:compressed_vault_diamond_block": 10368,
     "woldsvaults:compressed_vault_essence": 99,
     "woldsvaults:compressed_vault_essence_2": 891,
+    "woldsvaults:capstone_enchanted": 512,
+    "woldsvaults:capstone_frenzy": 2048,
+    "woldsvaults:capstone_prosperous": 2048,
+    "woldsvaults:capstone_all_seeing_eye": 1024,
 
     "vaultadditions:loot_statue_vault":  576,
     "vaultadditions:loot_statue_gift": 576,
