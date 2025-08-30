@@ -1213,6 +1213,14 @@ file = "config/colossalchests-common.toml"
 hash = "a28b57429c1fa43d8aeffece8952eaa08fa98ee28115e1cb91da5fa2e64f7217"
 
 [[files]]
+file = "config/companion_work_station/companion_recycler.json"
+hash = "d0d89821d8598a6141bb5cbca4b994d7cb960d5ee2bf1b9a42a03d41cf39f30a"
+
+[[files]]
+file = "config/companion_work_station/recipes/companion_workbench_recipes.json"
+hash = "67e419e50b50f825712849af873ee6eb8f77ea4dca5a5bd593dfd2ddbb6a1dc2"
+
+[[files]]
 file = "config/compressiumblocks.json"
 hash = "4c241131d248eafc6cacf99cdfe9b8662368a8d32bd635e52d3536c5ceceab6f"
 
@@ -20582,6 +20590,11 @@ file = "mods/additionaltransmogs-1.19.0.jar"
 hash = "270b5c5a68b7b1008e4219ff73ab6b5407a283321d27d661b3ea556c4ee3eb64"
 
 [[files]]
+file = "mods/ae2-search-improvements-backport.pw.toml"
+hash = "bf116dd9a9ea0b6a2113d95f53d714c72827989fabcbc52b7893cfd6092f5820"
+metafile = true
+
+[[files]]
 file = "mods/ae2-things-forge.pw.toml"
 hash = "0396bcf8a4323a494f8ed439de3a76ad7d7e274846922d3e42a392327f750680"
 metafile = true
@@ -20979,6 +20992,11 @@ metafile = true
 [[files]]
 file = "mods/curtain.pw.toml"
 hash = "0ec96e9c9df987b3078d8f3e5a637bffbe8d5762daf60009ab6e9186896336c7"
+metafile = true
+
+[[files]]
+file = "mods/custom-companions.pw.toml"
+hash = "ad9c64c98a5536c6c9429573fe26cc7faf7fe436f73de119111eaf68cc653d9b"
 metafile = true
 
 [[files]]
@@ -21960,7 +21978,7 @@ metafile = true
 
 [[files]]
 file = "mods/vault-filters.pw.toml"
-hash = "a888516bbcc97ffa6aecbb09bf6d8086aaa04fbc32225ca5e50d482036cbfede"
+hash = "da9503daa11dcbbe473ec1b90e06094fcb0b9172911f619bac6ad676f7d4591f"
 metafile = true
 
 [[files]]
@@ -21996,6 +22014,11 @@ metafile = true
 [[files]]
 file = "mods/vaultmapper.pw.toml"
 hash = "e00619e38b97b6cbee63a68025308cbf77dd34e39461d13586906a8ee9016298"
+metafile = true
+
+[[files]]
+file = "mods/vh-companion-workstation.pw.toml"
+hash = "d4804aa1cc4f3f9a5c59024caa096126d2d3c9aeca25e0fb158e834f65e61e4e"
 metafile = true
 
 [[files]]

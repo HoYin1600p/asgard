@@ -1,0 +1,13 @@
+name = "Custom Companions"
+filename = "customcompanions-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "f9492e0a2fa98bd7473c1a6643a9b75b7f1c50e6ff8705a48d2fa167172c108b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6894581
+project-id = 1328768

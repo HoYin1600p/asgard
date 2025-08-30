@@ -1,0 +1,13 @@
+name = "VH Companion Workstation"
+filename = "companion_work_station-19.5-1.0.3-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "2326e9f4e74b8a1f67b5aa25ed851ae8a33f9908f0325b4e8dcbf36024a27e5f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6908747
+project-id = 1330831
