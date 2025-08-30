@@ -1213,6 +1213,14 @@ file = "config/colossalchests-common.toml"
 hash = "a28b57429c1fa43d8aeffece8952eaa08fa98ee28115e1cb91da5fa2e64f7217"
 
 [[files]]
+file = "config/companion_work_station/companion_recycler.json"
+hash = "5c9398070d9638dd587e868cde2b96edb3a0482c161ece974212c11763817be1"
+
+[[files]]
+file = "config/companion_work_station/recipes/companion_workbench_recipes.json"
+hash = "67e419e50b50f825712849af873ee6eb8f77ea4dca5a5bd593dfd2ddbb6a1dc2"
+
+[[files]]
 file = "config/compressiumblocks.json"
 hash = "4c241131d248eafc6cacf99cdfe9b8662368a8d32bd635e52d3536c5ceceab6f"
 
