@@ -1,7 +1,9 @@
 {
-  "smeltTimer": 200,
+  "smeltTimer": 100,
+  "smeltTimerRelic": 80,
+  "smeltTimerParticle": 40,
   "companionEssenceDrop": 1,
   "companionScrapFromRecycleRelic": 2,
-  "companionScrapFromRecycleParticleTrail": 2,
+  "companionScrapFromRecycleParticleTrail": 1,
   "giveRetiredCompanion": true
 }
