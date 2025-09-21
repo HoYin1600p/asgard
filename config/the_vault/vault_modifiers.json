@@ -3091,12 +3091,12 @@
     "the_vault:modifier_type/vault_time": {
       "the_vault:extended": {
         "properties": {
-          "timeAddedTicks": 1200
+          "timeAddedTicks": 1800
         },
         "display": {
           "name": "Extended",
           "color": "#2F86AE",
-          "description": "+1 minute Vault Time",
+          "description": "+1.5 minutes Vault Time",
           "descriptionFormatted": "+%d minutes Vault Time",
           "icon": "the_vault:gui/modifiers/extended"
         }
