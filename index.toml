@@ -2153,6 +2153,10 @@ file = "config/shift_mods/coinpouch/coinpouch-common.shift"
 hash = "c78220066ed5d27cd5958b258b0f6169e85b11d6298d7a66e79a80ad8d99f017"
 
 [[files]]
+file = "config/shift_mods/fruitbag/fruitbag-common.shift"
+hash = "a1ee2dd44f56560dd0bf132838f807ab7a6050b12611c7c0a15dddf298556d0d"
+
+[[files]]
 file = "config/shift_mods/keychain/keychain-common.shift"
 hash = "9d0b702f4a8f6b0d893e5da5a3c6baf5357b2034ab2031329315119129d2606b"
 
@@ -3326,7 +3330,7 @@ hash = "564e953e6d21f0c42a295e447386d4095b56c4dfca8f4ab1041affd7705f2b3d"
 
 [[files]]
 file = "config/the_vault/card/modifiers.json"
-hash = "9889000abc7e4557e436e2247509af62e59e832b4fdf16e63a3a29b4f14ca3ae"
+hash = "c37b58e0fa711a00051265abd80df9ab1b0f11398b001e1dba949ee532999362"
 
 [[files]]
 file = "config/the_vault/card/scalers.json"
@@ -3522,7 +3526,7 @@ hash = "ca47a2eef288f105d79b8d1dbed7d10f693e64630b60e6a29a4f6b908e1fe19d"
 
 [[files]]
 file = "config/the_vault/gear_model_roll_rarities.json"
-hash = "6648d546b9908104883f1b08105d00cf2371aa2b2dbfc61c575b61d83b97bf5b"
+hash = "723009a27afa34c5d6f09f2b877b2eb7c68c809c79aad2ae827745a276cfd22a"
 
 [[files]]
 file = "config/the_vault/gear_modifiers/axe.json"
@@ -17262,7 +17266,7 @@ hash = "7725c1010c0d35c8057ed4eef7f064838ca9731a25809f66e580132e46dcfa36"
 
 [[files]]
 file = "config/the_vault/vault_modifiers.json"
-hash = "a0f46c86b1b752cc41944b4e4868b5dc0ec6156a707e830176fa4e42ef9559d0"
+hash = "77acd1bdd3dd28eb39bdad8b5653afebecc084b373da25a25e778880b5c0f658"
 
 [[files]]
 file = "config/the_vault/vault_ore.json"
@@ -18326,7 +18330,7 @@ hash = "15301e51dfdcc59097bab50e3a6b4335ccf11b1c86a4edc4a7aa3c87bd0c52d7"
 
 [[files]]
 file = "kubejs/assets/packmenu/buttons/millennium.json"
-hash = "19f1bffc53522bf324bb85d9d896ded4107a79c36bb8944960cfd9041b402652"
+hash = "a7f4e297e1fa048d9459ac1cf77aea9b0ff98757f86985359dc57230f73d9338"
 
 [[files]]
 file = "kubejs/assets/packmenu/buttons/multiplayer.json"
@@ -18399,6 +18403,10 @@ hash = "8c502a246e1ba5e4c546259c4a4fe609d0eb33c740b150af70db4abb832cf858"
 [[files]]
 file = "kubejs/assets/the_vault/models/item/card/icon/colossus.json"
 hash = "fa460aab9e694399af2676a14555c4e3c71c05ea8f77b4185bfe167d2c181e45"
+
+[[files]]
+file = "kubejs/assets/the_vault/models/item/card/icon/effect_duration.json"
+hash = "d9ba8aa24298c04f7f9aa50d4466bc532d067107cf6d1f41751eb3a0421f8e23"
 
 [[files]]
 file = "kubejs/assets/the_vault/models/item/card/icon/fortify.json"
@@ -19179,6 +19187,10 @@ hash = "78e713b73ae9142ca6449ebfb8874403fc2809049102f3e380127f3fe848672d"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/card/icon/colossus.png"
 hash = "d58b407c281ae2c3ea13ab8a77247c98f1bd590e6fcb1c4165593e38b779f469"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/card/icon/effect_duration.png"
+hash = "5ca68ef30e35c24b699cc2120dc04f5e11773097b54f1fe727104065949e24ad"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/card/icon/fortify.png"
@@ -21963,7 +21975,7 @@ hash = "e85a95322eadfba89b976772d674cb890df8fa32c0c846629918ad774514367a"
 
 [[files]]
 file = "mods/vault-additions.pw.toml"
-hash = "b4077df749c9211c8adb3a2141678cf1806405c01f0bbaf657eb024fb4c6d345"
+hash = "7e526cf6c6834a733997e6e4b8404d158307d82185d8d6fbc3feaea07b71890e"
 metafile = true
 
 [[files]]
@@ -21978,7 +21990,7 @@ metafile = true
 
 [[files]]
 file = "mods/vault-filters.pw.toml"
-hash = "da9503daa11dcbbe473ec1b90e06094fcb0b9172911f619bac6ad676f7d4591f"
+hash = "810068e4549a6c90e97b6c7d0724717e3ef549f7dd7c920a79842647211e133f"
 metafile = true
 
 [[files]]
