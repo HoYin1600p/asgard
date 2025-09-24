@@ -3330,7 +3330,7 @@ hash = "564e953e6d21f0c42a295e447386d4095b56c4dfca8f4ab1041affd7705f2b3d"
 
 [[files]]
 file = "config/the_vault/card/modifiers.json"
-hash = "9889000abc7e4557e436e2247509af62e59e832b4fdf16e63a3a29b4f14ca3ae"
+hash = "9c19aa69bc573571f66dc92d679ad848b32819e64ee4c1cb3c8a6a6c002c2109"
 
 [[files]]
 file = "config/the_vault/card/scalers.json"
@@ -18405,6 +18405,10 @@ file = "kubejs/assets/the_vault/models/item/card/icon/colossus.json"
 hash = "fa460aab9e694399af2676a14555c4e3c71c05ea8f77b4185bfe167d2c181e45"
 
 [[files]]
+file = "kubejs/assets/the_vault/models/item/card/icon/effect_duration.json"
+hash = "d9ba8aa24298c04f7f9aa50d4466bc532d067107cf6d1f41751eb3a0421f8e23"
+
+[[files]]
 file = "kubejs/assets/the_vault/models/item/card/icon/fortify.json"
 hash = "1a3ba549f729a81ce680d0fd6a5da9ef672935be4c8a2c796598f118dfde4828"
 
@@ -19183,6 +19187,10 @@ hash = "78e713b73ae9142ca6449ebfb8874403fc2809049102f3e380127f3fe848672d"
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/card/icon/colossus.png"
 hash = "d58b407c281ae2c3ea13ab8a77247c98f1bd590e6fcb1c4165593e38b779f469"
+
+[[files]]
+file = "kubejs/assets/the_vault/textures/item/card/icon/effect_duration.png"
+hash = "5ca68ef30e35c24b699cc2120dc04f5e11773097b54f1fe727104065949e24ad"
 
 [[files]]
 file = "kubejs/assets/the_vault/textures/item/card/icon/fortify.png"

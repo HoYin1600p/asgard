@@ -2264,6 +2264,53 @@
       ],
       "maxTier": 5
     },
+
+    "amp_effect_duration": {
+      "type": "gear",
+      "name": {
+        "text": "Evolving Effect Duration Card"
+      },
+      "model": "the_vault:card/icon/effect_duration#inventory",
+      "groups": [
+        "Utility",
+        "Evolution"
+      ],
+      "attribute": "the_vault:effect_duration",
+      "pool": [
+        {
+          "min": 0.002,
+          "max": 0.002,
+          "step": 1.0,
+          "tier": 1
+        },
+        {
+          "min": 0.004,
+          "max": 0.004,
+          "step": 1.0,
+          "tier": 2
+        },
+        {
+          "min": 0.006,
+          "max": 0.006,
+          "step": 1.0,
+          "tier": 3
+        },
+        {
+          "min": 0.008,
+          "max": 0.008,
+          "step": 1.0,
+          "tier": 4
+        },
+        {
+          "min": 0.01,
+          "max": 0.01,
+          "step": 1.0,
+          "tier": 5
+        }
+      ],
+      "maxTier": 5
+    },
+
     "amp_movement_speed": {
       "type": "gear",
       "name": {
@@ -7288,6 +7335,10 @@
       },
       {
         "value": "amp_copiously",
+        "weight": 1.0
+      },
+      {
+        "value": "amp_effect_duration",
         "weight": 1.0
       }
     ],
