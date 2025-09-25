@@ -20589,6 +20589,10 @@ file = "mods/HunterOutlines-1.0.1-u19.jar"
 hash = "15f099934704c437c8a38717b4bf25ec3fcea70c2a061c17d5c9ba931f00975b"
 
 [[files]]
+file = "mods/VHClientOptimize-1.0.4-u19.jar"
+hash = "9b8c664a32e11feacc3e328569f25bcbdd213be68dcccf750c83eec2ecb9b7d4"
+
+[[files]]
 file = "mods/VaultLootBeams-1.18.2-1.0.0.jar"
 hash = "d74adb25a974d6cae763fc6b2b46890e57d9d711a99d1eca24fec908c60d9f3b"
 
@@ -21872,7 +21876,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-vault-storage.pw.toml"
-hash = "bb4712a913eae13efa3a3524e65812d19ea90032ac0653b6c2a893f569572768"
+hash = "8d05a9f57c53a7eba830684fa0c49e52ac6b2b648a27faa3ecb0cc4fd76ffa64"
 metafile = true
 
 [[files]]
@@ -22024,9 +22028,8 @@ hash = "5aa700ef9e27b235be8b3021cea3ad1e84f1705dfaf8a799333d949a89ecd2c5"
 metafile = true
 
 [[files]]
-file = "mods/vaultmapper.pw.toml"
-hash = "e00619e38b97b6cbee63a68025308cbf77dd34e39461d13586906a8ee9016298"
-metafile = true
+file = "mods/vaultmapper-1.9.0.jar"
+hash = "21dcea055fef3efc32857980762a50dc8e5bff7535443e622ed7ce8e7b363906"
 
 [[files]]
 file = "mods/vh-companion-workstation.pw.toml"
@@ -22041,11 +22044,6 @@ metafile = true
 [[files]]
 file = "mods/vhat-can-i-roll-vault-hunters-3-addon.pw.toml"
 hash = "d2553ac0ea8b1948b07dad97da0d17adf4ccb3803a67eb95acb1658cd99886f0"
-metafile = true
-
-[[files]]
-file = "mods/vhclientoptimize.pw.toml"
-hash = "88b3eaf7101f5496385746d542f4351e0c46b9b4d6cb60fa7fb45d93b6e40285"
 metafile = true
 
 [[files]]
@@ -22650,7 +22648,7 @@ hash = "c9a6861f31165a9161aada7bbdc89f8061ebfad3f1f1c9f35e0e52e0d6103c99"
 
 [[files]]
 file = "scripts/sophisticated_storage.zs"
-hash = "4522b6b9ffc3407460c5746189a2ac34ca2d16119de8f539c2171364f3c10954"
+hash = "ce46694386e22b4c7d0ac0cecda8ee1c1eb2765d2390f81593d5abf2b40fa63a"
 
 [[files]]
 file = "scripts/starting_inventory.zs"
