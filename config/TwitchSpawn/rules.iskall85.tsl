@@ -1,0 +1,118 @@
+#---------------------
+# VHSMP Ruleset
+# of iskall85
+#---------------------
+
+####################
+#* Generic events *#
+####################
+# > 100 bits count
+# Prime subscriptions count
+# Non-gifted, organic subscriptions count
+# Subscription gifts count
+# > 1 donations count
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn received_bit_donation iskall85 ${actor} ${amount_i}%
+ ON Twitch Bits
+ WITH amount >= 100
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn received_sub iskall85 ${actor} ${months} ${tier}%
+ ON Twitch Subscription
+ WITH gifted IS false
+ WITH tier >= 1
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn received_sub iskall85 ${actor} ${months} 1%
+ ON Twitch Subscription
+ WITH gifted IS false
+ WITH tier = 0
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn received_sub iskall85 ${actor} ${months} ${tier}%
+ ON Twitch Subscription
+ WITH gifted IS false
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn received_donation iskall85 ${actor} ${amount_i}%
+ ON Donation
+ WITH amount >= 1
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn received_sub_gift iskall85 ${actor} ${amount_i} ${tier}%
+ ON Twitch Subscription Gift
+
+##########################
+#* Chat-specific events *#
+##########################
+# Change minion gear command
+# Change minion skin command
+# Trigger legendary modifier of the minion commmand
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn change_skin_mc_user_message ${actor} ${message}%
+ ON Twitch Chat Message
+ WITH message PREFIX %!change_skin%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn wake_up_minion ${actor}%
+ ON Twitch Chat Message
+ WITH message PREFIX %!wake%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn trigger_minion_legendary_modifier ${actor}%
+ ON Twitch Chat Message
+ WITH message PREFIX %!legendary%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn set_active_in_vault iskall85 ${actor}%
+ ON Twitch Chat Message
+ WITH message PREFIX %!join%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn join_raffle iskall85 ${actor}%
+ ON Twitch Chat Message
+ WITH message PREFIX %!raffle%
+
+#################################
+#* Channel Point Reward events *#
+#################################
+# "Minion Power" reward
+# "Mega Minion Power" reward
+# "OMega Minion Power" reward
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn channel_points_used iskall85 ${actor} 500%
+ ON Twitch Channel Point Reward
+ WITH title IS %Create Companion%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn channel_points_used iskall85 ${actor} 5000%
+ ON Twitch Channel Point Reward
+ WITH title IS %Companion Booster%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn channel_points_used iskall85 ${actor} 50000%
+ ON Twitch Channel Point Reward
+ WITH title IS %Mega Companion Booster%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn channel_points_used iskall85 ${actor} 250000%
+ ON Twitch Channel Point Reward
+ WITH title IS %Omega Companion Booster%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn channel_points_for_resource_chest iskall85 ${actor} 10000%
+ ON Twitch Channel Point Reward
+ WITH title IS %Resource Chest Boost%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp minion reroll iskall85 ${actor}%
+ ON Twitch Channel Point Reward
+ WITH title IS %Reroll Companion%
+
+EXECUTE
+ %/execute as ${streamer} run vhsmp twitchspawn open_gear_booster_pack iskall85 ${actor}%
+ ON Twitch Channel Point Reward
+ WITH title IS %Gear Booster Pack%

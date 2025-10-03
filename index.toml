@@ -57,6 +57,10 @@ file = "config/MouseTweaks.cfg"
 hash = "611b9c06b577cb3cdc72c8b74a78b16b9a7b42832e1380a85107d086a8854fa8"
 
 [[files]]
+file = "config/TwitchSpawn/client_credentials.json"
+hash = "c48f16640488bcff30bfa7867d77063a5024748c864794d745058f8da97e0b48"
+
+[[files]]
 file = "config/TwitchSpawn/credentials.toml"
 hash = "6a0e804fe7a077b0cd049613981523d16efdbf454dd969089f77a2ba08a41e17"
 
@@ -75,6 +79,14 @@ hash = "3e07e8af47f20f2081d6fd8da1743feb0b849410a0029c9a764281e0c91d1e0c"
 [[files]]
 file = "config/TwitchSpawn/rules.default.tsl"
 hash = "2ec73a9b31b3b346938cd4129b0aab33c1af61ea15e3f5fb1fab3cd6dda43849"
+
+[[files]]
+file = "config/TwitchSpawn/rules.iskall85.tsl"
+hash = "a26648c6db92ae09daad7d28541db02f852d2702eeb11c95b506e6ccdd19e198"
+
+[[files]]
+file = "config/TwitchSpawn/server_discord_conn.json"
+hash = "07cafaf858299d3f1d3386d81e0e8ebb746e2a11c9c7b8f6d77471634470d80d"
 
 [[files]]
 file = "config/WeirdingGadget.toml"
@@ -21971,6 +21983,11 @@ metafile = true
 [[files]]
 file = "mods/twigs.pw.toml"
 hash = "19f2d695ae9532a167c0fba65c94cbf2e8810310144689847584030e40b9113b"
+metafile = true
+
+[[files]]
+file = "mods/twitchspawn.pw.toml"
+hash = "ea735a4aae77fbc65537f417a3ef24d756811b1daf0ab458614113f146bc347d"
 metafile = true
 
 [[files]]
