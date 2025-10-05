@@ -3,8 +3,8 @@ filename = "vaultfilters-1.27.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "34b68033b81b5d6323f153cc680425f523845492"
+hash-format = "sha256"
+hash = "392e648399e03c68b23048ed019668f5b695805c07b3f3a8e3cb504f77b85b36"
 mode = "metadata:curseforge"
 
 [update]
