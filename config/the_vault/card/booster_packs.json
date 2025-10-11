@@ -745,21 +745,25 @@
         }
       ],
       "card": [
-                {
+        {
           "value": [
             {
               "modifier": "@scaling",
               "probability": 1.0,
               "scaler": "@default"
-            },
-            {
-              "modifier": "@scaling",
-              "groups": [ "Foil" ],
-              "probability": 0.1,
-              "scaler": "@default"
             }
           ],
           "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "probability": 1.0,
+              "scaler": "@default"
+            }
+          ],
+          "weight": 1
         }
       ]
     },
@@ -808,15 +812,19 @@
               "modifier": "@scaling",
               "probability": 1.0,
               "scaler": "@default"
-            },
-            {
-              "modifier": "@scaling",
-              "groups": [ "Foil" ],
-              "probability": 0.1,
-              "scaler": "@default"
             }
           ],
           "weight": 9
+        },
+        {
+          "value": [
+            {
+              "modifier": "@scaling",
+              "probability": 1.0,
+              "scaler": "@default"
+            }
+          ],
+          "weight": 1
         }
       ]
     },
