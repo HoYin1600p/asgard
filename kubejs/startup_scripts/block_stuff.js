@@ -64,7 +64,6 @@ onEvent('block.registry', event => {
 	event.create('purple_unobtanium_block').displayName('Purple Unobtanium Block').material('metal').hardness(50.0).tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:needs_iron_tool').requiresTool(true)
 	event.create('black_unobtanium_block').displayName('Black Unobtanium Block').material('metal').hardness(50.0).tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:needs_iron_tool').requiresTool(true)
 	event.create('rainbow_unobtanium_block').displayName('Rainbow Unobtanium Block').material('metal').hardness(50.0).tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:needs_iron_tool').requiresTool(true)
-
 })
 
 onEvent('item.registry', event => {
@@ -86,4 +85,10 @@ onEvent('item.registry', event => {
 	event.create('purple_unobtanium').displayName('Purple Unobtanium')
 	event.create('black_unobtanium').displayName('Black Unobtanium')
 	event.create('rainbow_unobtanium').displayName('Rainbow Unobtanium')
+
+	event.create('the_vault:brazier_ember').displayName('Brazier Ember')
+	event.create('the_vault:goblin_ear').displayName('Goblin Ear')
+	event.create('the_vault:dragon_scale').displayName('Dragon Scale')
+	event.create('the_vault:millennium_token').displayName('Eternal Token')
+	event.create('the_vault:vaulthalla_token').displayName('Ancient Token')
 })
