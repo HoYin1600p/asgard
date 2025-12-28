@@ -50,10 +50,6 @@ craftingTable.addShaped("modularrouters_blank_upgrade", <item:modularrouters:bla
     [<item:the_vault:gem_larimar>, <item:the_vault:chromatic_steel_ingot>, <item:the_vault:gem_larimar>]
 ]);
 
-craftingTable.addShapeless("modularrouters_stack_upgrade", <item:modularrouters:stack_upgrade> * 2, [
-    <item:the_vault:magic_silk_block>, <item:the_vault:perfect_larimar>, <item:modularrouters:blank_upgrade>
-]);
-
 craftingTable.addShapeless("modularrouters_stack_augment", <item:modularrouters:stack_augment>, [
     <item:modularrouters:augment_core>, <item:the_vault:chromatic_steel_ingot>, <item:modularrouters:stack_upgrade>
 ]);
@@ -107,6 +103,12 @@ craftingTable.addShaped("modularrouters_energy_upgrade", <item:modularrouters:en
     [<item:minecraft:quartz>, <item:minecraft:redstone_block>, <item:minecraft:quartz>],
     [<item:minecraft:air>, <item:modularrouters:blank_upgrade>, <item:minecraft:air>],
     [<item:minecraft:quartz>, <item:woldsvaults:chromatic_gold_ingot>, <item:minecraft:quartz>]
+]);
+
+craftingTable.addShaped("modularrouters_stack_upgrade", <item:modularrouters:stack_upgrade> *6, [
+    [<item:minecraft:air>, <item:minecraft:redstone>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:modularrouters:blank_upgrade>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:the_vault:vault_diamond>, <item:minecraft:air>]
 ]);
 
 craftingTable.addShaped("modularrouters_muffler_upgrade", <item:modularrouters:muffler_upgrade> *4, [
