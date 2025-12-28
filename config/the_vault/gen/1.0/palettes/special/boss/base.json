@@ -7,11 +7,6 @@
         {
           "block": "the_vault:rune_pillar",
           "rune": "the_vault:boss_rune",
-          "count": {
-            "type": "uniform",
-            "min": 3,
-            "max": 5
-          },
           "boss": [
             {
               "id": "the_vault:boogieman_boss",

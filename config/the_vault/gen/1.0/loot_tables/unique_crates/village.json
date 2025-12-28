@@ -25,12 +25,12 @@
                                 }
                             }
                         },
-                        {
+                      {
                             "weight": 5,
                             "item": {
-                              "id": "the_vault:sword",
+                              "id": "the_vault:axe",
                               "nbt": {
-                                "the_vault:gear_unique_pool": "the_vault:honey_stick",
+                                "the_vault:gear_unique_pool": "the_vault:butcher_axe",
                                 "the_vault:gear_roll_type": "Unique"
                               },
                               "count": {
@@ -43,9 +43,9 @@
                         {
                             "weight": 5,
                             "item": {
-                              "id": "the_vault:shield",
+                              "id": "the_vault:sword",
                               "nbt": {
-                                "the_vault:gear_unique_pool": "the_vault:gladiator_buckler",
+                                "the_vault:gear_unique_pool": "the_vault:honey_stick",
                                 "the_vault:gear_roll_type": "Unique"
                               },
                               "count": {
@@ -73,6 +73,21 @@
                         {
                             "weight": 5,
                             "item": {
+                              "id": "the_vault:shield",
+                              "nbt": {
+                                "the_vault:gear_unique_pool": "the_vault:gladiator_buckler",
+                                "the_vault:gear_roll_type": "Unique"
+                              },
+                              "count": {
+                                "type": "uniform",
+                                "min": 1,
+                                "max": 1
+                                }
+                            }
+                        },
+                      {
+                            "weight": 5,
+                            "item": {
                               "id": "the_vault:sword",
                               "nbt": {
                                 "the_vault:gear_unique_pool": "the_vault:kitsune",
@@ -91,21 +106,6 @@
                               "id": "the_vault:axe",
                               "nbt": {
                                 "the_vault:gear_unique_pool": "the_vault:zombie_horse_axe",
-                                "the_vault:gear_roll_type": "Unique"
-                              },
-                              "count": {
-                                "type": "uniform",
-                                "min": 1,
-                                "max": 1
-                                }
-                            }
-                        },
-                        {
-                            "weight": 5,
-                            "item": {
-                              "id": "the_vault:axe",
-                              "nbt": {
-                                "the_vault:gear_unique_pool": "the_vault:butchers_cleaver",
                                 "the_vault:gear_roll_type": "Unique"
                               },
                               "count": {

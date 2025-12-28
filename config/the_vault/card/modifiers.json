@@ -2264,7 +2264,6 @@
       ],
       "maxTier": 5
     },
-
     "amp_effect_duration": {
       "type": "gear",
       "name": {
@@ -2310,8 +2309,6 @@
       ],
       "maxTier": 5
     },
-
-
     "amp_movement_speed": {
       "type": "gear",
       "name": {
@@ -2402,7 +2399,6 @@
       ],
       "maxTier": 5
     },
-
 
 
     "heal": {
@@ -2825,6 +2821,27 @@
       ],
       "maxTier": 1
     },
+    "shield_bash_retribution": {
+      "type": "gear",
+      "name": {
+        "text": "Shield Bash Retribution Card"
+      },
+      "model": "the_vault:card/icon/retribution#inventory",
+      "groups": [
+        "Arcane",
+        "Offensive"
+      ],
+      "attribute": "the_vault:added_ability_level",
+      "pool": [
+        {
+          "tier": 1,
+          "abilityKey": "Retribution",
+          "levelChange": 1
+        }
+      ],
+      "maxTier": 1
+    },
+
     "taunt": {
       "type": "gear",
       "name": {
@@ -3285,7 +3302,7 @@
       ],
       "maxTier": 1
     },
-    "glacial_blast": {
+    "ice_blast": {
       "type": "gear",
       "name": {
         "text": "Glacial Blast Card"
@@ -3365,6 +3382,7 @@
       ],
       "maxTier": 1
     },
+
     "life_tap": {
       "type": "gear",
       "name": {
@@ -4720,7 +4738,7 @@
       "highlightColor": "0x00FF00",
       "maxTier": 1
     },
-    
+
     "resource_bronze": {
       "type": "task_loot",
       "name": {
@@ -6359,7 +6377,6 @@
     },
 
 
-
     "wild_base": {
       "type": "dummy",
       "name": {
@@ -6837,6 +6854,10 @@
         "weight": 1.0
       },
       {
+        "value": "shield_bash_retribution",
+        "weight": 1.0
+      },
+      {
         "value": "taunt",
         "weight": 1.0
       },
@@ -6929,7 +6950,7 @@
         "weight": 1.0
       },
       {
-        "value": "glacial_blast",
+        "value": "ice_blast",
         "weight": 1.0
       },
       {

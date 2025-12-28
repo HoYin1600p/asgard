@@ -113,8 +113,42 @@
           {
             "value": "the_vault:classic_vault_aurora_cave",
             "weight": 3
+          },
+          {
+            "value": "the_vault:classic_vault_gloom",
+            "weight": 0
           }
-        ]
+        ],
+        "seasonalWeights": {
+          "the_vault:classic_vault_gloom": {
+            "ranges": [
+              {
+                "from": "10-01",
+                "to": "10-31",
+                "weight": 100
+              },
+              {
+                "from": "10-30",
+                "to": "10-31",
+                "weight": 5000
+              }
+            ]
+          },
+          "the_vault:classic_vault_festive": {
+            "ranges": [
+              {
+                "from": "12-01",
+                "to": "12-30",
+                "weight": 100
+              },
+              {
+                "from": "12-24",
+                "to": "12-26",
+                "weight": 5000
+              }
+            ]
+          }
+        }
       },
       {
         "level": 20,
@@ -282,8 +316,42 @@
           {
             "value": "the_vault:classic_vault_autumn_cherry_grove",
             "weight": 19
+          },
+          {
+            "value": "the_vault:classic_vault_gloom",
+            "weight": 0
           }
-        ]
+        ],
+        "seasonalWeights": {
+          "the_vault:classic_vault_gloom": {
+            "ranges": [
+              {
+                "from": "10-01",
+                "to": "10-31",
+                "weight": 100
+              },
+              {
+                "from": "10-30",
+                "to": "10-31",
+                "weight": 5000
+              }
+            ]
+          },
+          "the_vault:classic_vault_festive": {
+            "ranges": [
+              {
+                "from": "12-01",
+                "to": "12-30",
+                "weight": 100
+              },
+              {
+                "from": "12-24",
+                "to": "12-26",
+                "weight": 5000
+              }
+            ]
+          }
+        }
       },
       {
         "level": 30,
@@ -450,11 +518,11 @@
           },
           {
             "value": "the_vault:classic_vault_dreadlands_day",
-            "weight": 5
+            "weight": 0
           },
           {
             "value": "the_vault:classic_vault_dreadlands_night",
-            "weight": 5
+            "weight": 0
           },
           {
             "value": "the_vault:classic_vault_aberrant_garden",
@@ -463,8 +531,43 @@
           {
             "value": "the_vault:classic_vault_autumn_cherry_grove",
             "weight": 19
+          },
+          {
+            "value": "the_vault:classic_vault_gloom",
+            "weight": 0
           }
-        ]
+        ],
+
+        "seasonalWeights": {
+          "the_vault:classic_vault_gloom": {
+            "ranges": [
+              {
+                "from": "10-01",
+                "to": "10-31",
+                "weight": 100
+              },
+              {
+                "from": "10-30",
+                "to": "10-31",
+                "weight": 5000
+              }
+            ]
+          },
+          "the_vault:classic_vault_festive": {
+            "ranges": [
+              {
+                "from": "12-01",
+                "to": "12-30",
+                "weight": 100
+              },
+              {
+                "from": "12-24",
+                "to": "12-26",
+                "weight": 5000
+              }
+            ]
+          }
+        }
       },
       {
         "level": 40,
@@ -631,11 +734,11 @@
           },
           {
             "value": "the_vault:classic_vault_dreadlands_day",
-            "weight": 5
+            "weight": 0
           },
           {
             "value": "the_vault:classic_vault_dreadlands_night",
-            "weight": 5
+            "weight": 0
           },
           {
             "value": "the_vault:classic_vault_aberrant_garden",
@@ -660,8 +763,42 @@
           {
             "value": "the_vault:classic_vault_ancient_wendarr",
             "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_gloom",
+            "weight": 0
           }
-        ]
+        ],
+        "seasonalWeights": {
+          "the_vault:classic_vault_gloom": {
+            "ranges": [
+              {
+                "from": "10-01",
+                "to": "10-31",
+                "weight": 100
+              },
+              {
+                "from": "10-30",
+                "to": "10-31",
+                "weight": 5000
+              }
+            ]
+          },
+          "the_vault:classic_vault_festive": {
+            "ranges": [
+              {
+                "from": "12-01",
+                "to": "12-30",
+                "weight": 100
+              },
+              {
+                "from": "12-24",
+                "to": "12-26",
+                "weight": 5000
+              }
+            ]
+          }
+        }
       }
     ],
     "the_vault:base_greed": [
@@ -1410,6 +1547,7 @@
       {
         "level": 40,
         "pool": [
+         
           {
             "value": {
               "type": "scavenger",
@@ -1763,6 +1901,7 @@
       {
         "level": 0,
         "pool": [
+
           {
             "value": {
               "type": "scavenger",
@@ -1804,6 +1943,13 @@
               "objective_probability": 0.3
             },
             "weight": 4
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0
+            },
+            "weight": 4000
           }
         ]
       }
@@ -2065,7 +2211,23 @@
         ],
         "objective": {
           "type": "bingo",
-          "objective_probability": 1.0
+          "objective_probability": 1.0,
+          "width": 4,
+          "height": 4
+        }
+      }
+    ],
+    "the_vault:crystal_seal_big_prophet": [
+      {
+        "level": 0,
+        "input": [
+          "the_vault:vault_crystal"
+        ],
+        "objective": {
+          "type": "bingo",
+          "objective_probability": 1.0,
+          "width": 5,
+          "height": 5
         }
       }
     ],
@@ -2227,78 +2389,24 @@
         }
       }
     ],
-    "the_vault:crystal_seal_ordinator_build": [
+    "the_vault:crystal_seal_offering_boss": [
       {
-        "level": 40,
-        "exhausted": true,
+        "level": 0,
         "input": [
           "the_vault:vault_crystal"
         ],
         "objective": {
-          "type": "paradox",
-          "goal": "BUILD"
+          "objective_probability": 1.0,
+          "type": "offering_boss"
         },
         "layout": {
-          "type": "paradox"
-        },
-        "modifiers": {
-          "type": "paradox",
-          "random_modifiers": false
-        },
-        "time": {
-          "type": "value",
-          "roll": {
-            "type": "constant",
-            "count": 108000
-          }
+          "tunnel_span": 1,
+          "radius": 5,
+          "type": "circle"
         }
       }
-    ],
-    "the_vault:crystal_seal_ordinator_run": [
-      {
-        "level": 40,
-        "exhausted": true,
-        "input": [
-          "the_vault:vault_crystal"
-        ],
-        "objective": {
-          "type": "paradox",
-          "goal": "RUN"
-        },
-        "layout": {
-          "type": "paradox"
-        },
-        "modifiers": {
-          "type": "paradox",
-          "random_modifiers": false
-        },
-        "time": {
-          "type": "value",
-          "roll": {
-            "type": "constant",
-            "count": 12000
-          }
-        }
-      }
-    ],
-  "the_vault:crystal_seal_offering_boss": [
-    {
-      "level": 0,
-      "input": [
-        "the_vault:vault_crystal"
-      ],
-      "objective": {
-        "objective_probability": 1.0,
-        "type": "offering_boss"
-      },
-      "layout": {
-        "tunnel_span": 1,
-        "radius": 5,
-        "type": "circle"
-      }
-    }
-  ]
-},
+    ]
+  },
   "PROPERTIES": {
     "the_vault:default": [
       {

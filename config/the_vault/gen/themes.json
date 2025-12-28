@@ -30,6 +30,12 @@
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_lush_cave.json"
     },
     {
+      "id": "the_vault:classic_vault_gloom",
+      "name": "Gloom",
+      "color": 16206594,
+      "1.0": "config/the_vault/gen/1.0/themes/classic_vault_gloom.json"
+    },
+    {
       "id": "the_vault:classic_vault_living_cave",
       "name": "Honey",
       "color": 16111110,
@@ -500,6 +506,18 @@
       "name": "Ashen",
       "color": 9109504,
       "1.0": "config/the_vault/gen/1.0/themes/classic_vault_blood_ash.json"
+    },
+    {
+      "id": "the_vault:classic_vault_greed_acid",
+      "name": "Acid",
+      "color": 50689,
+      "1.0": "config/the_vault/gen/1.0/themes/greed/classic_vault_greed_acid.json"
+    },
+    {
+      "id": "the_vault:classic_vault_greed_death",
+      "name": "Death",
+      "color": 16250625,
+      "1.0": "config/the_vault/gen/1.0/themes/greed/classic_vault_greed_death.json"
     },
     {
       "id": "the_vault:classic_vault_ancient_idona",

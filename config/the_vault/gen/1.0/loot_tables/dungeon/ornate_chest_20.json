@@ -146,7 +146,7 @@
                 }
               }
             },
-            {
+              {
               "weight": 10,
               "item": {
                 "id": "the_vault:battlestaff",
@@ -160,7 +160,7 @@
                 }
               }
             },
-            {
+              {
               "weight": 10,
               "item": {
                 "id": "the_vault:rang",
@@ -298,6 +298,17 @@
                     "min": 1,
                     "max": 1
                     }
+                }
+              },
+              {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:vault_necklace",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
                 }
               }
             ]

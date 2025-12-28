@@ -10,6 +10,21 @@
       "output": "the_vault:vault_crystal"
     },
     {
+      "input": "the_vault:crystal_seal_time_trial",
+      "output": {
+        "id": "the_vault:vault_crystal",
+        "nbt": {
+          "CrystalData": {
+            "Objective": {
+              "type": "time_trial",
+              "objective_probability": 1.0
+            },
+            "Version": 3
+          }
+        }
+      }
+    },
+    {
       "input": "woldsvaults:tome_of_tenos",
       "output": {
         "id": "the_vault:vault_crystal",
@@ -184,6 +199,10 @@
             "Modifiers": {
               "type": "default",
               "RandomModifiers": 0
+            },
+            "Theme": {
+              "type": "value",
+              "id": "the_vault:classic_vault_chaos_cake"
             },
             "Properties": {
               "type": "capacity",

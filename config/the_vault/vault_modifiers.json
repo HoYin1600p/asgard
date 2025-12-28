@@ -1,5 +1,67 @@
 {
   "modifiers": {
+    "the_vault:modifier_type/empty": {
+      "the_vault:warrior": {
+        "properties": {},
+        "display": {
+          "name": "Warrior",
+          "color": "#FF00FF",
+          "description": "Turns your companion in to a warrior inside the vault, assisting the player in killing mobs",
+          "descriptionFormatted": "Turns your companion in to a warrior inside the vault, assisting the player in killing mobs",
+          "icon": "the_vault:gui/modifiers/warrior"
+        }
+      },
+      "the_vault:sigil_adept": {
+        "properties": {},
+        "display": {
+          "name": "Adept",
+          "color": "#00FF00",
+          "description": "This vault has been inscribed with an Adept Sigil",
+          "descriptionFormatted": "This vault has been inscribed with an Adept Sigil, granting you the ability to craft Adept Sigils",
+          "icon": "the_vault:gui/modifiers/sigil_adept"
+        }
+      },
+      "the_vault:sigil_expert": {
+        "properties": {},
+        "display": {
+          "name": "Expert",
+          "color": "#00FF00",
+          "description": "This vault has been inscribed with an Expert Sigil",
+          "descriptionFormatted": "This vault has been inscribed with an Expert Sigil, granting you the ability to craft Expert Sigils",
+          "icon": "the_vault:gui/modifiers/sigil_expert"
+        },
+        "the_vault:sigil_master": {
+          "properties": {},
+          "display": {
+            "name": "Master",
+            "color": "#00FF00",
+            "description": "This vault has been inscribed with a Master Sigil",
+            "descriptionFormatted": "This vault has been inscribed with a Master Sigil, granting you the ability to craft Master Sigils",
+            "icon": "the_vault:gui/modifiers/sigil_master"
+          }
+        },
+        "the_vault:sigil_veteran": {
+          "properties": {},
+          "display": {
+            "name": "Veteran",
+            "color": "#00FF00",
+            "description": "This vault has been inscribed with a Veteran Sigil",
+            "descriptionFormatted": "This vault has been inscribed with a Veteran Sigil, granting you the ability to craft Veteran Sigils",
+            "icon": "the_vault:gui/modifiers/sigil_veteran"
+          }
+        },
+        "the_vault:sigil_legend": {
+          "properties": {},
+          "display": {
+            "name": "Legend",
+            "color": "#00FF00",
+            "description": "This vault has been inscribed with a Legend Sigil",
+            "descriptionFormatted": "This vault has been inscribed with a Legend Sigil, granting you the ability to craft Legend Sigils",
+            "icon": "the_vault:gui/modifiers/sigil_legend"
+          }
+        }
+      }
+    },
     "the_vault:modifier_type/chance_artifact": {
       "the_vault:prosperous": {
         "properties": {
@@ -212,7 +274,7 @@
           "icon": "the_vault:gui/modifiers/soul_shard_increase_yellow"
         }
       },
-      
+
       "the_vault:haunted": {
         "properties": {
           "chance": 0.5
@@ -290,6 +352,23 @@
       }
     },
     "the_vault:modifier_type/decorator_add": {
+      "the_vault:pandoras_box": {
+        "properties": {
+          "output": "the_vault:pandora_box{action:\"success_memory\"}",
+          "attemptsPerChunk": 1,
+          "requireConditions": true,
+          "roomTypeWhitelist": [
+            "COMMON",
+            "ORE"
+          ]
+        },
+        "display": {
+          "name": "Pandoras Boxes",
+          "color": "#ffae00",
+          "description": "Spawns Pandora's Boxes inside the vault",
+          "icon": "the_vault:gui/modifiers/pandora"
+        }
+      },
       "the_vault:vexation": {
         "properties": {
           "output": "the_vault:custom_entity_spawner{spawnerGroupName: \"champion_vex\"}",
@@ -336,7 +415,11 @@
         "properties": {
           "output": "the_vault:placeholder[type=coin_stacks]",
           "attemptsPerChunk": 12,
-          "requireConditions": true
+          "requireConditions": true,
+          "roomTypeWhitelist": [
+            "COMMON",
+            "ORE"
+          ]
         },
         "display": {
           "name": "Bonus Coins",
@@ -349,7 +432,11 @@
         "properties": {
           "output": "the_vault:placeholder[type=gilded_chest]",
           "attemptsPerChunk": 8,
-          "requireConditions": true
+          "requireConditions": true,
+          "roomTypeWhitelist": [
+            "COMMON",
+            "ORE"
+          ]
         },
         "display": {
           "name": "Bonus Gilded",
@@ -362,7 +449,11 @@
         "properties": {
           "output": "the_vault:placeholder[type=living_chest]",
           "attemptsPerChunk": 8,
-          "requireConditions": true
+          "requireConditions": true,
+          "roomTypeWhitelist": [
+            "COMMON",
+            "ORE"
+          ]
         },
         "display": {
           "name": "Bonus Living",
@@ -375,7 +466,11 @@
         "properties": {
           "output": "the_vault:placeholder[type=ornate_chest]",
           "attemptsPerChunk": 8,
-          "requireConditions": true
+          "requireConditions": true,
+          "roomTypeWhitelist": [
+            "COMMON",
+            "ORE"
+          ]
         },
         "display": {
           "name": "Bonus Ornate",
@@ -388,7 +483,11 @@
         "properties": {
           "output": "the_vault:placeholder[type=wooden_chest]",
           "attemptsPerChunk": 8,
-          "requireConditions": true
+          "requireConditions": true,
+          "roomTypeWhitelist": [
+            "COMMON",
+            "ORE"
+          ]
         },
         "display": {
           "name": "Bonus Wooden",
@@ -401,7 +500,11 @@
         "properties": {
           "output": "the_vault:wild_spawner",
           "attemptsPerChunk": 16,
-          "requireConditions": true
+          "requireConditions": true,
+          "roomTypeWhitelist": [
+            "COMMON",
+            "ORE"
+          ]
         },
         "display": {
           "name": "Wild",
@@ -611,7 +714,11 @@
         "properties": {
           "output": "the_vault:royale_loot_crate{LootTable:\"the_vault:royale_crate\"}",
           "attemptsPerChunk": 20,
-          "requireConditions": true
+          "requireConditions": true,
+          "roomTypeWhitelist": [
+            "COMMON",
+            "ORE"
+          ]
         },
         "display": {
           "name": "Royale Crates",
@@ -730,7 +837,7 @@
         "properties": {
           "filter": "",
           "ability": "hunter_lvl1",
-          "probability": 0.1
+          "probability": 0.05
         },
         "display": {
           "name": "Hunterino",
@@ -1175,6 +1282,34 @@
       }
     },
     "the_vault:modifier_type/mob_attribute": {
+      "the_vault:daycare_scale": {
+        "properties": {
+          "type": "scale",
+          "amount": -0.5,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Scale Test",
+          "color": "#dc693c",
+          "description": "The mobs are visiting daycare and have shrunk by half their size!",
+          "descriptionFormatted": "The mobs are visiting daycare and have shrunk by %d%% size!",
+          "icon": "the_vault:gui/modifiers/daycare"
+        }
+      },
+      "the_vault:nightcare": {
+        "properties": {
+          "type": "scale",
+          "amount": -0.5,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Scale Test",
+          "color": "#dc693c",
+          "description": "The mobs are visiting daycare and have shrunk by half their size!",
+          "descriptionFormatted": "The mobs are visiting daycare and have shrunk by %d%% size!",
+          "icon": "the_vault:gui/modifiers/daycare"
+        }
+      },
       "the_vault:bingo_critical_mobs": {
         "properties": {
           "type": "crit_chance_additive",
@@ -1325,6 +1460,20 @@
           "name": "Weak Mobs",
           "color": "#da6d5a",
           "description": "-75% Mob Damage",
+          "descriptionFormatted": "+%d%% Mob Damage",
+          "icon": "the_vault:gui/modifiers/furious_mobs"
+        }
+      },
+      "the_vault:lower_damage": {
+        "properties": {
+          "type": "attack_damage_additive_percentile",
+          "amount": -0.5,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Still Learning Mobs",
+          "color": "#da6d5a",
+          "description": "-50% Mob Damage",
           "descriptionFormatted": "+%d%% Mob Damage",
           "icon": "the_vault:gui/modifiers/furious_mobs"
         }
@@ -2583,6 +2732,19 @@
           "icon": "the_vault:gui/modifiers/wendarr_tear"
         }
       },
+      "the_vault:movement_speed": {
+        "properties": {
+          "stat": "speed",
+          "addend": 0.02
+        },
+        "display": {
+          "name": "Movement Speed",
+          "color": "#dea700",
+          "description": "+2% Movement Speed",
+          "descriptionFormatted": "%d%% Movement Speed",
+          "icon": "the_vault:gui/modifiers/speed"
+        }
+      },
       "the_vault:clumsy": {
         "properties": {
           "stat": "block_chance",
@@ -2696,6 +2858,19 @@
           "name": "Cooldown Reduction",
           "color": "#6DACB5",
           "description": "+20% Cooldown Reduction",
+          "descriptionFormatted": "%d%% Cooldown Reduction",
+          "icon": "the_vault:gui/modifiers/inert"
+        }
+      },
+      "the_vault:cdr_5": {
+        "properties": {
+          "stat": "cooldown_reduction",
+          "addend": 0.05
+        },
+        "display": {
+          "name": "Cooldown Reduction",
+          "color": "#6DACB5",
+          "description": "+5% Cooldown Reduction",
           "descriptionFormatted": "%d%% Cooldown Reduction",
           "icon": "the_vault:gui/modifiers/inert"
         }
@@ -2993,6 +3168,20 @@
           "descriptionFormatted": "+100% Durability Reduction",
           "icon": "the_vault:gui/modifiers/reinforced"
         }
+      },
+      "the_vault:ability_power": {
+        "properties": {
+          "type": "ability_power_percent",
+          "amount": 0.05,
+          "attributeStackingStrategy": "STACK"
+        },
+        "display": {
+          "name": "Ability Power",
+          "color": "#FF5555",
+          "description": "+5% Ability Power",
+          "descriptionFormatted": "+5% Ability Power",
+          "icon": "the_vault:gui/modifiers/god_token_idona"
+        }
       }
     },
     "the_vault:modifier_type/vault_level": {
@@ -3252,7 +3441,7 @@
       },
       "the_vault:noxp": {
         "properties": {
-          "addend": -1.0
+          "addend": -10000.0
         },
         "display": {
           "name": "No XP",
@@ -3309,7 +3498,7 @@
           "descriptionFormatted": "Extended will not work in this vault",
           "icon": "the_vault:gui/modifiers/god_token_wendarr"
         }
-    },
+      },
       "the_vault:locker_debt": {
         "properties": {
           "addend": -10000.0
@@ -3474,7 +3663,7 @@
           "icon": "the_vault:gui/modifiers/gilded"
         }
       },
-      
+
       "the_vault:soul_cascade_ornate": {
         "properties": {
           "filter": "the_vault:ornate_chest",
@@ -3772,6 +3961,22 @@
           "icon": "the_vault:gui/modifiers/royale"
         }
       },
+      "the_vault:buffed": {
+        "properties": {
+          "children": {
+            "the_vault:energizing": 1,
+            "the_vault:cdr_5": 1,
+            "the_vault:movement_speed": 1,
+            "the_vault:ability_power": 1
+          }
+        },
+        "display": {
+          "name": "Buffed",
+          "color": "#bbf333",
+          "description": "Adds Mana Regen, Cooldown Reduction, Damage, Ability Power, Movement Speed and Health",
+          "icon": "the_vault:gui/modifiers/stronk"
+        }
+      },
       "the_vault:omega_bonus": {
         "properties": {
           "children": {
@@ -4040,7 +4245,7 @@
         "display": {
           "name": "Loot Goblin",
           "color": "#bbf333",
-          "description": "Doubles all loot and triples its rarity!",
+          "description": "Adds +100% Item Quantity and +200% Item Rarity!",
           "icon": "the_vault:gui/modifiers/loot_goblin"
         }
       },
@@ -4708,6 +4913,21 @@
           "icon": "the_vault:gui/modifiers/god_token_idona"
         }
       },
+      "the_vault:daycare": {
+        "properties": {
+          "children": {
+            "the_vault:daycare_scale": 1,
+            "the_vault:lower_damage": 1
+          }
+        },
+        "display": {
+          "name": "Daycare",
+          "color": "#dc693c",
+          "description": "The mobs are visiting daycare and have shrunk by half their size, and have 50% less damage!",
+          "descriptionFormatted": "The mobs are visiting daycare and have shrunk by %d%% size, and have half their damage!",
+          "icon": "the_vault:gui/modifiers/daycare"
+        }
+      },
       "the_vault:brazier_wild": {
         "properties": {
           "children": {
@@ -4910,6 +5130,7 @@
             {
               "filter": "the_vault:treasure_door[open=false]",
               "radius": 64.0,
+              "target": "treasure_doors",
               "color": 16771584
             }
           ]
@@ -4927,6 +5148,7 @@
             {
               "filter": "the_vault:pylon",
               "radius": 64.0,
+              "target": "pylons",
               "color": 8501759
             }
           ]
@@ -4944,6 +5166,7 @@
             {
               "filter": "the_vault:dungeon_door[open=false]",
               "radius": 64.0,
+              "target": "dungeons",
               "color": 6836358
             }
           ]
@@ -4961,6 +5184,7 @@
             {
               "filter": "the_vault:vendor_door[open=false]",
               "radius": 64.0,
+              "target": "vendoors",
               "color": 16472397
             }
           ]
@@ -5143,7 +5367,7 @@
         }
       }
     },
-      "the_vault:modifier_type/template_processor": {
+    "the_vault:modifier_type/template_processor": {
       "the_vault:wrecked": {
         "properties": {
           "probability": 0.05,
@@ -5255,6 +5479,49 @@
           "color": "#a996ca",
           "description": "You will not receive a crate on completion.",
           "icon": "the_vault:gui/modifiers/no_crate"
+        }
+      }
+    },
+    "the_vault:modifier_type/companion_hunt": {
+      "the_vault:companion_hunt": {
+        "properties": {},
+        "display": {
+          "name": "Companion Hunt",
+          "color": "#acbde8",
+          "description": "You are guaranteed to be offered a companion if you reach the threshold!",
+          "icon": "the_vault:gui/modifiers/companion_hunt"
+        }
+      }
+    },
+    "the_vault:modifier_type/sound_on_entity_hit": {
+      "the_vault:daycare_sound": {
+        "properties": {
+          "sound": "the_vault:ghost_walk",
+          "volume": 1.0,
+          "pitch": 1.0,
+          "soundSource": "HOSTILE"
+        },
+        "display": {
+          "name": "Squishy Mobs",
+          "color": "#f66868",
+          "description": "Mobs have been squished so much that they have started to make a noise when they are hit",
+          "icon": "the_vault:gui/modifiers/daycare"
+        }
+      }
+    },
+    "the_vault:modifier_type/auto_gear_scrap": {
+      "the_vault:auto_scrap_gear": {
+        "properties": {
+          "ignoredItems": [
+            "the_vault:vault_necklace",
+            "the_vault:vault_god_charm"
+          ]
+        },
+        "display": {
+          "name": "Blacksmith Capstone",
+          "color": "#a996ca",
+          "description": "Instead of finding gear in this vault, you find the scrapped result!",
+          "icon": "the_vault:gui/modifiers/blacksmith"
         }
       }
     }

@@ -1,25 +1,6 @@
 {
   "introduction": {
     "index": {
-      "HEAD": [
-        "the_vault:jester",
-        "the_vault:warbound_helmet",
-        "the_vault:stormcrown"
-      ],
-      "CHEST": [
-        "the_vault:castle",
-        "the_vault:crystalplate",
-        "the_vault:frozen_throne",
-        "the_vault:annmari"
-      ],
-      "LEGS": [
-        "the_vault:crashguards",
-        "the_vault:swarmwalkers"
-      ],
-      "FEET": [
-        "the_vault:pacifist_sandals",
-        "the_vault:frostguards"
-      ],
       "SWORD": [
         "the_vault:iskallibur",
         "the_vault:inflated_justice",
@@ -32,14 +13,45 @@
         "the_vault:aurora_scissors",
         "the_vault:young_kitsune"
       ],
+      "AXE": [
+        "the_vault:butcher_axe",
+        "the_vault:starforge",
+        "the_vault:leviathan",
+        "the_vault:zombie_horse_axe",
+        "the_vault:crystal_mace",
+        "the_vault:butchers_cleaver"
+      ],
       "SHIELD": [
         "the_vault:grim",
         "the_vault:ivy",
         "the_vault:pestilence_wall",
-        "the_vault:gladiator_buckler"
+        "the_vault:gladiator_buckler",
+        "the_vault:frostwarden"
+      ],
+      "HEAD": [
+        "the_vault:jester",
+        "the_vault:warbound_helmet",
+        "the_vault:stormcrown"
+      ],
+      "CHEST": [
+        "the_vault:castle",
+        "the_vault:crystalplate",
+        "the_vault:frozen_throne",
+        "the_vault:annmari",
+        "the_vault:vitalis"
+      ],
+      "LEGS": [
+        "the_vault:crashguards",
+        "the_vault:swarmwalkers"
+      ],
+      "FEET": [
+        "the_vault:pacifist_sandals",
+        "the_vault:frostguards"
       ],
       "FOCUS": [
-        "the_vault:frozen_orb"
+        "the_vault:frozen_orb",
+        "the_vault:ender_rings",
+        "the_vault:echoflare"
       ],
       "WAND": [
         "the_vault:baguette",
@@ -51,8 +63,16 @@
         "the_vault:kaleidoscope",
         "the_vault:manabloom",
         "the_vault:pax",
+        "the_vault:frozen_heart",
         "the_vault:eternal_stella",
         "the_vault:piggybank"
+      ],
+      "MAGNET": [
+        "the_vault:quickstone",
+        "the_vault:chonknet",
+        "the_vault:treasure_magnet",
+        "the_vault:bloodseeking_magnet",
+        "the_vault:ender_magnet"
       ]
     }
   },
@@ -173,6 +193,7 @@
       },
       "uniqueId": "the_vault:stormcrown"
     },
+
     {
       "title": {
         "description": {
@@ -292,6 +313,33 @@
     {
       "title": {
         "description": {
+          "text": "Vitalis Plate",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A life-infused chestplate that can sometimes heal its wearer when blocking incoming attacks.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops from: ",
+            "color": "$text"
+          },
+          {
+            "text": "Goblins",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:vitalis",
+      "isNewInUpdate": true
+    },
+
+    {
+      "title": {
+        "description": {
           "text": "Crashguards",
           "color": "#7D520E"
         }
@@ -339,6 +387,7 @@
       },
       "uniqueId": "the_vault:swarmwalkers"
     },
+
     {
       "title": {
         "description": {
@@ -397,6 +446,7 @@
       },
       "uniqueId": "the_vault:frostguards"
     },
+
     {
       "title": {
         "description": {
@@ -683,6 +733,58 @@
     {
       "title": {
         "description": {
+          "text": "Butcher Axe",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A heavy guardian axe that deals brutal blows and can occasionally heal its wielder on a killing strike",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Villages",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:butcher_axe",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Starforge",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "An imbued axe that gathers arcane force with each strike, occasionally unleashing a powerful blast.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Raid Vaults",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:starforge",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
           "text": "Leviathan",
           "color": "#7D520E"
         }
@@ -912,6 +1014,41 @@
     {
       "title": {
         "description": {
+          "text": "Frostwarden",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A chilling shield that occasionally ",
+            "color": "$text"
+          },
+          {
+            "text": "freezes ",
+            "color": "$text"
+          },
+          {
+            "text": "attackers when blocking their strikes.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Memory Room",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:frostwarden",
+      "isNewInUpdate": true
+    },
+
+    {
+      "title": {
+        "description": {
           "text": "Inferno's Reach",
           "color": "#7D520E"
         }
@@ -1079,6 +1216,58 @@
       },
       "uniqueId": "the_vault:frozen_orb"
     },
+    {
+      "title": {
+        "description": {
+          "text": "Ender Rings",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "These rings allow the bearer to bend space.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Memory Room",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:ender_rings",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Echoflare",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A spellbound tome that echoes past magic, sometimes erasing the cooldown of the last ability cast.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops from: ",
+            "color": "$text"
+          },
+          {
+            "text": "Goblins",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:echoflare",
+      "isNewInUpdate": true
+    },
 
     {
       "title": {
@@ -1182,6 +1371,32 @@
     {
       "title": {
         "description": {
+          "text": "Frozen Heart",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A cold-forged jewel that may unleash a slowing frost nova when looting valuable chests.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops from: ",
+            "color": "$text"
+          },
+          {
+            "text": "Goblins",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:frozen_heart",
+      "isNewInUpdate": true
+    },
+    {
+      "title": {
+        "description": {
           "text": "Eternal Stella",
           "color": "#7D520E"
         }
@@ -1238,6 +1453,32 @@
       "uniqueId": "the_vault:piggybank"
     },
 
+    {
+      "title": {
+        "description": {
+          "text": "Quickstone",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "A strong magnet that provides a sharp boost to mining speed.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDrops in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Memory Room",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:quickstone",
+      "isNewInUpdate": true
+    },
     {
       "title": {
         "description": {

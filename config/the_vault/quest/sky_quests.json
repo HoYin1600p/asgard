@@ -224,7 +224,7 @@
         ]
       },
       "icon": "the_vault:gui/quests/globe_expander",
-      "targetId": "vaultadditions:power_crystal",
+      "targetId": "the_vault:skill_orb",
       "targetProgress": 1.0,
       "unlockedBy": "welcome_quest",
       "reward": {
@@ -1844,36 +1844,6 @@
       }
     },
     {
-      "type": "forge_gear",
-      "id": "gear_forge",
-      "name": "Magnets",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "Magnets suck up loot within a radius of the player! They synergise exceptionally with Affinities/Breaking chests within the vault and can speed up your looting significantly. Magnets also have modifiers that can be applied to enhance their strengths.\n\nTo equip a Magnet, press the Curios button that is next to your helmet slot within your inventory and place the magnet in the Belt slot!",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nForge a Magnet in the Vault Forge",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/magnet",
-      "targetId": "the_vault:magnet",
-      "targetProgress": 1.0,
-      "unlockedBy": "level_five",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:vault_alloy",
-            "amount": 9
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
       "type": "collection",
       "id": "artisan_table",
       "name": "Artisan Station Modifying",
@@ -2250,7 +2220,7 @@
       "descriptionData": {
         "description": [
           {
-            "text": "The black market has changed a little bit\n\nThe black market starts with 3 slots and can be expanded with the",
+            "text": "The black market has changed a little bit\n\nThe black market starts with 3 slots and can be expanded with the ",
             "color": "$text"
           },
           {
@@ -3458,90 +3428,162 @@
       "name": "Dungeons",
       "descriptionData": {
         "description": [
-          {
-            "text": "Dungeons are an added challenge to vaults. They contain difficult mobs and extra loot!. \n\n",
+            {
+              "text": "Dungeons are scary places inside the vault, containing a challenge and loot!\n\n",
+              "color": "$text"
+            },
+            {
+              "text": "Dungeon Doors, found randomly inside the vault are opened by ",
+              "color": "$text"
+            },
+            {
+              "text": "right-clicking",
+              "color": "$qhighlight"
+            },
+            {
+              "text": " them. Once opened, the dungeon will announce what ",
+              "color": "$text"
+            },
+            {
+              "text": "difficulty",
+              "color": "$qhighlight"
+            },
+            {
+              "text": " it has, ranging between ",
+              "color": "$text"
+            },
+            {
+              "text": "Normal",
+              "color": "$normal"
+            },
+            {
+              "text": " and ",
+              "color": "$text"
+            },
+            {
+              "text": "Impossible",
+              "color": "$impossible"
+            },
+            {
+              "text": ".\n\nThe mob head on the door itself tells you what type of mobs are guarding the dungeon.",
+              "color": "$text"
+            },
+            {
+              "text": " Dungeons have different ",
+              "color": "$text"
+            },
+            {
+              "text": "sizes",
+              "color": "$qhighlight"
+            },
+            {
+              "text": ", the larger the dungeon, the more loot and the higher the chance for an ",
+              "color": "$text"
+            },
+            {
+              "text": "Alchemy Archive",
+              "color": "$qhighlight"
+            },
+            {
+              "text": " is, after you defeat the ",
+              "color": "$text"
+            },
+            {
+              "text": "Dungeon Champion",
+              "color": "$qhighlight"
+            },
+            {
+              "text": "!\n\nIf you get lucky, you may find a ",
+              "color": "$text"
+            },
+            {
+              "text": "Vault Globe",
+              "color": "$qhighlight"
+            },
+            {
+              "text": " inside the dungeon, guarded by a ",
+              "color": "$text"
+            },
+            {
+              "text": "dungeon boss",
+              "color": "$qhighlight"
+            },
+            {
+              "text": ". The larger the dungeon is, the more likely it is that you will find a globe. There are several different globes to find, but any one dungeon can maximum have one in them. When clicked, a ",
+              "color": "$text"
+            },
+            {
+              "text": "globe",
+              "color": "$qhighlight"
+            },
+            {
+              "text": " will ",
+              "color": "$text"
+            },
+            {
+              "text": "reveal all rooms",
+              "color": "$qhighlight"
+            },
+            {
+              "text": " of the given globe type, to all players inside the current vault.",
+              "color": "$text"
+            },
+            {
+            "text": ".\n\nThe ",
             "color": "$text"
           },
-          {
-            "text": "Dungeon Doors, found randomly inside the vault are opened by ",
-            "color": "$text"
-          },
-          {
-            "text": "right-clicking",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " them. Once opened, the dungeon will announce what ",
-            "color": "$text"
-          },
-          {
-            "text": "difficulty",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " it has, ranging between ",
-            "color": "$text"
-          },
-          {
-            "text": "Normal",
-            "color": "$normal"
-          },
-          {
-            "text": " and ",
-            "color": "$text"
-          },
-          {
-            "text": "Impossible",
-            "color": "$impossible"
-          },
-          {
-            "text": ".\n\nThe mob head on the door itself tells you what type of mobs are guarding the dungeon.",
-            "color": "$text"
-          },
-          {
-            "text": " Dungeons have a variety of ",
-            "color": "$text"
-          },
-          {
-            "text": "sizes",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ", the larger the dungeon, the higher chances for loot and an ",
-            "color": "$text"
-          },
-          {
-            "text": "Archive",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " is, after you defeat the ",
-            "color": "$text"
-          },
-          {
-            "text": "Dungeon Champion",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "!\n\nDungeons also contain",
-            "color": "$text"
-          },
-          {
-            "text": " a ",
-            "color": "$text"
-          },
-          {
-            "text": "mob barrier",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ", to keep dungeon monsters inside and vault mobs out. Players can walk through this barrier. Good luck dungeon delving! ",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nOpen a Dungeon Door",
-            "color": "$heal"
-          }
+            {
+              "text": "Dungeon Pedestal ",
+              "color": "$qhighlight"
+            },
+            {
+              "text": "is a new pedestal that will drop a piece of loot when interacted with. ",
+              "color": "$text"
+            },
+            {
+              "text": "These pedestals will only spawn in place of a ",
+              "color": "$text"
+            },
+            {
+              "text": "Vault Globe",
+              "color": "$qhighlight"
+            },
+            {
+              "text": " or ",
+              "color": "$text"
+            },
+            {
+              "text": "Imbuement Altar ",
+              "color": "$qhighlight"
+            },
+            {
+              "text": "(lvl 65+) that failed to spawn",
+              "color": "$text"
+            },
+            {
+              "text": "\n\nDungeons also contain a ",
+              "color": "$text"
+            },
+            {
+              "text": "barrier",
+              "color": "$qhighlight"
+            },
+            {
+              "text": ", making it so that the dungeon monsters can't exit the dungeon, but don't worry you can walk through this ",
+              "color": "$text"
+            },
+            {
+              "text": "barrier",
+              "color": "$qhighlight"
+            },
+            {
+              "text": ".\n\nTread carefully, and respect the difficulty! Good luck hunter!",
+              "color": "$text"
+            },
+            {
+              "text": "\n\nOpen a Dungeon Door",
+              "color": "$heal"
+            }
         ]
       },
       "icon": "the_vault:gui/quests/dungeon_quest",
@@ -3552,198 +3594,6 @@
         "items": [
           {
             "item": "the_vault:gem_pog"
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "block_interact",
-      "id": "archives",
-      "name": "Archives",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "Deep inside the dungeons you may find an ",
-            "color": "$text"
-          },
-          {
-            "text": "Archive ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "or a ",
-            "color": "$text"
-          },
-          {
-            "text": "Dungeon Pedestal",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "!\n\nThe two types of archives are the ",
-            "color": "$text"
-          },
-          {
-            "text": "Alchemy Archive",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " and the",
-            "color": "$text"
-          },
-          {
-            "text": " Modifier Archive",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ".\n\nThese contain the ancient wisdom of ",
-            "color": "$text"
-          },
-          {
-            "text": "item modification",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "! When interacted with they will teach you a new modifier for either ",
-            "color": "$text"
-          },
-          {
-            "text": "Potions",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " (the ",
-            "color": "$text"
-          },
-          {
-            "text": "Alchemy Archives",
-            "color": "$text"
-          },
-          {
-            "text": ") or ",
-            "color": "$text"
-          },
-          {
-            "text": "Vault Gear",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " (the ",
-            "color": "$text"
-          },
-          {
-            "text": "Modifier Archives",
-            "color": "$text"
-          },
-          {
-            "text": "). This wisdom is ",
-            "color": "$text"
-          },
-          {
-            "text": "permanent",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " and unloccks more modifier options for your ",
-            "color": "$text"
-          },
-          {
-            "text": "potions",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " or ",
-            "color": "$text"
-          },
-          {
-            "text": "gear",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ".\n\nThe ",
-            "color": "$text"
-          },
-          {
-            "text": "Dungeon Pedestal ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "is a new pedestal that will drop a piece of loot when interacted with.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nNote",
-            "color": "red"
-          },
-          {
-            "text": ": These pedestals will spawn in place of a ",
-            "color": "$text"
-          },
-          {
-            "text": "Alchemy Archive",
-            "color": "$qhighlight"
-          },
-          {
-            "text": " or ",
-            "color": "$text"
-          },
-          {
-            "text": "Modifier Archive ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "that did not spawn.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nInteract with an Alchemy Archive",
-            "color": "$heal"
-          }
-        ]
-
-      },
-      "icon": "the_vault:gui/quests/archives",
-      "targetId": "the_vault:alchemy_archive",
-      "targetProgress": 1.0,
-      "unlockedBy": "dungeons",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:gem_pog"
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
-      "id": "modifier_workbench",
-      "name": "Modifier Workbench",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "The Modifier Workbench allows you to craft guaranteed modifiers onto your gear giving you a large amount of control in terms of creating specific builds. Some modifiers unlock via leveling, however there are others that can only be unlocked by finding a Modifier Archive within dungeons!",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nAcquire a Modifier Workbench",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/modifier",
-      "targetId": "the_vault:modifier_workbench",
-      "targetProgress": 1.0,
-      "unlockedBy": "reach_level_20",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:vault_alloy",
-            "amount": 9
-          },
-          {
-            "item": "minecraft:netherite_ingot",
-            "amount": 6
           }
         ],
         "vaultExp": 0
@@ -4835,13 +4685,91 @@
       }
     },
     {
-      "type": "collection",
-      "id": "obtain_card",
-      "name": "Cards",
+      "type": "checkmark",
+      "id": "card_system",
+      "name": "Card System",
       "descriptionData": {
         "description": [
           {
-            "text": "At Lv50 you will start seeing Card Packs. You can obtain them in many different ways, but more commonly by finding them in completion crates, the black market, or shop pedestals.",
+            "text": "The Card System lets you enhance your stats and abilities using ",
+            "color": "$text"
+          },
+          {
+            "text": "cards",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". Cards come in many different types and are equipped through ",
+            "color": "$text"
+          },
+          {
+            "text": "decks",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". Each deck has its own layout and socket limits. ",
+            "color": "$text"
+          },
+          {
+            "text": "Cores ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "provide extra strength and customization.\n\nAlong with cards, decks, and cores, there are several new workstations associated with this system.\n\nThe ",
+            "color": "$text"
+          },
+          {
+            "text": "Deck Station ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "is used to craft decks and lower tiered cores.\n\nThe ",
+            "color": "$text"
+          },
+          {
+            "text": "Card Binder ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "can be used to store cards and build decks.\n\nThe ",
+            "color": "$text"
+          },
+          {
+            "text": "Card Upgrade Station ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "can be used to upgrade tiered cards to make them stronger.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nTo learn more about each part of the Card System, check out the other card-related quests.",
+            "color": "$text"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/card_table",
+      "targetId": "the_vault:deck_station",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:gem_pog",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "obtain_card",
+      "name": "Card Types",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Cards are obtained from booster packs, which can be found in completion crates or purchased from the black market.\n\nThey come in four colors, and each card's purpose depends on the specific card you receive.",
             "color": "$text"
           },
           {
@@ -4849,7 +4777,31 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with stat cards. They improve stats depending on their tier and any requirements.",
+            "text": "This pack contains stat cards. They improve player based stats such as ",
+            "color": "$text"
+          },
+          {
+            "text": "health",
+            "color": "$health"
+          },
+          {
+            "text": ", ",
+            "color": "$text"
+          },
+          {
+            "text": "armor",
+            "color": "$armor"
+          },
+          {
+            "text": ", or ",
+            "color": "$text"
+          },
+          {
+            "text": "attack damage",
+            "color": "$damage"
+          },
+          {
+            "text": ".",
             "color": "$text"
           },
           {
@@ -4857,15 +4809,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with resource cards. These cards add resources to your completion crate every time you fulfill their requirement.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nMix Pack: ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "This pack provides you with a random set of cards.",
+            "text": "This pack contains resource cards. Each card has a resource and a requirement. Upon vault completion and meeting the requirement, that resource will be added to your completion crate.",
             "color": "$text"
           },
           {
@@ -4873,23 +4817,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with arcane cards. These cards are especially powerful as they improve existing ability levels.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nTemporal Pack: ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "This pack provides you with temporal cards. Temporal cards are some of the most powerful cards out there. These cards randomly play legendary modifiers in your vault.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nWild Pack: ",
-            "color": "$qhighlight"
-          },
-          {
-            "text": "This pack provides you with wild cards. The perfect utility card. With these cards you can make card combinations a lot easier.",
+            "text": "This pack contains arcane cards that add extra levels to your current abilities.",
             "color": "$text"
           },
           {
@@ -4897,11 +4825,47 @@
             "color": "$qhighlight"
           },
           {
-            "text": "This pack provides you with evolution cards. These cards are similar in function to stat cards but become more powerful if placed in specific spots in your deck.",
+            "text": "This pack provides evolution cards. These cards are similar in function to stat cards but become more powerful when placed and paired with other cards.",
             "color": "$text"
           },
           {
-            "text": "\n\nSome of these packs also have mega packs or shiny packs.",
+            "text": "\n\nMixed Pack: ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "This pack provides players with a random card from one of the packs above.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nAll of these packs can be found in a Mega variant which will give the player more cards to choose from when opening.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nCards can be stored inside the ",
+            "color": "$text"
+          },
+          {
+            "text": "Card Binder",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", recycled in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Vault Recycler",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", and upgraded in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Card Upgrade Station",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".",
             "color": "$text"
           },
           {
@@ -4913,13 +4877,211 @@
       "icon": "the_vault:gui/quests/booster",
       "targetId": "the_vault:booster_pack",
       "targetProgress": 1.0,
-      "unlockedBy": "reach_level_50",
+      "unlockedBy": "card_system",
       "reward": {
         "items": [
           {
             "item": "the_vault:booster_pack",
+            "nbt": "{id:\"the_vault:arcane_pack\"}",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:booster_pack",
+            "nbt": "{id:\"the_vault:evolution_pack\"}",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:booster_pack",
+            "nbt": "{id:\"the_vault:resource_pack\"}",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:booster_pack",
             "nbt": "{id:\"the_vault:stat_pack\"}",
             "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "decks",
+      "name": "Decks",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Decks let you store and bring cards into the vault so you can benefit from their special effects. Decks must be placed in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Card Deck ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "curios slot in order for a player to gain the deck effects.\n\nDecks are crafted in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Deck Station",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", with basic decks aviilable immediately. To access the ",
+            "color": "$text"
+          },
+          {
+            "text": "Advanced Decks ",
+            "color": "$qhighlight"
+          },
+          {
+            "text": "tab within the deck station, you must first learn the ",
+            "color": "$text"
+          },
+          {
+            "text": "Vault Decks ",
+            "color": "$yellow"
+          },
+          {
+            "text": "research and then fulfill each decks unlock requirement. \n\nEach deck has a unique layout and number of sockets. Be sure to check out all the decks to find the combination that best fits the deck you want.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nDecks can be built and modified inside the ",
+            "color": "$text"
+          },
+          {
+            "text": "Card Binder",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nCraft A Card Deck",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/deck",
+      "targetId": "the_vault:card_deck",
+      "targetProgress": 1.0,
+      "unlockedBy": "card_system",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:card_binder",
+            "amount": 1
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "cores",
+      "name": "Deck Cores",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Cores are augments that can be applied to decks in an ",
+            "color": "$text"
+          },
+          {
+            "text": "anvil",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\nLesser cores can be crafted in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Deck Station",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", but more powerful cores can be found throughout your adventures in the vaults.\n\nCores play a crucial role in creating powerful decks, so choose them carefully. ",
+            "color": "$text"
+          },
+          {
+            "text": "They can be upgraded from lesser to normal cores, but once socketed, a core can never be replaced with a different one.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nCraft a Lesser Core",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/lesser_deck_core",
+      "targetId": "the_vault:deck_socket",
+      "targetProgress": 1.0,
+      "unlockedBy": "card_system",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:silver_scrap",
+            "amount": 256
+          },
+          {
+            "item": "the_vault:gem_black_opal",
+            "amount": 16
+          },
+          {
+            "item": "the_vault:gem_pog",
+            "amount": 1
+          },
+          {
+            "item": "the_vault:vault_gold",
+            "amount": 16
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
+      "type": "collection",
+      "id": "obtain_juicer",
+      "name": "Upgrading Cards",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Unwanted cards can be recycled in a Vault Recycler to obtain ",
+            "color": "$text"
+          },
+          {
+            "text": "Card Juice",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\nUsing the ",
+            "color": "$text"
+          },
+          {
+            "text": "Card Upgrade Station",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", cards with tiers can be combined with the required amount of card juice to upgrade the tier.\n\nUpgrading from tier 1 to tier 2 requires 10 card juice, and higher tiers will require significantly more.",
+            "color": "$text"
+          },
+
+          {
+            "text": "\n\nCraft a Card Upgrade Station",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/card_upgrade_table",
+      "targetId": "the_vault:card_essence_extractor",
+      "targetProgress": 1.0,
+      "unlockedBy": "card_system",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:card_juice",
+            "amount": 5
           }
         ],
         "vaultExp": 0
@@ -4972,101 +5134,11 @@
       "icon": "the_vault:gui/quests/card_id",
       "targetId": "morevaulttables:card_pack_opener_block",
       "targetProgress": 1.0,
-      "unlockedBy": "reach_level_50",
+      "unlockedBy": "card_system",
       "reward": {
         "items": [
           {
             "item": "the_vault:vault_gold"
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
-      "id": "obtain_deck",
-      "name": "Obtain a Card Deck",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "\"Once you've accumulated enough cards you'll want to build a ",
-            "color": "$text"
-          },
-          {
-            "text": "Card Deck",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ". Placing cards inside your deck will allow you to benefit from their special effects.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nDecks come in all shapes and sizes so keep a look out and you might just find some vaulting or in the black market!",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nSome cards might have special requirements before they work. Hover over the cards in your deck to see what positions affect your cards. You can craft a Starter Deck to get you started.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nCraft A Card Deck",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/deck",
-      "targetId": "the_vault:card_deck",
-      "targetProgress": 1.0,
-      "unlockedBy": "reach_level_50",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:booster_pack",
-            "nbt": "{id:\"the_vault:mix_pack\"}",
-            "amount": 1
-          }
-        ],
-        "vaultExp": 0
-      }
-    },
-    {
-      "type": "collection",
-      "id": "obtain_juicer",
-      "name": "Upgrading Cards",
-      "descriptionData": {
-        "description": [
-          {
-            "text": "Some cards just don't stack up, you can place these less than desirable cards in the ",
-            "color": "$text"
-          },
-          {
-            "text": "Card Extractor!",
-            "color": "$qhighlight"
-          },
-          {
-            "text": ". Any card you don't want anymore can be ground down into essence to upgrade other cards. A Tier 1 card be upgraded with 10 essence to Tier 2. The higher the tier the more essence to upgrade.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nIn order to use the machine you will need a redstone signal. The Card on the left will have its essence extracted. This essence can then be used to upgrade a card on the right.",
-            "color": "$text"
-          },
-          {
-            "text": "\n\nCraft a Card Extractor",
-            "color": "$heal"
-          }
-        ]
-      },
-      "icon": "the_vault:gui/quests/juicer",
-      "targetId": "the_vault:card_essence_extractor",
-      "targetProgress": 1.0,
-      "unlockedBy": "reach_level_50",
-      "reward": {
-        "items": [
-          {
-            "item": "the_vault:booster_pack",
-            "nbt": "{id:\"the_vault:resource_pack\"}",
-            "amount": 1
           }
         ],
         "vaultExp": 0
@@ -5575,7 +5647,7 @@
             "color": "$qhighlight"
           },
           {
-            "text": ". The crown is a loot multiplier, which increases your reward multiplier each time it’s attached to the ",
+            "text": ". The crown is a loot multiplier, which increases your reward multiplier each time it's attached to the ",
             "color": "$text"
           },
           {
@@ -5635,7 +5707,7 @@
             "color": "$text"
           },
           {
-            "text": "One last thing: a Royale vault is locked and cannot be exited the way you came in. You must complete the random objective to get out!\n\nGood luck, hunter - you’ll either love or hate it!\n\n",
+            "text": "One last thing: a Royale vault is locked and cannot be exited the way you came in. You must complete the random objective to get out!\n\nGood luck, hunter - you'll either love or hate it!\n\n",
             "color": "$text"
           },
           {
@@ -5838,6 +5910,116 @@
         "vaultExp": 0
       }
     },
+    {
+      "type": "collection",
+      "id": "gear_sealer",
+      "name": "Sealing Gear",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "Sealing your best vault gear is a very powerful way to maximise it, but beware, you could also get unlucky.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "You need to find ",
+            "color": "$text"
+          },
+          {
+            "text": "Ascendant Marks",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", which can be found in ",
+            "color": "$text"
+          },
+          {
+            "text": "Vendoors",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", ",
+            "color": "$text"
+          },
+          {
+            "text": "Black Market",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " and a few other places. These rare marks are used to seal your gear.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "When sealing a gear piece, there is a ",
+            "color": "$text"
+          },
+          {
+            "text": "1 in 10 chance",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " for your gear piece to get an additional powerful sealed modifier, the other outcome is to ",
+            "color": "$text"
+          },
+          {
+            "text": "replace a random, non frozen modifier",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", on your gear with a powerful sealed modifier.\n\nThe powerful sealed modifier includes gaining ",
+            "color": "$text"
+          },
+          {
+            "text": "extra skill levels",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", or gaining a ",
+            "color": "$text"
+          },
+          {
+            "text": "unique effect",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". The cost for sealing a gear piece depends on the ",
+            "color": "$text"
+          },
+          {
+            "text": "level of your gear",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", and the ",
+            "color": "$text"
+          },
+          {
+            "text": "rarity of your gear",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ".\n\nFinally, once a gear piece is sealed you can not modify it further.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Craft a Gear Sealer",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/modifier",
+      "targetId": "the_vault:vault_sealer",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_50",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:vorpal_focus",
+            "amount": 3
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
 
     {
       "type": "level_up",
@@ -5998,6 +6180,128 @@
       }
     },
     {
+      "type": "block_interact",
+      "id": "imbuement_altar",
+      "name": "Imbuement Altars",
+      "descriptionData": {
+        "description": [
+          {
+            "text": "After level 65 you have a rare chance of finding an ",
+            "color": "$text"
+          },
+          {
+            "text": "Imbuement Altar",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " inside ",
+            "color": "$text"
+          },
+          {
+            "text": "Dungeons",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ". The larger the dungeon, the more likely you will find one.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "When interacting with an ",
+            "color": "$text"
+          },
+          {
+            "text": "Imbuement Altar",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", it will ask you to confirm a gear piece for imbuement, once a gear piece is confirmed it can not be undone.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "The imbuement altar will then present you with up to 3 options of imbuement, imbuing a modifier has a ",
+            "color": "$text"
+          },
+          {
+            "text": "success chance",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " to make it stronger, upgrading its values. If the imbuement ",
+            "color": "$text"
+          },
+          {
+            "text": "fails",
+            "color": "$red"
+          },
+          {
+            "text": ", the gear becomes ",
+            "color": "$text"
+          },
+          {
+            "text": "corrupted",
+            "color": "$red"
+          },
+          {
+            "text": " and the modifier will instead be downgraded.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Both ",
+            "color": "$text"
+          },
+          {
+            "text": "imbued",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " and ",
+            "color": "$text"
+          },
+          {
+            "text": "corrupted",
+            "color": "$red"
+          },
+          {
+            "text": " gear can no longer be modified in the ",
+            "color": "$text"
+          },
+          {
+            "text": "Artisan Station",
+            "color": "$qhighlight"
+          },
+          {
+            "text": ", however, ",
+            "color": "$text"
+          },
+          {
+            "text": "imbued gear",
+            "color": "$qhighlight"
+          },
+          {
+            "text": " can still be sealed.\n\n",
+            "color": "$text"
+          },
+          {
+            "text": "Interact with an Imbuement Altar",
+            "color": "$heal"
+          }
+        ]
+      },
+      "icon": "the_vault:gui/quests/imbuement_altar",
+      "targetId": "the_vault:imbuement_altar",
+      "targetProgress": 1.0,
+      "unlockedBy": "reach_level_65",
+      "reward": {
+        "items": [
+          {
+            "item": "the_vault:perfect_echo_gem",
+            "amount": 10
+          }
+        ],
+        "vaultExp": 0
+      }
+    },
+    {
       "type": "collection",
       "id": "craft_doomsayer_seal",
       "name": "Seal of the Doomsayer",
@@ -6116,13 +6420,13 @@
         ]
       },
       "icon": "the_vault:gui/quests/event",
-      "targetId": "vaultadditions:power_crystal",
+      "targetId": "the_vault:skill_orb",
       "targetProgress": 1.0,
       "unlockedBy": "reach_level_65",
       "reward": {
         "items": [
           {
-            "item": "vaultadditions:power_crystal",
+            "item": "the_vault:skill_orb",
             "amount": 32
           }
         ],

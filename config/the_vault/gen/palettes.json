@@ -41,6 +41,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/universal_lush_cave.json"
     },
     {
+      "id": "the_vault:universal_gloom",
+      "name": "Universal Gloom",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_gloom.json"
+    },
+    {
       "id": "the_vault:universal_living_cave",
       "name": "Universal Living Cave",
       "1.0": "config/the_vault/gen/1.0/palettes/universal_living_cave.json"
@@ -381,6 +386,11 @@
       "1.0": "config/the_vault/gen/1.0/palettes/generic/ornate_chest_placeholder.json"
     },
     {
+      "id": "the_vault:generic/present_boxes",
+      "name": "Present Boxes Placeholder",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/present_box_placeholder.json"
+    },
+    {
       "id": "the_vault:raw/ornate_chest_placeholder",
       "name": "Raw Ornate Chest Placeholder",
       "1.0": "config/the_vault/gen/1.0/palettes/raw/ornate_chest_placeholder.json"
@@ -484,6 +494,11 @@
       "id": "the_vault:generic/spawners/lush_cave_mobs",
       "name": "Lush Cave Mobs",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/lush_cave_mobs.json"
+    },
+    {
+      "id": "the_vault:generic/spawners/gloom_mobs",
+      "name": "Gloom Mobs",
+      "1.0": "config/the_vault/gen/1.0/palettes/generic/spawners/gloom_mobs.json"
     },
     {
       "id": "the_vault:generic/spawners/ice_mobs",
@@ -679,6 +694,16 @@
       "id": "the_vault:dragon/base",
       "name": "Base",
       "1.0": "config/the_vault/gen/1.0/palettes/dragon/base.json"
+    },
+    {
+      "id": "the_vault:dragon/room1",
+      "name": "Room 1",
+      "1.0": "config/the_vault/gen/1.0/palettes/dragon/room1.json"
+    },
+    {
+      "id": "the_vault:dragon/room2",
+      "name": "Room 2",
+      "1.0": "config/the_vault/gen/1.0/palettes/dragon/room2.json"
     },
     {
       "id": "the_vault:dragon/center_spawner",
@@ -914,6 +939,11 @@
       "id": "the_vault:vendor_rooms/vendor_rooms",
       "name": "Vendor Rooms",
       "1.0": "config/the_vault/gen/1.0/palettes/vendor_rooms/vendor_rooms.json"
+    },
+    {
+      "id": "the_vault:warehouse/base",
+      "name": "Warehouse Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/warehouse/base.json"
     },
     {
       "id": "the_vault:treasure_rooms/treasure_chest",
@@ -2749,6 +2779,36 @@
       "id": "the_vault:generic/ore_placeholder_sandsworn",
       "name": "Sandsworn Ore Placeholder",
       "1.0": "config/the_vault/gen/1.0/palettes/generic/ore_placeholder_sandsworn.json"
+    },
+    {
+      "id": "the_vault:memory/base",
+      "name": "Memory Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/memory/base.json"
+    },
+    {
+      "id": "the_vault:horderush/base",
+      "name": "Horderush Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/horderush/base.json"
+    },
+    {
+      "id": "the_vault:companion_rush/base",
+      "name": "Companion Rush Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/companion_rush/base.json"
+    },
+    {
+      "id": "the_vault:protect_villager/base",
+      "name": "Protect the Villager Base",
+      "1.0": "config/the_vault/gen/1.0/palettes/protect_villager/base.json"
+    },
+    {
+      "id": "the_vault:universal_greed_acid",
+      "name": "Universal Acid",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_greed_acid.json"
+    },
+    {
+      "id": "the_vault:universal_greed_death",
+      "name": "Universal Death",
+      "1.0": "config/the_vault/gen/1.0/palettes/universal_greed_acid.json"
     }
   ]
 }

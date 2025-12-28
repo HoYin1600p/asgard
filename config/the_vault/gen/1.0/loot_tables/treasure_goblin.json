@@ -334,10 +334,7 @@
             {
               "weight": 1,
               "item": {
-                "id": "the_vault:card_deck",
-                "nbt": {
-                  "id": "goblin"
-                },
+                "id": "the_vault:goblin_ear",
                 "count": {
                   "type": "uniform",
                   "min": 1,

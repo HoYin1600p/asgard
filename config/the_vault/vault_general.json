@@ -1,9 +1,4 @@
 {
-	"EXP_MULTIPLIER": 100.0,
-	"SAVE_PLAYER_SNAPSHOTS": true,
-	"TICK_COUNTER": 30000,
-	"NO_EXIT_CHANCE": 10,
-	"OBELISK_DROP_CHANCE": 2,
 	"ITEM_BLACKLIST": [
 		"ae2things:*",
         "ae2wtlib:*",
@@ -229,10 +224,13 @@
 		"supplementaries:dispenser_minecart",
 		"naturescompass:naturescompass",
 		"supplementaries:bomb",
+		"thermal:satchel",
 		"supplementaries:bomb_blue",
 		"supplementaries:bomb_spiky",
 		"quark:trowel",
-		"create:minecart_contraption"
+		"create:minecart_contraption",
+		"minecraft:golden_apple",
+		"create:chute"
 	],
 	"BLOCK_BLACKLIST": [
 		"ae2things:*",
@@ -275,6 +273,7 @@
 		"powah:*",
 		"ae2:fluix_stairs",
 		"ae2:energy_cell",
+		"thermal:satchel",
 		"ae2:quartz_glass",
 		"minecraft:redstone",
 		"minecraft:redstone_torch",
@@ -683,89 +682,8 @@
 		"the_vault:angel_block",
 		"dummmmmmy:target_dummy_placer",
 		"quark:trowel",
-		"create:minecart_contraption"
-	],
-	"VAULT_EXIT_TNL_MIN": 0.5,
-	"VAULT_EXIT_TNL_MAX": 1.0,
-	"MONTHS_TO_TAG_COLOR": {
-		"1": "AQUA",
-		"7": "DARK_AQUA",
-		"13": "YELLOW",
-		"25": "GOLD",
-		"48": "RED"
-	},
-	"VAULT_OBJECTIVES": [
-		{
-			"level": 0,
-			"outcomes": [
-				{
-					"value": "the_vault:summon_and_kill_boss",
-					"weight": 14
-				}
-			]
-		},
-		{
-			"level": 25,
-			"outcomes": [
-				{
-					"value": "the_vault:summon_and_kill_boss",
-					"weight": 14
-				},
-				{
-					"value": "the_vault:scavenger_hunt",
-					"weight": 2
-				}
-			]
-		},
-		{
-			"level": 50,
-			"outcomes": [
-				{
-					"value": "the_vault:summon_and_kill_boss",
-					"weight": 14
-				},
-				{
-					"value": "the_vault:scavenger_hunt",
-					"weight": 5
-				}
-			]
-		}
-	],
-	"VAULT_COOP_OBJECTIVES": [
-		{
-			"level": 0,
-			"outcomes": [
-				{
-					"value": "the_vault:summon_and_kill_boss",
-					"weight": 14
-				}
-			]
-		},
-		{
-			"level": 25,
-			"outcomes": [
-				{
-					"value": "the_vault:summon_and_kill_boss",
-					"weight": 14
-				},
-				{
-					"value": "the_vault:scavenger_hunt",
-					"weight": 2
-				}
-			]
-		},
-		{
-			"level": 50,
-			"outcomes": [
-				{
-					"value": "the_vault:summon_and_kill_boss",
-					"weight": 14
-				},
-				{
-					"value": "the_vault:scavenger_hunt",
-					"weight": 5
-				}
-			]
-		}
+		"create:minecart_contraption",
+		"minecraft:golden_apple",
+		"create:chute"
 	]
 }

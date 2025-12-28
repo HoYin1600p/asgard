@@ -1,297 +1,334 @@
 {
-  "MAX_ACCELERATION_CHIPS": 3,
+  "MAX_ACCELERATION_CHIPS": 10,
   "INTERVAL_DECREASE_PER_CHIP": {
-    "1": 266,
-    "2": 533,
-    "3": 800
+    "1": 100,
+    "2": 300,
+    "3": 400,
+    "4": 500,
+    "5": 600,
+    "6": 700,
+    "7": 900,
+    "8": 1000,
+    "9": 1100,
+    "10": 1180
   },
   "LOOT": [
     {
       "value": {
         "ITEM": "minecraft:stone"
       },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:granite"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:diorite"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:dirt"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:grass_block"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:gravel"
-      },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:sand"
-      },
-      "weight": 1
+      "weight": 35
     },
     {
       "value": {
         "ITEM": "minecraft:cobblestone"
       },
-      "weight": 3
+      "weight": 40
     },
     {
       "value": {
-        "ITEM": "minecraft:oak_log"
+        "ITEM": "minecraft:granite"
       },
-      "weight": 3
+      "weight": 30
     },
     {
       "value": {
-        "ITEM": "minecraft:oak_leaves"
+        "ITEM": "minecraft:diorite"
       },
-      "weight": 5
+      "weight": 30
     },
     {
       "value": {
-        "ITEM": "minecraft:spruce_leaves"
+        "ITEM": "minecraft:andesite"
       },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:birch_leaves"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:netherrack"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:basalt"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:mossy_cobblestone"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:clay"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:terracotta"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:pumpkin"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:melon"
-      },
-      "weight": 3
+      "weight": 30
     },
     {
       "value": {
         "ITEM": "minecraft:deepslate"
       },
-      "weight": 3
+      "weight": 25
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:calcite"
+      },
+      "weight": 10
     },
     {
       "value": {
         "ITEM": "minecraft:tuff"
       },
-      "weight": 3
+      "weight": 10
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dripstone_block"
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:grass_block"
+      },
+      "weight": 30
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dirt"
+      },
+      "weight": 35
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:coarse_dirt"
+      },
+      "weight": 30
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:podzol"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:rooted_dirt"
+      },
+      "weight": 5
     },
     {
       "value": {
         "ITEM": "minecraft:crimson_nylium"
       },
-      "weight": 3
+      "weight": 5
     },
     {
       "value": {
         "ITEM": "minecraft:warped_nylium"
       },
-      "weight": 3
+      "weight": 5
     },
     {
       "value": {
-        "ITEM": "minecraft:coal_ore"
+        "ITEM": "minecraft:sand"
       },
-      "weight": 1
+      "weight": 30
     },
     {
       "value": {
-        "ITEM": "minecraft:iron_ore"
+        "ITEM": "minecraft:red_sand"
       },
-      "weight": 1
+      "weight": 15
     },
     {
       "value": {
-        "ITEM": "minecraft:copper_ore"
+        "ITEM": "minecraft:gravel"
       },
-      "weight": 1
+      "weight": 30
     },
     {
       "value": {
-        "ITEM": "minecraft:lapis_ore"
+        "ITEM": "minecraft:oak_log"
       },
-      "weight": 1
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:jungle_log"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:acacia_log"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:dark_oak_log"
-      },
-      "weight": 3
+      "weight": 15
     },
     {
       "value": {
         "ITEM": "minecraft:spruce_log"
       },
-      "weight": 3
+      "weight": 15
     },
     {
       "value": {
-        "ITEM": "minecraft:jungle_leaves"
+        "ITEM": "minecraft:birch_log"
       },
-      "weight": 3
+      "weight": 15
     },
     {
       "value": {
-        "ITEM": "minecraft:flowering_azalea_leaves"
+        "ITEM": "minecraft:jungle_log"
       },
-      "weight": 3
+      "weight": 15
     },
     {
       "value": {
-        "ITEM": "minecraft:sea_pickle"
+        "ITEM": "minecraft:acacia_log"
       },
-      "weight": 2
+      "weight": 15
     },
     {
       "value": {
-        "ITEM": "minecraft:dead_bush"
+        "ITEM": "minecraft:dark_oak_log"
       },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:mycelium"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:mossy_stone_bricks"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:snow_block"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:soul_sand"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:white_concrete"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:chorus_flower"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:sea_lantern"
-      },
-      "weight": 2
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:end_stone"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:magma_block"
-      },
-      "weight": 3
-    },
-    {
-      "value": {
-        "ITEM": "minecraft:white_wool"
-      },
-      "weight": 2
+      "weight": 15
     },
     {
       "value": {
         "ITEM": "minecraft:crimson_stem"
       },
-      "weight": 3
+      "weight": 15
     },
     {
       "value": {
         "ITEM": "minecraft:warped_stem"
       },
-      "weight": 3
+      "weight": 15
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:sponge"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:glass"
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:smooth_stone"
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:bricks"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:obsidian"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:purpur_block"
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:ice"
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:snow_block"
+      },
+      "weight": 35
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:clay"
+      },
+      "weight": 15
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:netherrack"
+      },
+      "weight": 35
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:soul_sand"
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:soul_soil"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:basalt"
+      },
+      "weight": 25
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:mycelium"
+      },
+      "weight": 15
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:nether_bricks"
+      },
+      "weight": 15
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:end_stone"
+      },
+      "weight": 15
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:quartz_block"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:terracotta"
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine"
+      },
+      "weight": 15
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:prismarine_bricks"
+      },
+      "weight": 15
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:dark_prismarine"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:sea_lantern"
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:magma_block"
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:crying_obsidian"
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "ITEM": "minecraft:blackstone"
+      },
+      "weight": 15
     }
   ],
   "INTERVAL": 1200,
   "DECAY": {
     "MIN": 100,
-    "MAX": 1200
+    "MAX": 1000
   }
 }
