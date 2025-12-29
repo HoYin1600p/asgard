@@ -224,7 +224,7 @@
         ]
       },
       "icon": "the_vault:gui/quests/globe_expander",
-      "targetId": "the_vault:skill_orb",
+      "targetId": "vaultadditions:power_crystal",
       "targetProgress": 1.0,
       "unlockedBy": "welcome_quest",
       "reward": {
@@ -6356,13 +6356,13 @@
         ]
       },
       "icon": "the_vault:gui/quests/event",
-      "targetId": "the_vault:skill_orb",
+      "targetId": "vaultadditions:power_crystal",
       "targetProgress": 1.0,
       "unlockedBy": "reach_level_65",
       "reward": {
         "items": [
           {
-            "item": "the_vault:skill_orb",
+            "item": "vaultadditions:power_crystal",
             "amount": 32
           }
         ],

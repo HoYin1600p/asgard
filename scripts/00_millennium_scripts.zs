@@ -210,7 +210,7 @@ JEI.addDescription(<item:woldsvaults:vault_iridium>, ["A new tier of vault curre
 JEI.addDescription(<item:woldsvaults:chiseling_focus>, ["Combine with a Vault tool to remove the modifier from the tool"]);
 JEI.addDescription(<item:woldsvaults:etched_vault_layout>, ["Will display a vault layout when rolled. Combine with a Vault Crystal in an Anvil to apply the vault layout"]);
 
-JEI.addDescription(<item:the_vault:skill_orb>, ["Right Clicking a Power Crystal on the Globe Expander block at spawn, will help expand the world border.  Other versions of these will have other uses after level 100."]);
+JEI.addDescription(<item:vaultadditions:power_crystal>, ["Right Clicking a Power Crystal on the Globe Expander block at spawn, will help expand the world border.  Other versions of these will have other uses after level 100."]);
 JEI.addDescription(<item:vaultadditions:loot_statue_vault>, ["A generic Loot statue that will produce an amount of a selected material before dying out.  Dead Statues, can be thrown in a Statue Cauldron "]);
 JEI.addDescription(<item:vaultadditions:loot_statue_gift>, ["A gift themed Loot statue that will produce an amount of a selected material before dying out.  Dead Statues, can be thrown in a Statue Cauldron "]);
 JEI.addDescription(<item:vaultadditions:loot_statue_gift_mega>, ["A mega gift themed Loot statue that will produce an amount of a selected material before dying out.  Dead Statues, can be thrown in a Statue Cauldron "]);
