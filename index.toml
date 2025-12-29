@@ -21675,6 +21675,10 @@ hash = "9e452d9491739cfe8b5254c0c970e971748907ccc9ecf6cf9aadca11172af28d"
 metafile = true
 
 [[files]]
+file = "mods/millennium-woldsvaultsstandalone-0.20.0.jar"
+hash = "8be68c686d5b07e57e3af689e40d27d0f7d5457b5e7d81ce7a491b6582830db1"
+
+[[files]]
 file = "mods/mining-gadgets.pw.toml"
 hash = "3f3cc21b55b618c5779e1823c9e4b420044d625695c13cfd786b3c550c04d37c"
 metafile = true
@@ -22216,11 +22220,6 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "d7fc3663ccd2b592eb742a841716a6bbc944bb0c4a59131baaaa1605d020ebdc"
-metafile = true
-
-[[files]]
-file = "mods/wolds-vaults-standalone.pw.toml"
-hash = "4e26e165898dfe83cf0cd7bd3dcfc720a159f30a992226684aceda6624a66208"
 metafile = true
 
 [[files]]
