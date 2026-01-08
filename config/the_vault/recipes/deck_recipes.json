@@ -84,6 +84,100 @@
     },
 
     {
+      "tab": "decks",
+      "id": "the_vault:brazier_deck",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:card_deck",
+        "NBT": "{id:\"Brazier\"}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:omega_pog"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:extraordinary_black_opal"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:magic_silk"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_platinum"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:brazier_ember"
+        }
+      ]
+    },
+    {
+      "tab": "decks",
+      "id": "the_vault:millennium_deck",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:card_deck",
+        "NBT": "{id:\"Millennium\"}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:omega_pog"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:extraordinary_black_opal"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:magic_silk"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_platinum"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:millennium_token"
+        }
+      ]
+    },
+    {
+      "tab": "decks",
+      "id": "the_vault:vaulthalla_deck",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:card_deck",
+        "NBT": "{id:\"Vaulthalla\"}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:omega_pog"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:extraordinary_black_opal"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:magic_silk"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_platinum"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vaulthalla_token"
+        }
+      ]
+    },
+
+    {
       "tab": "advanced",
       "discoveryTask": {
         "id": "purchase_vendoor",
@@ -1411,23 +1505,22 @@
     {
       "tab": "advanced",
       "discoveryTask": {
-        "id": "unlock_goblin",
+        "id": "kill_treasure_goblins",
         "renderer": {
           "title": {
-            "text": "Treasure Goblins Killed"
+            "text": "Kill Treasure Goblins"
           },
           "type": "named"
         },
         "children": [],
         "operating": false,
-        "filter": "@the_vault:treasure_goblin",
+        "filter": "the_vault:treasure_goblin",
         "counter": {
           "variables": {},
           "target": {
-            "count": 50,
+            "count": 1,
             "type": "constant"
           },
-          "predicate": "GREATER_OR_EQUAL_TO",
           "type": "target"
         },
         "type": "kill_entity"
@@ -1464,10 +1557,10 @@
     {
       "tab": "advanced",
       "discoveryTask": {
-        "id": "unlock_dragon",
+        "id": "kill_dragons",
         "renderer": {
           "title": {
-            "text": "Dragons Killed"
+            "text": "Kill Dragons"
           },
           "type": "named"
         },
@@ -1477,10 +1570,9 @@
         "counter": {
           "variables": {},
           "target": {
-            "count": 25,
+            "count": 1,
             "type": "constant"
           },
-          "predicate": "GREATER_OR_EQUAL_TO",
           "type": "target"
         },
         "type": "kill_entity"
@@ -1511,183 +1603,6 @@
         {
           "AMOUNT": 1,
           "ITEM": "the_vault:dragon_scale"
-        }
-      ]
-    },
-    {
-      "tab": "advanced",
-      "discoveryTask": {
-        "id": "unlock_champ",
-        "renderer": {
-          "title": {
-            "text": "Champions Killed"
-          },
-          "type": "named"
-        },
-        "children": [],
-        "operating": false,
-        "filter": "@the_vault:mob_type/champion",
-        "counter": {
-          "variables": {},
-          "target": {
-            "count": 100,
-            "type": "constant"
-          },
-          "predicate": "GREATER_OR_EQUAL_TO",
-          "type": "target"
-        },
-        "type": "kill_entity"
-      },
-      "id": "the_vault:millennium_deck",
-      "output": {
-        "AMOUNT": 1,
-        "ITEM": "the_vault:card_deck",
-        "NBT": "{id:\"Millennium\"}"
-      },
-      "inputs": [
-        {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:omega_pog"
-        },
-        {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:extraordinary_black_opal"
-        },
-        {
-          "AMOUNT": 64,
-          "ITEM": "the_vault:magic_silk"
-        },
-        {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:vault_platinum"
-        },
-        {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:millennium_token"
-        }
-      ]
-    },
-    {
-      "tab": "advanced",
-      "discoveryTask": {
-        "id": "unlock_champ",
-        "renderer": {
-          "title": {
-            "text": "Champions Killed"
-          },
-          "type": "named"
-        },
-        "children": [],
-        "operating": false,
-        "filter": "@the_vault:mob_type/champion",
-        "counter": {
-          "variables": {},
-          "target": {
-            "count": 100,
-            "type": "constant"
-          },
-          "predicate": "GREATER_OR_EQUAL_TO",
-          "type": "target"
-        },
-        "type": "kill_entity"
-      },
-      "id": "the_vault:vaulthalla_deck",
-      "output": {
-        "AMOUNT": 1,
-        "ITEM": "the_vault:card_deck",
-        "NBT": "{id:\"Vaulthalla\"}"
-      },
-      "inputs": [
-        {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:omega_pog"
-        },
-        {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:extraordinary_black_opal"
-        },
-        {
-          "AMOUNT": 64,
-          "ITEM": "the_vault:magic_silk"
-        },
-        {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:vault_platinum"
-        },
-        {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:vaulthalla_token"
-        }
-      ]
-    },
-    {
-      "tab": "advanced",
-      "discoveryTask": {
-        "id": "complete_50_brazier_vaults",
-        "renderer": {
-          "title": {
-            "text": "Complete 50 Brazier Vaults"
-          },
-          "type": "named"
-        },
-        "type": "repeated",
-        "counter": {
-          "target": {
-            "count": 50,
-            "type": "constant"
-          },
-          "predicate": "GREATER_OR_EQUAL_TO",
-          "type": "target"
-        },
-        "children": [
-          {
-            "type": "single_vault",
-            "mode": "ANY",
-            "children": [
-              {
-                "type": "finish_vault",
-                "objective": [
-                  "monolith"
-                ],
-                "counter": {
-                  "target": {
-                    "count": 1,
-                    "type": "constant"
-                  },
-                  "predicate": "GREATER_OR_EQUAL_TO",
-                  "type": "target"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      "id": "the_vault:brazier_deck",
-      "output": {
-        "AMOUNT": 1,
-        "ITEM": "the_vault:card_deck",
-        "NBT": "{id:\"Brazier\"}"
-      },
-      "inputs": [
-        {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:omega_pog"
-        },
-        {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:extraordinary_black_opal"
-        },
-        {
-          "AMOUNT": 64,
-          "ITEM": "the_vault:magic_silk"
-        },
-        {
-          "AMOUNT": 16,
-          "ITEM": "the_vault:vault_platinum"
-        },
-        {
-          "AMOUNT": 1,
-          "ITEM": "the_vault:brazier_ember"
         }
       ]
     },

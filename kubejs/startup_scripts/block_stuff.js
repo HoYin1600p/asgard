@@ -89,6 +89,6 @@ onEvent('item.registry', event => {
 	event.create('the_vault:brazier_ember').displayName('Brazier Ember')
 	event.create('the_vault:goblin_ear').displayName('Goblin Ear')
 	event.create('the_vault:dragon_scale').displayName('Dragon Scale')
-	event.create('the_vault:millennium_token').displayName('Eternal Token')
-	event.create('the_vault:vaulthalla_token').displayName('Ancient Token')
+	event.create('the_vault:millennium_token').displayName('Millennium Token')
+	event.create('the_vault:vaulthalla_token').displayName('Vaulthalla Token')
 })

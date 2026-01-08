@@ -5490,32 +5490,6 @@
           }
         ]
       },
-      { "attribute": "the_vault:mana_per_looted_tile",
-        "group": "uLootedTile",
-        "identifier": "the_vault:u_mana_looting",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 500,
-            "value": {
-              "tileEntityGroupId": "the_vault:chest",
-              "displayName": "Chest",
-              "manaGenerationChance": {
-                "min": 0.2,
-                "max": 0.6,
-                "step": 0.01
-              },
-              "manaGenerated": {
-                "min": 1,
-                "max": 3,
-                "step": 1
-              }
-            }
-          }
-        ]
-      },
       { "attribute": "the_vault:third_attack",
         "group": "ModThirdAttack",
         "identifier": "the_vault:u_third_attack",
@@ -6241,66 +6215,6 @@
         ]
       },
       {
-        "attribute": "the_vault:hexing_chance",
-        "group": "ModOnHitType",
-        "identifier": "the_vault:mod_hexing_chance",
-        "tags": [
-          "focusHexing"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": 30,
-            "weight": 600,
-            "value": {
-              "min": 0.05,
-              "max": 0.1,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 31,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.11,
-              "max": 0.16,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 45,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.17,
-              "max": 0.23,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 65,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.24,
-              "max": 0.3,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 90,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.31,
-              "max": 0.35,
-              "step": 0.01
-            }
-          }
-        ]
-      },
-      {
         "attribute": "the_vault:thorns_scaling_damage",
         "group": "BaseScaling",
         "identifier": "the_vault:thorns_scaling_damage_grass_sword",
@@ -6355,66 +6269,6 @@
         ]
       },
       {
-        "attribute": "the_vault:execution_damage",
-        "group": "ModOnHitType",
-        "identifier": "the_vault:mod_execution_young_kitsune",
-        "tags": [
-          "focusResistance"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.18,
-              "max": 0.24,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 65,
-            "maxLevel": -1,
-            "weight": 600,
-            "value": {
-              "min": 0.25,
-              "max": 0.35,
-              "step": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:reaving_damage",
-        "group": "ModOnHitType",
-        "identifier": "the_vault:u_leviathan_reaving_damage",
-        "tags": [
-          "focusReavingDamage"
-        ],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": 49,
-            "weight": 10,
-            "value": {
-              "min": 0.5,
-              "max": 0.5,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 50,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "min": 0.51,
-              "max": 0.75,
-              "step": 0.01
-            }
-          }
-        ]
-      },
-      {
         "attribute": "the_vault:movement_speed",
         "group": "uMovementSpeed",
         "identifier": "the_vault:u_movement_horse",
@@ -6447,21 +6301,6 @@
               "min": 0.3,
               "max": 0.4,
               "step": 0.01
-            }
-          }
-        ]
-      },
-      {
-        "attribute": "the_vault:hemorrhaging",
-        "group": "ModBleed",
-        "identifier": "the_vault:mod_hemorrhaging",
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "flag": true
             }
           }
         ]

@@ -4079,32 +4079,6 @@
           }
         ]
       },
-      { "attribute": "the_vault:mana_per_looted_tile",
-        "group": "uLootedTile",
-        "identifier": "the_vault:u_mana_looting",
-        "tags": [],
-        "tiers": [
-          {
-            "minLevel": 0,
-            "maxLevel": -1,
-            "weight": 500,
-            "value": {
-              "tileEntityGroupId": "the_vault:chest",
-              "displayName": "Chest",
-              "manaGenerationChance": {
-                "min": 0.2,
-                "max": 0.6,
-                "step": 0.01
-              },
-              "manaGenerated": {
-                "min": 1,
-                "max": 3,
-                "step": 1
-              }
-            }
-          }
-        ]
-      },
       { "attribute": "the_vault:third_attack",
         "group": "ModThirdAttack",
         "identifier": "the_vault:u_third_attack",

@@ -817,15 +817,7 @@
       "item": "the_vault:chestplate",
       "models": [
         {
-          "value": "the_vault:gear/armor/frozen_throne/chestplate",
-          "weight": 1
-        },
-        {
-          "value": "the_vault:gear/armor/frozen_throne_black_ice/chestplate",
-          "weight": 1
-        },
-        {
-          "value": "the_vault:gear/armor/frozen_throne_snowflake/chestplate",
+          "value": "the_vault:gear/armor/phoenix_chestplate/chestplate",
           "weight": 1
         }
       ],
@@ -1910,7 +1902,7 @@
       "the_vault:mineral_greatsword": 1,
       "the_vault:grass_blade": 1,
       "the_vault:aurora_scissors": 1,
-      "the_vault:young_kitsune": 1,
+      "the_vault:kitsune": 1,
       "the_vault:dragon_sword": 1
     },
 
@@ -2005,7 +1997,7 @@
       "the_vault:frostguards": 1
     },
 
-    "the_vault:grim_shield": {
+    "the_vault:grim": {
       "the_vault:grim": 1
     },
     "the_vault:ivy": {
@@ -2148,6 +2140,81 @@
       "the_vault:trirang": 1
     },
     "the_vault:vaultarang": {
+      "the_vault:trirang": 1
+    },
+    "the_vault:crafted": {
+      "the_vault:iskallibur": 1,
+      "the_vault:inflated_justice": 1,
+      "the_vault:crystal_double_blade": 0,
+      "the_vault:honey_stick": 1,
+      "the_vault:everfrost": 1,
+      "the_vault:everflame": 1,
+      "the_vault:hexblade": 1,
+      "the_vault:mineral_greatsword": 1,
+      "the_vault:grass_blade": 1,
+      "the_vault:aurora_scissors": 1,
+      "the_vault:kitsune": 0,
+      "the_vault:dragon_sword": 0,
+
+      "the_vault:butcher_axe": 1,
+      "the_vault:starforge": 1,
+      "the_vault:leviathan": 0,
+      "the_vault:zombie_horse_axe": 1,
+      "the_vault:crystal_mace": 1,
+      "the_vault:butchers_cleaver": 1,
+
+      "the_vault:jester": 1,
+      "the_vault:sweetheart": 1,
+      "the_vault:warbound_helmet": 1,
+
+      "the_vault:castle": 1,
+      "the_vault:stormcrown": 1,
+      "the_vault:crystalplate": 1,
+      "the_vault:frozen_throne": 1,
+      "the_vault:annmari": 1,
+      "the_vault:vitalis": 1,
+
+      "the_vault:crashguards": 1,
+      "the_vault:swarmwalkers": 1,
+
+      "the_vault:pacifistsandals": 1,
+      "the_vault:frostguards": 1,
+
+      "the_vault:grim": 1,
+      "the_vault:ivy": 1,
+      "the_vault:pestilence_wall": 1,
+      "the_vault:gladiator_buckler": 1,
+      "the_vault:frostwarden": 1,
+
+      "the_vault:inferno_reach": 1,
+      "the_vault:baguette": 1,
+      "the_vault:chainlash": 1,
+      "the_vault:pistol": 0,
+
+      "the_vault:frozen_orb": 1,
+      "the_vault:echoflare": 1,
+      "the_vault:ender_wings": 1,
+
+      "the_vault:quickstone": 1,
+      "the_vault:chonknet": 0,
+      "the_vault:bloodseeking_magnet": 0,
+      "the_vault:treasure_magnet": 0,
+      "the_vault:ender_magnet": 0,
+
+      "the_vault:kaleidoscope": 1,
+      "the_vault:manabloom": 1,
+      "the_vault:pax": 1,
+      "the_vault:frozen_heart": 1,
+      "the_vault:eternal_stella": 1,
+      "the_vault:piggybank": 0,
+
+      "the_vault:bamboo_fightstick": 1,
+      "the_vault:ninja_baton": 1,
+
+      "the_vault:mjolnir": 0,
+      "the_vault:marlin": 1,
+
+      "the_vault:safer_spaces": 1,
       "the_vault:trirang": 1
     }
   }

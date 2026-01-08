@@ -662,128 +662,6 @@
       "color2": "0xFFe2a631"
     },
     "leviathan": {
-      "type": "floating_item_reward",
-      "textColor": -1213660,
-      "name": "Leviathan",
-      "item": {
-        "id": "the_vault:axe",
-        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}",
-        "count": 1
-      },
-      "color1": "0xFFED7B24",
-      "color2": "0xFFe2a631"
-    },
-    "bamboo_fightstick": {
-      "type": "floating_item_reward",
-      "textColor": -1213660,
-      "name": "Bamboo Fightstick",
-      "item": {
-        "id": "the_vault:battlestaff",
-        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:bamboo_fightstick\",\"the_vault:gear_roll_type\":\"Unique\"}",
-        "count": 1
-      },
-      "color1": "0xFFED7B24",
-      "color2": "0xFFe2a631"
-    },
-    "trirang": {
-      "type": "floating_item_reward",
-      "textColor": -1213660,
-      "name": "Trirang",
-      "item": {
-        "id": "the_vault:rang",
-        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:trirang\",\"the_vault:gear_roll_type\":\"Unique\"}",
-        "count": 1
-      },
-      "color1": "0xFFED7B24",
-      "color2": "0xFFe2a631"
-    },
-    "crystal_double_blade": {
-      "type": "floating_item_reward",
-      "textColor": -1213660,
-      "name": "Crystal Double Blade",
-      "item": {
-        "id": "the_vault:sword",
-        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:crystal_double_blade\",\"the_vault:gear_roll_type\":\"Unique\"}",
-        "count": 1
-      },
-      "color1": "0xFFED7B24",
-      "color2": "0xFFe2a631"
-    },
-    "aurora_scissors": {
-      "type": "floating_item_reward",
-      "textColor": -1213660,
-      "name": "Aurora Scissors",
-      "item": {
-        "id": "the_vault:sword",
-        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:aurora_scissors\",\"the_vault:gear_roll_type\":\"Unique\"}",
-        "count": 1
-      },
-      "color1": "0xFFED7B24",
-      "color2": "0xFFe2a631"
-    },
-
-    "raid_rock": {
-      "type": "floating_item_reward",
-      "textColor": "0xFFffb400",
-      "name": "Raid Rock",
-      "item": {
-        "id": "the_vault:crystal_seal_raid",
-        "count": 1
-      },
-      "color1": "0xFFff381d",
-      "color2": "0xFFb51500"
-    },
-    "raid_rock_infinite": {
-      "type": "floating_item_reward",
-      "textColor": "0xFFffb400",
-      "name": "Infinite Raid Rock",
-      "item": {
-        "id": "the_vault:crystal_seal_raid_infinite",
-        "count": 1
-      },
-      "color1": "0xFFff381d",
-      "color2": "0xFFb51500"
-    },
-    "echo_gem_big": {
-      "type": "floating_item_reward",
-      "textColor": "0xFFffb400",
-      "name": "Echo Gems",
-      "item": {
-        "id": "the_vault:gem_echo",
-        "count": 3
-      },
-      "color1": "0xFF6b00cf",
-      "color2": "0xFF10021e"
-    },
-    "gilded_chest": {
-      "type": "tile_reward",
-	    "name": "Gilded Chests",
-      "textColor": "0xFFfff0a9",
-      "tile": "the_vault:placeholder[type=gilded_chest,facing=up]{Hidden:1b}",
-      "count": 7
-    },
-    "gilded_chest_big": {
-      "type": "tile_reward",
-	    "name": "Gilded Chests",
-      "textColor": "0xFFfff0a9",
-      "tile": "the_vault:placeholder[type=gilded_chest,facing=up]{Hidden:1b}",
-      "count": 10
-    },
-    "ornate_chest": {
-      "type": "tile_reward",
-	    "name": "Ornate Chests",
-      "textColor": "0xFFfff0a9",
-      "tile": "the_vault:placeholder[type=ornate_chest,facing=up]{Hidden:1b}",
-      "count": 7
-    },
-    "ornate_chest_big": {
-      "type": "tile_reward",
-	    "name": "Ornate Chests",
-      "textColor": "0xFFfff0a9",
-      "tile": "the_vault:placeholder[type=ornate_chest,facing=up]{Hidden:1b}",
-      "count": 10
-    },
-    "coin_pile": {
       "type": "tile_reward",
 	    "name": "Coin Piles",
       "textColor": "0xFFfff0a9",
@@ -982,7 +860,7 @@
           "minecraft:generic.knockback_resistance": { "Value": 1.0, "Operation": 0 }
         }
       },
-      
+
       "count": 1,
       "spawner": "elevated"
     },
@@ -1251,6 +1129,173 @@
       { "value": "kaleidoscope", "weight": 4 },
       { "value": "baguette", "weight": 4 },
       { "value": "bamboo_fightstick", "weight": 4 }
-    ]
+    ],
+
+    "success_memory": {
+      "type": "pool",
+      "levels": [
+        { "level": 0, "pool": [
+          { "value": "gilded_chest_big", "weight": 100 },
+          { "value": "ornate_chest_big", "weight": 100 },
+          { "value": "living_chest_big", "weight": 100 },
+          { "value": "wooden_chest_big", "weight": 100 },
+          { "value": "coin_pile_big", "weight": 100 },
+          { "value": "frostwarden", "weight": 10 },
+          { "value": "quickstone", "weight": 10 },
+          { "value": "ender_rings", "weight": 10 }
+
+        ] },
+        { "level": 50, "pool": [
+          { "value": "gilded_chest_big", "weight": 100 },
+          { "value": "ornate_chest_big", "weight": 100 },
+          { "value": "living_chest_big", "weight": 100 },
+          { "value": "wooden_chest_big", "weight": 100 },
+          { "value": "coin_pile_big", "weight": 100 },
+          { "value": "frostwarden", "weight": 10 },
+          { "value": "quickstone", "weight": 10 },
+          { "value": "ender_rings", "weight": 10 }
+
+          ]
+        }
+      ]
+    },
+    "add_a_modifier": {
+      "type": "add_modifier",
+      "modifierId": "the_vault:looters_dream"
+    },
+    "dragon_success": {
+      "type": "pool",
+      "levels": [
+        {
+          "level": 0,
+          "pool": [
+            { "value": "rare_focus", "weight": 100 },
+            { "value": "ornate_chest_big", "weight": 100 }
+          ]
+        }
+      ]
+    },{
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Leviathan",
+      "item": {
+        "id": "the_vault:axe",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:leviathan\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "bamboo_fightstick": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Bamboo Fightstick",
+      "item": {
+        "id": "the_vault:battlestaff",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:bamboo_fightstick\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "trirang": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Trirang",
+      "item": {
+        "id": "the_vault:rang",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:trirang\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "crystal_double_blade": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Crystal Double Blade",
+      "item": {
+        "id": "the_vault:sword",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:crystal_double_blade\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "aurora_scissors": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Aurora Scissors",
+      "item": {
+        "id": "the_vault:sword",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:aurora_scissors\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+
+    "raid_rock": {
+      "type": "floating_item_reward",
+      "textColor": "0xFFffb400",
+      "name": "Raid Rock",
+      "item": {
+        "id": "the_vault:crystal_seal_raid",
+        "count": 1
+      },
+      "color1": "0xFFff381d",
+      "color2": "0xFFb51500"
+    },
+    "raid_rock_infinite": {
+      "type": "floating_item_reward",
+      "textColor": "0xFFffb400",
+      "name": "Infinite Raid Rock",
+      "item": {
+        "id": "the_vault:crystal_seal_raid_infinite",
+        "count": 1
+      },
+      "color1": "0xFFff381d",
+      "color2": "0xFFb51500"
+    },
+    "echo_gem_big": {
+      "type": "floating_item_reward",
+      "textColor": "0xFFffb400",
+      "name": "Echo Gems",
+      "item": {
+        "id": "the_vault:gem_echo",
+        "count": 3
+      },
+      "color1": "0xFF6b00cf",
+      "color2": "0xFF10021e"
+    },
+    "gilded_chest": {
+      "type": "tile_reward",
+	    "name": "Gilded Chests",
+      "textColor": "0xFFfff0a9",
+      "tile": "the_vault:placeholder[type=gilded_chest,facing=up]{Hidden:1b}",
+      "count": 7
+    },
+    "gilded_chest_big": {
+      "type": "tile_reward",
+	    "name": "Gilded Chests",
+      "textColor": "0xFFfff0a9",
+      "tile": "the_vault:placeholder[type=gilded_chest,facing=up]{Hidden:1b}",
+      "count": 10
+    },
+    "ornate_chest": {
+      "type": "tile_reward",
+	    "name": "Ornate Chests",
+      "textColor": "0xFFfff0a9",
+      "tile": "the_vault:placeholder[type=ornate_chest,facing=up]{Hidden:1b}",
+      "count": 7
+    },
+    "ornate_chest_big": {
+      "type": "tile_reward",
+	    "name": "Ornate Chests",
+      "textColor": "0xFFfff0a9",
+      "tile": "the_vault:placeholder[type=ornate_chest,facing=up]{Hidden:1b}",
+      "count": 10
+    },
+    "coin_pile":
   }
 }

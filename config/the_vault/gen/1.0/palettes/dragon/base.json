@@ -2,6 +2,14 @@
     "tile_processors": [
         {
             "type": "weighted_target",
+            "target": "minecraft:petrified_oak_slab",
+            "output": {
+                "the_vault:placeholder[type=coin_stacks]": 1,
+                "minecraft:air": 7
+            }
+        },
+        {
+            "type": "weighted_target",
             "target": "the_vault:placeholder[type=objective]",
             "output": [
                 {
@@ -16,9 +24,8 @@
                         "max": [23, 41, 23]
                     },
                     "curses": [
-                        "the_vault:nullify_area_of_effect"
                     ],
-                    "maxWaves": 4,
+                    "maxWaves": 25,
                     "goblinVariants": [
                         {
                             "variant": {
