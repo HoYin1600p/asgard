@@ -1248,6 +1248,43 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
+
+    "hexblade": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Hexblade",
+      "item": {
+        "id": "the_vault:sword",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:hexblade\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "grass_blade": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Grass Blade",
+      "item": {
+        "id": "the_vault:sword",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:grass_blade\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
+    "mineral_greatsword": {
+      "type": "floating_item_reward",
+      "textColor": -1213660,
+      "name": "Mineral Greatsword",
+      "item": {
+        "id": "the_vault:sword",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:mineral_greatsword\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "count": 1
+      },
+      "color1": "0xFFED7B24",
+      "color2": "0xFFe2a631"
+    },
     "aurora_scissors": {
       "type": "floating_item_reward",
       "textColor": -1213660,
@@ -1260,7 +1297,6 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
-
 
     "negative": [
       { "value": "mob_damage", "weight": 4 },
@@ -1317,6 +1353,7 @@
           { "value": "stormcrown", "weight": 2 },
           { "value": "inflated_justice", "weight": 2 },
           { "value": "leviathan", "weight": 2 },
+          { "value": "mineral_greatsword", "weight": 2 },
           { "value": "raid_rock", "weight": 40 }
         ]
         },
@@ -1375,6 +1412,7 @@
           { "value": "stormcrown", "weight": 2 },
           { "value": "inflated_justice", "weight": 2 },
           { "value": "leviathan", "weight": 2 },
+          { "value": "mineral_greatsword", "weight": 2 },
           { "value": "raid_rock", "weight": 40 }
           ]
         }
@@ -1430,6 +1468,7 @@
           { "value": "stormcrown", "weight": 2 },
           { "value": "inflated_justice", "weight": 2 },
           { "value": "leviathan", "weight": 2 },
+          { "value": "mineral_greatsword", "weight": 2 },
           { "value": "raid_rock", "weight": 40 }
         ]
         },
@@ -1488,6 +1527,7 @@
           { "value": "stormcrown", "weight": 2 },
           { "value": "inflated_justice", "weight": 2 },
           { "value": "leviathan", "weight": 2 },
+          { "value": "mineral_greatsword", "weight": 2 },
           { "value": "raid_rock", "weight": 40 }
           ]
         }
@@ -1580,7 +1620,8 @@
           { "value": "pacifist_sandals", "weight": 4 },
           { "value": "kaleidoscope", "weight": 4 },
           { "value": "baguette", "weight": 4 },
-          { "value": "bamboo_fightstick", "weight": 4 }
+          { "value": "bamboo_fightstick", "weight": 4 },
+          { "value": "hexblade", "weight": 4 }
           ]
         }
       ]
@@ -1596,7 +1637,8 @@
           { "value": "coin_pile_big", "weight": 100 },
           { "value": "frostwarden", "weight": 10 },
           { "value": "quickstone", "weight": 10 },
-          { "value": "ender_rings", "weight": 10 }
+          { "value": "ender_rings", "weight": 10 },
+          { "value": "grass_blade", "weight": 10 }
 
         ] },
         { "level": 50, "pool": [
@@ -1607,7 +1649,8 @@
           { "value": "coin_pile_big", "weight": 100 },
           { "value": "frostwarden", "weight": 10 },
           { "value": "quickstone", "weight": 10 },
-          { "value": "ender_rings", "weight": 10 }
+          { "value": "ender_rings", "weight": 10 },
+          { "value": "grass_blade", "weight": 10 }
 
           ]
         }
