@@ -2,7 +2,7 @@
   "tasks": [
     {
       "type": "chest",
-      "target": "the_vault:all_wooden",
+      "target": "@the_vault:all_wooden",
       "probability": 0.5,
       "icon": "the_vault:textures/gui/scavenger/wooden_chest.png",
       "entries": {
