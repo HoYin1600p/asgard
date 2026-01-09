@@ -224,7 +224,7 @@
         ]
       },
       "icon": "the_vault:gui/quests/globe_expander",
-      "targetId": "vaultadditions:power_crystal",
+      "targetId": "the_vault:skill_orb",
       "targetProgress": 1.0,
       "unlockedBy": "welcome_quest",
       "reward": {
@@ -6162,7 +6162,19 @@
             "color": "$qhighlight"
           },
           {
-            "text": " to make it stronger, upgrading its values. If the imbuement ",
+            "text": " to make it stronger, upgrading its values.\n\nAfter a successful imbuement, if the gear originally had the ",
+            "color": "$text"
+          },
+          {
+            "text": "Living ",
+            "color": "$living"
+          },
+          {
+            "text": "modifier, the living modifier will be removed from the gear piece.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nIf the imbuement ",
             "color": "$text"
           },
           {
@@ -6226,11 +6238,11 @@
       "icon": "the_vault:gui/quests/imbuement_altar",
       "targetId": "the_vault:imbuement_altar",
       "targetProgress": 1.0,
-      "unlockedBy": "reach_level_65",
+      "unlockedBy": "reach_level_50",
       "reward": {
         "items": [
           {
-            "item": "the_vault:perfect_echo_gem",
+            "item": "the_vault:gem_echo",
             "amount": 10
           }
         ],
@@ -6356,13 +6368,13 @@
         ]
       },
       "icon": "the_vault:gui/quests/event",
-      "targetId": "vaultadditions:power_crystal",
+      "targetId": "the_vault:skill_orb",
       "targetProgress": 1.0,
       "unlockedBy": "reach_level_65",
       "reward": {
         "items": [
           {
-            "item": "vaultadditions:power_crystal",
+            "item": "the_vault:skill_orb",
             "amount": 32
           }
         ],
