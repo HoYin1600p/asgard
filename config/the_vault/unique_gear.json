@@ -74,12 +74,16 @@
       "modifierTags": [],
       "weight": 1
     },
-    "the_vault:crystal_double_blade": {
-      "name": "Crystal Double Blade [Unused]",
+    "the_vault:crystal_blade": {
+      "name": "Crystal Blade ",
       "item": "the_vault:sword",
       "models": [
         {
           "value": "the_vault:gear/sword/crystalblade",
+          "weight": 4
+        },
+        {
+          "value": "the_vault:gear/sword/crystaldoubleblade",
           "weight": 1
         }
       ],
@@ -94,12 +98,11 @@
           "the_vault:base_sweeping_hit_damage"
         ],
         "PREFIX": [
-          "the_vault:mod_ap"
+          "the_vault:base_double_hit_chance",
+          "the_vault:mod_damage_increase"
         ],
         "SUFFIX": [
-          "the_vault:mod_attack_range",
-          "the_vault:mod_attack_speed_percent"
-
+          "the_vault:u_stun_hit"
         ]
       },
       "modifierTags": [],
@@ -1184,6 +1187,7 @@
 
     "the_vault:inferno_reach": {
       "name": "Inferno's Reach",
+      "item": "the_vault:wand",
       "models": [
         {
           "value": "the_vault:gear/wand/infernos_reach",
@@ -1215,6 +1219,7 @@
     },
     "the_vault:baguette": {
       "name": "The Baguette",
+      "item": "the_vault:wand",
       "models": [
         {
           "value": "the_vault:gear/wand/baguette",
@@ -1246,6 +1251,7 @@
     },
     "the_vault:chainlash": {
       "name": "Chainlash",
+      "item": "the_vault:wand",
       "models": [
         {
           "value": "the_vault:gear/wand/chaining_wand",
@@ -1273,6 +1279,7 @@
 
     "the_vault:pistol": {
       "name": "IB-94 Blaster Pistol",
+      "item": "the_vault:wand",
       "models": [
         {
           "value": "the_vault:gear/wand/sidearm",
@@ -1860,8 +1867,8 @@
     "the_vault:inflated_justice": {
       "the_vault:inflated_justice": 1
     },
-    "the_vault:crystal_double_blade": {
-      "the_vault:crystal_double_blade": 1
+    "the_vault:crystal_blade": {
+      "the_vault:crystal_blade": 1
     },
     "the_vault:honey_stick": {
       "the_vault:honey_stick": 1
@@ -1894,7 +1901,7 @@
     "the_vault:sword": {
       "the_vault:iskallibur": 1,
       "the_vault:inflated_justice": 1,
-      "the_vault:crystal_double_blade": 1,
+      "the_vault:crystal_blade": 1,
       "the_vault:honey_stick": 1,
       "the_vault:everfrost": 1,
       "the_vault:everflame": 1,
@@ -2145,7 +2152,7 @@
     "the_vault:crafted": {
       "the_vault:iskallibur": 1,
       "the_vault:inflated_justice": 1,
-      "the_vault:crystal_double_blade": 0,
+      "the_vault:crystal_blade": 1,
       "the_vault:honey_stick": 1,
       "the_vault:everfrost": 1,
       "the_vault:everflame": 1,

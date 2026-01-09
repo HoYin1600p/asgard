@@ -1236,13 +1236,13 @@
       "color1": "0xFFED7B24",
       "color2": "0xFFe2a631"
     },
-    "crystal_double_blade": {
+    "crystal_blade": {
       "type": "floating_item_reward",
       "textColor": -1213660,
-      "name": "Crystal Double Blade",
+      "name": "Crystal Blade",
       "item": {
         "id": "the_vault:sword",
-        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:crystal_double_blade\",\"the_vault:gear_roll_type\":\"Unique\"}",
+        "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:crystal_blade\",\"the_vault:gear_roll_type\":\"Unique\"}",
         "count": 1
       },
       "color1": "0xFFED7B24",
@@ -1638,7 +1638,8 @@
           { "value": "frostwarden", "weight": 10 },
           { "value": "quickstone", "weight": 10 },
           { "value": "ender_rings", "weight": 10 },
-          { "value": "grass_blade", "weight": 10 }
+          { "value": "grass_blade", "weight": 10 },
+          { "value": "crystal_blade", "weight": 10 }
 
         ] },
         { "level": 50, "pool": [
@@ -1650,7 +1651,8 @@
           { "value": "frostwarden", "weight": 10 },
           { "value": "quickstone", "weight": 10 },
           { "value": "ender_rings", "weight": 10 },
-          { "value": "grass_blade", "weight": 10 }
+          { "value": "grass_blade", "weight": 10 },
+          { "value": "crystal_blade", "weight": 10 }
 
           ]
         }

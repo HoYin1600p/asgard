@@ -3,6 +3,7 @@
     "index": {
       "SWORD": [
         "the_vault:iskallibur",
+        "the_vault:crystal_blade",
         "the_vault:inflated_justice",
         "the_vault:honey_stick",
         "the_vault:everfrost",
@@ -479,6 +480,31 @@
         ]
       },
       "uniqueId": "the_vault:iskallibur"
+    },
+    {
+      "title": {
+        "description": {
+          "text": "Crystal Blade",
+          "color": "#7D520E"
+        }
+      },
+      "description": {
+        "description": [
+          {
+            "text": "Its crystal edge refracts reality itself, occasionally dealing double damage in a single swing.",
+            "color": "$text"
+          },
+          {
+            "text": "\n\nFound in: ",
+            "color": "$text"
+          },
+          {
+            "text": "Memory Rooms",
+            "color": "#7D520E"
+          }
+        ]
+      },
+      "uniqueId": "the_vault:crystal_blade"
     },
     {
       "title": {
