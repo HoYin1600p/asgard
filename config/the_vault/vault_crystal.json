@@ -960,7 +960,175 @@
           }
         ]
       }
+    ],
+
+
+    "the_vault:overvault_low": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": "the_vault:classic_vault_cave",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_lush_cave",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_ice",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_desert",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_beach",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_mushroom",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_fairy_ring",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_flooded",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_shipwreck",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_season_spring",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_season_summer",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_aurora_cave",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_mid": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": "the_vault:classic_vault_cave_deepslate",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_cave_geode",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_mesa",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_deep_mesa",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_haunted",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_poison",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_blood",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_flesh",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_ancient_idona",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_ancient_tenos",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_aberrant_garden",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_season_fall",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_high": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": "the_vault:classic_vault_nether_crimson",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_nether_warped",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_nether_blackstone",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_nether_soul",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_void",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_end_void",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_factory_void",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_blood_moon",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_flesh",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_ancient_velara",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_ancient_wendarr",
+            "weight": 10
+          },
+          {
+            "value": "the_vault:classic_vault_cave_wasteland",
+            "weight": 10
+          }
+        ]
+      }
     ]
+
   },
   "LAYOUTS": [
     {
@@ -1953,7 +2121,729 @@
           }
         ]
       }
+    ],
+
+    "the_vault:overvault_f_objectives": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "enchanted_elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "unhinged_scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0,
+              "width": 4,
+              "height": 4
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "haunted_braziers",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_e_objectives": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "enchanted_elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "unhinged_scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0,
+              "width": 4,
+              "height": 4
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "haunted_braziers",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_d_objectives": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "enchanted_elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "unhinged_scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0,
+              "width": 4,
+              "height": 4
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "haunted_braziers",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_c_objectives": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "enchanted_elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "unhinged_scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0,
+              "width": 4,
+              "height": 4
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "haunted_braziers",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_b_objectives": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "enchanted_elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "unhinged_scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0,
+              "width": 4,
+              "height": 4
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "haunted_braziers",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_a_objectives": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "enchanted_elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "unhinged_scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0,
+              "width": 4,
+              "height": 4
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "haunted_braziers",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_s_objectives": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "enchanted_elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "unhinged_scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0,
+              "width": 4,
+              "height": 4
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "haunted_braziers",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_s_plus_objectives": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "enchanted_elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "unhinged_scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0,
+              "width": 4,
+              "height": 4
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "haunted_braziers",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "the_vault:overvault_s_plus_plus_objectives": [
+      {
+        "level": 0,
+        "pool": [
+          {
+            "value": {
+              "type": "elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "enchanted_elixir",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "monolith",
+              "objective_probability": 1.0,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 3
+              }
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "unhinged_scavenger",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "bingo",
+              "objective_probability": 1.0,
+              "width": 4,
+              "height": 4
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "haunted_braziers",
+              "objective_probability": 1.0
+            },
+            "weight": 1
+          },
+          {
+            "value": {
+              "type": "rune_boss",
+              "objective_probability": 0.05,
+              "target": {
+                "type": "uniform",
+                "min": 3,
+                "max": 5
+              },
+              "wave": {
+                "type": "uniform",
+                "min": 4,
+                "max": 8
+              }
+            },
+            "weight": 1
+          }
+        ]
+      }
     ]
+
   },
   "TIMES": {
     "the_vault:default": [

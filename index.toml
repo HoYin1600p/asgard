@@ -17238,7 +17238,7 @@ hash = "c98a703fe6ffe7ccb4ff523d3ddad7b4397fb08bc4b89bf23d9456b3a35f237c"
 
 [[files]]
 file = "config/the_vault/vault_crystal.json"
-hash = "bf06a2af9a71cde365cd23e837d4e2d5cb96aa15053e764d812552c2f9a6ded1"
+hash = "2b5eadbeb88d5abceaa9f659f20ac3a70166e50b61d10d666d8c0c0c114220a5"
 
 [[files]]
 file = "config/the_vault/vault_crystal_catalyst_modifiers.json"
@@ -22187,6 +22187,10 @@ metafile = true
 file = "mods/vault-integrations.pw.toml"
 hash = "01084aa56adcee92f2d7c3156e0cdfb2356e12aaf841cccada1d0ec2980f4fed"
 metafile = true
+
+[[files]]
+file = "mods/vaultchaosgod-1.0.jar"
+hash = "b0966cbf59c61cc347f1d55ecaaec98f203acdea702211573bde701f8e636582"
 
 [[files]]
 file = "mods/vaultmapper-1.10.jar"
