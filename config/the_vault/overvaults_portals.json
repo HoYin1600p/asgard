@@ -1,34 +1,102 @@
 {
-  "CHANCE_OF_RAW_VAULT": 0.60,
-  "CHANCE_OF_NETHER_THEME_IN_NETHER": 0.75,
-  "CHANCE_OF_VOID_THEME_IN_END": 0.75,
-  "MODIFIER_LISTS": [
+  "CHANCE_OF_NETHER_THEME_IN_NETHER": 0.1,
+  "CHANCE_OF_VOID_THEME_IN_END": 0.075,
+  "DIMENSION_CHOOSE_LIST": [
     {
-      "value": [
-        {
-          "modifierId": "the_vault:power_stack",
-          "amount": 5
-        }
-      ],
-      "weight": 70.0
+      "value": "minecraft:overworld",
+      "weight": 1
     },
     {
-      "value": [
-        {
-          "modifierId": "the_vault:power_stack",
-          "amount": 10
-        }
-      ],
-      "weight": 20.0
+      "value": "minecraft:the_nether",
+      "weight": 1
     },
     {
-      "value": [
-        {
-          "modifierId": "the_vault:increased_power_stack",
-          "amount": 10
-        }
-      ],
-      "weight": 5.0
+      "value": "minecraft:the_end",
+      "weight": 1
+    }
+  ],
+  "PORTAL_LIST": [
+    {
+      "value": {
+        "crystalData": {
+          "objective": {
+            "objective_probability": 0.0,
+            "width": 0,
+            "height": 0,
+            "type": "bingo"
+          },
+          "layout": {
+            "tunnel_span": 1,
+            "type": "infinite"
+          },
+          "theme": {
+            "id": "the_vault:raw",
+            "type": "pool"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:locked",
+              "amount": 1
+            },
+            {
+              "modifierId": "the_vault:soul_boost",
+              "amount": 4
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 1800,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "vaultLevel": 20,
+          "rollRandomModifiers": false
+        },
+        "translationComponent": "overvaults.portal.tier.s",
+        "shouldDecay": true
+      },
+      "weight": 20
+    },
+    {
+      "value": {
+        "crystalData": {
+          "objective": {
+            "objective_probability": 0.6,
+            "type": "scavenger"
+          },
+          "layout": {
+            "tunnel_span": 1,
+            "type": "infinite"
+          },
+          "theme": {
+            "id": "the_vault:raw",
+            "type": "pool"
+          },
+          "modifiers": [
+            {
+              "modifierId": "the_vault:energizing",
+              "amount": 16
+            },
+            {
+              "modifierId": "the_vault:item_quantity",
+              "amount": 16
+            }
+          ],
+          "time": {
+            "roll": {
+              "count": 3600,
+              "type": "constant"
+            },
+            "type": "value"
+          },
+          "vaultLevel": 100,
+          "rollRandomModifiers": false
+        },
+        "translationComponent": "overvaults.portal.tier.splusplus",
+        "shouldDecay": true
+      },
+      "weight": 2
     }
   ],
   "NETHER_VAULT_THEMES": [
