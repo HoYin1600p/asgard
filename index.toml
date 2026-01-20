@@ -16854,7 +16854,7 @@ hash = "040511fdd6d45626155ed025faaf279fae70ecc4515d58050396c139f9bd66d1"
 
 [[files]]
 file = "config/the_vault/overvaults_general.json"
-hash = "6c447db47a15b58c4b49d2be2808fc02d52317cf0953acf1d31b96b9865d07dd"
+hash = "713ac316122fd0fe1f45b3f0c1224e92822bbdb947a4226765fdcb469c23cd2e"
 
 [[files]]
 file = "config/the_vault/overvaults_mobs.json"
@@ -16862,7 +16862,7 @@ hash = "630d3f656bf25da704bfd40e2c7441fd6093e6f650edd66a053094745b888b53"
 
 [[files]]
 file = "config/the_vault/overvaults_portals.json"
-hash = "1db3a0f79a86a1e240af36274fe172818ccc2994572594882b1e99c4e1f89200"
+hash = "3910fbc0641eb803849db49aefde39b956487e66786bdc1b244aa2d61622a6bd"
 
 [[files]]
 file = "config/the_vault/pandoras_box.json"
@@ -17159,6 +17159,10 @@ hash = "5197d45d3858555330eb7dc614178e9483bb90496da67d57100f61688e7607bf"
 [[files]]
 file = "config/the_vault/trinket_combinations.json"
 hash = "3bfdd42be6b9291cc05690eafb31f5d1babcf8e2fac721db8b74cba14cb26a2a"
+
+[[files]]
+file = "config/the_vault/unhinged_scavenger.json"
+hash = "8276a405b6f1dc4f589a9849ef4d4b00affd061a954e36ea12819aeb9696e28a"
 
 [[files]]
 file = "config/the_vault/unidentified_relic_fragments.json"
@@ -21675,8 +21679,8 @@ hash = "9e452d9491739cfe8b5254c0c970e971748907ccc9ecf6cf9aadca11172af28d"
 metafile = true
 
 [[files]]
-file = "mods/millennium-woldsvaultsstandalone-0.20.1.jar"
-hash = "5b18b241cbc5c472cc895319d967dc75cbcf7419d033e51057df7773e63e0a58"
+file = "mods/millennium-woldsvaultsstandalone-0.20.2.jar"
+hash = "8004cb3fca402442437dfba6931705998b2d6dea8e3c00e622e5fe8da88b6912"
 
 [[files]]
 file = "mods/mining-gadgets.pw.toml"
@@ -21791,6 +21795,10 @@ metafile = true
 file = "mods/openblocks-elevator.pw.toml"
 hash = "601cd80ae195c43bb7a2f435299da102252abd330924f08f6292b9905f727a04"
 metafile = true
+
+[[files]]
+file = "mods/overvaults-1.6.0-1.18.2.jar"
+hash = "a4a2b7bc5ab7efc79573fed6a1cd14672f60956e5815b8766b3dbe79c766ab26"
 
 [[files]]
 file = "mods/packmenu.pw.toml"
@@ -22190,7 +22198,7 @@ metafile = true
 
 [[files]]
 file = "mods/vaultchaosgod-1.0.jar"
-hash = "b0966cbf59c61cc347f1d55ecaaec98f203acdea702211573bde701f8e636582"
+hash = "11451df814d0049d20c1716a2c79f9e849c50438e2c8b7efacad414b70cee639"
 
 [[files]]
 file = "mods/vaultmapper-1.10.jar"
