@@ -912,6 +912,7 @@ craftingTable.remove(<item:sophisticatedbackpacks:auto_smelting_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:blasting_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:iron_backpack>);
+//craftingTable.remove(<item:sophisticatedbackpacks:copper_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:gold_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:diamond_backpack>);
 craftingTable.remove(<item:sophisticatedbackpacks:netherite_backpack>);
@@ -934,6 +935,8 @@ craftingTable.remove(<item:sophisticatedbackpacks:restock_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_restock_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:deposit_upgrade>);
 craftingTable.remove(<item:sophisticatedbackpacks:advanced_deposit_upgrade>);
+//craftingTable.remove(<item:sophisticatedbackpacks:stack_upgrade_starter_tier>);
+craftingTable.remove(<item:sophisticatedbackpacks:anvil_upgrade>);
 
 // Waystones
 craftingTable.remove(<item:waystones:waystone>);
@@ -1052,12 +1055,16 @@ JEI.hideIngredient(<item:sophisticatedbackpacks:tank_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:advanced_pump_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:auto_smelting_upgrade>);
 JEI.hideIngredient(<item:sophisticatedbackpacks:blasting_upgrade>);
+//JEI.hideIngredient(<item:sophisticatedbackpacks:copper_backpack>);
+//JEI.hideIngredient(<item:sophisticatedbackpacks:stack_upgrade_starter_tier>);
+JEI.hideIngredient(<item:sophisticatedbackpacks:anvil_upgrade>);
 // Refined
 //JEI.hideIngredient(<item:refinedstorage:raw_basic_processor>);
 //JEI.hideIngredient(<item:refinedstorage:processor_binding>);
 //JEI.hideIngredient(<item:refinedstorage:raw_improved_processor>);
 //JEI.hideIngredient(<item:refinedstorage:raw_advanced_processor>);
 //JEI.hideIngredient(<item:refinedstorage:portable_grid>);
+//JEI.hideIngredient(<item:refinedstorage:wireless_grid>);
 // Botania
 JEI.hideIngredient(<item:botania:manasteel_helmet>);
 JEI.hideIngredient(<item:botania:manasteel_chestplate>);
@@ -1344,7 +1351,7 @@ JEI.hideIngredient(<item:the_vault:mystic_pear>);
 JEI.hideIngredient(<item:the_vault:rokkit_launcha>);
 JEI.hideIngredient(<item:the_vault:wild_spawner>);
 JEI.hideIngredient(<item:the_vault:pandoras_box>);
-JEI.hideIngredient(<item:the_vault:etching>);
+// JEI.hideIngredient(<item:the_vault:etching>);
 // JEI.hideIngredient(<item:the_vault:etching_fragment>);
 JEI.hideIngredient(<item:the_vault:monolith>);
 JEI.hideIngredient(<item:the_vault:unknown_item>);
@@ -1361,7 +1368,7 @@ JEI.hideIngredient(<item:the_vault:mvp_crown>);
 JEI.hideIngredient(<item:the_vault:ore_vault_rock>);
 JEI.hideIngredient(<item:the_vault:vault_glass>);
 JEI.hideIngredient(<item:the_vault:loot_statue>);
-//JEI.hideIngredient(<item:the_vault:shop_pedestal>);
+JEI.hideIngredient(<item:the_vault:shop_pedestal>);
 JEI.hideIngredient(<item:the_vault:trophy_statue>);
 JEI.hideIngredient(<item:the_vault:hourglass>);
 JEI.hideIngredient(<item:the_vault:scavenger_treasure>);
@@ -1578,7 +1585,6 @@ JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:diy_vault
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:diy_vault_nether_warped" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:diy_vault_void" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_chaos_cake" as string}));
-JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_festive" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_gingerbread" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_herald" as string}));
 JEI.hideIngredient(<item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_idona" as string}));
@@ -1641,6 +1647,8 @@ JEI.hideIngredient(<item:the_vault:idol_benevolent>);
 JEI.hideIngredient(<item:the_vault:idol_omniscient>);
 JEI.hideIngredient(<item:the_vault:idol_timekeeper>);
 JEI.hideIngredient(<item:the_vault:idol_malevolence>);
+JEI.hideIngredient(<item:the_vault:dragon_path_node>);
+JEI.hideIngredient(<item:the_vault:memory_room_controller>);
 // IronFurnaces
 JEI.hideIngredient(<item:ironfurnaces:upgrade_silver>);
 JEI.hideIngredient(<item:ironfurnaces:upgrade_iron2>);

@@ -109,6 +109,9 @@
     "the_vault:mob_type/champion": [
       "{Tags:[\"vault_champion\"]}"
     ],
+    "the_vault:mob_type/dungeon_boss": [
+      "{Tags:[\"dungeon_boss\"]}"
+    ],
     "the_vault:mob_type/horde": [
       "@the_vault:horde"
     ],
@@ -128,6 +131,9 @@
     "the_vault:mob_type/evil_rabbit": [
       "minecraft:rabbit"
     ],
+    "the_vault:mob_type/goats": [
+      "the_vault:aggressive_goat"
+    ],
     "the_vault:horde": [
       "minecraft:zombie",
       "the_vault:deep_dark_zombie",
@@ -144,12 +150,6 @@
       "minecraft:piglin",
       "the_vault:t1_piglin",
       "the_vault:t2_piglin",
-      "the_vault:deep_dark_piglin",
-
-      "minecraft:enderman",
-      "the_vault:t1_enderman",
-      "the_vault:t2_enderman",
-      "the_vault:t3_enderman",
 
       "the_vault:blood_horde_t1",
       "the_vault:blood_horde_t2",
@@ -162,6 +162,7 @@
       "the_vault:miner_zombie_t2",
       "the_vault:miner_zombie_t3",
       "the_vault:miner_zombie_t4",
+      "the_vault:miner_zombie_t5",
 
       "the_vault:mushroom_t0",
       "the_vault:mushroom_t1",
@@ -180,13 +181,17 @@
       "the_vault:t1_plastic_zombie",
       "the_vault:t2_plastic_zombie",
       "the_vault:t3_plastic_zombie",
-      "the_vault:t4_plastic_zombie",
 
       "the_vault:winterwalker_t0",
       "the_vault:winterwalker_t1",
       "the_vault:winterwalker_t2",
       "the_vault:winterwalker_t3",
       "the_vault:winterwalker_t4",
+      "the_vault:winterwalker_t5",
+
+      "the_vault:jack",
+      "the_vault:jack_poison",
+      "the_vault:grinch",
 
       "the_vault:vault_yellow_gummy_soldier",
 
@@ -195,7 +200,6 @@
       "iceandfire:dread_ghoul"
     ],
     "the_vault:assassin": [
-
       "minecraft:shulker",
       "minecraft:polar_bear",
       "minecraft:blaze",
@@ -222,6 +226,15 @@
       "the_vault:t2_creeper",
       "the_vault:t3_creeper",
 
+      "the_vault:mummy_t0",
+      "the_vault:mummy_t1",
+      "the_vault:mummy_t2",
+
+      "minecraft:enderman",
+      "the_vault:t1_enderman",
+      "the_vault:t2_enderman",
+      "the_vault:t3_enderman",
+
       "minecraft:slime",
       "minecraft:magma_cube",
       "the_vault:blood_slime",
@@ -247,7 +260,6 @@
       "the_vault:t1_plastic_skeleton",
       "the_vault:t2_plastic_skeleton",
       "the_vault:t3_plastic_skeleton",
-      "the_vault:t4_plastic_skeleton",
 
       "the_vault:t0_cave_skeleton",
       "the_vault:t1_cave_skeleton",
@@ -258,7 +270,6 @@
 
       "the_vault:deep_dark_silverfish",
       "the_vault:deep_dark_piglin",
-      "the_vault:deep_dark_skeleton",
 
       "the_vault:vault_blue_gummy_soldier",
       "the_vault:vault_green_gummy_soldier",
@@ -267,20 +278,25 @@
       "the_vault:overgrown_woodman_t1",
       "the_vault:overgrown_woodman_t2",
 
-      "the_vault:mummy_t0",
-      "the_vault:mummy_t1",
-      "the_vault:mummy_t2",
-
       "the_vault:t3_piglin",
 
       "the_vault:crab",
       "the_vault:vault_wraith_white",
+      "the_vault:vault_wraith_yellow",
       "the_vault:swamp_zombie",
+      "the_vault:aggressive_goat",
 
       "the_vault:levishroom",
       "the_vault:winter_wolf",
 
+      "the_vault:jack_o_web",
+      "the_vault:grimwick",
+
+      "auxiliaryblocks:gingerbread_man",
+      "auxiliaryblocks:gingerbread_man_small",
+
       "auxiliaryblocks:snowdood",
+      "rottencreatures:mummy",
 
       "iceandfire:dread_beast",
       "iceandfire:dread_thrall"
@@ -297,9 +313,12 @@
       "the_vault:deathcap",
       "the_vault:vault_red_gummy_soldier",
       "the_vault:pirate_guardian_tank",
+      "the_vault:t4_plastic_zombie",
+      "the_vault:t4_plastic_skeleton",
+      "the_vault:craftenstein",
+      "the_vault:yeti",
 
       "rottencreatures:dead_beard",
-      "rottencreatures:mummy",
       "rottencreatures:glacial_hunter",
 
       "iceandfire:dread_lich",
@@ -364,16 +383,19 @@
       "the_vault:crystal_bruiser_guardian",
       "the_vault:crystal_arbalist_guardian",
       "the_vault:butcher_bruiser_guardian",
-      "the_vault:butcher_arbalist_guardian"
+      "the_vault:butcher_arbalist_guardian",
+      "the_vault:puzzle_bruiser_guardian",
+      "the_vault:puzzle_arbalist_guardian"
     ],
     "the_vault:minions": [
+      "minecraft:chicken",
       "the_vault:raised_zombie",
       "the_vault:blood_silverfish",
       "the_vault:scarab",
       "the_vault:smolcap",
       "the_vault:vault_spider_baby",
       "the_vault:endervex",
-      "iceandfire:dread_horse"
+      "the_vault:raised_zombie_chicken"
     ],
     "the_vault:elite": [
       "the_vault:elite_skeleton",

@@ -2044,7 +2044,7 @@
           {
             "type": "cast_on_kill",
             "filter": [
-              "{}"
+              "@the_vault:mobs"
             ],
             "ability": "Hunter_Base",
             "probability": 0.005,

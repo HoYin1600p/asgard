@@ -66,6 +66,7 @@
         "{FullName: \"Dragon Room\", RoomReference: \"the_vault:vault/rooms/challenge/dragon\"}": 1,
         "{FullName: \"Factory Room\", RoomReference: \"the_vault:vault/rooms/challenge/factory\"}": 1,
         "{FullName: \"Village Room\", RoomReference: \"the_vault:vault/rooms/challenge/village\"}": 1,
+        "{FullName: \"Wild West Room\", RoomReference: \"the_vault:vault/rooms/challenge/wildwest\"}": 1,
         "{FullName: \"X-Mark Room\", RoomReference: \"the_vault:vault/rooms/challenge/x-mark\"}": 1
       }
     },
@@ -75,7 +76,7 @@
       "output": {
         "{FullName: \"Blacksmith Room\", RoomReference: \"the_vault:vault/rooms/omega/blacksmith\"}": 10,
         "{FullName: \"Cove Room\", RoomReference: \"the_vault:vault/rooms/omega/cove\"}": 10,
-        "{FullName: \"Dig Site Room\", RoomReference: \"the_vault:vault/rooms/omega/digsite2\"}": 0,
+        "{FullName: \"Dig Site Room\", RoomReference: \"the_vault:vault/rooms/omega/digsite2\"}": 1,
         "{FullName: \"Library Room\", RoomReference: \"the_vault:vault/rooms/omega/library\"}": 10,
         "{FullName: \"Mine Room\", RoomReference: \"the_vault:vault/rooms/omega/mine\"}": 4,
         "{FullName: \"Mush Room\", RoomReference: \"the_vault:vault/rooms/omega/mush_room\"}": 10,

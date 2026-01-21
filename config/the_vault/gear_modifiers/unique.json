@@ -219,6 +219,35 @@
           }
         ]
       },
+      { "attribute": "the_vault:durability",
+        "group": "BaseDurability",
+        "identifier": "the_vault:magnet_base_durability",
+        "tags": [
+          "resilientFocusTarget"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 15000,
+              "max": 23400,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 23401,
+              "max": 30000,
+              "step": 1
+            }
+          }
+        ]
+      },
       {
         "attribute": "the_vault:living",
         "group": "BaseLiving",
@@ -236,6 +265,7 @@
           }
         ]
       }
+
     ],
     "IMPLICIT": [
       { "attribute": "the_vault:movement_speed",
@@ -954,6 +984,25 @@
           }
         ]
       },
+      { "attribute": "the_vault:jewel_size",
+        "group": "ModHealthMana",
+        "identifier": "the_vault:u_jewel_size_pax",
+        "tags": [
+          "focusHealth"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 500,
+            "value": {
+              "min": 5,
+              "max": 10,
+              "step": 5
+            }
+          }
+        ]
+      },
       { "attribute": "the_vault:thorns_damage_flat",
         "group": "BaseBlock",
         "identifier": "the_vault:base_thorns_damage_flat",
@@ -1021,56 +1070,28 @@
         ]
       },
       { "attribute": "the_vault:block",
-        "group": "BaseBlock",
-        "identifier": "the_vault:u_base_block",
+        "group": "BaseBonusPool",
+        "identifier": "the_vault:base_block_chance",
+        "tags": [
+        ],
         "tiers": [
           {
-            "minLevel": 0,
-            "maxLevel": 35,
-            "weight": 10,
-            "value": {
-              "min": 0.05,
-              "max": 0.1,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 18,
-            "maxLevel": 51,
-            "weight": 10,
-            "value": {
-              "min": 0.11,
-              "max": 0.15,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 42,
+            "minLevel": 20,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 100,
             "value": {
-              "min": 0.16,
-              "max": 0.2,
+              "min": 0.04,
+              "max": 0.08,
               "step": 0.01
             }
           },
           {
-            "minLevel": 52,
+            "minLevel": 70,
             "maxLevel": -1,
-            "weight": 10,
+            "weight": 100,
             "value": {
-              "min": 0.21,
-              "max": 0.25,
-              "step": 0.01
-            }
-          },
-          {
-            "minLevel": 85,
-            "maxLevel": -1,
-            "weight": 10,
-            "value": {
-              "min": 0.26,
-              "max": 0.4,
+              "min": 0.09,
+              "max": 0.12,
               "step": 0.01
             }
           }
@@ -2599,6 +2620,138 @@
               "min": 60,
               "max": 80,
               "step": 5
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:range",
+        "group": "BaseRange",
+        "identifier": "the_vault:base_range",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 24,
+            "weight": 100,
+            "value": {
+              "min": 3.0,
+              "max": 5.0,
+              "step": 0.1
+            }
+          },
+          {
+            "minLevel": 13,
+            "maxLevel": 37,
+            "weight": 100,
+            "value": {
+              "min": 3.1,
+              "max": 7.0,
+              "step": 0.1
+            }
+          },
+          {
+            "minLevel": 25,
+            "maxLevel": 50,
+            "weight": 100,
+            "value": {
+              "min": 7.1,
+              "max": 9.0,
+              "step": 0.1
+            }
+          },
+          {
+            "minLevel": 38,
+            "maxLevel": 64,
+            "weight": 100,
+            "value": {
+              "min": 9.1,
+              "max": 12.0,
+              "step": 0.1
+            }
+          },
+          {
+            "minLevel": 51,
+            "maxLevel": 75,
+            "weight": 100,
+            "value": {
+              "min": 13.1,
+              "max": 15.0,
+              "step": 0.1
+            }
+          },
+          {
+            "minLevel": 65,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 15.1,
+              "max": 18.0,
+              "step": 0.1
+            }
+          },
+          {
+            "minLevel": 76,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 18.1,
+              "max": 20.0,
+              "step": 0.1
+            }
+          },
+          {
+            "minLevel": 99,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 20.1,
+              "max": 25.0,
+              "step": 0.1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:velocity",
+        "group": "BaseVelocity",
+        "identifier": "the_vault:base_velocity",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": 29,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 30,
+            "maxLevel": 49,
+            "weight": 100,
+            "value": {
+              "min": 0.11,
+              "max": 0.15,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 50,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.16,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 85,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.21,
+              "max": 0.25,
+              "step": 0.01
             }
           }
         ]
@@ -6228,6 +6381,20 @@
         "tiers": [
           {
             "minLevel": 0,
+            "maxLevel": 49,
+            "weight": 5,
+            "value": {
+              "specialModificationKey": "the_vault:entropic_bind_poison",
+              "abilityKey": "Empower_Slowness_Aura",
+              "textColor": 14076214,
+              "highlightColor": 6082075,
+              "min": 1,
+              "max": 6,
+              "step": 1
+            }
+          },
+          {
+            "minLevel": 50,
             "maxLevel": -1,
             "weight": 5,
             "value": {
@@ -6235,8 +6402,8 @@
               "abilityKey": "Empower_Slowness_Aura",
               "textColor": 14076214,
               "highlightColor": 6082075,
-              "min": 2,
-              "max": 6,
+              "min": 7,
+              "max": 12,
               "step": 1
             }
           }
@@ -7410,6 +7577,165 @@
               "min": 0.26,
               "max": 0.33,
               "step": 0.01
+            }
+          }
+        ]
+      },
+
+      {
+        "attribute": "the_vault:on_kill_heal",
+        "group": "ModEnhancement",
+        "identifier": "the_vault:u_on_kill_heal",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "chance": {
+                "min": 0.05,
+                "max": 0.20,
+                "step": 0.01
+              },
+              "amount": {
+                "min": 2.0,
+                "max": 2.0,
+                "step": 0.0
+              }
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:block_glacial_prison",
+        "group": "ModEnhancement",
+        "identifier": "the_vault:u_block_glacial_prison",
+        "tags": [
+          "noLegendary",
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.20,
+              "max": 0.50,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:block_heal",
+        "group": "ModEnhancement",
+        "identifier": "the_vault:u_block_heal",
+        "tags": [
+          "noLegendary",
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "chance": {
+                "min": 0.20,
+                "max": 0.50,
+                "step": 0.05
+              },
+              "amount": {
+                "min": 2.0,
+                "max": 2.0,
+                "step": 0.0
+              }
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:ability_cooldown_skip",
+        "group": "ModEnhancement",
+        "identifier": "the_vault:mod_ability_cooldown_skip",
+        "tags": [
+          "nolegendary",
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.20,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:arcane_nova_on_hit",
+        "group": "ModEnhancement",
+        "identifier": "the_vault:u_arcane_nova_on_hit",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "hitsRequired": {
+                "min": 6,
+                "max": 10,
+                "step": 1
+              },
+              "radius": {
+                "min": 3.0,
+                "max": 6.0,
+                "step": 1
+              },
+              "percentAbilityPower": {
+                "min": 0.50,
+                "max": 2.00,
+                "step": 0.05
+              }
+            }
+          }
+        ]
+      },
+      {
+        "attribute": "the_vault:ability_cast_on_loot",
+        "group": "ModAbilityCastOnLoot",
+        "identifier": "the_vault:u_ability_cast_on_loot",
+        "tags": [
+          "noImbuement"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "abilityId": "Nova_Slow",
+              "tileEntityGroupId": "the_vault:chest",
+              "displayName": "Omega Chest",
+              "chance": {
+                "min": 0.05,
+                "max": 0.20,
+                "step": 0.05
+              },
+              "level": {
+                "min": 4,
+                "max": 8,
+                "step": 1
+              }
             }
           }
         ]

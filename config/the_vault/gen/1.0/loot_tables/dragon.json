@@ -46,10 +46,7 @@
             {
               "weight": 10,
               "item": {
-                "id": "the_vault:card_deck",
-                "nbt": {
-                  "id": "dragon"
-                },
+                "id": "the_vault:dragon_scale",
                 "count": {
                   "type": "uniform",
                   "min": 1,

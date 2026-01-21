@@ -298,6 +298,36 @@
         }
       ]
     },
+    {
+      "id": "the_vault:memory",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:inscription",
+        "NBT": "{pool:\"the_vault:memory\", data:{color:7012096,model:23}, display:{Name:'{\"text\":\"Memory Inscription\",\"color\":\"#F09E00\"}' }}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:mystery_hostile_egg",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:gem_echo",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:inscription_piece",
+          "NBT": "{}"
+        }
+      ]
+    },
     
 
     {

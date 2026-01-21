@@ -918,21 +918,6 @@
           "value": {
             "items": [
               {
-                "item": "minecraft:poisonous_potato"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 1
-            },
-            "scale": 0.2
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "items": [
-              {
                 "item": "minecraft:mutton"
               }
             ],
@@ -973,21 +958,6 @@
             "scale": 1.0
           },
           "weight": 8
-        },
-        {
-          "value": {
-            "items": [
-              {
-                "item": "minecraft:cocoa_beans"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 2
-            },
-            "scale": 1.0
-          },
-          "weight": 4
         },
         {
           "value": {
@@ -1050,6 +1020,21 @@
             "scale": 1.0
           },
           "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.2
+          },
+          "weight": 2
         },
         {
           "value": {
@@ -1380,6 +1365,21 @@
             "scale": 0.5
           },
           "weight": 6
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:cocoa_beans"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
         }
       ],
       "misc": [
@@ -2503,21 +2503,6 @@
           "value": {
             "items": [
               {
-                "item": "minecraft:poisonous_potato"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 1
-            },
-            "scale": 0.2
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "items": [
-              {
                 "item": "minecraft:mutton"
               }
             ],
@@ -2558,21 +2543,6 @@
             "scale": 1.0
           },
           "weight": 8
-        },
-        {
-          "value": {
-            "items": [
-              {
-                "item": "minecraft:cocoa_beans"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 2
-            },
-            "scale": 1.0
-          },
-          "weight": 4
         },
         {
           "value": {
@@ -2770,6 +2740,21 @@
             "scale": 1.0
           },
           "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.2
+          },
+          "weight": 2
         },
         {
           "value": {
@@ -3130,6 +3115,21 @@
             "scale": 0.6
           },
           "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:cocoa_beans"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
         },
         {
           "value": {
@@ -4135,11 +4135,20 @@
             "items": [
               {
                 "item": "minecraft:oak_log"
+              },
+              {
+                "item": "minecraft:oak_wood"
+              },
+              {
+                "item": "minecraft:stripped_oak_log"
+              },
+              {
+                "item": "minecraft:stripped_oak_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 2
+              "min": 2,
+              "max": 4
             },
             "scale": 1.0
           },
@@ -4150,10 +4159,19 @@
             "items": [
               {
                 "item": "minecraft:spruce_log"
+              },
+              {
+                "item": "minecraft:spruce_wood"
+              },
+              {
+                "item": "minecraft:stripped_spruce_log"
+              },
+              {
+                "item": "minecraft:stripped_spruce_wood"
               }
             ],
             "amount": {
-              "min": 1,
+              "min": 2,
               "max": 4
             },
             "scale": 1.0
@@ -4165,11 +4183,20 @@
             "items": [
               {
                 "item": "minecraft:birch_log"
+              },
+              {
+                "item": "minecraft:birch_wood"
+              },
+              {
+                "item": "minecraft:stripped_birch_log"
+              },
+              {
+                "item": "minecraft:stripped_birch_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 2
+              "min": 2,
+              "max": 4
             },
             "scale": 1.0
           },
@@ -4180,10 +4207,19 @@
             "items": [
               {
                 "item": "minecraft:jungle_log"
+              },
+              {
+                "item": "minecraft:jungle_wood"
+              },
+              {
+                "item": "minecraft:stripped_jungle_log"
+              },
+              {
+                "item": "minecraft:stripped_jungle_wood"
               }
             ],
             "amount": {
-              "min": 1,
+              "min": 2,
               "max": 4
             },
             "scale": 1.0
@@ -4195,11 +4231,20 @@
             "items": [
               {
                 "item": "minecraft:acacia_log"
+              },
+              {
+                "item": "minecraft:acacia_wood"
+              },
+              {
+                "item": "minecraft:stripped_acacia_log"
+              },
+              {
+                "item": "minecraft:stripped_acacia_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 1
+              "min": 2,
+              "max": 4
             },
             "scale": 0.7
           },
@@ -4210,11 +4255,20 @@
             "items": [
               {
                 "item": "minecraft:dark_oak_log"
+              },
+              {
+                "item": "minecraft:dark_oak_wood"
+              },
+              {
+                "item": "minecraft:stripped_dark_oak_log"
+              },
+              {
+                "item": "minecraft:stripped_dark_oak_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 2
+              "min": 2,
+              "max": 4
             },
             "scale": 1.0
           },
@@ -4631,21 +4685,6 @@
           "value": {
             "items": [
               {
-                "item": "minecraft:poisonous_potato"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 1
-            },
-            "scale": 0.2
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "items": [
-              {
                 "item": "minecraft:mutton"
               }
             ],
@@ -4701,21 +4740,6 @@
             "scale": 1.0
           },
           "weight": 5
-        },
-        {
-          "value": {
-            "items": [
-              {
-                "item": "minecraft:cocoa_beans"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 2
-            },
-            "scale": 1.0
-          },
-          "weight": 4
         },
         {
           "value": {
@@ -4988,6 +5012,21 @@
             "scale": 1.0
           },
           "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.2
+          },
+          "weight": 2
         },
         {
           "value": {
@@ -5348,6 +5387,21 @@
             "scale": 0.6
           },
           "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:cocoa_beans"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
         },
         {
           "value": {
@@ -6481,21 +6535,6 @@
           "value": {
             "items": [
               {
-                "item": "minecraft:blue_ice"
-              }
-            ],
-            "amount": {
-              "min": 3,
-              "max": 10
-            },
-            "scale": 1.0
-          },
-          "weight": 4
-        },
-        {
-          "value": {
-            "items": [
-              {
                 "item": "minecraft:white_concrete"
               },
               {
@@ -6662,11 +6701,20 @@
             "items": [
               {
                 "item": "minecraft:oak_log"
+              },
+              {
+                "item": "minecraft:oak_wood"
+              },
+              {
+                "item": "minecraft:stripped_oak_log"
+              },
+              {
+                "item": "minecraft:stripped_oak_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 2
+              "min": 4,
+              "max": 6
             },
             "scale": 1.0
           },
@@ -6677,11 +6725,20 @@
             "items": [
               {
                 "item": "minecraft:spruce_log"
+              },
+              {
+                "item": "minecraft:spruce_wood"
+              },
+              {
+                "item": "minecraft:stripped_spruce_log"
+              },
+              {
+                "item": "minecraft:stripped_spruce_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 4
+              "min": 4,
+              "max": 6
             },
             "scale": 1.0
           },
@@ -6692,11 +6749,20 @@
             "items": [
               {
                 "item": "minecraft:birch_log"
+              },
+              {
+                "item": "minecraft:birch_wood"
+              },
+              {
+                "item": "minecraft:stripped_birch_log"
+              },
+              {
+                "item": "minecraft:stripped_birch_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 2
+              "min": 4,
+              "max": 6
             },
             "scale": 1.0
           },
@@ -6707,11 +6773,20 @@
             "items": [
               {
                 "item": "minecraft:jungle_log"
+              },
+              {
+                "item": "minecraft:jungle_wood"
+              },
+              {
+                "item": "minecraft:stripped_jungle_log"
+              },
+              {
+                "item": "minecraft:stripped_jungle_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 4
+              "min": 4,
+              "max": 6
             },
             "scale": 1.0
           },
@@ -6722,11 +6797,20 @@
             "items": [
               {
                 "item": "minecraft:acacia_log"
+              },
+              {
+                "item": "minecraft:acacia_wood"
+              },
+              {
+                "item": "minecraft:stripped_acacia_log"
+              },
+              {
+                "item": "minecraft:stripped_acacia_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 1
+              "min": 4,
+              "max": 6
             },
             "scale": 0.7
           },
@@ -6737,11 +6821,20 @@
             "items": [
               {
                 "item": "minecraft:dark_oak_log"
+              },
+              {
+                "item": "minecraft:dark_oak_wood"
+              },
+              {
+                "item": "minecraft:stripped_dark_oak_log"
+              },
+              {
+                "item": "minecraft:stripped_dark_oak_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 2
+              "min": 4,
+              "max": 6
             },
             "scale": 1.0
           },
@@ -7233,21 +7326,6 @@
           "value": {
             "items": [
               {
-                "item": "minecraft:poisonous_potato"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 1
-            },
-            "scale": 0.2
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "items": [
-              {
                 "item": "minecraft:mutton"
               }
             ],
@@ -7303,21 +7381,6 @@
             "scale": 1.0
           },
           "weight": 5
-        },
-        {
-          "value": {
-            "items": [
-              {
-                "item": "minecraft:cocoa_beans"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 2
-            },
-            "scale": 1.0
-          },
-          "weight": 4
         },
         {
           "value": {
@@ -7605,6 +7668,21 @@
             "scale": 1.0
           },
           "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.2
+          },
+          "weight": 2
         },
         {
           "value": {
@@ -7965,6 +8043,21 @@
             "scale": 0.6
           },
           "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:cocoa_beans"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
         },
         {
           "value": {
@@ -9158,21 +9251,6 @@
           "value": {
             "items": [
               {
-                "item": "minecraft:blue_ice"
-              }
-            ],
-            "amount": {
-              "min": 3,
-              "max": 10
-            },
-            "scale": 1.0
-          },
-          "weight": 4
-        },
-        {
-          "value": {
-            "items": [
-              {
                 "item": "minecraft:white_concrete"
               },
               {
@@ -9339,11 +9417,20 @@
             "items": [
               {
                 "item": "minecraft:oak_log"
+              },
+              {
+                "item": "minecraft:oak_wood"
+              },
+              {
+                "item": "minecraft:stripped_oak_log"
+              },
+              {
+                "item": "minecraft:stripped_oak_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 2
+              "min": 6,
+              "max": 9
             },
             "scale": 1.0
           },
@@ -9354,11 +9441,20 @@
             "items": [
               {
                 "item": "minecraft:spruce_log"
+              },
+              {
+                "item": "minecraft:spruce_wood"
+              },
+              {
+                "item": "minecraft:stripped_spruce_log"
+              },
+              {
+                "item": "minecraft:stripped_spruce_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 4
+              "min": 6,
+              "max": 9
             },
             "scale": 1.0
           },
@@ -9369,11 +9465,20 @@
             "items": [
               {
                 "item": "minecraft:birch_log"
+              },
+              {
+                "item": "minecraft:birch_wood"
+              },
+              {
+                "item": "minecraft:stripped_birch_log"
+              },
+              {
+                "item": "minecraft:stripped_birch_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 2
+              "min": 6,
+              "max": 9
             },
             "scale": 1.0
           },
@@ -9384,11 +9489,20 @@
             "items": [
               {
                 "item": "minecraft:jungle_log"
+              },
+              {
+                "item": "minecraft:jungle_wood"
+              },
+              {
+                "item": "minecraft:stripped_jungle_log"
+              },
+              {
+                "item": "minecraft:stripped_jungle_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 4
+              "min": 6,
+              "max": 9
             },
             "scale": 1.0
           },
@@ -9399,11 +9513,20 @@
             "items": [
               {
                 "item": "minecraft:acacia_log"
+              },
+              {
+                "item": "minecraft:acacia_wood"
+              },
+              {
+                "item": "minecraft:stripped_acacia_log"
+              },
+              {
+                "item": "minecraft:stripped_acacia_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 1
+              "min": 6,
+              "max": 9
             },
             "scale": 0.7
           },
@@ -9414,11 +9537,20 @@
             "items": [
               {
                 "item": "minecraft:dark_oak_log"
+              },
+              {
+                "item": "minecraft:dark_oak_wood"
+              },
+              {
+                "item": "minecraft:stripped_dark_oak_log"
+              },
+              {
+                "item": "minecraft:stripped_dark_oak_wood"
               }
             ],
             "amount": {
-              "min": 1,
-              "max": 2
+              "min": 6,
+              "max": 9
             },
             "scale": 1.0
           },
@@ -9910,21 +10042,6 @@
           "value": {
             "items": [
               {
-                "item": "minecraft:poisonous_potato"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 1
-            },
-            "scale": 0.2
-          },
-          "weight": 2
-        },
-        {
-          "value": {
-            "items": [
-              {
                 "item": "minecraft:mutton"
               }
             ],
@@ -9980,21 +10097,6 @@
             "scale": 1.0
           },
           "weight": 5
-        },
-        {
-          "value": {
-            "items": [
-              {
-                "item": "minecraft:cocoa_beans"
-              }
-            ],
-            "amount": {
-              "min": 1,
-              "max": 2
-            },
-            "scale": 1.0
-          },
-          "weight": 4
         },
         {
           "value": {
@@ -10282,6 +10384,21 @@
             "scale": 1.0
           },
           "weight": 16
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:poisonous_potato"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 1
+            },
+            "scale": 0.2
+          },
+          "weight": 2
         },
         {
           "value": {
@@ -10642,6 +10759,21 @@
             "scale": 0.6
           },
           "weight": 2
+        },
+        {
+          "value": {
+            "items": [
+              {
+                "item": "minecraft:cocoa_beans"
+              }
+            ],
+            "amount": {
+              "min": 1,
+              "max": 2
+            },
+            "scale": 1.0
+          },
+          "weight": 4
         },
         {
           "value": {

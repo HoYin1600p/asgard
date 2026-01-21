@@ -401,3 +401,10 @@ craftingTable.addShaped("powah_reactor_nitro", <item:powah:reactor_nitro> * 4, [
 	[<item:powah:reactor_spirited>, <item:powah:uraninite>, <item:powah:reactor_spirited>]
 ]);
 
+craftingTable.addShapeless("powah_rod_to_horizontal", <item:powah:dielectric_rod_horizontal>, [
+	<item:powah:dielectric_rod>
+]);
+
+craftingTable.addShapeless("powah_horizontal_to_rod", <item:powah:dielectric_rod>, [
+	<item:powah:dielectric_rod_horizontal>
+]);

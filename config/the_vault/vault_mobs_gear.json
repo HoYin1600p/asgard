@@ -383,6 +383,62 @@
         }
       }
     ],
+    "the_vault:puzzle_bruiser_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+          ],
+          "CHEST": [
+          ],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/axe/puzzle_cleaver\",\"the_vault:state\":2}"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/axe/puzzle_hammer\",\"the_vault:state\":2}"
+              },
+              "weight": 1
+            }
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:puzzle_arbalist_guardian": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+
+          ],
+          "CHEST": [
+
+
+          ],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "minecraft:crossbow"
+                },
+              "weight": 12
+            }
+
+          ],
+          "LEGS": [],
+          "FEET": [],
+          "OFFHAND": []
+        }
+      }
+    ],
     "the_vault:crystal_bruiser_guardian": [
       {
         "minLevel": 0,
@@ -1123,6 +1179,13 @@
                 "ITEM": ""
               },
               "weight": 10
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:helmet",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
             }
           ],
           "CHEST": [
@@ -1144,6 +1207,91 @@
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:vault_fighter_1": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:helmet",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
+            }
+          ],
+          "CHEST": [
+            {
+              "value": {
+                "ITEM": "the_vault:chestplate",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
+
+          ],
+          "LEGS": [
+            {
+              "value": {
+                "ITEM": "the_vault:leggings",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+              },
+              "weight": 2
+            },
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 10
+            }
+          ],
+          "FEET": [
+            {
+            "value": {
+              "ITEM": "the_vault:boots",
+              "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "ITEM": ""
+            },
+            "weight": 10
+          }
+          ],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:axe",
+                "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2, AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Amount:0,Name:\"generic.attack_damage\",UUID:[I;-122109,31466,10346,-62932]}]}"
+              },
+              "weight": 12
+            }
+          ],
           "OFFHAND": []
         }
       }
@@ -1242,14 +1390,14 @@
               "value": {
                 "ITEM": ""
               },
-              "weight": 1
+              "weight": 10
             },
             {
               "value": {
                 "ITEM": "the_vault:helmet",
                 "NBT": "{\"the_vault:gear_model\":\"random\",\"the_vault:state\":2}"
               },
-              "weight": 200
+              "weight": 2
             }
           ],
           "CHEST": [
@@ -1845,111 +1993,6 @@
             {
               "value": {
                 "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"Seapeekay\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"jojosolos\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"Etho\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"tangofrags\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"InTheLittleWood\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"CaptainSparklez\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"BrryHrry\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"KaraCorvus\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"falsesymmetry\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"Hbomb94\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"RyanHiga\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"PeteZahHutt\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"ChosenArchitect\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"5upppps\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"BaboAbe\"}"
-              },
-              "weight": 3
-            },
-            {
-              "value": {
-                "ITEM": "minecraft:player_head",
                 "NBT": "{SkullOwner:\"Stressmonster101\"}"
               },
               "weight": 3
@@ -1957,21 +2000,126 @@
             {
               "value": {
                 "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"Tubbo_\"}"
+                "NBT": "{SkullOwner:\"Jrowez\"}"
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Katables\"}"
               },
               "weight": 3
             },
             {
               "value": {
                 "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"rhiga\"}"
+                "NBT": "{SkullOwner:\"JoshuaEpstein\"}"
               },
               "weight": 3
             },
             {
               "value": {
                 "ITEM": "minecraft:player_head",
-                "NBT": "{SkullOwner:\"CaptainPuffy\"}"
+                "NBT": "{SkullOwner:\"Dogv2\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"DiamondGamerAsh\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Justahuman_xd\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Douwsky\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Damnsecci\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"ExplodingDice\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"ItsNymbles\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"LynMimistrobell\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"jmilthedude\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"mnooseman\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Dootud\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Scalda\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"Malpractice\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"0_chameleon_0\"}"
+              },
+              "weight": 3
+            },
+            {
+              "value": {
+                "ITEM": "minecraft:player_head",
+                "NBT": "{SkullOwner:\"HazDS\"}"
               },
               "weight": 3
             }
@@ -3780,6 +3928,87 @@
           "LEGS": [],
           "FEET": [],
           "MAINHAND": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:jack": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:helmet",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/armor/iskall_ibe/helmet\",\"the_vault:state\":2}"
+              },
+              "weight": 1
+            }
+          ],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:jack_poison": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:helmet",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/armor/iskall_ibe/helmet\",\"the_vault:state\":2}"
+              },
+              "weight": 1
+            }
+          ],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [],
+          "OFFHAND": []
+        }
+      }
+    ],
+    "the_vault:craftenstein": [
+      {
+        "minLevel": 0,
+        "slots": {
+          "HEAD": [],
+          "CHEST": [],
+          "LEGS": [],
+          "FEET": [],
+          "MAINHAND": [
+            {
+              "value": {
+                "ITEM": ""
+              },
+              "weight": 1
+            },
+            {
+              "value": {
+                "ITEM": "the_vault:sword",
+                "NBT": "{\"the_vault:gear_model\":\"the_vault:gear/sword/forsaken\",\"the_vault:state\":2}"
+              },
+              "weight": 1
+            }
+          ],
           "OFFHAND": []
         }
       }

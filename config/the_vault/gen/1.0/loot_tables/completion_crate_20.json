@@ -76,17 +76,6 @@
               }
             },
             {
-              "weight": 24,
-              "item": {
-              "id": "the_vault:regret_chunk",
-              "count": {
-                "type": "uniform",
-                "min": 1,
-                "max": 3
-                }
-              }
-            },
-            {
               "weight": 32,
               "item": {
               "id": "the_vault:vault_diamond",
@@ -333,17 +322,6 @@
                   "type": "uniform",
                   "min": 1,
                   "max": 1
-                  }
-              }
-            },
-            {
-              "weight": 16,
-              "item": {
-                "id": "the_vault:mystery_box",
-                "count": {
-                  "type": "uniform",
-                  "min": 1,
-                  "max": 2
                   }
               }
             },

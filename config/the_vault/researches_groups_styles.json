@@ -5,7 +5,7 @@
       "headerColor": -10758712,
       "headerTextColor": -1,
       "x": -10,
-      "y": -25,
+      "y": 0,
       "boxWidth": 170,
       "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/storage"
@@ -15,7 +15,7 @@
       "headerColor": -8388608,
       "headerTextColor": -1,
       "x": -10,
-      "y": 95,
+      "y": 120,
       "boxWidth": 170,
       "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/handling"
@@ -25,7 +25,7 @@
       "headerColor": -16776961,
       "headerTextColor": -1,
       "x": -10,
-      "y": 215,
+      "y": 240,
       "boxWidth": 170,
       "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/big_toys"
@@ -35,7 +35,7 @@
       "headerColor": -1498590,
       "headerTextColor": -1,
       "x": 370,
-      "y": -25,
+      "y": 0,
       "boxWidth": 170,
       "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/power"
@@ -54,8 +54,8 @@
       "group": "Production",
       "headerColor": -11298849,
       "headerTextColor": -1,
-      "x": 180,
-      "y": 255,
+      "x": 370,
+      "y": 240,
       "boxWidth": 170,
       "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/farming"
@@ -65,7 +65,7 @@
       "headerColor": -11228136,
       "headerTextColor": -1,
       "x": 370,
-      "y": 95,
+      "y": 120,
       "boxWidth": 170,
       "boxHeight": 105,
       "icon": "the_vault:gui/research_groups/processing"
@@ -84,10 +84,10 @@
       "group": "Alchemy",
       "headerColor": -14336,
       "headerTextColor": -1,
-      "x": 370,
-      "y": 215,
+      "x": 180,
+      "y": 255,
       "boxWidth": 170,
-      "boxHeight": 105,
+      "boxHeight": 145,
       "icon": "the_vault:gui/research_groups/bottle"
     }
   }

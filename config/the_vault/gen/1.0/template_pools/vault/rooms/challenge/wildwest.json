@@ -1,29 +1,15 @@
 [
   {
-    "weight": 0,
+    "weight": 1,
     "value": {
       "template": "the_vault:vault/rooms/challenge/wildwest1",
       "palettes": ["the_vault:wildwest/base"]
     }
   },
   {
-    "weight": 0,
+    "weight": 1,
     "value": {
       "template": "the_vault:vault/rooms/challenge/wildwest2",
-      "palettes": ["the_vault:wildwest/base"]
-    }
-  },
-  {
-    "weight": 0,
-    "value": {
-      "template": "the_vault:vault/rooms/challenge/wildwest3",
-      "palettes": ["the_vault:wildwest/base"]
-    }
-  },
-  {
-    "weight": 0,
-    "value": {
-      "template": "the_vault:vault/rooms/challenge/wildwest4",
       "palettes": ["the_vault:wildwest/base"]
     }
   }

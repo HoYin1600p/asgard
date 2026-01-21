@@ -1,5 +1,16 @@
 {
   "pooledOutcomes": {
+    "Chaotic": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Chaotic",
+            "weight": 1
+          }
+        ]
+      }
+    ],
     "Scaling": [
       {
         "level": 0,
@@ -16,15 +27,15 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 8
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 4
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 2
           },
           {
@@ -39,11 +50,11 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 4
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 2
           },
           {
@@ -53,16 +64,27 @@
         ]
       }
     ],
+    "chaos": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Chaos",
+            "weight": 4
+          }
+        ]
+      }
+    ],
     "loot": [
       {
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
+            "value": "Scrappy",
             "weight": 1
           },
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 1
           }
         ]
@@ -73,19 +95,19 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
+            "value": "Scrappy",
             "weight": 70
           },
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 40
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 18
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 7
           },
           {
@@ -100,11 +122,11 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 40
           },
           {
-            "value": "Scrappy+",
+            "value": "Scrappy",
             "weight": 40
           }
         ]
@@ -115,11 +137,11 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 40
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 40
           }
         ]
@@ -130,11 +152,11 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 40
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 40
           }
         ]
@@ -145,7 +167,7 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 40
           },
           {
@@ -160,11 +182,11 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 30
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 4
           },
           {
@@ -190,15 +212,15 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 20
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 20
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 4
           },
           {
@@ -213,15 +235,19 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Rare+",
-            "weight": 20
+            "value": "Rare",
+            "weight": 200
           },
           {
-            "value": "Epic+",
-            "weight": 5
+            "value": "Epic",
+            "weight": 50
           },
           {
             "value": "Omega",
+            "weight": 10
+          },
+          {
+            "value": "Chaotic",
             "weight": 1
           }
         ]
@@ -232,15 +258,15 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 100
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 20
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 5
           }
         ]
@@ -251,11 +277,11 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 20
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 5
           },
           {
@@ -270,67 +296,24 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
-            "weight": 100
+            "value": "Scrappy",
+            "weight": 80
           },
           {
-            "value": "Common+",
-            "weight": 20
-          },
-          {
-            "value": "Rare+",
-            "weight": 5
-          }
-        ]
-      },  
-      {
-        "level": 10,
-        "rollTypeOutcomes": [
-          {
-            "value": "Scrappy+",
-            "weight": 70
-          },
-          {
-            "value": "Common+",
-            "weight": 30
-          },
-          {
-            "value": "Rare+",
-            "weight": 5
-          }
-        ]
-      },
-      {
-        "level": 30,
-        "rollTypeOutcomes": [
-          {
-            "value": "Scrappy+",
-            "weight": 60
-          },
-          {
-            "value": "Common+",
-            "weight": 30
-          },
-          {
-            "value": "Rare+",
-            "weight": 8
-          }
-        ]
-      },
-      {
-        "level": 50,
-        "rollTypeOutcomes": [
-          {
-            "value": "Scrappy+",
-            "weight": 40
-          },
-          {
-            "value": "Common+",
-            "weight": 40
-          },
-          {
-            "value": "Rare+",
+            "value": "Common",
             "weight": 10
+          },
+          {
+            "value": "Rare",
+            "weight": 6
+          },
+          {
+            "value": "Epic",
+            "weight": 3
+          },
+          {
+            "value": "Omega",
+            "weight": 1
           }
         ]
       }
@@ -340,19 +323,23 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
-            "weight": 60
+            "value": "Scrappy",
+            "weight": 50
           },
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 30
           },
           {
-            "value": "Rare+",
-            "weight": 8
+            "value": "Rare",
+            "weight": 12
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
+            "weight": 6
+          },
+          {
+            "value": "Omega",
             "weight": 2
           }
         ]
@@ -363,16 +350,24 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Rare+",
-            "weight": 80
+            "value": "Scrappy",
+            "weight": 50
           },
           {
-            "value": "Epic+",
-            "weight": 10
+            "value": "Common",
+            "weight": 30
+          },
+          {
+            "value": "Rare",
+            "weight": 12
+          },
+          {
+            "value": "Epic",
+            "weight": 6
           },
           {
             "value": "Omega",
-            "weight": 4
+            "weight": 2
           }
         ]
       }
@@ -382,7 +377,7 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
+            "value": "Scrappy",
             "weight": 60
           }
         ]
@@ -393,7 +388,7 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 32
           }
         ]
@@ -404,7 +399,7 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 8
           }
         ]
@@ -415,11 +410,11 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 15
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 4
           },
           {
@@ -434,7 +429,7 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 4
           },
           {
@@ -646,15 +641,15 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 20
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 7
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 3
           },
           {
@@ -669,19 +664,19 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
+            "value": "Scrappy",
             "weight": 20
           },
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 50
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 20
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 10
           }
         ]
@@ -692,15 +687,15 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 40
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 40
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 12
           },
           {
@@ -715,19 +710,19 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
+            "value": "Scrappy",
             "weight": 50
           },
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 40
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 20
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 6
           },
           {
@@ -742,15 +737,15 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 100
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 8
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 1
           }
         ]
@@ -761,7 +756,7 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 6
           }
         ]
@@ -772,7 +767,7 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 6
           }
         ]
@@ -794,19 +789,19 @@
         "level": 0,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
+            "value": "Scrappy",
             "weight": 50
           },
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 40
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 7
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 3
           }
         ]
@@ -815,19 +810,19 @@
         "level": 10,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
+            "value": "Scrappy",
             "weight": 45
           },
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 45
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 10
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 3
           }
         ]
@@ -836,19 +831,19 @@
         "level": 20,
         "rollTypeOutcomes": [
           {
-            "value": "Scrappy+",
+            "value": "Scrappy",
             "weight": 40
           },
           {
-            "value": "Common+",
+            "value": "Common",
             "weight": 50
           },
           {
-            "value": "Rare+",
+            "value": "Rare",
             "weight": 12
           },
           {
-            "value": "Epic+",
+            "value": "Epic",
             "weight": 5
           }
         ]

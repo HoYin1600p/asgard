@@ -189,66 +189,6 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everfrost\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everflame\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:hexblade\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:grass_blade\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 5
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:mineral_greatsword\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 5
-        },
-        {
-          "value": {
-            "OFFER": {
               "item": "the_vault:capstone_pylon_hunter"
             },
             "CURRENCY": "the_vault:vault_gold",
@@ -720,62 +660,24 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everfrost\",\"the_vault:gear_roll_type\":\"Unique\"}"
+              "item": "the_vault:millennium_token"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
+            "MIN_COST": 384,
+            "MAX_COST": 512
           },
           "weight": 10
         },
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everflame\",\"the_vault:gear_roll_type\":\"Unique\"}"
+              "item": "the_vault:vaulthalla_token"
             },
             "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
+            "MIN_COST": 384,
+            "MAX_COST": 512
           },
           "weight": 10
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:hexblade\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:grass_blade\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 5
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:mineral_greatsword\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 5
         },
         {
           "value": {
@@ -968,18 +870,6 @@
             "MAX_COST": 32
           },
           "weight": 40
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:card_deck",
-              "nbt": "{id:\"merchant\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 24,
-            "MAX_COST": 48
-          },
-          "weight": 16
         },
         {
           "value": {
@@ -1566,8 +1456,7 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:card_deck",
-              "nbt": "{id:\"Millennium\"}"
+              "item": "the_vault:millennium_token"
             },
             "CURRENCY": "the_vault:vault_gold",
             "MIN_COST": 384,
@@ -1578,74 +1467,13 @@
         {
           "value": {
             "OFFER": {
-              "item": "the_vault:card_deck",
-              "nbt": "{id:\"Vaulthalla\"}"
+              "item": "the_vault:vaulthalla_token"
             },
             "CURRENCY": "the_vault:vault_gold",
             "MIN_COST": 384,
             "MAX_COST": 512
           },
           "weight": 10
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everfrost\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:everflame\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:hexblade\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 10
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:grass_blade\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 5
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:sword",
-              "nbt": "{\"the_vault:gear_unique_pool\":\"the_vault:mineral_greatsword\",\"the_vault:gear_roll_type\":\"Unique\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 512,
-            "MAX_COST": 768
-          },
-          "weight": 5
         },
         {
           "value": {
@@ -1824,18 +1652,6 @@
             "CURRENCY": "the_vault:vault_gold",
             "MIN_COST": 24,
             "MAX_COST": 36
-          },
-          "weight": 16
-        },
-        {
-          "value": {
-            "OFFER": {
-              "item": "the_vault:card_deck",
-              "nbt": "{id:\"merchant\"}"
-            },
-            "CURRENCY": "the_vault:vault_gold",
-            "MIN_COST": 24,
-            "MAX_COST": 48
           },
           "weight": 16
         },

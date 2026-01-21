@@ -168,34 +168,6 @@
     },
 	{
 	  "type": "weighted_target",
-      "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/cube\"}",
-        "output": {
-		  "{RoomPalettes: [\"the_vault:paradox/cube/velara\"]}": 1
-		}
-    },
-	{
-	  "type": "weighted_target",
-      "target": "the_vault:gate_lock{God: TENOS, RoomReference: \"the_vault:vault/rooms/omega/cube\"}",
-        "output": {
-		  "{RoomPalettes: [\"the_vault:paradox/cube/tenos\"]}": 1
-		}
-    },
-	{
-	  "type": "weighted_target",
-      "target": "the_vault:gate_lock{God: WENDARR, RoomReference: \"the_vault:vault/rooms/omega/cube\"}",
-        "output": {
-		  "{RoomPalettes: [\"the_vault:paradox/cube/wendarr\"]}": 1
-		}
-    },
-	{
-	  "type": "weighted_target",
-      "target": "the_vault:gate_lock{God: IDONA, RoomReference: \"the_vault:vault/rooms/omega/cube\"}",
-        "output": {
-		  "{RoomPalettes: [\"the_vault:paradox/cube/idona\"]}": 1
-		}
-    },
-	{
-	  "type": "weighted_target",
       "target": "the_vault:gate_lock{God: VELARA, RoomReference: \"the_vault:vault/rooms/omega/digsite2\"}",
         "output": {
 		  "{RoomPalettes: [\"the_vault:paradox/digsite2/velara\"]}": 1

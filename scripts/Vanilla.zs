@@ -42,19 +42,6 @@ craftingTable.addShaped("minecraft_" + dyeName + "_concrete", <item:minecraft:${
 ]);
 }
 
-blastFurnace.addRecipe("raw_iron_block_2_iron", <item:minecraft:iron_block>, <item:minecraft:raw_iron_block>, 1.0, 200);
-blastFurnace.addRecipe("raw_gold_block_3_gold", <item:minecraft:gold_block>, <item:minecraft:raw_gold_block>, 1.0, 200);
-blastFurnace.addRecipe("raw_copper_block_2_copper", <item:minecraft:copper_block>, <item:minecraft:raw_copper_block>, 1.0, 200);
-blastFurnace.addRecipe("raw_chromatic_block_2_chromatic_iron", <item:the_vault:chromatic_iron_block>, <item:the_vault:raw_chromatic_iron_block>, 1.0, 200);
-blastFurnace.addRecipe("raw_osmium_block_2_osmium", <item:mekanism:block_osmium>, <item:mekanism:block_raw_osmium>, 1.0, 200);
-blastFurnace.addRecipe("raw_uranium_block_2_uranium", <item:mekanism:block_uranium>, <item:mekanism:block_raw_uranium>, 1.0, 200);
-blastFurnace.addRecipe("raw_lead_block_2_lead", <item:mekanism:block_lead>, <item:mekanism:block_raw_lead>, 1.0, 200);
-blastFurnace.addRecipe("raw_tin_block_2_tin", <item:mekanism:block_tin>, <item:mekanism:block_raw_tin>, 1.0, 200);
-blastFurnace.addRecipe("raw_thermal_tin_block_2_tin", <item:thermal:tin_block>, <item:thermal:raw_tin_block>, 1.0, 200);
-blastFurnace.addRecipe("raw_thermal_lead_block_2_lead", <item:thermal:lead_block>, <item:thermal:raw_lead_block>, 1.0, 200);
-blastFurnace.addRecipe("raw_thermal_silver_block_2_silver", <item:thermal:silver_block>, <item:thermal:raw_silver_block>, 1.0, 200);
-blastFurnace.addRecipe("raw_thermal_nickel_block_2_nickel", <item:thermal:nickel_block>, <item:thermal:raw_nickel_block>, 1.0, 200);
-
 craftingTable.addShaped("goldenapple", <item:minecraft:golden_apple>, [
     [<item:minecraft:gold_block>, <item:minecraft:gold_ingot>, <item:minecraft:gold_block>],
     [<item:minecraft:gold_ingot>, <item:minecraft:apple>, <item:minecraft:gold_ingot>],
@@ -405,11 +392,11 @@ craftingTable.addShapeless("experience_convert", <item:minecraft:experience_bott
 // <tag:items:forge:gems>.add(<item:the_vault:augment>.withTag({theme: "the_vault:raw_vault_cave_lvl30" as string})
 
 
-<tag:items:vault:augments>.add(<item:the_vault:augment>);
+//<tag:items:vault:augments>.add(<item:the_vault:augment>);
 
-craftingTable.addShapeless("chaos_augment", <item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_chaos" as string}), [
-    <tag:items:vault:augments>, <tag:items:vault:augments>, <tag:items:vault:augments>
-]);
+//craftingTable.addShapeless("chaos_augment", <item:the_vault:augment>.withTag({theme: "the_vault:classic_vault_chaos" as string}), [
+//    <tag:items:vault:augments>, <tag:items:vault:augments>, <tag:items:vault:augments>
+//]);
 
 craftingTable.addShaped("entangled_block", <item:entangled:block>, [
     [<item:the_vault:black_chromatic_steel_ingot>, <item:the_vault:polished_vault_stone>, <item:the_vault:black_chromatic_steel_ingot>],
@@ -423,14 +410,16 @@ craftingTable.addShaped("entangled_item", <item:entangled:item>, [
     [<item:the_vault:driftwood>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 
-craftingTable.addShapeless("knowledge_chunk_2_essence", <item:the_vault:knowledge_star_essence>*9, [
-    <item:the_vault:knowledge_star_shard>
+craftingTable.addShaped("new_hopper", <item:minecraft:hopper>, [
+    [<item:minecraft:iron_ingot>, <tag:items:minecraft:logs>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:iron_ingot>, <tag:items:minecraft:logs>, <item:minecraft:iron_ingot>],
+    [<item:minecraft:air>, <item:minecraft:iron_ingot>, <item:minecraft:air>]
 ]);
 
-craftingTable.addShapeless("regret_orb_2_chunk", <item:the_vault:regret_chunk>*9, [
-    <item:the_vault:regret_orb>
+craftingTable.addShapeless("black_dye", <item:minecraft:black_dye>, [
+    <tag:items:minecraft:coals>
 ]);
 
-craftingTable.addShapeless("regret_chunk_2_nugget", <item:the_vault:regret_nugget>*9, [
-    <item:the_vault:regret_chunk>
+craftingTable.addShapeless("quartz_uncraft", <item:minecraft:quartz> *4, [
+    <item:minecraft:quartz_block>
 ]);

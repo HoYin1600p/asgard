@@ -57,6 +57,62 @@
       "OMEGA": 0.0
     }
   },
+  "barrels": {
+    "WOODEN": {
+      "COMMON": 20.0,
+      "RARE": 40.0,
+      "EPIC": 80.0,
+      "OMEGA": 160.0
+    },
+    "GILDED": {
+      "COMMON": 60.0,
+      "RARE": 120.0,
+      "EPIC": 184.0,
+      "OMEGA": 256.0
+    },
+    "LIVING": {
+      "COMMON": 60.0,
+      "RARE": 120.0,
+      "EPIC": 184.0,
+      "OMEGA": 256.0
+    },
+    "ORNATE": {
+      "COMMON": 60.0,
+      "RARE": 120.0,
+      "EPIC": 184.0,
+      "OMEGA": 256.0
+    },
+    "TREASURE": {
+      "COMMON": 1600.0,
+      "RARE": 2400.0,
+      "EPIC": 4800.0,
+      "OMEGA": 8000.0
+    },
+    "ALTAR": {
+      "COMMON": 30.0,
+      "RARE": 60.0,
+      "EPIC": 92.0,
+      "OMEGA": 128.0
+    },
+    "HARDENED": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "FLESH": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    },
+    "ENIGMA": {
+      "COMMON": 0.0,
+      "RARE": 0.0,
+      "EPIC": 0.0,
+      "OMEGA": 0.0
+    }
+  },
   "blocksMined": {
     "the_vault:treasure_sand": 0.0,
     "the_vault:coin_pile": 16.0,
@@ -134,6 +190,7 @@
     "minecraft:ravager": 198.0,
     "minecraft:polar_bear": 141.0,
     "minecraft:magma_cube": 110.0,
+    "minecraft:blaze": 100.0,
     "minecraft:shulker": 88.0,
     "minecraft:silverfish": 26.0,
     "minecraft:witch": 212.0,
@@ -159,6 +216,7 @@
     "the_vault:vault_wraith_yellow": 70.0,
 
     "the_vault:vault_spider": 48.0,
+    "the_vault:crab": 48.0,
 
     "the_vault:winterwalker_t0": 31.0,
     "the_vault:winterwalker_t1": 70.0,
@@ -173,8 +231,8 @@
     "the_vault:miner_zombie_t1": 70.0,
     "the_vault:miner_zombie_t2": 88.0,
     "the_vault:miner_zombie_t3": 106.0,
-    "the_vault:miner_zombie_t4": 123.0,
-    "the_vault:miner_zombie_t5": 141.0,
+    "the_vault:miner_zombie_t4": 132.0,
+    "the_vault:miner_zombie_t5": 176.0,
 
     "the_vault:t0_cave_skeleton": 44.0,
     "the_vault:t1_cave_skeleton": 62.0,
@@ -228,11 +286,13 @@
     "the_vault:elite_enderman": 2600.0,
 
     "the_vault:endervex": 1.0,
+    "minecraft:vex": 1.0,
     "the_vault:raised_zombie": 1.0,
     "the_vault:scarab": 1.0,
     "the_vault:smolcap": 1.0,
     "the_vault:blood_silverfish": 1.0,
     "the_vault:vault_spider_baby": 1.0,
+    "the_vault:raised_zombie_chicken": 1.0,
 
     "the_vault:dungeon_black_widow_spider": 500.0,
     "the_vault:dungeon_piglin": 320.0,
@@ -275,6 +335,17 @@
     "the_vault:t3_plastic_slime": 80.0,
     "the_vault:t4_plastic_slime": 85.0,
 
+    "the_vault:healer": 4.0,
+
+    "the_vault:jack": 64.0,
+    "the_vault:jack_poison": 64.0,
+    "the_vault:jack_o_web": 48.0,
+    "the_vault:grimwick": 70.0,
+    "the_vault:craftenstein": 128.0,
+
+    "the_vault:aggressive_goat": 141.0,
+    "the_vault:aggressive_cow": 32.0,
+
     "the_vault:bruiser_guardian": 330,
     "the_vault:arbalist_guardian": 330,
     "the_vault:pirate_bruiser_guardian": 330,
@@ -288,10 +359,14 @@
     "the_vault:acid_enforcer": 0.0,
     "the_vault:acid_pursuer": 0.0,
 
+    "the_vault:mob_type/dungeon_boss": 1000.0,
+
+    "the_vault:grinch": 64.0,
     "auxiliaryblocks:snowdood": 53.0,
     "auxiliaryblocks:gingerbread_man": 32.0,
     "auxiliaryblocks:gingerbread_man_small": 64.0,
     "auxiliaryblocks:gingerbread_man_giant": 128.0,
+    "the_vault:yeti": 128.0,
 
     "iceandfire:dread_thrall": 64.0,
     "iceandfire:dread_ghoul": 64.0,

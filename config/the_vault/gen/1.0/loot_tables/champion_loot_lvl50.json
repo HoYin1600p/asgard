@@ -218,30 +218,7 @@
                   "max": 1
                   }
               }
-            },
-            {
-              "weight": 100,
-              "item": {
-                "id": "the_vault:vault_bronze",
-                "count": {
-                  "type": "uniform",
-                  "min": 12,
-                  "max": 48
-                }
-              }
-            },
-            {
-              "weight": 3,
-              "item": {
-                "id": "the_vault:vault_gold",
-                "count": {
-                  "type": "uniform",
-                  "min": 4,
-                  "max": 8
-                }
-              }
             }
-
            ]
         }
       ]
@@ -265,13 +242,24 @@
           }
         },
         {
+          "weight": 100,
+          "item": {
+            "id": "the_vault:vault_silver",
+            "count": {
+              "type": "uniform",
+              "min": 12,
+              "max": 24
+              }
+          }
+        },
+        {
           "weight": 3,
           "item": {
             "id": "the_vault:vault_gold",
             "count": {
               "type": "uniform",
-              "min": 4,
-              "max": 8
+              "min": 2,
+              "max": 4
               }
           }
         }
@@ -296,7 +284,7 @@
           }
         },
         {
-          "weight": 16,
+          "weight": 24,
           "item": {
             "id": "the_vault:bitter_lemon",
             "count": {
@@ -378,9 +366,9 @@
         {
           "weight": 2,
           "item": {
-            "id": "the_vault:card_deck",
+            "id": "the_vault:deck_socket",
             "nbt": {
-              "id": "champion"
+              "Modifier": "@champions"
             },
             "count": {
               "type": "uniform",

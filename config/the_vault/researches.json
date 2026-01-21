@@ -1585,6 +1585,14 @@
       "name": "Waystones",
       "cost": 1,
       "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {},
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Vault Decks",
+      "cost": 6,
+      "usesKnowledge": true
     }
   ]
 }

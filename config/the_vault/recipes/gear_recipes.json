@@ -1,7 +1,6 @@
 {
   "gearRecipes": [
     {
-      "proficiencyType": "HELMET",
       "id": "the_vault:helmet",
       "output": {
         "AMOUNT": 1,
@@ -22,7 +21,6 @@
       ]
     },
     {
-      "proficiencyType": "CHESTPLATE",
       "id": "the_vault:chestplate",
       "output": {
         "AMOUNT": 1,
@@ -43,7 +41,6 @@
       ]
     },
     {
-      "proficiencyType": "LEGGINGS",
       "id": "the_vault:leggings",
       "output": {
         "AMOUNT": 1,
@@ -64,7 +61,6 @@
       ]
     },
     {
-      "proficiencyType": "BOOTS",
       "id": "the_vault:boots",
       "output": {
         "AMOUNT": 1,
@@ -85,7 +81,6 @@
       ]
     },
     {
-      "proficiencyType": "AXE",
       "id": "the_vault:axe",
       "output": {
         "AMOUNT": 1,
@@ -106,7 +101,6 @@
       ]
     },
     {
-      "proficiencyType": "SWORD",
       "id": "the_vault:sword",
       "output": {
         "AMOUNT": 1,
@@ -127,7 +121,6 @@
       ]
     },
     {
-      "proficiencyType": "SHIELD",
       "id": "the_vault:shield",
       "output": {
         "AMOUNT": 1,
@@ -148,7 +141,6 @@
       ]
     },
     {
-      "proficiencyType": "WAND",
       "id": "the_vault:wand",
       "output": {
         "AMOUNT": 1,
@@ -169,7 +161,6 @@
       ]
     },
     {
-      "proficiencyType": "FOCUS",
       "id": "the_vault:focus",
       "output": {
         "AMOUNT": 1,
@@ -190,7 +181,6 @@
       ]
     },
     {
-      "proficiencyType": "MAGNET",
       "id": "the_vault:magnet",
       "output": {
         "AMOUNT": 1,
@@ -206,6 +196,30 @@
         {
           "AMOUNT": 1,
           "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:unique",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:unique_shard"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 10,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:unique_shard",
           "NBT": "{}"
         }
       ]

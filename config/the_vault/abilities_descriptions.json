@@ -32,14 +32,14 @@
         "size",
         "cooldown",
         "manaCost",
-        "duration"
+        "adjustedDuration"
       ],
       "next": [
         "additionalResistance",
         "size",
         "cooldown",
         "manaCost",
-        "duration"
+        "adjustedDuration"
       ]
     },
     "Sneaky_Getaway": {
@@ -66,14 +66,14 @@
         "size",
         "cooldown",
         "manaCost",
-        "duration"
+        "adjustedDuration"
       ],
       "next": [
         "speed",
         "size",
         "cooldown",
         "manaCost",
-        "duration"
+        "adjustedDuration"
       ]
     },
     "Dash_Base": {
@@ -486,13 +486,13 @@
       "current": [
         "cooldown",
         "manaCost",
-        "duration"
+        "adjustedDuration"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
-        "duration"
+        "adjustedDuration"
       ]
     },
     "Ghost_Walk_Spirit": {
@@ -525,13 +525,12 @@
       "current": [
         "cooldown",
         "manaCost",
-        "duration"
+        "adjustedDuration"
       ],
       "next": [
-
         "cooldown",
         "manaCost",
-        "duration"
+        "adjustedDuration"
       ]
     },
     "Heal_Base": {
@@ -609,14 +608,14 @@
         "cooldown",
         "manaCost",
         "heal",
-        "radius"
+        "adjustedRadius"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
         "heal",
-        "radius"
+        "adjustedRadius"
       ]
     },
     "Hunter_Base": {
@@ -689,15 +688,14 @@
       "current": [
         "cooldown",
         "manaCost",
-        "duration",
-        "radius"
+        "adjustedDuration",
+        "adjustedRadius"
       ],
       "next": [
-
         "cooldown",
         "manaCost",
-        "duration",
-        "radius"
+        "adjustedDuration",
+        "adjustedRadius"
       ]
     },
     "Hunter_Blocks": {
@@ -981,14 +979,13 @@
         "manaCost",
         "cooldown",
         "thornsDamage",
-        "radius"
-
+        "adjustedRadius"
       ],
       "next": [
         "manaCost",
         "cooldown",
         "thornsDamage",
-        "radius"
+        "adjustedRadius"
       ]
     },
     "Mana_Shield_Base": {
@@ -1076,13 +1073,14 @@
       "current": [
         "duration",
         "manaCost",
-        "cooldown"
-
+        "cooldown",
+        "adjustedRadius"
       ],
       "next": [
         "duration",
         "manaCost",
-        "cooldown"
+        "cooldown",
+        "adjustedRadius"
       ]
     },
     "Retribution_Base": {
@@ -1136,7 +1134,6 @@
         "thornsDamage",
         "manaCost",
         "cooldown"
-
       ],
       "next": [
         "thornsDamage",
@@ -1193,14 +1190,13 @@
       ],
       "current": [
         "thornsDamage",
-        "radius",
+        "adjustedRadius",
         "manaCost",
         "cooldown"
-
       ],
       "next": [
         "thornsDamage",
-        "radius",
+        "adjustedRadius",
         "manaCost",
         "cooldown"
       ]
@@ -1234,13 +1230,13 @@
       ],
       "current": [
         "manaDamage",
-        "radius",
+        "adjustedRadius",
         "cooldown"
 
       ],
       "next": [
         "manaDamage",
-        "radius",
+        "adjustedRadius",
         "cooldown"
       ]
     },
@@ -1368,14 +1364,14 @@
       "current": [
         "cooldown",
         "manaCost",
-        "radius",
+        "adjustedRadius",
         "ability_power"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
-        "radius",
+        "adjustedRadius",
         "ability_power"
       ]
     },
@@ -1417,17 +1413,17 @@
       "current": [
         "cooldown",
         "manaCost",
-        "radius",
+        "adjustedRadius",
         "ability_power",
-        "duration"
+        "adjustedDuration"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
-        "radius",
+        "adjustedRadius",
         "ability_power",
-        "duration"
+        "adjustedDuration"
       ]
     },
     "Nova_Slow": {
@@ -1476,15 +1472,15 @@
       "current": [
         "cooldown",
         "manaCost",
-        "radius",
-        "duration"
+        "adjustedRadius",
+        "adjustedDuration"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
-        "radius",
-        "duration"
+        "adjustedRadius",
+        "adjustedDuration"
       ]
     },
     "Rampage_Base": {
@@ -1627,15 +1623,14 @@
         "cooldown",
         "manaCost",
         "damage",
-        "radius",
+        "adjustedRadius",
         "knockback"
       ],
       "next": [
-
         "cooldown",
         "manaCost",
         "damage",
-        "radius",
+        "adjustedRadius",
         "knockback"
       ]
     },
@@ -1678,16 +1673,18 @@
         "cooldown",
         "manaCost",
         "damageReduction",
+        "adjustedRadius",
         "knockback",
-        "duration"
+        "adjustedDuration"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
         "damageReduction",
+        "adjustedRadius",
         "knockback",
-        "duration"
+        "adjustedDuration"
       ]
     },
     "Stonefall_Cold": {
@@ -1740,8 +1737,9 @@
       "current": [
         "damageReduction",
         "maxGlacialPrison",
+        "adjustedRadius",
         "freezeDuration",
-        "duration",
+        "adjustedDuration",
         "cooldown",
         "manaCost"
 
@@ -1749,8 +1747,9 @@
       "next": [
         "damageReduction",
         "maxGlacialPrison",
+        "adjustedRadius",
         "freezeDuration",
-        "duration",
+        "adjustedDuration",
         "cooldown",
         "manaCost"
       ]
@@ -1798,15 +1797,17 @@
         "cooldown",
         "manaCost",
         "damageReduction",
+        "adjustedRadius",
         "ability_power",
-        "duration"
+        "adjustedDuration"
       ],
       "next": [
         "cooldown",
         "manaCost",
         "damageReduction",
+        "adjustedRadius",
         "ability_power",
-        "duration"
+        "adjustedDuration"
       ]
     },
     "Summon_Eternal_Base": {
@@ -1867,7 +1868,7 @@
       ],
       "current": [
         "speed",
-        "radius",
+        "adjustedRadius",
         "cooldown",
         "manaCostPerSecond"
 
@@ -1875,7 +1876,7 @@
       "next": [
 
         "speed",
-        "radius",
+        "adjustedRadius",
         "cooldown",
         "manaCostPerSecond"
 
@@ -1910,15 +1911,13 @@
       ],
       "current": [
         "chilled",
-        "duration",
+        "adjustedDuration",
         "manaCostPerSecond",
         "cooldown"
-
-
       ],
       "next": [
         "chilled",
-        "duration",
+        "adjustedDuration",
         "manaCostPerSecond",
         "cooldown"
       ]
@@ -1951,14 +1950,12 @@
         }
       ],
       "current": [
-        "radius",
+        "adjustedRadius",
         "manaCostPerSecond",
         "cooldown"
-
-
       ],
       "next": [
-        "radius",
+        "adjustedRadius",
         "manaCostPerSecond",
         "cooldown"
       ]
@@ -2017,16 +2014,15 @@
       "current": [
         "cooldown",
         "manaCost",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "vulnerable"
       ],
       "next": [
-
         "cooldown",
         "manaCost",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "vulnerable"
       ]
     },
@@ -2068,16 +2064,16 @@
       "current": [
         "cooldown",
         "manaCost",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "distance"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "distance"
       ]
     },
@@ -2135,8 +2131,8 @@
       "current": [
         "cooldown",
         "manaCost",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "maxTargets",
         "damage",
         "speed"
@@ -2145,8 +2141,8 @@
 
         "cooldown",
         "manaCost",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "maxTargets",
         "damage",
         "speed"
@@ -2182,16 +2178,16 @@
       "current": [
         "cooldown",
         "manaCost",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "heal"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "heal"
       ]
     },
@@ -2225,16 +2221,16 @@
       "current": [
         "cooldown",
         "manaCost",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "manaRegen"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "manaRegen"
       ]
     },
@@ -2265,7 +2261,15 @@
           "color": "$delay"
         },
         {
-          "text": ". These hits applies any on-hit effects you may have, with the exception of Lucky Hit",
+          "text": ". These hits applies any ",
+          "color": "$text"
+        },
+        {
+          "text": "on-hit effects ",
+          "color": "$name"
+        },
+        {
+          "text": "you may have, with the exception of Lucky Hit",
           "color": "$text"
         },
         {
@@ -2280,8 +2284,8 @@
       "current": [
         "cooldown",
         "manaCost",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "ability_power",
         "delay"
       ],
@@ -2289,8 +2293,8 @@
 
         "cooldown",
         "manaCost",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "ability_power",
         "delay"
       ]
@@ -2325,16 +2329,16 @@
       "current": [
         "cooldown",
         "manaCost",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "damage"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "damage"
       ]
     },
@@ -2666,15 +2670,14 @@
         }
       ],
       "current": [
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "cooldown",
         "manaCost"
-
       ],
       "next": [
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "cooldown",
         "manaCost"
       ]
@@ -2714,7 +2717,15 @@
           "color": "$ability_power"
         },
         {
-          "text": ", and transfering any on-hit modifiers to the target.",
+          "text": ", and transferring any ",
+          "color": "$text"
+        },
+        {
+          "text": "on-hit modifiers ",
+          "color": "$name"
+        },
+        {
+          "text": "to the target with the exception of Lucky Hit.",
           "color": "$text"
         },
         {
@@ -2723,10 +2734,9 @@
         }
       ],
       "current": [
-
         "abilityRange",
         "damageInterval",
-        "radius",
+        "adjustedRadius",
         "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
@@ -2736,7 +2746,7 @@
 
         "abilityRange",
         "damageInterval",
-        "radius",
+        "adjustedRadius",
         "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown"
@@ -2786,19 +2796,16 @@
         }
       ],
       "current": [
-
         "abilityRange",
         "damageInterval",
-        "radius",
+        "adjustedRadius",
         "manaCostPerSecond",
         "cooldown"
       ],
       "next": [
-
-
         "abilityRange",
         "damageInterval",
-        "radius",
+        "adjustedRadius",
         "manaCostPerSecond",
         "cooldown"
       ]
@@ -2814,7 +2821,7 @@
           "color": "$name"
         },
         {
-          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for a percentage of your ",
+          "text": " will turn you in to a spark. Making any mob you physically touch get bolted for a random percentage of your ",
           "color": "$text"
         },
         {
@@ -2836,7 +2843,7 @@
       ],
       "current": [
         "abilityRange",
-        "radius",
+        "adjustedRadius",
         "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown",
@@ -2844,7 +2851,7 @@
       ],
       "next": [
         "abilityRange",
-        "radius",
+        "adjustedRadius",
         "additionalManaPerBolt",
         "manaCostPerSecond",
         "cooldown",
@@ -3010,15 +3017,14 @@
       ],
       "current": [
         "ability_power",
-        "radius",
+        "adjustedRadius",
         "cooldown",
         "manaCost"
 
       ],
       "next": [
-
         "ability_power",
-        "radius",
+        "adjustedRadius",
         "cooldown",
         "manaCost"
       ]
@@ -3068,16 +3074,15 @@
       ],
       "current": [
         "ability_power",
-        "radius",
+        "adjustedRadius",
         "duration",
         "cooldown",
         "manaCost"
 
       ],
       "next": [
-
         "ability_power",
-        "radius",
+        "adjustedRadius",
         "duration",
         "cooldown",
         "manaCost"
@@ -3114,7 +3119,7 @@
           "color": "$name"
         },
         {
-          "text": "from you.",
+          "text": "from you with the exception of Lucky Hit.",
           "color": "$text"
         },
         {
@@ -3126,7 +3131,6 @@
         "ability_power",
         "cooldown",
         "manaCost"
-
       ],
       "next": [
         "ability_power",
@@ -3175,18 +3179,17 @@
       ],
       "current": [
         "abilityRange",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "stormInterval",
         "cooldown",
         "manaCost"
 
       ],
       "next": [
-
         "abilityRange",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "stormInterval",
         "cooldown",
         "manaCost"
@@ -3232,20 +3235,18 @@
         }
       ],
       "current": [
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "stormInterval",
         "slowDuration",
         "frostbiteChance",
         "frostbiteDuration",
         "cooldown",
         "manaCost"
-
       ],
       "next": [
-
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "stormInterval",
         "slowDuration",
         "frostbiteChance",
@@ -3298,19 +3299,17 @@
         }
       ],
       "current": [
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "attackDamagePerStack",
         "maxStacks",
         "stacksUsedPerHit",
         "cooldown",
         "manaCost"
-
       ],
       "next": [
-
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "attackDamagePerStack",
         "maxStacks",
         "stacksUsedPerHit",
@@ -3362,8 +3361,8 @@
         }
       ],
       "current": [
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "abilityPowerPerStack",
         "maxStacks",
         "stacksUsedPerHit",
@@ -3372,9 +3371,8 @@
 
       ],
       "next": [
-
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "abilityPowerPerStack",
         "maxStacks",
         "stacksUsedPerHit",
@@ -3426,8 +3424,8 @@
         }
       ],
       "current": [
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "luckyHitPerStack",
         "maxStacks",
         "stacksUsedPerHit",
@@ -3436,8 +3434,8 @@
 
       ],
       "next": [
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "luckyHitPerStack",
         "maxStacks",
         "stacksUsedPerHit",
@@ -3483,7 +3481,7 @@
       "current": [
         "setDamage",
         "throwPower",
-        "duration",
+        "adjustedDuration",
         "cooldown",
         "manaCost"
 
@@ -3491,7 +3489,7 @@
       "next": [
         "setDamage",
         "throwPower",
-        "duration",
+        "adjustedDuration",
         "cooldown",
         "manaCost"
       ]
@@ -3542,18 +3540,17 @@
       "current": [
         "setDamage",
         "throwPower",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "glacialChance",
         "cooldown",
         "manaCost"
-
       ],
       "next": [
         "setDamage",
         "throwPower",
-        "duration",
-        "radius",
+        "adjustedDuration",
+        "adjustedRadius",
         "glacialChance",
         "cooldown",
         "manaCost"
@@ -3621,7 +3618,15 @@
           "color": "$ability_power"
         },
         {
-          "text": " in damage, and triggering on-hit effects like ",
+          "text": " in damage, and triggering ",
+          "color": "$text"
+        },
+        {
+          "text": "on-hit effects ",
+          "color": "$name"
+        },
+        {
+          "text": "like ",
           "color": "$text"
         },
         {
@@ -3685,7 +3690,7 @@
         },
         {
           "text": "delay of time\nThe Damage dealt decreases the further away from the center the mobs are hit.",
-          "color": "$duration"
+          "color": "$delay"
         },
         {
           "text": "\n\nEarthquake also has a chance to destroy blocks in its path.",
@@ -3699,16 +3704,16 @@
       "current": [
         "damage",
         "knockback",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "delay",
         "manaCost",
         "cooldown"
       ],
       "next": [
         "damage",
         "knockback",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "delay",
         "manaCost",
         "cooldown"
       ]
@@ -3753,12 +3758,12 @@
         }
       ],
       "current": [
-        "radius",
+        "adjustedRadius",
         "damagePerHealth",
         "cooldown"
       ],
       "next": [
-        "radius",
+        "adjustedRadius",
         "damagePerHealth",
         "cooldown"
       ]
@@ -3852,19 +3857,19 @@
           "color": "$text"
         },
         {
-          "text": "\n\n✦ Cast Ability ",
+          "text": "\n\n\u2734 Cast Ability ",
           "color": "$castType"
         }
       ],
       "current": [
         "abilityRange",
-        "duration",
+        "adjustedDuration",
         "manaCost",
         "cooldown"
       ],
       "next": [
         "abilityRange",
-        "duration",
+        "adjustedDuration",
         "manaCost",
         "cooldown"
       ]
@@ -3910,13 +3915,13 @@
       ],
       "current": [
         "damage",
-        "radius",
+        "adjustedRadius",
         "manaCost",
         "cooldown"
       ],
       "next": [
         "damage",
-        "radius",
+        "adjustedRadius",
         "manaCost",
         "cooldown"
       ]
@@ -3986,15 +3991,14 @@
       ],
       "current": [
         "ability_power",
-        "radius",
-        "duration",
+        "adjustedRadius",
+        "adjustedDuration",
         "manaCost",
         "cooldown"
       ],
       "next": [
         "ability_power",
-        "radius",
-        "duration",
+        "adjustedDuration",
         "manaCost",
         "cooldown"
       ]
@@ -4030,14 +4034,14 @@
       "current": [
         "cooldown",
         "manaCost",
-        "radius",
+        "adjustedRadius",
         "damage"
       ],
       "next": [
 
         "cooldown",
         "manaCost",
-        "radius",
+        "adjustedRadius",
         "damage"
       ]
     },
@@ -4061,12 +4065,12 @@
         }
       ],
       "current": [
-        "duration",
+        "adjustedDuration",
         "manaCost",
         "cooldown"
       ],
       "next": [
-        "duration",
+        "adjustedDuration",
         "manaCost",
         "cooldown"
       ]

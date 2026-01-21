@@ -1,6 +1,6 @@
 [
       {
-        "weight": 20,
+        "weight": 24,
         "reference": "the_vault:vault/rooms/challenge/crystal_caves_dread"
       },
       {
@@ -20,7 +20,7 @@
         "reference": "the_vault:vault/rooms/challenge/factory"
       },
       {
-        "weight": 20,
+        "weight": 40,
         "reference": "the_vault:vault/rooms/challenge/x-mark"
       },
       {
@@ -30,5 +30,21 @@
       {
         "weight": 40,
         "reference": "the_vault:vault/rooms/challenge/laboratory"
+      },
+      {
+        "weight": 24,
+        "reference": "the_vault:vault/rooms/challenge/memory"
+      },
+      {
+        "weight": 0,
+        "reference": "the_vault:vault/rooms/omega/temple"
+      },
+      {
+        "weight": 0,
+        "reference": "the_vault:vault/rooms/challenge/horderush"
+      },
+      {
+        "weight": 0,
+        "reference": "the_vault:vault/rooms/challenge/protect_villager"
       }
 ]
