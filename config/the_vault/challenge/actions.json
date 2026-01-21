@@ -772,9 +772,9 @@
     "add_zombie": {
       "type": "mob_spawn",
       "entity": {
-        "id": "minecraft:zombie"
+        "id": "minecraft:zombie",
+        "Tags": ["ethereal_immune"]
       },
-      "Tags": ["ethereal_immune"],
       "count": 1,
       "spawner": "ground"
     },
@@ -1563,7 +1563,7 @@
           { "value": "annmari", "weight": 4 },
           { "value": "ivy", "weight": 4 },
           { "value": "trirang", "weight": 4 },
-          { "value": "crystal_double_blade", "weight": 0 },
+          { "value": "crystal_blade", "weight": 0 },
           { "value": "aurora_scissors", "weight": 4 }
         ] },
         { "level": 50, "pool": [
@@ -1595,7 +1595,7 @@
           { "value": "annmari", "weight": 4 },
           { "value": "ivy", "weight": 4 },
           { "value": "trirang", "weight": 4 },
-          { "value": "crystal_double_blade", "weight": 0 },
+          { "value": "crystal_blade", "weight": 0 },
           { "value": "aurora_scissors", "weight": 4 }
           ]
         }
