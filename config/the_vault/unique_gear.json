@@ -534,11 +534,11 @@
       "weight": 1
     },
     "the_vault:butchers_cleaver": {
-      "name": "Butcher's Cleaver",
+      "name": "Axe of Noxus",
       "item": "the_vault:axe",
       "models": [
         {
-          "value": "the_vault:gear/axe/butcher_bone_cleaver",
+          "value": "the_vault:gear/axe/darius_axe",
           "weight": 1
         }
       ],
@@ -1142,7 +1142,7 @@
           "the_vault:base_soulbound"
         ],
         "IMPLICIT": [
-            "the_vault:u_base_block_chance"
+          "the_vault:u_base_block_chance"
         ],
         "PREFIX": [
           "the_vault:u_knockback_resistance"
@@ -1971,7 +1971,7 @@
       "the_vault:annmari": 1
     },
     "the_vault:vitalis": {
-        "the_vault:vitalis": 1
+      "the_vault:vitalis": 1
     },
     "the_vault:chestplate": {
       "the_vault:castle": 1,
