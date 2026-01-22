@@ -21,17 +21,21 @@
           "level": 0,
           "probability": 0.75,
           "success": {
-            "the_vault:living_barrel{LootTable:\"the_vault:living_dungeon_barrel\"}": 1
+            "the_vault:gilded_barrel{LootTable:\"the_vault:gilded_chest_lvl0\"}": 1,
+            "the_vault:living_barrel{LootTable:\"the_vault:living_chest_lvl0\"}": 1,
+            "the_vault:ornate_barrel{LootTable:\"the_vault:ornate_chest_lvl0\"}": 1
           },
           "failure": {
             "minecraft:air": 1
           }
         },
         {
-          "level": 40,
+          "level": 20,
           "probability": 0.75,
           "success": {
-            "the_vault:living_barrel{LootTable:\"the_vault:living_dungeon_barrel_lvl40\"}": 1
+            "the_vault:gilded_barrel{LootTable:\"the_vault:gilded_chest_lvl20\"}": 1,
+            "the_vault:living_barrel{LootTable:\"the_vault:living_chest_lvl20\"}": 1,
+            "the_vault:ornate_barrel{LootTable:\"the_vault:ornate_chest_lvl20\"}": 1
           },
           "failure": {
             "minecraft:air": 1
@@ -41,7 +45,21 @@
           "level": 50,
           "probability": 0.75,
           "success": {
-            "the_vault:living_barrel{LootTable:\"the_vault:living_dungeon_barrel_lvl50\"}": 1
+            "the_vault:gilded_barrel{LootTable:\"the_vault:gilded_chest_lvl50\"}": 1,
+            "the_vault:living_barrel{LootTable:\"the_vault:living_chest_lvl50\"}": 1,
+            "the_vault:ornate_barrel{LootTable:\"the_vault:ornate_chest_lvl50\"}": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 65,
+          "probability": 0.75,
+          "success": {
+            "the_vault:gilded_barrel{LootTable:\"the_vault:gilded_chest_lvl50\"}": 1,
+            "the_vault:living_barrel{LootTable:\"the_vault:living_chest_lvl60\"}": 1,
+            "the_vault:ornate_barrel{LootTable:\"the_vault:ornate_chest_lvl65\"}": 1
           },
           "failure": {
             "minecraft:air": 1
