@@ -214,6 +214,20 @@
                   "max": 1
                 }
               }
+            },
+            {
+              "weight": 5,
+              "item": {
+                "id": "the_vault:deck_socket",
+                "nbt": {
+                  "Modifier": "@colour_cores"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
             }
         ]
         },
@@ -291,6 +305,20 @@
                 "id": "the_vault:inscription",
                 "nbt": {
                   "pool": "the_vault:random"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "the_vault:deck_socket",
+                "nbt": {
+                  "Modifier": "@colour_cores"
                 },
                 "count": {
                   "type": "uniform",
