@@ -1,0 +1,2066 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jan 29, 2026, 12:15:07 PM
+
+#c:climate_wet
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:blooming_valley
+- terralith:caldera
+- terralith:desert_oasis
+- terralith:fractured_savanna
+- terralith:granite_cliffs
+- terralith:gravel_beach
+- terralith:ice_marsh
+- terralith:jungle_mountains
+- terralith:mirage_isles
+- terralith:orchid_swamp
+- terralith:red_oasis
+- terralith:rocky_jungle
+- terralith:tropical_jungle
+- terralith:white_cliffs
+- terralith:yellowstone
+- terralith:cave/thermal_caves
+
+#minecraft:has_structure/nether_fortress
+- #minecraft:is_nether
+
+#forge:is_slope
+- minecraft:savanna_plateau
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- terralith:alpine_grove
+- terralith:amethyst_canyon
+- terralith:ashen_savanna
+- terralith:blooming_valley
+- terralith:caldera
+- terralith:glacial_chasm
+- terralith:jungle_mountains
+- terralith:lavender_valley
+- terralith:moonlight_valley
+- terralith:rocky_jungle
+- terralith:rocky_mountains
+- terralith:sakura_valley
+- terralith:sandstone_valley
+- terralith:savanna_slopes
+- terralith:siberian_grove
+- terralith:stony_spires
+
+#minecraft:is_river
+- minecraft:river
+- minecraft:frozen_river
+- minecraft:river
+- minecraft:frozen_river
+
+#minecraft:has_structure/mineshaft
+- #minecraft:is_ocean
+- #minecraft:is_river
+- #minecraft:is_beach
+- #minecraft:is_mountain
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:windswept_savanna
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna_plateau
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- #minecraft:is_ocean
+- #minecraft:is_river
+- #minecraft:is_beach
+- #minecraft:is_mountain
+- #minecraft:is_hill
+- #minecraft:is_taiga
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:windswept_savanna
+- minecraft:desert
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:swamp
+- minecraft:savanna_plateau
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- #terralith:all_terralith_biomes
+
+#minecraft:has_structure/jungle_temple
+- minecraft:bamboo_jungle
+- minecraft:jungle
+- minecraft:bamboo_jungle
+- minecraft:jungle
+- terralith:tropical_jungle
+- terralith:rocky_jungle
+
+#c:mushroom
+- terralith:mirage_isles
+- terralith:cave/fungal_caves
+
+#iceandfire:has_structure/mausoleum
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:snowy_taiga
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:frozen_river
+- minecraft:snowy_beach
+- terralith:wintry_lowlands
+- terralith:wintry_forest
+
+#c:tree_coniferous
+- terralith:alpine_grove
+- terralith:alpine_highlands
+- terralith:bryce_canyon
+- terralith:cloud_forest
+- terralith:forested_highlands
+- terralith:lush_valley
+- terralith:rocky_shrubland
+- terralith:scarlet_mountains
+- terralith:shield
+- terralith:siberian_grove
+- terralith:siberian_taiga
+- terralith:skylands_winter
+- terralith:snowy_maple_forest
+- terralith:snowy_shield
+- terralith:valley_clearing
+- terralith:wintry_forest
+- terralith:wintry_lowlands
+
+#c:mountain
+- terralith:desert_canyon
+- terralith:desert_spires
+- terralith:forested_highlands
+- terralith:haze_mountain
+- terralith:highlands
+- terralith:mountain_steppe
+- terralith:painted_mountains
+- terralith:scarlet_mountains
+- terralith:temperate_highlands
+
+#terralith:all_terralith_biomes
+- terralith:desert_canyon
+- terralith:cave/andesite_caves
+- terralith:cave/crystal_caves
+- terralith:cave/deep_caves
+- terralith:cave/desert_caves
+- terralith:cave/diorite_caves
+- terralith:cave/frostfire_caves
+- terralith:cave/fungal_caves
+- terralith:cave/granite_caves
+- terralith:cave/ice_caves
+- terralith:cave/infested_caves
+- terralith:cave/mantle_caves
+- terralith:cave/thermal_caves
+- terralith:cave/tuff_caves
+- terralith:alpha_islands_winter
+- terralith:alpha_islands
+- terralith:alpine_grove
+- terralith:alpine_highlands
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:ancient_sands
+- terralith:arid_highlands
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:birch_taiga
+- terralith:blooming_plateau
+- terralith:blooming_valley
+- terralith:brushland
+- terralith:bryce_canyon
+- terralith:caldera
+- terralith:cloud_forest
+- terralith:cold_shrubland
+- terralith:desert_oasis
+- terralith:desert_spires
+- terralith:emerald_peaks
+- terralith:forested_highlands
+- terralith:fractured_savanna
+- terralith:frozen_cliffs
+- terralith:glacial_chasm
+- terralith:granite_cliffs
+- terralith:gravel_beach
+- terralith:gravel_desert
+- terralith:haze_mountain
+- terralith:highlands
+- terralith:hot_shrubland
+- terralith:ice_marsh
+- terralith:jungle_mountains
+- terralith:lavender_forest
+- terralith:lavender_valley
+- terralith:lush_valley
+- terralith:mirage_isles
+- terralith:moonlight_grove
+- terralith:moonlight_valley
+- terralith:mountain_steppe
+- terralith:orchid_swamp
+- terralith:painted_mountains
+- terralith:red_oasis
+- terralith:rocky_jungle
+- terralith:rocky_mountains
+- terralith:rocky_shrubland
+- terralith:sakura_grove
+- terralith:sakura_valley
+- terralith:sandstone_valley
+- terralith:savanna_badlands
+- terralith:savanna_slopes
+- terralith:scarlet_mountains
+- terralith:shield_clearing
+- terralith:shield
+- terralith:shrubland
+- terralith:siberian_grove
+- terralith:siberian_taiga
+- terralith:skylands_autumn
+- terralith:skylands_spring
+- terralith:skylands_summer
+- terralith:skylands_winter
+- terralith:skylands
+- terralith:snowy_badlands
+- terralith:snowy_maple_forest
+- terralith:snowy_shield
+- terralith:steppe
+- terralith:stony_spires
+- terralith:temperate_highlands
+- terralith:tropical_jungle
+- terralith:valley_clearing
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:warm_river
+- terralith:warped_mesa
+- terralith:white_cliffs
+- terralith:white_mesa
+- terralith:windswept_spires
+- terralith:wintry_forest
+- terralith:yellowstone
+- terralith:yosemite_cliffs
+- terralith:yosemite_lowlands
+
+#c:savanna
+- terralith:arid_highlands
+- terralith:ashen_savanna
+- terralith:brushland
+- terralith:fractured_savanna
+- terralith:hot_shrubland
+- terralith:savanna_badlands
+- terralith:savanna_slopes
+- terralith:shrubland
+
+#minecraft:is_jungle
+- minecraft:bamboo_jungle
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:jungle
+- minecraft:sparse_jungle
+- terralith:rocky_jungle
+- terralith:jungle_mountains
+- terralith:tropical_jungle
+- terralith:amethyst_rainforest
+- terralith:amethyst_canyon
+
+#forge:is_hot/nether
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:basalt_deltas
+
+#minecraft:is_ocean
+- #minecraft:is_deep_ocean
+- minecraft:frozen_ocean
+- minecraft:ocean
+- minecraft:cold_ocean
+- minecraft:lukewarm_ocean
+- minecraft:warm_ocean
+- #minecraft:is_deep_ocean
+- minecraft:frozen_ocean
+- minecraft:ocean
+- minecraft:cold_ocean
+- minecraft:lukewarm_ocean
+- minecraft:warm_ocean
+
+#forge:is_overworld/biomesoplenty
+- biomesoplenty:bamboo_grove?
+- biomesoplenty:bayou?
+- biomesoplenty:bog?
+- biomesoplenty:boreal_forest?
+- biomesoplenty:cherry_blossom_grove?
+- biomesoplenty:clover_patch?
+- biomesoplenty:cold_desert?
+- biomesoplenty:coniferous_forest?
+- biomesoplenty:crag?
+- biomesoplenty:dead_forest?
+- biomesoplenty:dryland?
+- biomesoplenty:dune_beach?
+- biomesoplenty:field?
+- biomesoplenty:fir_clearing?
+- biomesoplenty:floodplain?
+- biomesoplenty:forested_field?
+- biomesoplenty:fungal_jungle?
+- biomesoplenty:glowing_grotto?
+- biomesoplenty:grassland?
+- biomesoplenty:highland?
+- biomesoplenty:highland_moor?
+- biomesoplenty:jade_cliffs?
+- biomesoplenty:lavender_field?
+- biomesoplenty:lavender_forest?
+- biomesoplenty:lush_desert?
+- biomesoplenty:lush_savanna?
+- biomesoplenty:maple_woods?
+- biomesoplenty:marsh?
+- biomesoplenty:mediterranean_forest?
+- biomesoplenty:muskeg?
+- biomesoplenty:mystic_grove?
+- biomesoplenty:old_growth_dead_forest?
+- biomesoplenty:old_growth_woodland?
+- biomesoplenty:ominous_woods?
+- biomesoplenty:orchard?
+- biomesoplenty:origin_valley?
+- biomesoplenty:pasture?
+- biomesoplenty:prairie?
+- biomesoplenty:pumpkin_patch?
+- biomesoplenty:rainbow_hills?
+- biomesoplenty:rainforest?
+- biomesoplenty:redwood_forest?
+- biomesoplenty:rocky_rainforest?
+- biomesoplenty:rocky_shrubland?
+- biomesoplenty:scrubland?
+- biomesoplenty:seasonal_forest?
+- biomesoplenty:shrubland?
+- biomesoplenty:snowy_coniferous_forest?
+- biomesoplenty:snowy_fir_clearing?
+- biomesoplenty:snowy_maple_woods?
+- biomesoplenty:spider_nest?
+- biomesoplenty:tropics?
+- biomesoplenty:tundra?
+- biomesoplenty:volcanic_plains?
+- biomesoplenty:volcano?
+- biomesoplenty:wasteland?
+- biomesoplenty:wetland?
+- biomesoplenty:wooded_scrubland?
+- biomesoplenty:wooded_wasteland?
+- biomesoplenty:woodland?
+
+#ae2:has_meteorites
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:swamp
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+- minecraft:windswept_savanna
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:river
+- minecraft:frozen_river
+- minecraft:beach
+- minecraft:snowy_beach
+- minecraft:stony_shore
+- minecraft:warm_ocean
+- minecraft:lukewarm_ocean
+- minecraft:deep_lukewarm_ocean
+- minecraft:ocean
+- minecraft:deep_ocean
+- minecraft:cold_ocean
+- minecraft:deep_cold_ocean
+- minecraft:frozen_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:mushroom_fields
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#rottencreatures:frostbitten_blacklist
+
+#c:caves
+- terralith:cave/andesite_caves
+- terralith:cave/crystal_caves
+- terralith:cave/deep_caves
+- terralith:cave/desert_caves
+- terralith:cave/diorite_caves
+- terralith:cave/frostfire_caves
+- terralith:cave/fungal_caves
+- terralith:cave/granite_caves
+- terralith:cave/ice_caves
+- terralith:cave/infested_caves
+- terralith:cave/mantle_caves
+- terralith:cave/thermal_caves
+- terralith:cave/tuff_caves
+
+#c:floral
+- terralith:blooming_plateau
+- terralith:blooming_valley
+- terralith:orchid_swamp
+
+#forge:is_hot/overworld
+- minecraft:desert
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:stony_peaks
+- minecraft:warm_ocean
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:bamboo_jungle
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:ancient_sands
+- terralith:arid_highlands
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:brushland
+- terralith:bryce_canyon
+- terralith:desert_canyon
+- terralith:desert_oasis
+- terralith:desert_spires
+- terralith:fractured_savanna
+- terralith:granite_cliffs
+- terralith:hot_shrubland
+- terralith:jungle_mountains
+- terralith:orchid_swamp
+- terralith:painted_mountains
+- terralith:red_oasis
+- terralith:rocky_jungle
+- terralith:sandstone_valley
+- terralith:savanna_badlands
+- terralith:savanna_slopes
+- terralith:shrubland
+- terralith:skylands_summer
+- terralith:tropical_jungle
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:warm_river
+- terralith:warped_mesa
+- terralith:white_mesa
+- terralith:cave/desert_caves
+- terralith:cave/frostfire_caves
+- terralith:cave/mantle_caves
+- terralith:cave/thermal_caves
+
+#forge:is_cold
+- minecraft:taiga
+- minecraft:the_end
+- minecraft:frozen_ocean
+- minecraft:frozen_river
+- minecraft:snowy_plains
+- minecraft:snowy_beach
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+- minecraft:cold_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:ice_spikes
+
+#forge:is_sparse/overworld
+- minecraft:windswept_forest
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:wooded_badlands
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:dripstone_caves
+- terralith:alpine_grove
+- terralith:arid_highlands
+- terralith:brushland
+- terralith:cold_shrubland
+- terralith:highlands
+- terralith:hot_shrubland
+- terralith:rocky_shrubland
+- terralith:savanna_badlands
+- terralith:shield_clearing
+- terralith:steppe
+- terralith:valley_clearing
+- terralith:windswept_spires
+- terralith:yosemite_cliffs
+
+#forge:is_overworld
+- #forge:is_overworld/biomesoplenty?
+- #terralith:all_terralith_biomes?
+- #tectonic:all_tectonic_biomes?
+- #minecraft:is_overworld?
+- minecraft:ocean
+- minecraft:plains
+- minecraft:desert
+- minecraft:windswept_hills
+- minecraft:forest
+- minecraft:taiga
+- minecraft:swamp
+- minecraft:river
+- minecraft:frozen_ocean
+- minecraft:frozen_river
+- minecraft:snowy_plains
+- minecraft:mushroom_fields
+- minecraft:beach
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:deep_ocean
+- minecraft:stony_shore
+- minecraft:snowy_beach
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:windswept_forest
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:stony_peaks
+- minecraft:warm_ocean
+- minecraft:lukewarm_ocean
+- minecraft:cold_ocean
+- minecraft:deep_lukewarm_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:sunflower_plains
+- minecraft:windswept_gravelly_hills
+- minecraft:flower_forest
+- minecraft:ice_spikes
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_spruce_taiga
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:bamboo_jungle
+- minecraft:lush_caves
+- minecraft:dripstone_caves
+
+#overvaults:has_structure/portal
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:savanna
+- minecraft:swamp
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- #minecraft:is_mountain
+- #minecraft:is_taiga
+- #minecraft:is_ocean
+- terralith:cloud_forest?
+- terralith:forested_highlands?
+- terralith:lavender_forest?
+- terralith:lavender_valley?
+- terralith:moonlight_grove?
+- terralith:moonlight_valley?
+- terralith:rocky_shrubland?
+- terralith:shrubland?
+- terralith:wintry_forest?
+- terralith:alpine_grove?
+- terralith:cold_shrubland?
+- terralith:snowy_badlands?
+- terralith:snowy_shield?
+- terralith:blooming_plateau?
+- terralith:blooming_valley?
+
+#terralith:has_structure/fortified_desert_village
+- minecraft:desert
+- terralith:desert_oasis
+
+#minecraft:has_structure/buried_treasure
+- #minecraft:is_beach
+- #minecraft:is_beach
+
+#minecraft:has_structure/ocean_ruin_cold
+- minecraft:frozen_ocean
+- minecraft:cold_ocean
+- minecraft:ocean
+- minecraft:deep_frozen_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_ocean
+
+#forge:is_desert
+- terralith:desert_canyon
+- terralith:desert_oasis
+- terralith:desert_spires
+- terralith:sandstone_valley
+
+#iceandfire:has_structure/graveyard
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:swamp
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+- minecraft:windswept_savanna
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:river
+- minecraft:frozen_river
+- minecraft:mushroom_fields
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+
+#c:badlands
+- terralith:ancient_sands
+- terralith:bryce_canyon
+- terralith:painted_mountains
+- terralith:red_oasis
+- terralith:warped_mesa
+- terralith:white_mesa
+
+#minecraft:has_structure/stronghold
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+- minecraft:windswept_savanna
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:mushroom_fields
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- minecraft:the_void
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+- minecraft:windswept_savanna
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:mushroom_fields
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- #terralith:all_terralith_biomes
+
+#minecraft:has_structure/mineshaft_mesa
+- #minecraft:is_badlands
+- #minecraft:is_badlands
+
+#forge:is_peak
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:stony_peaks
+- terralith:emerald_peaks
+- terralith:fractured_savanna
+- terralith:frozen_cliffs
+- terralith:mirage_isles
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:warped_mesa
+
+#minecraft:has_structure/shipwreck
+- #minecraft:is_ocean
+- #minecraft:is_ocean
+
+#c:snowy_plains
+- terralith:gravel_desert
+- terralith:rocky_shrubland
+
+#forge:is_wet/overworld
+- minecraft:swamp
+- minecraft:jungle
+- minecraft:bamboo_jungle
+- minecraft:lush_caves
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:blooming_valley
+- terralith:caldera
+- terralith:desert_oasis
+- terralith:fractured_savanna
+- terralith:granite_cliffs
+- terralith:gravel_beach
+- terralith:ice_marsh
+- terralith:jungle_mountains
+- terralith:mirage_isles
+- terralith:orchid_swamp
+- terralith:red_oasis
+- terralith:rocky_jungle
+- terralith:tropical_jungle
+- terralith:white_cliffs
+- terralith:yellowstone
+- terralith:cave/thermal_caves
+
+#c:vegetation_dense
+- terralith:jungle_mountains
+- terralith:lush_valley
+- terralith:skylands_winter
+- terralith:tropical_jungle
+- terralith:wintry_forest
+- terralith:wintry_lowlands
+
+#c:jungle
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:jungle_mountains
+- terralith:rocky_jungle
+- terralith:skylands_summer
+- terralith:tropical_jungle
+
+#forge:is_hot
+- minecraft:desert
+- minecraft:nether_wastes
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:stony_peaks
+- minecraft:warm_ocean
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:bamboo_jungle
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:basalt_deltas
+
+#minecraft:has_structure/igloo
+- minecraft:snowy_taiga
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- minecraft:snowy_taiga
+- minecraft:snowy_plains
+- minecraft:snowy_slopes
+- terralith:wintry_forest
+- terralith:snowy_badlands
+
+#c:wasteland
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:caldera
+- terralith:gravel_desert
+- terralith:ice_marsh
+- terralith:snowy_badlands
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:yellowstone
+
+#rottencreatures:swampy_whitelist
+- #minecraft:has_structure/ruined_portal_swamp?
+
+#minecraft:has_structure/shipwreck_beached
+- #minecraft:is_beach
+- #minecraft:is_beach
+
+#minecraft:is_hill
+- minecraft:windswept_hills
+- minecraft:windswept_forest
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_hills
+- minecraft:windswept_forest
+- minecraft:windswept_gravelly_hills
+- terralith:fractured_savanna
+- terralith:cloud_forest
+- terralith:jungle_mountains
+- terralith:haze_mountain
+
+#forge:is_wet
+- minecraft:swamp
+- minecraft:jungle
+- minecraft:sparse_jungle
+- minecraft:sparse_jungle
+- minecraft:bamboo_jungle
+- minecraft:lush_caves
+
+#forge:is_cold/end
+- minecraft:the_end
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+
+#c:forest
+- terralith:alpha_islands
+- terralith:birch_taiga
+- terralith:lavender_forest
+- terralith:lavender_valley
+- terralith:mirage_isles
+- terralith:moonlight_grove
+- terralith:sakura_grove
+- terralith:sakura_valley
+- terralith:skylands
+- terralith:skylands_autumn
+- terralith:skylands_spring
+- terralith:temperate_highlands
+- terralith:white_cliffs
+- terralith:yosemite_lowlands
+
+#c:dead
+- terralith:ashen_savanna
+- terralith:gravel_desert
+
+#c:deep_ocean
+
+#c:swamp
+- terralith:ice_marsh
+- terralith:orchid_swamp
+
+#forge:is_plains
+- minecraft:plains
+- minecraft:snowy_plains
+- minecraft:meadow
+- minecraft:sunflower_plains
+- terralith:alpine_highlands
+- terralith:highlands
+- terralith:rocky_shrubland
+
+#rottencreatures:mummy_whitelist
+- #minecraft:has_structure/desert_pyramid?
+
+#forge:is_mountain
+- terralith:desert_canyon
+- terralith:desert_spires
+- terralith:forested_highlands
+- terralith:haze_mountain
+- terralith:mountain_steppe
+- terralith:painted_mountains
+- terralith:scarlet_mountains
+- terralith:temperate_highlands
+
+#rottencreatures:undead_miner_blacklist
+- minecraft:mushroom_fields
+
+#c:tree_jungle
+- terralith:amethyst_rainforest
+- terralith:jungle_mountains
+- terralith:rocky_jungle
+- terralith:skylands_summer
+
+#minecraft:has_structure/ocean_monument
+- #minecraft:is_deep_ocean
+
+#rottencreatures:glacial_hunter_blacklist
+
+#forge:is_sandy
+- minecraft:desert
+- minecraft:badlands
+- minecraft:wooded_badlands
+- terralith:ancient_sands
+- terralith:desert_canyon
+- terralith:desert_oasis
+- terralith:sandstone_valley
+- terralith:snowy_badlands
+
+#forge:is_beach
+- minecraft:beach
+- minecraft:stony_shore
+- minecraft:snowy_beach
+
+#overvaults:has_structure/portal_desert
+- minecraft:desert
+- terralith:lush_desert?
+
+#minecraft:has_structure/ruined_portal_jungle
+- #minecraft:is_jungle
+- #minecraft:is_jungle
+
+#overvaults:has_structure/portal_red_desert
+- minecraft:badlands
+- minecraft:wooded_badlands
+- minecraft:eroded_badlands
+- terralith:white_mesa?
+- terralith:warped_mesa?
+
+#c:climate_cold
+- terralith:alpha_islands_winter
+- terralith:alpine_grove
+- terralith:alpine_highlands
+- terralith:birch_taiga
+- terralith:caldera
+- terralith:cloud_forest
+- terralith:cold_shrubland
+- terralith:emerald_peaks
+- terralith:forested_highlands
+- terralith:frozen_cliffs
+- terralith:glacial_chasm
+- terralith:gravel_desert
+- terralith:haze_mountain
+- terralith:highlands
+- terralith:ice_marsh
+- terralith:rocky_mountains
+- terralith:rocky_shrubland
+- terralith:scarlet_mountains
+- terralith:shield
+- terralith:shield_clearing
+- terralith:siberian_grove
+- terralith:siberian_taiga
+- terralith:skylands_winter
+- terralith:snowy_badlands
+- terralith:snowy_maple_forest
+- terralith:snowy_shield
+- terralith:valley_clearing
+- terralith:wintry_forest
+- terralith:wintry_lowlands
+- terralith:yellowstone
+- terralith:cave/frostfire_caves
+- terralith:cave/ice_caves
+
+#quark:stoneling_pathfinding
+- quark:glimmering_weald
+
+#minecraft:has_structure/desert_pyramid
+- minecraft:desert
+- minecraft:desert
+- terralith:desert_oasis
+- terralith:sandstone_valley
+- terralith:desert_spires
+
+#minecraft:has_structure/ruined_portal_ocean
+- #minecraft:is_ocean
+- #minecraft:is_ocean
+
+#forge:is_rare
+- minecraft:mushroom_fields
+- minecraft:sparse_jungle
+- minecraft:savanna_plateau
+- minecraft:sunflower_plains
+- minecraft:windswept_gravelly_hills
+- minecraft:flower_forest
+- minecraft:ice_spikes
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_spruce_taiga
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:bamboo_jungle
+- terralith:alpha_islands
+- terralith:alpha_islands_winter
+- terralith:mirage_isles
+- terralith:painted_mountains
+- terralith:skylands
+- terralith:skylands_autumn
+- terralith:skylands_spring
+- terralith:skylands_summer
+- terralith:skylands_winter
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:warped_mesa
+- terralith:windswept_spires
+- terralith:yellowstone
+
+#c:river
+- terralith:warm_river
+
+#forge:is_plateau
+- minecraft:savanna_plateau
+- minecraft:wooded_badlands
+- minecraft:meadow
+- terralith:alpine_highlands
+- terralith:arid_highlands
+- terralith:blooming_plateau
+- terralith:bryce_canyon
+- terralith:highlands
+- terralith:savanna_badlands
+- terralith:shield
+- terralith:shield_clearing
+- terralith:steppe
+- terralith:white_mesa
+- terralith:yellowstone
+- terralith:yosemite_cliffs
+
+#minecraft:is_deep_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_ocean
+- minecraft:deep_lukewarm_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_ocean
+- minecraft:deep_lukewarm_ocean
+
+#iceandfire:has_structure/gorgon_temple
+- minecraft:beach
+- minecraft:snowy_beach
+- minecraft:stony_shore
+
+#rottencreatures:swampy_blacklist
+
+#minecraft:is_nether
+- minecraft:nether_wastes
+- minecraft:basalt_deltas
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:nether_wastes
+- minecraft:basalt_deltas
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+
+#forge:is_lush
+- minecraft:lush_caves
+- terralith:white_cliffs
+
+#forge:is_dry/overworld
+- minecraft:desert
+- minecraft:badlands
+- minecraft:wooded_badlands
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- terralith:alpine_highlands
+- terralith:ancient_sands
+- terralith:arid_highlands
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:brushland
+- terralith:bryce_canyon
+- terralith:desert_canyon
+- terralith:desert_spires
+- terralith:hot_shrubland
+- terralith:painted_mountains
+- terralith:rocky_shrubland
+- terralith:sandstone_valley
+- terralith:savanna_badlands
+- terralith:savanna_slopes
+- terralith:shrubland
+- terralith:siberian_taiga
+- terralith:snowy_badlands
+- terralith:stony_spires
+- terralith:valley_clearing
+- terralith:warped_mesa
+- terralith:white_mesa
+- terralith:cave/desert_caves
+
+#c:climate_hot
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:ancient_sands
+- terralith:arid_highlands
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:brushland
+- terralith:bryce_canyon
+- terralith:desert_canyon
+- terralith:desert_oasis
+- terralith:desert_spires
+- terralith:fractured_savanna
+- terralith:granite_cliffs
+- terralith:hot_shrubland
+- terralith:jungle_mountains
+- terralith:orchid_swamp
+- terralith:painted_mountains
+- terralith:red_oasis
+- terralith:rocky_jungle
+- terralith:sandstone_valley
+- terralith:savanna_badlands
+- terralith:savanna_slopes
+- terralith:shrubland
+- terralith:skylands_summer
+- terralith:tropical_jungle
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:warm_river
+- terralith:warped_mesa
+- terralith:white_mesa
+- terralith:cave/desert_caves
+- terralith:cave/mantle_caves
+- terralith:cave/thermal_caves
+
+#c:desert
+- terralith:desert_canyon
+- terralith:desert_oasis
+- terralith:desert_spires
+- terralith:sandstone_valley
+
+#minecraft:has_structure/woodland_mansion
+- minecraft:dark_forest
+- minecraft:dark_forest
+- terralith:sakura_grove
+
+#rottencreatures:glacial_hunter_whitelist
+- minecraft:ice_spikes
+- #minecraft:has_structure/igloo?
+
+#forge:is_void
+- minecraft:the_void
+
+#rottencreatures:mummy_blacklist
+
+#forge:is_savanna
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+
+#forge:is_dry
+- minecraft:desert
+- minecraft:nether_wastes
+- minecraft:the_end
+- minecraft:badlands
+- minecraft:wooded_badlands
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:basalt_deltas
+
+#c:mountain_peak
+- terralith:emerald_peaks
+- terralith:fractured_savanna
+- terralith:frozen_cliffs
+- terralith:mirage_isles
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:warped_mesa
+
+#minecraft:has_structure/ocean_ruin_warm
+- minecraft:lukewarm_ocean
+- minecraft:warm_ocean
+- minecraft:deep_lukewarm_ocean
+
+#c:shallow_ocean
+
+#overvaults:has_structure/portal_end
+- minecraft:end_highlands
+
+#overvaults:has_structure/portal_snow
+- minecraft:snowy_taiga
+- minecraft:snowy_slopes
+- minecraft:snowy_plains
+- minecraft:frozen_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:ice_spikes
+- terralith:snowy_badlands?
+- terralith:snowy_shield?
+- terralith:snowy_maple_forest?
+
+#terralith:has_structure/fortified_village
+- minecraft:plains
+- minecraft:sunflower_plains
+- terralith:temperate_highlands
+- terralith:forested_highlands
+- terralith:alpine_highlands
+- terralith:brushland
+- minecraft:meadow
+
+#forge:is_mushroom
+- minecraft:mushroom_fields
+- terralith:mirage_isles
+- terralith:cave/fungal_caves
+
+#c:flower_forests
+- terralith:cloud_forest
+- terralith:lavender_forest
+- terralith:lavender_valley
+- terralith:moonlight_grove
+- terralith:moonlight_valley
+- terralith:sakura_grove
+- terralith:sakura_valley
+- terralith:skylands_spring
+
+#c:tree_deciduous
+- terralith:alpha_islands
+- terralith:alpha_islands_winter
+- terralith:alpine_highlands
+- terralith:birch_taiga
+- terralith:haze_mountain
+- terralith:ice_marsh
+- terralith:lavender_forest
+- terralith:lavender_valley
+- terralith:mirage_isles
+- terralith:sakura_grove
+- terralith:skylands_autumn
+- terralith:skylands_spring
+- terralith:temperate_highlands
+- terralith:white_cliffs
+
+#minecraft:has_structure/village_desert
+- minecraft:desert
+- minecraft:desert
+- terralith:sandstone_valley
+- terralith:desert_oasis
+
+#c:tree_savanna
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:arid_highlands
+- terralith:brushland
+- terralith:hot_shrubland
+- terralith:moonlight_grove
+- terralith:moonlight_valley
+- terralith:savanna_badlands
+- terralith:savanna_slopes
+
+#minecraft:is_forest
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:old_growth_birch_forest
+- minecraft:dark_forest
+- minecraft:grove
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:old_growth_birch_forest
+- minecraft:dark_forest
+- minecraft:grove
+- terralith:alpine_grove
+- terralith:cloud_forest
+
+#minecraft:is_overworld
+- #terralith:all_terralith_biomes
+
+#c:icy
+- terralith:frozen_cliffs
+- terralith:glacial_chasm
+- terralith:skylands_winter
+
+#supplementaries:has_way_signs
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:snowy_plains
+- minecraft:ice_spikes
+- minecraft:desert
+- minecraft:swamp
+- minecraft:forest
+- minecraft:flower_forest
+- minecraft:birch_forest
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:windswept_hills
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_forest
+- minecraft:windswept_savanna
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:meadow
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:beach
+- minecraft:snowy_beach
+- minecraft:stony_shore
+- minecraft:mushroom_fields
+
+#minecraft:has_structure/village_savanna
+- minecraft:savanna
+- minecraft:savanna
+- terralith:arid_highlands
+- terralith:hot_shrubland
+- terralith:savanna_slopes
+- terralith:savanna_badlands
+
+#c:stony_shores
+- terralith:amethyst_canyon
+- terralith:basalt_cliffs
+- terralith:granite_cliffs
+- terralith:gravel_beach
+
+#rottencreatures:dead_beard_blacklist
+
+#c:mountain_slope
+- terralith:alpine_grove
+- terralith:amethyst_canyon
+- terralith:ashen_savanna
+- terralith:blooming_valley
+- terralith:caldera
+- terralith:glacial_chasm
+- terralith:jungle_mountains
+- terralith:lavender_valley
+- terralith:moonlight_valley
+- terralith:rocky_jungle
+- terralith:rocky_mountains
+- terralith:sakura_valley
+- terralith:sandstone_valley
+- terralith:savanna_slopes
+- terralith:siberian_grove
+- terralith:stony_spires
+
+#minecraft:has_structure/village_taiga
+- minecraft:taiga
+- minecraft:taiga
+- terralith:highlands
+- terralith:forested_highlands
+- terralith:siberian_taiga
+- terralith:shield
+- terralith:shield_clearing
+- terralith:cold_shrubland
+- terralith:rocky_shrubland
+- terralith:lush_valley
+- terralith:alpine_highlands
+
+#rottencreatures:undead_miner_whitelist
+- #minecraft:has_structure/stronghold?
+
+#minecraft:has_structure/village_plains
+- minecraft:plains
+- minecraft:meadow
+- minecraft:plains
+- minecraft:meadow
+- terralith:blooming_plateau
+- terralith:steppe
+- terralith:birch_taiga
+- terralith:lavender_forest
+- terralith:temperate_highlands
+
+#c:ocean
+
+#forge:is_end
+- minecraft:the_end
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+
+#forge:is_coniferous
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:grove
+- terralith:alpine_grove
+- terralith:alpine_highlands
+- terralith:bryce_canyon
+- terralith:cloud_forest
+- terralith:forested_highlands
+- terralith:lush_valley
+- terralith:rocky_shrubland
+- terralith:scarlet_mountains
+- terralith:shield
+- terralith:siberian_grove
+- terralith:siberian_taiga
+- terralith:snowy_maple_forest
+- terralith:wintry_forest
+- terralith:wintry_lowlands
+
+#rottencreatures:frostbitten_whitelist
+- minecraft:ice_spikes
+- #minecraft:has_structure/igloo?
+
+#rottencreatures:burned_blacklist
+
+#minecraft:has_structure/ruined_portal_desert
+- minecraft:desert
+- minecraft:desert
+- terralith:sandstone_valley
+- terralith:desert_spires
+- terralith:desert_oasis
+
+#forge:is_snowy
+- minecraft:frozen_ocean
+- minecraft:frozen_river
+- minecraft:snowy_plains
+- minecraft:snowy_beach
+- minecraft:snowy_taiga
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:ice_spikes
+- terralith:alpha_islands_winter
+- terralith:alpine_grove
+- terralith:cold_shrubland
+- terralith:emerald_peaks
+- terralith:gravel_desert
+- terralith:ice_marsh
+- terralith:rocky_mountains
+- terralith:rocky_shrubland
+- terralith:siberian_grove
+- terralith:skylands_winter
+- terralith:snowy_badlands
+- terralith:snowy_maple_forest
+- terralith:snowy_shield
+- terralith:wintry_forest
+- terralith:wintry_lowlands
+
+#forge:is_dense
+- minecraft:jungle
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_spruce_taiga
+
+#minecraft:has_structure/ruined_portal_swamp
+- minecraft:swamp
+- minecraft:swamp
+- terralith:orchid_swamp
+- terralith:ice_marsh
+
+#minecraft:has_structure/swamp_hut
+- minecraft:swamp
+- terralith:orchid_swamp
+- terralith:siberian_taiga
+- terralith:ice_marsh
+
+#rottencreatures:dead_beard_whitelist
+- #minecraft:has_structure/shipwreck_beached?
+
+#forge:is_water
+- #minecraft:is_ocean
+- #minecraft:is_river
+- terralith:warm_river
+
+#minecraft:has_structure/ruined_portal_nether
+- #minecraft:is_nether
+- #minecraft:is_nether
+
+#overvaults:has_structure/portal_leafy
+- #minecraft:is_jungle
+- #minecraft:is_forest
+- minecraft:plains
+- minecraft:sunflower_plains
+- minecraft:savanna
+- minecraft:swamp
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- #minecraft:is_mountain
+- #minecraft:is_taiga
+- terralith:cloud_forest?
+- terralith:highlands?
+- terralith:forested_highlands?
+- terralith:temperate_highlands?
+- terralith:alpine_highlands?
+- terralith:lavender_forest?
+- terralith:lavender_valley?
+- terralith:moonlight_grove?
+- terralith:moonlight_valley?
+- terralith:rocky_shrubland?
+- terralith:shrubland?
+- terralith:brushland?
+- terralith:wintry_forest?
+- terralith:siberian_taiga?
+- terralith:sandstone_valley?
+- terralith:desert_oasis?
+- terralith:blooming_plateau?
+- terralith:blooming_valley?
+
+#c:climate_dry
+- terralith:alpine_highlands
+- terralith:ancient_sands
+- terralith:arid_highlands
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:brushland
+- terralith:bryce_canyon
+- terralith:desert_canyon
+- terralith:desert_spires
+- terralith:hot_shrubland
+- terralith:painted_mountains
+- terralith:rocky_shrubland
+- terralith:sandstone_valley
+- terralith:savanna_badlands
+- terralith:savanna_slopes
+- terralith:shrubland
+- terralith:siberian_taiga
+- terralith:snowy_badlands
+- terralith:stony_spires
+- terralith:valley_clearing
+- terralith:warped_mesa
+- terralith:white_mesa
+- terralith:cave/desert_caves
+
+#forge:is_underground
+- minecraft:lush_caves
+- minecraft:dripstone_caves
+- terralith:cave/andesite_caves
+- terralith:cave/crystal_caves
+- terralith:cave/deep_caves
+- terralith:cave/desert_caves
+- terralith:cave/diorite_caves
+- terralith:cave/frostfire_caves
+- terralith:cave/fungal_caves
+- terralith:cave/granite_caves
+- terralith:cave/ice_caves
+- terralith:cave/infested_caves
+- terralith:cave/mantle_caves
+- terralith:cave/thermal_caves
+- terralith:cave/tuff_caves
+
+#forge:is_dry/nether
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:basalt_deltas
+
+#minecraft:is_beach
+- minecraft:beach
+- minecraft:snowy_beach
+- minecraft:beach
+- minecraft:snowy_beach
+- terralith:gravel_beach
+
+#minecraft:has_structure/ruined_portal_standard
+- #minecraft:is_beach
+- #minecraft:is_river
+- #minecraft:is_taiga
+- #minecraft:is_forest
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+- #minecraft:is_beach
+- #minecraft:is_river
+- #minecraft:is_taiga
+- #minecraft:is_forest
+- minecraft:mushroom_fields
+- minecraft:ice_spikes
+- minecraft:dripstone_caves
+- minecraft:lush_caves
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:plains
+- minecraft:sunflower_plains
+
+#minecraft:has_structure/pillager_outpost
+- minecraft:desert
+- minecraft:plains
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:taiga
+- #minecraft:is_mountain
+- minecraft:grove
+- minecraft:desert
+- minecraft:plains
+- minecraft:savanna
+- minecraft:snowy_plains
+- minecraft:taiga
+- #minecraft:is_mountain
+- minecraft:grove
+- terralith:yellowstone
+- terralith:shield
+- terralith:lush_valley
+- terralith:sakura_valley
+- terralith:sakura_grove
+- terralith:lavender_forest
+
+#c:mesa
+- terralith:ancient_sands
+- terralith:bryce_canyon
+- terralith:painted_mountains
+- terralith:red_oasis
+- terralith:warped_mesa
+- terralith:white_mesa
+
+#minecraft:is_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- minecraft:taiga
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:old_growth_spruce_taiga
+- terralith:birch_taiga
+- terralith:lush_valley
+- terralith:shield
+- terralith:yellowstone
+- terralith:forested_highlands
+- terralith:wintry_forest
+- terralith:yosemite_lowlands
+
+#forge:is_sparse
+- minecraft:windswept_forest
+- minecraft:savanna
+- minecraft:savanna_plateau
+- minecraft:wooded_badlands
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:windswept_gravelly_hills
+- minecraft:windswept_savanna
+- minecraft:eroded_badlands
+- minecraft:dripstone_caves
+
+#forge:is_swamp
+- minecraft:swamp
+- terralith:ice_marsh
+- terralith:orchid_swamp
+
+#forge:is_wasteland
+- minecraft:snowy_plains
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:caldera
+- terralith:gravel_desert
+- terralith:ice_marsh
+- terralith:snowy_badlands
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:yellowstone
+
+#minecraft:is_mountain
+- minecraft:meadow
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:snowy_slopes
+- #forge:is_peak
+- #forge:is_slope
+- minecraft:meadow
+- minecraft:frozen_peaks
+- minecraft:jagged_peaks
+- minecraft:stony_peaks
+- minecraft:snowy_slopes
+- terralith:emerald_peaks
+- terralith:scarlet_mountains
+- terralith:rocky_mountains
+- terralith:caldera
+- terralith:volcanic_peaks
+
+#overvaults:has_structure/portal_nether
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:crimson_forest
+- minecraft:warped_forest
+- minecraft:basalt_deltas
+
+#c:plains
+- terralith:highlands
+
+#minecraft:has_structure/village_snowy
+- minecraft:snowy_plains
+- minecraft:snowy_plains
+- terralith:snowy_badlands
+
+#c:snowy
+- terralith:alpha_islands_winter
+- terralith:alpine_grove
+- terralith:cold_shrubland
+- terralith:emerald_peaks
+- terralith:gravel_desert
+- terralith:ice_marsh
+- terralith:rocky_mountains
+- terralith:rocky_shrubland
+- terralith:siberian_grove
+- terralith:skylands_winter
+- terralith:snowy_badlands
+- terralith:snowy_maple_forest
+- terralith:snowy_shield
+- terralith:wintry_forest
+- terralith:wintry_lowlands
+
+#overvaults:has_structure/portal_ice
+- minecraft:frozen_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:ice_spikes
+- terralith:glacial_chasm?
+- terralith:snowy_shield?
+- terralith:snowy_maple_forest?
+- terralith:frozen_cliffs?
+- #terralith:has_structure/spire?
+
+#minecraft:is_badlands
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- minecraft:badlands
+- minecraft:eroded_badlands
+- minecraft:wooded_badlands
+- terralith:painted_mountains
+- terralith:bryce_canyon
+- terralith:savanna_badlands
+
+#forge:is_dry/end
+- minecraft:the_end
+- minecraft:small_end_islands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_barrens
+
+#c:climate_temperate
+- terralith:alpha_islands
+- terralith:blooming_plateau
+- terralith:blooming_valley
+- terralith:gravel_beach
+- terralith:lavender_forest
+- terralith:lavender_valley
+- terralith:lush_valley
+- terralith:mirage_isles
+- terralith:moonlight_grove
+- terralith:moonlight_valley
+- terralith:sakura_grove
+- terralith:sakura_valley
+- terralith:skylands
+- terralith:skylands_autumn
+- terralith:skylands_spring
+- terralith:steppe
+- terralith:stony_spires
+- terralith:temperate_highlands
+- terralith:valley_clearing
+- terralith:white_cliffs
+- terralith:windswept_spires
+- terralith:yosemite_cliffs
+- terralith:yosemite_lowlands
+
+#terralith:has_structure/spire
+- terralith:wintry_lowlands
+- minecraft:ice_spikes
+- minecraft:frozen_river
+
+#c:aquatic
+- terralith:warm_river
+
+#c:taiga
+- terralith:alpine_highlands
+- terralith:bryce_canyon
+- terralith:cloud_forest
+- terralith:forested_highlands
+- terralith:lush_valley
+- terralith:scarlet_mountains
+- terralith:shield
+- terralith:siberian_grove
+- terralith:siberian_taiga
+- terralith:skylands_winter
+- terralith:snowy_maple_forest
+- terralith:valley_clearing
+- terralith:wintry_forest
+- terralith:wintry_lowlands
+
+#c:aquatic_icy
+
+#minecraft:has_structure/nether_fossil
+- minecraft:soul_sand_valley
+
+#terralith:all_terralith_biomes_no_mineshafts
+- terralith:desert_canyon
+- terralith:cave/andesite_caves
+- terralith:cave/crystal_caves
+- terralith:cave/deep_caves
+- terralith:cave/desert_caves
+- terralith:cave/diorite_caves
+- terralith:cave/fungal_caves
+- terralith:cave/granite_caves
+- terralith:cave/ice_caves
+- terralith:cave/infested_caves
+- terralith:cave/mantle_caves
+- terralith:cave/thermal_caves
+- terralith:cave/tuff_caves
+- terralith:alpine_grove
+- terralith:alpine_highlands
+- terralith:amethyst_canyon
+- terralith:amethyst_rainforest
+- terralith:ancient_sands
+- terralith:arid_highlands
+- terralith:ashen_savanna
+- terralith:basalt_cliffs
+- terralith:birch_taiga
+- terralith:blooming_plateau
+- terralith:blooming_valley
+- terralith:brushland
+- terralith:bryce_canyon
+- terralith:caldera
+- terralith:cloud_forest
+- terralith:cold_shrubland
+- terralith:desert_oasis
+- terralith:desert_spires
+- terralith:emerald_peaks
+- terralith:forested_highlands
+- terralith:fractured_savanna
+- terralith:frozen_cliffs
+- terralith:glacial_chasm
+- terralith:granite_cliffs
+- terralith:gravel_beach
+- terralith:gravel_desert
+- terralith:haze_mountain
+- terralith:highlands
+- terralith:hot_shrubland
+- terralith:ice_marsh
+- terralith:jungle_mountains
+- terralith:lavender_forest
+- terralith:lavender_valley
+- terralith:lush_valley
+- terralith:mirage_isles
+- terralith:moonlight_grove
+- terralith:moonlight_valley
+- terralith:mountain_steppe
+- terralith:orchid_swamp
+- terralith:red_oasis
+- terralith:rocky_jungle
+- terralith:rocky_mountains
+- terralith:rocky_shrubland
+- terralith:sakura_grove
+- terralith:sakura_valley
+- terralith:sandstone_valley
+- terralith:savanna_slopes
+- terralith:scarlet_mountains
+- terralith:shield_clearing
+- terralith:shield
+- terralith:shrubland
+- terralith:siberian_grove
+- terralith:siberian_taiga
+- terralith:skylands_autumn
+- terralith:skylands_spring
+- terralith:skylands_summer
+- terralith:skylands_winter
+- terralith:skylands
+- terralith:snowy_badlands
+- terralith:snowy_maple_forest
+- terralith:snowy_shield
+- terralith:steppe
+- terralith:stony_spires
+- terralith:temperate_highlands
+- terralith:tropical_jungle
+- terralith:valley_clearing
+- terralith:volcanic_crater
+- terralith:volcanic_peaks
+- terralith:warm_river
+- terralith:warped_mesa
+- terralith:white_cliffs
+- terralith:white_mesa
+- terralith:windswept_spires
+- terralith:wintry_forest
+- terralith:yellowstone
+- terralith:yosemite_cliffs
+- terralith:yosemite_lowlands
+
+#c:vegetation_sparse
+- terralith:alpine_grove
+- terralith:arid_highlands
+- terralith:brushland
+- terralith:cold_shrubland
+- terralith:highlands
+- terralith:hot_shrubland
+- terralith:rocky_shrubland
+- terralith:savanna_badlands
+- terralith:savanna_slopes
+- terralith:shield_clearing
+- terralith:steppe
+- terralith:valley_clearing
+- terralith:windswept_spires
+- terralith:yosemite_cliffs
+
+#forge:is_cold/overworld
+- minecraft:taiga
+- minecraft:frozen_ocean
+- minecraft:frozen_river
+- minecraft:snowy_plains
+- minecraft:snowy_beach
+- minecraft:snowy_taiga
+- minecraft:old_growth_pine_taiga
+- minecraft:grove
+- minecraft:snowy_slopes
+- minecraft:jagged_peaks
+- minecraft:frozen_peaks
+- minecraft:cold_ocean
+- minecraft:deep_cold_ocean
+- minecraft:deep_frozen_ocean
+- minecraft:ice_spikes
+- terralith:alpha_islands_winter
+- terralith:alpine_grove
+- terralith:alpine_highlands
+- terralith:birch_taiga
+- terralith:caldera
+- terralith:cloud_forest
+- terralith:cold_shrubland
+- terralith:emerald_peaks
+- terralith:forested_highlands
+- terralith:frozen_cliffs
+- terralith:glacial_chasm
+- terralith:gravel_desert
+- terralith:haze_mountain
+- terralith:highlands
+- terralith:ice_marsh
+- terralith:rocky_mountains
+- terralith:rocky_shrubland
+- terralith:scarlet_mountains
+- terralith:shield
+- terralith:siberian_grove
+- terralith:siberian_taiga
+- terralith:skylands_winter
+- terralith:snowy_badlands
+- terralith:snowy_maple_forest
+- terralith:snowy_shield
+- terralith:wintry_forest
+- terralith:wintry_lowlands
+- terralith:yellowstone
+- terralith:cave/frostfire_caves
+- terralith:cave/ice_caves
+
+#rottencreatures:burned_whitelist
+- minecraft:nether_wastes
+
+#minecraft:has_structure/end_city
+- minecraft:end_highlands
+- minecraft:end_midlands
+- minecraft:end_highlands
+- minecraft:end_midlands
+
+#forge:is_dense/overworld
+- minecraft:jungle
+- minecraft:dark_forest
+- minecraft:old_growth_birch_forest
+- minecraft:old_growth_spruce_taiga
+- terralith:jungle_mountains
+- terralith:lush_valley
+- terralith:skylands_winter
+- terralith:tropical_jungle
+- terralith:wintry_forest
+- terralith:wintry_lowlands
+
+#c:beach
+- terralith:frozen_cliffs
+- terralith:gravel_beach
+
+#c:extreme_hills
+- terralith:blooming_plateau
+- terralith:lush_valley
+- terralith:shield
+- terralith:shield_clearing
+- terralith:snowy_shield
+- terralith:steppe
+- terralith:windswept_spires
+- terralith:yellowstone
+- terralith:yosemite_cliffs
+
+#minecraft:has_structure/bastion_remnant
+- minecraft:crimson_forest
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:warped_forest
+- minecraft:crimson_forest
+- minecraft:nether_wastes
+- minecraft:soul_sand_valley
+- minecraft:warped_forest
+
+#forge:is_spooky
+- minecraft:dark_forest
+- terralith:cave/frostfire_caves
+- terralith:cave/infested_caves
+
+#minecraft:has_structure/ruined_portal_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- minecraft:stony_shore
+- #minecraft:is_mountain
+- #minecraft:is_badlands
+- #minecraft:is_hill
+- minecraft:savanna_plateau
+- minecraft:windswept_savanna
+- terralith:fractured_savanna
+- minecraft:stony_shore
+- #minecraft:is_mountain
