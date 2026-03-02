@@ -1,0 +1,668 @@
+{
+  "tile_processors": [
+    {
+      "type": "reference",
+      "id": "the_vault:generic/treasure_door_placeholder"
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "minecraft:stone",
+          "output": {
+            "minecraft:snow_block": 1
+          }
+        },
+        {
+          "level": 10,
+          "type": "weighted_target",
+          "target": "minecraft:stone",
+          "output": {
+            "minecraft:snow_block": 9,
+            "minecraft:powder_snow": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone",
+      "output": {
+        "auxiliaryblocks:drippy_icing_block": 2,
+        "quark:white_corundum": 1,
+        "auxiliaryblocks:white_crystal": 1,
+        "ecologics:snow_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:gray_concrete",
+      "output": {
+        "auxiliaryblocks:red_gelatin": 2,
+        "auxiliaryblocks:red_crystal": 2,
+        "auxiliaryblocks:lime_gelatin": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass_block",
+      "output": {
+        "auxiliaryblocks:gingerbread_candied_block": 1,
+        "auxiliaryblocks:gingerbread_icing_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dirt",
+      "output": {
+        "auxiliaryblocks:gingerbread_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:coarse_dirt",
+      "output": {
+        "architects_palette:dark_oak_boards": 2,
+        "minecraft:brown_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_slab",
+      "output": {
+        "create:cut_calcite_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_slab",
+      "output": {
+        "create:cut_calcite_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_slab",
+      "output": {
+        "minecraft:spruce_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:purple_wool",
+      "output": {
+        "minecraft:red_mushroom_block": 2,
+        "auxiliaryblocks:candy_cane_block": 3
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:water",
+      "output": {
+        "create:chocolate": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:birch_log",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:birch_fence",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:warped_fence",
+      "output": {
+        "minecraft:spruce_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:warped_wart_block",
+      "output": {
+        "minecraft:spruce_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:shroomlight",
+      "output": {
+        "minecraft:spruce_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:twisted_fence",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cave_vines_plant",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cave_vines",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spore_blossom",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:brown_wool",
+      "output": {
+        "auxiliaryblocks:ornament_blue[face=up]": 1,
+        "auxiliaryblocks:ornament_cyan[face=up]": 1,
+        "auxiliaryblocks:ornament_green[face=up]": 1,
+        "auxiliaryblocks:ornament_light_blue[face=up]": 1,
+        "auxiliaryblocks:ornament_lime[face=up]": 1,
+        "auxiliaryblocks:ornament_orange[face=up]": 1,
+        "auxiliaryblocks:ornament_red[face=up]": 1,
+        "auxiliaryblocks:ornament_pink[face=up]": 1,
+        "auxiliaryblocks:ornament_magenta[face=up]": 1,
+        "auxiliaryblocks:ornament_purple[face=up]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:pink_wool",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass",
+      "output": {
+        "auxiliaryblocks:gumdrop_red": 1,
+        "auxiliaryblocks:gumdrop_green": 1,
+        "auxiliaryblocks:gumdrop_purple": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=lower]",
+      "output": {
+        "supplementaries:trapped_present_purple[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "supplementaries:trapped_present_blue[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "supplementaries:trapped_present_light_blue[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "supplementaries:trapped_present_magenta[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "supplementaries:trapped_present_green[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "supplementaries:trapped_present_yellow[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "supplementaries:trapped_present_red[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "supplementaries:trapped_present_lime[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "supplementaries:trapped_present_black[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "supplementaries:trapped_present_pink[packed=true]{Items: [{Slot: 0b, id: \"minecraft:firework_rocket\", Count: 1b}]}": 1,
+        "minecraft:air": 20
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=upper]",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:twisting_vines_plant",
+      "output": {
+        "auxiliaryblocks:lollipop_stick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:twisting_vines",
+      "output": {
+        "auxiliaryblocks:lollipop_pink[face=down]": 1,
+        "auxiliaryblocks:lollipop_blue[face=down]": 1,
+        "auxiliaryblocks:lollipop_green[face=down]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:fern",
+      "output": {
+        "auxiliaryblocks:ornament_blue[face=down]": 1,
+        "auxiliaryblocks:ornament_cyan[face=down]": 1,
+        "auxiliaryblocks:ornament_green[face=down]": 1,
+        "auxiliaryblocks:ornament_light_blue[face=down]": 1,
+        "auxiliaryblocks:ornament_lime[face=down]": 1,
+        "auxiliaryblocks:ornament_orange[face=down]": 1,
+        "auxiliaryblocks:ornament_red[face=down]": 1,
+        "auxiliaryblocks:ornament_pink[face=down]": 1,
+        "auxiliaryblocks:ornament_magenta[face=down]": 1,
+        "auxiliaryblocks:ornament_purple[face=down]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lime_wool",
+      "output": {
+        "minecraft:spruce_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cyan_wool",
+      "output": {
+        "auxiliaryblocks:white_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_log",
+      "output": {
+        "decorative_blocks:dark_oak_beam": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_wood",
+      "output": {
+        "decorative_blocks:dark_oak_beam": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_leaves",
+      "output": {
+        "minecraft:spruce_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_planks",
+      "output": {
+        "architects_palette:dark_oak_boards": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_fence",
+      "output": {
+        "minecraft:dark_oak_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_slab",
+      "output": {
+        "minecraft:dark_oak_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_trapdoor",
+      "output": {
+        "minecraft:dark_oak_trapdoor": 3,
+        "mcwtrpdoors:dark_oak_barn_trapdoor":2,
+        "mcwtrpdoors:dark_oak_classic_trapdoor": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_stairs",
+      "output": {
+        "minecraft:dark_oak_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_bricks",
+      "output": {
+        "create:cut_crimsite_bricks": 2,
+        "create:polished_cut_crimsite": 2,
+        "quark:netherrack_bricks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_brick_stairs",
+      "output": {
+        "create:cut_crimsite_brick_stairs": 2,
+        "create:polished_cut_crimsite_stairs": 2,
+        "quark:netherrack_bricks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:andesite_pillar",
+      "output": {
+        "create:crimsite_pillar": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:chiseled_stone_bricks",
+      "output": {
+        "auxiliaryblocks:candy_cane_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_brick_slab",
+      "output": {
+        "create:cut_crimsite_brick_slab": 2,
+        "create:polished_cut_crimsite_slab": 2,
+        "quark:netherrack_bricks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:stone_brick_vertical_slab",
+      "output": {
+        "quark:netherrack_bricks_vertical_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:stone_vertical_slab",
+      "output": {
+        "minecraft:snow_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stone_brick_wall",
+      "output": {
+        "create:polished_cut_crimsite_wall": 1,
+        "create:cut_crimsite_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_wall",
+      "output": {
+        "create:cut_calcite_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobblestone_stairs",
+      "output": {
+        "create:cut_calcite_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:mossy_stone_bricks",
+      "output": {
+        "create:cut_crimsite": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:mossy_cobblestone",
+      "output": {
+        "minecraft:red_glazed_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_concrete",
+      "output": {
+        "minecraft:red_mushroom_block": 2,
+        "auxiliaryblocks:candy_cane_block": 3
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:magma_block",
+      "output": {
+        "minecraft:magma_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lava",
+      "output": {
+        "minecraft:lava": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:moss_carpet",
+      "output": {
+        "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "decorative_blocks:brazier",
+      "output": {
+        "decorative_blocks:brazier": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:campfire",
+      "output": {
+        "minecraft:campfire": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "minecraft:lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "supplementaries:wall_lantern{Lantern:{Name:\"minecraft:lantern\"}}",
+      "output": {
+          "supplementaries:wall_lantern{Lantern:{Name:\"fairylights:candle_lantern\",Properties:{waterlogged:\"false\", hanging:\"false\"}}}": 1
+      }
+  },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:soul_lantern",
+      "output": {
+        "minecraft:lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:glass",
+      "output": {
+        "minecraft:light[level=15]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cyan_stained_glass",
+      "output": {
+        "create:chocolate": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:light_blue_stained_glass",
+      "output": {
+        "create:chocolate": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:bookshelf",
+      "output": {
+        "quark:dark_oak_bookshelf": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "ecologics:azalea_log",
+      "output": {
+        "auxiliaryblocks:candy_cane_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "ecologics:azalea_fence",
+      "output": {
+        "quark:blossom_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_crimsite_wall",
+      "output": {
+        "create:cut_calcite_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:azalea_log",
+      "output": {
+        "decorative_blocks:dark_oak_beam": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:azalea_planks",
+      "output": {
+        "architects_palette:dark_oak_boards": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:azalea_planks_stairs",
+      "output": {
+        "minecraft:dark_oak_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_veridium_wall",
+      "output": {
+        "botania:metamorphic_desert_bricks_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sand",
+      "output": {
+          "minecraft:white_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:potted_oak_sapling",
+      "output": {
+          "minecraft:potted_spruce_sapling": 1
+        }
+    },
+    {
+        "type": "weighted_target",
+        "target": "quark:oak_hedge",
+        "output": {
+            "quark:spruce_hedge": 1
+        }
+    },
+    {
+      "type": "weighted_target",
+      "target": "decorative_blocks:oak_support",
+      "output": {
+        "decorative_blocks:dark_oak_support": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:end_stone_bricks",
+      "output": {
+        "create:cut_crimsite": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:end_stone_brick_stairs",
+      "output": {
+        "create:cut_crimsite_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:end_stone_brick_slab",
+      "output": {
+        "create:cut_crimsite_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:end_stone",
+      "output": {
+        "auxiliaryblocks:candy_cane_block": 1
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:chaos/room_base"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/spawners/festive_mobs"
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:generic/festive_common_elite_spawners"
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:wooden_chest",
+      "output": {
+        "the_vault:wooden_chest[variant=present]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gilded_chest",
+      "output": {
+        "the_vault:gilded_chest[variant=present]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:ornate_chest",
+      "output": {
+        "the_vault:ornate_chest[variant=present]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:living_chest",
+      "output": {
+        "the_vault:living_chest[variant=present]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:treasure_chest",
+      "output": {
+        "the_vault:treasure_chest[variant=present]": 1
+      }
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

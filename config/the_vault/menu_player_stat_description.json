@@ -1,0 +1,107 @@
+{
+
+  "PROMINENT_STATS_DESCRIPTIONS": {
+
+    "damage_per_second": "<gray>Your <aqua>average damage per second <gray>against any entity, including any damage affected by <green>attributes <gray>or <green>talents<gray>.",
+    "health": "<gray>Your <aqua>maximum <#22fc25>health <gray>(<aqua>hit points<gray>).",
+    "defense": "<gray>Your <aqua>total protection <gray>including <#4a99cc>Armor<gray>, <#ffd800>Resistance<gray>, and <#f2cd8c>Block Chance<gray>.",
+    "mana": "<gray>Your <aqua>maximum Mana",
+    "greed": "<gray>the maximum greed tier you have achieved within a greed vault"
+  },
+
+  "MOD_GEAR_ATTRIBUTE_DESCRIPTIONS": {
+
+    "the_vault:ability_power": "<gray>Your <aqua>damage dealt <gray>by <aqua>abilities <gray>that scale with <#FF00CB>Ability Power<gray>.",
+    "the_vault:area_of_effect": "<gray>Your total <#e6c174>area of affect<gray>.\n<red>Maximum Obtainable: 80%",
+    "the_vault:armor": "<gray>Your total <#4a99cc>armor <gray>protection.",
+    "the_vault:damage_assassin": "<gray>Your <aqua>additional damage <gray>dealt against <#b349e4>Assassins<gray>.",
+    "the_vault:attack_damage": "<gray>Your <#C23627>attack damage <gray>dealt against <green>any entity<gray>",
+    "the_vault:attack_range": "<gray>Your total <#82d4fc>attack range <gray>dealt against <green>any entity<gray>.",
+    "the_vault:attack_speed": "<gray>Your total <#fcd767>attack speed <gray>dealt against <green>any entity<gray>.",
+    "the_vault:block": "<gray>Your <aqua>chance <gray>to <#f2cd8c>block <gray>any incoming damage<gray>.\n<red>Maximum Obtainable: 60%",
+    "the_vault:on_hit_chain": "<gray>Your <aqua>number <gray>of <#5c5db6>chained entities <green>per hit<gray>.",
+    "the_vault:damage_champion": "<gray>Your <aqua>additional damage <gray>dealt against <#5dcc0c>Champions<gray>.",
+    "the_vault:cooldown_reduction": "<gray>Your <#00f5b2>cooldown reduction <gray>for <aqua>any ability<gray>.\n<red>Maximum Obtainable: 80%",
+    "the_vault:copiously": "<gray>Your <#f4467e>copious <aqua>chance <gray>to <aqua>double <aqua>Ore drops <gray>when mined for the <aqua>first time<gray>.",
+    "the_vault:critical_hit_mitigation": "<gray>Your <aqua>chance <gray>to <aqua>reduce damage <gray>from a <#708bfc>Critical hit<gray>.",
+    "the_vault:damage_increase": "<gray>Your <#fc6a00>additional attack damage <gray>dealt against <green>any entity<gray>.",
+    "the_vault:double_hit_chance": "<gray>Your <aqua>chance <gray>to <#c64026>deal double damage <gray>to <green>any entity<gray>.",
+    "the_vault:damage_dungeon": "<gray>Your <aqua>additional damage <gray>dealt against <#0c8ecc>Dungeon Mobs<gray>.",
+    "the_vault:durability_wear_reduction": "<gray>Your <aqua>chance <gray>to <#68d38d>prevent durability loss <gray>on <green>Vault Gear<gray>.\n<red>Maximum Obtainable: 50%",
+    "the_vault:effect_duration": "<gray>Your additional <#abc7fc>effect duration <gray>for <green>any player applied effects<gray>.",
+    "the_vault:fruit_effectiveness": "<gray>The <aqua>additional percentage <gray>of time gained when <aqua>consuming fruit<gray>.",
+    "the_vault:healing_effectiveness": "<gray>Your additional <#8cfc22>healing effectiveness <gray>from all <green>healing <gray>methods.",
+    "the_vault:health": "<gray>Your <aqua>maximum <#22fc25>health <gray>(<aqua>hit points<gray>).",
+    "the_vault:hit_hearts": "<gray>The <aqua>chance <gray>of a mob dropping a <#22fc25>heart fragment <gray>when killed.",
+    "the_vault:damage_horde": "<gray>Your <aqua>additional damage <gray>dealt against <#c5cc0c>Horde Mobs<gray>.",
+    "the_vault:item_quantity": "<gray>Your <#e58812>increased loot quantity <gray>in <green>any chest<gray>.\n<red>Treasure Chests are not affected by this<gray>.",
+    "the_vault:item_rarity": "<gray>Your <#e7fc00>increased loot rarity <gray>in <green>any chest<gray>.\n<red>Treasure Chests are not affected by this<gray>.",
+    "the_vault:knockback_resistance": "<gray>Your <#fcae0f>knockback resistance <gray>from attacks.",
+    "the_vault:lucky_hit_chance": "<gray>Your <aqua>chance <gray>to <aqua>perform <gray>a <#6DF5A3>lucky hit <gray>dealing <aqua>10% increased damage <gray>or applying additional <#6DF5A3>Lucky Hit <gray>talent effects if unlocked.\n<red>Maximum Obtainable: 56.2%.",
+
+    "the_vault:mana_additive": "<gray>Your <aqua>maximum Mana<gray>.",
+    "the_vault:mana_regen": "<gray>Your <aqua>mana regeneration rate <gray>(<green>100% = 1 mana per second<gray>).",
+    "the_vault:mining_speed": "<gray>Your base <#47b8f5>mining speed <gray>when mining blocks.",
+    "the_vault:mining_speed_percent": "<gray>Your bonus <#47b8f5>mining speed <gray>percentage when mining blocks.",
+    "the_vault:movement_speed": "<gray>Your total <#f3cb0e>movement speed<gray>.",
+    "the_vault:range": "<gray>A <aqua>magnets <gray>extra <#f6b17d>pickup range <gray>in which items start being pulled towards the player.\n<red>Note: Ender Anchor will instantly pickup items within range.",
+    "the_vault:velocity": "<gray>The rate at which <#dbe49d>magnets pull <gray>items towards you.",
+    "the_vault:reach": "<gray>Your total <#82d4fc>reach <gray>distance towards <gray>any block<gray>.\n<red>In Vault Cap: 7.0",
+    "the_vault:resistance": "<gray>Your additional <#fbda00>resistance <gray>to incoming damage sources.\n<red>Maximum Obtainable: 50%",
+    "the_vault:shocking_hit_chance": "<gray>Your <aqua>chance <gray>to <aqua>perform <gray>a <#cfdd5a>Shocking Hit<gray>, shocking back <aqua>entities surrounding <gray>the <aqua>target entity<gray>.",
+    "the_vault:soul_chance": "<gray>Your <aqua>chance <gray>to gain additional <#4700fc>Soul Shards <gray>when <green>unaliving any entity<gray>.",
+    "the_vault:on_hit_stun": "<gray>Your <aqua>chance <gray>to <#19a4e1>stun <gray>an <aqua>entity<gray>.",
+    "the_vault:sweeping_hit_chance": "<gray>Your <aqua>chance <gray>to <aqua>perform <gray>a <#ddb860>Sweeping hit<gray>, sweeping <aqua>entities surrounding <gray>the <aqua>target entity<gray>.",
+    "the_vault:thorns_damage_flat": "<gray>Your <aqua>additional damage <gray>dealt upon <green>performing <gray>a <#e99cbe>Thorns Hit<gray>.",
+    "the_vault:trap_disarming": "<gray>Your <aqua>chance <gray>to <#7f42fc>disarm trapped chests<gray>.",
+
+
+    "the_vault:ap_scaling_damage": "<gray>Your <#fc6a00>bonus damage delt <gray>based on your <#ff4fd8>Ability Power<gray>.",
+    "the_vault:chaining_damage": "<gray>Reduces <#ff0000>damage falloff <gray>when <#5c5db6>chaining <gray>between targets.",
+    "the_vault:trident_channeling_chance": "<gray>Your <aqua>chance <gray>to channel with a <#0E7490>vault trident.",
+    "the_vault:echoing_chance": "<gray>Your <aqua>chance <gray>to apply <#690E97>echoing.",
+    "the_vault:echoing_damage": "<gray>Your <#fc6a00>additional damage <gray>dealt upon <#690E97>echoing.",
+    "the_vault:hexing_chance": "Not sure what this does yet lol",
+    "the_vault:execution_damage": "<gray>Your <#fc6a00>increased damage <gray>against <#ff0000>low health <gray>targets.",
+    "the_vault:reaving_damage": "Not sure what this does yet lol",
+    "the_vault:mana_cost_reduction": "<gray>Your <aqua>mana cost reduction <gray>for <aqua>any ability<gray>.\n<red>Maximum Obtainable: 50%",
+
+
+
+    "the_vault:damage_tank": "<gray>Your <aqua>additional damage <gray>dealt against <#cc340c>Tanks<gray>.",
+    "the_vault:damage_dweller": "<gray>Your <aqua>additional damage <gray>dealt against <#ef8899>Vault Fighters<gray>.",
+
+    "the_vault:damage_spiders": "<gray>Your <aqua>additional damage <gray>dealt against <green>spiders<gray>.",
+    "the_vault:critical_hit_chance": "<gray>Your <aqua>chance <gray>to <green>perform <gray>a <aqua>Critical Hit<gray>.",
+    "the_vault:damage_illagers": "<gray>Your <aqua>damage <gray>dealt against <green>Illagers<gray>.",
+    "the_vault:damage_nether": "<gray>Your <aqua>damage <gray>dealt against <green>Piglins<gray>.",
+    "the_vault:thorns_chance": "<gray>Your <aqua>chance <gray>to <aqua>perform <gray>a <aqua>Thorns Hit <gray>upon <green>being hit <gray>dealing <aqua>additional Thorns Damage<gray>.",
+    "the_vault:damage_undead": "<gray>Your <aqua>damage <gray>dealt against <green>Undead Mobs<gray>.",
+    "the_vault:velara_affinity": "<gray>Your <aqua>additional chance <gray>to gain a <aqua>favor <gray>upon <green>completing <gray>a <#54fc54>Velara God Altar<gray>.",
+    "the_vault:tenos_affinity": "<gray>Your <aqua>additional chance <gray>to gain a <aqua>favor <gray>upon <green>completing <gray>a <#009dde>Tenos God Altar<gray>.",
+    "the_vault:wendarr_affinity": "<gray>Your <aqua>additional chance <gray>to gain a <aqua>favor <gray>upon <green>completing <gray>a <#dea700>Wendarr God Altar<gray>.",
+    "the_vault:idona_affinity": "<gray>Your <aqua>additional chance <gray>to gain a <aqua>favor <gray>upon <green>completing <gray>a <#d80000>Idona God Altar<gray>."
+  },
+
+
+  "VAULT_STATS_DESCRIPTIONS": {
+    "vaults_total": "<gray>Your total number of <aqua>Vaults <gray>ran.",
+    "vaults_completed": "<gray>Your total number of <aqua>Vault Objectives completed<gray>.",
+    "vaults_bailed": "<gray>Your total number of <aqua>Vaults survived<gray>.",
+    "vaults_failed": "<gray>Your total number of <aqua>Vaults unalived <gray>in.",
+
+    "experience": "<gray>Your total amount of <aqua>Vault Experience<gray>.",
+    
+    "damage_dealt": "<gray>Your total number of <aqua>damage dealt <gray>in <aqua>Vaults<gray>.",
+    "damage_taken": "<gray>Your total number of <aqua>damage taken <gray>in <aqua>Vaults<gray>.",
+    "mobs_unalived": "<gray>Your total number of <aqua>entities unalived <gray>in <aqua>Vaults<gray>.",
+
+    "blocks_mined": "<gray>Your total number of <aqua>blocks mined <gray>in <aqua>Vaults<gray>.",
+    "trapped_chests": "<gray>Your total number of <aqua>trapped chests triggered <gray>in <aqua>Vaults<gray>.",
+    "chests_looted": "<gray>Your total number of <aqua>chests looted <gray>in <aqua>Vaults<gray>.",
+    "treasure_rooms_opened": "<gray>Your total number of <aqua>treasure rooms opened <gray>in <aqua>Vaults<gray>.",
+
+    "crystals_crafted": "<gray>Your total number of <aqua>Vault Crystals crafted<gray>."
+  }
+
+}

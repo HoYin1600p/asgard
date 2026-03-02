@@ -1,0 +1,24 @@
+[
+  {
+    "weight": 3,
+    "value": {
+      "template": "the_vault:vault/rooms/challenge/dragon1",
+      "palettes": [
+        "the_vault:dragon/base",
+        "the_vault:generic/gate_placeholder",
+        "the_vault:nonparadox/dragon/idona"
+      ]
+    }
+  },
+  {
+    "weight": 1,
+    "value": {
+      "template": "the_vault:vault/rooms/challenge/legacy_dragon_1",
+      "palettes": [
+        "the_vault:dragon/legacy_base",
+        "the_vault:generic/gate_placeholder",
+        "the_vault:nonparadox/dragon/idona"
+      ]
+    }
+  }
+]

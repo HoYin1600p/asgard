@@ -1,0 +1,30 @@
+{
+  "whitelist": [
+    "minecraft:water",
+    "minecraft:lava",
+    "minecraft:bedrock",
+    "the_vault:void_liquid",
+    "the_vault:vault_portal",
+    "the_vault:vault_glass",
+    "minecraft:light",
+    "minecraft:command_block",
+    "minecraft:repeating_command_block",
+    "minecraft:chain_command_block",
+    "minecraft:repeater",
+    "minecraft:redstone_wire",
+    "minecraft:redstone_torch",
+    "minecraft:comparator",
+    "ispawner:spawner",
+    "minecraft:black_stained_glass",
+    "the_vault:yellow_puzzle_concrete",
+    "the_vault:pink_puzzle_concrete",
+    "the_vault:green_puzzle_concrete",
+    "the_vault:blue_puzzle_concrete"
+  ],
+  "blacklist": [
+    "the_vault:placeholder[type=objective]",
+    "the_vault:placeholder[type=pylon]",
+    "the_vault:placeholder[type=treasure_door]",
+    "the_vault:placeholder[type=dungeon_discoverable]"
+  ]
+}

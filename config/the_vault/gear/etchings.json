@@ -1,0 +1,33 @@
+{
+    "ETCHINGS": {
+    },
+    "groups": {
+        "Defensive": [
+            "HELMET",
+            "CHESTPLATE",
+            "LEGGINGS",
+            "BOOTS"
+        ],
+        "Offensive": [
+            "SWORD",
+            "AXE"
+        ],
+        "Utility": [
+            "FOCUS",
+            "WAND",
+            "SHIELD"
+        ],
+        "HELMET": [ "HELMET" ],
+        "CHESTPLATE": [ "CHESTPLATE" ],
+        "LEGGINGS": [ "LEGGINGS" ],
+        "BOOTS": [ "BOOTS" ],
+        "SWORD": [ "SWORD" ],
+        "AXE": [ "AXE" ],
+        "FOCUS": [ "FOCUS" ],
+        "WAND": [ "WAND" ],
+        "SHIELD": [ "SHIELD" ],
+        "MAGNET": [ "MAGNET" ],
+        "VOID_STONE": [ "VOID_STONE" ],
+        "CHARM": [ "CHARM" ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "tile_processors": [
+      {
+        "type": "placeholder",
+        "target": "DUNGEON_DOOR",
+        "levels": [
+          {
+            "level": 0,
+            "probability": 1.0,
+            "success": {
+              "minecraft:stone": 1
+            },
+            "failure": {
+              "minecraft:stone": 1
+            }
+          }
+        ]
+      }
+    ]
+  }

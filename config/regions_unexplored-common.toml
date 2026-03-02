@@ -1,0 +1,103 @@
+
+#Config for Regions Unexplored!
+[region_weights]
+	#Sets Terrablender region weight for the primary region.
+	#Range: 0 ~ 2147483646
+	primary_region_weight = 11
+	#Sets Terrablender region weight for the secondary region.
+	#Range: 0 ~ 2147483646
+	secondary_region_weight = 8
+	#Sets Terrablender region weight for Nether region.
+	#Range: 0 ~ 2147483646
+	nether_region_weight = 14
+
+[biome_toggles]
+	#overworld_biomes
+	toggle_alpha_grove = false
+	toggle_arid_mountains = false
+	toggle_autumnal_maple_forest = false
+	toggle_bamboo_forest = false
+	toggle_baobab_savanna = false
+	toggle_barley_fields = false
+	toggle_bayou = false
+	toggle_blackwood_forest = false
+	toggle_shrubland = false
+	toggle_maple_forest = false
+	toggle_temperate_grove = false
+	toggle_fen = false
+	toggle_rainforest = false
+	toggle_old_growth_rainforest = false
+	toggle_tropics = false
+	toggle_steppe = false
+	toggle_joshua_desert = false
+	toggle_prairie = false
+	toggle_deciduous_forest = false
+	toggle_silver_birch_forest = false
+	toggle_boreal_forest = false
+	toggle_frozen_tundra = false
+	toggle_cold_boreal_forest = false
+	toggle_cold_deciduous_forest = false
+	toggle_giant_bayou = false
+	toggle_orchard = false
+	toggle_redwoods = false
+	toggle_sparse_redwoods = false
+	toggle_saguaro_desert = false
+	toggle_meadow = false
+	toggle_cherry_hills = false
+	toggle_willow_forest = false
+	toggle_pine_forest = false
+	toggle_icy_desert = false
+	toggle_frozen_forest = false
+	toggle_flooded_plains = false
+	toggle_eucalyptus_forest = false
+	toggle_dry_bushland = false
+	toggle_outback = false
+	toggle_chalk_cliffs = false
+	toggle_grassy_beach = false
+	toggle_gravel_beach = false
+	toggle_muddy_river = false
+	toggle_cold_river = false
+	toggle_lupine_plains = false
+	toggle_highland_fields = false
+	toggle_poppy_fields = false
+	toggle_grassland = false
+	toggle_lush_hills = false
+	toggle_towering_cliffs = false
+	toggle_icy_heights = false
+	toggle_pine_slopes = false
+	toggle_mountains = false
+	toggle_flower_field = false
+	toggle_pumpkin_fields = false
+	toggle_mauve_hills = false
+	toggle_golden_boreal_forest = false
+	toggle_spires = false
+	toggle_fungal_fen = false
+	toggle_smouldering_woodland = false
+	#cave_biomes
+	toggle_scorching_caves = false
+	toggle_lush_delta = false
+	toggle_bioshroom_caves = false
+	toggle_redstone_caves = false
+	toggle_prismachasm = false
+	#nether_biomes
+	toggle_mycotoxic_undergrowth = false
+	toggle_redstone_hell = false
+	toggle_blackstone_basin = false
+	toggle_glistering_meadow = false
+	toggle_corrupted_holt = false
+
+[worldgen_options]
+	#surface_rules
+	toggle_custom_dirt = false
+
+[block_color_options]
+	#Sets Eucalyptus colour transition size. Bigger number = bigger distance between colours.
+	#Range: 0.0 ~ 200.0
+	eucalyptus_transition_size = 25.0
+	#Sets Eucalyptus colour saturation.
+	#Range: 0.0 ~ 1.0
+	eucalyptus_saturation = 0.5
+	#Sets Eucalyptus colour saturation.
+	#Range: 0.0 ~ 1.0
+	eucalyptus_brightness = 0.8
+

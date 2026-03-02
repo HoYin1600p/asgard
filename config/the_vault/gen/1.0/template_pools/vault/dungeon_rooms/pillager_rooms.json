@@ -1,0 +1,44 @@
+[
+  {
+    "weight": 5,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/pillager_large",
+      "palettes": [ "the_vault:generic/spawners/pillager_dungeon", "the_vault:dungeon_rooms/antique_tags/dungeon_tags_pillager", "the_vault:dungeon_rooms/dungeon_discoverable_large" ]
+    }
+  },
+  {
+    "weight": 5,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/pillager_large_2",
+      "palettes": [ "the_vault:generic/spawners/pillager_dungeon", "the_vault:dungeon_rooms/antique_tags/dungeon_tags_pillager", "the_vault:dungeon_rooms/dungeon_discoverable_large" ]
+    }
+  },
+  {
+    "weight": 5,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/pillager_large_3",
+      "palettes": [ "the_vault:generic/spawners/pillager_dungeon", "the_vault:dungeon_rooms/antique_tags/dungeon_tags_pillager", "the_vault:dungeon_rooms/dungeon_discoverable_large" ]
+    }
+  },
+  {
+    "weight": 5,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/pillager_medium",
+      "palettes": [ "the_vault:generic/spawners/pillager_dungeon", "the_vault:dungeon_rooms/antique_tags/dungeon_tags_pillager", "the_vault:dungeon_rooms/dungeon_discoverable_medium" ]
+    }
+  },
+  {
+    "weight": 5,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/pillager_medium_2",
+      "palettes": [ "the_vault:generic/spawners/pillager_dungeon", "the_vault:dungeon_rooms/antique_tags/dungeon_tags_pillager", "the_vault:dungeon_rooms/dungeon_discoverable_medium" ]
+    }
+  },
+  {
+    "weight": 5,
+    "value": {
+      "template": "the_vault:vault/dungeon_rooms/pillager_small",
+      "palettes": [ "the_vault:generic/spawners/pillager_dungeon", "the_vault:dungeon_rooms/antique_tags/dungeon_tags_pillager", "the_vault:dungeon_rooms/dungeon_discoverable_small" ]
+    }
+  }
+]

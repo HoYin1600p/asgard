@@ -1,0 +1,139 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 10,
+        "max": 12
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:wooden_chunk",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+                }
+              }
+            },
+            {
+                "weight": 10,
+                "item": {
+                "id": "the_vault:sandy_rocks",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+                }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:vault_sweets",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            }
+          ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:wooden_chunk",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+                }
+              }
+            },
+            {
+                "weight": 10,
+                "item": {
+                "id": "the_vault:sandy_rocks",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+                }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:vault_sweets",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            }
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:wooden_chunk",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 3
+                }
+              }
+            },
+            {
+                "weight": 10,
+                "item": {
+                "id": "the_vault:sandy_rocks",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 2
+                  }
+                }
+            },
+            {
+              "weight": 10,
+              "item": {
+              "id": "the_vault:vault_sweets",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:wooden_catalyst_inhibitor",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

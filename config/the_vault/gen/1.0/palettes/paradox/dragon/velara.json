@@ -1,0 +1,179 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tiles",
+      "output": {
+        "minecraft:lime_concrete": 1,
+        "the_vault:velara_dark_smooth_brick": 1,
+        "the_vault:velara_gem_block": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_slab",
+      "output": {
+        "quark:azalea_planks_slab": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_stairs",
+      "output": {
+        "quark:azalea_planks_stairs": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_wall",
+      "output": {
+        "quark:azalea_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_tiles",
+      "output": {
+        "minecraft:lime_concrete": 1,
+        "the_vault:velara_dark_smooth_brick": 1,
+        "the_vault:velara_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_bricks",
+      "output": {
+        "the_vault:velara_brick_chiseled": 3,
+        "the_vault:velara_brick": 1,
+        "quark:stripped_azalea_wood": 2
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_slab",
+      "output": {
+        "quark:azalea_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_stairs",
+      "output": {
+        "quark:azalea_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_bricks",
+      "output": {
+        "the_vault:velara_brick_chiseled": 3,
+        "the_vault:velara_brick": 1,
+        "quark:stripped_azalea_wood": 2
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobbled_deepslate",
+      "output": {
+        "the_vault:velara_light_smooth_brick": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:cobbled_deepslate_wall",
+      "output": {
+        "quark:azalea_fence": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:red_shingles",
+      "output": {
+        "quark:lime_shingles": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:red_shingles_slab",
+      "output": {
+        "quark:lime_shingles_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:red_shingles_stairs",
+      "output": {
+        "quark:lime_shingles_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_terracotta",
+      "output": {
+        "minecraft:lime_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:nether_bricks",
+      "output": {
+        "the_vault:velara_planks": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:nether_brick_slab",
+      "output": {
+        "the_vault:velara_planks_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:nether_brick_stairs",
+      "output": {
+        "the_vault:velara_planks_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:netherrack",
+      "output": {
+        "minecraft:moss_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_nether_bricks",
+      "output": {
+        "twigs:bamboo_thatch": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_nether_brick_slab",
+      "output": {
+        "twigs:bamboo_thatch_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_nether_brick_stairs",
+      "output": {
+        "twigs:bamboo_thatch_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oxidized_cut_copper_slab",
+      "output": {
+        "quark:thatch_slab": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

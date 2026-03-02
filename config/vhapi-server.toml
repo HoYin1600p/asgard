@@ -1,0 +1,7 @@
+
+["Main Settings"]
+	#Whether the server should attempt to sync configs with clients with VHAPI installed. (default: true)
+	syncDatapackConfigs = true
+	#Whether Patreon transmog unlocks should be normally obtainable. (default: true)
+	allowPatreonUnlocks = true
+

@@ -1,0 +1,365 @@
+{
+  "MAX_ACCELERATION_CHIPS": 3,
+  "INTERVAL_DECREASE_PER_CHIP": {
+    "1": 266,
+    "2": 533,
+    "3": 800
+  },
+  "DROPS": [
+    {
+      "value": {
+        "id": "minecraft:stone",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:granite",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:diorite",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:dirt",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:grass_block",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:gravel",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:sand",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:cobblestone",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:oak_log",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:oak_leaves",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 5
+    },
+    {
+      "value": {
+        "id": "minecraft:spruce_leaves",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:birch_leaves",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:netherrack",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:basalt",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:mossy_cobblestone",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:clay",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:terracotta",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:pumpkin",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:melon",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:deepslate",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:tuff",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:crimson_nylium",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:warped_nylium",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:coal_ore",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:lapis_ore",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:jungle_log",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:acacia_log",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:spruce_log",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:jungle_leaves",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:flowering_azalea_leaves",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:sea_pickle",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:dead_bush",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:mycelium",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:mossy_stone_bricks",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:snow_block",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:soul_sand",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:white_concrete",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:chorus_flower",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:sea_lantern",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:end_stone",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:magma_block",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:white_wool",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:crimson_stem",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    },
+    {
+      "value": {
+        "id": "minecraft:warped_stem",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 3
+    }
+  ],
+  "INTERVAL": 1200,
+  "MIN_ITEM_GENERATED": 0,
+  "MAX_ITEM_GENERATED": 0
+}

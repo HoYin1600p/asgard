@@ -1,0 +1,26 @@
+[
+    {
+        "weight": 37,
+        "item": {
+            "id": "the_vault:god_blessing",
+            "nbt": {
+                "type": "velara"
+            }
+        }
+    },
+    {
+        "weight": 2,
+        "item": {
+            "id": "the_vault:idol_benevolent",
+            "nbt": {
+                "the_vault:gear_roll_type_pool": "altar"
+            }
+        }
+    },
+    {
+        "weight": 1,
+        "item": {
+            "id": "the_vault:altar_chest_scroll"
+        }
+    }
+]

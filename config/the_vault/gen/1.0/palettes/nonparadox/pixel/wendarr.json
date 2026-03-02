@@ -1,0 +1,69 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stripped_spruce_wood",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 13,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_planks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 13,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_planks",
+      "output": {
+        "the_vault:wendarr_gem_block": 1,
+        "the_vault:wendarr_light_smooth_brick": 9,
+        "the_vault:wendarr_dark_smooth_brick": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:stripped_oak_wood",
+      "output": {
+        "the_vault:wendarr_gem_block": 1,
+        "the_vault:wendarr_light_smooth_brick": 9,
+        "the_vault:wendarr_dark_smooth_brick": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "decorative_blocks:oak_beam",
+      "output": {
+        "the_vault:wendarr_gem_block": 1,
+        "the_vault:wendarr_light_smooth_brick": 9,
+        "the_vault:wendarr_dark_smooth_brick": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "buildersdelight:oak_planks_1",
+      "output": {
+        "the_vault:wendarr_gem_block": 1,
+        "the_vault:wendarr_light_smooth_brick": 9,
+        "the_vault:wendarr_dark_smooth_brick": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:white_frameless_glass",
+      "output": {
+        "auxiliaryblocks:yellow_frameless_glass": 1
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/gate_placeholder"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

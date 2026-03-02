@@ -1,0 +1,177 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tiles",
+      "output": {
+        "the_vault:idona_dark_smooth_brick": 1,
+        "the_vault:idona_gem_block": 1,
+        "the_vault:idona_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_tiles",
+      "output": {
+        "the_vault:idona_dark_smooth_brick": 1,
+        "the_vault:idona_gem_block": 1,
+        "the_vault:idona_brick_chiseled": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_bricks",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_bricks",
+      "output": {
+        "the_vault:idona_brick_chiseled": 9,
+        "the_vault:idona_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:red_shingles",
+      "output": {
+        "quark:gray_shingles": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:red_shingles_slab",
+      "output": {
+        "quark:gray_shingles_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:red_shingles_stairs",
+      "output": {
+        "quark:gray_shingles_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_terracotta",
+      "output": {
+        "minecraft:gray_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:nether_bricks",
+      "output": {
+        "supplementaries:blackstone_tile": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:nether_brick_slab",
+      "output": {
+        "supplementaries:blackstone_tile_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:nether_brick_stairs",
+      "output": {
+        "supplementaries:blackstone_tile_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:netherrack",
+      "output": {
+        "minecraft:blackstone": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_nether_bricks",
+      "output": {
+        "architects_palette:hadaline_tiles": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_nether_brick_slab",
+      "output": {
+        "architects_palette:hadaline_tile_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:red_nether_brick_stairs",
+      "output": {
+        "create:small_scorchia_brick_stairs": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_wall",
+      "output": {
+        "minecraft:red_nether_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_slab",
+      "output": {
+        "minecraft:red_nether_brick_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_stairs",
+      "output": {
+        "minecraft:red_nether_brick_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cobbled_deepslate",
+      "output": {
+        "the_vault:idona_light_smooth_brick": 1
+      }
+    },
+	{
+      "type": "weighted_target",
+      "target": "minecraft:cobbled_deepslate_wall",
+      "output": {
+        "minecraft:red_nether_brick_wall": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oxidized_cut_copper_slab",
+      "output": {
+        "create:cut_crimsite_brick_slab": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

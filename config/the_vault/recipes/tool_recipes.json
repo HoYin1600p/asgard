@@ -1,0 +1,841 @@
+{
+  "toolRecipes": [
+    {
+      "toolType": "PICK",
+      "toolMaterial": "CHROMATIC_IRON_INGOT",
+      "id": "the_vault:tool/pick/chromatic_iron_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;1311611473776375273L,4018863981386647445L,1514722424829605913L,4616400934536516931L,107798892737L,423054278656L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-33553231339L,4111L,1549260833888952320L,-3592552224287028140L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "AXE",
+      "toolMaterial": "CHROMATIC_IRON_INGOT",
+      "id": "the_vault:tool/axe/chromatic_iron_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;1351007765267788297L,2800568653086563831L,1514722424829605914L,4616400934536516931L,107798892737L,423054278656L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-33553231339L,4111L,1549260833880563712L,-63927426998793132L,8623489023L,4415226380288L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SHOVEL",
+      "toolMaterial": "CHROMATIC_IRON_INGOT",
+      "id": "the_vault:tool/shovel/chromatic_iron_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-4053812809657183015L,-7340987760683304879L,1514722424829605913L,4616400934536516931L,107798892737L,423054278656L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-33553231339L,4111L,1549260833901535232L,870711814924864596L,-9187343239839532909L,0L,257L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "HAMMER",
+      "toolMaterial": "CHROMATIC_IRON_INGOT",
+      "id": "the_vault:tool/hammer/chromatic_iron_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;4485109774991796137L,6644290612952136375L,1514722424829605912L,4616400934536516931L,107798892737L,423054278656L,-8852492471154769920L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318390784L,3463853960964756748L,-4503599626233307L,269484031L,-9217596139602182144L,55115572979717141L,-2198944569016243L,269484031L,1478628598762962944L,-3224258109546162816L,-3810373100L,513L,263168L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SICKLE",
+      "toolMaterial": "CHROMATIC_IRON_INGOT",
+      "id": "the_vault:tool/sickle/chromatic_iron_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-3785441034093955511L,2856349217722533086L,1514722424829605913L,4616400934536516931L,107798892737L,423054278656L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-33553231339L,4111L,1549260833888952320L,-3592464830158271404L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_iron_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 2,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 8,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "PICK",
+      "toolMaterial": "CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/pick/chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-5169905711454038423L,-4892917254526071081L,1514722424829605915L,4616400934536516931L,161485983937L,697932185605L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-29258264043L,4111L,1549260833888952320L,-3592552224287028140L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 36,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "AXE",
+      "toolMaterial": "CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/axe/chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-8722594495184189863L,-8603808470517629277L,1514722424829605912L,4616400934536516931L,161485983937L,697932185605L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-29258264043L,4111L,1549260833880563712L,-63927426998793132L,8623489023L,4415226380288L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 36,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SHOVEL",
+      "toolMaterial": "CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/shovel/chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-3710609015699095095L,1010686249434631322L,1514722424829605914L,4616400934536516931L,161485983937L,697932185605L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-29258264043L,4111L,1549260833901535232L,870711814924864596L,-9187343239839532909L,0L,257L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 36,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "HAMMER",
+      "toolMaterial": "CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/hammer/chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;7809429740367123369L,-3235051283225039948L,1514722424829605913L,4616400934536516931L,161485983937L,697932185605L,-8852492471154769920L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318390784L,3463853960964756748L,-4503599626233307L,269484031L,-9217596139602182144L,55115572979717141L,-1917469592305587L,269484031L,1478628598762962944L,-3224258109546162816L,-3810373100L,513L,263168L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 36,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SICKLE",
+      "toolMaterial": "CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/sickle/chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;3295832257803371225L,-4129796929042409407L,1514722424829605913L,4616400934536516931L,161485983937L,697932185605L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-29258264043L,4111L,1549260833888952320L,-3592464830158271404L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 36,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "PICK",
+      "toolMaterial": "VAULT_ALLOY",
+      "id": "the_vault:tool/pick/vaulterite_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;1650707538598198793L,5617821484311204155L,1514722424829605912L,4616400934536516931L,-4611685803254312767L,972810092552L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-24963296747L,4111L,1549260833888952320L,-3592552224287028140L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:vaulterite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 48,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "AXE",
+      "toolMaterial": "VAULT_ALLOY",
+      "id": "the_vault:tool/axe/vaulterite_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;5983935466718936297L,1455327881762194649L,1514722424829605915L,4616400934536516931L,-4611685803254312767L,972810092552L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-24963296747L,4111L,1549260833880563712L,-63927426998793132L,8623489023L,4415226380288L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:vaulterite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 48,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SHOVEL",
+      "toolMaterial": "VAULT_ALLOY",
+      "id": "the_vault:tool/shovel/vaulterite_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;7393533697263436601L,4737258602475094088L,1514722424829605912L,4616400934536516931L,-4611685803254312767L,972810092552L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-24963296747L,4111L,1549260833901535232L,870711814924864596L,-9187343239839532909L,0L,257L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:vaulterite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 48,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "HAMMER",
+      "toolMaterial": "VAULT_ALLOY",
+      "id": "the_vault:tool/hammer/vaulterite_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-8701824313596789959L,1261629704362649511L,1514722424829605914L,4616400934536516931L,-4611685803254312767L,972810092552L,-8852492471154769920L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318390784L,3463853960964756748L,-4503599626233307L,269484031L,-9217596139602182144L,55115572979717141L,-1635994615594931L,269484031L,1478628598762962944L,-3224258109546162816L,-3810373100L,513L,263168L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:vaulterite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 48,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SICKLE",
+      "toolMaterial": "VAULT_ALLOY",
+      "id": "the_vault:tool/sickle/vaulterite_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;3917832530921000569L,198452789974961716L,1514722424829605912L,4616400934536516931L,-4611685803254312767L,972810092552L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-24963296747L,4111L,1549260833888952320L,-3592464830158271404L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:vaulterite_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 48,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 81,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+
+
+    {
+      "toolType": "PICK",
+      "toolMaterial": "BLACK_CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/pick/black_chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;5172661789437259657L,-3257444520976565033L,1514722424829605912L,4616400934536516931L,4611686340974645441L,1522565906448L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-16373362155L,4111L,1549260833888952320L,-3592552224287028140L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:black_chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "AXE",
+      "toolMaterial": "BLACK_CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/axe/black_chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-5714872227404137767L,-6780778779908618208L,1514722424829605914L,4616400934536516931L,4611686340974645441L,1522565906448L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-16373362155L,4111L,1549260833880563712L,-63927426998793132L,8623489023L,4415226380288L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:black_chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SHOVEL",
+      "toolMaterial": "BLACK_CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/shovel/black_chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;6678277121627187913L,438697486022990018L,1514722424829605912L,4616400934536516931L,4611686340974645441L,1522565906448L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-16373362155L,4111L,1549260833901535232L,870711814924864596L,-9187343239839532909L,0L,257L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:black_chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "HAMMER",
+      "toolMaterial": "BLACK_CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/hammer/black_chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;5636295717853376521L,8904687496085896958L,1514722424829605913L,4616400934536516931L,4611686340974645441L,1522565906448L,-8852492471154769920L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318390784L,3463853960964756748L,-4503599626233307L,269484031L,-9217596139602182144L,55115572979717141L,-1073044662173619L,269484031L,1478628598762962944L,-3224258109546162816L,-3810373100L,513L,263168L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:black_chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SICKLE",
+      "toolMaterial": "BLACK_CHROMATIC_STEEL_INGOT",
+      "id": "the_vault:tool/sickle/black_chromatic_steel_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;175130291257741977L,8694436289368949884L,1514722424829605915L,4616400934536516931L,4611686340974645441L,1522565906448L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-16373362155L,4111L,1549260833888952320L,-3592464830158271404L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 12,
+          "ITEM": "the_vault:black_chromatic_steel_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 162,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "PICK",
+      "toolMaterial": "ECHOING_INGOT",
+      "id": "the_vault:tool/pick/echoing_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;3799000977248665321L,5903711697756710027L,1514722424829605913L,4616400934536516931L,376234348737L,1797443813396L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-12078394859L,4111L,1549260833888952320L,-3592552224287028140L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "AXE",
+      "toolMaterial": "ECHOING_INGOT",
+      "id": "the_vault:tool/axe/echoing_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;7420621305692853033L,-3196043940115489135L,1514722424829605915L,4616400934536516931L,376234348737L,1797443813396L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-12078394859L,4111L,1549260833880563712L,-63927426998793132L,8623489023L,4415226380288L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SHOVEL",
+      "toolMaterial": "ECHOING_INGOT",
+      "id": "the_vault:tool/shovel/echoing_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;7900632480819205977L,999244645967349439L,1514722424829605915L,4616400934536516931L,376234348737L,1797443813396L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-12078394859L,4111L,1549260833901535232L,870711814924864596L,-9187343239839532909L,0L,257L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "HAMMER",
+      "toolMaterial": "ECHOING_INGOT",
+      "id": "the_vault:tool/hammer/echoing_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-2685578942760055831L,-2205032540476763280L,1514722424829605913L,4616400934536516931L,376234348737L,1797443813396L,-8852492471154769920L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318390784L,3463853960964756748L,-4503599626233307L,269484031L,-9217596139602182144L,55115572979717141L,-791569685462963L,269484031L,1478628598762962944L,-3224258109546162816L,-3810373100L,513L,263168L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SICKLE",
+      "toolMaterial": "ECHOING_INGOT",
+      "id": "the_vault:tool/sickle/echoing_ingot",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-7341408239304309047L,-4610801489689962877L,1514722424829605915L,4616400934536516931L,376234348737L,1797443813396L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-12078394859L,4111L,1549260833888952320L,-3592464830158271404L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 256,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "PICK",
+      "toolMaterial": "OMEGA_POG",
+      "id": "the_vault:tool/pick/omega_pog",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;8102480048057270425L,2939401329665253003L,1514722424829605915L,4616400934536516931L,-9223371606933335871L,2072321720342L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-7783427563L,4111L,1549260833888952320L,-3592552224287028140L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:omega_pog",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "AXE",
+      "toolMaterial": "OMEGA_POG",
+      "id": "the_vault:tool/axe/omega_pog",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;8189506374059996537L,-2148224241791493558L,1514722424829605914L,4616400934536516931L,-9223371606933335871L,2072321720342L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-7783427563L,4111L,1549260833880563712L,-63927426998793132L,8623489023L,4415226380288L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:omega_pog",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SHOVEL",
+      "toolMaterial": "OMEGA_POG",
+      "id": "the_vault:tool/shovel/omega_pog",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;1619509904874416825L,6832167150714651359L,1514722424829605913L,4616400934536516931L,-9223371606933335871L,2072321720342L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-7783427563L,4111L,1549260833901535232L,870711814924864596L,-9187343239839532909L,0L,257L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:omega_pog",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "HAMMER",
+      "toolMaterial": "OMEGA_POG",
+      "id": "the_vault:tool/hammer/omega_pog",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;407186985143557689L,-7551952548935830681L,1514722424829605913L,4616400934536516931L,-9223371606933335871L,2072321720342L,-8852492471154769920L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318390784L,3463853960964756748L,-4503599626233307L,269484031L,-9217596139602182144L,55115572979717141L,-510094708752307L,269484031L,1478628598762962944L,-3224258109546162816L,-3810373100L,513L,263168L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:omega_pog",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "toolType": "SICKLE",
+      "toolMaterial": "OMEGA_POG",
+      "id": "the_vault:tool/sickle/omega_pog",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:tool",
+        "NBT": "{Damage:0,color:[I;],offset:0L,vaultGearData:[L;-4157783276561071095L,-4095419688528624425L,1514722424829605915L,4616400934536516931L,-9223371606933335871L,2072321720342L,-8852492746032676864L,-8559560530332385260L,18372019767163027L,288230376101658624L,4L,4833775685013162312L,6063184587157488789L,-68719411194L,4111L,6058889699318423552L,4633360432631010572L,-7783427563L,4111L,1549260833888952320L,-3592464830158271404L,35321811042289L,18084767253659648L]}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:omega_pog",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 9,
+          "ITEM": "the_vault:echoing_ingot",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 64,
+          "ITEM": "the_vault:driftwood",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1024,
+          "ITEM": "the_vault:vault_bronze",
+          "NBT": "{}"
+        }
+      ]
+    }
+  ]
+}

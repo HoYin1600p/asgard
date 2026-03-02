@@ -1,0 +1,54 @@
+{
+    "tile_processors": [
+        {
+            "type": "weighted_target",
+            "target": "the_vault:placeholder",
+            "output": {
+                "the_vault:placeholder{ Difficulty: Extreme }": 1
+            }
+        },
+        {
+            "type": "weighted_target",
+            "target": "ispawner:spawner",
+            "output": {
+                "ispawner:spawner{ Difficulty: Extreme }": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Extreme }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.max_health\": {Value:2.0, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "spawner_element",
+            "target": "ispawner:spawner{ Difficulty: Extreme }",
+            "element": "",
+            "output": {
+                "{Modifiers: {\"generic.attack_damage\": {Value:2.0, Operation:2}}}": 1
+            }
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:dungeon_rooms/difficulty"
+        },
+        {
+            "type": "template_stack_tile",
+            "target": "@the_vault:vault_lootables",
+            "stack": [
+                "STRUCTURE_DUNGEON",
+                "DUNGEON_DIFFICULTY_EXTREME"
+            ]
+        },
+        {
+            "type": "template_stack_spawner",
+            "target": "ispawner:spawner",
+            "stack": [
+                "STRUCTURE_DUNGEON",
+                "DUNGEON_DIFFICULTY_EXTREME"
+            ]
+        }
+    ]
+}

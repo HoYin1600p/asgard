@@ -1,0 +1,176 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lantern",
+      "output": {
+        "additionallanterns:yellow_blackstone_lantern": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:blackstone",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete_powder",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 7,
+        "the_vault:wendarr_light_smooth_brick": 3
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:black_concrete",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 9,
+        "the_vault:wendarr_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_bricks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cracked_deepslate_bricks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tiles",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_deepslate_bricks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:layered_deepslate",
+      "output": {
+        "the_vault:wendarr_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_deepslate",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:deepslate_pillar",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:polished_blackstone_bricks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:blackstone_bricks",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_slab",
+      "output": {
+        "architects_palette:gilded_sandstone_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_brick_stairs",
+      "output": {
+        "architects_palette:gilded_sandstone_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_slab",
+      "output": {
+        "architects_palette:gilded_sandstone_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:deepslate_tile_stairs",
+      "output": {
+        "architects_palette:gilded_sandstone_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_deepslate_brick_slab",
+      "output": {
+        "architects_palette:gilded_sandstone_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_deepslate_brick_stairs",
+      "output": {
+        "architects_palette:gilded_sandstone_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:spruce_leaves",
+      "output": {
+        "quark:orange_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:spruce_hedge",
+      "output": {
+        "quark:orange_blossom_hedge": 1
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/gate_placeholder"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

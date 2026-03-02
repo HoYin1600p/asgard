@@ -1,0 +1,144 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass_block",
+      "output": {
+        "botania:vivid_grass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_leaves",
+      "output": {
+        "the_vault:velara_leaves": 1,
+        "the_vault:velara_bush": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:azalea_hedge",
+      "output": {
+        "everycomp:q/the_vault/velara_hedge": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:smooth_blue_pastel",
+      "output": {
+        "the_vault:velara_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:blue_pastel",
+      "output": {
+        "the_vault:velara_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:light_blue_frameless_glass",
+      "output": {
+        "auxiliaryblocks:green_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:cyan_frameless_glass",
+      "output": {
+        "auxiliaryblocks:lime_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:white_terracotta",
+      "output": {
+        "minecraft:lime_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_wool",
+      "output": {
+        "minecraft:lime_wool": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:pink_terracotta",
+      "output": {
+        "minecraft:green_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_concrete",
+      "output": {
+        "minecraft:lime_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:light_blue_terracotta",
+      "output": {
+        "minecraft:green_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:yellow_wool",
+      "output": {
+        "minecraft:green_wool": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:yellow_terracotta",
+      "output": {
+        "minecraft:lime_terracotta": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:green_shingles",
+      "output": {
+        "quark:lime_shingles": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:green_shingles_stairs",
+      "output": {
+        "quark:lime_shingles_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:green_shingles_slab",
+      "output": {
+        "quark:lime_shingles_slab": 1
+      }
+    },
+    {
+        "type": "weighted_target",
+        "target": "minecraft:lantern",
+        "output": {
+            "minecraft:soul_lantern": 1
+        }
+    },
+    {
+        "type": "weighted_target",
+        "target": "supplementaries:wall_lantern{Lantern:{Name:\"minecraft:lantern\"}}",
+        "output": {
+            "supplementaries:wall_lantern{Lantern:{Name:\"minecraft:soul_lantern\",Properties:{waterlogged:\"false\", hanging:\"false\"}}}": 1
+        }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

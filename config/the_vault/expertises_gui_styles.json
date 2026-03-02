@@ -1,0 +1,103 @@
+{
+  "styles": {
+    "Infuser": {
+      "x": 70,
+      "y": 70,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/infuser"
+    },
+    "Mystic": {
+      "x": 140,
+      "y": 70,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/mystic"
+    },
+    "Lucky_Altar": {
+      "x": 210,
+      "y": 70,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/lucky_altar"
+    },
+    "Divine": {
+      "x": 280,
+      "y": 70,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/divine"
+    },
+
+    "Artisan": {
+      "x": 70,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/blacksmithing"
+    },
+    "Fortuitous_Finesse": {
+      "x": 140,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/fortuitous_finesse"
+    },
+    "Lapidarist": {
+      "x": 280,
+      "y": 120,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/jeweller"
+    },
+
+    "Fortunate": {
+      "x": 70,
+      "y": 170,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/fortunate"
+    },
+    "Bartering": {
+      "x": 140,
+      "y": 170,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/bartering"
+    },
+    "Marketer": {
+      "x": 210,
+      "y": 170,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/marketer"
+    },
+    "Experienced": {
+      "x": 280,
+      "y": 170,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/experienced"
+    },
+
+    "Trinketer": {
+      "x": 70,
+      "y": 220,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/trinketer"
+    },
+    "Bounty_Hunter": {
+      "x": 140,
+      "y": 220,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/bounty_hunter"
+    },
+    "Angel": {
+      "x": 210,
+      "y": 220,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/angel"
+    },
+    "Unbreakable": {
+      "x": 280,
+      "y": 220,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/unbreakable"
+    },
+    "Companion_Loyalty": {
+      "x": 350,
+      "y": 220,
+      "frameType": "STAR",
+      "icon": "the_vault:gui/skills/companion_sleepy"
+    }
+  }
+}

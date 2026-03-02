@@ -1,0 +1,112 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "COIN_STACKS",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.9,
+          "success": {
+            "the_vault:coin_pile[size=1,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 4,
+            "the_vault:coin_pile[size=2,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 16,
+            "the_vault:coin_pile[size=3,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 32,
+            "the_vault:coin_pile[size=4,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 40,
+            "the_vault:coin_pile[size=5,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 16,
+            "the_vault:coin_pile[size=6,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 8,
+            "the_vault:coin_pile[size=7,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 4
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 20,
+          "probability": 0.9,
+          "success": {
+            "the_vault:coin_pile[size=1,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 4,
+            "the_vault:coin_pile[size=2,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 16,
+            "the_vault:coin_pile[size=3,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 32,
+            "the_vault:coin_pile[size=4,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 48,
+            "the_vault:coin_pile[size=5,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 24,
+            "the_vault:coin_pile[size=6,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 16,
+            "the_vault:coin_pile[size=7,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl0\"}": 4
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        },
+        {
+          "level": 30,
+          "probability": 0.9,
+          "success": {
+            "the_vault:coin_pile[size=1,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl30\"}": 4,
+            "the_vault:coin_pile[size=2,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl30\"}": 16,
+            "the_vault:coin_pile[size=3,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl30\"}": 32,
+            "the_vault:coin_pile[size=4,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl30\"}": 48,
+            "the_vault:coin_pile[size=5,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl30\"}": 24,
+            "the_vault:coin_pile[size=6,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl30\"}": 16,
+            "the_vault:coin_pile[size=7,waterlogged=false]{LootTable:\"the_vault:coin_pile_lvl30\"}": 4
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "placeholder",
+      "target": "COIN_STACKS_WATERLOGGED",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 0.9,
+          "success": {
+            "the_vault:coin_pile[size=1,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 4,
+            "the_vault:coin_pile[size=2,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 16,
+            "the_vault:coin_pile[size=3,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 32,
+            "the_vault:coin_pile[size=4,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 40,
+            "the_vault:coin_pile[size=5,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 16,
+            "the_vault:coin_pile[size=6,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 8,
+            "the_vault:coin_pile[size=7,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 4
+          },
+          "failure": {
+            "minecraft:water": 1
+          }
+        },
+        {
+          "level": 20,
+          "probability": 0.9,
+          "success": {
+            "the_vault:coin_pile[size=1,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 4,
+            "the_vault:coin_pile[size=2,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 16,
+            "the_vault:coin_pile[size=3,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 32,
+            "the_vault:coin_pile[size=4,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 48,
+            "the_vault:coin_pile[size=5,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 24,
+            "the_vault:coin_pile[size=6,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 16,
+            "the_vault:coin_pile[size=7,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl0\"}": 4
+          },
+          "failure": {
+            "minecraft:water": 1
+          }
+        },
+        {
+          "level": 30,
+          "probability": 0.9,
+          "success": {
+            "the_vault:coin_pile[size=1,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl30\"}": 4,
+            "the_vault:coin_pile[size=2,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl30\"}": 16,
+            "the_vault:coin_pile[size=3,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl30\"}": 32,
+            "the_vault:coin_pile[size=4,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl30\"}": 48,
+            "the_vault:coin_pile[size=5,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl30\"}": 24,
+            "the_vault:coin_pile[size=6,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl30\"}": 16,
+            "the_vault:coin_pile[size=7,waterlogged=true]{LootTable:\"the_vault:coin_pile_lvl30\"}": 4
+          },
+          "failure": {
+            "minecraft:water": 1
+          }
+        }
+      ]
+    }
+  ]
+}

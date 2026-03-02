@@ -1,0 +1,41 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:air{Placeholder: GATE}",
+      "output": {
+        "the_vault:gate_lock": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock",
+      "output": [
+        {
+          "nbt": {
+            "OffsetX": -1,
+            "OffsetY": -2,
+            "Width": 3,
+            "Height": 5,
+            "TunnelName": "Tunnel",
+            "TunnelReference": "the_vault:vault/tunnels/tunnels",
+            "TunnelPalettes": [
+              "the_vault:universal_intermediary"
+            ]
+          },
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:gate_lock/rooms"
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:gate_lock/gods"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

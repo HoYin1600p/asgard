@@ -1,0 +1,31 @@
+# Example TSL (TwitchSpawn Language) Rule Set
+# Feel free to edit this one, or create your own rule set!
+# For full documentation about TSL Language
+# See https://igoodie.gitbook.io/twitchspawn/
+
+# Donation Rules
+DROP minecraft:stick 2
+ ON Donation
+ WITH amount IN RANGE [0,20]
+
+DROP minecraft:diamond_block 1
+ ON Donation
+ WITH amount IN RANGE [21,999]
+
+EXECUTE %/gamerule keepInventory true%
+ ON Donation
+ WITH amount >= 1000
+
+# Follow Rules
+DROP %diamond{display:{Name:"\"99.99\% Percent Real Diamond\""}}% 2
+ ON Twitch Follow
+
+# Host Rules
+EXECUTE %/give @s stick 1%
+ ON Twitch Host
+ WITH viewers >= 10
+
+# Raid Rules
+EXECUTE %/weather thunder%
+ ON Twitch Raid
+ WITH raiders > 100

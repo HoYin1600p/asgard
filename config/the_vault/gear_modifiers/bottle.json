@@ -1,0 +1,738 @@
+{
+  "modifierGroup": {
+    "BASE_ATTRIBUTES": [],
+    "IMPLICIT": [],
+    "PREFIX": [],
+    "SUFFIX": [
+      { "attribute": "the_vault:soul_chance",
+        "group": "ModSoulChance",
+        "identifier": "the_vault:mod_soul_chance",
+        "tags": [
+          "focusSoulChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.1,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      
+      { "attribute": "the_vault:mana_regen",
+        "group": "ModManaRegen",
+        "identifier": "the_vault:mod_mana_regen",
+        "tags": [
+          "focusManaRegen"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.25,
+              "max": 0.5,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.51,
+              "max": 0.75,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.76,
+              "max": 1.0,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      
+      { "attribute": "the_vault:cooldown_reduction",
+        "group": "ModCooldownReduction",
+        "identifier": "the_vault:mod_cooldown_reduction",
+        "tags": [
+          "focusCooldown"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.11,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_immunity",
+          "group": "modImmunity",
+          "identifier": "the_vault:mod_immunity",
+          "tags": [
+            "focusImmunity"
+          ],
+          "tiers": [
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:weakness"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:wither"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:hunger"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:slowness"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:mining_fatigue"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:poison"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 2,
+              "value": {
+                "registryKey": "the_vault:time_acceleration"
+              }
+            }
+          ]
+      },
+      { "attribute": "the_vault:effect",
+        "group": "ModEffect",
+        "identifier": "the_vault:mod_effect_speed",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "effectKey": "minecraft:speed",
+              "amplifier": 1
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "effectKey": "minecraft:speed",
+              "amplifier": 2
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect",
+        "group": "ModEffect",
+        "identifier": "the_vault:mod_effect_falling",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "effectKey": "minecraft:slow_falling",
+              "amplifier": 1
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect",
+        "group": "ModEffect",
+        "identifier": "the_vault:mod_effect_regeneration",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "effectKey": "minecraft:regeneration",
+              "amplifier": 1
+            }
+          }
+        ]
+      },
+
+      { "attribute": "the_vault:fire_immunity",
+        "group": "ModImmunity",
+        "identifier": "the_vault:mod_fire_immunity",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:knockback_resistance",
+        "group": "ModKnockbackResistance",
+        "identifier": "the_vault:mod_knockback_resistance",
+        "tags": [
+          "focusKnockbackRes"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.11,
+              "max": 0.15,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.16,
+              "max": 0.2,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:item_quantity",
+        "group": "ModItemQuantity",
+        "identifier": "the_vault:mod_item_quantity",
+        "tags": [
+          "focusItemQuantity"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.12,
+              "max": 0.15,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:item_rarity",
+        "group": "ModItemRarity",
+        "identifier": "the_vault:mod_item_rarity",
+        "tags": [
+          "focusItemRarity"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.13,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.14,
+              "max": 0.19,
+              "step": 0.01
+            }
+          }
+        ]
+      }
+
+    ],
+    "CRAFTED_SUFFIX": [
+
+      { "attribute": "the_vault:soul_chance",
+        "group": "ModSoulChance",
+        "identifier": "the_vault:crafted_soul_chance",
+        "tags": [
+          "focusSoulChance"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.1,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+
+      { "attribute": "the_vault:knockback_resistance",
+        "group": "ModKnockbackResistance",
+        "identifier": "the_vault:crafted_knockback_resistance",
+        "tags": [
+          "focusKnockbackRes"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.11,
+              "max": 0.15,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.16,
+              "max": 0.2,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+
+      { "attribute": "the_vault:mana_regen",
+        "group": "ModManaRegen",
+        "identifier": "the_vault:crafted_mana_regen",
+        "tags": [
+          "focusManaRegen"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.25,
+              "max": 0.5,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.51,
+              "max": 0.75,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "min": 0.76,
+              "max": 1.0,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:item_quantity",
+        "group": "ModItemQuantity",
+        "identifier": "the_vault:crafted_item_quantity",
+        "tags": [
+          "focusItemQuantity"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.11,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.12,
+              "max": 0.15,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+
+      
+      { "attribute": "the_vault:item_rarity",
+        "group": "ModItemRarity",
+        "identifier": "the_vault:crafted_item_rarity",
+        "tags": [
+          "focusItemRarity"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.08,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.09,
+              "max": 0.13,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.14,
+              "max": 0.19,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+
+      { "attribute": "the_vault:cooldown_reduction",
+        "group": "ModCooldownReduction",
+        "identifier": "the_vault:crafted_cooldown_reduction",
+        "tags": [
+          "focusCooldown"
+        ],
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.05,
+              "max": 0.1,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.11,
+              "max": 0.2,
+              "step": 0.01
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "min": 0.21,
+              "max": 0.3,
+              "step": 0.01
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect_immunity",
+          "group": "ModImmunity",
+          "identifier": "the_vault:crafted_immunity",
+          "tags": [
+            "focusImmunity"
+          ],
+          "tiers": [
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:weakness"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:wither"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:hunger"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:slowness"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:mining_fatigue"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 10,
+              "value": {
+                "registryKey": "minecraft:poison"
+              }
+            },
+            {
+              "minLevel": 0,
+              "maxLevel": -1,
+              "weight": 2,
+              "value": {
+                "registryKey": "the_vault:time_acceleration"
+              }
+            }
+          ]
+      },
+      { "attribute": "the_vault:fire_immunity",
+        "group": "ModImmunity",
+        "identifier": "the_vault:crafted_fire_immunity",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 100,
+            "value": {
+              "flag": true
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect",
+        "group": "ModEffect",
+        "identifier": "the_vault:crafted_effect_speed",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "effectKey": "minecraft:speed",
+              "amplifier": 1
+            }
+          },
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "effectKey": "minecraft:speed",
+              "amplifier": 2
+            }
+          }
+        ]
+      },
+      { "attribute": "the_vault:effect",
+      "group": "ModEffect",
+      "identifier": "the_vault:crafted_effect_falling",
+      "tiers": [
+        {
+          "minLevel": 0,
+          "maxLevel": -1,
+          "weight": 10,
+          "value": {
+            "effectKey": "minecraft:slow_falling",
+            "amplifier": 1
+          }
+        }
+      ]
+      },
+      { "attribute": "the_vault:effect",
+        "group": "ModEffect",
+        "identifier": "the_vault:crafted_effect_regeneration",
+        "tiers": [
+          {
+            "minLevel": 0,
+            "maxLevel": -1,
+            "weight": 10,
+            "value": {
+              "effectKey": "minecraft:regeneration",
+              "amplifier": 1
+            }
+          }
+        ]
+      }
+
+      
+    ],
+    "CORRUPTED_IMPLICIT": []
+  }
+}

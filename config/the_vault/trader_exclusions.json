@@ -1,0 +1,7 @@
+{
+  "exclusions": [
+    "minecraft:diamond",
+    "darkutils:*"
+  ],
+  "_comment": "To exclude an item from Wandering Traders, simply add the item ID (eg. \"minecraft:diamond\") or wildcard the id to exclude the entire mod. (eg. \"darkutils:*\"). The ID must be in one of these two formats."
+}

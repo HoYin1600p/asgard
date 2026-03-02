@@ -1,0 +1,248 @@
+{
+  "tile_processors": [
+    {
+      "type": "reference",
+      "id": "the_vault:generic/spawners/generic_settings"
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { Attempts: 3 } } }": 1
+          }
+        },
+        {
+          "level": 65,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { Attempts: 4 } } }": 1
+          }
+        },
+        {
+          "level": 80,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { Attempts: 5 } } }": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 260 } } }": 1
+          }
+        },
+        {
+          "level": 30,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 230 } } }": 1
+          }
+        },
+        {
+          "level": 40,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 200 } } }": 1
+          }
+        },
+        {
+          "level": 50,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { SpawnDelay: 180 } } }": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner{ Manager: { Settings: { PlayerRadius: 10 } } }": 1
+          }
+        }
+      ]
+    },
+    {
+      "type": "leveled",
+      "levels": [
+        {
+          "level": 0,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner": 8,
+            "ispawner:spawner{ Manager:{ UsesLeft:3, Settings: { SpawnDelay: 20, Attempts: 1 } } } }": 3,
+            "ispawner:spawner{ Manager:{ UsesLeft:4, Settings: { SpawnDelay: 20, Attempts: 1 } } } }": 6,
+            "ispawner:spawner{ Manager:{ UsesLeft:5, Settings: { SpawnDelay: 20, Attempts: 1 } } } }": 3
+
+          }
+        },
+        {
+          "level": 65,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner": 8,
+            "ispawner:spawner{ Manager:{ UsesLeft:3, Settings: { SpawnDelay: 20, Attempts: 2 } } } }": 3,
+            "ispawner:spawner{ Manager:{ UsesLeft:4, Settings: { SpawnDelay: 20, Attempts: 2 } } } }": 6,
+            "ispawner:spawner{ Manager:{ UsesLeft:5, Settings: { SpawnDelay: 20, Attempts: 2 } } } }": 3
+
+          }
+        },
+        {
+          "level": 80,
+          "type": "weighted_target",
+          "target": "ispawner:spawner",
+          "output": {
+            "ispawner:spawner": 8,
+            "ispawner:spawner{ Manager:{ UsesLeft:3, Settings: { SpawnDelay: 20, Attempts: 3 } } } }": 3,
+            "ispawner:spawner{ Manager:{ UsesLeft:4, Settings: { SpawnDelay: 20, Attempts: 3 } } } }": 6,
+            "ispawner:spawner{ Manager:{ UsesLeft:5, Settings: { SpawnDelay: 20, Attempts: 3 } } } }": 3
+
+          }
+        }
+      ]
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=wooden_chest]",
+      "output": {
+        "the_vault:placeholder[type=wooden_chest]": 10,
+        "minecraft:air": 10
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=ornate_chest]",
+      "output": {
+        "the_vault:placeholder[type=ornate_chest]": 5,
+        "minecraft:air": 15
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=living_chest]",
+      "output": {
+        "the_vault:placeholder[type=living_chest]": 5,
+        "minecraft:air": 15
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=gilded_chest]",
+      "output": {
+        "the_vault:placeholder[type=gilded_chest]": 5,
+        "minecraft:air": 15
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=coin_stacks]",
+      "output": {
+        "the_vault:placeholder[type=coin_stacks]": 7,
+        "minecraft:air": 13
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=wooden_chest_waterlogged]",
+      "output": {
+        "the_vault:placeholder[type=wooden_chest_waterlogged]": 10,
+        "minecraft:air": 10
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=ornate_chest_waterlogged]",
+      "output": {
+        "the_vault:placeholder[type=ornate_chest_waterlogged]": 5,
+        "minecraft:air": 15
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=living_chest_waterlogged]",
+      "output": {
+        "the_vault:placeholder[type=living_chest_waterlogged]": 5,
+        "minecraft:air": 15
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=gilded_chest_waterlogged]",
+      "output": {
+        "the_vault:placeholder[type=gilded_chest_waterlogged]": 5,
+        "minecraft:air": 15
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:placeholder[type=coin_stacks_waterlogged]",
+      "output": {
+        "the_vault:placeholder[type=coin_stacks_waterlogged]": 7,
+        "minecraft:air": 13
+      }
+    },
+    {
+        "type": "leveled",
+        "levels": [
+            {
+                "level": 0,
+                "type": "weighted_target",
+                "target": "ispawner:spawner",
+                "output": {
+                    "ispawner:spawner{ rarity:rare }": 1
+                }
+            }
+        ]
+    },
+    {
+        "type": "leveled",
+        "levels": [
+          {
+              "level": 0,
+              "type": "weighted_target",
+              "target": "ispawner:spawner",
+              "output": {
+                  "ispawner:spawner{ group:tank }": 0,
+                  "ispawner:spawner{ group:assassin }": 0,
+                  "ispawner:spawner{ group:horde }": 2,
+                  "ispawner:spawner{ group:standard }": 6
+              }
+          },
+          {
+              "level": 20,
+              "type": "weighted_target",
+              "target": "ispawner:spawner",
+              "output": {
+                  "ispawner:spawner{ group:tank }": 4,
+                  "ispawner:spawner{ group:assassin }": 2,
+                  "ispawner:spawner{ group:horde }": 7,
+                  "ispawner:spawner{ group:standard }": 7
+              }
+          }
+        ]
+    }
+  ]
+}

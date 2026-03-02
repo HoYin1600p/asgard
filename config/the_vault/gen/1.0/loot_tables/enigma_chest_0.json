@@ -1,0 +1,162 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 6,
+        "max": 9
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+              "weight": 7,
+              "item": {
+                "id": "minecraft:netherite_ingot",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:emerald",
+                "count": {
+                  "type": "uniform",
+                  "min": 16,
+                  "max": 64
+                  }
+              }
+            },
+            {
+              "weight": 7,
+              "item": {
+                "id": "easy_villagers:villager",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+            
+          ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+              "weight": 7,
+              "item": {
+                "id": "minecraft:sculk_sensor",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+                "weight": 8,
+                "item": {
+                  "id": "minecraft:nether_star",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "minecraft:trident",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "minecraft:budding_amethyst",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "sophisticatedbackpacks:backpack",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+                "weight": 10,
+                "item": {
+                  "id": "minecraft:elytra",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 1
+                    }
+                }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "the_vault:crystal_budding",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "quark:pickarang",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:enigma_chest_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

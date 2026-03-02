@@ -1,0 +1,23 @@
+
+["Seal Replacement"]
+	#Whether Bingo Seal should be replacing with Scaling Bingo objective.
+	useBingoSeal = true
+	#Whether Architect Seal should be replaced with Scaling Bingo Objective.
+	useArchitectSeal = false
+
+["Scaling Bingo Config"]
+	#Default height of Bingo vault with a single Seal applied (default: 3)
+	defaultHeight = 3
+	#Default width of Bingo vault with a single Seal applied (default: 3)
+	defaultWidth = 3
+	#How much width and height each seal adds (default: 1)
+	sealAddCount = 1
+	#Maximum number of seals that can be applied (default: 7)
+	maxSeals = 7
+	#If this is not 0, the size that the vault layout will start to be set to infinite. (default: 0)
+	sizeToSetInfiniteLayout = 0
+
+["Server Settings"]
+	#Whether when adding a seal in anvil should change crystal name based on Bingo board size (useful for server-side only usage, default: false)
+	shouldChangeCrystalName = false
+

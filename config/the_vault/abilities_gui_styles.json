@@ -1,0 +1,506 @@
+{
+  "styles": {
+    "Colossus": {
+      "x": 350,
+      "y": 100,
+      "specializationStyles": {
+        "Colossus_Base": {
+          "icon": "the_vault:gui/abilities/colossus"
+        },
+        "Sneaky_Getaway": {
+          "icon": "the_vault:gui/abilities/sneaky_getaway"
+        }
+      }
+    },
+    "Stonefall": {
+      "x": 315,
+      "y": 100,
+      "specializationStyles": {
+        "Stonefall_Base": {
+          "icon": "the_vault:gui/abilities/stonefall"
+        },
+        "Stonefall_Snow": {
+          "icon": "the_vault:gui/abilities/stonefall_snow"
+        },
+        "Stonefall_Cold": {
+          "icon": "the_vault:gui/abilities/stonefall_cold"
+        }
+      }
+    },
+    "Hunter": {
+      "x": 280,
+      "y": 100,
+      "specializationStyles": {
+        "Hunter_Base": {
+          "icon": "the_vault:gui/abilities/hunter"
+        },
+        "Javelin_Sight": {
+          "icon": "the_vault:gui/abilities/hunter_wooden"
+        }
+      }
+    },
+    "Ghost_Walk": {
+      "x": 175,
+      "y": 100,
+      "specializationStyles": {
+        "Ghost_Walk_Base": {
+          "icon": "the_vault:gui/abilities/ghost_walk"
+        },
+        "Ghost_Walk_Spirit": {
+          "icon": "the_vault:gui/abilities/ghost_walk_spirit_walk"
+        }
+      }
+    },
+    "Taunt": {
+      "x": 280,
+      "y": -50,
+      "specializationStyles": {
+        "Taunt_Base": {
+          "icon": "the_vault:gui/abilities/taunt"
+        },
+        "Taunt_Repel": {
+          "icon": "the_vault:gui/abilities/taunt_repel"
+        },
+        "Taunt_Charm": {
+          "icon": "the_vault:gui/abilities/taunt_charm"
+        }
+      }
+    },
+    "Mega_Jump": {
+      "x": 455,
+      "y": 100,
+      "specializationStyles": {
+        "Mega_Jump_Base": {
+          "icon": "the_vault:gui/abilities/mega_jump"
+        },
+        "Mega_Jump_Break_Down": {
+          "icon": "the_vault:gui/abilities/mega_jump_break_down"
+        },
+        "Levitate": {
+          "icon": "the_vault:gui/abilities/levitate"
+        }
+      }
+    },
+
+    "Nova": {
+      "x": 455,
+      "y": -50,
+      "specializationStyles": {
+        "Nova_Base": {
+          "icon": "the_vault:gui/abilities/nova"
+        },
+        "Nova_Slow": {
+          "icon": "the_vault:gui/abilities/nova_speed"
+        },
+        "Nova_Dot": {
+          "icon": "the_vault:gui/abilities/nova_dot"
+        }
+      }
+    },
+    "Legacy_Mana_Shield": {
+      "x": 525,
+      "y": 100,
+      "specializationStyles": {
+        "Legacy_Mana_Shield_Base": {
+          "icon": "the_vault:gui/abilities/mana_shield"
+        }
+      }
+    },
+    "Mana_Shield": {
+      "x": 490,
+      "y": 100,
+      "specializationStyles": {
+        "Mana_Shield_Base": {
+          "icon": "the_vault:gui/abilities/fortify"
+        },
+        "Mana_Barrier": {
+          "icon": "the_vault:gui/abilities/mana_barrier"
+        }
+
+      }
+    },
+    "Implode": {
+      "x": 140,
+      "y": -50,
+      "specializationStyles": {
+        "Mana_Shield_Implode": {
+          "icon": "the_vault:gui/abilities/implode"
+        },
+        "Implode_Life_Tap": {
+          "icon": "the_vault:gui/abilities/life_tap"
+        }
+
+      }
+    },
+    "Retribution": {
+      "x": 245,
+      "y": -50,
+      "specializationStyles": {
+        "Shield_Bash": {
+          "icon": "the_vault:gui/abilities/retribution"
+        },
+        "Mana_Shield_Retribution": {
+          "icon": "the_vault:gui/abilities/shield_bash_retribution"
+        }
+
+      }
+    },
+    "Heal": {
+      "x": 210,
+      "y": 100,
+      "specializationStyles": {
+        "Heal_Base": {
+          "icon": "the_vault:gui/abilities/heal"
+        },
+        "Heal_Group": {
+          "icon": "the_vault:gui/abilities/heal_group"
+        },
+        "Heal_Cleanse": {
+          "icon": "the_vault:gui/abilities/heal_effect"
+        }
+      }
+    },
+    "Vein_Miner": {
+      "x": 140,
+      "y": 100,
+      "specializationStyles": {
+        "Vein_Miner_Base": {
+          "icon": "the_vault:gui/abilities/vein_miner"
+        },
+        "Vein_Miner_Void": {
+          "icon": "the_vault:gui/abilities/vein_miner_void"
+        },
+        "Vein_Miner_Chain": {
+          "icon": "the_vault:gui/abilities/vein_miner_chain"
+        }
+      }
+    },
+    "Empower": {
+      "x": 420,
+      "y": 100,
+      "specializationStyles": {
+        "Empower_Base": {
+          "icon": "the_vault:gui/abilities/empower"
+        },
+        "Empower_Ice_Armor": {
+          "icon": "the_vault:gui/abilities/empower_ice_armour"
+        },
+        "Empower_Slowness_Aura": {
+          "icon": "the_vault:gui/abilities/empower_entropy"
+        }
+      }
+    },
+    "Dash": {
+      "x": 385,
+      "y": 100,
+      "specializationStyles": {
+        "Dash_Base": {
+          "icon": "the_vault:gui/abilities/dash"
+        },
+        "Dash_Damage": {
+          "icon": "the_vault:gui/abilities/dash_damage"
+        },
+        "Dash_Warp": {
+          "icon": "the_vault:gui/abilities/dash_warp"
+        }
+      }
+    },
+    "Totem": {
+      "x": 315,
+      "y": -50,
+      "specializationStyles": {
+        "Totem_Base": {
+          "icon": "the_vault:gui/abilities/totem"
+        },
+        "Totem_Mob_Damage": {
+          "icon": "the_vault:gui/abilities/totem_mob_damage"
+        },
+        "Totem_Mana_Regen": {
+          "icon": "the_vault:gui/abilities/totem_mana_regen"
+        },
+        "Totem_Player_Damage": {
+          "icon": "the_vault:gui/abilities/totem_player_damage"
+        }
+      }
+    },
+    "Rampage": {
+      "x": 0,
+      "y": -50,
+      "specializationStyles": {
+        "Rampage_Base": {
+          "icon": "the_vault:gui/abilities/rampage"
+        },
+        "Rampage_Leech": {
+          "icon": "the_vault:gui/abilities/rampage_leech"
+        },
+        "Rampage_Chain": {
+          "icon": "the_vault:gui/abilities/rampage_chain"
+        }
+      }
+    },
+
+    "Javelin": {
+      "x": 35,
+      "y": -50,
+      "specializationStyles": {
+        "Javelin_Base": {
+          "icon": "the_vault:gui/abilities/javelin"
+        },
+        "Javelin_Piercing": {
+          "icon": "the_vault:gui/abilities/javelin_piercing"
+        },
+        "Javelin_Scatter": {
+          "icon": "the_vault:gui/abilities/javelin_scatter"
+        }
+
+      }
+    },
+    "Smite": {
+      "x": 595,
+      "y": -50,
+      "specializationStyles": {
+        "Smite_Base": {
+          "icon": "the_vault:gui/abilities/smite_hand2"
+        },
+        "Smite_Archon": {
+          "icon": "the_vault:gui/abilities/smite_archon"
+        }
+      }
+    },
+    "Shell": {
+      "x": 210,
+      "y": -50,
+      "specializationStyles": {
+        "Shell_Base": {
+          "icon": "the_vault:gui/abilities/shell"
+        },
+        "Shell_Porcupine": {
+          "icon": "the_vault:gui/abilities/shell_porcupine"
+        },
+        "Shell_Quill": {
+          "icon": "the_vault:gui/abilities/shell_quill"
+        }
+      }
+    },
+    "Fireball": {
+      "x": 490,
+      "y": -50,
+      "specializationStyles": {
+        "Fireball_Base": {
+          "icon": "the_vault:gui/abilities/fireball"
+        },
+        "Fireball_Volley": {
+          "icon": "the_vault:gui/abilities/fireball_volley"
+        },
+        "Fireball_Fireshot": {
+          "icon": "the_vault:gui/abilities/fireball_fireshot"
+        }
+      }
+    },
+    "Storm_Arrow": {
+      "x": 630,
+      "y": -50,
+      "specializationStyles": {
+        "Storm_Arrow_Base": {
+          "icon": "the_vault:gui/abilities/thunderstorm"
+        },
+        "Storm_Arrow_Blizzard": {
+          "icon": "the_vault:gui/abilities/blizzard"
+        }
+      }
+    },
+    "Ice_Bolt": {
+      "x": 560,
+      "y": -50,
+      "specializationStyles": {
+        "Ice_Bolt_Base": {
+          "icon": "the_vault:gui/abilities/ice_bolt"
+        },
+        "Ice_Bolt_Blast": {
+          "icon": "the_vault:gui/abilities/ice_blast"
+        }
+      }
+    },
+    "Battle_Cry": {
+      "x": 350,
+      "y": -50,
+      "specializationStyles": {
+        "Battle_Cry_Base": {
+          "icon": "the_vault:gui/abilities/battle_cry"
+        },
+        "Battle_Cry_Spectral_Strike": {
+          "icon": "the_vault:gui/abilities/battle_cry_spectral_strike"
+        },
+        "Battle_Cry_Lucky_Strike": {
+          "icon": "the_vault:gui/abilities/battle_cry_lucky_strike"
+        }
+      }
+    },
+    "Arcane": {
+      "x": 525,
+      "y": -50,
+      "specializationStyles": {
+        "Arcane_Base": {
+          "icon": "the_vault:gui/abilities/arcane"
+        },
+        "Arcane_Rail": {
+          "icon": "the_vault:gui/abilities/arcane_rail"
+        }
+
+      }
+    },
+    "Chain_Lightning": {
+      "x": 665,
+      "y": -50,
+      "specializationStyles": {
+        "Chain_Lightning_Base": {
+          "icon": "the_vault:gui/abilities/chain_lightning"
+        },
+        "Chain_Lightning_Orbs": {
+          "icon": "the_vault:gui/abilities/chain_lightning2"
+        }
+      }
+    },
+    "Earthquake": {
+      "x": 105,
+      "y": -50,
+      "specializationStyles": {
+        "Earthquake_Base": {
+          "icon": "the_vault:gui/abilities/earthquake"
+        },
+        "Earthquake_Landmine": {
+          "icon": "the_vault:gui/abilities/landmine"
+        }
+
+      }
+    },
+    "Grenade": {
+      "x": 385,
+      "y": -50,
+      "specializationStyles": {
+        "Grenade_Base": {
+          "icon": "the_vault:gui/abilities/chaos_cube"
+        },
+        "Toxic_Grenade": {
+          "icon": "the_vault:gui/abilities/toxic_grenade"
+        }
+
+      }
+    },
+
+    "Blade_Frenzy": {
+      "x": 70,
+      "y": -50,
+      "specializationStyles": {
+        "Blade_Frenzy_Base": {
+          "icon": "the_vault:gui/abilities/bladefrenzy"
+        }
+      }
+    },
+    "Shield_Wall": {
+      "x": 245,
+      "y": 100,
+      "specializationStyles": {
+        "Shield_Wall_Base": {
+          "icon": "the_vault:gui/abilities/shield_wall"
+        }
+      }
+    }
+  },
+  "labels": [
+    {
+      "label": {
+        "description": {
+          "text": "Physical Damage"
+        }
+      },
+      "x": -15,
+      "y": -85
+    },
+    {
+      "label": {
+        "description": {
+          "text": "Adaptive"
+        }
+      },
+      "x": 195,
+      "y": -85
+    },
+    {
+      "label": {
+        "description": {
+          "text": "Ability Power"
+        }
+      },
+      "x": 440,
+      "y": -85
+    },
+    {
+      "label": {
+        "description": {
+          "text": "Utility"
+        }
+      },
+      "x": 125,
+      "y": 65
+    }
+  ],
+  "lines": [
+    {
+      "x": -20,
+      "y": -75,
+      "width": 100,
+      "height": 1,
+      "color": 13355979
+    },
+    {
+      "x": -20,
+      "y": -75,
+      "width": 1,
+      "height": 50,
+      "color": 13355979
+    },
+    {
+      "x": 190,
+      "y": -75,
+      "width": 100,
+      "height": 1,
+      "color": 13355979
+    },
+    {
+      "x": 190,
+      "y": -75,
+      "width": 1,
+      "height": 50,
+      "color": 13355979
+    },
+    {
+      "x": 435,
+      "y": -75,
+      "width": 100,
+      "height": 1,
+      "color": 13355979
+    },
+    {
+      "x": 435,
+      "y": -75,
+      "width": 1,
+      "height": 50,
+      "color": 13355979
+    },
+    {
+      "x": 120,
+      "y": 75,
+      "width": 100,
+      "height": 1,
+      "color": 13355979
+    },
+    {
+      "x": 120,
+      "y": 75,
+      "width": 1,
+      "height": 50,
+      "color": 13355979
+    }
+  ]
+}

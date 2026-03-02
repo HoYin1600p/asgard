@@ -1,0 +1,282 @@
+{
+  "dropChance": 0.005,
+  "raritySettings": {
+    "COMMON": { "prerollCount": 20, "activeCount": 2 },
+    "RARE": { "prerollCount": 20, "activeCount": 3 },
+    "EPIC": { "prerollCount": 20, "activeCount": 4 },
+    "OMEGA": { "prerollCount": 20, "activeCount": 5 }
+  },
+  "altarSpawnWeight": 0.15,
+  "modifiers": [
+    {
+      "attribute": "the_vault:damage_increase",
+      "group": "ZarithAttackDamage",
+      "identifier": "zarith_damage",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.01,
+        "max": 0.015,
+        "step": 0.001
+      }
+    },
+    {
+      "attribute": "the_vault:ability_power_percent",
+      "group": "ZarithAbilityPower",
+      "identifier": "zarith_ability_power",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.005,
+        "max": 0.0075,
+        "step": 0.0005
+      }
+    },
+    {
+      "attribute": "the_vault:soul_chance",
+      "group": "ZarithSoulChance",
+      "identifier": "zarith_soul_chance",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.025,
+        "max": 0.045,
+        "step": 0.01
+      }
+    },
+    {
+      "attribute": "the_vault:damage_dweller",
+      "group": "ZarithDamageDweller",
+      "identifier": "zarith_damage_dweller",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 25,
+        "min": 0.02,
+        "max": 0.03,
+        "step": 0.005
+      }
+    },
+    {
+      "attribute": "the_vault:damage_champion",
+      "group": "ZarithDamageChampion",
+      "identifier": "zarith_damage_champion",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 25,
+        "min": 0.02,
+        "max": 0.03,
+        "step": 0.005
+      }
+    },
+    {
+      "attribute": "the_vault:damage_tank",
+      "group": "ZarithDamageTank",
+      "identifier": "zarith_damage_tank",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 25,
+        "min": 0.02,
+        "max": 0.03,
+        "step": 0.005
+      }
+    },
+    {
+      "attribute": "the_vault:damage_assassin",
+      "group": "ZarithDamageAssassin",
+      "identifier": "zarith_damage_assassin",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 25,
+        "min": 0.02,
+        "max": 0.03,
+        "step": 0.005
+      }
+    },
+
+    {
+      "attribute": "the_vault:mana_regen",
+      "group": "ZarithManaRegen",
+      "identifier": "zarith_mana_regen",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.02,
+        "max": 0.03,
+        "step": 0.005
+      }
+    },
+    {
+      "attribute": "the_vault:mana_additive_percentile",
+      "group": "ZarithMana",
+      "identifier": "zarith_mana",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.01,
+        "max": 0.015,
+        "step": 0.001
+      }
+    },
+    {
+      "attribute": "the_vault:area_of_effect",
+      "group": "ZarithAreaOfEffect",
+      "identifier": "zarith_aoe",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.005,
+        "max": 0.0075,
+        "step": 0.0005
+      }
+    },
+    {
+      "attribute": "the_vault:item_rarity",
+      "group": "ZarithItemRarity",
+      "identifier": "zarith_item_rarity",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 50,
+        "min": 0.01,
+        "max": 0.015,
+        "step": 0.001
+      }
+    },
+    {
+      "attribute": "the_vault:item_quantity",
+      "group": "ZarithItemQuantity",
+      "identifier": "zarith_item_quantity",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 50,
+        "min": 0.01,
+        "max": 0.015,
+        "step": 0.001
+      }
+    },
+
+    {
+      "attribute": "the_vault:health_percentile",
+      "group": "ZarithHealth",
+      "identifier": "zarith_health",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.005,
+        "max": 0.0075,
+        "step": 0.0005
+      }
+    },
+    {
+      "attribute": "the_vault:healing_effectiveness",
+      "group": "ZarithHealing",
+      "identifier": "zarith_healing",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.01,
+        "max": 0.015,
+        "step": 0.001
+      }
+    },
+    {
+      "attribute": "the_vault:armor_percentile",
+      "group": "ZarithArmour",
+      "identifier": "zarith_armour",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.005,
+        "max": 0.0075,
+        "step": 0.0005
+      }
+    },
+    {
+        "attribute": "the_vault:effect_list_avoidance",
+        "group": "ZarithEffectAvoid",
+        "identifier": "the_vault:zarith_effect_avoid",
+        "tags": [],
+        "tiers": [
+            {
+                "minLevel": 0,
+                "maxLevel": -1,
+                "weight": 100,
+                "value": {
+                    "effectKeys": ["minecraft:poison", "minecraft:wither", "minecraft:levitation", "minecraft:slowness", "minecraft:blindness", "minecraft:hunger", "the_vault:bleed", "the_vault:chilled", "the_vault:corruption"],
+                    "name": "the_vault.gear_attribute.effect_avoidance.avoidance.bad_effects",
+                    "minChance": 0.02,
+                    "maxChance": 0.03,
+                    "step": 0.005
+                }
+            }
+        ]
+    },
+
+    {
+      "attribute": "the_vault:fruit_effectiveness",
+      "group": "ZarithFruit",
+      "identifier": "zarith_fruit",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.01,
+        "max": 0.015,
+        "step": 0.001
+      }
+    },
+    {
+      "attribute": "the_vault:effect_duration",
+      "group": "ZarithEffectDuration",
+      "identifier": "zarith_effect_duration",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.01,
+        "max": 0.015,
+        "step": 0.001
+      }
+    },
+    {
+      "attribute": "the_vault:cooldown_reduction",
+      "group": "ZarithCooldownReduction",
+      "identifier": "zarith_cdr",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.005,
+        "max": 0.0075,
+        "step": 0.0005
+      }
+    },
+    {
+      "attribute": "the_vault:movement_speed",
+      "group": "ZarithMovementSpeed",
+      "identifier": "zarith_movement_speed",
+      "tier": {
+        "minLevel": 0,
+        "maxLevel": -1,
+        "weight": 100,
+        "min": 0.005,
+        "max": 0.0075,
+        "step": 0.0005
+      }
+    }
+  ]
+}

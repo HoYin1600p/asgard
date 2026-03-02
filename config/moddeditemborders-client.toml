@@ -1,0 +1,9 @@
+#Enable mod specific implementations of item borders
+moddedItemBorders = true
+#Show jewel color instead of rarity
+jewelColorInsteadOfRarity = false
+
+[DEBUG]
+	#Display item borders everywhere (might break with some mods, used mostly to get stacktrace for proper impl)
+	itemBordersEverywhere = false
+

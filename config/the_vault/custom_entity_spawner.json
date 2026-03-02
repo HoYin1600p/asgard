@@ -1,0 +1,154 @@
+{
+  "spawnerGroups": {
+    "shulkerbullet": [
+      {
+        "minLevel": 0,
+        "blockCheckRadius": 20,
+        "entities": [
+          {
+            "value": {
+              "type": "minecraft:shulker_bullet",
+              "randomMotion": false
+            },
+            "weight": 2
+          },
+          {
+            "value": {
+              "type": "minecraft:shulker_bullet",
+              "randomMotion": true
+            },
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "all_ghosts": [
+      {
+        "minLevel": 0,
+        "blockCheckRadius": 20,
+        "entities": [
+          {
+            "value": {
+              "type": "quark:wraith",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 12
+          },
+          {
+            "value": {
+              "type": "woldsvaults:black_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "type": "woldsvaults:blue_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "type": "woldsvaults:brown_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "type": "woldsvaults:dark_blue_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "type": "woldsvaults:dark_gray_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 10
+          },
+          {
+            "value": {
+              "type": "woldsvaults:dark_red_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "type": "woldsvaults:green_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 8
+          },
+          {
+            "value": {
+              "type": "woldsvaults:purple_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 4
+          },
+          {
+            "value": {
+              "type": "woldsvaults:red_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "type": "woldsvaults:yellow_ghost",
+              "nbt": "{}",
+              "randomMotion": true
+            },
+            "weight": 8
+          }
+        ]
+      }
+    ],
+    "tnt": [
+      {
+        "minLevel": 0,
+        "blockCheckRadius": 10,
+        "entities": [
+          {
+            "value": {
+              "type": "minecraft:tnt",
+              "nbt": "{Fuse:60s}",
+              "randomMotion": true
+            },
+            "weight": 6
+          },
+          {
+            "value": {
+              "type": "minecraft:tnt",
+              "nbt": "{Fuse:40s}",
+              "randomMotion": true
+            },
+            "weight": 3
+          },
+          {
+            "value": {
+              "type": "minecraft:tnt",
+              "nbt": "{Fuse:20s}",
+              "randomMotion": true
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+}

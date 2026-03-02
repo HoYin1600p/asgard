@@ -1,0 +1,162 @@
+
+#General settings
+[general]
+	#Maximum compression level for blocks
+	#Range: 1 ~ 9
+	maxCompressionLevel = 9
+
+#Block settings
+[blocks]
+	#Enable the andesite_alloy block
+	enableandesite_alloyBlock = true
+	#Enable the asurine block
+	enableasurineBlock = true
+	#Enable the brass block
+	enablebrassBlock = true
+	#Enable the crimsite block
+	enablecrimsiteBlock = true
+	#Enable the experience block
+	enableexperienceBlock = true
+	#Enable the limestone block
+	enablelimestoneBlock = true
+	#Enable the ochrum block
+	enableochrumBlock = true
+	#Enable the scorchia block
+	enablescorchiaBlock = true
+	#Enable the scoria block
+	enablescoriaBlock = true
+	#Enable the veridium block
+	enableveridiumBlock = true
+	#Enable the zinc block
+	enablezincBlock = true
+	#Enable the nether_star block
+	enablenether_starBlock = true
+	#Enable the acacia_log block
+	enableacacia_logBlock = true
+	#Enable the acacia_plank block
+	enableacacia_plankBlock = true
+	#Enable the amethyst block
+	enableamethystBlock = true
+	#Enable the andesite block
+	enableandesiteBlock = true
+	#Enable the basalt block
+	enablebasaltBlock = true
+	#Enable the birch_log block
+	enablebirch_logBlock = true
+	#Enable the birch_plank block
+	enablebirch_plankBlock = true
+	#Enable the blackstone block
+	enableblackstoneBlock = true
+	#Enable the bone_block block
+	enablebone_blockBlock = true
+	#Enable the clay block
+	enableclayBlock = true
+	#Enable the coal block
+	enablecoalBlock = true
+	#Enable the cobbled_deepslate block
+	enablecobbled_deepslateBlock = true
+	#Enable the cobblestone block
+	enablecobblestoneBlock = true
+	#Enable the copper block
+	enablecopperBlock = true
+	#Enable the crimson_stem block
+	enablecrimson_stemBlock = true
+	#Enable the crimson_plank block
+	enablecrimson_plankBlock = true
+	#Enable the dark_oak_log block
+	enabledark_oak_logBlock = true
+	#Enable the dark_oak_plank block
+	enabledark_oak_plankBlock = true
+	#Enable the deepslate block
+	enabledeepslateBlock = true
+	#Enable the diamond block
+	enablediamondBlock = true
+	#Enable the diorite block
+	enabledioriteBlock = true
+	#Enable the dirt block
+	enabledirtBlock = true
+	#Enable the emerald block
+	enableemeraldBlock = true
+	#Enable the end_stone block
+	enableend_stoneBlock = true
+	#Enable the glass block
+	enableglassBlock = true
+	#Enable the glowstone block
+	enableglowstoneBlock = true
+	#Enable the gold block
+	enablegoldBlock = true
+	#Enable the granite block
+	enablegraniteBlock = true
+	#Enable the grass block
+	enablegrassBlock = true
+	#Enable the gravel block
+	enablegravelBlock = true
+	#Enable the hay block
+	enablehayBlock = true
+	#Enable the honey block
+	enablehoneyBlock = true
+	#Enable the iron block
+	enableironBlock = true
+	#Enable the jungle_log block
+	enablejungle_logBlock = true
+	#Enable the jungle_plank block
+	enablejungle_plankBlock = true
+	#Enable the lapis block
+	enablelapisBlock = true
+	#Enable the melon block
+	enablemelonBlock = true
+	#Enable the netherite block
+	enablenetheriteBlock = true
+	#Enable the netherrack block
+	enablenetherrackBlock = true
+	#Enable the oak_log block
+	enableoak_logBlock = true
+	#Enable the oak_plank block
+	enableoak_plankBlock = true
+	#Enable the obsidian block
+	enableobsidianBlock = true
+	#Enable the podzol block
+	enablepodzolBlock = true
+	#Enable the pumpkin block
+	enablepumpkinBlock = true
+	#Enable the quartz block
+	enablequartzBlock = true
+	#Enable the raw_copper block
+	enableraw_copperBlock = true
+	#Enable the raw_gold block
+	enableraw_goldBlock = true
+	#Enable the raw_iron block
+	enableraw_ironBlock = true
+	#Enable the red_sand block
+	enablered_sandBlock = true
+	#Enable the redstone block
+	enableredstoneBlock = true
+	#Enable the sand block
+	enablesandBlock = true
+	#Enable the snow block
+	enablesnowBlock = true
+	#Enable the soul_sand block
+	enablesoul_sandBlock = true
+	#Enable the soul_soil block
+	enablesoul_soilBlock = true
+	#Enable the spruce_log block
+	enablespruce_logBlock = true
+	#Enable the spruce_plank block
+	enablespruce_plankBlock = true
+	#Enable the stone block
+	enablestoneBlock = true
+	#Enable the terracotta block
+	enableterracottaBlock = true
+	#Enable the tuff block
+	enabletuffBlock = true
+	#Enable the warped_stem block
+	enablewarped_stemBlock = true
+	#Enable the warped_plank block
+	enablewarped_plankBlock = true
+	#Enable the Nether Star Block
+	enableNetherStarBlock = true
+	#Enable the Refined Radiance Block
+	enableRefinedRadianceBlock = true
+	#Enable the Shadow Steel Block
+	enableShadowSteelBlock = true
+

@@ -1,0 +1,89 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock",
+      "output": {
+        "{_Rarity: Common, Color: 16777215, ModifierPool: \"the_vault:paradox_common\"}": 75,
+        "{_Rarity: Ore, Color: 16777215, ModifierPool: \"the_vault:paradox_ore\"}": 13,
+        "{_Rarity: Challenge, Color: 16733695, ModifierPool: \"the_vault:paradox_challenge\"}": 8,
+        "{_Rarity: Omega, Color: 5635925, ModifierPool: \"the_vault:paradox_omega\"}": 4
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock{_Rarity: Common}",
+      "output": {
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/bee1\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/bee2\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/bee3\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/bee4\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/cliffs1\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/cliffs2\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/cliffs3\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/cliffs4\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/glowstone_lakes1\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/glowstone_lakes2\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/glowstone_lakes3\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/glowstone_lakes4\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/lakes1\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/lakes2\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/lakes3\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/lakes4\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/mushroom_forest1\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/mushroom_forest2\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/mushroom_forest3\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/mushroom_forest4\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/mustard1\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/mustard2\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/mustard3\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/mustard4\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/pirate1\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/pirate2\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/pirate3\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/pirate4\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/rainbow_forest1\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/rainbow_forest2\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/rainbow_forest3\"}": 1,
+        "{FullName: \"Common Room\", RoomReference: \"the_vault:vault/rooms/common/rainbow_forest4\"}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock{_Rarity: Ore}",
+      "output": {
+        "{FullName: \"Ore Room\", RoomReference: \"the_vault:vault/rooms/common/ore1\"}": 1,
+        "{FullName: \"Ore Room\", RoomReference: \"the_vault:vault/rooms/common/ore2\"}": 1,
+        "{FullName: \"Ore Room\", RoomReference: \"the_vault:vault/rooms/common/ore3\"}": 1,
+        "{FullName: \"Ore Room\", RoomReference: \"the_vault:vault/rooms/common/ore4\"}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock{_Rarity: Challenge}",
+      "output": {
+        "{FullName: \"Crystal Caves Room\", RoomReference: \"the_vault:vault/rooms/challenge/crystal_caves\"}": 1,
+        "{FullName: \"Dragon Room\", RoomReference: \"the_vault:vault/rooms/challenge/dragon\"}": 1,
+        "{FullName: \"Factory Room\", RoomReference: \"the_vault:vault/rooms/challenge/factory\"}": 1,
+        "{FullName: \"Village Room\", RoomReference: \"the_vault:vault/rooms/challenge/village\"}": 1,
+        "{FullName: \"Wild West Room\", RoomReference: \"the_vault:vault/rooms/challenge/wildwest\"}": 1,
+        "{FullName: \"X-Mark Room\", RoomReference: \"the_vault:vault/rooms/challenge/x-mark\"}": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "the_vault:gate_lock{_Rarity: Omega}",
+      "output": {
+        "{FullName: \"Blacksmith Room\", RoomReference: \"the_vault:vault/rooms/omega/blacksmith\"}": 10,
+        "{FullName: \"Cove Room\", RoomReference: \"the_vault:vault/rooms/omega/cove\"}": 10,
+        "{FullName: \"Dig Site Room\", RoomReference: \"the_vault:vault/rooms/omega/digsite2\"}": 1,
+        "{FullName: \"Library Room\", RoomReference: \"the_vault:vault/rooms/omega/library\"}": 10,
+        "{FullName: \"Mine Room\", RoomReference: \"the_vault:vault/rooms/omega/mine\"}": 4,
+        "{FullName: \"Mush Room\", RoomReference: \"the_vault:vault/rooms/omega/mush_room\"}": 10,
+        "{FullName: \"Painting Room\", RoomReference: \"the_vault:vault/rooms/omega/painting\"}": 10
+      }
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

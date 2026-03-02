@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/gingerbread_starts",
+  "rooms": "the_vault:vault/rooms/gingerbread_rooms",
+  "tunnels": "the_vault:vault/tunnels/gingerbread_tunnels",
+  "ambient_light": 0.2,
+  "fog_color": 16777215,
+  "grass_color": 16777215,
+  "foliage_color": 16777215,
+  "water_color": 16777215,
+  "water_fog_color": 16777215,
+  "particle": "minecraft:snowflake",
+  "particle_probability": 0.01
+}

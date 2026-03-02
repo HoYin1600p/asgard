@@ -1,0 +1,820 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "the_vault:vault_dood_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_horse_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "the_vault:treasure_goblin_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "botania:pink_wither_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_alligator_snapping_turtle",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_anaconda",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_anteater",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_bald_eagle",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_bison",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_blobfish",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_bone_serpent",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_bunfungus",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_cachalot_whale",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_capuchin_monkey",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_catfish",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_centipede",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_cockroach",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_comb_jelly",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_cosmaw",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_cosmic_cod",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_crimson_mosquito",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_crocodile",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_crow",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_devils_hole_pupfish",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_dropbear",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_elephant",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_emu",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_endergrade",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_enderiophage",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_flutter",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_fly",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_flying_fish",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_frilled_shark",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_froststalker",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_gazelle",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_gelada_monkey",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_giant_squid",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_gorilla",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_grizzly_bear",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_guster",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_hammerhead_shark",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_hummingbird",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_jerboa",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_kangaroo",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_komodo_dragon",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_laviathan",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_leafcutter_ant",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_lobster",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_maned_wolf",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_mantis_shrimp",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_mimic_octopus",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_mimicube",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_moose",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_mungus",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_orca",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_platypus",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_raccoon",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_rattlesnake",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_roadrunner",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_rocky_roller",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_seagull",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_seal",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_shoebill",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_skelewag",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_snow_leopard",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_soul_vulture",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_spectre",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_straddler",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_stradpole",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_sunbird",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_tarantula_hawk",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_tasmanian_devil",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_terrapin",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_tiger",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_toucan",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_tusklin",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_void_worm",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_warped_mosco",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "alexsmobs:spawn_egg_warped_toad",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "auxiliaryblocks:gingerbread_man_giant_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "auxiliaryblocks:gingerbread_man_small_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "auxiliaryblocks:gingerbread_man_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "ecologics:coconut_crab_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "ecologics:penguin_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "ecologics:squirrel_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:fox_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:illusioner_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:vex_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "minecraft:zombie_horse_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "quark:foxhound_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "quark:forgotten_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "quark:crab_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "quark:shiba_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "quark:stoneling_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "quark:toretoise_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "quark:wraith_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "the_vault:aggressive_cow_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "woldsvaults:wold_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "woldsvaults:boogieman_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "woldsvaults:robot_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "woldsvaults:blue_blaze_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    },
+    {
+      "value": {
+        "id": "woldsvaults:monster_eye_spawn_egg",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 2
+    }
+  ]
+}

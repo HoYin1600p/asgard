@@ -1,0 +1,23 @@
+
+[chatSync]
+	#Enable cross-server chat synchronization
+	enabled = false
+	#Display name for this server (used in Velocity's [ServerName] prefix)
+	serverName = "server"
+	#Hex color for the server name (e.g., #FF0000 for red, #00FF00 for green)
+	serverColor = "#AAAAAA"
+
+	[chatSync.broadcastMessages]
+		#Enable syncing of broadcast messages from other mods
+		enabled = false
+		#Log verbose information about broadcast message sources (for debugging)
+		verbose = false
+		#List of class name patterns to monitor for broadcast messages
+		#Format: 'className.methodName' or just 'className'
+		#Examples: 'net.minecraft.server.commands', 'iskallia.vault', 'mymod.utils.Announcer.broadcast'
+		monitoredClasses = ["net.minecraft.server.commands", "iskallia.vault"]
+
+[blockBans]
+	#Block placement of LightmansCurrency blocks
+	blockLightmansCurrency = false
+

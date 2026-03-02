@@ -1,0 +1,20 @@
+{
+  "tile_processors": [
+    {
+      "type": "placeholder",
+      "target": "DUNGEON_DISCOVERABLE",
+      "levels": [
+        {
+          "level": 0,
+          "probability": 1.0,
+          "success": {
+            "minecraft:air": 1
+          },
+          "failure": {
+            "minecraft:air": 1
+          }
+        }
+      ]
+    }
+  ]
+}

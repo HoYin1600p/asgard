@@ -1,0 +1,48 @@
+{
+  // Basic particle parameters (used when use_pattern = false)
+  // These parameters control particle behavior when patterns are disabled
+  "particle_speed": 0.02,      // Base speed multiplier for particles
+  "particle_spread": 0.1,      // How far particles spread from center
+  "particle_lifetime": 20,     // How long particles last (in ticks, 20 ticks = 1 second)
+  "particle_density": 2,       // Number of particles spawned per tick
+  
+  // Pattern system - set use_pattern to true to enable patterns (overrides basic parameters above)
+  // When use_pattern is false, basic particle parameters (particle_speed, particle_spread, etc.) are used
+  // When use_pattern is true, pattern-specific parameters (pattern_speed, pattern_spread, etc.) are used
+  "use_pattern": true,
+  
+  // Available patterns: "default", "beam", "spiral", "fountain", "pulse", "ring", "burst"
+  //   "default" - Random spread in all directions
+  //   "beam" - Straight upward beam with subtle spread
+  //   "spiral" - Particles spiral upward in a helix pattern
+  //   "fountain" - Particles spread outward then fall down
+  //   "pulse" - Particles pulse in and out from the center
+  //   "ring" - Particles form a ring around the pillar
+  //   "burst" - Particles burst outward in all directions (half size)
+  // You can cycle through patterns in-game by pressing the cycle pattern keybind (default: P)
+  "pattern": "ring",
+  
+  // Pattern-specific parameters (only used when use_pattern = true)
+  // These parameters control pattern behavior and override basic particle parameters
+  "pattern_speed": 0.05,       // Base speed multiplier for pattern particles
+  "pattern_spread": 0.05,      // Spread amount for pattern particles
+  "pattern_intensity": 1.0,    // Intensity multiplier for pattern effects (higher = more intense)
+  
+  // Particle colors (array of #RRGGBB format colors, up to 7 colors)
+  // Particles cycle through these colors (1st particle = 1st color, 2nd particle = 2nd color, etc.)
+  // The texture is white, so any color will tint it appropriately
+  // 
+  // DYING PILLARS:
+  // You can dye pillars by right-clicking them with any dye item (red, blue, green, etc.)
+  // Each pillar can have up to 5 different dye colors applied to it
+  // When a pillar is dyed, it overrides these config colors for that specific pillar
+  // Dye colors are applied in order - particles will cycle through all applied dye colors
+  // Each pillar can have its own dye colors, independent of other pillars
+  // To reset a pillar's colors, break and replace it
+  "particle_color": ["#FFB81C", "#FFFFFF", "#FFFF00"],
+  
+  // Maximum number of colors to use from particle_color array (1-7)
+  // Particles will cycle through colors from first to max_particle_color
+  // This only applies when using config colors - dyed pillars use their dye colors instead
+  "max_particle_color": 3
+}

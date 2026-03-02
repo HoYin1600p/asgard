@@ -1,0 +1,157 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "minecraft:iron_ingot",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 16
+      },
+      "weight": 72
+    },
+    {
+      "value": {
+        "id": "minecraft:gold_ingot",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 16
+      },
+      "weight": 72
+    },
+    {
+      "value": {
+        "id": "minecraft:diamond",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 16
+      },
+      "weight": 32
+    },
+    {
+      "value": {
+        "id": "minecraft:emerald",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 20
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:carbon",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 10
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:magic_silk",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 12
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:chromatic_iron_ingot",
+        "nbt": "{}",
+        "amountMin": 8,
+        "amountMax": 64
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:chromatic_steel_ingot",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 8
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_diamond",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 8
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_plating",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 24
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_scrap",
+        "nbt": "{}",
+        "amountMin": 8,
+        "amountMax": 24
+      },
+      "weight": 64
+    },
+    {
+      "value": {
+        "id": "the_vault:dreamstone",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 8
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_essence",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 24
+      },
+      "weight": 72
+    },
+    {
+      "value": {
+        "id": "the_vault:vault_alloy",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 12
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:driftwood",
+        "nbt": "{}",
+        "amountMin": 8,
+        "amountMax": 32
+      },
+      "weight": 64
+    },
+    {
+      "value": {
+        "id": "the_vault:wooden_chunk",
+        "nbt": "{}",
+        "amountMin": 16,
+        "amountMax": 48
+      },
+      "weight": 48
+    },
+    {
+      "value": {
+        "id": "the_vault:black_chromatic_steel_ingot",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 2
+      },
+      "weight": 2
+    }
+  ]
+}

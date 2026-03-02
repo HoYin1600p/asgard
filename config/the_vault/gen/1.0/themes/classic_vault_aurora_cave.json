@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/aurora_cave_starts",
+  "rooms": "the_vault:vault/rooms/aurora_cave_rooms",
+  "tunnels": "the_vault:vault/tunnels/aurora_cave_tunnels",
+  "ambient_light": 0.2,
+  "fog_color": 4533914,
+  "grass_color": 2861444,
+  "foliage_color": 2861444,
+  "water_color": 10470911,
+  "water_fog_color": 10470911,
+  "particle": "minecraft:snowflake",
+  "particle_probability": 0.01
+}

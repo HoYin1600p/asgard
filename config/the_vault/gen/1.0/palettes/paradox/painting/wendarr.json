@@ -1,0 +1,59 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:concrete",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:reinforced_concrete",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:nailed_reinforced_concrete",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_dark_gray",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_dark_metallic",
+      "output": {
+        "auxiliaryblocks:lab_yellow": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cyan_terracotta",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "simplylight:illuminant_block_on",
+      "output": {
+        "simplylight:illuminant_orange_block_on": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

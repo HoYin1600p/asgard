@@ -1,0 +1,54 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_dark_gray",
+      "output": {
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_dark_metallic",
+      "output": {
+        "the_vault:velara_brick_chiseled": 9,
+        "the_vault:velara_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:plating_block",
+      "output": {
+        "twigs:bamboo_thatch": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:plating_stairs",
+      "output": {
+        "twigs:bamboo_thatch_stairs": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:plating_slab",
+      "output": {
+        "twigs:bamboo_thatch_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:plating_wall",
+      "output": {
+        "everycomp:cfm/the_vault/velara_hedge": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

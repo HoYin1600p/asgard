@@ -1,0 +1,562 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "minecraft:iron_ingot",
+        "nbt": "{}",
+        "amountMin": 12,
+        "amountMax": 20
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:copper_ingot",
+        "nbt": "{}",
+        "amountMin": 16,
+        "amountMax": 24
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:netherrack",
+        "nbt": "{}",
+        "amountMin": 10,
+        "amountMax": 20
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:soul_sand",
+        "nbt": "{}",
+        "amountMin": 10,
+        "amountMax": 20
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:basalt",
+        "nbt": "{}",
+        "amountMin": 16,
+        "amountMax": 32
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:rabbit_hide",
+        "nbt": "{}",
+        "amountMin": 8,
+        "amountMax": 16
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:poisonous_potato",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 3
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:salmon",
+        "nbt": "{}",
+        "amountMin": 10,
+        "amountMax": 20
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:cod",
+        "nbt": "{}",
+        "amountMin": 10,
+        "amountMax": 20
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:cocoa_beans",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:snowball",
+        "nbt": "{}",
+        "amountMin": 16,
+        "amountMax": 32
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:sea_pickle",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:apple",
+        "nbt": "{}",
+        "amountMin": 10,
+        "amountMax": 20
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:spore_blossom",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:mossy_cobblestone",
+        "nbt": "{}",
+        "amountMin": 10,
+        "amountMax": 20
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:blackstone",
+        "nbt": "{}",
+        "amountMin": 8,
+        "amountMax": 16
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:prismarine",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:blaze_rod",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ender_pearl",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:honeycomb",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ink_sac",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:glow_ink_sac",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:pufferfish",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:seagrass",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:sunflower",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:nether_wart",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:glowstone_dust",
+        "nbt": "{}",
+        "amountMin": 16,
+        "amountMax": 24
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ice",
+        "nbt": "{}",
+        "amountMin": 16,
+        "amountMax": 32
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:purpur_block",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:mycelium",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:end_stone",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:warped_wart_block",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:podzol",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:shroomlight",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:tropical_fish",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:ghast_tear",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 3
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:magma_cream",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:nautilus_shell",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 3
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:turtle_egg",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 4
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:wither_skeleton_skull",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 5
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:weeping_vines",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:big_dripleaf",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:warped_fungus",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:chorus_fruit",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:lily_pad",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:name_tag",
+        "nbt": "{}",
+        "amountMin": 2,
+        "amountMax": 4
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:prismarine_shard",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:prismarine_crystals",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:chorus_flower",
+        "nbt": "{}",
+        "amountMin": 16,
+        "amountMax": 24
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:dead_brain_coral",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:brain_coral",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:totem_of_undying",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:saddle",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 3
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:cobweb",
+        "nbt": "{}",
+        "amountMin": 8,
+        "amountMax": 16
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:crying_obsidian",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 4
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "thermal:blitz_rod",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "thermal:blizz_rod",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "thermal:basalz_rod",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:music_disc_cat",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:trident",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:nether_star",
+        "nbt": "{}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "minecraft:sponge",
+        "nbt": "{}",
+        "amountMin": 4,
+        "amountMax": 8
+      },
+      "weight": 1
+    }
+  ]
+}

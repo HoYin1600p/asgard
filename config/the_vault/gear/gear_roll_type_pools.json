@@ -1,0 +1,853 @@
+{
+  "pooledOutcomes": {
+    "Chaotic": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Chaotic",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "Scaling": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "shop_pedestal": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 8
+          },
+          {
+            "value": "Rare",
+            "weight": 4
+          },
+          {
+            "value": "Epic",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "rune_boss": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 4
+          },
+          {
+            "value": "Epic",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "chaos": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Chaos",
+            "weight": 4
+          }
+        ]
+      }
+    ],
+    "loot": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 1
+          },
+          {
+            "value": "Common",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "blackmarket": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 70
+          },
+          {
+            "value": "Common",
+            "weight": 40
+          },
+          {
+            "value": "Rare",
+            "weight": 18
+          },
+          {
+            "value": "Epic",
+            "weight": 7
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "strong_common": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 40
+          },
+          {
+            "value": "Scrappy",
+            "weight": 40
+          }
+        ]
+      }
+    ],
+    "strong_rare": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 40
+          },
+          {
+            "value": "Rare",
+            "weight": 40
+          }
+        ]
+      }
+    ],
+    "strong_epic": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 40
+          },
+          {
+            "value": "Epic",
+            "weight": 40
+          }
+        ]
+      }
+    ],
+    "strong_omega": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Epic",
+            "weight": 40
+          },
+          {
+            "value": "Omega",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "blackmarket_omega": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 30
+          },
+          {
+            "value": "Epic",
+            "weight": 4
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "blackmarket_omega_only": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "brazier": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 20
+          },
+          {
+            "value": "Rare",
+            "weight": 20
+          },
+          {
+            "value": "Epic",
+            "weight": 4
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "dungeon": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 200
+          },
+          {
+            "value": "Epic",
+            "weight": 50
+          },
+          {
+            "value": "Omega",
+            "weight": 10
+          },
+          {
+            "value": "Chaotic",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "charms": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 100
+          },
+          {
+            "value": "Rare",
+            "weight": 20
+          },
+          {
+            "value": "Epic",
+            "weight": 5
+          }
+        ]
+      }
+    ],
+    "charms_dungeons": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 20
+          },
+          {
+            "value": "Epic",
+            "weight": 5
+          },
+          {
+            "value": "Omega",
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "ornate0": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 80
+          },
+          {
+            "value": "Common",
+            "weight": 10
+          },
+          {
+            "value": "Rare",
+            "weight": 6
+          },
+          {
+            "value": "Epic",
+            "weight": 3
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "gear_completion_crate": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 50
+          },
+          {
+            "value": "Common",
+            "weight": 30
+          },
+          {
+            "value": "Rare",
+            "weight": 12
+          },
+          {
+            "value": "Epic",
+            "weight": 6
+          },
+          {
+            "value": "Omega",
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "gear_completion": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 50
+          },
+          {
+            "value": "Common",
+            "weight": 30
+          },
+          {
+            "value": "Rare",
+            "weight": 12
+          },
+          {
+            "value": "Epic",
+            "weight": 6
+          },
+          {
+            "value": "Omega",
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "gear_completion_crate_mono": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 60
+          }
+        ]
+      }
+    ],
+    "gear_completion_crate_kill": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 32
+          }
+        ]
+      }
+    ],
+    "gear_completion_crate_elix": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 8
+          }
+        ]
+      }
+    ],
+    "gear_completion_crate_scav": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 15
+          },
+          {
+            "value": "Epic",
+            "weight": 4
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "gear_completion_crate_paradox": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Epic",
+            "weight": 4
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_completion": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Epic",
+            "weight": 3
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_completion_crate": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_completion_crate_two": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 4
+          },
+          {
+            "value": "Rare",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_crafted": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 35
+          }
+        ]
+      }
+    ],
+    "jewel_normal": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 91
+          },
+          {
+            "value": "Rare",
+            "weight": 6
+          },
+          {
+            "value": "Epic",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+         ]
+      }
+    ],
+    "jewel_high": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 25
+          },
+          {
+            "value": "Rare",
+            "weight": 5
+          },
+          {
+            "value": "Epic",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_not_chipped": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 17
+          },
+          {
+            "value": "Epic",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_blackmarket": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 25
+          },
+          {
+            "value": "Rare",
+            "weight": 5
+          },
+          {
+            "value": "Epic",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_blackmarket_omega": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 20
+          },
+          {
+            "value": "Epic",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_treasure": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 5
+          },
+          {
+            "value": "Epic",
+            "weight": 2
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "jewel_rare": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 25
+          },
+          {
+            "value": "Rare",
+            "weight": 4
+          },
+          {
+            "value": "Epic",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "altar": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 20
+          },
+          {
+            "value": "Rare",
+            "weight": 7
+          },
+          {
+            "value": "Epic",
+            "weight": 3
+          },
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "treasure": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 20
+          },
+          {
+            "value": "Common",
+            "weight": 50
+          },
+          {
+            "value": "Rare",
+            "weight": 20
+          },
+          {
+            "value": "Epic",
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "gear_treasure": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 40
+          },
+          {
+            "value": "Rare",
+            "weight": 40
+          },
+          {
+            "value": "Epic",
+            "weight": 12
+          },
+          {
+            "value": "Omega",
+            "weight": 8
+          }
+        ]
+      }
+    ],
+    "gear_digsite": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 50
+          },
+          {
+            "value": "Common",
+            "weight": 40
+          },
+          {
+            "value": "Rare",
+            "weight": 20
+          },
+          {
+            "value": "Epic",
+            "weight": 6
+          },
+          {
+            "value": "Omega",
+            "weight": 2
+          }
+        ]
+      }
+    ],
+    "gear_rare": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Common",
+            "weight": 100
+          },
+          {
+            "value": "Rare",
+            "weight": 8
+          },
+          {
+            "value": "Epic",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "gear_bounty_rare": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Rare",
+            "weight": 6
+          }
+        ]
+      }
+    ],
+    "gear_epic": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Epic",
+            "weight": 6
+          }
+        ]
+      }
+    ],
+    "gear_omega": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Omega",
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "crate": [
+      {
+        "level": 0,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 50
+          },
+          {
+            "value": "Common",
+            "weight": 40
+          },
+          {
+            "value": "Rare",
+            "weight": 7
+          },
+          {
+            "value": "Epic",
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "level": 10,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 45
+          },
+          {
+            "value": "Common",
+            "weight": 45
+          },
+          {
+            "value": "Rare",
+            "weight": 10
+          },
+          {
+            "value": "Epic",
+            "weight": 3
+          }
+        ]
+      },
+      {
+        "level": 20,
+        "rollTypeOutcomes": [
+          {
+            "value": "Scrappy",
+            "weight": 40
+          },
+          {
+            "value": "Common",
+            "weight": 50
+          },
+          {
+            "value": "Rare",
+            "weight": 12
+          },
+          {
+            "value": "Epic",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+}

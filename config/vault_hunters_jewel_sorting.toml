@@ -1,0 +1,84 @@
+
+#This category holds options how Jewels are sorted
+["Jewel Sorting"]
+	#Supported Values: NAME, ATTRIBUTE, ATTRIBUTE_VALUE, SIZE, LEVEL, ATTRIBUTE_WEIGHT, CUTS
+	jewel_sorting_by_name = ["NAME", "ATTRIBUTE", "ATTRIBUTE_VALUE", "SIZE", "LEVEL"]
+	#Supported Values: NAME, ATTRIBUTE, ATTRIBUTE_VALUE, SIZE, LEVEL, ATTRIBUTE_WEIGHT, CUTS
+	jewel_sorting_by_amount = []
+	#Supported Values: NAME, ATTRIBUTE, ATTRIBUTE_VALUE, SIZE, LEVEL, ATTRIBUTE_WEIGHT, CUTS
+	jewel_sorting_by_mod = []
+
+#This category holds options how Gear are sorted
+["Gear Sorting"]
+	#Supported Values: NAME, STATE, RARITY, LEVEL, MODEL
+	gear_sorting_by_name = ["NAME", "STATE", "RARITY", "LEVEL", "MODEL"]
+	#Supported Values: NAME, STATE, RARITY, LEVEL, MODEL
+	gear_sorting_by_amount = []
+	#Supported Values: NAME, STATE, RARITY, LEVEL, MODEL
+	gear_sorting_by_mod = []
+	#The order of Rarities Pools in the sorting for unidentified gear.
+	rarity_order = ["Scrappy", "Scrappy+", "Common", "Common+", "Rare", "Rare+", "Epic", "Epic+", "Omega", "Beginner", "Novice", "Maker", "Apprentice", "Smith", "Artisan", "Master Artisan", "Gladiator"]
+
+#This category holds options how Inscriptions are sorted
+["Inscription Sorting"]
+	#Supported Values: NAME, INSTABILITY, TIME, COMPLETION, ROOMS
+	inscription_sorting_by_name = ["NAME", "ROOMS", "TIME", "COMPLETION", "INSTABILITY"]
+	#Supported Values: NAME, INSTABILITY, TIME, COMPLETION, ROOMS
+	inscription_sorting_by_amount = []
+	#Supported Values: NAME, INSTABILITY, TIME, COMPLETION, ROOMS
+	inscription_sorting_by_mod = []
+
+#This category holds options how Vault Crystals are sorted
+["Vault Crystal Sorting"]
+	#Supported Values: NAME, LEVEL, TYPE
+	crystal_sorting_by_name = ["NAME", "TYPE", "LEVEL"]
+	#Supported Values: NAME, LEVEL, TYPE
+	crystal_sorting_by_amount = []
+	#Supported Values: NAME, LEVEL, TYPE
+	crystal_sorting_by_mod = []
+
+#This category holds options how Trinkets are sorted
+["Trinkets Sorting"]
+	#Supported Values: NAME, SLOT, TYPE, USES
+	trinket_sorting_by_name = ["NAME", "SLOT", "TYPE", "USES"]
+	#Supported Values: NAME, SLOT, TYPE, USES
+	trinket_sorting_by_amount = []
+	#Supported Values: NAME, SLOT, TYPE, USES
+	trinket_sorting_by_mod = []
+
+#This category holds options how Vault Dolls are sorted
+["Vault Doll Sorting"]
+	#Supported Values: NAME, OWNER, COMPLETED, XP, LOOT
+	vault_doll_sorting_by_name = ["NAME", "COMPLETED", "OWNER", "LOOT", "XP"]
+	#Supported Values: NAME, OWNER, COMPLETED, XP, LOOT
+	vault_doll_sorting_by_amount = []
+	#Supported Values: NAME, OWNER, COMPLETED, XP, LOOT
+	vault_doll_sorting_by_mod = []
+
+#This category holds options how Vault Charms are sorted
+["Vault Charm Sorting"]
+	#Supported Values: NAME, USES, VALUE
+	charm_sorting_by_name = ["NAME", "USES", "VALUE"]
+	#Supported Values: NAME, USES, VALUE
+	charm_sorting_by_amount = []
+	#Supported Values: NAME, USES, VALUE
+	charm_sorting_by_mod = []
+
+#This category holds options how Infused Catalysts are sorted
+["Infused Catalysts Sorting"]
+	#Supported Values: NAME, SIZE, MODIFIER
+	catalyst_sorting_by_name = ["NAME", "MODIFIER", "SIZE"]
+	#Supported Values: NAME, SIZE, MODIFIER
+	catalyst_sorting_by_amount = []
+	#Supported Values: NAME, SIZE, MODIFIER
+	catalyst_sorting_by_mod = []
+
+#This category holds options how Cards are sorted
+["Cards Sorting"]
+	#Supported Values: NAME, TIER, TYPE, COLOR, GROUPS, MODEL
+	card_sorting_by_name = ["TYPE", "COLOR", "TIER", "NAME", "GROUPS"]
+	#Supported Values: NAME, TIER, TYPE, COLOR, GROUPS, MODEL
+	card_sorting_by_amount = ["TYPE", "COLOR", "TIER", "NAME", "GROUPS"]
+	#Supported Values: NAME, TIER, TYPE, COLOR, GROUPS, MODEL
+	card_sorting_by_mod = []
+

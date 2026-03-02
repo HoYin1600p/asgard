@@ -1,0 +1,74 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sand",
+      "output": {
+        "minecraft:orange_concrete_powder": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone",
+      "output": {
+        "minecraft:orange_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone",
+      "output": {
+        "minecraft:orange_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:sandstone_slab",
+      "output": {
+        "minecraft:red_sandstone_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_sandstone_slab",
+      "output": {
+        "minecraft:smooth_red_sandstone_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:cyan_terracotta",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 2,
+        "the_vault:wendarr_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:oak_leaves",
+      "output": {
+        "quark:orange_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:jungle_leaves",
+      "output": {
+        "quark:orange_blossom_leaves": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_bush",
+      "output": {
+        "botania:orange_shiny_flower": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

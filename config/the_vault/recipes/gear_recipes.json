@@ -1,0 +1,228 @@
+{
+  "gearRecipes": [
+    {
+      "id": "the_vault:helmet",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:helmet",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:chestplate",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:chestplate",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:leggings",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:leggings",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:boots",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:boots",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:axe",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:axe",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:sword",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:sword",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:shield",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:shield",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:wand",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:wand",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:focus",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:focus",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:magnet",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:magnet",
+        "NBT": "{Damage:0}"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 3,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 1,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        }
+      ]
+    },
+    {
+      "id": "the_vault:unique",
+      "output": {
+        "AMOUNT": 1,
+        "ITEM": "the_vault:unique_shard"
+      },
+      "inputs": [
+        {
+          "AMOUNT": 16,
+          "ITEM": "the_vault:vault_alloy",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 10,
+          "ITEM": "the_vault:vault_gold",
+          "NBT": "{}"
+        },
+        {
+          "AMOUNT": 4,
+          "ITEM": "the_vault:unique_shard",
+          "NBT": "{}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+
+[clientChatFilters]
+	#Hide advancement messages from other players
+	filterAdvancements = false
+	#Hide transmog related messages
+	filterVaultMessages = false
+	#Hide Discord messages
+	discordMessages = false
+	#Blocked words list for /filter word
+	blockedWords = []
+

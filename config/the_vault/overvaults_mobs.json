@@ -1,0 +1,46 @@
+{
+  "MODIFIERS_TO_REMOVE_UNTIL_TIER_UP": 5,
+  "TIER_0_ENTITY": {
+    "entityId": "the_vault:vault_fighter",
+    "entityHitpoints": 20.0,
+    "entityAttackDamage": 2.0
+  },
+  "TIER_1_ENTITY": {
+    "entityId": "the_vault:vault_fighter_1",
+    "entityHitpoints": 25.0,
+    "entityAttackDamage": 4.0
+  },
+  "TIER_2_ENTITY": {
+    "entityId": "the_vault:vault_fighter_2",
+    "entityHitpoints": 30.0,
+    "entityAttackDamage": 6.0
+  },
+  "TIER_3_ENTITY": {
+    "entityId": "the_vault:vault_fighter_3",
+    "entityHitpoints": 35.0,
+    "entityAttackDamage": 8.0
+  },
+  "TIER_4_ENTITY": {
+    "entityId": "the_vault:vault_fighter_4",
+    "entityHitpoints": 40.0,
+    "entityAttackDamage": 10.0
+  },
+  "BOSS_ENTRIES": [
+    {
+      "value": {
+        "entityId": "the_vault:boogieman",
+        "entityHitpoints": 50.0,
+        "entityAttackDamage": 5.0
+      },
+      "weight": 10
+    },
+    {
+      "value": {
+        "entityId": "the_vault:robot",
+        "entityHitpoints": 75.0,
+        "entityAttackDamage": 5.0
+      },
+      "weight": 5
+    }
+  ]
+}

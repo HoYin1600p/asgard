@@ -1,0 +1,261 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 8,
+        "max": 11
+      },
+      "pool": [
+        { "weight": 70,
+          "pool": [
+            {
+                "weight": 32,
+                "item": {
+                "id": "minecraft:torch",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+                }
+            },
+            {
+              "weight": 16,
+              "item": {
+              "id": "minecraft:scaffolding",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 2
+                }
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "minecraft:bread",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:book",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 10,
+              "item": {
+                "id": "minecraft:coal",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "minecraft:acacia_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "minecraft:jungle_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "minecraft:dark_oak_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 2,
+              "item": {
+                "id": "minecraft:spruce_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "minecraft:birch_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "minecraft:oak_sapling",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 4,
+              "item": {
+                "id": "the_vault:soot",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:sandy_rocks",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 16,
+              "item": {
+                "id": "the_vault:living_rock",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 4
+                  }
+              }
+            }
+            
+          ]
+        },
+        { "weight": 20,
+          "pool": [
+            {
+              "weight": 7,
+              "item": {
+                "id": "the_vault:wooden_chunk",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 3
+                  }
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "minecraft:coal",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:chromatic_iron_nugget",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+                "weight": 8,
+                "item": {
+                  "id": "minecraft:experience_bottle",
+                  "count": {
+                    "type": "uniform",
+                    "min": 1,
+                    "max": 2
+                    }
+                }
+            },
+            {
+              "weight": 8,
+              "item": {
+                "id": "the_vault:diamond_nugget",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 2,
+          "pool": [
+            {
+              "weight": 24,
+              "item": {
+                "id": "the_vault:raw_chromatic_iron",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:hardened_chest_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

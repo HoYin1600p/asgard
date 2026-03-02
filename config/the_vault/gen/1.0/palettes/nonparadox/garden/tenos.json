@@ -1,0 +1,38 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:grass_block",
+      "output": {
+        "botania:infused_grass": 9
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_concrete",
+      "output": {
+        "the_vault:tenos_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:brown_concrete",
+      "output": {
+        "minecraft:cyan_concrete": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:smooth_gray_pastel",
+      "output": {
+        "the_vault:tenos_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/gate_placeholder"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

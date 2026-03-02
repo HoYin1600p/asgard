@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/ancient_idona_starts",
+  "rooms": "the_vault:vault/rooms/ancient_idona_rooms",
+  "tunnels": "the_vault:vault/tunnels/ancient_idona_tunnels",
+  "ambient_light": 0.1,
+  "fog_color": 8492687,
+  "grass_color": 6903356,
+  "foliage_color": 6903356,
+  "water_color": 12183786,
+  "water_fog_color": 12183786,
+  "particle": "minecraft:ash",
+  "particle_probability": 0.01
+}

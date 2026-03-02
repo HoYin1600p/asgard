@@ -1,0 +1,50 @@
+#show ability enhancements
+showAbilityEnhancements = false
+#show gear roll weight
+showWeight = false
+#show gear roll chance
+showChance = true
+#show unobtainable crafted modifiers (above current lvl)
+showUnobtainableCrafted = false
+#height of the gear screen
+#Range: 0.0 ~ 1.0
+screenHeight = 0.95
+#width of the gear screen
+#Range: > 250
+screenWidth = 370
+#height of the card screen
+#Range: 0.0 ~ 1.0
+cardScreenHeight = 0.95
+#width of the card screen
+#Range: > 250
+cardScreenWidth = 450
+#show card roll weight
+showCardWeight = false
+#show card roll chance
+showCardChance = true
+#show hold [key] to view rolls tooltip
+showHoverTooltip = true
+
+[BUTTON]
+	#open VHat can I roll? from vault screen
+	vaultScreenButton = true
+	#x position of the button
+	#Range: > -2147483648
+	buttonPositionX = 5
+	#y position of the button (109 default, 130 for QOL Hunters)
+	#Range: > -2147483648
+	buttonPositionY = 130
+
+[DEBUG]
+	#QOL Hunters conflict resolution (shouldn't be disabled unless it causes issues)
+	QOLHuntersConflictResolution = true
+	#vhcir won't show chance/weight for affixes in these groups
+	affixTagGroupBlacklist = ["CRAFTED_PREFIX", "CRAFTED_SUFFIX"]
+	#override max level
+	#Range: > -1
+	maxLevelOverride = -1
+	#debug unique gear
+	debugUniqueGear = false
+	#debug cards
+	debugCards = false
+

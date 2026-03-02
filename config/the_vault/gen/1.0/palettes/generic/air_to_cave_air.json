@@ -1,0 +1,17 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:air",
+      "output": {
+        "minecraft:cave_air": 1
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/gate_placeholder"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

@@ -1,0 +1,18 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_quartz",
+      "output": {
+        "the_vault:golden_tooth[generated=true]": 1,
+        "minecraft:smooth_quartz": 49
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/room_base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

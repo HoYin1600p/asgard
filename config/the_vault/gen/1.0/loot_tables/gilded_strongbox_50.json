@@ -1,0 +1,202 @@
+{
+  "entries": [
+    {
+      "roll": {
+        "type": "uniform",
+        "min": 1,
+        "max": 1
+      },
+      "pool": [
+        { "weight": 80,
+          "pool": [
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:jewel_pouch",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+          ]
+        },
+        { "weight": 20,
+        "pool": [
+          {
+            "weight": 1,
+            "item": {
+              "id": "the_vault:jewel_pouch",
+              "count": {
+                "type": "uniform",
+                "min": 1,
+                "max": 1
+                }
+            }
+          }
+        ]
+        },
+        { "weight": 8,
+          "pool": [
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:jewel_pouch",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 6,
+              "item": {
+                "id": "the_vault:dreamstone",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:magnet",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "strong_common"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:plushie",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "strong_common"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            },
+            {
+              "weight": 1,
+              "item": {
+                "id": "the_vault:loot_sack",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "strong_common"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                  }
+              }
+            }
+        ]
+        },
+        {
+          "weight": 2,
+          "pool": [
+            {
+              "weight": 60,
+              "item": {
+                "id": "the_vault:jewel_pouch",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 20,
+              "item": {
+                "id": "the_vault:gilded_chest_scroll",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 20,
+              "item": {
+                "id": "the_vault:key_piece",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 54,
+              "item": {
+                "id": "the_vault:magnet",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "strong_rare"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 54,
+              "item": {
+                "id": "the_vault:plushie",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "strong_rare"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 54,
+              "item": {
+                "id": "the_vault:loot_sack",
+                "nbt": {
+                  "the_vault:gear_roll_type_pool": "strong_rare"
+                },
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            },
+            {
+              "weight": 15,
+              "item": {
+                "id": "the_vault:trinket",
+                "count": {
+                  "type": "uniform",
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

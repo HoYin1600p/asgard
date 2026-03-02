@@ -1,0 +1,296 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:light_gray_frameless_glass",
+      "output": {
+        "auxiliaryblocks:orange_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lime_frameless_glass",
+      "output": {
+        "auxiliaryblocks:orange_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:magenta_frameless_glass",
+      "output": {
+        "auxiliaryblocks:orange_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:orange_frameless_glass",
+      "output": {
+        "auxiliaryblocks:orange_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:pink_frameless_glass",
+      "output": {
+        "auxiliaryblocks:yellow_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:purple_frameless_glass",
+      "output": {
+        "auxiliaryblocks:yellow_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:yellow_frameless_glass",
+      "output": {
+        "auxiliaryblocks:yellow_frameless_glass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:purple_stained_glass_pane",
+      "output": {
+        "minecraft:orange_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:blue_stained_glass_pane",
+      "output": {
+        "minecraft:orange_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:yellow_stained_glass_pane",
+      "output": {
+        "minecraft:orange_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:orange_stained_glass_pane",
+      "output": {
+        "minecraft:orange_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lime_stained_glass_pane",
+      "output": {
+        "minecraft:yellow_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_stained_glass_pane",
+      "output": {
+        "minecraft:yellow_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:pink_stained_glass_pane",
+      "output": {
+        "minecraft:yellow_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:magenta_stained_glass_pane",
+      "output": {
+        "minecraft:yellow_stained_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lime_gelatin",
+      "output": {
+        "auxiliaryblocks:orange_gelatin": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:purple_gelatin",
+      "output": {
+        "auxiliaryblocks:orange_gelatin": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:yellow_gelatin",
+      "output": {
+        "auxiliaryblocks:yellow_gelatin": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_green",
+      "output": {
+        "auxiliaryblocks:yellow_gelatin": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:blue_crystal",
+      "output": {
+        "auxiliaryblocks:orange_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:green_crystal",
+      "output": {
+        "auxiliaryblocks:orange_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:indigo_crystal",
+      "output": {
+        "auxiliaryblocks:yellow_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:orange_crystal",
+      "output": {
+        "auxiliaryblocks:orange_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:violet_crystal",
+      "output": {
+        "auxiliaryblocks:yellow_crystal": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:dry_grass",
+      "output": {
+        "botania:golden_grass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:moss_block",
+      "output": {
+        "minecraft:red_sand": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=lower]",
+      "output": {
+                "supplementaries:hourglass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:tall_grass[half=upper]",
+      "output": {
+                "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lilac[half=lower]",
+      "output": {
+                "supplementaries:hourglass": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:lilac[half=upper]",
+      "output": {
+                "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:poppy",
+      "output": {
+                "minecraft:dead_bush": 1,
+                "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_fire_coral",
+      "output": {
+                "minecraft:dead_bush": 1,
+                "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_bubble_coral",
+      "output": {
+                "minecraft:dead_bush": 1,
+                "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_brain_coral",
+      "output": {
+                "minecraft:dead_bush": 1,
+                "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_brain_coral_fan",
+      "output": {
+                "minecraft:dead_bush": 1,
+                "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:dead_bubble_coral_fan",
+      "output": {
+                "minecraft:dead_bush": 1,
+                "minecraft:air": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:magenta_double_flower[half=lower]",
+      "output": {
+        "botania:yellow_double_flower[half=lower]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:magenta_double_flower[half=upper]",
+      "output": {
+        "botania:yellow_double_flower[half=upper]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:light_gray_double_flower[half=lower]",
+      "output": {
+        "botania:orange_double_flower[half=lower]": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "botania:light_gray_double_flower[half=upper]",
+      "output": {
+        "botania:orange_double_flower[half=upper]": 1
+      }
+    },
+    {
+        "type": "reference",
+        "id": "the_vault:gate_lock/base"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

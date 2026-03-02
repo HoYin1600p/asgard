@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/alpha_starts",
+  "rooms": "the_vault:vault/rooms/alpha_rooms",
+  "tunnels": "the_vault:vault/tunnels/alpha_tunnels",
+  "ambient_light": 1.0,
+  "fog_color": 10670195,
+  "grass_color": 10670195,
+  "foliage_color": 10670195,
+  "water_color": 3293870,
+  "water_fog_color": 3293870,
+  "particle": "minecraft:ash",
+  "particle_probability": 0.001
+}

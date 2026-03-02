@@ -1,0 +1,256 @@
+{
+  "POOL": [
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/blacksmith\"}],model: 1, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/blacksmith\"}],model: 1, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/mush_room\"}],model: 2, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 112
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/mush_room\"}],model: 2, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 112
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/library\"}],model: 3, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 112
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/library\"}],model: 3, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 112
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/cove\"}],model: 4, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/cove\"}],model: 4, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/crystal_caves\"}],model: 5, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 148
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/crystal_caves\"}],model: 5, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 148
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/dragon\"}],model: 7, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 64
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/dragon\"}],model: 7, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 64
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/factory\"}],model: 8, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/factory\"}],model: 8, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/mine\"}],model: 9, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 32
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/mine\"}],model: 9, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 32
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/painting\"}],model: 10, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 132
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/painting\"}],model: 10, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 132
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/vendor\"}],model: 12, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/vendor\"}],model: 12, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 96
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/village\"}],model: 13, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 132
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/village\"}],model: 13, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 132
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/wildwest\"}],model: 14, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 132
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/wildwest\"}],model: 14, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 132
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/x-mark\"}],model: 15, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 132
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/x-mark\"}],model: 15, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 132
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/blacksmith\"}, {color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/mush_room\"}, {color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/mine\"}, {color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/vendor\"}, {color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/painting\"}, {color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/cove\"}, {color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/library\"}],model: 11, size: 40}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 1
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/x-mark\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/dragon\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/factory\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/wildwest\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/village\"}, {color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/crystal_caves\"}],model: 11,size: 25}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 8
+    }
+  ]
+}

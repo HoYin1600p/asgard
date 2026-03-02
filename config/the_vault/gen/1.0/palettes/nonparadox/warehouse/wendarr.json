@@ -1,0 +1,200 @@
+{
+  "tile_processors": [
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:asphalt",
+      "output": {
+        "the_vault:wendarr_dark_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:polished_cut_deepslate",
+      "output": {
+          "the_vault:wendarr_brick_chiseled": 9,
+          "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:flint_block",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "architects_palette:flint_pillar",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_yellow",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_green",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:smooth_stone",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwwindows:lime_mosaic_glass_pane",
+      "output": {
+        "mcwwindows:yellow_mosaic_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "mcwwindows:orange_mosaic_glass_pane",
+      "output": {
+        "mcwwindows:yellow_mosaic_glass_pane": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "simplylight:illuminant_green_block_on",
+      "output": {
+        "simplylight:illuminant_yellow_block_on": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "simplylight:illuminant_yellow_block_on",
+      "output": {
+        "simplylight:illuminant_yellow_block_on": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "simplylight:illuminant_orange_block_on",
+      "output": {
+        "simplylight:illuminant_yellow_block_on": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:concrete",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:plated_concrete",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:gray_concrete",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:yellow_concrete",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_light_gray",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_dark_gray",
+      "output": {
+          "the_vault:wendarr_gem_block": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "auxiliaryblocks:lab_gray",
+      "output": {
+          "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "minecraft:green_wool",
+      "output": {
+          "minecraft:yellow_wool": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "quark:midori_block_slab",
+      "output": {
+          "create:cut_ochrum_slab": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:polished_cut_calcite",
+      "output": {
+        "the_vault:wendarr_brick_chiseled": 9,
+        "the_vault:wendarr_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "create:cut_calcite",
+      "output": {
+        "the_vault:wendarr_light_smooth_brick": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "neoncraft2:wallneon_number_0_green",
+      "output": {
+        "neoncraft2:wallneon_number_0_yellow": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "neoncraft2:wallneon_number_1_green",
+      "output": {
+        "neoncraft2:wallneon_number_1_yellow": 1
+      }
+    },
+    {
+      "type": "weighted_target",
+      "target": "neoncraft2:wallneon_number_2_green",
+      "output": {
+        "neoncraft2:wallneon_number_2_yellow": 1
+      }
+    },
+    {
+      "type": "reference",
+      "id": "the_vault:generic/gate_placeholder"
+    }
+  ],
+  "entity_processors": [],
+  "decorators": []
+}

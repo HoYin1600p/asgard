@@ -1,0 +1,99 @@
+{
+  "chestTypeRechargePoints": {
+    "ENIGMA": 1,
+    "ORNATE": 1,
+    "LIVING": 1,
+    "FLESH": 1,
+    "HARDENED": 1,
+    "WOODEN": 1,
+    "TREASURE": 10,
+    "GILDED": 1,
+    "ALTAR": 1
+  },
+  "potions": {
+    "potion": {
+      "charges": 6,
+      "modifiers": 1,
+      "timeRecharge": 6000,
+      "vaultLevelMobRecharge": {
+        "90": 90,
+        "80": 80,
+        "65": 70,
+        "40": 50,
+        "20": 30,
+        "0": 20
+      },
+      "vaultLevelChestRecharge": {
+        "80": 80,
+        "60": 60,
+        "20": 40,
+        "0": 20
+      },
+      "effectDuration": 400,
+      "healing": 6
+    },
+    "mixture": {
+      "charges": 6,
+      "modifiers": 2,
+      "timeRecharge": 6000,
+      "vaultLevelMobRecharge": {
+        "90": 90,
+        "80": 80,
+        "65": 70,
+        "40": 50,
+        "20": 30,
+        "0": 20
+      },
+      "vaultLevelChestRecharge": {
+        "80": 80,
+        "60": 60,
+        "20": 40,
+        "0": 20
+      },
+      "effectDuration": 400,
+      "healing": 8
+    },
+    "vial": {
+      "charges": 6,
+      "modifiers": 0,
+      "timeRecharge": 6000,
+      "vaultLevelMobRecharge": {
+        "90": 90,
+        "80": 80,
+        "65": 70,
+        "40": 50,
+        "20": 30,
+        "0": 20
+      },
+      "vaultLevelChestRecharge": {
+        "80": 80,
+        "60": 60,
+        "20": 40,
+        "0": 20
+      },
+      "effectDuration": 400,
+      "healing": 4
+    },
+    "brew": {
+      "charges": 6,
+      "modifiers": 3,
+      "timeRecharge": 6000,
+      "vaultLevelMobRecharge": {
+        "90": 90,
+        "80": 80,
+        "65": 70,
+        "40": 50,
+        "20": 30,
+        "0": 20
+      },
+      "vaultLevelChestRecharge": {
+        "80": 80,
+        "60": 60,
+        "20": 40,
+        "0": 20
+      },
+      "effectDuration": 400,
+      "healing": 10
+    }
+  }
+}

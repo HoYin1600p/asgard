@@ -1,0 +1,20 @@
+{
+    "tile_processors": [
+        {
+            "type": "reference",
+            "id": "the_vault:chaos/wooden_chest_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:chaos/gilded_chest_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:chaos/living_chest_placeholder"
+        },
+        {
+            "type": "reference",
+            "id": "the_vault:chaos/ornate_chest_placeholder"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "classic_vault",
+  "starts": "the_vault:vault/starts/haunted_starts",
+  "rooms": "the_vault:vault/rooms/haunted_rooms",
+  "tunnels": "the_vault:vault/tunnels/haunted_tunnels",
+  "ambient_light": 0.2,
+  "fog_color": 5867391,
+  "grass_color": 6786096,
+  "foliage_color": 6786096,
+  "water_color": 5086371,
+  "water_fog_color": 8222288,
+  "particle": "minecraft:block sand",
+  "particle_probability": 0.002
+}

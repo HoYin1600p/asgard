@@ -1,0 +1,36 @@
+{
+    "tile_processors": [
+      {
+        "type": "placeholder",
+        "target": "OBJECTIVE",
+        "levels": [
+          {
+            "level": 0,
+            "probability": 0.0,
+            "success": {
+              "minecraft:air": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
+          }
+        ]
+      },
+      {
+        "type": "placeholder",
+        "target": "GATE",
+        "levels": [
+          {
+            "level": 0,
+            "probability": 0.0,
+            "success": {
+              "minecraft:air": 1
+            },
+            "failure": {
+              "minecraft:air": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
