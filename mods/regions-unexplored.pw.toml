@@ -1,0 +1,13 @@
+name = "Regions Unexplored"
+filename = "RegionsUnexploredForge-0.4.1_1+1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha256"
+hash = "d8de3accc253a497cc0563bd6e38b2ad80800a2dd96d4c29eace29ec7954a319"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4554212
+project-id = 659110
