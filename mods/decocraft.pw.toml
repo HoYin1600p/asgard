@@ -1,13 +1,13 @@
 name = "Decocraft"
-filename = "decocraft-3.0.0.4-beta-1.18.2.jar"
+filename = "decocraft-3.0.4-1.18.2-slim.jar"
 side = "both"
 
 [download]
 hash-format = "sha256"
-hash = "92cced7db7bdeadc4a06b2441510bb1cc19f4cc731d6f7949f8ea4a50e16dea2"
+hash = "dffe2e85d0897cad33fbd88368ab3befbe72cf25f8a60b7a4bd6707ede573787"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5390739
+file-id = 7092514
 project-id = 79616
