@@ -18946,7 +18946,7 @@ hash = "eabc521e84b1d4a255bf89d587c511ec37c7ea3fe200e1194162493efd72e54c"
 
 [[files]]
 file = "mods/VaultAdditions-1.20.0.jar"
-hash = "b560167bd1d4b2e3d871212fa39510f29f3104f077988c8c49474c6777b5864e"
+hash = "9abbb4264896ae7c3cdf28ae66bbb51502fa3d743edbaf6b0e129f7d579f3442"
 
 [[files]]
 file = "mods/VaultLootBeams-1.18.2-1.0.0.jar"
@@ -19822,10 +19822,6 @@ hash = "9e452d9491739cfe8b5254c0c970e971748907ccc9ecf6cf9aadca11172af28d"
 metafile = true
 
 [[files]]
-file = "mods/millennium-woldsvaultsstandalone-0.20.2.jar"
-hash = "8004cb3fca402442437dfba6931705998b2d6dea8e3c00e622e5fe8da88b6912"
-
-[[files]]
 file = "mods/mining-gadgets.pw.toml"
 hash = "3f3cc21b55b618c5779e1823c9e4b420044d625695c13cfd786b3c550c04d37c"
 metafile = true
@@ -20361,6 +20357,10 @@ metafile = true
 file = "mods/waystones.pw.toml"
 hash = "d7fc3663ccd2b592eb742a841716a6bbc944bb0c4a59131baaaa1605d020ebdc"
 metafile = true
+
+[[files]]
+file = "mods/woldsvaultsstandalone-0.21.jar"
+hash = "5d2b05e3026c1112fcb7694bbabeed45bd0d8ac3e07fd896fca0cfb972d12238"
 
 [[files]]
 file = "mods/worldedit.pw.toml"
