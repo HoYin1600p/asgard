@@ -64,15 +64,6 @@
         "dependsOn": []
       },
 
-      "Crit_Hit_Chance": {
-        "lockedBy": [{ "type": "constant", "id": "Crit_Hit_Damage" }],
-        "dependsOn": []
-      },
-      "Crit_Hit_Damage": {
-        "lockedBy": [{ "type": "constant", "id": "Crit_Hit_Chance" }],
-        "dependsOn": []
-      },
-
       "Weakness_Affinity": {
         "lockedBy": [
           { "type": "constant", "id": "Slowness_Affinity" },

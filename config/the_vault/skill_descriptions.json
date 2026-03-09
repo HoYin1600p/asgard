@@ -5329,6 +5329,103 @@
       }
     ],
 
+    "Crit_Hit_Chance": [
+      {
+        "text": "Increases your "
+      },
+      {
+        "text": "critical strike chance",
+        "color": "#FCC24E"
+      },
+      {
+        "text": " while attacking and not jumping "
+      },
+      {
+        "text": "\n\n",
+        "color": "$text"
+      },
+      {
+        "text": "1 ",
+        "color": "$text"
+      },
+      {
+        "text": "+6.25%\n",
+        "color": "green"
+      },
+      {
+        "text": "2 ",
+        "color": "$text"
+      },
+      {
+        "text": "+12.5%\n",
+        "color": "green"
+      },
+      {
+        "text": "3 ",
+        "color": "$text"
+      },
+      {
+        "text": "+18.75%\n",
+        "color": "green"
+      },
+      {
+        "text": "4 ",
+        "color": "$text"
+      },
+      {
+        "text": "+25.0%\n",
+        "color": "green"
+      }
+    ],
+    "Crit_Hit_Damage": [
+      {
+        "text": "Increases your "
+      },
+      {
+        "text": "critical strike damage",
+        "color": "#FCC24E"
+      },
+      {
+        "text": " while attacking and not jumping "
+      },
+      {
+        "text": "\n\n",
+        "color": "$text"
+      },
+      {
+        "text": "1 ",
+        "color": "$text"
+      },
+      {
+        "text": "+6.25%\n",
+        "color": "green"
+      },
+      {
+        "text": "2 ",
+        "color": "$text"
+      },
+      {
+        "text": "+12.5%\n",
+        "color": "green"
+      },
+      {
+        "text": "3 ",
+        "color": "$text"
+      },
+      {
+        "text": "+18.75%\n",
+        "color": "green"
+      },
+      {
+        "text": "4 ",
+        "color": "$text"
+      },
+      {
+        "text": "+25.0%\n",
+        "color": "green"
+      }
+    ],
+
     "Bountiful_Harvest": [{"text":"Gain "},{"text":"increased item quantity","color":"#ffaa3d"},{"text":" while being above "},{"text":"90% health","color":"#7DF587"},{"text":".\n\n1 "},{"text":"+25%","color":"#ffaa3d"},{"text":"\n2 "},{"text":"+50%","color":"#ffaa3d"},{"text":"\n3 "},{"text":"+75%","color":"#ffaa3d"},{"text":"\n4 "},{"text":"+100%","color":"#ffaa3d"},{"text":"\n "}],
     "Treasure_Seeker": [{"text":"Gain "},{"text":"increased item rarity","color":"#EAFF00"},{"text":" while being above "},{"text":"90% health","color":"#7DF587"},{"text":".\n\n1 "},{"text":"+25%","color":"#EAFF00"},{"text":"\n2 "},{"text":"+50%","color":"#EAFF00"},{"text":"\n3 "},{"text":"+75%","color":"#EAFF00"},{"text":"\n4 "},{"text":"+100%","color":"#EAFF00"},{"text":"\n "}],
 

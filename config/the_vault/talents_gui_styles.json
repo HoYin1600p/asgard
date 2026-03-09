@@ -116,7 +116,7 @@
       "x": 0,
       "y": 10,
       "frameType": "RECTANGULAR",
-      "icon": "the_vault:gui/skills/fatal_strike_damage"
+      "icon": "the_vault:gui/skills/fatal_strike"
     },
     "Mana_Steal": {
       "x": 70,
@@ -138,7 +138,7 @@
     },
     "Masteries": {
       "x": 140,
-      "y": 380
+      "y": 275
     },
     "Arthropod_Mastery": {
       "x": 70,
@@ -253,8 +253,8 @@
       "icon": "the_vault:gui/skills/discipline"
     },
     "Loot_Goblin": {
-      "x": 140,
-      "y": 275,
+      "x": 280,
+      "y": 520,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/horde_mastery"
     },
@@ -294,15 +294,19 @@
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/lightning_stunned"
     },
+    "Crit_Talent": {
+      "x": 0,
+      "y": 520
+    },
     "Crit_Hit_Chance": {
-      "x": 400,
-      "y": 280,
+      "x": 0,
+      "y": 10,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/fatal_strike_chance"
     },
     "Crit_Hit_Damage": {
-      "x": 450,
-      "y": 280,
+      "x": 70,
+      "y": 10,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/skills/fatal_strike_damage"
     }

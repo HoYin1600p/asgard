@@ -6982,74 +6982,83 @@
         ]
       },
 
+
       {
+        "type": "grouped",
+        "id": "Crit_Talent",
+        "name": "Critical Strike",
+        "maxSpentLearnPoints": 8,
+        "children": [
+          {
         "type": "tiered",
         "id": "Crit_Hit_Chance",
         "name": "Crit Hit Chance",
         "tiers": [
           {
             "type": "crit_hit_chance",
-            "percentCritHitChance": 0.05,
+            "percentCritHitChance": 0.0625,
             "learnPointCost": 2,
-            "regretPointCost": 1,
-            "unlockLevel": 25
+            "regretPointCost": 2,
+            "unlockLevel": 50
           },
           {
             "type": "crit_hit_chance",
-            "percentCritHitChance": 0.1,
+            "percentCritHitChance": 0.125,
             "learnPointCost": 2,
-            "regretPointCost": 1,
-            "unlockLevel": 25
+            "regretPointCost": 2,
+            "unlockLevel": 75
           },
           {
             "type": "crit_hit_chance",
-            "percentCritHitChance": 0.15,
+            "percentCritHitChance": 0.1875,
             "learnPointCost": 2,
-            "regretPointCost": 1,
-            "unlockLevel": 25
+            "regretPointCost": 2,
+            "unlockLevel": 100
           },
           {
             "type": "crit_hit_chance",
-            "percentCritHitChance": 0.2,
+            "percentCritHitChance": 0.25,
             "learnPointCost": 2,
-            "regretPointCost": 1,
-            "unlockLevel": 25
+            "regretPointCost": 2,
+            "unlockLevel": 125
           }
         ]
       },
-      {
+          {
         "type": "tiered",
         "id": "Crit_Hit_Damage",
         "name": "Crit Hit Damage",
         "tiers": [
           {
             "type": "crit_hit_damage",
-            "percentCritHitDamage": 0.075,
+            "percentCritHitDamage": 0.0625,
             "learnPointCost": 2,
-            "regretPointCost": 1,
-            "unlockLevel": 25
+            "regretPointCost": 2,
+            "unlockLevel": 50
           },
           {
             "type": "crit_hit_damage",
-            "percentCritHitDamage": 0.15,
+            "percentCritHitDamage": 0.125,
             "learnPointCost": 2,
-            "regretPointCost": 1,
-            "unlockLevel": 25
+            "regretPointCost": 2,
+            "unlockLevel": 75
           },
           {
             "type": "crit_hit_damage",
-            "percentCritHitDamage": 0.225,
+            "percentCritHitDamage": 0.1875,
             "learnPointCost": 2,
-            "regretPointCost": 1,
-            "unlockLevel": 25
+            "regretPointCost": 2,
+            "unlockLevel": 100
           },
           {
             "type": "crit_hit_damage",
-            "percentCritHitDamage": 0.3,
+            "percentCritHitDamage": 0.25,
             "learnPointCost": 2,
-            "regretPointCost": 1,
-            "unlockLevel": 25
+            "regretPointCost": 2,
+            "unlockLevel": 125
           }
+        ]
+      }
         ]
       }
 
