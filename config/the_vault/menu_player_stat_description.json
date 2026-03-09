@@ -56,14 +56,14 @@
     "the_vault:trap_disarming": "<gray>Your <aqua>chance <gray>to <#7f42fc>disarm trapped chests<gray>.",
 
 
-    "the_vault:ap_scaling_damage": "<gray>Your <#fc6a00>bonus damage delt <gray>based on your <#ff4fd8>Ability Power<gray>.",
+    "the_vault:ap_scaling_damage": "<gray>Your percentage of <#ff4fd8>Ability Power <gray>converted to <#C23627>Attack Damage<gray>.",
     "the_vault:chaining_damage": "<gray>Reduces <#ff0000>damage falloff <gray>when <#5c5db6>chaining <gray>between targets.",
     "the_vault:trident_channeling_chance": "<gray>Your <aqua>chance <gray>to channel with a <#0E7490>vault trident.",
-    "the_vault:echoing_chance": "<gray>Your <aqua>chance <gray>to apply <#690E97>echoing.",
-    "the_vault:echoing_damage": "<gray>Your <#fc6a00>additional damage <gray>dealt upon <#690E97>echoing.",
-    "the_vault:hexing_chance": "Not sure what this does yet lol",
+    "the_vault:echoing_chance": "<gray>Your <aqua>chance <gray>to apply the <#690E97>echoing <gray>effect.\n<red>Maximum Obtainable: 69%.",
+    "the_vault:echoing_damage": "<gray>Your <#fc6a00>additional damage <gray>dealt upon <#690E97>echoing.\n<red>Maximum Obtainable: 50%.",
+    "the_vault:hexing_chance": "<red>Maked for termination.",
     "the_vault:execution_damage": "<gray>Your <#fc6a00>increased damage <gray>against <#ff0000>low health <gray>targets.",
-    "the_vault:reaving_damage": "Not sure what this does yet lol",
+    "the_vault:reaving_damage": "<gray>Percentage of an enemy's max <#22fc25>Health <gray>dealt as damage upon first strike.",
     "the_vault:mana_cost_reduction": "<gray>Your <aqua>mana cost reduction <gray>for <aqua>any ability<gray>.\n<red>Maximum Obtainable: 50%",
 
 
