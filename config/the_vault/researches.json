@@ -1715,6 +1715,23 @@
       "name": "Sophisticated Chest Upgrades",
       "cost": 32,
       "usesKnowledge": true
+    },
+    {
+      "itemRestrictions": {
+        "woldsvaults:xl_backpack": {
+          "restricts": {
+            "HITTABILITY": false,
+            "USABILITY": false,
+            "CRAFTABILITY": true
+          }
+        }
+      },
+      "blockRestrictions": {},
+      "entityRestrictions": {},
+      "name": "Giga Backpacks",
+      "cost": 5,
+      "usesKnowledge": true,
+      "discoversModels": []
     }
   ]
 }

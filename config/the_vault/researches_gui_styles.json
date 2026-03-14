@@ -34,7 +34,7 @@
 
     "Stack Upgrading": {
       "x": 200,
-      "y": -20,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/stackupgrading"
     },
@@ -46,13 +46,13 @@
     },
     "Auto Feeding": {
       "x": 300,
-      "y": -20,
+      "y": -40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/autofeeding"
     },
     "Double Pouches": {
       "x": 200,
-      "y": 20,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/double_pouches"
     },
@@ -64,15 +64,21 @@
     },
     "Backpacks": {
       "x": 300,
-      "y": 20,
+      "y": 0,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/backpacks"
     },
     "Big Backpacks": {
-      "x": 250,
+      "x": 225,
       "y": 40,
       "frameType": "RECTANGULAR",
       "icon": "the_vault:gui/researches/big_backpacks"
+    },
+    "Giga Backpacks": {
+      "x": 275,
+      "y": 40,
+      "frameType": "RECTANGULAR",
+      "icon": "the_vault:gui/researches/giga_backpacks"
     },
     "Upgraded Stations": {
       "x": 200,
