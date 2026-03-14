@@ -75,6 +75,81 @@
     {
       "value": {
         "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/pixel\"}],model: 21, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/pixel\"}],model: 21, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/arcade\"}],model: 98, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/arcade\"}],model: 98, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/garden\"}],model: 97, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/garden\"}],model: 97, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/hellish_digsite\"}],model: 96, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 7012096,count: 1,pool: \"the_vault:vault/rooms/omega/hellish_digsite\"}],model: 96, size: 5}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 128
+    },
+
+
+    {
+      "value": {
+        "id": "the_vault:inscription",
         "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/crystal_caves\"}],model: 5, size: 10}}",
         "amountMin": 1,
         "amountMax": 1
@@ -93,7 +168,16 @@
     {
       "value": {
         "id": "the_vault:inscription",
-        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/dragon\"}],model: 7, size: 10}}",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/legacy_dragon\"}],model: 99, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 64
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/legacy_dragon\"}],model: 99, size: 5}}",
         "amountMin": 1,
         "amountMax": 1
       },
@@ -103,6 +187,15 @@
       "value": {
         "id": "the_vault:inscription",
         "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/dragon\"}],model: 7, size: 10}}",
+        "amountMin": 1,
+        "amountMax": 1
+      },
+      "weight": 64
+    },
+    {
+      "value": {
+        "id": "the_vault:inscription",
+        "nbt": "{data: {entries: [{color: 15769088,count: 1,pool: \"the_vault:vault/rooms/challenge/dragon\"}],model: 7, size: 5}}",
         "amountMin": 1,
         "amountMax": 1
       },
