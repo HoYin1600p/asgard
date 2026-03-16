@@ -287,22 +287,22 @@
         "tiers": [
           {
             "type": "trinketer",
-            "damageAvoidanceChance": 0.1,
-            "learnPointCost": 1,
+            "damageAvoidanceChance": 0.25,
+            "learnPointCost": 2,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "trinketer",
-            "damageAvoidanceChance": 0.2,
-            "learnPointCost": 1,
+            "damageAvoidanceChance": 0.33,
+            "learnPointCost": 2,
             "regretPointCost": 0,
             "unlockLevel": 0
           },
           {
             "type": "trinketer",
-            "damageAvoidanceChance": 0.3,
-            "learnPointCost": 1,
+            "damageAvoidanceChance": 0.50,
+            "learnPointCost": 2,
             "regretPointCost": 0,
             "unlockLevel": 0
           }

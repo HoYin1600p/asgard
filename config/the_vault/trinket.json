@@ -444,6 +444,20 @@
         "maximumMultiplier": 3.0,
         "curiosSlot": "blue_trinket"
       }
+    },
+    "the_vault:running_shoes": {
+      "weight": 10,
+      "name": "Running Shoes",
+      "effectText": "Gives the player +40% movement speed",
+      "color": 3304444,
+      "minCraftedUses": 12,
+      "maxCraftedUses": 12,
+      "minUses": 20,
+      "maxUses": 30,
+      "config": {
+        "value": 0.4,
+        "curiosSlot": "blue_trinket"
+      }
     }
   }
 }

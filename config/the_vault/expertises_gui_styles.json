@@ -2,25 +2,25 @@
   "styles": {
     "Infuser": {
       "x": 70,
-      "y": 70,
+      "y": 60,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/infuser"
     },
     "Mystic": {
       "x": 140,
-      "y": 70,
+      "y": 60,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/mystic"
     },
     "Lucky_Altar": {
       "x": 210,
-      "y": 70,
+      "y": 60,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/lucky_altar"
     },
     "Divine": {
       "x": 280,
-      "y": 70,
+      "y": 60,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/divine"
     },
@@ -46,56 +46,56 @@
 
     "Fortunate": {
       "x": 70,
-      "y": 170,
+      "y": 180,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/fortunate"
     },
     "Bartering": {
       "x": 140,
-      "y": 170,
+      "y": 180,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/bartering"
     },
     "Marketer": {
       "x": 210,
-      "y": 170,
+      "y": 180,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/marketer"
     },
     "Experienced": {
       "x": 280,
-      "y": 170,
+      "y": 180,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/experienced"
     },
 
     "Trinketer": {
       "x": 70,
-      "y": 220,
+      "y": 240,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/trinketer"
     },
     "Bounty_Hunter": {
       "x": 140,
-      "y": 220,
+      "y": 240,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/bounty_hunter"
     },
     "Angel": {
       "x": 210,
-      "y": 220,
+      "y": 240,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/angel"
     },
     "Unbreakable": {
       "x": 280,
-      "y": 220,
+      "y": 240,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/unbreakable"
     },
     "Companion_Loyalty": {
       "x": 350,
-      "y": 220,
+      "y": 240,
       "frameType": "STAR",
       "icon": "the_vault:gui/skills/companion_sleepy"
     }
