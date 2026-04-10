@@ -1213,6 +1213,162 @@ file = "config/buildscape/pillar/pillar-properties.json"
 hash = "317af4226329cc36fb13c97bdb1e32c6bcdd73f13e0265cdcd96016ed18e7398"
 
 [[files]]
+file = "config/byg/README.txt"
+hash = "716925cf1fd06d3d981aac5adbdc7a84dae30dbb64b17b0c25a8f739be01883d"
+
+[[files]]
+file = "config/byg/biomepedia.json5"
+hash = "9f26815c038d5658989e4c31e288cda727b42c02eca4328ab586998d921137d3"
+
+[[files]]
+file = "config/byg/byg-biome-dictionary.json"
+hash = "8a38cf9e8a05593844a4ac01223f89e76688e3a39299ba489f432bb1f00041a4"
+
+[[files]]
+file = "config/byg/client/biomepedia_inventory.json5"
+hash = "5498a454221a399a1245953f057f3e8be72ef7b41792e796b0668480ac5c90a7"
+
+[[files]]
+file = "config/byg/config_versions.json5"
+hash = "9b23aa03768198031d369dc98a74b4b9878b3a54a60c818aede4203730f2401a"
+
+[[files]]
+file = "config/byg/end-biomes.json5"
+hash = "3b87b394a1450169bb680fde2665612c54f6dd8f2e874709dc3104f075fb31fb"
+
+[[files]]
+file = "config/byg/growing-patterns.json5"
+hash = "f51f967e55a9c4bb3be6cdb7faf8d103034a4d4a822dd2005b8fcb4031f7d9de"
+
+[[files]]
+file = "config/byg/nether-biomes.json5"
+hash = "7642eb99b0f3af9656e87dbeea6287a5ce6d3b4b8670cd6db1180843d5a2e55e"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/beach_biomes/beach_biomes_1.json5"
+hash = "aa21fb45aaaa1ef49c4ef5fa1aa535a6a626e1f8ab3af0a7ca3cd2d9ea9a070f"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/beach_biomes/beach_biomes_vanilla.json5"
+hash = "0d09e9f80878eae9d1948ec7f3a3bad14925753d6c97c4497c79cb84a6dbf3a7"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_1.json5"
+hash = "e5e60fd164cac4da65b1560dfc11a3e2a6095ab187d306ff656de6a9bb5e0d4c"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_2.json5"
+hash = "79a8c79f356b9ecc8a38f3f0a65445440989c64bb548d9bf9d3301b4aa3e2f50"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_3.json5"
+hash = "d1b628917e5bcbdc02a386dc3d625a2c6bc9a30a48a6e3268f6b80cc3270593a"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/middle_biomes/middle_biomes_vanilla.json5"
+hash = "4cc72268c3ac7e2557fc84b29905532bdf96e1301cd2ff95a1d40846b62ecf19"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/middle_biomes_variant/middle_biomes_variant_vanilla.json5"
+hash = "f435fdb1f84cfb8dd2faa26585b67aa0189f79d6f9e4557256152336d4748079"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/oceans/oceans_1.json5"
+hash = "97414730209e0a7d35f733797fe081a30bf7abcacad935ca51a6a3d15fe67d6f"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/oceans/oceans_vanilla.json5"
+hash = "94fff2421ced513f3a1ef9845e6c79aa0dc0c16acf9b45741bcd26268b2bd748"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/peak_biomes/peak_biomes_1.json5"
+hash = "e8795ebb090bec7cfbb64d8e24d05308f4a8dfc9b5a3c129c7c9d3952aedff8d"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/peak_biomes/peak_biomes_vanilla.json5"
+hash = "c6b7b36dc5cf925ce5de4334052b80a4303e55a9892727eabf00350a443f3da8"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/peak_biomes_variant/peak_biomes_variant_vanilla.json5"
+hash = "47bf57e6c5a0372d7c1479fe699247a975d189d130969d0e7e869ce06a873797"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_1.json5"
+hash = "8af5892c22de2b4d3a4cc54007affcdda85c6a67df1b416a00eb03a11cddb238"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_2.json5"
+hash = "bfbab228293fbfbebaefa7a2fe4a42e6c1ee20a0588b1037650e76da28a189e8"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_3.json5"
+hash = "bfbab228293fbfbebaefa7a2fe4a42e6c1ee20a0588b1037650e76da28a189e8"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/plateau_biomes/plateau_biomes_vanilla.json5"
+hash = "fc7ddfb81994ea09dd76ba4121f8a2a3949e106bfad6149a3c39c3efa9aa49d0"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/plateau_biomes_variant/plateau_biomes_variant_vanilla.json5"
+hash = "697805720329bbda88529dc1330205eb22ec74a80c46f4334220b038cdcb0846"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/shattered_biomes/shattered_biomes_vanilla.json5"
+hash = "c5d5c99b43353d10a0b32e9632264d0ad68d6553fbe93c45d93cde34119b5905"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/slope_biomes/slope_biomes_1.json5"
+hash = "98a475d8886557d5822b74fe0c1e7fd31a0c33124dd3d7062a09e002189d5142"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/slope_biomes/slope_biomes_vanilla.json5"
+hash = "0d5479004d08089bd3093bf797d46ee36fe4b3c8174f0e3c7812eca681ec8a77"
+
+[[files]]
+file = "config/byg/overworld/biome_selectors/slope_biomes_variant/slope_biomes_variant_vanilla.json5"
+hash = "1d2491b6cf298aa20271fd8abbc34d15d2e23b15a8c045f0adb325109a0773db"
+
+[[files]]
+file = "config/byg/overworld/byg-overworld-biomes.json5"
+hash = "c0f7bf583afbdccc60efbd07b29bc915d5dfbdbf031403d930969e157c84f010"
+
+[[files]]
+file = "config/byg/overworld/regions/rare_region_1.json5"
+hash = "8fcb7ce98a7e4e0c910364c69bff78e43f06fec1f395f6b642290f488361b4d0"
+
+[[files]]
+file = "config/byg/overworld/regions/region_1.json5"
+hash = "568f5176b11390210c39dbd6f86f13c6b2245e0024c848f4b7d5dcd4c61ce2d7"
+
+[[files]]
+file = "config/byg/overworld/regions/region_2.json5"
+hash = "1dd7757c18a4b2d0fc175f9be7557b34f48f4f69d35e25330f68b560ec72850a"
+
+[[files]]
+file = "config/byg/overworld/regions/region_3.json5"
+hash = "1a61f5a38c6153b7c80d526fefc4d88c92768d690f682e9dac7da5e31f0496b1"
+
+[[files]]
+file = "config/byg/settings.json5"
+hash = "8a41e4bcc16b10e0d870dda559c28105bbcdd0e39f405ca768750196433e4e36"
+
+[[files]]
+file = "config/byg/surface_rules/end_surface_rules.json5"
+hash = "21e3e8d6549cd816fe0a10d3c16ba5410406501a72c4d06566066b5f7545a758"
+
+[[files]]
+file = "config/byg/surface_rules/nether_surface_rules.json5"
+hash = "3840cfe7c63cd647de0e53578a7a87ed52e14f471f0deaf3cedd6d0724a79002"
+
+[[files]]
+file = "config/byg/surface_rules/overworld_surface_rules.json5"
+hash = "e8018e5049d5447cee4744baefd48ebb377188ba18bc1e601f7505eab25768ad"
+
+[[files]]
+file = "config/byg/trades.json5"
+hash = "451fe1de81dc0bba740d8c07908fa1fd7f335f6754324e7720fe12930ab703b5"
+
+[[files]]
 file = "config/cagerium-common.toml"
 hash = "94f836ae0e8fb045a304a9013ae616612a4efa8b74a4979b3248966c9afe4b40"
 
@@ -18997,7 +19153,7 @@ metafile = true
 
 [[files]]
 file = "mods/animal-pens.pw.toml"
-hash = "7671faba13d75903b635e2ef8cbf396bee056b4cc9e74b5351716490534fd31a"
+hash = "0b6dfd926c666d359351b6f382667b9a16afd86686ec7c6f4830d7f5ed77eda7"
 metafile = true
 
 [[files]]
@@ -19398,6 +19554,11 @@ metafile = true
 [[files]]
 file = "mods/draggable-bookmarks.pw.toml"
 hash = "8ebc7072fb78e7b36984be6933ae315d7864310aa8bf878758102dec0dc22c66"
+metafile = true
+
+[[files]]
+file = "mods/drawers-tooltip.pw.toml"
+hash = "e7e2552915238c366fd8c06efb1b3082b8d5006098b3e9fa455b8e0a95100465"
 metafile = true
 
 [[files]]
@@ -19920,6 +20081,11 @@ hash = "7b2591191b9a05e9e556ab107be39bd25cc2ec50604f335bae7a55f46843ce73"
 metafile = true
 
 [[files]]
+file = "mods/oh-the-biomes-youll-go.pw.toml"
+hash = "fc807e84a5ea141349f8d5e7d22473e663e1e1edb34a3cc42ecc1884011b27a3"
+metafile = true
+
+[[files]]
 file = "mods/open-loader.pw.toml"
 hash = "b28fe15f0210e0e4e995d922722710b1804b2dfc311a8c98f5cba59def9bacba"
 metafile = true
@@ -20154,7 +20320,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "3e3d1285a11ee56bd6bb42a7ce9e918e42c5c76279920e6ac60461901a349188"
+hash = "1e6aaffbba170cd179b9327d8f11b97cade22dad9938e9cb6f6ae7246aafb776"
 metafile = true
 
 [[files]]
@@ -20194,17 +20360,17 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "516f13bee1253543709b809c7fcbe9d99aa87dbdf9db36d5d655c1f83b24c12a"
+hash = "4610d4bb2fd149907721b1380d6de0406c2ff2a3b7443e5900974aaf602b89c4"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "ce390b404594986c6129a48d6066f5062853d919e6b4620011a2461e34e8f0ac"
+hash = "67bcff9d20e71ad75a16a3de2c07652fa4041a5ed68f076592ee8f44c7c7ae8c"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-vault-storage.pw.toml"
-hash = "8d05a9f57c53a7eba830684fa0c49e52ac6b2b648a27faa3ecb0cc4fd76ffa64"
+hash = "11cbe0de04417dc1c6d430ea88bfa4f82ac1a1e18c6b787a08d4ee1646bf304e"
 metafile = true
 
 [[files]]
