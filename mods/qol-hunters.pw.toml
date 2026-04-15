@@ -1,10 +1,10 @@
 name = "QOL Hunters"
-filename = "QOL Hunters-0.42.2.jar"
+filename = "QOL Hunters-0.42.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha256"
-hash = "0606b005053b55eecb94a3e0c2b1886702a735e30abdcca534eaa8d12210f1af"
+hash-format = "sha1"
+hash = "d5d671b4fba904df6fe1604628ff3099067eefa6"
 mode = "metadata:curseforge"
 
 [update]
