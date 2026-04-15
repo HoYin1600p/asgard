@@ -19105,10 +19105,6 @@ file = "mods/CardDeckOptimization-1.2.0+u20.jar"
 hash = "eabc521e84b1d4a255bf89d587c511ec37c7ea3fe200e1194162493efd72e54c"
 
 [[files]]
-file = "mods/VaultAdditions-1.20.0.jar"
-hash = "3c7df32ccb507ea8875c7bf7e7414f2e615cb6e917c67fe7e6446a61a6df044e"
-
-[[files]]
 file = "mods/VaultLootBeams-1.18.2-1.0.0.jar"
 hash = "d74adb25a974d6cae763fc6b2b46890e57d9d711a99d1eca24fec908c60d9f3b"
 
@@ -20186,7 +20182,7 @@ metafile = true
 
 [[files]]
 file = "mods/qol-hunters.pw.toml"
-hash = "99e311dc50694b07614f5e61ee4ef823d76d0fdda71bf338298f47409e13134d"
+hash = "9dda1e2c605ea13bc56a118a861fd82fabf3cc5040a8605658f0250419ab0c54"
 metafile = true
 
 [[files]]
@@ -20360,7 +20356,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "4a84952fd3347f7c922f57fef396ea59034dcb192738546c22192e06dc25660b"
+hash = "74f6c7bd3780556c58b63bb27c166ed60accd883b3b6f87ace93da0edb1c3bab"
 metafile = true
 
 [[files]]
@@ -20439,8 +20435,8 @@ hash = "cf5bb41b66ceac6ac07d8dcf81289eff4a9adaa2214c22e5ecd18f0fb5c9d6ff"
 metafile = true
 
 [[files]]
-file = "mods/the_vault-1.18.2-3.20.3.jar"
-hash = "f35dfb59aec6850e051503c71b4e90303e70a254e279033c579c237acca9bb42"
+file = "mods/the_vault-1.18.2-3.21.4.1.6551.jar"
+hash = "eade962ec255de44080167b8ce0ce1c64eacee33c00bf89e30d50759708b48c0"
 
 [[files]]
 file = "mods/thermal-expansion.pw.toml"
@@ -20483,12 +20479,12 @@ hash = "a0112ea8a7716b62ad461a5ee18bd44f17bede46bb7cf239daf1ddec3e93487d"
 
 [[files]]
 file = "mods/vault-curios-enhancements.pw.toml"
-hash = "ab8edf2573e29f391c65d0f5e98a4dbaed96c8c2fc1f4f5edd989fe4cdba17ac"
+hash = "07f100e1d589362a38a6a6d67dbe1e738617341c9c4c8bcb630c9f010d9450b9"
 metafile = true
 
 [[files]]
 file = "mods/vault-filters.pw.toml"
-hash = "c8938a30aec2d8924585f04384f0de0724c5be1b57895f8aafdd83bfc7ed0924"
+hash = "4a2faa642c94f57848bf38dc1f100e9cad449ffa53215db0d4ab41c1c43d88b1"
 metafile = true
 
 [[files]]
@@ -20505,6 +20501,10 @@ metafile = true
 file = "mods/vault-integrations.pw.toml"
 hash = "01084aa56adcee92f2d7c3156e0cdfb2356e12aaf841cccada1d0ec2980f4fed"
 metafile = true
+
+[[files]]
+file = "mods/vaultadditions-1.21.0.jar"
+hash = "e791d2b3a3c8ff1811aec08241ce0f4c1ac573b2023120c643996f325fe0f97a"
 
 [[files]]
 file = "mods/vaultchaosgod-1.0.jar"
@@ -20526,7 +20526,7 @@ metafile = true
 
 [[files]]
 file = "mods/vhat-can-i-roll-vault-hunters-3-addon.pw.toml"
-hash = "8047e710cef4a9830c3e82f38edb58b3bc4f837cf2fc55dbf0e0c54de86a6e7d"
+hash = "a7c42fc1440e70337c71d74a97998b0d352432fd4f49f07f2dcb8d0983c34d0d"
 metafile = true
 
 [[files]]
@@ -20541,11 +20541,7 @@ metafile = true
 
 [[files]]
 file = "mods/woldsvaultsstandalone-0.21-all.jar"
-hash = "e8067e6d84fa4bd583579cdc9049a0c5b668f04129ef679c7c527b404d78d303"
-
-[[files]]
-file = "mods/woldsvaultsstandalone-0.21.jar"
-hash = "5d2b05e3026c1112fcb7694bbabeed45bd0d8ac3e07fd896fca0cfb972d12238"
+hash = "98a6ade2fa6a527b15b271d2fcc747ee032eee4f622b2cb12e1ca2c955e2832f"
 
 [[files]]
 file = "mods/worldedit.pw.toml"
