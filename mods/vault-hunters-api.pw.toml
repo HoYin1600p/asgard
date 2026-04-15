@@ -3,8 +3,8 @@ filename = "vhapi-4.5.3.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "08d4dfb818c782221c12da0852ddb1bcb74c24b4"
+hash-format = "sha256"
+hash = "d3240da6992ecd831e102aa8bd4050a8542a7f96f3cff47549a54a95db17f6c4"
 mode = "metadata:curseforge"
 
 [update]
